@@ -1,10 +1,18 @@
 // Site-wide identity. lib/seo reads brand, title suffix and topical entities
-// from here. Set NEXT_PUBLIC_SITE_URL to the production domain at deploy time.
+// from here.
+//
+// Canonical URL, sitemap and robots use: NEXT_PUBLIC_SITE_URL if set, else
+// Vercel's production domain (icaniotechschool.vercel.app today; Vercel
+// switches it to the custom domain once one is added), else the planned domain.
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : "") ||
+  "https://techschool.icanio.com";
 
 export const SITE = {
   name: "Icanio Tech School",
   brand: "Icanio Tech School",
-  url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://techschool.icanio.com").replace(/\/$/, ""),
+  url: siteUrl.replace(/\/$/, ""),
   /** Appended to every <title>. lib/seo's title-length rules budget for it. */
   titleSuffix: " | Icanio",
   tagline: "Industry internships and college programs by Icanio Technologies",
