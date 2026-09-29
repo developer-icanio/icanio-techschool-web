@@ -46,3 +46,6 @@ next-env.d.ts
 /.claude-run-dev.sh
 /.next-build/
 /_reference/uploads/
+
+# local database (PGlite) and secrets
+/.data/

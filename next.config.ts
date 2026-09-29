@@ -35,6 +35,8 @@ const MOVED: [string, string][] = [
 
 const nextConfig: NextConfig = {
   trailingSlash: false,
+  // Embedded Postgres for local admin testing; loaded at runtime, never bundled.
+  serverExternalPackages: ["@electric-sql/pglite"],
   images: { formats: ["image/avif", "image/webp"] },
   async redirects() {
     return MOVED.map(([source, destination]) => ({ source, destination, permanent: true }));

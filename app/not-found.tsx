@@ -1,7 +1,11 @@
 import Link from "next/link";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 export default function NotFound() {
   return (
+    <>
+    <Header />
     <main className="mx-auto grid min-h-[60vh] max-w-2xl place-items-center px-4 py-20 text-center">
       <div>
         <p className="text-sm font-semibold uppercase tracking-wider text-navy">404</p>
@@ -14,5 +18,7 @@ export default function NotFound() {
         </div>
       </div>
     </main>
+    <Footer />
+    </>
   );
 }
