@@ -1,0 +1,460 @@
+{
+  "path": "/career-guides/ai-ml-career-path",
+  "kind": "guide",
+  "label": "AI ML Career Path",
+  "parent": "/career-guides",
+  "seo": {
+    "metaTitle": "AI ML Career Path: 5 Proven Stages for Freshers",
+    "metaDescription": "Plan your AI ML career path: the skills, tools, projects and job roles from Python and maths to deep learning and MLOps, explained for students and freshers.",
+    "focusKeyword": "ai ml career path",
+    "secondaryKeywords": [
+      "machine learning roadmap",
+      "how to become an ml engineer",
+      "ai jobs for freshers",
+      "data science vs machine learning",
+      "ai ml internship"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "Career guide",
+    "title": "AI ML Career Path: From Python Basics to Your First Role",
+    "subtitle": "An AI ML career path starts with Python and maths, moves through machine learning and deep learning, and ends with deploying models people can use. This guide maps each stage, the tools and projects that prove your skill, and the entry roles open to freshers.",
+    "image": {
+      "src": "Group-2085662119.png",
+      "alt": "Student training a machine learning model on an AI ML career path"
+    },
+    "primary": {
+      "label": "Apply for an internship",
+      "href": "/apply-for-internship"
+    },
+    "secondary": {
+      "label": "AI and ML internship",
+      "href": "/internships/ai-ml-internship"
+    },
+    "highlights": [
+      "5 learning stages",
+      "Entry roles compared",
+      "Projects that prove skill",
+      "Written by the Icanio Tech School Academic Team"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Best for",
+      "value": "CS, IT, maths and science students, developers"
+    },
+    {
+      "label": "Time to internship ready",
+      "value": "6 to 12 months of steady practice"
+    },
+    {
+      "label": "Core language",
+      "value": "Python"
+    },
+    {
+      "label": "Written by",
+      "value": "Icanio Tech School Academic Team"
+    }
+  ],
+  "answer": {
+    "question": "What is an AI ML career path?",
+    "answer": "An AI ML career path is the sequence of skills and roles that takes you into artificial intelligence and machine learning work. You learn Python, statistics and data handling, then classical machine learning, then deep learning and NLP, and finally deployment and MLOps. Freshers usually enter as data analysts, junior ML engineers or AI interns, then specialise."
+  },
+  "sections": [
+    {
+      "type": "prose",
+      "eyebrow": "The field",
+      "heading": "What do AI and ML professionals actually do?",
+      "paragraphs": [
+        "AI and ML professionals build systems that learn patterns from data and use them to make predictions or decisions. Typical work includes cleaning datasets, choosing and training models, measuring how well they perform and putting them into products.",
+        "Most of the job is not model building. A large share of real work goes into understanding the problem, finding and preparing data and checking results with the business. A realistic AI ML career path prepares you for that whole cycle, not just the training step.",
+        "The field is broad. Some people focus on analysis and insight, some on building models, and some on the engineering that keeps models running reliably in production."
+      ],
+      "bullets": [
+        "Frame a business question as a data problem",
+        "Clean, explore and visualise real datasets",
+        "Train, evaluate and tune models",
+        "Deploy models as APIs and monitor them over time"
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Mentor explaining model evaluation to a student starting an AI ML career path"
+      }
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "Prerequisites",
+      "heading": "Do you need strong maths for an AI ML career path?",
+      "paragraphs": [
+        "You need working maths, not a research degree. Statistics, probability and basic linear algebra are enough to understand how most models behave and why they fail. Calculus helps for deep learning, but libraries handle the heavy lifting.",
+        "What matters most is intuition: what a mean and variance tell you, why a model overfits and how to read a confusion matrix. We recommend learning each maths idea just before you need it on your AI ML career path, then using it immediately in code.",
+        "Programming is the other prerequisite. You should be comfortable with Python basics, functions, lists and dictionaries before starting machine learning."
+      ],
+      "bullets": [
+        "Statistics: mean, variance, distributions, hypothesis testing",
+        "Probability: conditional probability and Bayes' rule",
+        "Linear algebra: vectors, matrices, dot products",
+        "Calculus basics: gradients, for deep learning"
+      ],
+      "reverse": true,
+      "image": {
+        "src": "code-01.png",
+        "alt": "Code icon for the Python and maths foundations of an AI ML career path"
+      }
+    },
+    {
+      "type": "steps",
+      "id": "roadmap",
+      "eyebrow": "Stage by stage",
+      "heading": "The AI ML career path in 5 stages",
+      "intro": "Each stage ends with a project. Most students need six to twelve months to reach internship level, depending on their starting point.",
+      "items": [
+        {
+          "label": "Stage 1",
+          "title": "Python, maths and data handling",
+          "body": "Learn Python for data work with NumPy and Pandas, plus statistics and probability. Do exploratory analysis and charts on a public dataset and write up what you find."
+        },
+        {
+          "label": "Stage 2",
+          "title": "Classical machine learning",
+          "body": "Learn regression, classification, clustering, decision trees, ensembles and SVMs with scikit-learn. Practise feature engineering and preprocessing on messy data."
+        },
+        {
+          "label": "Stage 3",
+          "title": "Evaluation and tuning",
+          "body": "Use cross-validation, ROC and AUC, regularisation and hyperparameter tuning. Compare several models on one problem and justify your final choice."
+        },
+        {
+          "label": "Stage 4",
+          "title": "Deep learning and NLP",
+          "body": "Build neural networks with TensorFlow or PyTorch, CNNs for images and transformers for text. Fine-tune a pre-trained model for a small classification task."
+        },
+        {
+          "label": "Stage 5",
+          "title": "Deployment and MLOps",
+          "body": "Package a model with FastAPI and Docker, track experiments with MLflow and deploy to the cloud. Learn to monitor model drift and plan retraining."
+        }
+      ]
+    },
+    {
+      "type": "tools",
+      "tone": "soft",
+      "eyebrow": "Your toolkit",
+      "heading": "Which tools belong on an AI ML career path?",
+      "intro": "These tools appear in most AI and ML job listings. Learn them in the order your AI ML career path stage needs them.",
+      "items": [
+        {
+          "name": "Python",
+          "role": "The main language for AI and ML",
+          "logo": "python-5-3-1.png"
+        },
+        {
+          "name": "Pandas",
+          "role": "Loading and cleaning data",
+          "logo": "pandas-svgrepo-com-1.png"
+        },
+        {
+          "name": "Jupyter",
+          "role": "Interactive experiments and notes",
+          "logo": "Jupyter-1-1.png"
+        },
+        {
+          "name": "Seaborn",
+          "role": "Statistical charts",
+          "logo": "seaborn-1-1.png"
+        },
+        {
+          "name": "Scikit-learn",
+          "role": "Classical ML algorithms",
+          "logo": "Scikit_learn_logo_small.svg-1-1.png"
+        },
+        {
+          "name": "TensorFlow",
+          "role": "Deep learning models",
+          "logo": "tensorflow-2-1.png"
+        },
+        {
+          "name": "MLflow",
+          "role": "Experiment tracking",
+          "logo": "idOeRd2gAI_1775631476316-1-1.png"
+        },
+        {
+          "name": "FastAPI",
+          "role": "Serving models as APIs",
+          "logo": "fastapi-1-1.png"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Entry roles",
+      "heading": "Which jobs can freshers get on an AI ML career path?",
+      "intro": "Freshers rarely start with the title AI scientist. These are the common entry points on an AI ML career path and what each one expects.",
+      "columns": [
+        "Role",
+        "What you do",
+        "Key skills"
+      ],
+      "rows": [
+        [
+          "Data analyst",
+          "Clean data, build reports, find insights",
+          "SQL, Excel, Python, charts"
+        ],
+        [
+          "Junior ML engineer",
+          "Train, evaluate and ship models",
+          "Python, scikit-learn, Git"
+        ],
+        [
+          "Junior data scientist",
+          "Run experiments and model business problems",
+          "Statistics, ML, communication"
+        ],
+        [
+          "AI or ML intern",
+          "Support a team on a live model project",
+          "Python, curiosity, one solid project"
+        ],
+        [
+          "MLOps or ML platform engineer",
+          "Deploy and monitor models in production",
+          "Docker, APIs, cloud, CI/CD"
+        ]
+      ],
+      "note": "Many ML engineers started as data analysts or backend developers. There is more than one way in."
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Projects",
+      "heading": "What projects prove you are ready for an ML role?",
+      "paragraphs": [
+        "Build a small number of complete projects rather than many notebooks. A complete project starts with a real question, uses a real dataset, compares models honestly and ends with something another person can use, such as a live API or a simple demo app.",
+        "A strong AI ML career path portfolio usually has three pieces: one classical ML project on tabular data, one deep learning project on images or text and one end-to-end pipeline that is deployed. Each should have a clear README with the problem, data, approach, metrics and what you would try next.",
+        "Avoid projects that only copy a famous tutorial dataset without adding anything. Pick a local or unusual dataset, or add a real deployment, so your work stands out."
+      ],
+      "bullets": [
+        "Price or demand prediction on a real tabular dataset",
+        "Image classifier using a CNN or transfer learning",
+        "Text classifier or sentiment model with a fine-tuned transformer",
+        "End-to-end pipeline deployed as an API with experiment tracking"
+      ],
+      "reverse": true,
+      "image": {
+        "src": "monitor-02.png",
+        "alt": "Monitor icon for machine learning projects on an AI ML career path"
+      }
+    },
+    {
+      "type": "checklist",
+      "tone": "soft",
+      "eyebrow": "Self-check",
+      "heading": "Checklist: are you ready for an AI or ML internship?",
+      "intro": "Tick every item you can show with real work. If most are ticked, you are ready to apply for your first step on the AI ML career path.",
+      "items": [
+        "I can load, clean and explore a dataset in Pandas without a tutorial",
+        "I can explain the difference between classification and regression",
+        "I have trained and compared at least three models on one problem",
+        "I can explain overfitting and how cross-validation helps",
+        "I have built one small neural network or fine-tuned a pre-trained model",
+        "I have deployed one model as an API or demo",
+        "My projects are on GitHub with clear READMEs and metrics",
+        "I can explain one project to a non-technical person in two minutes"
+      ],
+      "image": {
+        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-3.png",
+        "alt": "Student ready to apply for an AI ML internship after completing the checklist"
+      }
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Avoid these",
+      "heading": "Mistakes that slow down an AI ML career path",
+      "intro": "Our mentors see these patterns often. Avoiding them saves months.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "Starting with deep learning",
+          "body": "Neural networks are exciting, but without classical ML and evaluation skills you cannot tell if a model is actually good.",
+          "icon": "Group-2085662025-6.png"
+        },
+        {
+          "title": "Chasing accuracy on toy data",
+          "body": "High scores on a clean tutorial dataset prove little. Real data is messy, and handling it is the real skill.",
+          "icon": "Group-2085662025-7.png"
+        },
+        {
+          "title": "Never deploying anything",
+          "body": "A notebook is not a product. Deploying even one model teaches you APIs, packaging and the engineering side employers need.",
+          "icon": "Group-2085662025-5.png"
+        },
+        {
+          "title": "Skipping communication",
+          "body": "Explaining results to non-technical people is part of every AI ML career path. Practise writing clear summaries of your findings.",
+          "icon": "Group-2085662024-27.png"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Learn with a mentor",
+      "heading": "How the Icanio AI and ML internship maps to this path",
+      "paragraphs": [
+        "The AI and ML internship at Icanio Tech School follows the same AI ML career path in four learning phases: Python, maths and ML foundations, then core machine learning with evaluation and tuning, then deep learning and NLP, and finally MLOps, deployment and career preparation.",
+        "You work with Python, Pandas, scikit-learn, TensorFlow, Jupyter, Seaborn, MLflow and FastAPI. By the end, interns aim to have trained several models with documented experiments and taken a raw dataset all the way to a deployed API. A practising Icanio engineer mentors you 1:1 and reviews your work.",
+        "Icanio Technologies is a Tamil Nadu based AI company trusted by 100+ businesses. You choose a duration from 15 days to six months, in offline, online, part-time or hybrid mode, and finish with a certificate."
+      ],
+      "image": {
+        "src": "ourInternshipProgramImg.png",
+        "alt": "AI and ML intern at Icanio Tech School working with a mentor on a model project"
+      },
+      "link": {
+        "label": "See the AI and ML internship curriculum",
+        "href": "/internships/ai-ml-internship"
+      }
+    },
+    {
+      "type": "stories",
+      "tone": "soft",
+      "eyebrow": "Recent completions",
+      "heading": "Students who started their AI ML career path with us",
+      "intro": "Recent interns who completed AI and ML work at Icanio Tech School.",
+      "track": "AI/ML",
+      "limit": 4
+    },
+    {
+      "type": "testimonials",
+      "eyebrow": "In their words",
+      "heading": "Interns on starting an AI ML career path with mentors",
+      "intro": "Hear from students who built real projects with guidance from Icanio engineers."
+    },
+    {
+      "type": "links",
+      "tone": "soft",
+      "eyebrow": "Keep exploring",
+      "heading": "Internships and guides on the AI ML career path",
+      "items": [
+        {
+          "title": "AI and ML internship",
+          "href": "/internships/ai-ml-internship",
+          "body": "Four phases from Python foundations to MLOps and deployment."
+        },
+        {
+          "title": "Data analyst internship",
+          "href": "/internships/data-analyst-internship",
+          "body": "A strong first step into data work with Excel, SQL, Python and Power BI."
+        },
+        {
+          "title": "Backend development internship",
+          "href": "/internships/backend-development-internship",
+          "body": "Learn the APIs and databases that ML systems depend on."
+        },
+        {
+          "title": "DevOps internship",
+          "href": "/internships/devops-internship",
+          "body": "Build the deployment and pipeline skills behind MLOps."
+        },
+        {
+          "title": "How to choose an internship",
+          "href": "/career-guides/how-to-choose-an-internship",
+          "body": "Decide which track and duration fits your goals."
+        },
+        {
+          "title": "All internships",
+          "href": "/internships",
+          "body": "Compare all 15 tracks side by side."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "student",
+      "eyebrow": "Start now",
+      "heading": "Start your AI ML career path with a mentor",
+      "intro": "Apply for the AI and ML internship and our team will help you pick the right duration for your level.",
+      "points": [
+        "1:1 mentorship from a practising Icanio engineer",
+        "Four learning phases from foundations to deployment",
+        "Certificate on completion"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is an AI ML career path good for freshers?",
+      "a": "Yes, if you enjoy working with data and are willing to build real projects. Freshers usually enter through data analyst, junior ML engineer or AI intern roles. A solid Python base, one or two complete projects and clear communication make you a credible candidate."
+    },
+    {
+      "q": "Can non-CS students follow an AI ML career path?",
+      "a": "Yes. Students from maths, statistics, physics, electronics and other engineering branches often do well, because they already understand quantitative thinking. You will need to add Python and software basics, but your domain background can be an advantage."
+    },
+    {
+      "q": "Should I learn data science or machine learning first?",
+      "a": "Start with the shared foundation: Python, statistics and data handling. That base serves both. After that, choose data science if you prefer analysis and insight, or machine learning engineering if you prefer building and deploying models."
+    },
+    {
+      "q": "Is TensorFlow or PyTorch better for beginners?",
+      "a": "Both are widely used and both are good choices. Pick one and learn it well, since the concepts transfer. Many learners start with scikit-learn for classical ML and then move to TensorFlow or PyTorch for deep learning."
+    },
+    {
+      "q": "How long does it take to learn AI and ML?",
+      "a": "Most students need six to twelve months of steady practice to reach internship level on an AI ML career path. The first three months usually go into Python, maths and data handling. After that, progress depends on how many complete projects you build."
+    },
+    {
+      "q": "Do I need a master's degree for an AI ML career path?",
+      "a": "Not for most industry roles. A master's degree helps for research positions. For engineering and applied roles, employers look mainly at your projects, your understanding of fundamentals and your ability to deploy models and explain results."
+    },
+    {
+      "q": "What is MLOps and why should freshers learn it?",
+      "a": "MLOps is the practice of deploying, tracking, monitoring and retraining machine learning models in production. Few freshers learn it, so even basic skills with Docker, APIs and experiment tracking make your profile stand out."
+    },
+    {
+      "q": "Who is eligible for the Icanio AI and ML internship?",
+      "a": "Data-curious students, developers who know Python basics, career changers from analytics, finance or science, and CS and maths undergraduates can all apply. Our team will suggest a duration that matches your starting level."
+    }
+  ],
+  "takeaways": [
+    "An AI ML career path runs from Python, maths and data handling to classical ML, deep learning and MLOps.",
+    "Working maths is enough: statistics, probability and basic linear algebra, learned just in time.",
+    "Freshers usually start as data analysts, junior ML engineers or AI interns, then specialise.",
+    "Three complete projects, including one deployed pipeline, prove more than many notebooks.",
+    "Deployment and communication skills set junior AI and ML candidates apart."
+  ],
+  "conclusion": [
+    "An AI ML career path rewards patience and real practice. Build the foundations, move through each stage with a project and learn to deploy what you build. That combination is what turns interest in AI into a job-ready profile.",
+    "If you want a mentor who works on real AI systems to guide you, the Icanio Tech School AI and ML internship follows this same path."
+  ],
+  "references": [
+    {
+      "label": "Scikit-learn user guide",
+      "href": "https://scikit-learn.org/stable/user_guide.html"
+    },
+    {
+      "label": "Python official documentation",
+      "href": "https://docs.python.org/3/"
+    },
+    {
+      "label": "NPTEL courses, IIT and IISc",
+      "href": "https://nptel.ac.in/"
+    },
+    {
+      "label": "Machine learning on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Machine_learning"
+    }
+  ],
+  "cta": {
+    "title": "Ready to take the first step into AI and ML?",
+    "body": "Join the AI and ML internship, get a mentor and build models you can show employers.",
+    "primary": {
+      "label": "Apply for an internship",
+      "href": "/apply-for-internship"
+    },
+    "secondary": {
+      "label": "See the AI and ML internship",
+      "href": "/internships/ai-ml-internship"
+    }
+  }
+}

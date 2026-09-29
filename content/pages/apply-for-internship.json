@@ -1,0 +1,501 @@
+{
+  "path": "/apply-for-internship",
+  "kind": "page",
+  "label": "Apply for Internship",
+  "seo": {
+    "metaTitle": "Apply for Internship: 3 Essential Steps to Start",
+    "metaDescription": "Apply for internship tracks at Icanio Tech School in 2 minutes. See eligibility, what to prepare and what happens next. A call within one working day.",
+    "focusKeyword": "apply for internship",
+    "secondaryKeywords": [
+      "internship application",
+      "internship eligibility",
+      "internship for college students",
+      "internship in tamil nadu",
+      "internship with certificate"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "Applications open every month",
+    "title": "Apply for Internship at Icanio Tech School",
+    "subtitle": "Apply for internship tracks in engineering and non-engineering roles with one short form. Our team calls you within one working day, helps you pick a track and duration, and gets you ready to start with a mentor from Icanio Technologies.",
+    "image": {
+      "src": "ContactPerson.png",
+      "alt": "Student preparing to apply for internship at Icanio Tech School"
+    },
+    "primary": {
+      "label": "Apply now",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "Browse all tracks",
+      "href": "/internships"
+    },
+    "highlights": [
+      "No fee to apply",
+      "Call within one working day",
+      "15 tracks to choose from",
+      "Start dates every month"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Time to apply",
+      "value": "About two minutes"
+    },
+    {
+      "label": "Response",
+      "value": "Call within one working day"
+    },
+    {
+      "label": "Duration",
+      "value": "15 days to 6 months"
+    },
+    {
+      "label": "Mode",
+      "value": "Offline, online, part time or hybrid"
+    }
+  ],
+  "answer": {
+    "question": "How to apply for internship at Icanio Tech School?",
+    "answer": "To apply for internship tracks at Icanio Tech School, fill in the short form with your name, college, phone, email and preferred internship. Our team calls you within one working day. The counsellor helps you choose a track, a duration from 15 days to six months and a mode. You then complete onboarding and start with a mentor."
+  },
+  "sections": [
+    {
+      "type": "checklist",
+      "eyebrow": "Quick check",
+      "heading": "Before you apply for internship: a 30 second check",
+      "intro": "You do not need to tick every box. If most of these sound like you, you are ready to apply for internship tracks with us.",
+      "items": [
+        "You are a college student in any year, a recent graduate or a career switcher",
+        "You have a track in mind, or you are happy to get help choosing one",
+        "You can give a few hours a day, full time or part time, for the duration you choose",
+        "You want to learn by doing real project work, with weekly feedback",
+        "You can attend offline at our centre, or online with a working laptop"
+      ],
+      "image": {
+        "src": "ourInternshipProgramImg.png",
+        "alt": "Intern checking eligibility before they apply for internship at Icanio"
+      }
+    },
+    {
+      "type": "form",
+      "form": "student",
+      "eyebrow": "Start here",
+      "heading": "Apply for internship in two minutes",
+      "intro": "Fill in your details and choose the internship you are interested in. Not sure which one? Pick the closest match and add a note. Our team will help you decide on the call.",
+      "points": [
+        "No fee is charged to apply or to talk to a counsellor",
+        "Our team calls you within one working day",
+        "Durations from 15 days to six months"
+      ]
+    },
+    {
+      "type": "cards",
+      "tone": "soft",
+      "eyebrow": "Eligibility",
+      "heading": "Who can apply for internship tracks at Icanio",
+      "intro": "Our internships are open to a wide range of learners. What matters most is your willingness to learn and to do the work.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "College students in any year",
+          "body": "Students of B.E., B.Tech, B.Sc., BCA, MCA, B.Com, BBA, MBA and arts programs can apply. Most interns are in their pre-final or final year, but first and second-year students join shorter tracks too.",
+          "icon": "Group-2085662024-18.png"
+        },
+        {
+          "title": "Recent graduates and freshers",
+          "body": "If you have finished your degree and want real project experience before job hunting, a longer internship gives you a portfolio and interview practice.",
+          "icon": "Group-2085662024-19.png"
+        },
+        {
+          "title": "Career switchers",
+          "body": "Moving into tech or business roles from another field? Our tracks give you team experience, a mentor and structured learning, even without a matching degree.",
+          "icon": "Group-2085662024-21.png"
+        },
+        {
+          "title": "Self-taught learners",
+          "body": "If you have learned from online courses but never worked in a team, an internship shows you how real projects run, with code reviews and deadlines.",
+          "icon": "Group-2085662024-20.png"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "eyebrow": "Be ready",
+      "heading": "What to prepare when you apply for internship",
+      "intro": "The form itself asks only for basic details. These items help on the counselling call and at onboarding. None of them is a barrier if you do not have it yet.",
+      "items": [
+        "Your resume, if you have one. If not, our team helps you build one during the internship",
+        "Your college ID, or proof of your current or most recent course",
+        "A laptop with a stable internet connection if you choose online mode",
+        "Links to your GitHub, portfolio, designs or past projects, if you have any",
+        "Your preferred start date, duration and whether you want weekday or weekend batches",
+        "A short note on your goal: a job, a college requirement or exploring a new field"
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg2.png",
+        "alt": "Student gathering a resume and laptop to apply for internship"
+      }
+    },
+    {
+      "type": "steps",
+      "tone": "soft",
+      "eyebrow": "What happens next",
+      "heading": "After you apply for internship: the next five steps",
+      "intro": "Here is exactly what happens once you send the form, so there are no surprises.",
+      "items": [
+        {
+          "title": "We call you within one working day",
+          "body": "A counsellor from our team calls to understand your background, your year of study, your goals and when you can start."
+        },
+        {
+          "title": "Track counselling",
+          "body": "If you are unsure between two tracks, the counsellor explains what each one involves and which suits your skills and interests."
+        },
+        {
+          "title": "Duration and mode counselling",
+          "body": "Together you choose a duration from 15 days to six months, and offline, online, part-time or hybrid mode, in weekday or weekend batches."
+        },
+        {
+          "title": "Onboarding",
+          "body": "You receive your batch details, meet your mentor and get set up with the tools and accounts your track needs."
+        },
+        {
+          "title": "Start learning and building",
+          "body": "You begin the learning phases, then move onto a live project brief. Weekly reviews keep you on track until your certificate."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Durations and modes",
+      "heading": "Durations and modes you can choose when you apply",
+      "intro": "Every track is available at each of these lengths. Your counsellor will suggest the best fit.",
+      "columns": [
+        "Duration",
+        "Suits",
+        "Mode options"
+      ],
+      "rows": [
+        [
+          "15 days",
+          "A first look at a track",
+          "Offline, online or hybrid"
+        ],
+        [
+          "1 month",
+          "Semester breaks and college requirements",
+          "Offline, online, part time or hybrid"
+        ],
+        [
+          "3 months",
+          "Pre-final and final year students",
+          "Offline, online, part time or hybrid"
+        ],
+        [
+          "6 months",
+          "Freshers and career switchers",
+          "Offline, online, part time or hybrid"
+        ]
+      ],
+      "note": "Weekday and weekend batches are available. We recommend three months or longer if you want a full live project in your portfolio."
+    },
+    {
+      "type": "cards",
+      "id": "tracks",
+      "eyebrow": "15 tracks",
+      "heading": "Pick a track before you apply for internship",
+      "intro": "Open any track to see its curriculum, tools and projects. Then come back and apply for internship in that track with the form above.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "Frontend Development",
+          "body": "Build responsive interfaces with HTML, CSS, JavaScript and React.",
+          "href": "/internships/frontend-development-internship",
+          "icon": "Group-2085661927.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Backend Development",
+          "body": "Design APIs, databases and server logic for real applications.",
+          "href": "/internships/backend-development-internship",
+          "icon": "Group-2085661908.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Full Stack Development",
+          "body": "Take one product from interface to database to deployment.",
+          "href": "/internships/full-stack-development-internship",
+          "icon": "Group-2085661920.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Software Testing",
+          "body": "Learn manual and automation testing and report defects clearly.",
+          "href": "/internships/software-testing-internship",
+          "icon": "Group-2085661910.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "AI & ML",
+          "body": "Clean datasets, train models and evaluate them on real problems.",
+          "href": "/internships/ai-ml-internship",
+          "icon": "Group-2085663220.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "UI/UX Design",
+          "body": "Move from user research to wireframes to Figma prototypes.",
+          "href": "/internships/ui-ux-design-internship",
+          "icon": "Group-2085661914.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "DevOps",
+          "body": "Automate builds and releases with CI/CD, containers and cloud.",
+          "href": "/internships/devops-internship",
+          "icon": "Group-2085661916.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Flutter App Development",
+          "body": "Create cross-platform mobile apps from screens to store builds.",
+          "href": "/internships/flutter-developer-internship",
+          "icon": "Group-2085661918.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Business Analyst",
+          "body": "Gather requirements, map processes and write clear documents.",
+          "href": "/internships/business-analyst-internship",
+          "icon": "Group-2085661922.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Project Management",
+          "body": "Plan sprints, track delivery and coordinate a project team.",
+          "href": "/internships/project-management-internship",
+          "icon": "Group-2085661924.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Data Analyst",
+          "body": "Turn raw data into dashboards and insights with Excel and SQL.",
+          "href": "/internships/data-analyst-internship",
+          "icon": "Group-1000005365-10-2.png",
+          "meta": "Non-engineering"
+        },
+        {
+          "title": "Digital Marketing",
+          "body": "Run live campaigns across content, social media, SEO and ads.",
+          "href": "/internships/digital-marketing-internship",
+          "icon": "Group-1000005365-9-2.png",
+          "meta": "Non-engineering"
+        },
+        {
+          "title": "Human Resource",
+          "body": "Support recruitment, onboarding and employee engagement tasks.",
+          "href": "/internships/hr-internship",
+          "icon": "Group-1000005365-7-2.png",
+          "meta": "Non-engineering"
+        },
+        {
+          "title": "Finance",
+          "body": "Practise budgeting, reporting and analysis on business data.",
+          "href": "/internships/finance-internship",
+          "icon": "Group-1000005365-8-2.png",
+          "meta": "Non-engineering"
+        },
+        {
+          "title": "Sales",
+          "body": "Learn lead generation, client communication and follow-up.",
+          "href": "/internships/sales-internship",
+          "icon": "Group-1000005365-11-1.png",
+          "meta": "Non-engineering"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "Tips",
+      "heading": "How to make your application stand out",
+      "paragraphs": [
+        "You do not need a perfect resume to apply for internship tracks with us. What helps most is a clear goal. Tell us whether you want a job after graduation, need an internship for college credit or want to explore a new field. That helps our team suggest the right track and duration.",
+        "If you have built anything, share it. A small GitHub project, a Figma file, a blog or a college mini project all tell us how you think. If you have nothing yet, that is fine. Most of our interns build their first real project with us.",
+        "Be honest about your time. If you have exams or classes, choose part-time or weekend batches. We recommend picking a pace you can keep, because steady weekly progress matters more than speed."
+      ],
+      "bullets": [
+        "State your goal clearly in the message box",
+        "Share any links to past work, however small",
+        "Pick a start date that avoids your exam weeks",
+        "Answer the counselling call, it is where we plan your internship"
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Mentor giving tips to a student who wants to apply for internship"
+      },
+      "reverse": true,
+      "link": {
+        "label": "Read: how to get an internship as a fresher",
+        "href": "/career-guides/how-to-get-an-internship-as-a-fresher"
+      }
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Why Icanio",
+      "heading": "What you get when you join Icanio Tech School",
+      "paragraphs": [
+        "Icanio Tech School is the education arm of Icanio Technologies, a Tamil Nadu based AI company trusted by 100+ businesses and headquartered in Tirunelveli. When you apply for internship tracks here, you learn from practising engineers with 3+ years of client delivery experience.",
+        "Every intern gets 1:1 mentorship, weekly reviews and a live project brief drawn from Icanio client scenarios. You finish with a certificate, a portfolio, resume support and mock interviews. Top performers are referred to the Icanio talent team.",
+        "So far, 2,000+ students have trained with us and 1,000+ have been placed, 90% of them within five months. Jeyaram R, for example, joined Icanio Technologies as an SDE after completing Icanio Tech School."
+      ],
+      "image": {
+        "src": "Group-2085661740-3.png",
+        "alt": "Interns working with mentors after they apply for internship at Icanio"
+      },
+      "link": {
+        "label": "Meet our industry trainers",
+        "href": "/industry-trainers"
+      }
+    },
+    {
+      "type": "testimonials",
+      "tone": "soft",
+      "eyebrow": "In their words",
+      "heading": "Hear from students who applied before you",
+      "intro": "These interns once filled in the same form. Here is what the internship gave them."
+    },
+    {
+      "type": "links",
+      "eyebrow": "Still deciding?",
+      "heading": "Helpful reads before you apply",
+      "items": [
+        {
+          "title": "Compare all internships",
+          "href": "/internships",
+          "body": "All 15 tracks side by side, with durations, modes and outcomes."
+        },
+        {
+          "title": "How to choose an internship",
+          "href": "/career-guides/how-to-choose-an-internship",
+          "body": "Match a track to your skills, interests and career goal."
+        },
+        {
+          "title": "Student Development Program",
+          "href": "/student-development-program",
+          "body": "Nine workplace soft skill modules to pair with your internship."
+        },
+        {
+          "title": "Technical workshops",
+          "href": "/technical-workshops",
+          "body": "Try a domain in a short hands-on session before you commit."
+        },
+        {
+          "title": "Student success stories",
+          "href": "/student-success-stories",
+          "body": "Completions and placements from colleges across Tamil Nadu."
+        },
+        {
+          "title": "Contact our team",
+          "href": "/contact",
+          "body": "Questions before you apply? Call, email or message us."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "id": "apply-form",
+      "form": "student",
+      "eyebrow": "Ready?",
+      "heading": "Send your application today",
+      "intro": "It takes two minutes. Our team will call you within one working day to plan your track, duration and start date.",
+      "points": [
+        "Start dates every month",
+        "Offline, online, part-time or hybrid mode",
+        "Certificate on completion"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is there a fee to apply for internship tracks?",
+      "a": "No. There is no fee to apply for internship tracks or to talk to a counsellor. Filling in the form simply starts a conversation. Our team explains everything about your chosen track, duration and mode on the call, so you can decide with full information."
+    },
+    {
+      "q": "How soon will I hear back after I apply?",
+      "a": "Our team calls you within one working day of receiving your form. If you miss the call, we will try again, or you can reach us by phone or email. Keep your phone nearby after you apply for internship so the process moves quickly."
+    },
+    {
+      "q": "Which details does the application form ask for?",
+      "a": "The form asks for your name, college name, phone number, email address and the internship you are interested in. There is also an optional message box. Use it to share your goal, preferred start date or links to past work."
+    },
+    {
+      "q": "Can I apply if I am not sure which track to choose?",
+      "a": "Yes. Many students apply for internship without a fixed choice. Pick the closest track on the form and mention that you are unsure. On the counselling call, our team asks about your interests and skills, then suggests one or two tracks that suit you."
+    },
+    {
+      "q": "Can first-year students apply for internship tracks?",
+      "a": "Yes. Students in any year can apply. First and second-year students often start with a 15 day or one month internship to explore a field. Pre-final and final-year students usually choose three or six months for a full live project."
+    },
+    {
+      "q": "Do I need a resume or a portfolio to apply?",
+      "a": "No. A resume or portfolio helps, but it is not required. If you have GitHub links, designs or college projects, add them in the message box. If you do not have a resume yet, our team helps you build one during the internship."
+    },
+    {
+      "q": "When can I start after I apply for internship?",
+      "a": "Start dates are available every month. After the counselling call and onboarding, most students start within a few weeks. You can choose a date that avoids your exams, and weekday or weekend batches that fit your college schedule."
+    },
+    {
+      "q": "Can a group from my college apply for internship together?",
+      "a": "Yes. Classmates can apply for internship tracks together, and colleges can place whole groups of students with us. Each student fills in the form, and you can mention your group in the message box. For MoU partner colleges, our team shares progress updates with the placement cell. Ask your college placement officer, or contact us to apply for internship as a batch."
+    },
+    {
+      "q": "Will I get a certificate at the end?",
+      "a": "Yes. Every intern who completes the program receives an Icanio Tech School certificate stating the track and duration. You also leave with a portfolio, resume support and mock interview practice, and top performers are referred to the Icanio talent team."
+    }
+  ],
+  "takeaways": [
+    "You can apply for internship tracks at Icanio Tech School with a two minute form and no fee.",
+    "Students in any year, graduates, career switchers and self-taught learners are all eligible.",
+    "Our team calls within one working day for track, duration and mode counselling, then onboarding.",
+    "Durations run from 15 days to six months, offline, online, part time or hybrid.",
+    "Prepare a resume if you have one, your college ID, a laptop for online mode and any project links."
+  ],
+  "conclusion": [
+    "The hardest part of starting an internship is often just sending the first message. Once you apply for internship tracks with us, our team takes it from there, helping you choose well and start with confidence.",
+    "You do not need to have everything figured out. Fill in the form, answer our call and we will plan the rest together. Your first real project could start within a few weeks."
+  ],
+  "references": [
+    {
+      "label": "AICTE internship policy and guidelines",
+      "href": "https://www.aicte-india.org/education/internship"
+    },
+    {
+      "label": "National Education Policy 2020, Ministry of Education",
+      "href": "https://www.education.gov.in/nep/about-nep"
+    },
+    {
+      "label": "Skill India, Government of India",
+      "href": "https://www.skillindia.gov.in/"
+    },
+    {
+      "label": "Internship, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Internship"
+    }
+  ],
+  "cta": {
+    "title": "Ready to apply for internship?",
+    "body": "Send the form now and our team will call you within one working day to plan your track and start date.",
+    "primary": {
+      "label": "Apply now",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "Compare all tracks",
+      "href": "/internships"
+    }
+  }
+}

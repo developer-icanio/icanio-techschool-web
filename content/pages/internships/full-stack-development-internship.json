@@ -1,0 +1,309 @@
+{
+  "path": "/internships/full-stack-development-internship",
+  "kind": "internship",
+  "label": "Full Stack Development Internship",
+  "parent": "/internships",
+  "seo": {
+    "metaTitle": "Full Stack Development Internship: 4 Proven Apps",
+    "metaDescription": "Full stack development internship in Tamil Nadu: build 4 live MERN apps with React, Node.js, MongoDB, PostgreSQL and AWS, with 1:1 mentors and a certificate.",
+    "focusKeyword": "full stack development internship",
+    "secondaryKeywords": ["mern stack internship", "full stack developer internship", "web application development internship", "react and node js internship", "full stack internship for freshers"],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "Engineering internship",
+    "title": "Full Stack Development Internship: Build 4 Real Apps",
+    "subtitle": "Our full stack development internship takes you from the React interface to the Node.js API to the database and the cloud. You ship four deployed web applications with a 1:1 Icanio mentor and finish with a certificate.",
+    "image": { "src": "Group-9.png", "alt": "Student working across frontend, backend and database layers in the full stack development internship at Icanio Tech School" },
+    "primary": { "label": "Apply for this internship", "href": "#apply" },
+    "secondary": { "label": "View curriculum", "href": "#curriculum" },
+    "highlights": ["4 learning phases", "4 deployed apps", "1:1 mentorship", "Certificate on completion"]
+  },
+  "facts": [
+    { "label": "Duration", "value": "15 days to 6 months" },
+    { "label": "Mode", "value": "Offline, online or part time" },
+    { "label": "Mentorship", "value": "1:1 with an Icanio engineer" },
+    { "label": "Certificate", "value": "Yes, on completion" }
+  ],
+  "answer": {
+    "question": "What is a full stack development internship at Icanio?",
+    "answer": "It is a mentored internship at Icanio Tech School where you build complete web applications end to end. You learn React on the frontend, Node.js and Express on the backend, MongoDB and PostgreSQL for data, and AWS for deployment. Across four phases you ship four apps, and you finish with a certificate and a job-ready portfolio."
+  },
+  "sections": [
+    {
+      "type": "prose",
+      "eyebrow": "The role",
+      "heading": "What a full stack developer does, and why teams hire them",
+      "intro": "A full stack developer can take a feature from idea to production without waiting on anyone. That independence is exactly what small teams and startups value.",
+      "paragraphs": [
+        "Full stack developers work on every layer of a web product. They build the screen a user clicks, the API that screen calls, the database that stores the result and the pipeline that ships it all. They may not be the deepest expert in each layer, but they understand how the layers connect.",
+        "That view is valuable. When a page is slow, a full stack developer can tell whether the cause is a heavy component, a missing index or a slow network call. Startups hire them to build whole products with small teams. Larger companies value them because they unblock both frontend and backend colleagues.",
+        "A full stack development internship is the best way to learn this, because you only understand the whole stack by building one. In our full stack development internship every project runs from a React page to a live database, so you see the full request journey for yourself."
+      ],
+      "bullets": [
+        "Build interfaces in React with hooks, routing and state",
+        "Write REST APIs in Node.js and Express",
+        "Store data in MongoDB and PostgreSQL",
+        "Deploy apps to AWS with automated pipelines"
+      ],
+      "image": { "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-5-1.png", "alt": "Intern demonstrating a deployed web app built at Icanio Tech School" },
+      "link": { "label": "How to choose the right internship", "href": "/career-guides/how-to-choose-an-internship" }
+    },
+    {
+      "type": "cards",
+      "tone": "soft",
+      "eyebrow": "Eligibility",
+      "heading": "Who is eligible for the full stack development internship?",
+      "intro": "You do not need prior work experience. You need steady effort, because full stack covers a lot of ground.",
+      "columns": 4,
+      "items": [
+        { "title": "Entrepreneurs and builders", "body": "Founders and indie builders who want to build, launch and improve their own web products without depending on an outside team.", "icon": "Group-2085662024-14-2.png" },
+        { "title": "Aspiring web developers", "body": "Students and self-taught coders who want to enter the tech industry with a skill set employers ask for in job listings.", "icon": "Group-2085662025-2-3.png" },
+        { "title": "Frontend developers growing", "body": "Designers or frontend developers who know HTML and CSS and now want to add APIs, databases and deployment.", "icon": "Group-2085662024-15-2.png" },
+        { "title": "CS and IT students", "body": "B.E., B.Tech, BCA and MCA students who want deployed apps and a structured full stack development internship alongside college.", "icon": "Group-2085662024-13-2.png" }
+      ]
+    },
+    {
+      "type": "phases",
+      "id": "curriculum",
+      "eyebrow": "Curriculum",
+      "heading": "What you will learn in the full stack development internship",
+      "intro": "The full stack development internship moves through four phases, from the browser down to the cloud. Each phase ends with a mentor review of your working app.",
+      "items": [
+        {
+          "label": "Phase 1",
+          "title": "Web foundations and frontend",
+          "points": [
+            "HTML5, CSS3 and responsive layouts that work on every screen",
+            "Modern JavaScript (ES6+) and DOM manipulation",
+            "React components, hooks and local state",
+            "React Router for pages and the Context API for shared state",
+            "Git, GitHub and agile workflows with a sprint board"
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "title": "Backend and API development",
+          "points": [
+            "The Node.js runtime and its event loop",
+            "REST API design with Express.js",
+            "Authentication with JWT and OAuth",
+            "Middleware, routing and consistent error handling",
+            "API testing and documentation with Postman"
+          ]
+        },
+        {
+          "label": "Phase 3",
+          "title": "Databases and full stack integration",
+          "points": [
+            "MongoDB with the Mongoose ODM",
+            "SQL with PostgreSQL and the Sequelize ORM",
+            "Full MERN stack architecture: MongoDB, Express, React and Node.js",
+            "File uploads, real-time features with WebSockets, and caching",
+            "Docker basics and containerising a full stack app"
+          ]
+        },
+        {
+          "label": "Phase 4",
+          "title": "Cloud, testing and career preparation",
+          "points": [
+            "AWS EC2 and S3, and building a deployment pipeline",
+            "CI/CD with GitHub Actions",
+            "Unit and integration testing with Jest",
+            "Deploying a capstone full stack app from a real brief",
+            "Full stack resume review and interview practice"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tools",
+      "tone": "soft",
+      "eyebrow": "Tools",
+      "heading": "Industry tools you will use every day",
+      "intro": "The full stack development internship uses the tools our team relies on for client web products, from the first commit to the cloud.",
+      "items": [
+        { "name": "React", "role": "Component-based UI library", "logo": "Frame-2085661721-1.png" },
+        { "name": "Node and Express", "role": "Server-side JavaScript", "logo": "nodejs-1-1-2.png" },
+        { "name": "MongoDB", "role": "NoSQL database", "logo": "mongodb-icon-2-2-2.png" },
+        { "name": "PostgreSQL", "role": "Relational database", "logo": "Group-9-1.png" },
+        { "name": "Tailwind CSS", "role": "Design-to-code styling", "logo": "tailwind-css-2-1-5.png" },
+        { "name": "Docker", "role": "Containerisation", "logo": "Group-1000005722-2.png" },
+        { "name": "GitHub", "role": "Version control and CI/CD", "logo": "github-icon-1-1-1-1.png" },
+        { "name": "AWS", "role": "Cloud deployment", "logo": "aws-2-2-1-1.png" }
+      ]
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Outcomes",
+      "heading": "Projects and outcomes you will achieve",
+      "intro": "Every project in the full stack development internship is live on the internet, with code on GitHub and a clear story you can tell an interviewer.",
+      "columns": 4,
+      "items": [
+        { "title": "4 deployed full stack apps", "body": "A React portfolio site, a REST API, a MERN CRUD app and a cloud capstone with authentication and a database.", "icon": "Group-2085662024-1.png" },
+        { "title": "MERN stack confidence", "body": "Hands-on depth in MongoDB, Express, React and Node.js, one of the most requested combinations for web development roles.", "icon": "Group-2085662024-31.png" },
+        { "title": "Cloud deployment skills", "body": "Host apps on AWS, configure S3 buckets, set up EC2 instances and build CI/CD pipelines for testing and release.", "icon": "Group-2085662024-32.png" },
+        { "title": "A job-ready portfolio", "body": "Four live, accessible apps, a tidy GitHub profile and a full stack resume reviewed by your mentor before you finish.", "icon": "Group-2085662024-33.png" }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Why Icanio",
+      "heading": "Why do a full stack development internship with Icanio?",
+      "intro": "Icanio Tech School is the education arm of Icanio Technologies, a Tamil Nadu based AI company trusted by 100+ businesses.",
+      "paragraphs": [
+        "Our mentors are practising Icanio engineers with 3+ years of client delivery, background verified by Icanio HR. In the full stack development internship, the person reviewing your React page and your Express route builds both for clients every week.",
+        "That helps with the hardest part of full stack work: the joins between layers. Your mentor will show you how to shape an API response so the frontend stays simple, and how to handle an expired token without breaking the page. Code reviews follow internal Icanio standards.",
+        "In our experience, full stack candidates stand out when they can trace one feature from click to database and back. Every full stack development internship at Icanio is designed around that skill, with four live apps to prove it."
+      ],
+      "bullets": [
+        "Mentors with 3+ years of client delivery experience",
+        "Written reviews on every pull request, frontend and backend",
+        "Curriculum refreshed from live project work each cohort",
+        "Resume, mock interview and LinkedIn support before you finish"
+      ],
+      "image": { "src": "WhatWeDoSectionImg1.png", "alt": "Icanio engineer guiding an intern through the full stack development internship" },
+      "reverse": true,
+      "link": { "label": "Meet our industry trainers", "href": "/industry-trainers" }
+    },
+    {
+      "type": "checklist",
+      "tone": "soft",
+      "eyebrow": "Before you start",
+      "heading": "What you need for a full stack development internship",
+      "intro": "You can begin from the basics. These make the first few weeks smoother.",
+      "items": [
+        "A laptop with at least 8 GB RAM that can run Node.js and Docker",
+        "Basic HTML and some programming logic in any language",
+        "A free GitHub account, which our team helps you set up",
+        "Two hours a day of practice, since full stack covers four layers",
+        "Comfort with reading error messages and searching documentation"
+      ],
+      "image": { "src": "ourInternshipProgramImg.png", "alt": "Intern planning project tasks for the full stack development internship" }
+    },
+    {
+      "type": "steps",
+      "eyebrow": "How it runs",
+      "heading": "How the full stack development internship runs, week by week",
+      "intro": "The order stays the same for every duration. Longer internships simply give each phase more depth and a bigger capstone.",
+      "items": [
+        { "label": "Day 1", "title": "Apply and speak to our team", "body": "Send the short form. A counsellor calls you within one working day to check your level, goals, duration and batch." },
+        { "label": "Week 1", "title": "Onboarding and setup", "body": "You meet your mentor, install Node.js, MongoDB and Docker, and join the full stack development internship sprint board." },
+        { "label": "Phase 1", "title": "React frontend", "body": "You build a portfolio site and a multi-page React app. Every pull request gets written feedback." },
+        { "label": "Phases 2 and 3", "title": "APIs, databases and integration", "body": "You build a REST API, connect it to MongoDB and PostgreSQL, and join it to your React app as a working MERN product." },
+        { "label": "Phase 4", "title": "Cloud and capstone", "body": "You add tests, deploy to AWS through GitHub Actions and build a capstone from a brief based on Icanio client scenarios." },
+        { "label": "Completion", "title": "Review and certificate", "body": "You demo your capstone, get a resume review and receive your certificate. Top performers are referred to the Icanio talent team." }
+      ]
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "A typical day",
+      "heading": "What a day in the full stack development internship looks like",
+      "paragraphs": [
+        "Each day begins with a short stand-up. You share what you finished, what you plan and where you are stuck. It mirrors how real product teams start work.",
+        "Then you build one feature through every layer. You might add a comments feature: a MongoDB model, an Express route with validation, a React form and a list that updates live. You test it in Postman and in the browser, then open a pull request.",
+        "Your mentor reviews both sides of the change. Feedback might ask you to paginate a list, hash a field or move shared logic into a hook. You fix, push and learn how professional teams keep a codebase healthy. Part-time interns follow the same loop across evenings or weekends."
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Career paths",
+      "heading": "Roles this full stack development internship prepares you for",
+      "intro": "Full stack skills open more doors than any single layer. Here is how the common entry roles compare.",
+      "columns": ["Role", "What you do", "Key skills"],
+      "rows": [
+        ["Full stack developer", "Build features across every layer", "React, Node.js, databases"],
+        ["MERN stack developer", "Own JavaScript web products", "MongoDB, Express, React, Node.js"],
+        ["Frontend developer", "Build product screens", "React, CSS, JavaScript"],
+        ["Backend developer", "Build APIs and data logic", "Node.js, SQL, authentication"],
+        ["Startup product engineer", "Ship whole features fast", "Full stack, AWS, CI/CD"]
+      ],
+      "note": "We recommend frontend or backend alone if you want to go very deep in one layer first. Full stack suits students who like seeing the whole picture."
+    },
+    {
+      "type": "testimonials",
+      "tone": "soft",
+      "eyebrow": "In their words",
+      "heading": "What our web development interns say",
+      "intro": "Hear from learners who built real applications with Icanio mentors. Press play to watch."
+    },
+    {
+      "type": "stories",
+      "eyebrow": "Recent completions",
+      "heading": "Students who completed internships with us",
+      "intro": "Recent interns from colleges across Tamil Nadu, with their track and duration.",
+      "track": "React",
+      "limit": 6
+    },
+    {
+      "type": "links",
+      "tone": "soft",
+      "eyebrow": "Keep exploring",
+      "heading": "Related internships you may like",
+      "items": [
+        { "title": "All 15 internship tracks", "href": "/internships", "body": "Compare durations, modes, eligibility and outcomes across every track." },
+        { "title": "Frontend Development Internship", "href": "/internships/frontend-development-internship", "body": "Go deeper on React, TypeScript, testing and accessibility." },
+        { "title": "Backend Development Internship", "href": "/internships/backend-development-internship", "body": "Specialise in APIs, databases, security and cloud." },
+        { "title": "DevOps Internship", "href": "/internships/devops-internship", "body": "Master the pipelines and containers that ship your apps." },
+        { "title": "UI/UX Design Internship", "href": "/internships/ui-ux-design-internship", "body": "Learn how the screens you build are researched and designed." },
+        { "title": "Software Testing Internship", "href": "/internships/software-testing-internship", "body": "Learn to test web apps manually and with automation." }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "student",
+      "eyebrow": "Apply now",
+      "heading": "Apply for the full stack development internship",
+      "intro": "It takes two minutes. Choose Full Stack Developer in the form, and our team replies within one working day.",
+      "points": [
+        "Weekday and weekend batches, offline or online",
+        "Durations from 15 days to six months",
+        "1:1 mentor and certificate on completion"
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Do I need coding experience to join?", "a": "Basic HTML and some programming logic help, but you do not need prior web experience. The full stack development internship starts with web foundations. On the counselling call we check your level and suggest a duration that gives you enough time for all four layers." },
+    { "q": "How long is the full stack development internship?", "a": "You choose between 15 days and six months. Because full stack covers so much, we recommend three to six months if you want all four phases and all four deployed apps. Shorter internships focus on the frontend and one API project." },
+    { "q": "Is the full stack development internship offline or online?", "a": "Both. You can attend offline at our centre, join online from anywhere in Tamil Nadu, or pick a part-time weekday or weekend batch. Hybrid is possible too, so the full stack development internship fits around your classes." },
+    { "q": "What is the MERN stack?", "a": "MERN stands for MongoDB, Express, React and Node.js. It lets you build a whole web app in JavaScript, from the database to the browser. In our full stack development internship you learn MERN as the core stack, and PostgreSQL as a relational option." },
+    { "q": "Should I choose full stack or frontend first?", "a": "Choose frontend if you love interfaces and want deep React and accessibility skills. Choose full stack if you want to build complete products or join a startup. Our team can help you decide on the counselling call based on your goals." },
+    { "q": "Do I get a certificate after the internship?", "a": "Yes. Every intern who completes the full stack development internship receives an Icanio Tech School certificate that states the track and duration, plus a portfolio of live apps and a GitHub profile." },
+    { "q": "Does the internship help with placement?", "a": "We run resume reviews, mock interviews and LinkedIn guidance for every intern. Top performers are referred to the Icanio Technologies talent team. Across our programs, 90% of students are placed within five months." },
+    { "q": "Can my college send a batch of students?", "a": "Yes. Many of our 30+ MoU partner colleges send students together, and progress updates can be shared with the placement cell. Ask your placement officer to contact our team, or see our college programs page." }
+  ],
+  "takeaways": [
+    "The full stack development internship covers React, Node.js, Express, MongoDB, PostgreSQL, Docker and AWS in four phases.",
+    "You ship four deployed apps: a portfolio site, a REST API, a MERN CRUD app and a cloud capstone.",
+    "A practising Icanio engineer mentors you 1:1 and reviews both frontend and backend code.",
+    "Durations run from 15 days to six months, and we recommend three to six months for full stack.",
+    "You finish with a certificate and interview practice, and top performers are referred to Icanio."
+  ],
+  "conclusion": [
+    "Full stack developers are valued because they see the whole product. The only way to gain that view is to build whole products, and our full stack development internship gives you four of them, reviewed by engineers who do this work daily.",
+    "If you are a student or fresher in Tamil Nadu and want to build complete web applications, apply today. Our team will call you, check your level and help you pick the right duration and batch."
+  ],
+  "references": [
+    { "label": "MDN Web Docs: server-side website programming", "href": "https://developer.mozilla.org/en-US/docs/Learn/Server-side" },
+    { "label": "React official documentation", "href": "https://react.dev/learn" },
+    { "label": "Node.js official documentation", "href": "https://nodejs.org/en/docs" },
+    { "label": "Solution stack, Wikipedia", "href": "https://en.wikipedia.org/wiki/Solution_stack" },
+    { "label": "AICTE internship guidelines for students", "href": "https://www.aicte-india.org/education/internship" }
+  ],
+  "cta": {
+    "title": "Start your full stack development internship",
+    "body": "Pick a duration and a batch, and begin your full stack development internship with an Icanio mentor within weeks.",
+    "primary": { "label": "Apply for this internship", "href": "#apply" },
+    "secondary": { "label": "Compare all internships", "href": "/internships" }
+  },
+  "course": {
+    "name": "Full Stack Development Internship",
+    "description": "A mentored full stack development internship covering React, Node.js, Express, MongoDB, PostgreSQL, Docker, Jest and AWS deployment, with four deployed web applications and a certificate.",
+    "duration": "15 days to 6 months",
+    "modes": ["Onsite", "Online", "Blended"],
+    "skills": ["HTML and CSS", "JavaScript ES6+", "React", "Node.js", "Express", "MongoDB", "PostgreSQL", "JWT authentication", "Docker", "AWS", "GitHub Actions", "Jest"],
+    "audience": "Students and freshers"
+  }
+}

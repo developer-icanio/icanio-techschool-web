@@ -1,0 +1,475 @@
+{
+  "path": "/college-programs",
+  "kind": "hub",
+  "label": "College Programs",
+  "seo": {
+    "metaTitle": "College Programs: 6 Proven Ways to Partner",
+    "metaDescription": "College programs by Icanio Tech School: MoU partnership, value added courses, guest lectures, FDPs, industrial visits and internships for Tamil Nadu colleges.",
+    "focusKeyword": "college programs",
+    "secondaryKeywords": [
+      "industry programs for colleges",
+      "college mou with it company",
+      "value added course for colleges",
+      "faculty development program",
+      "industrial visit for students",
+      "industry institute partnership"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "For principals, HoDs and placement officers",
+    "title": "College Programs That Bring Industry to Your Campus",
+    "subtitle": "Our college programs connect your students and faculty with the engineers of Icanio Technologies. Choose an MoU partnership, value added courses, guest lectures, faculty development, industrial visits or internships, and build an industry plan that grows each semester.",
+    "image": {
+      "src": "WhatWeDoSectionImg2.png",
+      "alt": "College students taking part in college programs by Icanio Tech School"
+    },
+    "primary": {
+      "label": "Enquire now",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "Compare programs",
+      "href": "#compare"
+    },
+    "highlights": [
+      "30+ MoU colleges",
+      "Delivered by Icanio engineers",
+      "Free guest lectures",
+      "Sponsored internships for MoU colleges"
+    ]
+  },
+  "answer": {
+    "question": "What college programs does Icanio Tech School offer?",
+    "answer": "Icanio Tech School offers six college programs: an MoU partnership, value added courses, guest lectures, faculty development programs, industrial visits and internships for students. Practising engineers from Icanio Technologies, a Tamil Nadu based AI company, deliver every program. Most colleges start with an MoU or a guest lecture, then add courses and internships each semester."
+  },
+  "sections": [
+    {
+      "type": "stats",
+      "heading": "College programs backed by real results",
+      "items": [
+        {
+          "value": "30+",
+          "label": "MoU partner colleges"
+        },
+        {
+          "value": "2,000+",
+          "label": "Students trained"
+        },
+        {
+          "value": "1,000+",
+          "label": "Students placed"
+        },
+        {
+          "value": "90%",
+          "label": "Placed within 5 months"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Choose a program",
+      "heading": "Six college programs, one industry partner",
+      "intro": "Each of our college programs answers a different need. Start with the one that matches your goal this semester, then add others as the partnership grows.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "MoU Partnership",
+          "body": "A long-term agreement that gives your college priority workshops and value added courses, joint certification, industry mentorship and free or sponsored internships.",
+          "href": "/college-programs/mou-partnership",
+          "icon": "Group-2085663532.png",
+          "meta": "Long-term"
+        },
+        {
+          "title": "Value Added Courses",
+          "body": "Lab-based courses on your campus in eight domains, from Python and Web Development to DevOps and Software Testing, with mentor-led assessments.",
+          "href": "/college-programs/value-added-courses",
+          "icon": "Group-2085663222.png",
+          "meta": "On campus"
+        },
+        {
+          "title": "Guest Lectures",
+          "body": "Free, interactive sessions by Icanio engineers on AI, cloud, DevOps, cybersecurity, product management and career readiness, with live Q&A.",
+          "href": "/college-programs/guest-lectures",
+          "icon": "target-03-1.png",
+          "meta": "Free"
+        },
+        {
+          "title": "Faculty Development Program",
+          "body": "Hands-on training for teaching staff in modern tools and project-based methods, onsite, online or hybrid, with a certificate for participants.",
+          "href": "/college-programs/faculty-development-program",
+          "icon": "Group-2085662092.png",
+          "meta": "For faculty"
+        },
+        {
+          "title": "Industrial Visit",
+          "body": "A guided visit to Icanio Technologies with a company introduction, team interaction, live project demos and a career Q&A.",
+          "href": "/college-programs/industrial-visit",
+          "icon": "building-07.png",
+          "meta": "Campus to company"
+        },
+        {
+          "title": "Internships for your students",
+          "body": "15 internship tracks from 15 days to six months, on live projects with 1:1 mentors and a certificate on completion.",
+          "href": "/internships",
+          "icon": "Group-1000005365-7.png",
+          "meta": "15 tracks"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "Choosing",
+      "heading": "Which of our college programs fits your goal?",
+      "intro": "Start from the problem you want to solve this semester. The right program usually becomes clear.",
+      "paragraphs": [
+        "If your goal is a long-term industry link that accreditation teams can see, begin with the MoU partnership. It gives you a yearly plan, a single coordinator and priority access to everything else on this page.",
+        "If students lack practical skills in a specific area, such as Python, web development or testing, choose value added courses. They run in your labs, inside your timetable, and end with mentor-led assessment and a certificate.",
+        "If students are unsure about careers or new technologies, a free guest lecture is the quickest fix. If your faculty want to refresh tools and methods, choose a faculty development program. If students have never seen a software company from the inside, plan an industrial visit. And when your strongest students are ready for real work, send them into our internships."
+      ],
+      "bullets": [
+        "Long-term industry link: MoU partnership",
+        "Practical skill gap: value added courses",
+        "Career confusion: guest lectures",
+        "Faculty upskilling: faculty development program",
+        "Workplace exposure: industrial visit",
+        "Job-ready experience: internships"
+      ]
+    },
+    {
+      "type": "table",
+      "id": "compare",
+      "eyebrow": "Compare",
+      "heading": "Compare our college programs at a glance",
+      "intro": "Use this table to match each of our college programs to what your students or faculty need right now.",
+      "columns": [
+        "Program",
+        "Format",
+        "Duration",
+        "Best for"
+      ],
+      "rows": [
+        [
+          "MoU partnership",
+          "Formal agreement",
+          "Long term",
+          "Steady industry access"
+        ],
+        [
+          "Value added courses",
+          "Lab sessions on campus",
+          "Fits timetable",
+          "One skill in depth"
+        ],
+        [
+          "Guest lectures",
+          "Talk with Q&A",
+          "One session",
+          "Career clarity"
+        ],
+        [
+          "Faculty development",
+          "Hands-on, any mode",
+          "Planned with you",
+          "Faculty upskilling"
+        ],
+        [
+          "Industrial visit",
+          "Guided day at Icanio",
+          "One visit",
+          "Real workplace view"
+        ],
+        [
+          "Internships",
+          "Live project, mentor",
+          "15 days to 6 months",
+          "Job-ready experience"
+        ]
+      ],
+      "note": "Not sure where to begin? We recommend a guest lecture or an MoU conversation. Our team will suggest the rest."
+    },
+    {
+      "type": "steps",
+      "tone": "soft",
+      "eyebrow": "How partnerships grow",
+      "heading": "How college programs typically grow with a partner college",
+      "intro": "Most colleges do not start with everything at once. Here is the path we see most often across our partner colleges in Tamil Nadu.",
+      "items": [
+        {
+          "label": "Step 1",
+          "title": "Sign an MoU partnership",
+          "body": "Your college and Icanio Tech School sign an MoU that names the programs, the contacts and the goals for the year. Some colleges try a guest lecture first."
+        },
+        {
+          "label": "Step 2",
+          "title": "Run guest lectures and value added courses",
+          "body": "Free guest lectures build awareness across departments. Value added courses then build one skill in depth for selected batches, inside your timetable."
+        },
+        {
+          "label": "Step 3",
+          "title": "Train faculty and visit industry",
+          "body": "Faculty development programs help teaching staff bring modern tools into labs. Industrial visits show students a working software company first-hand."
+        },
+        {
+          "label": "Step 4",
+          "title": "Place students in internships",
+          "body": "Your strongest students move into internships on live projects, with free or sponsored slots for MoU colleges and progress shared with your placement cell."
+        },
+        {
+          "label": "Step 5",
+          "title": "Review and plan the next semester",
+          "body": "Our team reviews attendance, feedback and results with you each semester, then plans the next set of college programs."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Who it helps",
+      "heading": "What college programs change for each group on campus",
+      "intro": "Good college programs help more than one group at a time. Here is what principals, faculty and students tell us they gain.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "For principals and management",
+          "body": "A documented, active industry collaboration with clear records of every program. That supports accreditation files, placement reports and the college's standing with recruiters.",
+          "image": {
+            "src": "Group-2085661740-3.png",
+            "alt": "MoU document signed as part of college programs with Icanio Tech School"
+          }
+        },
+        {
+          "title": "For HoDs and faculty",
+          "body": "Hands-on exposure to current tools and project-based teaching methods, plus industry mentorship. Faculty bring fresh examples and better project guidance back to their classes.",
+          "image": {
+            "src": "young-handsome-man-holding-notebooks-concept-e-learning-courses-1.png",
+            "alt": "Faculty member attending college programs for faculty development"
+          }
+        },
+        {
+          "title": "For students and placement officers",
+          "body": "Skills recruiters screen for, projects students can show and a route into internships. Placement officers get a partner who shares progress and refers top performers.",
+          "image": {
+            "src": "ValueAddedCourseImg.png",
+            "alt": "Students learning in value added courses, part of Icanio college programs"
+          }
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Why Icanio",
+      "heading": "Why colleges choose Icanio Tech School for college programs",
+      "intro": "Our trainers are not full-time lecturers. They are engineers, architects and product managers on active client projects.",
+      "paragraphs": [
+        "Icanio Technologies builds AI, cloud, data and software systems for more than 100 businesses. Icanio Tech School brings that experience into your college. The engineer who runs your value added course is someone who ships client work every week.",
+        "That changes what our college programs teach. Students learn the tools and habits teams really use, not just the theory. Faculty see current practice up close. The institution gains a partner who understands both the campus and the workplace.",
+        "Every trainer in our college programs has 3+ years of client delivery experience and is background verified by Icanio HR. Curriculum is written from live project experience and refreshed regularly. In our experience, that link to real work is what students and faculty value most."
+      ],
+      "bullets": [
+        "Programs delivered by practising Icanio engineers",
+        "Trainers with 3+ years of client delivery experience",
+        "Background verification by Icanio HR",
+        "Top-performing students referred to the Icanio talent team"
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Icanio engineer mentoring a student during college programs"
+      },
+      "link": {
+        "label": "Meet our industry trainers",
+        "href": "/industry-trainers"
+      }
+    },
+    {
+      "type": "checklist",
+      "eyebrow": "Before you enquire",
+      "heading": "What helps us plan college programs quickly",
+      "intro": "You do not need all of this to get started. Having a few of these ready helps our team suggest the right plan on the first call.",
+      "items": [
+        "The departments and years of study you want to cover",
+        "Approximate batch sizes for each department",
+        "The skills or tools your recruiters ask for most often",
+        "Your academic calendar, including exams and semester breaks",
+        "A named coordinator from the placement cell or a department",
+        "Any accreditation or reporting goals for the year"
+      ],
+      "image": {
+        "src": "ourInternshipProgramImg.png",
+        "alt": "Placement officer planning college programs with Icanio Tech School"
+      }
+    },
+    {
+      "type": "gallery",
+      "eyebrow": "On campus",
+      "heading": "Recent college programs across Tamil Nadu",
+      "intro": "A few recent MoU signings, courses, lectures and visits with our partner colleges.",
+      "items": [
+        {
+          "src": "23585-1.jpeg",
+          "alt": "MoU signing with Rajalakshmi Engineering College, Chennai",
+          "caption": "Rajalakshmi Engineering College, Chennai: MoU signed for learning, industry exposure and career opportunities."
+        },
+        {
+          "src": "1000754026.jpeg",
+          "alt": "Value added course on .NET at Kamaraj College of Engineering and Technology",
+          "caption": "Kamaraj College of Engineering and Technology: value added course on .NET with C#, ASP.NET Core and databases."
+        },
+        {
+          "src": "1000243678.jpeg",
+          "alt": "Guest lecture at Velalar College of Engineering and Technology",
+          "caption": "Velalar College of Engineering and Technology, Erode: guest lecture on industry insights and emerging technology trends."
+        },
+        {
+          "src": "industryExposureProgramImg.png",
+          "alt": "Grace College of Engineering industrial visit",
+          "caption": "Grace College of Engineering: Industrial Visit Program on 15 January 2026 with over 150 students."
+        }
+      ]
+    },
+    {
+      "type": "partners",
+      "tone": "soft",
+      "eyebrow": "Trusted by colleges",
+      "heading": "30+ colleges run college programs with us",
+      "intro": "Engineering and arts and science colleges across Tamil Nadu partner with Icanio Tech School through an MoU.",
+      "limit": 10
+    },
+    {
+      "type": "testimonials",
+      "eyebrow": "Student voices",
+      "heading": "What students say about learning with Icanio",
+      "intro": "Students who trained with our engineers describe what changed for them. Press play to hear them."
+    },
+    {
+      "type": "links",
+      "eyebrow": "Keep exploring",
+      "heading": "More for colleges",
+      "items": [
+        {
+          "title": "Partner colleges",
+          "href": "/partner-colleges",
+          "body": "The 30+ colleges across Tamil Nadu that work with us through an MoU."
+        },
+        {
+          "title": "Campus events",
+          "href": "/campus-events",
+          "body": "MoU signings, workshops, value added courses and guest lectures."
+        },
+        {
+          "title": "Technical workshops",
+          "href": "/technical-workshops",
+          "body": "Short, practical sessions on emerging technologies for students."
+        },
+        {
+          "title": "Student Development Program",
+          "href": "/student-development-program",
+          "body": "Nine soft skill modules built on real IT workplace scenarios."
+        },
+        {
+          "title": "Student success stories",
+          "href": "/student-success-stories",
+          "body": "Completions and placements from students at partner colleges."
+        },
+        {
+          "title": "Contact our team",
+          "href": "/contact",
+          "body": "Talk to us about college programs for your institution."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "college",
+      "tone": "soft",
+      "eyebrow": "Start the conversation",
+      "heading": "Enquire about college programs for your institution",
+      "intro": "Tell us about your college, departments and goals. Our team replies within one working day with a suggested plan.",
+      "points": [
+        "No cost to enquire or to meet our team",
+        "Guest lectures are completely free",
+        "One coordinator at Icanio Tech School for your college"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which college programs should we start with?",
+      "a": "Most colleges start with an MoU partnership or a free guest lecture. The MoU sets a yearly plan and gives priority access to other programs. A guest lecture is a quick way to see how our engineers work with your students. Our team will recommend a starting point after a short call."
+    },
+    {
+      "q": "Are your college programs free?",
+      "a": "Guest lectures are completely free, with no participation cost. MoU colleges get access to free or sponsored internships for students. For other college programs, our team shares details once we understand your departments, batch sizes and goals."
+    },
+    {
+      "q": "Who delivers the college programs?",
+      "a": "Practising engineers, architects and product managers from Icanio Technologies deliver every program. Trainers have 3+ years of client delivery experience and are background verified by Icanio HR. They bring real project examples into your classrooms and labs."
+    },
+    {
+      "q": "Do college programs run on our campus?",
+      "a": "Most do. Value added courses, guest lectures and many faculty development programs run on your campus, in your labs and halls. FDPs can also run online or in hybrid mode. Industrial visits take place at Icanio Technologies, and internships can be offline, online or part time."
+    },
+    {
+      "q": "Can arts and science colleges join?",
+      "a": "Yes. Our partners include engineering colleges, arts and science colleges and an institute of business administration. Programs such as Python, Data Science, UI/UX, career readiness and non-engineering internships suit B.Sc., BCA, MCA and MBA students well."
+    },
+    {
+      "q": "Can we run more than one program in a semester?",
+      "a": "Yes. Many partner colleges combine a guest lecture for junior students, a value added course for pre-final years and internships for final years in the same semester. Our team plans the college programs around your calendar so they do not clash with exams or with each other."
+    },
+    {
+      "q": "How do college programs support NAAC or NBA?",
+      "a": "Accreditation teams look for active industry collaboration and skill development. Our college programs give you a signed MoU plus records of courses, lectures, visits and internships, with attendance and certificates. These help your IQAC show a documented, ongoing industry partnership."
+    },
+    {
+      "q": "Do students get certificates?",
+      "a": "Yes. Students who complete value added courses and internships receive an Icanio Tech School certificate. Faculty who complete a faculty development program also receive a certificate. MoU colleges can run joint certification initiatives for selected programs."
+    },
+    {
+      "q": "How soon can we start?",
+      "a": "After the first call, our team visits or meets you online and proposes a plan. Many colleges run their first guest lecture or value added course within the same semester. Send the enquiry form below to begin."
+    }
+  ],
+  "takeaways": [
+    "Icanio Tech School offers six college programs, from an MoU partnership to internships for students.",
+    "Every program is delivered by practising engineers from Icanio Technologies, a Tamil Nadu based AI company.",
+    "Guest lectures are free, and MoU colleges get free or sponsored internships for students.",
+    "Most partnerships grow in stages: MoU, then guest lectures and value added courses, then internships.",
+    "Over 30 colleges across Tamil Nadu already run college programs with us."
+  ],
+  "conclusion": [
+    "Colleges and industry want the same thing: graduates who can do real work from day one. Our college programs give your students and faculty regular contact with engineers who do that work every day.",
+    "You do not need to plan everything at once. Start with one of our college programs, see the results and build from there. Our team will help you choose the first step and plan the semester ahead."
+  ],
+  "references": [
+    {
+      "label": "AICTE Internship Policy and guidelines",
+      "href": "https://www.aicte-india.org/education/internship"
+    },
+    {
+      "label": "National Education Policy 2020, Ministry of Education",
+      "href": "https://www.education.gov.in/nep/about-nep"
+    },
+    {
+      "label": "Skill India, Government of India",
+      "href": "https://www.skillindia.gov.in/"
+    },
+    {
+      "label": "Memorandum of understanding, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Memorandum_of_understanding"
+    }
+  ],
+  "cta": {
+    "title": "Plan college programs for your institution",
+    "body": "Book a call with our team. We will review your goals and suggest the right mix of programs for the semester.",
+    "primary": {
+      "label": "Enquire now",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "Explore an MoU partnership",
+      "href": "/college-programs/mou-partnership"
+    }
+  }
+}

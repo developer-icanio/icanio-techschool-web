@@ -1,0 +1,484 @@
+{
+  "path": "/technical-workshops",
+  "kind": "program",
+  "label": "Technical Workshops",
+  "seo": {
+    "metaTitle": "Technical Workshops: 8 Essential Tech Domains",
+    "metaDescription": "Hands-on technical workshops by Icanio Tech School in Python, web development, AI, DevOps, UI/UX and more. Half-day to multi-day formats for students.",
+    "focusKeyword": "technical workshops",
+    "secondaryKeywords": [
+      "hands-on workshops for students",
+      "python workshop",
+      "ai and ml workshop",
+      "workshops for colleges",
+      "tech workshops in tamil nadu"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "Hands-on learning",
+    "title": "Technical Workshops With Live Demos and Guided Practice",
+    "subtitle": "Our technical workshops give students short, practical exposure to the technologies shaping IT careers. Icanio engineers run live demos, walk you through real tools and guide you as you build, in formats from half a day to several days.",
+    "image": {
+      "src": "Group-2085662141-1.png",
+      "alt": "Students in hands-on technical workshops by Icanio Tech School"
+    },
+    "primary": {
+      "label": "Register your interest",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "See workshop domains",
+      "href": "#domains"
+    },
+    "highlights": [
+      "8 technology domains",
+      "Half-day to multi-day formats",
+      "Led by Icanio engineers",
+      "On campus or at our centre"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Domains",
+      "value": "8 technical domains"
+    },
+    {
+      "label": "Format",
+      "value": "Half-day to multi-day"
+    },
+    {
+      "label": "Delivered by",
+      "value": "Practising Icanio engineers"
+    },
+    {
+      "label": "For",
+      "value": "Students and colleges"
+    }
+  ],
+  "answer": {
+    "question": "What are technical workshops at Icanio Tech School?",
+    "answer": "Technical workshops at Icanio Tech School are short, hands-on sessions in domains such as Python, web development, data science, AI and ML, DevOps, UI/UX, mobile apps and software testing. Icanio engineers lead live demos, tool walkthroughs and guided practice. Formats run from half a day to several days, for individual students or whole college batches."
+  },
+  "sections": [
+    {
+      "type": "prose",
+      "eyebrow": "Overview",
+      "heading": "Hands-on technical workshops, not slide shows",
+      "paragraphs": [
+        "Our technical workshops are interactive from the first minute. Students watch a live demo, then open the same tools and try it themselves. An engineer walks the room, answers questions and helps anyone who gets stuck.",
+        "Each session explores real use cases, so students see where a technology fits in actual products. We also share what industry expects from freshers in that domain, and how to build a career path around it.",
+        "Technical workshops work best as a first step. They help you test your interest in a domain before you commit to a longer internship or course.",
+        "Sessions are small enough for real help. Trainers check that every student has the tools running before moving on. Nobody is left behind at the setup stage, which is where many online tutorials lose beginners."
+      ],
+      "bullets": [
+        "Hands-on sessions with live demos and real-world applications",
+        "Exposure to multiple tech domains with guidance from industry experts",
+        "Flexible, customisable formats from half-day to multi-day sessions"
+      ],
+      "image": {
+        "src": "Group-2085662171.png",
+        "alt": "Group of students at one of the technical workshops run by Icanio"
+      },
+      "link": {
+        "label": "Compare internship tracks",
+        "href": "/internships"
+      }
+    },
+    {
+      "type": "cards",
+      "tone": "soft",
+      "eyebrow": "What we bring",
+      "heading": "What our technical workshops bring to students",
+      "intro": "Every workshop is designed to leave students with practical skills, a clearer view of a domain and a plan for what to learn next.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "Short-term practical exposure",
+          "body": "Students complete real tasks during the session, so they leave having built something small but working, not just having watched someone else do it.",
+          "icon": "Group-1000005365-1-1.png"
+        },
+        {
+          "title": "Clear domain understanding",
+          "body": "A structured walkthrough explains what the domain is, which tools it uses and where it fits in a real product team.",
+          "icon": "Group-1000005365-9.png"
+        },
+        {
+          "title": "Career clarity and motivation",
+          "body": "Engineers share how they entered the field and what their work looks like day to day. Students often leave with a much clearer sense of direction.",
+          "icon": "Group-1000005365-3-1.png"
+        },
+        {
+          "title": "Career guidance and roadmap planning",
+          "body": "We close each workshop with a simple roadmap: the skills to learn next, the projects to build and the internship tracks that lead to jobs in that domain.",
+          "icon": "Group-1000005365-2-1.png"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "domains",
+      "eyebrow": "Workshop domains",
+      "heading": "Domains covered in our technical workshops",
+      "intro": "Choose one domain for a focused session, or combine two or three for a multi-day event. Each links to the internship track that goes deeper.",
+      "columns": 4,
+      "items": [
+        {
+          "title": "Python Programming",
+          "body": "Learn Python basics and problem solving, then write small programs that automate everyday tasks. A great first domain for any branch.",
+          "icon": "Group-2085663221-1.png",
+          "href": "/internships/backend-development-internship"
+        },
+        {
+          "title": "Web Development",
+          "body": "Build a responsive web page and see how frontend and backend work together in a real site. Students leave with a page they can publish.",
+          "icon": "Group-2085663222.png",
+          "href": "/internships/full-stack-development-internship"
+        },
+        {
+          "title": "Data Science",
+          "body": "Explore a dataset, find trends and turn numbers into insights that support decisions. Useful for engineering and non-engineering students alike.",
+          "icon": "Group-2085663234.png",
+          "href": "/internships/data-analyst-internship"
+        },
+        {
+          "title": "AI & Machine Learning",
+          "body": "Understand core AI ideas and train a simple machine learning model on real data. Ideal for students curious about careers in AI.",
+          "icon": "Group-2085663233.png",
+          "href": "/internships/ai-ml-internship"
+        },
+        {
+          "title": "DevOps",
+          "body": "See how automation, CI/CD and deployment pipelines move code from a laptop to production. Shows why automation matters in modern teams.",
+          "icon": "Group-2085663224.png",
+          "href": "/internships/devops-internship"
+        },
+        {
+          "title": "UI/UX Design",
+          "body": "Design a user-friendly screen, from wireframe to clickable prototype, with basic usability checks. Suits creative students and future product builders.",
+          "icon": "Group-2085663230.png",
+          "href": "/internships/ui-ux-design-internship"
+        },
+        {
+          "title": "Mobile App Development",
+          "body": "Build a simple cross-platform app and run it on a phone or emulator during the session. A fun, visual domain for beginners.",
+          "icon": "Group-2085663228.png",
+          "href": "/internships/flutter-developer-internship"
+        },
+        {
+          "title": "Software Testing",
+          "body": "Learn testing techniques, write test cases and try both manual and automated checks. Builds the quality mindset every team values.",
+          "icon": "Group-2085663231.png",
+          "href": "/internships/software-testing-internship"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "tone": "soft",
+      "eyebrow": "Formats",
+      "heading": "Technical workshops formats: half-day to multi-day",
+      "intro": "Pick the length that fits your timetable. Our team customises the content to the level of your students.",
+      "columns": [
+        "Format",
+        "Best for",
+        "What students do"
+      ],
+      "rows": [
+        [
+          "Half-day",
+          "A first look at one domain",
+          "Live demo and one guided exercise"
+        ],
+        [
+          "Full day",
+          "Deeper practice in one domain",
+          "Demo, several exercises and a mini build"
+        ],
+        [
+          "Multi-day",
+          "Symposiums, tech fests, bootcamps",
+          "Guided mini project across one or more domains"
+        ]
+      ],
+      "note": "We recommend a multi-day format when students are new to a domain and want to leave with something they can add to a portfolio."
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Choosing a domain",
+      "heading": "How to choose the right technical workshops for your batch",
+      "paragraphs": [
+        "Start with where your students are now. First-year students usually enjoy Python or web development, because they see results on screen quickly. Pre-final and final-year students often want AI and ML, DevOps or software testing, since these link directly to job roles.",
+        "Next, think about the branch. CSE and IT students can go deeper into code in any domain. ECE, EEE and mechanical students often find data science or Python a friendly bridge into software. Students interested in design and product thinking tend to love UI/UX sessions.",
+        "Finally, consider the goal of the event. A symposium or tech fest suits a short, lively demo with a quick build. A department that wants lasting skills should choose a multi-day format with a mini project. Our team will help you match the domain and format to that goal."
+      ]
+    },
+    {
+      "type": "checklist",
+      "tone": "soft",
+      "eyebrow": "Before the day",
+      "heading": "What a college needs for on-campus technical workshops",
+      "intro": "The setup is simple. Here is what usually helps a session run smoothly.",
+      "items": [
+        "A computer lab or hall with power points for student laptops",
+        "A projector or large screen for the live demo",
+        "Stable internet access for installing tools and libraries",
+        "A faculty coordinator to help with timing and attendance",
+        "The number of students and their year and branch, shared in advance",
+        "A rough idea of the domain and the date range you prefer"
+      ],
+      "image": {
+        "src": "ValueAddedCourseImg.png",
+        "alt": "College lab set up for technical workshops by Icanio Tech School"
+      }
+    },
+    {
+      "type": "steps",
+      "eyebrow": "How it runs",
+      "heading": "How our technical workshops run, step by step",
+      "intro": "Every workshop follows a simple, proven rhythm that keeps students doing, not just listening.",
+      "items": [
+        {
+          "title": "Plan the session with you",
+          "body": "Our team agrees the domain, format, student level and available lab setup before the day."
+        },
+        {
+          "title": "Live demo by an engineer",
+          "body": "An Icanio engineer shows the technology in action on a real example, explaining each step."
+        },
+        {
+          "title": "Tool walkthrough",
+          "body": "Students open the same tools and follow along, so setup problems are solved together."
+        },
+        {
+          "title": "Guided practice",
+          "body": "Students build their own version with the trainer and helpers moving around the room."
+        },
+        {
+          "title": "Use cases and career guidance",
+          "body": "We end with real-world applications, industry expectations and a roadmap for what to learn next."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "For colleges",
+      "heading": "Bring technical workshops to your campus",
+      "paragraphs": [
+        "Many colleges in Tamil Nadu invite us to run technical workshops on campus. They fit well into department association events, symposiums, tech fests and value added hours. Our team brings the content, the trainers and the exercises.",
+        "Workshops often become the first step in a longer relationship. Colleges that partner through an MoU get priority access to workshops, along with value added courses, guest lectures, faculty development programs and internships for students.",
+        "Tell us your department, the number of students, the domain and the dates you have in mind. We will suggest a format and share a plan for the session."
+      ],
+      "bullets": [
+        "Content matched to your students' year and branch",
+        "Trainers are practising Icanio engineers",
+        "Works with your existing computer lab"
+      ],
+      "image": {
+        "src": "WorkshopsImg.png",
+        "alt": "On-campus technical workshops for college students by Icanio Tech School"
+      },
+      "reverse": true,
+      "link": {
+        "label": "Explore programs for colleges",
+        "href": "/college-programs"
+      }
+    },
+    {
+      "type": "gallery",
+      "eyebrow": "From our sessions",
+      "heading": "Technical workshops we have run on campus",
+      "intro": "A few recent sessions at partner colleges across Tamil Nadu.",
+      "items": [
+        {
+          "src": "100075379710.jpeg",
+          "alt": "Hands-on session at Dr.N.G.P. Arts and Science College",
+          "caption": "An engaging hands-on session at Dr.N.G.P. Arts and Science College, giving students practical experience with new tools."
+        },
+        {
+          "src": "1000753897.jpeg",
+          "alt": "Workshop at Sankar Polytechnic College",
+          "caption": "A practical workshop at Sankar Polytechnic College, where students learned by building, not just listening."
+        },
+        {
+          "src": "1000753839.jpeg",
+          "alt": "Workshop at Karpagam College of Engineering",
+          "caption": "An interactive workshop at Karpagam College of Engineering with guided practice for every student."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Why Icanio",
+      "heading": "Why students learn more in our technical workshops",
+      "paragraphs": [
+        "Icanio Technologies is a Tamil Nadu based AI company trusted by 100+ businesses. The engineers who run our technical workshops use these tools on client work every week. That is why their demos show real problems, not textbook examples.",
+        "In our experience, students remember what they build far longer than what they hear. So every workshop has a hands-on part, even the half-day ones. Students leave with working code, a design file or a test report they created.",
+        "After a workshop, students who want more can join one of our 15 internship tracks or the Student Development Program. The workshop becomes the starting point of a clear learning path.",
+        "We also collect feedback at the end of every session. Our team reviews it and adjusts the exercises for the next batch. This keeps the content current as tools change, and it means each college gets a workshop shaped by what worked for students before them."
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Icanio engineer helping a student during technical workshops"
+      },
+      "link": {
+        "label": "See the Student Development Program",
+        "href": "/student-development-program"
+      }
+    },
+    {
+      "type": "testimonials",
+      "tone": "soft",
+      "eyebrow": "In their words",
+      "heading": "Student success stories",
+      "intro": "Students who trained with Icanio Tech School share what hands-on learning changed for them."
+    },
+    {
+      "type": "links",
+      "eyebrow": "Keep exploring",
+      "heading": "Related programs",
+      "items": [
+        {
+          "title": "All internship tracks",
+          "href": "/internships",
+          "body": "Go deeper in any workshop domain with a 15 day to six month internship."
+        },
+        {
+          "title": "Value added courses",
+          "href": "/college-programs/value-added-courses",
+          "body": "Longer, lab-based courses delivered on your campus."
+        },
+        {
+          "title": "Guest lectures",
+          "href": "/college-programs/guest-lectures",
+          "body": "Industry talks on AI, cloud, DevOps and careers."
+        },
+        {
+          "title": "Campus events",
+          "href": "/campus-events",
+          "body": "Photos and notes from workshops, MoU signings and lectures."
+        },
+        {
+          "title": "MoU partnership",
+          "href": "/college-programs/mou-partnership",
+          "body": "Priority access to workshops and more for partner colleges."
+        },
+        {
+          "title": "How to apply",
+          "href": "/apply-for-internship",
+          "body": "Ready to go further? See eligibility and the application steps."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "student",
+      "eyebrow": "Learn smarter. Build better.",
+      "heading": "Register for upcoming technical workshops",
+      "intro": "Tell us which domain interests you. Our team will share upcoming sessions and suggest a next step. Colleges can use the enquiry option on our contact page.",
+      "points": [
+        "Hands-on practice in every session",
+        "Led by practising Icanio engineers",
+        "Formats from half-day to multi-day"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which domains do your technical workshops cover?",
+      "a": "We run technical workshops in eight domains: Python programming, web development, data science, AI and machine learning, DevOps, UI/UX design, mobile app development and software testing. Colleges can pick one domain for a focused session or combine several for a multi-day event."
+    },
+    {
+      "q": "How long is a technical workshop?",
+      "a": "Formats range from half a day to several days. A half-day session gives a first hands-on look at one domain. Full-day and multi-day formats add more practice and a mini project. Our team customises the length to your timetable and your students' level."
+    },
+    {
+      "q": "Who conducts the workshops?",
+      "a": "Practising Icanio engineers lead every session. They work on client projects at Icanio Technologies, have 3+ years of delivery experience and are background verified by Icanio HR. That is why their demos are built on real problems and current tools."
+    },
+    {
+      "q": "Do students need prior experience?",
+      "a": "No. Most technical workshops start from the basics and build up through guided practice. We adjust the depth for first-year, pre-final and final-year students. If a batch already knows the fundamentals, we move faster and spend more time on the build."
+    },
+    {
+      "q": "Can you run technical workshops at our college?",
+      "a": "Yes. We regularly run workshops on campuses across Tamil Nadu, for department events, symposiums and value added hours. Share the domain, dates and number of students, and our team will propose a format. Visit the college programs page to see what else we offer."
+    },
+    {
+      "q": "What do students take away from a workshop?",
+      "a": "Students leave with hands-on experience, a small project or exercise they built themselves, and a clear roadmap of what to learn next. We also explain the internship tracks and career paths linked to that domain."
+    },
+    {
+      "q": "How is a workshop different from an internship?",
+      "a": "A workshop is a short introduction, from half a day to a few days. An internship runs from 15 days to six months, with a mentor, a live project and a certificate. Many students attend a workshop first, then choose an internship in the domain they enjoyed."
+    },
+    {
+      "q": "How do I register for a workshop?",
+      "a": "Fill in the form on this page with the domain you are interested in. Our team replies within one working day with upcoming sessions. If you represent a college, use the contact page to request an on-campus session for your students."
+    }
+  ],
+  "takeaways": [
+    "Technical workshops at Icanio Tech School cover eight domains, from Python to software testing.",
+    "Formats run from half-day sessions to multi-day events, customised to each batch.",
+    "Every session includes a live demo, a tool walkthrough, guided practice and career guidance.",
+    "Practising Icanio engineers lead the workshops, on campus or at our centre.",
+    "Workshops are a first step, leading naturally into internships or the Student Development Program."
+  ],
+  "conclusion": [
+    "A good workshop answers one question for a student: is this domain for me? Our technical workshops answer it by letting students build something real, guided by engineers who do this work every day.",
+    "Students can register interest through the form below. Colleges that want technical workshops on campus can talk to our team about domains, dates and formats, and plan them alongside other programs."
+  ],
+  "references": [
+    {
+      "label": "Workshop, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Workshop"
+    },
+    {
+      "label": "Python official documentation",
+      "href": "https://docs.python.org/3/"
+    },
+    {
+      "label": "MDN Web Docs: learn web development",
+      "href": "https://developer.mozilla.org/en-US/docs/Learn"
+    },
+    {
+      "label": "Skill India, Government of India",
+      "href": "https://www.skillindia.gov.in/"
+    }
+  ],
+  "cta": {
+    "title": "Want hands-on learning on your campus?",
+    "body": "Students can register interest in upcoming sessions. Colleges can plan technical workshops with our team.",
+    "primary": {
+      "label": "Register your interest",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "Programs for colleges",
+      "href": "/college-programs"
+    }
+  },
+  "course": {
+    "name": "Technical Workshops",
+    "description": "Hands-on technical workshops by Icanio Tech School in Python, web development, data science, AI and ML, DevOps, UI/UX, mobile apps and software testing.",
+    "duration": "Half-day to multi-day",
+    "modes": [
+      "Onsite",
+      "Online",
+      "Blended"
+    ],
+    "skills": [
+      "Python programming",
+      "Web development",
+      "Data science",
+      "Machine learning",
+      "DevOps",
+      "UI/UX design",
+      "Mobile app development",
+      "Software testing"
+    ],
+    "audience": "College students"
+  }
+}

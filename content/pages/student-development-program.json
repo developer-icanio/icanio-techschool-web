@@ -1,0 +1,254 @@
+{
+  "path": "/student-development-program",
+  "kind": "program",
+  "label": "Student Development Program",
+  "seo": {
+    "metaTitle": "Student Development Program: 9 Essential Skills",
+    "metaDescription": "The Student Development Program at Icanio Tech School builds 9 workplace soft skills through real IT scenarios, plus resume and interview prep. Enquire now.",
+    "focusKeyword": "student development program",
+    "secondaryKeywords": ["soft skills training for students", "soft skills for it jobs", "interview preparation", "employability skills", "career readiness program"],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "Soft skills for IT careers",
+    "title": "Student Development Program for Industry-Ready Careers",
+    "subtitle": "The Icanio Tech School student development program builds the nine workplace skills that decide how fast a new graduate grows in an IT job. You learn through real workplace scenarios, guided by people who work in tech every day.",
+    "image": { "src": "Group-2085663235.png", "alt": "Students building workplace skills in the student development program at Icanio Tech School" },
+    "primary": { "label": "Join the program", "href": "#apply" },
+    "secondary": { "label": "View the nine modules", "href": "#curriculum" },
+    "highlights": ["9 soft skill modules", "Built on real IT workplace scenarios", "Resume and interview preparation", "Pathway to Icanio's talent network"]
+  },
+  "facts": [
+    { "label": "Modules", "value": "9 workplace soft skill modules" },
+    { "label": "Approach", "value": "Real IT workplace scenarios" },
+    { "label": "For", "value": "Students, freshers and colleges" },
+    { "label": "Outcome", "value": "Interview and career readiness" }
+  ],
+  "answer": {
+    "question": "What is the student development program at Icanio Tech School?",
+    "answer": "The student development program is a soft skills curriculum from Icanio Tech School, the education arm of Icanio Technologies in Tamil Nadu. It has nine modules, from professional communication to career growth, taught through real IT workplace scenarios. Students build these skills alongside technical training, and finish with resume support, interview practice and a clearer career direction."
+  },
+  "sections": [
+    {
+      "type": "prose",
+      "eyebrow": "Program overview",
+      "heading": "Why a student development program matters for IT jobs",
+      "paragraphs": [
+        "Most campus training focuses only on technical skills. Many graduates then find the first IT job harder than expected. The reason is rarely code. It is speaking up in a stand-up, handling a sprint deadline or disagreeing politely on a client call.",
+        "Our student development program works on both sides. Students keep building technical skills, and in parallel they practise the nine professional skills that turn a capable engineer into a trusted team member.",
+        "Each session starts from a situation you will actually meet at work. You discuss it, try it, get feedback and try again. That is how habits form, and habits are what managers notice in the first six months."
+      ],
+      "bullets": [
+        "Scenario-based sessions, not lectures on theory",
+        "Practice with feedback in every module",
+        "Designed around how Icanio teams really work",
+        "Pairs well with any of our 15 internship tracks"
+      ],
+      "image": { "src": "studentProgramOverviewImg.png", "alt": "Group session in the student development program at Icanio Tech School" },
+      "link": { "label": "Explore internship tracks", "href": "/internships" }
+    },
+    {
+      "type": "cards",
+      "tone": "soft",
+      "eyebrow": "How it helps",
+      "heading": "How our student development program helps you grow",
+      "intro": "The student development program helps students bridge the gap between academics and industry in three ways.",
+      "columns": 3,
+      "items": [
+        { "title": "Skill development", "body": "Strengthen your technical knowledge, professional skills and logical thinking, so you can solve real problems with confidence rather than guesswork." },
+        { "title": "Real-world exposure", "body": "Gain hands-on experience through practical tasks and project situations. You see how work actually happens in a software company, not just how it is described." },
+        { "title": "Career preparation", "body": "Get guidance on career planning, resume building, interview preparation and professional ethics. You leave knowing what to do next and how to present yourself." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "curriculum",
+      "eyebrow": "Soft skills curriculum",
+      "heading": "The nine modules of the student development program",
+      "intro": "Nine modules built on real IT workplace scenarios. Each one focuses on situations students will face in their first job.",
+      "columns": 3,
+      "items": [
+        { "title": "1. Professional Communication", "body": "Speak and write clearly at work. Practise stand-up updates, status emails, meeting notes and client calls, so your ideas are understood the first time.", "meta": "Module 1" },
+        { "title": "2. Office Etiquette & Professionalism", "body": "Learn the workplace behaviour teams expect: punctuality, meeting manners, respectful messaging and how to represent your company well.", "meta": "Module 2" },
+        { "title": "3. Teamwork & Interpersonal Skills", "body": "Work well with others. Share tasks, give and receive feedback, handle disagreement calmly and build trust across a project team.", "meta": "Module 3" },
+        { "title": "4. Problem Solving", "body": "Strengthen logical thinking for IT work. Break a problem into parts, test ideas step by step and explain the fix you chose.", "meta": "Module 4" },
+        { "title": "5. Critical Thinking", "body": "Question assumptions, weigh evidence and make informed decisions. Learn to spot weak arguments and choose between trade-offs.", "meta": "Module 5" },
+        { "title": "6. Time Management & Productivity", "body": "Plan your day, prioritise tasks and estimate effort honestly. Learn to meet sprint deadlines without last-minute panic.", "meta": "Module 6" },
+        { "title": "7. EQ & Stress Control", "body": "Build emotional resilience and self-management. Handle pressure, criticism and setbacks without losing focus or confidence.", "meta": "Module 7" },
+        { "title": "8. Leadership in Technology Roles", "body": "Lead through ownership, influence and contribution, even without a title. Learn to guide a task, support peers and take responsibility.", "meta": "Module 8" },
+        { "title": "9. Career Growth & Development", "body": "Set clear career goals and plan the skills you need next. Learn how reviews, promotions and learning plans work in IT companies.", "meta": "Module 9" }
+      ]
+    },
+    {
+      "type": "steps",
+      "tone": "soft",
+      "eyebrow": "How it runs",
+      "heading": "How a student development program session works",
+      "intro": "Every module in the student development program follows the same simple rhythm, so students always know what to expect.",
+      "items": [
+        { "title": "Start with a real scenario", "body": "The session opens with a workplace situation, such as a missed deadline, a confusing client request or a tense team meeting." },
+        { "title": "Discuss what good looks like", "body": "The group talks through options. The facilitator shares how experienced professionals handle the same situation." },
+        { "title": "Practise it yourself", "body": "Students role-play, write or present. Everyone gets a turn, because skills only grow through practice." },
+        { "title": "Get feedback and repeat", "body": "You receive specific feedback on what worked and what to change, then try again with the improvement." },
+        { "title": "Apply it to your career", "body": "Each module links back to interviews, internships and the first job, so the skill is ready when you need it." }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "In practice",
+      "heading": "What the nine skills look like in a real sprint week",
+      "paragraphs": [
+        "Picture your first week on a software team. On Monday you join sprint planning and must estimate your own tasks. That is time management and critical thinking. On Tuesday a teammate asks for help with a bug you do not fully understand. That is problem solving and teamwork.",
+        "On Wednesday the client changes a requirement on a call. You need to ask the right questions politely and write a clear summary afterwards. That is professional communication and office etiquette. On Thursday your pull request gets twelve review comments. Staying calm and learning from them is EQ and stress control.",
+        "On Friday you demo your work and suggest one improvement for the next sprint. That is leadership in a technology role. Over months, how you handle weeks like this shapes your career growth. The student development program lets you rehearse all of it before it counts."
+      ],
+      "image": { "src": "WhatWeDoSectionImg2.png", "alt": "Student practising a team scenario in the student development program" },
+      "link": { "label": "Read our soft skills guide", "href": "/career-guides/soft-skills-for-it-jobs" }
+    },
+    {
+      "type": "checklist",
+      "tone": "soft",
+      "eyebrow": "Outcomes",
+      "heading": "What you leave the student development program with",
+      "intro": "These are the practical results our team aims for with every student.",
+      "items": [
+        "Confidence to give clear stand-up updates and status reports",
+        "A resume that highlights projects and skills, reviewed with you",
+        "Practice answering behavioural and scenario interview questions",
+        "A personal plan for time, priorities and deadlines",
+        "Ways to handle feedback, pressure and conflict calmly",
+        "A written career goal with the next skills you need to build"
+      ],
+      "image": { "src": "ourInternshipProgramImg.png", "alt": "Student reviewing career goals after the student development program" }
+    },
+    {
+      "type": "table",
+      "eyebrow": "Compare",
+      "heading": "Student development program vs typical soft skills training",
+      "intro": "Both aim to improve soft skills. The difference is how close the practice is to real IT work.",
+      "columns": ["Aspect", "Our student development program", "Typical classroom session"],
+      "rows": [
+        ["Content", "Real IT workplace scenarios", "General theory and slides"],
+        ["Method", "Role-play, practice and feedback", "Mostly listening"],
+        ["Focus", "Nine skills used in tech teams", "Broad personality topics"],
+        ["Career link", "Resume, interviews, talent pathway", "Rarely connected"],
+        ["Pairing", "Runs alongside technical learning", "Stand-alone event"]
+      ],
+      "note": "We recommend taking the student development program alongside an internship, so you practise the skills on real project work."
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Why join",
+      "heading": "Why join our student development program?",
+      "intro": "The student development program is built around outcomes that matter when you face your first interview and your first team.",
+      "columns": 2,
+      "items": [
+        { "title": "Stronger interview performance", "body": "Walk into interviews prepared for real questions. You answer with examples from practice and experience, not rehearsed lines that fall apart under follow-up.", "icon": "Group-2085661816.png" },
+        { "title": "Resume building and interview preparation", "body": "Build a resume that shows what you can do, then gain confidence through guided mock interviews and honest feedback on every attempt.", "icon": "Group-2085661817.png" },
+        { "title": "Career direction and self-awareness", "body": "Understand your strengths, your goals and the habits you need to grow. Many students leave the student development program with a much clearer plan.", "icon": "Group-2085661818.png" },
+        { "title": "Pathway to Icanio's talent network", "body": "Top performers are reviewed by the Icanio talent team for internship and associate opportunities at Icanio Technologies.", "icon": "Group-2085661819.png" }
+      ]
+    },
+    {
+      "type": "cards",
+      "tone": "soft",
+      "eyebrow": "Eligibility",
+      "heading": "Who is eligible for the student development program?",
+      "intro": "The student development program suits anyone who wants to build workplace skills for a career in technology.",
+      "columns": 2,
+      "items": [
+        { "title": "Final and pre-final year students", "body": "Students aiming to enter IT with skills beyond a degree. These are the skills that drive hiring decisions and, later, promotions.", "icon": "Group-2085662024-18.png" },
+        { "title": "Early-career professionals", "body": "Junior employees who want to close gaps in communication, confidence and workplace habits early in their careers.", "icon": "Group-2085662024-19.png" },
+        { "title": "Colleges improving placements", "body": "Institutions that want better employability and placement results, with measurable outcomes and Icanio co-certification.", "icon": "Group-2085662024-20.png" },
+        { "title": "Career switchers", "body": "People moving into tech with self-taught skills who have not yet worked inside a real team or workplace.", "icon": "Group-2085662024-21.png" }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Why Icanio",
+      "heading": "Soft skills taught by people who work in tech",
+      "paragraphs": [
+        "Icanio Technologies is a Tamil Nadu based AI company trusted by 100+ businesses. Our team sees every day which habits help new hires succeed and which hold them back. The student development program is built from that experience.",
+        "The scenarios come from real delivery work: sprint planning, code reviews, client demos and tight release weeks. So the practice feels familiar when you reach your first job. Students often tell us the first stand-up felt easy because they had already rehearsed it.",
+        "For colleges, the student development program is a practical way to lift placement readiness across a batch. It can run alongside value added courses, workshops and internships under an MoU."
+      ],
+      "image": { "src": "Group-2085663181.png", "alt": "Career growth outcomes from the student development program by Icanio" },
+      "reverse": true,
+      "link": { "label": "Programs for colleges", "href": "/college-programs" }
+    },
+    {
+      "type": "testimonials",
+      "eyebrow": "In their words",
+      "heading": "Student success stories",
+      "intro": "Students who trained with Icanio Tech School talk about the confidence and practical skills they gained."
+    },
+    {
+      "type": "links",
+      "tone": "soft",
+      "eyebrow": "Keep exploring",
+      "heading": "Related programs and guides",
+      "items": [
+        { "title": "Soft skills for IT jobs", "href": "/career-guides/soft-skills-for-it-jobs", "body": "A guide to the workplace skills recruiters and managers look for." },
+        { "title": "All internship tracks", "href": "/internships", "body": "Pair the program with one of 15 engineering or non-engineering tracks." },
+        { "title": "Technical workshops", "href": "/technical-workshops", "body": "Short hands-on sessions in Python, web development, AI and more." },
+        { "title": "How to apply", "href": "/apply-for-internship", "body": "Eligibility, what to prepare and what happens after you apply." },
+        { "title": "MoU partnership", "href": "/college-programs/mou-partnership", "body": "How colleges bring our programs to campus through an MoU." },
+        { "title": "Student success stories", "href": "/student-success-stories", "body": "Completions and placements from students across Tamil Nadu." }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "student",
+      "eyebrow": "Learn smarter. Build better.",
+      "heading": "Join the student development program",
+      "intro": "Apply today and start building the skills that matter at work. Our team replies within one working day.",
+      "points": [
+        "Nine modules built on real IT workplace scenarios",
+        "Resume building and mock interviews included",
+        "Can be combined with any internship track"
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "What does the student development program cover?", "a": "It covers nine modules: professional communication, office etiquette and professionalism, teamwork and interpersonal skills, problem solving, critical thinking, time management and productivity, EQ and stress control, leadership in technology roles, and career growth and development. Each module uses real IT workplace scenarios." },
+    { "q": "Who should join the student development program?", "a": "It suits final and pre-final year students, early-career professionals, career switchers and colleges that want to improve placements. If you can code but feel nervous about interviews, meetings or client calls, the student development program is designed for you." },
+    { "q": "Is this only for engineering students?", "a": "No. The skills apply to any role in a technology company, from developer to HR or sales. Engineering, commerce, management and arts students all benefit. The scenarios are drawn from IT workplaces, so they are especially useful if you plan to work in tech." },
+    { "q": "Can I take it along with an internship?", "a": "Yes, and we recommend it. Taking the student development program alongside an internship lets you use the skills right away on real project work. You practise communication in stand-ups and time management against actual sprint deadlines." },
+    { "q": "How is it different from a normal soft skills class?", "a": "Most soft skills classes are lectures. Our sessions are built on real IT workplace situations. Students role-play, practise and get specific feedback, then try again. The focus is on habits you will use in your first job, not general theory." },
+    { "q": "Does the program help with interviews?", "a": "Yes. Resume building and guided mock interviews are part of the program. You learn to answer with real examples and handle follow-up questions calmly. Many students say this is the part that made the biggest difference." },
+    { "q": "Can my college run it for a whole batch?", "a": "Yes. Colleges use the student development program to improve employability and placement results across a batch, with Icanio co-certification. It can be combined with workshops, value added courses and internships under an MoU. Send an enquiry and our team will plan it with you." },
+    { "q": "What happens after I complete the program?", "a": "You leave with stronger communication, clearer career goals and interview practice. Top performers are reviewed by the Icanio talent team for internship and associate opportunities. Many students then continue with one of our 15 internship tracks." }
+  ],
+  "takeaways": [
+    "The student development program teaches nine soft skill modules built on real IT workplace scenarios.",
+    "Modules range from professional communication and teamwork to leadership and career growth.",
+    "Sessions follow a scenario, practice and feedback rhythm, not lectures.",
+    "Resume building, mock interviews and career direction are part of the program.",
+    "Top performers are reviewed by the Icanio talent team, and colleges can run it with co-certification."
+  ],
+  "conclusion": [
+    "Technical skills get you shortlisted. Workplace skills decide how you do once you are in the room and on the team. The student development program gives you both the practice and the feedback to get those skills right early.",
+    "Whether you are a student preparing for placements or a college planning for a batch, talk to our team. We will help you fit the student development program around your studies or your semester plan."
+  ],
+  "references": [
+    { "label": "Soft skills, overview on Wikipedia", "href": "https://en.wikipedia.org/wiki/Soft_skills" },
+    { "label": "Skill India, Government of India", "href": "https://www.skillindia.gov.in/" },
+    { "label": "National Education Policy 2020, Ministry of Education", "href": "https://www.education.gov.in/nep/about-nep" },
+    { "label": "AICTE internship policy and guidelines", "href": "https://www.aicte-india.org/education/internship" }
+  ],
+  "cta": {
+    "title": "Ready to build workplace skills?",
+    "body": "Join the student development program or ask us to run it for your college batch.",
+    "primary": { "label": "Join the program", "href": "#apply" },
+    "secondary": { "label": "Enquire for your college", "href": "/contact" }
+  },
+  "course": {
+    "name": "Student Development Program",
+    "description": "A nine-module soft skills program from Icanio Tech School, built on real IT workplace scenarios, with resume building and interview preparation.",
+    "duration": "Nine modules",
+    "modes": ["Onsite", "Online", "Blended"],
+    "skills": ["Professional communication", "Office etiquette", "Teamwork", "Problem solving", "Critical thinking", "Time management", "Emotional intelligence", "Leadership", "Career planning"],
+    "audience": "Students, freshers and early-career professionals"
+  }
+}

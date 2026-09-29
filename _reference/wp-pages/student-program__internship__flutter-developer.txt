@@ -1,0 +1,195 @@
+TITLE: Flutter Developer – Icanio Tech School
+DESC: None
+
+ Skip to content
+[IMG alt='' Group-16117.jpg] 
+Home
+Student Program
+Internship 
+Student Development Program 
+Workshops
+College Program
+Guest Lecture 
+Faculty Development Courses 
+Industrial Visit Program 
+MOU 
+Value Added Courses
+Gallery
+About Us
+X
+ Contact Us
+[H2] Mobile App Development With Internship Experience
+Train in Mobile app development with practical learning, live projects, and mentor guidance. Gain real-world experience in building cross-platform mobile apps while earning certification.
+ Apply For Mobile App Development 
+[IMG alt='' Frame-2085661693-1.png] 
+[H2] Enter one of the world's most
+in-demand careers. 
+[H2] 1:1
+Mentorship Support
+[H2] 4
+Learning Phases
+Students Trained 
+ 0
+ +
+Live Projects 
+ 0
+[H2] What You Will Learn in Mobile App Internship
+Gain essential flutter development skills and hands-on experience in building efficient and scalable applications.
+[H2] Mobile Dev Foundations
+[H2] PHASE 1
+Dart language fundamentals for Flutter
+JavaScript/TypeScript for React Native
+Mobile UI concepts & design principles
+Setting up emulators & dev environments
+Version control with Git & GitHub 
+[IMG alt='' code-01-1-150x150.png] 
+[H2] UI & Navigation
+[H2] PHASE 2
+Flutter widgets, layouts & styling
+React Native components & StyleSheet
+Navigation patterns (stack, tab, drawer)
+Responsive design for multiple screens
+Animations & gesture handling 
+[IMG alt='' monitor-02-2-150x150.png] 
+[H2] Backend & Data Integration
+[H2] PHASE 3
+REST API integration & async patterns
+Firebase Auth, Firestore & Storage
+Local data persistence (SQLite, Hive)
+State management (Provider, Redux)
+Push notifications & deep linking 
+[IMG alt='' settings-02-1-150x150.png] 
+[H2] Launch & Career Preparation
+[H2] PHASE 4
+App performance & crash analytics
+App Store & Google Play submission
+In-app purchases & monetization basics
+Capstone end-to-end pipeline project
+Mobile dev resume & interview prep 
+[IMG alt='' check-verified-01-150x150.png] 
+[H2] Hands-On Experience with Industry Tools
+Explore industry tools for building secure and scalable solutions with real-world experience .
+[IMG alt='' Group-7-2.png] 
+[H2] Flutter
+Mobile UI toolkit
+[IMG alt='' Frame-2085661721-1.png] 
+[H2] React Native
+JS mobile apps
+[IMG alt='' visual-studio-code-1-2-1-1.png] 
+[H2] Dev IDE tools
+DE & emulator tools
+[IMG alt='' firebase-1-1-2-1-1.png] 
+[H2] Firebase
+Auth & cloud tools
+[IMG alt='' figma-icon-2-2.png] 
+[H2] Figma
+Design & prototyping
+[IMG alt='' Frame-2085661702-1.png] 
+[H2] Postman
+API testing & debugging
+[IMG alt='' apple-app-store-2-1-1.png] 
+[H2] iOS store tools
+iOS deploy & testing
+[IMG alt='' google-play-5-2-1-1.png] 
+[H2] Android console
+Android deploy tools
+[H2] What You Will Achieve Through This Program
+[IMG alt='' customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-7-1.png] 
+[IMG alt='' Group-2085662024-1.png] 
+[H2] 4 Published Mobile Apps
+Build a Flutter UI showcase, a Firebase chat app, a React Native app, and a capstone app deployed to the App Store and Google Play.
+[IMG alt='' Group-2085662024-5-3.png] 
+[H2] Cross-Platform Fluency
+Develop once, deploy everywhere master Flutter and React Native to build apps on Android and iOS without compromise.
+[IMG alt='' Group-2085662024-6-2.png] 
+[H2] Full Deployment Experience
+Navigate the complete release process signing, versioning, store listings, and crash monitoring.
+[IMG alt='' Group-1000005365-6-2.png] 
+[H2] Portfolio Ready
+Graduate with 4 live, downloadable apps as proof of work, plus a mobile-focused resume reviewed by industry mentors.
+[H2] Who Is Eligible to Apply?
+Ideal for students and professionals looking to build or grow their skills.
+[IMG alt='' Group-2085662025-3.png] 
+[H2] App Idea Owners
+Founders and creators who want to turn their mobile app concept into a live, published product on major app stores.
+[IMG alt='' Group-2085662025-2-3.png] 
+[H2] Aspiring Mobile Developers
+Students who want a structured path into mobile engineering with real published apps to show recruiters and employers.
+[IMG alt='' Group-2085662024-12-1.png] 
+[H2] Web Developers Going Mobile
+Frontend or backend devs who want to extend skills to mobile learning Flutter or React Native to broaden scope.
+[IMG alt='' Group-2085662024-13-2.png] 
+[H2] CS Students
+Undergraduates wanting hands-on experience with mobile toolchains, CI/CD pipelines, and deployment.
+[IMG alt='' Group-2085662523-1.png] 
+[H2] Discover More Internship Opportunities
+Explore our internship programs to gain practical skills and real-world experience.
+Frontend Developer
+Backend Developer
+Software Testing
+AI/ML Engineer
+UI/UX Designer
+DevOps Engineer
+Flutter Developer
+Full Stack Developer
+Business Analyst
+Project Manager
+[H2] Contact Our 
+Tech School Team 
+Share your technical training needs through the form
+ below, and our Tech School team will respond promptly.
+[H2] Talk With Our Team 
+ techschool@icanio.com​
+ +91 9150009316​
+[IMG alt='smiling-young-woman-wearing-white-hat-pointing-finger-toward-white-card 1' smiling-young-woman-wearing-white-hat-pointing-finger-toward-white-card-1-169x300.png] 
+[H2] Apply for internship 
+First Name *
+Last Name *
+Email Address *
+Phone *
+Area of Interest *Front-End InternshipBack-End InternshipSoftware TestingAI and MLUI/UX DesignerDevOpsMobile App/Flutter DeveloperFull Stack DeveloperBusiness analystProject ManagerHuman ResourcesDigital MarketingSalesFinanceData Analyst
+Internship Duration *
+Description
+Submit
+[IMG alt='' Group-16117-300x115.jpg] 
+ICANIO Tech School aims to empower learners with industry-ready skills and practical knowledge, becoming a stepping stone in their tech careers. Connect with us to discover how we’ve helped students and freshers build successful careers—and how we can support your journey too. 
+ Instagram
+ X-twitter
+ Linkedin
+[H2] Quick Links 
+ Home
+ Student
+ College
+[H2] Company 
+ Icanio
+ Careers
+[H2] Contact Us 
+[IMG alt='' mail-01.png] Contact : 
+techschool@icanio.com 
+[IMG alt='' mail-01.png] Internship : 
+internship@icanio.com 
+[IMG alt='' phone-1.png]
+Mobile No :
++91 9150009316 
+ Copyright © 2026 Icanio Tech School
+[IMG alt='' Group-16117-300x115.jpg] 
+ICANIO Tech School aims to empower learners with industry-ready skills and practical knowledge, becoming a stepping stone in their tech careers. Connect with us to discover how we’ve helped students and freshers build successful careers—and how we can support your journey too. 
+ Instagram
+ X-twitter
+ Linkedin
+[H2] Quick Links 
+ Home
+ Student
+ College
+[H2] Company 
+ Icanio
+ Careers
+[H2] Contact Us 
+[IMG alt='' mail-01.png] Contact : 
+techschool@icanio.com 
+[IMG alt='' mail-01.png] Internship : 
+internship@icanio.com 
+[IMG alt='' phone-1.png] Mobile No : +91 9150009316
+ Copyright © 2026 Icanio Tech School
+ -->
+ Scroll to Top

@@ -1,0 +1,551 @@
+{
+  "path": "/internships/frontend-development-internship",
+  "kind": "internship",
+  "label": "Frontend Development Internship",
+  "parent": "/internships",
+  "seo": {
+    "metaTitle": "Frontend Development Internship: 4 Proven Phases",
+    "metaDescription": "Frontend development internship in Tamil Nadu: learn HTML, CSS, JavaScript, React and TypeScript on 3 live projects with 1:1 mentors and a certificate.",
+    "focusKeyword": "frontend development internship",
+    "secondaryKeywords": [
+      "react internship",
+      "web development internship",
+      "frontend internship for freshers",
+      "javascript internship in tamil nadu",
+      "ui developer internship"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "Engineering internship",
+    "title": "Frontend Development Internship With Live Projects",
+    "subtitle": "Our frontend development internship takes you from semantic HTML to production React and TypeScript. You build three live web projects, get 1:1 mentoring from an Icanio engineer and finish with a certificate and a deployed portfolio.",
+    "image": {
+      "src": "Frame-2085662898.png",
+      "alt": "Student building a responsive React interface during the frontend development internship at Icanio Tech School"
+    },
+    "primary": {
+      "label": "Apply for this internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "View curriculum",
+      "href": "#curriculum"
+    },
+    "highlights": [
+      "4 learning phases",
+      "3 live web projects",
+      "1:1 mentorship",
+      "Certificate on completion"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Duration",
+      "value": "15 days to 6 months"
+    },
+    {
+      "label": "Mode",
+      "value": "Offline, online or part time"
+    },
+    {
+      "label": "Mentorship",
+      "value": "1:1 with an Icanio engineer"
+    },
+    {
+      "label": "Certificate",
+      "value": "Yes, on completion"
+    }
+  ],
+  "answer": {
+    "question": "What is a frontend development internship at Icanio?",
+    "answer": "It is a structured internship at Icanio Tech School where you learn to build the part of a website or app that users see and touch. You move through four phases, from HTML and CSS to React, TypeScript, testing and deployment. A practising Icanio engineer mentors you 1:1, and you finish with three deployed projects and a certificate."
+  },
+  "sections": [
+    {
+      "type": "prose",
+      "eyebrow": "The role",
+      "heading": "What a frontend developer does, and why the role is in demand",
+      "intro": "Every product a business ships has a screen. Frontend developers are the people who build that screen and make it fast, clear and usable.",
+      "paragraphs": [
+        "A frontend developer turns a design into working code. You take a Figma file, break it into components and write the HTML, CSS and JavaScript that bring it to life in the browser. Then you connect it to real data from an API, handle loading and error states, and make sure it works on a cheap phone as well as a large monitor.",
+        "The work is more than layout. Good frontend engineers care about performance, accessibility and security. They write tests, review each other's code and ship through automated pipelines. Businesses need this skill because a slow or confusing interface loses customers, however good the backend is.",
+        "That is why a frontend development internship is one of the most practical first steps into IT. Almost every company in India, from startups in Chennai to product teams in Coimbatore, hires for React and JavaScript. A frontend development internship with a real software company lets you show employers shipped work, not just course notes."
+      ],
+      "bullets": [
+        "Convert designs into reusable, responsive components",
+        "Connect interfaces to REST APIs and handle real data",
+        "Keep pages fast, accessible and easy to maintain",
+        "Test, review and deploy code as part of a team"
+      ],
+      "image": {
+        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-15.png",
+        "alt": "Intern reviewing a deployed web project with a mentor at Icanio Tech School"
+      },
+      "link": {
+        "label": "Read the frontend developer roadmap",
+        "href": "/career-guides/frontend-developer-roadmap"
+      }
+    },
+    {
+      "type": "cards",
+      "tone": "soft",
+      "eyebrow": "Eligibility",
+      "heading": "Who is eligible for the frontend development internship?",
+      "intro": "You do not need prior work experience. You need curiosity about how the web works and a willingness to practise every day.",
+      "columns": 4,
+      "items": [
+        {
+          "title": "Design-minded builders",
+          "body": "You enjoy visual work and want to turn ideas into interactive pages people can actually use, with modern tools and clean code.",
+          "icon": "Group-2085662025-6-1.png"
+        },
+        {
+          "title": "Career switchers",
+          "body": "You work in another field and want in-demand web skills. Hands-on projects give you proof of ability that a resume alone cannot.",
+          "icon": "Group-2085662024-16-1.png"
+        },
+        {
+          "title": "Self-taught beginners",
+          "body": "You already know a little HTML and CSS from tutorials. The frontend development internship gives you structure, feedback and professional habits.",
+          "icon": "Group-2085662024-4-2.png"
+        },
+        {
+          "title": "CS and IT students",
+          "body": "You study B.E., B.Tech, B.Sc., BCA or MCA. A frontend development internship adds practical interface skills your college syllabus does not fully cover.",
+          "icon": "image-copy.png"
+        }
+      ]
+    },
+    {
+      "type": "phases",
+      "id": "curriculum",
+      "eyebrow": "Curriculum",
+      "heading": "What you will learn in the frontend development internship",
+      "intro": "The frontend development internship runs in four phases. Each phase ends with a mentor review before you move on, so gaps are fixed early.",
+      "items": [
+        {
+          "label": "Phase 1",
+          "title": "HTML, CSS and web foundations",
+          "points": [
+            "Semantic HTML5 and clean document structure that screen readers and search engines understand",
+            "CSS layouts with Flexbox and Grid, including common page patterns",
+            "Responsive design with media queries and a mobile-first approach",
+            "CSS variables and custom properties for themes and design tokens",
+            "Version control with Git and GitHub: branches, commits and pull requests"
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "title": "Core JavaScript, async code and APIs",
+          "points": [
+            "Core JavaScript: variables, functions, arrays, objects and modules",
+            "DOM manipulation and event handling without a framework",
+            "Asynchronous JavaScript with fetch, promises and async and await",
+            "Form validation and browser storage with localStorage and sessionStorage",
+            "An introduction to TypeScript types and why teams adopt them"
+          ]
+        },
+        {
+          "label": "Phase 3",
+          "title": "Performance, testing and accessibility",
+          "points": [
+            "Web performance and Core Web Vitals, measured in Chrome DevTools",
+            "Unit testing with Vitest and React Testing Library",
+            "Accessibility standards from WCAG 2.1: contrast, focus, labels and keyboard use",
+            "A capstone build of a full product interface from a real brief",
+            "Portfolio review and frontend interview practice with your mentor"
+          ]
+        },
+        {
+          "label": "Phase 4",
+          "title": "Advanced React, TypeScript and deployment",
+          "points": [
+            "Advanced React with TypeScript: hooks, context and typed props",
+            "State management and a library of reusable components",
+            "Authentication flows and role-based access in the interface",
+            "Deployment with a CI/CD pipeline to a hosting platform",
+            "Production optimisation and basic monitoring after release"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tools",
+      "tone": "soft",
+      "eyebrow": "Tools",
+      "heading": "Industry tools you will use every day",
+      "intro": "These are the tools our team uses on client work. In the frontend development internship you use them from week one, so your first job feels familiar.",
+      "items": [
+        {
+          "name": "React",
+          "role": "Component-based UI library",
+          "logo": "react-svgrepo-com-2-1.png"
+        },
+        {
+          "name": "JavaScript",
+          "role": "Primary language",
+          "logo": "javascript-r-2-2.png"
+        },
+        {
+          "name": "Tailwind CSS",
+          "role": "Utility-first styling",
+          "logo": "tailwind-css-2-1-1-2.png"
+        },
+        {
+          "name": "Figma",
+          "role": "Design-to-code handoff",
+          "logo": "Group-1000004941-2-1.png"
+        },
+        {
+          "name": "Vite",
+          "role": "Modern build tooling",
+          "logo": "vitejs-1-1.png"
+        },
+        {
+          "name": "GitHub",
+          "role": "Version control and reviews",
+          "logo": "github-icon-1-1-2-1.png"
+        },
+        {
+          "name": "Chrome DevTools",
+          "role": "Debugging and performance",
+          "logo": "chrome-devtools-svgrepo-com-1-3.png"
+        },
+        {
+          "name": "Vercel",
+          "role": "Deployment and hosting",
+          "logo": "vercel-fill-svgrepo-com-1-2.png"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Outcomes",
+      "heading": "Projects and outcomes you will achieve",
+      "intro": "By the end of the frontend development internship you will have work you can open in a browser and explain line by line in an interview.",
+      "columns": 4,
+      "items": [
+        {
+          "title": "3 live web projects",
+          "body": "A responsive portfolio site, a dynamic dashboard that reads from an API, and a capstone product interface, all deployed during the frontend development internship.",
+          "icon": "Group-2085662024-1.png"
+        },
+        {
+          "title": "React and state confidence",
+          "body": "Multi-page React apps with routing, shared state and clean API integration, built the way real product teams structure them.",
+          "icon": "Group-2085662024-4-4.png"
+        },
+        {
+          "title": "Accessible UI skills",
+          "body": "Semantic, accessible interfaces that meet WCAG guidelines. Few junior developers can show this, so it helps you stand out.",
+          "icon": "Group-2085662024-5-2.png"
+        },
+        {
+          "title": "A production-ready portfolio",
+          "body": "A tidy GitHub profile and deployed projects that show employers real frontend skill, with commit history and code reviews behind them.",
+          "icon": "Group-2085662024-6-1.png"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Why Icanio",
+      "heading": "Why do a frontend development internship with Icanio?",
+      "intro": "Icanio Tech School is the education arm of Icanio Technologies, a Tamil Nadu based AI company trusted by 100+ businesses.",
+      "paragraphs": [
+        "Our trainers are not full-time lecturers. They are practising Icanio engineers with 3+ years of client delivery, and they are background verified by Icanio HR. The person who reviews your React component in the frontend development internship reviews production code for clients every week.",
+        "That changes what you learn. You pick up naming conventions, folder structure, commit hygiene and review etiquette, the small habits that make a junior developer easy to work with. Code reviews in the frontend development internship follow internal Icanio standards, not a simplified classroom version.",
+        "In our experience, the interns who get hired fastest can explain one project deeply: why they chose a state approach, how they fixed a slow page, what they would change next time. Every frontend development internship at Icanio is designed to give you that story, backed by a live link."
+      ],
+      "bullets": [
+        "Mentors with 3+ years of client delivery experience",
+        "Weekly written code reviews on every pull request",
+        "Curriculum refreshed from live project work each cohort",
+        "Resume, mock interview and LinkedIn support before you finish"
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Icanio engineer mentoring an intern in the frontend development internship"
+      },
+      "reverse": true,
+      "link": {
+        "label": "Meet our industry trainers",
+        "href": "/industry-trainers"
+      }
+    },
+    {
+      "type": "checklist",
+      "tone": "soft",
+      "eyebrow": "Before you start",
+      "heading": "What you need for a frontend development internship",
+      "intro": "The bar to join is low. Here is what helps you get the most out of the first week.",
+      "items": [
+        "A laptop with at least 8 GB RAM and a modern browser such as Chrome",
+        "A free GitHub account, which our team helps you set up on day one",
+        "Basic comfort with typing, files and folders on your computer",
+        "One to two hours a day of practice outside mentor sessions",
+        "Willingness to ask questions and accept code review feedback"
+      ],
+      "image": {
+        "src": "ourInternshipProgramImg.png",
+        "alt": "Intern setting up a code editor on the first day of the frontend development internship"
+      }
+    },
+    {
+      "type": "steps",
+      "eyebrow": "How it runs",
+      "heading": "How the frontend development internship runs, week by week",
+      "intro": "The timeline stretches or compresses with your chosen duration. A one-month intern moves faster through each phase than a six-month intern, but the order stays the same.",
+      "items": [
+        {
+          "label": "Day 1",
+          "title": "Apply and speak to our team",
+          "body": "Send the short form. A counsellor calls you within one working day to confirm your level, goals, duration and batch."
+        },
+        {
+          "label": "Week 1",
+          "title": "Onboarding and setup",
+          "body": "You meet your mentor, set up your editor, Git and GitHub, and join the frontend development internship project board. You learn how our team runs stand-ups and reviews."
+        },
+        {
+          "label": "Phases 1 and 2",
+          "title": "Foundations and JavaScript",
+          "body": "You build layouts, then interactive pages. Every pull request gets a written review from your mentor with clear changes to make."
+        },
+        {
+          "label": "Phases 3 and 4",
+          "title": "React, testing and deployment",
+          "body": "You move to React and TypeScript, add tests and accessibility checks, and deploy through a CI/CD pipeline."
+        },
+        {
+          "label": "Final weeks",
+          "title": "Capstone project",
+          "body": "You build a complete product interface from a brief based on Icanio client scenarios, working in short sprints."
+        },
+        {
+          "label": "Completion",
+          "title": "Review and certificate",
+          "body": "You present your capstone, get a portfolio and resume review and receive your certificate. Top performers are referred to the Icanio talent team."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "A typical day",
+      "heading": "What a day in the frontend development internship looks like",
+      "paragraphs": [
+        "Most days start with a short stand-up. You tell your mentor what you finished yesterday, what you plan today and where you are stuck. It takes ten minutes and mirrors how real delivery teams begin their day.",
+        "Then you build. In the early weeks that might be a pricing page in pure CSS Grid. Later it is a React dashboard that fetches data, shows a loading state and handles an API error gracefully. You push your work to GitHub and open a pull request.",
+        "Your mentor reviews it, usually the same day. Comments are specific: rename this prop, split this component, add a label for screen readers. You fix, push again and learn faster than you would alone. Part-time interns follow the same loop, just spread across evenings or weekends."
+      ]
+    },
+    {
+      "type": "table",
+      "tone": "soft",
+      "eyebrow": "Career paths",
+      "heading": "Roles this frontend development internship prepares you for",
+      "intro": "Frontend skills open several entry-level roles. Here is how they differ.",
+      "columns": [
+        "Role",
+        "What you do",
+        "Key skills"
+      ],
+      "rows": [
+        [
+          "Frontend developer",
+          "Build and maintain product screens",
+          "HTML, CSS, JavaScript, React"
+        ],
+        [
+          "React developer",
+          "Own components and app state",
+          "React, TypeScript, hooks"
+        ],
+        [
+          "UI developer",
+          "Turn designs into pixel-accurate code",
+          "CSS, Tailwind, Figma"
+        ],
+        [
+          "Web developer",
+          "Build sites and simple web apps",
+          "HTML, JavaScript, hosting"
+        ],
+        [
+          "Junior full stack developer",
+          "Work across screens and APIs",
+          "React, Node.js, databases"
+        ]
+      ],
+      "note": "We recommend the full stack track if you already know you want to work on servers and databases as well."
+    },
+    {
+      "type": "testimonials",
+      "eyebrow": "In their words",
+      "heading": "What our frontend and web interns say",
+      "intro": "Hear from learners who built real interfaces with us. Press play to watch their stories."
+    },
+    {
+      "type": "stories",
+      "eyebrow": "Recent completions",
+      "heading": "Students who completed internships with us",
+      "intro": "Recent interns from colleges across Tamil Nadu, with their track and duration.",
+      "track": "React",
+      "limit": 6
+    },
+    {
+      "type": "links",
+      "eyebrow": "Keep exploring",
+      "heading": "Related internships you may like",
+      "items": [
+        {
+          "title": "All 15 internship tracks",
+          "href": "/internships",
+          "body": "Compare durations, modes, eligibility and outcomes across every track."
+        },
+        {
+          "title": "Full Stack Development Internship",
+          "href": "/internships/full-stack-development-internship",
+          "body": "Add Node.js, databases and cloud deployment to your React skills."
+        },
+        {
+          "title": "UI/UX Design Internship",
+          "href": "/internships/ui-ux-design-internship",
+          "body": "Learn the research and Figma side of the screens you build."
+        },
+        {
+          "title": "Backend Development Internship",
+          "href": "/internships/backend-development-internship",
+          "body": "Build the APIs and databases that frontend apps talk to."
+        },
+        {
+          "title": "Software Testing Internship",
+          "href": "/internships/software-testing-internship",
+          "body": "Learn manual and automated testing for web applications."
+        },
+        {
+          "title": "Flutter Developer Internship",
+          "href": "/internships/flutter-developer-internship",
+          "body": "Take your interface skills to cross-platform mobile apps."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "student",
+      "tone": "soft",
+      "eyebrow": "Apply now",
+      "heading": "Apply for the frontend development internship",
+      "intro": "It takes two minutes. Frontend Development is already selected in the form, and our team replies within one working day.",
+      "points": [
+        "Weekday and weekend batches, offline or online",
+        "Durations from 15 days to six months",
+        "1:1 mentor and certificate on completion"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need coding experience to join?",
+      "a": "No. The frontend development internship starts with HTML and CSS basics, so complete beginners can join. If you already know some JavaScript, your mentor adjusts the pace and moves you to React sooner. We check your level on the counselling call and suggest the right duration for your starting point."
+    },
+    {
+      "q": "How long is the frontend development internship?",
+      "a": "You choose a duration between 15 days and six months. Short internships cover the foundations and one project. Three and six month internships cover all four phases, three live projects and deployment, which gives you a much stronger portfolio for placements."
+    },
+    {
+      "q": "Is the frontend development internship offline or online?",
+      "a": "Both options are open. You can attend offline at our centre, join online from anywhere in Tamil Nadu, or pick a part-time weekday or weekend batch. Hybrid is possible too, so the frontend development internship fits around college hours."
+    },
+    {
+      "q": "Which framework will I learn: React, Angular or Vue?",
+      "a": "We teach React with TypeScript, because it is the most widely used stack in the projects our team delivers and in job listings. The JavaScript foundations you learn first carry over to Angular or Vue if a future employer uses them."
+    },
+    {
+      "q": "Will I work on real projects?",
+      "a": "Yes. In the frontend development internship you build a portfolio site, an API-driven dashboard and a capstone product interface. The capstone brief is based on Icanio client scenarios, and your mentor reviews your code to the same standards our internal teams follow."
+    },
+    {
+      "q": "Do I get a certificate after the internship?",
+      "a": "Yes. Every intern who completes the frontend development internship receives an Icanio Tech School certificate that states the track and duration. You also leave with a GitHub profile and deployed links you can add to your resume."
+    },
+    {
+      "q": "Does the internship help with placement?",
+      "a": "We run resume reviews, mock interviews and LinkedIn guidance for every intern in the frontend development internship. Top performers are referred to the Icanio Technologies talent team. Across our programs, 90% of students are placed within five months."
+    },
+    {
+      "q": "Can my college send a batch of students?",
+      "a": "Yes. Many of our 30+ MoU partner colleges send students together, and progress updates can be shared with the placement cell. Ask your placement officer to contact our team, or see our college programs page for details."
+    }
+  ],
+  "takeaways": [
+    "The frontend development internship covers HTML, CSS, JavaScript, TypeScript, React, testing and deployment in four phases.",
+    "You build three live projects: a portfolio site, an API dashboard and a capstone product interface.",
+    "A practising Icanio engineer mentors you 1:1 and reviews every pull request.",
+    "Durations run from 15 days to six months, offline, online, part time or hybrid.",
+    "You finish with a certificate, a deployed portfolio and interview practice, and top performers are referred to Icanio."
+  ],
+  "conclusion": [
+    "Employers do not hire frontend developers for what they have watched. They hire them for what they have shipped. Our frontend development internship is built to give you three shipped projects and the habits of a real product team.",
+    "If you are a student or fresher in Tamil Nadu and want to start, apply today. Our team will call you, check your level and help you pick the right duration and batch."
+  ],
+  "references": [
+    {
+      "label": "MDN Web Docs: learn web development",
+      "href": "https://developer.mozilla.org/en-US/docs/Learn"
+    },
+    {
+      "label": "React official documentation",
+      "href": "https://react.dev/learn"
+    },
+    {
+      "label": "Web Content Accessibility Guidelines (WCAG) 2.1, W3C",
+      "href": "https://www.w3.org/TR/WCAG21/"
+    },
+    {
+      "label": "Front-end web development, Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Front-end_web_development"
+    },
+    {
+      "label": "AICTE internship guidelines for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    }
+  ],
+  "cta": {
+    "title": "Start your frontend development internship",
+    "body": "Pick a duration, choose a batch and begin your frontend development internship with an Icanio mentor within weeks.",
+    "primary": {
+      "label": "Apply for this internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "Compare all internships",
+      "href": "/internships"
+    }
+  },
+  "course": {
+    "name": "Frontend Development Internship",
+    "description": "A mentored frontend development internship covering HTML, CSS, JavaScript, TypeScript, React, testing, accessibility and deployment, with three live web projects and a certificate.",
+    "duration": "15 days to 6 months",
+    "modes": [
+      "Onsite",
+      "Online",
+      "Blended"
+    ],
+    "skills": [
+      "HTML5",
+      "CSS Flexbox and Grid",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Vitest",
+      "WCAG accessibility",
+      "Git and GitHub",
+      "CI/CD deployment"
+    ],
+    "audience": "Students and freshers"
+  }
+}

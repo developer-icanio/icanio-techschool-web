@@ -1,0 +1,477 @@
+{
+  "path": "/college-programs/industrial-visit",
+  "kind": "college",
+  "label": "Industrial Visit",
+  "parent": "/college-programs",
+  "seo": {
+    "metaTitle": "Industrial Visit: 4 Essential Parts for Students",
+    "metaDescription": "An industrial visit to Icanio Technologies: company introduction, team interaction, live project demos and career Q&A for college students in Tamil Nadu.",
+    "focusKeyword": "industrial visit",
+    "secondaryKeywords": [
+      "industrial visit for engineering students",
+      "it company visit for students",
+      "industrial visit in tamil nadu",
+      "software company industrial visit",
+      "industry exposure program"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "Campus to company",
+    "title": "Industrial Visit to a Working Software Company",
+    "subtitle": "An industrial visit to Icanio Technologies lets your students step inside a real software company. They meet project teams, watch live demonstrations, see how work is planned and delivered, and ask engineers about careers in an open Q&A.",
+    "image": {
+      "src": "Group-2085663183.png",
+      "alt": "Student on an industrial visit to Icanio Technologies"
+    },
+    "primary": {
+      "label": "Enquire now",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "See what students explore",
+      "href": "#explore"
+    },
+    "highlights": [
+      "Company introduction",
+      "Team interaction",
+      "Live project demos",
+      "Career Q&A"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Format",
+      "value": "Guided visit with talks, demos and Q&A"
+    },
+    {
+      "label": "Duration",
+      "value": "One visit, scheduled with your college"
+    },
+    {
+      "label": "Delivered by",
+      "value": "Icanio engineers and team leads"
+    },
+    {
+      "label": "For",
+      "value": "Engineering, polytechnic and arts and science students"
+    }
+  ],
+  "answer": {
+    "question": "What is an industrial visit to Icanio Technologies?",
+    "answer": "An industrial visit to Icanio Technologies is a guided visit for college students to a working AI and software company in Tamil Nadu. Students attend a company introduction, interact with project teams, watch live project demonstrations and join a Q&A on careers. They see real workflows, team collaboration and workplace culture, guided by industry professionals."
+  },
+  "sections": [
+    {
+      "type": "prose",
+      "eyebrow": "What you will explore",
+      "heading": "Why an industrial visit to a software company matters",
+      "intro": "Students study software for years before they ever see how a software company actually works. A visit changes that in a single day.",
+      "paragraphs": [
+        "Ask a final-year student what happens inside an IT company and you often get a vague answer. They know the job titles. They rarely know how a team plans a sprint, how code gets reviewed or how a client request becomes a working feature.",
+        "Our industrial visit program answers those questions first-hand. Students walk into a real corporate environment at Icanio Technologies, a Tamil Nadu based AI company trusted by 100+ businesses. They see workflows, team collaboration and business operations as they happen.",
+        "Industry professionals guide the whole visit. They explain career paths, describe what each role involves and share the practices that matter in real projects. Students go back to campus with a clear picture of the workplace they are preparing for."
+      ],
+      "bullets": [
+        "Company introduction session",
+        "Interaction with working project teams",
+        "Live project demonstrations",
+        "Q&A and career discussion with engineers"
+      ],
+      "image": {
+        "src": "home-IV.png",
+        "alt": "College students on an industrial visit meeting Icanio engineers"
+      },
+      "link": {
+        "label": "About Icanio Tech School",
+        "href": "/about-icanio-tech-school"
+      }
+    },
+    {
+      "type": "cards",
+      "id": "explore",
+      "eyebrow": "Highlights",
+      "heading": "What students see on an industrial visit",
+      "intro": "Four parts of the visit that students tell us they remember most.",
+      "columns": 4,
+      "items": [
+        {
+          "title": "Live projects",
+          "body": "Students explore real-time projects and the workflows teams use to build them.",
+          "icon": "target-04.png"
+        },
+        {
+          "title": "Company culture",
+          "body": "Students understand how the company is structured and what the work culture feels like.",
+          "icon": "building-07.png"
+        },
+        {
+          "title": "Industry interaction",
+          "body": "Students engage with working professionals and hear how they approach problems.",
+          "icon": "graduation-hat-02.png"
+        },
+        {
+          "title": "Career guidance",
+          "body": "Students learn about different career paths, roles and the skills each one needs.",
+          "icon": "send-01.png"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "tone": "soft",
+      "eyebrow": "Benefits",
+      "heading": "How an industrial visit helps students, faculty and the college",
+      "columns": 3,
+      "items": [
+        {
+          "title": "For students",
+          "body": "Students connect classroom subjects to real work. Seeing teams, tools and deadlines in person makes the syllabus feel relevant and helps them choose a direction for internships and jobs.",
+          "image": {
+            "src": "Group-2085663185-1.png",
+            "alt": "Student learning about careers during an industrial visit"
+          }
+        },
+        {
+          "title": "For faculty",
+          "body": "Accompanying faculty see current industry practice and the tools teams use. They can bring those examples back into lectures, labs and final-year project guidance.",
+          "image": {
+            "src": "WhatWeDoSectionImg1.png",
+            "alt": "Icanio engineer explaining project work to visitors on an industrial visit"
+          }
+        },
+        {
+          "title": "For the institution",
+          "body": "The college adds a documented industry exposure activity to its records. A visit is also a simple way to begin a relationship that can grow into an MoU partnership.",
+          "image": {
+            "src": "Group-2085661740-3.png",
+            "alt": "College and Icanio Tech School partnership that began with an industrial visit"
+          }
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "eyebrow": "How we run it",
+      "heading": "How we plan an industrial visit with your college",
+      "intro": "Our team handles the agenda and the hosts. Your team handles the student group and travel.",
+      "items": [
+        {
+          "title": "Send an enquiry",
+          "body": "Share the department, year of study, approximate group size and your preferred dates. We confirm availability and suggest a slot."
+        },
+        {
+          "title": "Agree the agenda",
+          "body": "We plan the visit around your students: which teams they meet, which projects are demonstrated and which careers the Q&A should cover."
+        },
+        {
+          "title": "Company introduction",
+          "body": "On the day, students start with an introduction to Icanio Technologies: what we build, who we build it for and how the company is organised."
+        },
+        {
+          "title": "Teams and demonstrations",
+          "body": "Students meet project teams and watch live demonstrations of real work, from code and design to testing and delivery."
+        },
+        {
+          "title": "Q&A and career discussion",
+          "body": "The visit ends with an open discussion on roles, skills, internships and first jobs. Faculty receive a short summary afterwards."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "A day at Icanio",
+      "heading": "What a typical industrial visit day looks like",
+      "paragraphs": [
+        "The visit opens with a short company introduction. Students learn what Icanio Technologies does, the kinds of AI, cloud, data and software systems it builds, and how its teams are organised. This gives context for everything they see next.",
+        "Next comes team interaction. Small groups meet engineers, designers or testers and hear how a normal working day runs. Students see tools such as task boards, code repositories and review workflows, and they learn why each one matters.",
+        "Project demonstrations follow. Engineers walk through real work and explain the decisions behind it. The day ends with a Q&A and career discussion, where students ask about skills, internships and interviews. In our experience, this is when the most useful conversations happen."
+      ],
+      "image": {
+        "src": "industryExposureProgramImg.png",
+        "alt": "Grace College of Engineering students during an industrial visit program"
+      },
+      "reverse": true
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Roles",
+      "heading": "Roles students learn about on an industrial visit",
+      "intro": "A software company is more than developers. On an industrial visit, students hear how different roles work together on the same project.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "Developers",
+          "body": "Frontend, backend and full stack engineers who write, review and ship the code behind a product.",
+          "href": "/internships/full-stack-development-internship",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Testers and QA",
+          "body": "Engineers who plan test cases, automate checks and make sure a release works before clients see it.",
+          "href": "/internships/software-testing-internship",
+          "meta": "Engineering"
+        },
+        {
+          "title": "AI and data teams",
+          "body": "Specialists who clean data, train models and turn results into dashboards and decisions.",
+          "href": "/internships/ai-ml-internship",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Designers",
+          "body": "UI/UX designers who research users, sketch wireframes and build prototypes before code is written.",
+          "href": "/internships/ui-ux-design-internship",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Business analysts and managers",
+          "body": "People who gather requirements, plan sprints and keep delivery on track from kickoff to release.",
+          "href": "/internships/business-analyst-internship",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Business functions",
+          "body": "Marketing, HR, finance and sales teams who keep the company growing and serving its clients.",
+          "href": "/internships",
+          "meta": "Non-engineering"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "eyebrow": "Preparation",
+      "heading": "How to prepare students for an industrial visit",
+      "intro": "A little preparation helps students get far more from the day. We recommend these steps to every visiting college.",
+      "items": [
+        "Brief students on what Icanio Technologies does before the visit",
+        "Ask each student to prepare two questions about roles or skills",
+        "Share the group size and department details with our team in advance",
+        "Assign faculty coordinators to guide students through the day",
+        "Remind students to dress formally and carry their college ID",
+        "Plan a short class discussion afterwards to capture what students learned"
+      ],
+      "image": {
+        "src": "ourInternshipProgramImg.png",
+        "alt": "Student taking notes to prepare for an industrial visit"
+      }
+    },
+    {
+      "type": "table",
+      "eyebrow": "Compare",
+      "heading": "Industrial visit vs other college programs",
+      "intro": "Each program gives students a different kind of exposure. Use this table to place an industrial visit in your plan.",
+      "columns": [
+        "Program",
+        "Format",
+        "Best for"
+      ],
+      "rows": [
+        [
+          "Industrial visit",
+          "Guided day at a software company",
+          "Seeing workplace culture first-hand"
+        ],
+        [
+          "Guest lecture",
+          "Single talk on campus with Q&A",
+          "Awareness and career clarity"
+        ],
+        [
+          "Value added course",
+          "Multi-session, lab-based, on campus",
+          "Building one skill in depth"
+        ],
+        [
+          "Internship",
+          "15 days to six months on a live project",
+          "Job-ready experience and a portfolio"
+        ]
+      ],
+      "note": "We recommend an industrial visit early in a student's degree, then value added courses and an internship as they progress."
+    },
+    {
+      "type": "gallery",
+      "eyebrow": "Recent visits",
+      "heading": "Recent industrial visit programs",
+      "intro": "Students from colleges across Tamil Nadu who visited us for real-world industry exposure.",
+      "items": [
+        {
+          "src": "industryExposureProgramImg.png",
+          "alt": "Grace College of Engineering students on an industrial visit",
+          "caption": "Grace College of Engineering: our Industrial Visit Program on 15 January 2026 gave over 150 students real-world industry exposure."
+        },
+        {
+          "src": "1000753889.jpeg",
+          "alt": "Jeyaraj Annapackiam CSI Polytechnic College students on an industrial visit",
+          "caption": "Jeyaraj Annapackiam CSI Polytechnic College: students gained first-hand exposure to the professional world."
+        },
+        {
+          "src": "1000753806.jpeg",
+          "alt": "Christopher College of Arts and Science for Women students on an industrial visit",
+          "caption": "Christopher College of Arts and Science for Women: learning beyond the classroom, with workplace practices and emerging technologies."
+        },
+        {
+          "src": "1000753887.jpeg",
+          "alt": "Students from Jeyaraj Annapackiam CSI Polytechnic College meeting Icanio engineers",
+          "caption": "Jeyaraj Annapackiam CSI Polytechnic College: students meeting engineers during the visit."
+        },
+        {
+          "src": "1000753802.jpeg",
+          "alt": "Christopher College of Arts and Science for Women group during an industrial visit",
+          "caption": "Christopher College of Arts and Science for Women: students explore real industry workflows."
+        },
+        {
+          "src": "1000753885.jpeg",
+          "alt": "Jeyaraj Annapackiam CSI Polytechnic College group at Icanio Technologies",
+          "caption": "Jeyaraj Annapackiam CSI Polytechnic College: an enriching day of industry exposure."
+        }
+      ]
+    },
+    {
+      "type": "testimonials",
+      "eyebrow": "Student voices",
+      "heading": "What students say after working with our engineers",
+      "intro": "Some students who first saw Icanio on a visit later came back as interns. Press play to hear a few of them."
+    },
+    {
+      "type": "partners",
+      "tone": "soft",
+      "eyebrow": "Partner colleges",
+      "heading": "Colleges that work with Icanio Tech School",
+      "intro": "Engineering and arts and science colleges across Tamil Nadu partner with us for visits, courses and internships.",
+      "limit": 10
+    },
+    {
+      "type": "links",
+      "eyebrow": "Keep exploring",
+      "heading": "Other college programs",
+      "items": [
+        {
+          "title": "College programs overview",
+          "href": "/college-programs",
+          "body": "Compare every program for colleges and choose where to start."
+        },
+        {
+          "title": "MoU partnership",
+          "href": "/college-programs/mou-partnership",
+          "body": "Make visits part of a yearly plan with priority access and internships."
+        },
+        {
+          "title": "Value added courses",
+          "href": "/college-programs/value-added-courses",
+          "body": "Lab-based courses for students, delivered on your campus."
+        },
+        {
+          "title": "Guest lectures",
+          "href": "/college-programs/guest-lectures",
+          "body": "Free sessions on AI, cloud, DevOps, cybersecurity and careers."
+        },
+        {
+          "title": "Faculty development program",
+          "href": "/college-programs/faculty-development-program",
+          "body": "Hands-on training for faculty in modern tools and methods."
+        },
+        {
+          "title": "Internships for your students",
+          "href": "/internships",
+          "body": "15 tracks, from 15 days to six months, on live projects."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "college",
+      "tone": "soft",
+      "eyebrow": "Plan a visit",
+      "heading": "Enquire about an industrial visit",
+      "intro": "Share your department, group size and preferred dates. Our team replies within one working day to confirm a slot.",
+      "points": [
+        "Company introduction, team interaction and live demos",
+        "Q&A and career discussion with Icanio engineers",
+        "Agenda planned around your students"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What happens during an industrial visit to Icanio?",
+      "a": "An industrial visit includes a company introduction session, interaction with project teams, live project demonstrations and a Q&A and career discussion. Students see real workflows, team collaboration and workplace culture, guided by industry professionals from Icanio Technologies."
+    },
+    {
+      "q": "Which students can come on an industrial visit?",
+      "a": "We host students from engineering colleges, polytechnic colleges and arts and science colleges. Recent groups include Grace College of Engineering, Jeyaraj Annapackiam CSI Polytechnic College and Christopher College of Arts and Science for Women. We adapt the agenda to each department and year of study."
+    },
+    {
+      "q": "How many students can join one visit?",
+      "a": "Group size depends on the date and the agenda. Our Industrial Visit Program for Grace College of Engineering on 15 January 2026 engaged over 150 students. Share your expected numbers when you enquire and our team will plan the visit to suit the group."
+    },
+    {
+      "q": "Is the industrial visit suitable for first year students?",
+      "a": "Yes. An industrial visit early in the degree helps students understand what their subjects lead to and which roles exist in a software company. First and second year students often use what they see to choose electives, clubs and a first internship. We keep the demonstrations simple for younger groups."
+    },
+    {
+      "q": "Where does the industrial visit take place?",
+      "a": "Visits take place at Icanio Technologies, which is headquartered in Tirunelveli, Tamil Nadu. Our team shares the address and arrival details once your date is confirmed. Your college arranges travel for students and accompanying faculty."
+    },
+    {
+      "q": "What should students bring on the visit?",
+      "a": "Students should carry their college ID and a notebook, and dress formally. We recommend that each student prepares two or three questions about roles, skills or internships. Faculty coordinators should keep a list of attending students."
+    },
+    {
+      "q": "Can an industrial visit lead to internships?",
+      "a": "Yes. Many students discover which track interests them during the visit. They can then apply for one of our 15 internship tracks, from 15 days to six months. Colleges with an MoU partnership can also access free or sponsored internships for selected students."
+    },
+    {
+      "q": "How early should we book an industrial visit?",
+      "a": "We recommend enquiring a few weeks before your preferred date. That gives our team time to plan the agenda, arrange project teams for interaction and prepare demonstrations suited to your students."
+    },
+    {
+      "q": "Is an industrial visit part of an MoU partnership?",
+      "a": "It can be. Colleges with an MoU partnership often schedule an industrial visit alongside workshops, value added courses, guest lectures and faculty development programs. Colleges without an MoU are also welcome to enquire for a single visit."
+    }
+  ],
+  "takeaways": [
+    "An industrial visit gives students first-hand exposure to a working AI and software company in Tamil Nadu.",
+    "Each visit includes a company introduction, team interaction, live project demos and a career Q&A.",
+    "Students see live projects, company culture, industry interaction and career guidance in one day.",
+    "Grace College of Engineering, Jeyaraj Annapackiam CSI Polytechnic College and Christopher College have visited recently.",
+    "A visit is a simple first step toward internships and an MoU partnership with Icanio Tech School."
+  ],
+  "conclusion": [
+    "Students work harder at what they can picture. An industrial visit shows them exactly what a software team does, how it works together and where they could fit in, long before placement season begins. That clarity often shapes the internships and electives they choose next.",
+    "If your college wants to give students real industry exposure, share your group size and dates with our team. We will plan an industrial visit that fits your students and your calendar."
+  ],
+  "references": [
+    {
+      "label": "Field trip, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Field_trip"
+    },
+    {
+      "label": "Experiential learning, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Experiential_learning"
+    },
+    {
+      "label": "All India Council for Technical Education",
+      "href": "https://www.aicte-india.org/"
+    },
+    {
+      "label": "Skill India, Government of India",
+      "href": "https://www.skillindia.gov.in/"
+    }
+  ],
+  "cta": {
+    "title": "Plan an industrial visit for your students",
+    "body": "Tell us your department, group size and dates. Our team will plan the agenda and confirm a slot.",
+    "primary": {
+      "label": "Enquire now",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "Explore an MoU partnership",
+      "href": "/college-programs/mou-partnership"
+    }
+  }
+}

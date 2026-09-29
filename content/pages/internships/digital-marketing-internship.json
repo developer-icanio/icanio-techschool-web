@@ -1,0 +1,528 @@
+{
+  "path": "/internships/digital-marketing-internship",
+  "kind": "internship",
+  "label": "Digital Marketing Internship",
+  "parent": "/internships",
+  "seo": {
+    "metaTitle": "Digital Marketing Internship: 3 Proven Campaigns",
+    "metaDescription": "Digital marketing internship in Tamil Nadu: run 3 live campaigns across SEO, Google Ads, Meta Ads and email, with a 1:1 mentor and a certificate. Apply today.",
+    "focusKeyword": "digital marketing internship",
+    "secondaryKeywords": [
+      "seo internship",
+      "social media marketing internship",
+      "google ads training",
+      "internship with certificate",
+      "digital marketing course in tamil nadu"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "Non-engineering internship",
+    "title": "Digital Marketing Internship With Real Campaign Experience",
+    "subtitle": "Our digital marketing internship puts you in charge of real campaigns. You learn SEO, content, Google Ads, Meta Ads, email and analytics with a 1:1 mentor, run three live campaigns and finish with a certificate from Icanio Tech School.",
+    "image": {
+      "src": "OBJECTS-1.png",
+      "alt": "Illustration of channels and analytics covered in the digital marketing internship at Icanio"
+    },
+    "primary": {
+      "label": "Apply for this internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "View curriculum",
+      "href": "#curriculum"
+    },
+    "highlights": [
+      "4 learning phases",
+      "3 live campaigns",
+      "SEO, paid ads and email",
+      "Certificate on completion"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Duration",
+      "value": "15 days to 6 months"
+    },
+    {
+      "label": "Mode",
+      "value": "Offline, online or part time"
+    },
+    {
+      "label": "Mentorship",
+      "value": "1:1 with an Icanio mentor"
+    },
+    {
+      "label": "Certificate",
+      "value": "Yes, on completion"
+    }
+  ],
+  "answer": {
+    "question": "What is the digital marketing internship at Icanio Tech School?",
+    "answer": "It is a practical program where students learn to plan, run and measure online campaigns. You move through four phases: marketing fundamentals, SEO and content, paid media and social, then analytics and email. You run three live campaigns under a 1:1 mentor and earn an Icanio Tech School certificate. Durations run from 15 days to six months."
+  },
+  "sections": [
+    {
+      "type": "prose",
+      "eyebrow": "The role",
+      "heading": "What a digital marketer does and why brands hire them",
+      "paragraphs": [
+        "A digital marketer helps the right people find a business online and then act. That might mean ranking a page on Google, writing a post people share, or running an ad that brings in enquiries at a sensible cost. Good marketers do all of this with numbers in front of them.",
+        "Almost every business in India now sells or gets discovered online. A local clinic, a textile shop in Erode and a software company all need search visibility, social media and measurable ads. Many of them cannot find people who have actually run a campaign. That is the gap a digital marketing internship fills.",
+        "Employers want proof, not a list of tools. They ask which campaign you ran, what it cost and what it returned. Our digital marketing internship is built so you can answer that question with real numbers from your own work."
+      ],
+      "bullets": [
+        "Plan content around what customers actually search for",
+        "Improve search rankings with on-page and technical SEO",
+        "Run and optimise Google Ads and Meta Ads on a budget",
+        "Track results in Google Analytics 4 and report the return"
+      ],
+      "image": {
+        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-14.png",
+        "alt": "Intern reviewing campaign results during the digital marketing internship"
+      },
+      "link": {
+        "label": "Compare all internship tracks",
+        "href": "/internships"
+      }
+    },
+    {
+      "type": "cards",
+      "tone": "soft",
+      "eyebrow": "Eligibility",
+      "heading": "Who can join the digital marketing internship",
+      "intro": "You do not need a marketing degree. You need curiosity about people and a willingness to test ideas. These four groups get the most from our digital marketing internship.",
+      "columns": 4,
+      "items": [
+        {
+          "title": "Marketing and business students",
+          "body": "BBA, B.Com and MBA students who know the theory of the marketing mix and now want hands-on campaign experience to put on a resume.",
+          "icon": "Group-2085662027.png"
+        },
+        {
+          "title": "Small business owners",
+          "body": "Entrepreneurs who want to promote their own business online and stop depending on agencies for every post, ad and report.",
+          "icon": "Group-2085662024-24.png"
+        },
+        {
+          "title": "Content creators",
+          "body": "Writers, designers and video makers who want to grow an audience, understand the algorithms and turn engagement into results.",
+          "icon": "Group-2085662024-26.png"
+        },
+        {
+          "title": "Career switchers",
+          "body": "People from sales, support, teaching or any field who want a structured, mentored route into a digital marketing career.",
+          "icon": "Group-2085662024-5-1.png"
+        }
+      ]
+    },
+    {
+      "type": "phases",
+      "id": "curriculum",
+      "eyebrow": "Curriculum",
+      "heading": "Digital marketing internship curriculum in 4 phases",
+      "intro": "Each phase of the digital marketing internship ends with a task your mentor reviews. Shorter internships go deep on the first phases. Longer ones cover all four and the end-to-end campaign project.",
+      "items": [
+        {
+          "label": "Phase 1",
+          "title": "Digital marketing fundamentals",
+          "points": [
+            "The digital marketing ecosystem and how the main channels fit together",
+            "Buyer personas and mapping the customer journey",
+            "Planning a content marketing strategy for one brand",
+            "Copywriting basics for headlines, posts and ads",
+            "Branding and positioning: what makes a business different"
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "title": "SEO and content",
+          "points": [
+            "On-page and technical SEO fundamentals",
+            "Keyword research with SEMrush and Ahrefs",
+            "Link building and how domain authority grows",
+            "Creating blogs, short videos and infographics",
+            "Tracking SEO performance and reporting progress"
+          ]
+        },
+        {
+          "label": "Phase 3",
+          "title": "Paid media and social strategy",
+          "points": [
+            "Google Ads search and display campaigns",
+            "Meta Ads for Facebook and Instagram",
+            "Setting campaign budgets and running A/B tests",
+            "Organic social media planning and scheduling",
+            "Influencer and user-generated content campaigns"
+          ]
+        },
+        {
+          "label": "Phase 4",
+          "title": "Analytics, email and career preparation",
+          "points": [
+            "Google Analytics 4 and conversion tracking",
+            "Email marketing with Mailchimp",
+            "Marketing automation workflows in HubSpot",
+            "An end-to-end campaign project, reviewed by your mentor",
+            "Resume building and interview practice for marketing roles"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tools",
+      "tone": "soft",
+      "eyebrow": "Tools",
+      "heading": "Marketing tools you will use hands-on",
+      "intro": "These are the platforms agencies and in-house teams use every day. In the digital marketing internship you log in and work in each one, not just watch a demo.",
+      "items": [
+        {
+          "name": "Google Ads",
+          "role": "Search and display advertising",
+          "logo": "Group-11-2.png"
+        },
+        {
+          "name": "Meta Ads Manager",
+          "role": "Facebook and Instagram advertising",
+          "logo": "meta-3-1-1.png"
+        },
+        {
+          "name": "SEMrush",
+          "role": "SEO and competitor analysis",
+          "logo": "Semrush_Logo_Icon_Lavender_RGB_1024-1-1-1.png"
+        },
+        {
+          "name": "Google Analytics 4",
+          "role": "Website and campaign analytics",
+          "logo": "google_analytics-ar21-1-4.png"
+        },
+        {
+          "name": "Canva",
+          "role": "Creatives and marketing collateral",
+          "logo": "canva-icon-1-2-1.png"
+        },
+        {
+          "name": "HubSpot",
+          "role": "CRM and email automation",
+          "logo": "hubspot-1-1-1.png"
+        },
+        {
+          "name": "Mailchimp",
+          "role": "Email marketing campaigns",
+          "logo": "mailchimp-freddie-icon-1-1.png"
+        },
+        {
+          "name": "Hootsuite",
+          "role": "Social media scheduling",
+          "logo": "Hootsuite-Icon-Streamline-Svg-Logos-1-1.png"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Inside the program",
+      "heading": "A typical week in the digital marketing internship",
+      "paragraphs": [
+        "Each week of the digital marketing internship follows a simple loop: plan, publish, measure, improve. On Monday you agree the week's goal with your mentor. It might be ranking a page for a new keyword or lowering the cost per lead on an ad set.",
+        "Midweek is for doing. You write the copy, design the creative in Canva, set up the campaign and schedule posts in Hootsuite. You also keep a short log of every change, because a change you cannot trace is a change you cannot learn from.",
+        "At the end of the week you open Google Analytics 4 and look at what happened. Your mentor asks why a result moved and what you would try next. In our experience, this habit of honest review is what turns a digital marketing internship into a real skill."
+      ],
+      "bullets": [
+        "Weekly goal set with your 1:1 mentor",
+        "Hands-on work on content, ads and social posts",
+        "A change log for every campaign you touch",
+        "Friday review of results in Google Analytics 4"
+      ],
+      "image": {
+        "src": "ourInternshipProgramImg.png",
+        "alt": "Interns planning a campaign with a mentor in the digital marketing internship"
+      },
+      "reverse": true
+    },
+    {
+      "type": "cards",
+      "tone": "soft",
+      "eyebrow": "Outcomes",
+      "heading": "What you will achieve in the digital marketing internship",
+      "intro": "Every outcome below gives you something concrete to show in an interview, backed by your own numbers.",
+      "columns": 4,
+      "items": [
+        {
+          "title": "3 live campaigns",
+          "body": "You run real Google Ads, Meta Ads and content marketing campaigns, and you report what each one cost and returned.",
+          "icon": "Group-2085662024-1.png"
+        },
+        {
+          "title": "SEO expertise",
+          "body": "You optimise pages and track search performance with industry tools, so you can explain why a page moves up or down.",
+          "icon": "Group-2085662024-4-4.png"
+        },
+        {
+          "title": "Paid media skills",
+          "body": "You create and manage ad campaigns with the right targeting, budgets and tests, and you know when to pause an ad.",
+          "icon": "Group-2085662024-5-2.png"
+        },
+        {
+          "title": "Analytics-driven mindset",
+          "body": "You use dashboards to track campaign performance and ROI, and you base your next decision on data rather than guesswork.",
+          "icon": "Group-2085662024-6-1.png"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "eyebrow": "How it runs",
+      "heading": "How the digital marketing internship runs, step by step",
+      "intro": "The pace depends on the duration you choose. The order stays the same, so you always know what comes next.",
+      "items": [
+        {
+          "label": "Step 1",
+          "title": "Apply and talk to our team",
+          "body": "Fill in the short form below to apply for the digital marketing internship. Our team calls you and helps you pick a duration and mode that suits your college calendar."
+        },
+        {
+          "label": "Step 2",
+          "title": "Onboarding and your first brand",
+          "body": "You meet your mentor, get access to the tools and receive a brand brief. Your first task is a buyer persona and a simple content plan."
+        },
+        {
+          "label": "Step 3",
+          "title": "Work through the four phases",
+          "body": "You move from fundamentals to SEO, then paid media and social, then analytics and email. Each phase ends with a reviewed deliverable."
+        },
+        {
+          "label": "Step 4",
+          "title": "Run the end-to-end campaign",
+          "body": "You plan, launch and measure one full campaign across channels. This becomes the main case study in your digital marketing internship portfolio."
+        },
+        {
+          "label": "Step 5",
+          "title": "Final review and certificate",
+          "body": "You present your results to your mentor and receive your Icanio Tech School certificate. Top performers are referred to the Icanio talent team."
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "tone": "soft",
+      "eyebrow": "Readiness",
+      "heading": "Skills you can prove when you finish",
+      "intro": "Use this list to track your progress. By the final review of the digital marketing internship you should tick every item.",
+      "items": [
+        "Write a buyer persona and a one-month content calendar",
+        "Research keywords and brief a blog post that targets them",
+        "Fix common on-page SEO issues and track rankings",
+        "Set up and optimise a Google Ads search campaign",
+        "Run a Meta Ads campaign with a clear A/B test",
+        "Build an email sequence in Mailchimp and read its open and click rates",
+        "Set up conversion tracking in Google Analytics 4",
+        "Present a campaign report with cost, results and next steps"
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg2.png",
+        "alt": "Students completing digital marketing internship tasks at Icanio Tech School"
+      }
+    },
+    {
+      "type": "table",
+      "eyebrow": "Career paths",
+      "heading": "Roles a digital marketing internship prepares you for",
+      "intro": "The same campaign skills lead to several entry-level roles. Here is how they differ.",
+      "columns": [
+        "Role",
+        "What you do",
+        "Key skills"
+      ],
+      "rows": [
+        [
+          "SEO executive",
+          "Grow organic traffic and rankings",
+          "Keyword research, on-page SEO, SEMrush"
+        ],
+        [
+          "Performance marketer",
+          "Run paid campaigns for leads or sales",
+          "Google Ads, Meta Ads, budgets, testing"
+        ],
+        [
+          "Social media executive",
+          "Plan and publish brand content",
+          "Copywriting, Canva, Hootsuite"
+        ],
+        [
+          "Email marketing executive",
+          "Build and improve email journeys",
+          "Mailchimp, HubSpot, segmentation"
+        ],
+        [
+          "Marketing analyst",
+          "Measure and report campaign ROI",
+          "Google Analytics 4, dashboards"
+        ]
+      ],
+      "note": "Many interns start in one channel and grow into a broader digital marketing manager role."
+    },
+    {
+      "type": "testimonials",
+      "eyebrow": "In their words",
+      "heading": "What our interns say about learning with us",
+      "intro": "Interns from every track describe the same thing: real tasks, steady feedback and growing confidence. The digital marketing internship follows that same model. Press play to hear them."
+    },
+    {
+      "type": "stories",
+      "track": "Digital Marketing",
+      "eyebrow": "Recent completions",
+      "heading": "Students who completed internships with us",
+      "intro": "Recent interns from colleges across Tamil Nadu, including our digital marketing track.",
+      "limit": 6
+    },
+    {
+      "type": "links",
+      "tone": "soft",
+      "eyebrow": "Keep exploring",
+      "heading": "Related internships to consider",
+      "items": [
+        {
+          "title": "Sales Internship",
+          "href": "/internships/sales-internship",
+          "body": "Lead generation, CRM pipelines and closing. Marketing and sales work best together."
+        },
+        {
+          "title": "Data Analyst Internship",
+          "href": "/internships/data-analyst-internship",
+          "body": "Go deeper into the numbers with SQL, Python and Power BI."
+        },
+        {
+          "title": "UI/UX Design Internship",
+          "href": "/internships/ui-ux-design-internship",
+          "body": "Design landing pages and journeys that convert visitors."
+        },
+        {
+          "title": "HR Internship",
+          "href": "/internships/hr-internship",
+          "body": "Employer branding and recruitment use many of the same skills."
+        },
+        {
+          "title": "Finance Internship",
+          "href": "/internships/finance-internship",
+          "body": "Accounting, GST and TDS with Excel, Zoho Books and Tally."
+        },
+        {
+          "title": "All 15 internship tracks",
+          "href": "/internships",
+          "body": "Compare durations, modes and outcomes across every track."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "student",
+      "eyebrow": "Join now",
+      "heading": "Apply for the digital marketing internship",
+      "intro": "It takes two minutes. Our team replies within one working day to help you choose a duration and start date.",
+      "points": [
+        "No fee is charged to apply or to talk to our team",
+        "Offline, online or part-time weekday and weekend batches",
+        "Durations from 15 days to six months"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need prior experience for the digital marketing internship?",
+      "a": "No. We start with fundamentals such as personas, the customer journey and copywriting. You then build up to SEO, paid ads and analytics. If you already run a page or a small business, your mentor will move you faster. What matters most is curiosity and a willingness to test and learn."
+    },
+    {
+      "q": "What campaigns will I run in the digital marketing internship?",
+      "a": "You run three live campaigns: a Google Ads campaign, a Meta Ads campaign and a content marketing campaign. For each one you set a goal, build the creative, launch it and track the results. You then write a short report on what worked, what did not and what you would change next time."
+    },
+    {
+      "q": "How long is the digital marketing internship?",
+      "a": "You choose the duration, from 15 days up to six months. A short internship covers fundamentals and SEO in depth. Three to six months lets you complete all four phases, run three live campaigns and finish the end-to-end campaign project. Our team helps you decide based on your goals."
+    },
+    {
+      "q": "Which tools are covered in the digital marketing internship?",
+      "a": "You work with Google Ads, Meta Ads Manager, SEMrush, Google Analytics 4, Canva, HubSpot, Mailchimp and Hootsuite. Keyword research also touches Ahrefs. Together these cover search, social, paid media, email and measurement, which is the full toolkit most agencies and in-house teams expect a fresher to know."
+    },
+    {
+      "q": "Can I do the digital marketing internship online?",
+      "a": "Yes. You can attend offline at our centre, join online, or choose part-time weekday or weekend batches. Hybrid is also possible. Online interns get the same 1:1 mentorship, campaign reviews and certificate as offline interns, so choose whatever fits your college timetable best."
+    },
+    {
+      "q": "Is this internship useful for my own business?",
+      "a": "Yes. Many small business owners join to learn how to promote their own brand. You can often use your business as the brief for your campaigns, with your mentor's agreement. By the end you can plan content, run ads and read your own analytics without relying on an agency."
+    },
+    {
+      "q": "Will I get a certificate and placement support?",
+      "a": "Every intern who completes the digital marketing internship receives an Icanio Tech School certificate stating the track and duration. Phase 4 includes resume building and interview practice. Top performers are referred to the Icanio Technologies talent team, and our wider programs have placed over 1,000 students."
+    },
+    {
+      "q": "Should I choose digital marketing or sales?",
+      "a": "Choose digital marketing if you enjoy content, channels and data about audiences. Choose sales if you enjoy talking to people one to one and closing deals. The two overlap in lead generation. If you are unsure, talk to our team, or read about our sales internship before you apply."
+    }
+  ],
+  "takeaways": [
+    "The digital marketing internship covers fundamentals, SEO, paid media, social, email and analytics in four phases.",
+    "You run three live campaigns and measure them in Google Analytics 4.",
+    "It suits marketing students, business owners, content creators and career switchers.",
+    "Durations run from 15 days to six months, offline, online, part time or hybrid.",
+    "You finish with an Icanio Tech School certificate, a campaign portfolio and interview preparation."
+  ],
+  "conclusion": [
+    "Digital marketing rewards people who test, measure and improve. Our digital marketing internship gives you real campaigns to practise on and a mentor who asks the right questions about every result.",
+    "If you are a student in Tamil Nadu who wants a career in marketing, start with one campaign and one honest report. Apply below, talk to our team, and we will help you plan the right duration for your digital marketing internship."
+  ],
+  "references": [
+    {
+      "label": "Digital marketing, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Digital_marketing"
+    },
+    {
+      "label": "Google Search Central: SEO Starter Guide",
+      "href": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+    },
+    {
+      "label": "Skill India, Government of India",
+      "href": "https://www.skillindia.gov.in/"
+    },
+    {
+      "label": "AICTE Internship Policy and guidelines for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    }
+  ],
+  "cta": {
+    "title": "Ready to start your digital marketing internship?",
+    "body": "Pick a duration, talk to our team and join the next batch. You can start within weeks.",
+    "primary": {
+      "label": "Apply now",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "See all internships",
+      "href": "/internships"
+    }
+  },
+  "course": {
+    "name": "Digital Marketing Internship",
+    "description": "A mentored digital marketing internship covering SEO, content, Google Ads, Meta Ads, social media, email and Google Analytics 4, with three live campaigns and a certificate.",
+    "duration": "15 days to 6 months",
+    "modes": [
+      "Onsite",
+      "Online",
+      "Blended"
+    ],
+    "skills": [
+      "Content strategy",
+      "Copywriting",
+      "SEO",
+      "Keyword research",
+      "Google Ads",
+      "Meta Ads",
+      "Social media marketing",
+      "Email marketing",
+      "Google Analytics 4"
+    ],
+    "audience": "Students and freshers"
+  }
+}

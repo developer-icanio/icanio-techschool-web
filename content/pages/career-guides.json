@@ -1,0 +1,484 @@
+{
+  "path": "/career-guides",
+  "kind": "hub",
+  "label": "Career Guides",
+  "seo": {
+    "metaTitle": "Career Guides: 5 Proven Guides for Tech Freshers",
+    "metaDescription": "Free career guides for students and freshers: get an internship, choose the right one, follow a frontend or AI ML roadmap and build soft skills IT jobs need.",
+    "focusKeyword": "career guides",
+    "secondaryKeywords": [
+      "career guidance for students",
+      "it career roadmap",
+      "internship guide for freshers",
+      "tech career advice",
+      "career planning for engineering students"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "Free resources",
+    "title": "Career Guides for Students and Freshers in Tech",
+    "subtitle": "Practical career guides from the Icanio Tech School Academic Team. Each one answers a real question students ask us, from landing a first internship to choosing a track and building the workplace skills IT teams hire for.",
+    "image": {
+      "src": "teacher-young-instructor-office-suit-class-with-computer-whiteboard-explaining-math-1-2.png",
+      "alt": "Instructor explaining a concept at a whiteboard, representing Icanio career guides for students"
+    },
+    "primary": {
+      "label": "Browse the guides",
+      "href": "#getting-started"
+    },
+    "secondary": {
+      "label": "Explore internships",
+      "href": "/internships"
+    },
+    "highlights": [
+      "5 in-depth guides",
+      "Answer-first format",
+      "Checklists and roadmaps",
+      "Written by practising engineers and mentors"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Guides",
+      "value": "5, grouped by goal"
+    },
+    {
+      "label": "Written for",
+      "value": "College students, freshers and career switchers"
+    },
+    {
+      "label": "Format",
+      "value": "Direct answers, steps, tables and checklists"
+    },
+    {
+      "label": "Written by",
+      "value": "Icanio Tech School Academic Team"
+    }
+  ],
+  "answer": {
+    "question": "What is in the Icanio Tech School career guides?",
+    "answer": "The Icanio Tech School career guides are five free, practical articles for students and freshers. They cover how to get an internship as a fresher, how to choose an internship, a frontend developer roadmap, the AI ML career path and the soft skills IT jobs need. Each guide opens with a direct answer, then gives steps, a table and a checklist."
+  },
+  "sections": [
+    {
+      "type": "stats",
+      "heading": "Career guides built on real training experience",
+      "items": [
+        {
+          "value": "2,000+",
+          "label": "Students trained"
+        },
+        {
+          "value": "1,000+",
+          "label": "Students placed"
+        },
+        {
+          "value": "15",
+          "label": "Internship tracks"
+        },
+        {
+          "value": "30+",
+          "label": "MoU colleges"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "getting-started",
+      "eyebrow": "Goal 1: getting started",
+      "heading": "Career guides for landing your first internship",
+      "intro": "Start here if you have not done an internship yet. These two career guides take you from no experience to a confident first application.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "How to Get an Internship as a Fresher",
+          "body": "A seven-step roadmap: pick a track, build two small projects, write a one-page resume, apply to matched roles and prepare for the interview.",
+          "href": "/career-guides/how-to-get-an-internship-as-a-fresher",
+          "meta": "Start here",
+          "image": {
+            "src": "ourInternshipProgramImg.png",
+            "alt": "Student preparing a portfolio, from the career guide on getting an internship as a fresher"
+          }
+        },
+        {
+          "title": "How to Choose an Internship",
+          "body": "Eight checks to compare any offer: track fit, mentor, real project, review, tools, duration and mode, proof and clear terms. Plus the red flags to avoid.",
+          "href": "/career-guides/how-to-choose-an-internship",
+          "meta": "Decision guide",
+          "image": {
+            "src": "Mask-group-21.png",
+            "alt": "Students comparing internship options, from the career guide on choosing an internship"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "choosing-a-track",
+      "tone": "soft",
+      "eyebrow": "Goal 2: choosing a track",
+      "heading": "Career guides that map a technical track",
+      "intro": "Use these career guides when you know the field you want and need a clear learning order, tools list and project plan.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "Frontend Developer Roadmap",
+          "body": "Six stages from HTML and CSS to React, TypeScript, testing and deployment, with a project for every stage and a job-ready checklist.",
+          "href": "/career-guides/frontend-developer-roadmap",
+          "meta": "Web development",
+          "image": {
+            "src": "Frame-2085662898.png",
+            "alt": "Responsive web page design, from the frontend developer roadmap career guide"
+          }
+        },
+        {
+          "title": "AI ML Career Path",
+          "body": "Five stages from Python and maths to machine learning, deep learning and MLOps, plus the entry roles open to freshers and the projects that prove skill.",
+          "href": "/career-guides/ai-ml-career-path",
+          "meta": "AI and machine learning",
+          "image": {
+            "src": "Group-2085662119.png",
+            "alt": "Machine learning illustration, from the AI ML career path career guide"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "skills",
+      "eyebrow": "Goal 3: skills",
+      "heading": "Career guides for workplace skills",
+      "intro": "Technical skill gets you shortlisted. These resources help you do well in the interview and the first months on the job.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "Soft Skills for IT Jobs",
+          "body": "The nine workplace skills software teams rely on, a six-week practice plan and how to show each skill in an interview with short stories.",
+          "href": "/career-guides/soft-skills-for-it-jobs",
+          "meta": "Workplace skills",
+          "image": {
+            "src": "Group-2085663235.png",
+            "alt": "Students in a team discussion, from the career guide on soft skills for IT jobs"
+          }
+        },
+        {
+          "title": "Student Development Program",
+          "body": "Go beyond reading. Practise the same nine skills in guided modules built on real IT workplace scenarios, with resume and interview preparation.",
+          "href": "/student-development-program",
+          "meta": "Program",
+          "image": {
+            "src": "studentProgramOverviewImg.png",
+            "alt": "Student Development Program session that puts the soft skills career guide into practice"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Compare",
+      "heading": "Which of our career guides should you read first?",
+      "intro": "Find your situation in the left column. The table points you to the right guide and tells you what you will leave with.",
+      "columns": [
+        "Your situation",
+        "Read this guide",
+        "You will leave with"
+      ],
+      "rows": [
+        [
+          "No internship yet",
+          "Internship as a fresher",
+          "A 7-step plan and resume checklist"
+        ],
+        [
+          "Comparing offers",
+          "How to choose an internship",
+          "8 checks and questions to ask"
+        ],
+        [
+          "Want to build websites",
+          "Frontend developer roadmap",
+          "6 stages and a project list"
+        ],
+        [
+          "Curious about AI",
+          "AI ML career path",
+          "5 stages and entry roles"
+        ],
+        [
+          "Nervous about interviews",
+          "Soft skills for IT jobs",
+          "9 skills and a 6-week plan"
+        ]
+      ],
+      "note": "Most students read two career guides: one for getting started and one for their chosen track."
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Before you start",
+      "heading": "What does a good tech career plan look like for a fresher?",
+      "paragraphs": [
+        "A good plan is short, specific and tied to proof. It names one target role, the three or four skills that role needs and one project that shows each skill. It also has dates, so you can tell whether you are on track.",
+        "Most students do not need a five-year plan. They need a clear next six months: which track to learn, which internship to aim for and which soft skills to practise. Our career guides are built around that shorter horizon, because it is the one you can actually act on.",
+        "Review your plan every month. Replace anything that is not moving you closer to the target role. If you are unsure which role to target, try two tracks for a weekend each and keep the one you want to continue."
+      ],
+      "bullets": [
+        "One target role, written down",
+        "Three or four skills that role needs",
+        "One project per skill, with a deadline",
+        "A monthly review of progress"
+      ],
+      "image": {
+        "src": "young-handsome-man-holding-notebooks-concept-e-learning-courses-1.png",
+        "alt": "Student with notebooks planning a tech career using our career guides"
+      }
+    },
+    {
+      "type": "steps",
+      "tone": "soft",
+      "eyebrow": "How to use them",
+      "heading": "How to get the most from these career guides",
+      "intro": "Reading alone rarely changes anything. We recommend this simple routine to turn our career guides into progress.",
+      "items": [
+        {
+          "title": "Read the direct answer first",
+          "body": "Every guide opens with a short answer. Read it, then decide which sections you need in detail."
+        },
+        {
+          "title": "Pick one action for this week",
+          "body": "Choose a single step, such as building your first project or rewriting your resume, and put it in your calendar."
+        },
+        {
+          "title": "Use the checklist honestly",
+          "body": "Each guide has a checklist. Tick only what you can prove with real work. The unticked items are your plan."
+        },
+        {
+          "title": "Get feedback from someone",
+          "body": "Show your project, resume or practice interview to a senior, faculty member or mentor. Feedback speeds everything up."
+        },
+        {
+          "title": "Take the next structured step",
+          "body": "When you are ready, join an internship or program where a mentor reviews your work every week."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Who writes them",
+      "heading": "Why trust career guides from Icanio Tech School?",
+      "paragraphs": [
+        "Our career guides are written by the Icanio Tech School Academic Team, drawing on the practising engineers who mentor our interns. Icanio Tech School is the education arm of Icanio Technologies, a Tamil Nadu based AI company trusted by 100+ businesses and headquartered in Tirunelveli.",
+        "We have trained 2,000+ students and 1,000+ have been placed. That experience shows up in these career guides as specific advice: which projects impress reviewers, which mistakes slow freshers down and what interviewers actually ask.",
+        "We keep the guides practical and honest. They do not promise shortcuts. They give you a clear order of work, and they point to our internships only where a mentor would genuinely help."
+      ],
+      "bullets": [
+        "Written from real mentoring and code review experience",
+        "Answer-first, so you get the key point in seconds",
+        "Updated as tools and hiring expectations change",
+        "Free to read, with no sign-up required"
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Icanio engineer mentoring a student, the experience behind our career guides"
+      },
+      "link": {
+        "label": "Meet our industry trainers",
+        "href": "/industry-trainers"
+      }
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "From reading to doing",
+      "heading": "How our internships put the career guides into practice",
+      "paragraphs": [
+        "The career guides show you the path. Our internships let you walk it with a mentor. We run 15 internship tracks, from frontend and AI and ML to HR and finance, with durations from 15 days to six months.",
+        "Every intern gets 1:1 mentorship from a practising Icanio engineer, works in structured phases and builds a real project reviewed to internal Icanio standards. You finish with a certificate and a portfolio, and top performers are referred to the Icanio talent team.",
+        "You can join offline, online, part time or hybrid, in weekday or weekend batches, so it fits around college."
+      ],
+      "reverse": true,
+      "image": {
+        "src": "WhatWeDoSectionImg2.png",
+        "alt": "Students applying the advice from career guides during an internship"
+      },
+      "link": {
+        "label": "Explore all internships",
+        "href": "/internships"
+      }
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "For colleges",
+      "heading": "How colleges and placement cells can use these career guides",
+      "paragraphs": [
+        "Placement officers and faculty can share our career guides with students before internship season. The checklists work well as classroom activities: students tick what they can prove, then plan the gaps with a mentor or faculty guide.",
+        "Colleges that want deeper support can partner with Icanio Tech School through an MoU. Partners get priority access to workshops, value added courses, guest lectures, faculty development programs and sponsored internships. More than 30 colleges across Tamil Nadu already work with us this way.",
+        "Many colleges pair the soft skills guide with our Student Development Program, and the roadmap guides with value added courses in the same technology."
+      ],
+      "reverse": true,
+      "image": {
+        "src": "Group-2085661740-3.png",
+        "alt": "College partnership session where career guides are shared with students"
+      },
+      "link": {
+        "label": "See college programs",
+        "href": "/college-programs"
+      }
+    },
+    {
+      "type": "checklist",
+      "eyebrow": "Ready for more",
+      "heading": "Signs you are ready to move beyond the career guides",
+      "intro": "Reading is a starting point. If most of these are true, a mentored internship is your next step.",
+      "items": [
+        "You have chosen one primary track and one backup",
+        "You have finished at least one small project on your own",
+        "You have a one-page resume that leads with that project",
+        "You can explain your project clearly in two minutes",
+        "You want weekly feedback from someone who does this work for clients",
+        "You can commit 15 days to six months, offline, online or part time"
+      ],
+      "image": {
+        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-15.png",
+        "alt": "Confident student ready to move from career guides to a mentored internship"
+      }
+    },
+    {
+      "type": "testimonials",
+      "eyebrow": "In their words",
+      "heading": "Students who acted on this advice",
+      "intro": "Hear from interns who built real projects with our mentors after deciding on their track."
+    },
+    {
+      "type": "links",
+      "tone": "soft",
+      "eyebrow": "Keep exploring",
+      "heading": "Next steps after the career guides",
+      "items": [
+        {
+          "title": "All internships",
+          "href": "/internships",
+          "body": "Compare all 15 tracks with durations, modes and eligibility."
+        },
+        {
+          "title": "Student Development Program",
+          "href": "/student-development-program",
+          "body": "Nine modules on the workplace skills IT teams hire for."
+        },
+        {
+          "title": "Frontend development internship",
+          "href": "/internships/frontend-development-internship",
+          "body": "Put the frontend roadmap into practice with a mentor."
+        },
+        {
+          "title": "AI and ML internship",
+          "href": "/internships/ai-ml-internship",
+          "body": "Follow the AI ML career path on real datasets."
+        },
+        {
+          "title": "Technical workshops",
+          "href": "/technical-workshops",
+          "body": "Short, hands-on sessions to explore a new technology."
+        },
+        {
+          "title": "How to apply",
+          "href": "/apply-for-internship",
+          "body": "Eligibility, documents and what happens after you apply."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "student",
+      "eyebrow": "Talk to a counsellor",
+      "heading": "Want advice beyond the career guides?",
+      "intro": "Tell us your goal and college year. Our team will call you and suggest the right internship or program.",
+      "points": [
+        "No fee is charged to apply or to talk to a counsellor",
+        "15 tracks, from 15 days to six months",
+        "Offline, online, part-time and hybrid modes"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Who are these career guides for?",
+      "a": "Our career guides are written for college students, recent graduates and career switchers who want to enter tech. They suit both engineering and non-engineering students. Each guide assumes no prior work experience and explains every step in plain language."
+    },
+    {
+      "q": "Are the career guides free to read?",
+      "a": "Yes. All our career guides are free, with no sign-up needed. If you want a mentor to guide you through the steps, you can apply for an internship or the Student Development Program, and our counsellors will call you."
+    },
+    {
+      "q": "Which career guide should I read first?",
+      "a": "If you have not done an internship yet, start with how to get an internship as a fresher. If you already have offers, read how to choose an internship. If you know your field, go straight to the frontend roadmap or the AI ML career path."
+    },
+    {
+      "q": "Who writes the Icanio career guides?",
+      "a": "The Icanio Tech School Academic Team writes them, drawing on the practising Icanio engineers who mentor our interns and review their work. The advice comes from real mentoring, code reviews and interview preparation with students."
+    },
+    {
+      "q": "Do the guides cover non-technical careers?",
+      "a": "The guides on getting and choosing an internship and on soft skills apply to every track, including HR, finance, sales, digital marketing and data analysis. The two roadmap guides focus on frontend development and AI and ML."
+    },
+    {
+      "q": "Do I need to read all five career guides?",
+      "a": "No. Read the one that matches your situation today, act on it and come back when your situation changes. Most students read two: one on getting or choosing an internship and one on their chosen track. The soft skills guide is useful for everyone before interviews."
+    },
+    {
+      "q": "How often are the career guides updated?",
+      "a": "We review our career guides as tools and hiring expectations change, and each page shows its last updated date. When a tool or common practice shifts, we update the relevant roadmap and checklist."
+    },
+    {
+      "q": "Can a college share these guides with students?",
+      "a": "Yes. Placement officers and faculty are welcome to share the links with students. Colleges that want structured training can also partner with us through an MoU for workshops, value added courses and internships."
+    },
+    {
+      "q": "What should I do after reading a guide?",
+      "a": "Pick one action from the guide and do it this week, such as starting a project or fixing your resume. When you want structured feedback, apply for an internship and work with a mentor who reviews your progress each week."
+    }
+  ],
+  "takeaways": [
+    "The Icanio Tech School career guides are five free, answer-first articles for students and freshers.",
+    "Two guides cover getting started: landing an internship as a fresher and choosing the right one.",
+    "Two guides map technical tracks: the frontend developer roadmap and the AI ML career path.",
+    "One guide covers the nine soft skills IT jobs need, backed by our Student Development Program.",
+    "Each guide ends with a checklist, and our internships let you practise every step with a mentor."
+  ],
+  "conclusion": [
+    "Good career decisions come from clear information and steady action. Our career guides give you the first part in a direct, practical form. The second part, doing the work, is up to you.",
+    "When you are ready for a mentor, a real project and a certificate, our team at Icanio Tech School is here to help you take the next step."
+  ],
+  "references": [
+    {
+      "label": "AICTE internship policy and portal for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    },
+    {
+      "label": "National Career Service, Ministry of Labour and Employment",
+      "href": "https://www.ncs.gov.in/"
+    },
+    {
+      "label": "Skill India, Government of India",
+      "href": "https://www.skillindia.gov.in/"
+    },
+    {
+      "label": "Career development, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Career_development"
+    }
+  ],
+  "cta": {
+    "title": "Ready to move from reading to doing?",
+    "body": "Choose a track, talk to our team and start building real work with a mentor.",
+    "primary": {
+      "label": "Apply for an internship",
+      "href": "/apply-for-internship"
+    },
+    "secondary": {
+      "label": "Explore internships",
+      "href": "/internships"
+    }
+  }
+}

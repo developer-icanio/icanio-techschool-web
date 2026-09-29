@@ -1,0 +1,195 @@
+TITLE: AI/ML – Icanio Tech School
+DESC: None
+
+ Skip to content
+[IMG alt='' Group-16117.jpg] 
+Home
+Student Program
+Internship 
+Student Development Program 
+Workshops
+College Program
+Guest Lecture 
+Faculty Development Courses 
+Industrial Visit Program 
+MOU 
+Value Added Courses
+Gallery
+About Us
+X
+ Contact Us
+[H2] AI/ML with Industry Exposure Program Internship
+Train in AI/ML with hands-on projects, mentor support. Build strong machine learning skills while gaining industry experience with certification.
+ Apply for AI/ML Internship
+[IMG alt='' Group-2085662119.png] 
+[H2] Enter one of the world's most
+in-demand careers. 
+[H2] 1:1
+Mentorship Support
+[H2] 4
+Learning Phases
+Students Trained 
+ 0
+ +
+Live Projects 
+ 0
+[H2] Foundations of AI/ML Development
+Gain essential AI/ML skills and hands-on experience in building intelligent, data-driven, and predictive applications.
+[H2] PHASE 1
+[H2] Python, Math & ML Foundations
+Python for data science (NumPy, Pandas)
+Statistics, probability & linear algebra
+Exploratory data analysis & visualization
+Scikit-learn & supervised learning
+Feature engineering & data preprocessing 
+[IMG alt='' code-01.png] 
+[H2] PHASE 2
+[H2] Databases & Data Modeling
+Regression, classification & clustering
+Decision trees, ensembles & SVMs
+Model evaluation: cross-validation, ROC/AUC
+Hyperparameter tuning & regularization
+Unsupervised learning & dimensionality reduction 
+[IMG alt='' monitor-02.png] 
+[H2] PHASE 3
+[H2] Deep Learning & NLP
+Neural networks with PyTorch & TensorFlow
+CNNs for image classification
+RNNs, LSTMs & Transformers
+NLP with Hugging Face & BERT fine-tuning
+Transfer learning & model optimization 
+[IMG alt='' settings-02.png] 
+[H2] PHASE 4
+[H2] MLOps, Deployment & Career Prep
+Model packaging with FastAPI & Docker
+MLflow for experiment tracking
+Cloud deployment on AWS SageMaker
+Monitoring model drift & retraining pipelines
+ML portfolio, resume & interview prep 
+[IMG alt='' check-verified-01-1.png] 
+[H2] Hands-On Experience with Industry Tools
+Explore industry tools for building secure and scalable AI/ML solutions with real-world experience.
+[IMG alt='' python-5-3-1.png] 
+[H2] Python
+Primary language
+[IMG alt='' tensorflow-2-1.png] 
+[H2] TensorFlow
+Deep learning
+[IMG alt='' Scikit_learn_logo_small.svg-1-1.png] 
+[H2] Scikit-Learn
+ML algorithms
+[IMG alt='' pandas-svgrepo-com-1.png] 
+[H2] Pandas
+Data manipulation
+[IMG alt='' Jupyter-1-1.png] 
+[H2] Jupyter
+Interactive development
+[IMG alt='' seaborn-1-1.png] 
+[H2] Seaborn
+Data visualization
+[IMG alt='' idOeRd2gAI_1775631476316-1-1.png] 
+[H2] MLflow
+Experiment tracking
+[IMG alt='' fastapi-1-1.png] 
+[H2] FastAPI
+Model deployment
+[H2] What You Will Achieve Through This Program
+[IMG alt='' customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-3.png] 
+[IMG alt='' Group-2085662024-4-1.png] 
+[H2] 5+ Trained ML Models
+Build regression, classification, clustering, CNN, and NLP models each with evaluation metrics and documented experiments
+[IMG alt='' Group-1000005365-3-2.png] 
+[H2] End-to-End ML Pipeline
+Take a raw dataset from ingestion through cleaning, feature engineering, training, evaluation, and deployment as a live API.
+[IMG alt='' Group-2085662024-5.png] 
+[H2] Deep Learning Fluency
+Train and fine-tune neural networks for image and text tasks using TensorFlow and pre-trained transformer models.
+[IMG alt='' Group-2085662024-27.png] 
+[H2] MLOps Foundations
+Track experiments, version models, and deploy them to production environments using industry-standard tools.
+[H2] Who Is Eligible to Apply?
+Ideal for students and professionals looking to build or grow their machine learning skills.
+[IMG alt='' Group-2085662025-6.png] 
+[H2] Data Enthusiasts
+Students fascinated by patterns in data who want to build models that make predictions and power intelligent applications.
+[IMG alt='' Group-2085662025-7.png] 
+[H2] Career Changers
+Professionals from analytics, finance, or science backgrounds who want to transition into AI engineering roles.
+[IMG alt='' Group-2085662025-5.png] 
+[H2] Developers
+Developers who know Python basics and want to apply it in the fastest-growing field in technology.
+[IMG alt='System Icon' Group-2085662024-5-1.png] 
+[H2] CS & Math Students
+Undergraduates with quantitative backgrounds who want hands-on experience with real machine learning .
+[IMG alt='' Group-2085662523-1.png] 
+[H2] Discover More Internship Opportunities
+Explore industry tools for building secure and scalable AI/ML solutions with real-world experience.
+Frontend Developer
+Backend Developer
+Software Testing
+AI/ML Engineer
+UI/UX Designer
+DevOps Engineer
+Flutter Developer
+Full Stack Developer
+Business Analyst
+Project Manager
+[H2] Contact Our 
+Tech School Team 
+Share your technical training needs through the form
+ below, and our Tech School team will respond promptly.
+[H2] Talk With Our Team 
+ techschool@icanio.com​
+ +91 9150009316​
+[IMG alt='smiling-young-woman-wearing-white-hat-pointing-finger-toward-white-card 1' smiling-young-woman-wearing-white-hat-pointing-finger-toward-white-card-1-169x300.png] 
+[H2] Apply for internship 
+First Name *
+Last Name *
+Email Address *
+Phone *
+Area of Interest *Front-End InternshipBack-End InternshipSoftware TestingAI and MLUI/UX DesignerDevOpsMobile App/Flutter DeveloperFull Stack DeveloperBusiness analystProject ManagerHuman ResourcesDigital MarketingSalesFinanceData Analyst
+Internship Duration *
+Description
+Submit
+[IMG alt='' Group-16117-300x115.jpg] 
+ICANIO Tech School aims to empower learners with industry-ready skills and practical knowledge, becoming a stepping stone in their tech careers. Connect with us to discover how we’ve helped students and freshers build successful careers—and how we can support your journey too. 
+ Instagram
+ X-twitter
+ Linkedin
+[H2] Quick Links 
+ Home
+ Student
+ College
+[H2] Company 
+ Icanio
+ Careers
+[H2] Contact Us 
+[IMG alt='' mail-01.png] Contact : 
+techschool@icanio.com 
+[IMG alt='' mail-01.png] Internship : 
+internship@icanio.com 
+[IMG alt='' phone-1.png]
+Mobile No :
++91 9150009316 
+ Copyright © 2026 Icanio Tech School
+[IMG alt='' Group-16117-300x115.jpg] 
+ICANIO Tech School aims to empower learners with industry-ready skills and practical knowledge, becoming a stepping stone in their tech careers. Connect with us to discover how we’ve helped students and freshers build successful careers—and how we can support your journey too. 
+ Instagram
+ X-twitter
+ Linkedin
+[H2] Quick Links 
+ Home
+ Student
+ College
+[H2] Company 
+ Icanio
+ Careers
+[H2] Contact Us 
+[IMG alt='' mail-01.png] Contact : 
+techschool@icanio.com 
+[IMG alt='' mail-01.png] Internship : 
+internship@icanio.com 
+[IMG alt='' phone-1.png] Mobile No : +91 9150009316
+ Copyright © 2026 Icanio Tech School
+ -->
+ Scroll to Top

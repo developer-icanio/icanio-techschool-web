@@ -1,0 +1,434 @@
+{
+  "path": "/student-success-stories",
+  "kind": "page",
+  "label": "Student Success Stories",
+  "seo": {
+    "metaTitle": "Student Success Stories: 12 Proven Internships",
+    "metaDescription": "Student success stories from Icanio Tech School: 12 verified internship completions, intern video testimonials and Jeyaram R, now an SDE at Icanio.",
+    "focusKeyword": "student success stories",
+    "secondaryKeywords": [
+      "internship completions",
+      "intern testimonials",
+      "placement after internship",
+      "icanio tech school reviews",
+      "internship in tamil nadu"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "2,000+ students trained",
+    "title": "Student Success Stories From Icanio Tech School",
+    "subtitle": "Real student success stories from interns across Tamil Nadu: the tracks they chose, the colleges they came from and where the work took them, including a student who joined Icanio Technologies as a Software Development Engineer.",
+    "image": {
+      "src": "ChatGPT-Image-Sep-9-2026-03_54_26-PM.png",
+      "alt": "Jeyaram R, one of the student success stories at Icanio Tech School, joins Icanio Technologies as SDE"
+    },
+    "primary": {
+      "label": "Apply for an internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "See recent completions",
+      "href": "#completions"
+    },
+    "highlights": [
+      "1,000+ students placed",
+      "90% placed within 5 months",
+      "Certificate on completion",
+      "Top performers referred to Icanio"
+    ]
+  },
+  "answer": {
+    "question": "What do student success stories at Icanio Tech School show?",
+    "answer": "They show students from colleges across Tamil Nadu completing mentored internships in tracks such as DevOps, UI/UX, AI/ML, Java and Spring Boot, data analytics and digital marketing. Durations range from one week to three months. More than 1,000 students have been placed, 90% within five months, and Jeyaram R went on to join Icanio Technologies as an SDE."
+  },
+  "sections": [
+    {
+      "type": "stats",
+      "heading": "Student success stories in numbers",
+      "items": [
+        {
+          "value": "2,000+",
+          "label": "Students trained"
+        },
+        {
+          "value": "1,000+",
+          "label": "Students placed"
+        },
+        {
+          "value": "90%",
+          "label": "Placed within 5 months"
+        },
+        {
+          "value": "15",
+          "label": "Internship tracks"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Featured story",
+      "heading": "From Icanio Tech School to Icanio Technologies",
+      "intro": "One of our proudest student success stories is also the most direct: a student who learned with us and now builds with us.",
+      "paragraphs": [
+        "Jeyaram R was a student of Icanio Tech School. He learned through structured, hands-on programs led by practising Icanio engineers. He put in steady effort, built real skills and made the most of the opportunities in front of him.",
+        "Today, Jeyaram has begun his professional journey as a Software Development Engineer at Icanio Technologies. He moved from the classroom side of the company to the delivery side. His path shows how focused learning, consistent practice and the right exposure can turn into a real career.",
+        "We share his story because it shows what our referral route means in practice. Top performers are referred to the Icanio talent team. When a student proves themselves on real project work, the next step can be a role in the same company."
+      ],
+      "bullets": [
+        "Learned at Icanio Tech School with practising engineers",
+        "Built skills on hands-on, project-based work",
+        "Joined Icanio Technologies as a Software Development Engineer"
+      ],
+      "image": {
+        "src": "ourInternshipProgramImg.png",
+        "alt": "Student working on a project at Icanio Tech School"
+      },
+      "link": {
+        "label": "How our trainers mentor students",
+        "href": "/industry-trainers"
+      }
+    },
+    {
+      "type": "stories",
+      "id": "completions",
+      "tone": "soft",
+      "eyebrow": "Recent completions",
+      "heading": "Student success stories: recent internship completions",
+      "intro": "These twelve student success stories are verified internship completions from colleges across Tamil Nadu. Each one lists the track, duration and college."
+    },
+    {
+      "type": "table",
+      "eyebrow": "Patterns",
+      "heading": "What these student success stories have in common",
+      "intro": "Look across these student success stories and a few patterns stand out. Here is a quick summary by track.",
+      "columns": [
+        "Track",
+        "Durations seen",
+        "Colleges represented"
+      ],
+      "rows": [
+        [
+          "Java and Spring Boot",
+          "15 days to one month",
+          "Tiruchendur, Karaikudi, Tirunelveli"
+        ],
+        [
+          "UI/UX and React JS",
+          "One week to one month",
+          "Coimbatore, Rajapalayam"
+        ],
+        [
+          "DevOps and AI/ML",
+          "15 days to one and a half months",
+          "Coimbatore, Sriperumpudur"
+        ],
+        [
+          "Data Analytics and Digital Twin",
+          "One month",
+          "Tirunelveli"
+        ],
+        [
+          "Digital Marketing",
+          "Three months",
+          "Tirunelveli, Erode"
+        ]
+      ],
+      "note": "Short internships suit students who want a first taste of a track. We recommend one to three months if you want a project strong enough for interviews."
+    },
+    {
+      "type": "testimonials",
+      "tone": "soft",
+      "eyebrow": "In their words",
+      "heading": "Video student success stories from our interns",
+      "intro": "Some student success stories are best told by the students themselves. Press play to hear interns from finance, web development, UI/UX and frontend."
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Behind the results",
+      "heading": "What makes these student success stories possible",
+      "intro": "None of these results came from a certificate alone. They came from how the work is set up.",
+      "paragraphs": [
+        "Every intern works with a 1:1 mentor who is a practising Icanio engineer or specialist. The mentor reviews code, designs or reports each week to internal Icanio standards. Feedback is specific, so students know exactly what to fix.",
+        "Interns work on briefs drawn from real Icanio client scenarios. They use Git, join stand-ups and move in sprints. By the end, they have a project they can explain in detail: the problem, the trade-offs and what they would change next time.",
+        "Our team also prepares students for the step after the internship. We run resume building, mock interviews and LinkedIn guidance. Portfolio reviews are done by Icanio hiring managers. Top performers are referred to the Icanio talent team, which is how several student success stories continue into jobs."
+      ],
+      "bullets": [
+        "1:1 mentorship from an engineer on live projects",
+        "Weekly reviews to internal Icanio standards",
+        "Projects based on real client scenarios",
+        "Resume, mock interview and LinkedIn support"
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Mentor guiding an intern behind one of our student success stories"
+      },
+      "reverse": true
+    },
+    {
+      "type": "checklist",
+      "eyebrow": "Lessons",
+      "heading": "Habits we see in our student success stories",
+      "intro": "When our team looks back at student success stories, the same habits appear again and again. None of them need prior experience. All of them can be learned.",
+      "items": [
+        "They pick a track that matches a real interest, not only a trend",
+        "They show up to every check-in, even when progress is slow",
+        "They treat review comments as a to-do list, not as criticism",
+        "They ask questions early instead of staying stuck for days",
+        "They finish the project fully and document what they built",
+        "They practise explaining their work before the final demo"
+      ],
+      "image": {
+        "src": "Group-2085662336-2-1.png",
+        "alt": "Interns and a mentor discussing work behind student success stories"
+      }
+    },
+    {
+      "type": "steps",
+      "eyebrow": "Your path",
+      "heading": "How to write your own success story with us",
+      "intro": "Every one of these student success stories started with the same five steps.",
+      "items": [
+        {
+          "title": "Apply and talk to a counsellor",
+          "body": "Send the short form. Our team calls within one working day to understand your goals and year of study."
+        },
+        {
+          "title": "Choose a track and duration",
+          "body": "Pick one of 15 tracks and a duration from 15 days to six months, offline, online or part time."
+        },
+        {
+          "title": "Learn in phases with a mentor",
+          "body": "Work through structured phases with weekly reviews from your mentor."
+        },
+        {
+          "title": "Ship a live project",
+          "body": "Build a brief based on an Icanio client scenario, in sprints, to real review standards."
+        },
+        {
+          "title": "Get certified and referred",
+          "body": "Finish with a certificate, a portfolio review and interview practice. Top performers are referred to Icanio."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Choosing a track",
+      "heading": "How to use these stories to choose your internship",
+      "paragraphs": [
+        "Start with your degree and your interest. The stories above include computer science and IT students, an MCA student and a data science student. Each one picked a track that built on what they already knew. A CSE student with a feel for design chose UI/UX. An IT student curious about infrastructure chose DevOps.",
+        "Next, think about time. If you have a short break between semesters, a one-week or 15-day internship gives you a focused start. If you have a longer window, a one-month to three-month internship lets you ship a bigger project and go deeper with your mentor.",
+        "Finally, talk to our team. A counsellor can look at your year of study, your skills and your goals, then suggest a track and duration. We recommend deciding with a clear goal in mind, such as a first job, a portfolio project or a switch into a new field."
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg2.png",
+        "alt": "Student comparing internship tracks at Icanio Tech School"
+      },
+      "reverse": true,
+      "link": {
+        "label": "Read: how to choose an internship",
+        "href": "/career-guides/how-to-choose-an-internship"
+      }
+    },
+    {
+      "type": "cards",
+      "tone": "soft",
+      "eyebrow": "Tracks behind the stories",
+      "heading": "Internships that feature in our student success stories",
+      "intro": "Pick the track that matches your interest. Each page lists the curriculum, tools and outcomes behind these student success stories.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "DevOps",
+          "body": "Pipelines, containers and cloud deployments, as completed by Harisankar M from Karpagam College of Engineering.",
+          "href": "/internships/devops-internship",
+          "icon": "Group-2085661916.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "UI/UX Design",
+          "body": "Research, wireframes and prototypes in Figma, as completed by students from Karunya and Ramco.",
+          "href": "/internships/ui-ux-design-internship",
+          "icon": "Group-2085661914.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "AI & ML",
+          "body": "Data preparation, model training and evaluation on practical problems.",
+          "href": "/internships/ai-ml-internship",
+          "icon": "Group-2085663220.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Backend Development",
+          "body": "APIs, databases and server logic, including the Java and Spring Boot work several interns completed.",
+          "href": "/internships/backend-development-internship",
+          "icon": "Group-2085661908.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Data Analyst",
+          "body": "Dashboards and insights with Excel, SQL, Python and Power BI.",
+          "href": "/internships/data-analyst-internship",
+          "icon": "Group-1000005365-10-2.png",
+          "meta": "Non-engineering"
+        },
+        {
+          "title": "Digital Marketing",
+          "body": "Live campaigns across content, social, SEO and ads, as completed over three months by two of our interns.",
+          "href": "/internships/digital-marketing-internship",
+          "icon": "Group-1000005365-9-2.png",
+          "meta": "Non-engineering"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "For colleges",
+      "heading": "Student success stories from partner colleges",
+      "paragraphs": [
+        "Many of our student success stories begin with a college partnership. Through an MoU, partner colleges get priority access to workshops, value added courses and free or sponsored internships for their students. Placement officers receive progress updates, so they can track each student's journey.",
+        "For a placement cell, student success stories like these are useful evidence. They show which tracks students chose, how long they trained and what they built. Our team can share a summary for your college after each batch, which helps you plan the next semester."
+      ],
+      "image": {
+        "src": "Untitled-design-2-1.png",
+        "alt": "MoU between Icanio Technologies and EGS Pillay Engineering College"
+      },
+      "link": {
+        "label": "See our partner colleges",
+        "href": "/partner-colleges"
+      }
+    },
+    {
+      "type": "links",
+      "eyebrow": "Keep exploring",
+      "heading": "Related pages to student success stories",
+      "items": [
+        {
+          "title": "All internships",
+          "href": "/internships",
+          "body": "Compare durations, modes and outcomes for all 15 tracks."
+        },
+        {
+          "title": "How to apply",
+          "href": "/apply-for-internship",
+          "body": "Eligibility, documents and what happens after you apply."
+        },
+        {
+          "title": "Industry trainers",
+          "href": "/industry-trainers",
+          "body": "Meet the six practitioner roles who mentor our interns."
+        },
+        {
+          "title": "Partner colleges",
+          "href": "/partner-colleges",
+          "body": "The 30+ colleges that work with us through an MoU."
+        },
+        {
+          "title": "Campus events",
+          "href": "/campus-events",
+          "body": "MoU signings, workshops and guest lectures across Tamil Nadu."
+        },
+        {
+          "title": "How to get an internship as a fresher",
+          "href": "/career-guides/how-to-get-an-internship-as-a-fresher",
+          "body": "A practical guide to landing your first internship."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "student",
+      "id": "apply",
+      "eyebrow": "Your turn",
+      "heading": "Start your own success story",
+      "intro": "Apply for an internship with real projects and a 1:1 mentor, and join our student success stories. It takes two minutes, and our team replies within one working day.",
+      "points": [
+        "No fee is charged to apply or to talk to a counsellor",
+        "Start dates every month, offline, online or part time",
+        "Durations from 15 days to six months"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are these student success stories real?",
+      "a": "Yes. Every completion on this page is a verified internship at Icanio Tech School, listed with the student's track, duration, degree and college. The video testimonials are recorded by the interns themselves. We only publish stories with the student's consent."
+    },
+    {
+      "q": "Did Jeyaram R really join Icanio Technologies?",
+      "a": "Yes. Jeyaram R was a student of Icanio Tech School and began his professional journey as a Software Development Engineer at Icanio Technologies. His story shows how our referral route works: top performers are referred to the Icanio talent team for roles."
+    },
+    {
+      "q": "How many students have been placed after training?",
+      "a": "More than 2,000 students have trained with Icanio Tech School and more than 1,000 have been placed. Around 90% of placed students found roles within five months of completing their program. Placement depends on your effort, project quality and interview preparation."
+    },
+    {
+      "q": "Can a short internship lead to student success stories?",
+      "a": "A short internship of one week or 15 days is a good first step. It gives you a taste of the track and a certificate. For a project strong enough to discuss in interviews, we recommend one to three months, as many of these student success stories show."
+    },
+    {
+      "q": "Do non-engineering students succeed in these programs?",
+      "a": "Yes. Our tracks include data analytics, digital marketing, HR, finance and sales. Two of the recent completions on this page are three-month digital marketing internships, and a data analytics intern came from a B.Sc. Data Science and Statistics program."
+    },
+    {
+      "q": "Which colleges do these interns come from?",
+      "a": "They come from colleges across Tamil Nadu, including Francis Xavier Engineering College, Karpagam College of Engineering, Karunya Institute of Technology and Science, Ramco Institute of Technology, Kongu Engineering College and Government College of Engineering, Tirunelveli."
+    },
+    {
+      "q": "Will I get a certificate after my internship?",
+      "a": "Yes. Every intern who completes a program receives an Icanio Tech School certificate that states the track and duration. You also leave with portfolio work reviewed by Icanio engineers, which is often what employers ask about first."
+    },
+    {
+      "q": "How can I share my own story after completing?",
+      "a": "Tell your mentor or our team when you finish. With your consent, we can feature your completion or record a short video testimonial. It helps future students choose a track, and it adds a public, verifiable proof point to your profile."
+    },
+    {
+      "q": "Why do student success stories matter when choosing an internship?",
+      "a": "Student success stories show you what real interns achieved, not just what a brochure promises. Look for verified names, tracks, durations and colleges. Check whether interns shipped real projects and whether anyone was hired. That tells you more about a program than a list of topics."
+    }
+  ],
+  "takeaways": [
+    "These student success stories are verified completions from colleges across Tamil Nadu.",
+    "Tracks include DevOps, UI/UX, AI/ML, Java and Spring Boot, data analytics, Digital Twin and digital marketing.",
+    "More than 1,000 students have been placed, and 90% were placed within five months.",
+    "Jeyaram R went from Icanio Tech School to a Software Development Engineer role at Icanio Technologies.",
+    "Mentorship, real client briefs and interview preparation are what make these student success stories possible."
+  ],
+  "conclusion": [
+    "Behind every one of these student success stories is the same formula: a real project, a mentor who reviews your work every week and a clear path to the next step.",
+    "Your story can start this month. Choose a track, talk to our team and join a batch that fits your college schedule. We look forward to adding your name to our student success stories."
+  ],
+  "references": [
+    {
+      "label": "AICTE Internship Policy and guidelines for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    },
+    {
+      "label": "Skill India, Government of India",
+      "href": "https://www.skillindia.gov.in/"
+    },
+    {
+      "label": "National Programme on Technology Enhanced Learning (NPTEL)",
+      "href": "https://nptel.ac.in/"
+    },
+    {
+      "label": "Internship, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Internship"
+    }
+  ],
+  "cta": {
+    "title": "Ready to start your success story?",
+    "body": "Pick a track, get a mentor and build a project you can show employers.",
+    "primary": {
+      "label": "Apply for an internship",
+      "href": "/apply-for-internship"
+    },
+    "secondary": {
+      "label": "Explore all internships",
+      "href": "/internships"
+    }
+  }
+}

@@ -1,0 +1,196 @@
+TITLE: Full Stack Development – Icanio Tech School
+DESC: None
+
+ Skip to content
+[IMG alt='' Group-16117.jpg] 
+Home
+Student Program
+Internship 
+Student Development Program 
+Workshops
+College Program
+Guest Lecture 
+Faculty Development Courses 
+Industrial Visit Program 
+MOU 
+Value Added Courses
+Gallery
+About Us
+X
+ Contact Us
+[IMG alt='' Group-9.png] 
+[H2] Full-Stack Development 
+With Internship Experience
+Train in Full Stack development with practical learning, live projects, and mentor guidance. Gain real-world experience in building complete web applications while earning certification.
+ Apply For Full-Stack Internship
+[H2] Enter one of the world's most
+in-demand careers. 
+[H2] 1:1
+Mentorship Support
+[H2] 4
+Learning Phases
+Students Trained 
+ 0
+ +
+Live Projects 
+ 0
+[H2] What You Will Learn in Full Stack Development Internship
+Gain essential fullstack development skills and hands-on experience in building efficient and scalable applications.
+[H2] Web Foundations & Frontend
+[H2] PHASE 1
+HTML5, CSS3 & responsive layouts
+JavaScript ES6+ & DOM manipulation
+React.js components, hooks & state
+React Router & context API
+Git, GitHub & Agile workflows 
+[IMG alt='' code-01-1-150x150.png] 
+[H2] Backend & API Development
+[H2] PHASE 2
+Node.js runtime & event loop
+Express.js REST API design
+Authentication with JWT & OAuth
+Middleware, routing & error handling
+Postman API testing & documentation 
+[IMG alt='' monitor-02-2-150x150.png] 
+[H2] Databases & Full Stack Integration
+[H2] PHASE 3
+MongoDB & Mongoose ODM
+SQL with PostgreSQL & Sequelize
+Full MERN stack app architecture
+File uploads, WebSockets & caching
+Docker basics & containerization 
+[IMG alt='' settings-02-1-150x150.png] 
+[H2] Testing & Career Preparation
+[H2] PHASE 4
+AWS EC2, S3 & deployment pipelines
+CI/CD with GitHub Actions
+Unit & integration testing (Jest)
+Capstone full stack app deployment
+Full stack resume & interview prep 
+[IMG alt='' check-verified-01-150x150.png] 
+[H2] Hands-On Experience with Industry Tools
+Explore industry tools for building secure and scalable solutions with real-world experience .
+[IMG alt='' Frame-2085661721-1.png] 
+[H2] React
+Component UI tool
+[IMG alt='' github-icon-1-1-1-1.png] 
+[H2] GitHub
+CI/CD pipelines
+[IMG alt='' Group-9-1.png] 
+[H2] PostgreSQL
+Usability testing
+[IMG alt='' mongodb-icon-2-2-2.png] 
+[H2] MongoDB
+NoSQL database
+[IMG alt='' nodejs-1-1-2.png] 
+[H2] Node & Express
+Server-side JS
+[IMG alt='' Group-1000005722-2.png] 
+[H2] Docker
+Containerisation
+[IMG alt='' tailwind-css-2-1-5.png] 
+[H2] Tailwind
+Desing-to-code
+[IMG alt='' aws-2-2-1-1.png] 
+[H2] AWS
+Cloud deployment
+[H2] What You Will Achieve Through This Program
+[IMG alt='' customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-5-1.png] 
+[IMG alt='' Group-2085662024-1.png] 
+[H2] 4 Deployed Full Stack Apps
+Build a React portfolio site, a REST API, a MERN CRUD app, and a cloud capstone project with authentication and database.
+[IMG alt='' Group-2085662024-31.png] 
+[H2] MERN Stack Mastery
+Master the MERN ecosystem the most in-demand full stack combination for web development roles.
+[IMG alt='' Group-2085662024-32.png] 
+[H2] Cloud Deployment Skills
+Host apps on AWS, configure S3 buckets, set up EC2 instances, and build CI/CD pipelines for testing and deployment.
+[IMG alt='' Group-2085662024-33.png] 
+[H2] Job-Ready Portfolio
+Graduate with 4 live, accessible applications, a polished GitHub profile, and a full stack resume reviewed by hiring mentors.
+[H2] Who Is Eligible to Apply?
+Ideal for students and professionals looking to build or grow their skills.
+[IMG alt='' Group-2085662024-14-2.png] 
+[H2] Entrepreneurs & Builders
+Founders and indie builders who want technical skills to build, launch, and iterate on their web products end-to-end.
+[IMG alt='' Group-2085662025-2-3.png] 
+[H2] Aspiring Web Developers
+Students and self-taught coders who want to break into the tech industry with an employer-ready full stack skill set.
+[IMG alt='' Group-2085662024-15-2.png] 
+[H2] Frontend Devs Growing
+Designers or frontend devs who know HTML and CSS and want to add backend, databases, and deployment.
+[IMG alt='' Group-2085662024-13-2.png] 
+[H2] CS Students
+Undergraduates who want real-world project experience — with deployed apps and a structured curriculum.
+[IMG alt='' Group-2085662523-1.png] 
+[H2] Discover More Internship Opportunities
+Explore our internship programs to gain practical skills and real-world experience.
+Frontend Developer
+Backend Developer
+Software Testing
+AI/ML Engineer
+UI/UX Designer
+DevOps Engineer
+Flutter Developer
+Full Stack Developer
+Business Analyst
+Project Manager
+[H2] Contact Our 
+Tech School Team 
+Share your technical training needs through the form
+ below, and our Tech School team will respond promptly.
+[H2] Talk With Our Team 
+ techschool@icanio.com​
+ +91 9150009316​
+[IMG alt='smiling-young-woman-wearing-white-hat-pointing-finger-toward-white-card 1' smiling-young-woman-wearing-white-hat-pointing-finger-toward-white-card-1-169x300.png] 
+[H2] Apply for internship 
+First Name *
+Last Name *
+Email Address *
+Phone *
+Area of Interest *Front-End InternshipBack-End InternshipSoftware TestingAI and MLUI/UX DesignerDevOpsMobile App/Flutter DeveloperFull Stack DeveloperBusiness analystProject ManagerHuman ResourcesDigital MarketingSalesFinanceData Analyst
+Internship Duration *
+Description
+Submit
+[IMG alt='' Group-16117-300x115.jpg] 
+ICANIO Tech School aims to empower learners with industry-ready skills and practical knowledge, becoming a stepping stone in their tech careers. Connect with us to discover how we’ve helped students and freshers build successful careers—and how we can support your journey too. 
+ Instagram
+ X-twitter
+ Linkedin
+[H2] Quick Links 
+ Home
+ Student
+ College
+[H2] Company 
+ Icanio
+ Careers
+[H2] Contact Us 
+[IMG alt='' mail-01.png] Contact : 
+techschool@icanio.com 
+[IMG alt='' mail-01.png] Internship : 
+internship@icanio.com 
+[IMG alt='' phone-1.png]
+Mobile No :
++91 9150009316 
+ Copyright © 2026 Icanio Tech School
+[IMG alt='' Group-16117-300x115.jpg] 
+ICANIO Tech School aims to empower learners with industry-ready skills and practical knowledge, becoming a stepping stone in their tech careers. Connect with us to discover how we’ve helped students and freshers build successful careers—and how we can support your journey too. 
+ Instagram
+ X-twitter
+ Linkedin
+[H2] Quick Links 
+ Home
+ Student
+ College
+[H2] Company 
+ Icanio
+ Careers
+[H2] Contact Us 
+[IMG alt='' mail-01.png] Contact : 
+techschool@icanio.com 
+[IMG alt='' mail-01.png] Internship : 
+internship@icanio.com 
+[IMG alt='' phone-1.png] Mobile No : +91 9150009316
+ Copyright © 2026 Icanio Tech School
+ -->
+ Scroll to Top

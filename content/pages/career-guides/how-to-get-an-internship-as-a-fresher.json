@@ -1,0 +1,435 @@
+{
+  "path": "/career-guides/how-to-get-an-internship-as-a-fresher",
+  "kind": "guide",
+  "label": "How to Get an Internship as a Fresher",
+  "parent": "/career-guides",
+  "seo": {
+    "metaTitle": "Internship as a Fresher: 7 Proven Steps to Get One",
+    "metaDescription": "How to get an internship as a fresher with no experience: pick a track, build 2 projects, write a one-page resume, apply smartly and prepare to interview.",
+    "focusKeyword": "internship as a fresher",
+    "secondaryKeywords": [
+      "internship with no experience",
+      "fresher resume for internship",
+      "how to apply for internship",
+      "first internship for students",
+      "internship interview tips"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "Career guide",
+    "title": "How to Get an Internship as a Fresher, Step by Step",
+    "subtitle": "Getting an internship as a fresher is less about marks and more about proof. This guide from our Academic Team shows you how to choose a track, build two small projects, write a resume that gets read and walk into the interview prepared.",
+    "image": {
+      "src": "ourInternshipProgramImg.png",
+      "alt": "Student preparing a project portfolio to get an internship as a fresher"
+    },
+    "primary": {
+      "label": "Apply for an internship",
+      "href": "/apply-for-internship"
+    },
+    "secondary": {
+      "label": "Browse 15 internship tracks",
+      "href": "/internships"
+    },
+    "highlights": [
+      "7 step roadmap",
+      "Resume checklist",
+      "Interview questions to expect",
+      "Written by the Icanio Tech School Academic Team"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Best for",
+      "value": "Final-year students and recent graduates"
+    },
+    {
+      "label": "Time to get ready",
+      "value": "4 to 8 weeks of focused work"
+    },
+    {
+      "label": "You will need",
+      "value": "A laptop, GitHub or a portfolio page, a resume"
+    },
+    {
+      "label": "Written by",
+      "value": "Icanio Tech School Academic Team"
+    }
+  ],
+  "answer": {
+    "question": "How to get an internship as a fresher?",
+    "answer": "To get an internship as a fresher, pick one track, learn its core tools for four to eight weeks and build two small projects you can show. Put them on GitHub or a simple portfolio page. Write a one-page resume around those projects, apply to 15 to 20 well-matched roles, follow up politely and practise explaining your work out loud."
+  },
+  "sections": [
+    {
+      "type": "prose",
+      "eyebrow": "Start here",
+      "heading": "Can you get an internship as a fresher with no experience?",
+      "paragraphs": [
+        "Yes. An internship is designed for people without work experience, so nobody expects a job history from you. What recruiters want to see is evidence that you can learn fast and finish what you start.",
+        "That evidence usually comes from three places: a small project, a clear resume and a confident conversation. A fresher who can show one working project often beats a fresher with higher marks and nothing to show. In our experience, that single project is the most common difference between students who get an internship as a fresher quickly and those who keep waiting.",
+        "The good news is that you control all three. You do not need a referral or a famous college to get an internship as a fresher. You need a plan, a few weeks of steady work and the habit of applying every week."
+      ],
+      "bullets": [
+        "Recruiters screen for proof of learning, not years of experience",
+        "One finished project beats five half-finished tutorials",
+        "Consistency in applying matters more than a perfect first application"
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Mentor reviewing a fresher's first project before an internship application"
+      }
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "Choose a direction",
+      "heading": "Which internship should a fresher apply for first?",
+      "paragraphs": [
+        "Apply for the track that matches what you already enjoy and have practised a little. If you like building screens, choose frontend. If you like logic and data, look at backend, data analysis or AI and ML. If you prefer people and business, consider HR, sales, marketing or business analysis.",
+        "Avoid applying for every role at once. A resume that tries to fit ten tracks looks unfocused, and your preparation gets spread thin. We recommend you pick one primary track and one backup, then tailor everything to those two. That focus is what makes an internship as a fresher easier to land.",
+        "If you are unsure, spend one weekend on a free beginner tutorial in two different tracks. The one you want to keep doing on Monday is usually your answer."
+      ],
+      "reverse": true,
+      "image": {
+        "src": "Mask-group-21.png",
+        "alt": "Students comparing internship tracks before applying for an internship as a fresher"
+      },
+      "link": {
+        "label": "Compare all internship tracks",
+        "href": "/internships"
+      }
+    },
+    {
+      "type": "steps",
+      "id": "roadmap",
+      "eyebrow": "The roadmap",
+      "heading": "7 steps to get an internship as a fresher",
+      "intro": "Follow these steps in order to secure an internship as a fresher. Most students can finish steps one to five in four to eight weeks alongside college.",
+      "items": [
+        {
+          "label": "Week 1",
+          "title": "Choose one track and one backup",
+          "body": "Read two or three real internship listings for each track. Note the tools that appear again and again. Those tools are your learning list."
+        },
+        {
+          "label": "Weeks 1 to 4",
+          "title": "Learn the core tools, not everything",
+          "body": "Cover the basics of the three or four tools the listings asked for. Stop collecting courses once you can build something small on your own."
+        },
+        {
+          "label": "Weeks 3 to 6",
+          "title": "Build two small, finished projects",
+          "body": "One simple project and one slightly harder one is enough. Each should solve a clear problem and have a short README explaining what it does and how you built it."
+        },
+        {
+          "label": "Week 6",
+          "title": "Publish your work",
+          "body": "Push code to GitHub, deploy web projects to a free host, or share designs and reports as a PDF or portfolio page. A link a recruiter can open in ten seconds is your strongest asset."
+        },
+        {
+          "label": "Week 7",
+          "title": "Write a one-page resume",
+          "body": "Lead with your projects, then skills, education and certificates. Use action words and one line of impact for each project."
+        },
+        {
+          "label": "Weeks 7 to 8",
+          "title": "Apply to 15 to 20 matched roles",
+          "body": "Apply through college placement cells, company career pages, LinkedIn and structured internship programs. Track every application in a simple sheet."
+        },
+        {
+          "label": "Ongoing",
+          "title": "Prepare, interview and follow up",
+          "body": "Practise explaining each project in two minutes. After an interview, send a short thank-you note. If you are rejected, ask for one piece of feedback and improve."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Your resume",
+      "heading": "What should a fresher put on an internship resume?",
+      "paragraphs": [
+        "Put your projects first, because they are your experience. Then list the tools you used, your education, any certificates and one or two activities that show teamwork or responsibility. Keep it to one page.",
+        "For each project, write three lines: what it does, which tools you used and one result or learning. For example, a to-do app that saves tasks in the browser, built with HTML, CSS and JavaScript, deployed on a free host. Specific beats impressive-sounding every time.",
+        "Tailor this resume for each internship as a fresher application. Leave out a long career objective, a photo, your full address and unrelated hobbies. Add working links to GitHub, your portfolio and LinkedIn. A clean resume is one of the easiest wins when you apply for an internship as a fresher."
+      ],
+      "bullets": [
+        "Name, phone, email and three links at the top",
+        "Projects section with two to three entries",
+        "Skills grouped by type: languages, tools, soft skills",
+        "Education with college, degree and expected year",
+        "Certificates and relevant workshops, if any"
+      ],
+      "image": {
+        "src": "studentProgramOverviewImg.png",
+        "alt": "Fresher writing a one-page resume for an internship application"
+      }
+    },
+    {
+      "type": "table",
+      "eyebrow": "Where to apply",
+      "heading": "Where can a fresher find a genuine internship?",
+      "intro": "Use more than one channel. Each has a different strength, and together they give you a steady flow of options for an internship as a fresher.",
+      "columns": [
+        "Channel",
+        "Best for",
+        "Watch out for"
+      ],
+      "rows": [
+        [
+          "College placement cell",
+          "Verified companies and MoU partners",
+          "Limited slots, fixed timelines"
+        ],
+        [
+          "Company career pages",
+          "Direct applications to firms you like",
+          "Slower replies, need follow-up"
+        ],
+        [
+          "LinkedIn and job portals",
+          "Volume and variety of listings",
+          "Fake or unpaid-work listings"
+        ],
+        [
+          "Structured internship programs",
+          "Mentoring, projects and a certificate",
+          "Check who teaches and what you build"
+        ],
+        [
+          "Referrals from seniors",
+          "Faster shortlisting",
+          "Only works if your work is ready"
+        ]
+      ],
+      "note": "Never pay a recruiter to get an interview. A genuine program is always clear about who mentors you, what you will build and what certificate you receive."
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "The interview",
+      "heading": "How do you prepare for a fresher internship interview?",
+      "paragraphs": [
+        "Prepare three things: a two-minute introduction, a clear walkthrough of each project and the basics of your chosen track. Most interviews for an internship as a fresher test how you think and communicate, not how much you have memorised.",
+        "Expect questions like: tell me about yourself, walk me through your project, what was the hardest bug you fixed, and why this track. For technical roles, you will usually get simple questions on core concepts and perhaps a small live task. For non-technical roles, expect a scenario or a short case.",
+        "Practise out loud with a friend or a mentor. Record yourself once. You will notice filler words and long pauses that are easy to fix. If you do not know an answer, say so, then explain how you would find it. Interviewers respect honesty far more than guessing."
+      ],
+      "bullets": [
+        "Tell me about yourself, in under two minutes",
+        "Walk me through your best project",
+        "What would you improve in that project now?",
+        "How do you learn a new tool quickly?",
+        "Where do you see yourself after this internship?"
+      ],
+      "reverse": true,
+      "image": {
+        "src": "WhatWeDoSectionImg2.png",
+        "alt": "Student practising answers for an internship interview as a fresher"
+      },
+      "link": {
+        "label": "Build interview skills in the Student Development Program",
+        "href": "/student-development-program"
+      }
+    },
+    {
+      "type": "checklist",
+      "eyebrow": "Before you apply",
+      "heading": "Checklist: are you ready to apply for an internship as a fresher?",
+      "intro": "Tick every item before you send your first application. If three or more are missing, spend one more week preparing.",
+      "items": [
+        "I have chosen one primary track and one backup track",
+        "I can name the four tools most listings in my track ask for",
+        "I have two finished projects with a short README each",
+        "My projects are live or downloadable through a single link",
+        "My resume fits on one page and leads with projects",
+        "My LinkedIn headline states my track and my college year",
+        "I can explain each project clearly in two minutes",
+        "I have a sheet to track applications, dates and follow-ups"
+      ],
+      "image": {
+        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-15.png",
+        "alt": "Confident fresher ready to apply for an internship after completing the checklist"
+      }
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Avoid these",
+      "heading": "Mistakes to avoid in an internship as a fresher search",
+      "intro": "Our team sees the same few mistakes in almost every batch of applications for an internship as a fresher. Fixing them costs nothing.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "Applying without a single project",
+          "body": "Certificates alone rarely convince a recruiter. Build at least one small project before applying for an internship as a fresher.",
+          "icon": "Group-1000005365-7.png"
+        },
+        {
+          "title": "Sending the same resume everywhere",
+          "body": "Change your summary line and the order of skills for each track. Five minutes of tailoring makes a visible difference.",
+          "icon": "Group-1000005365-5.png"
+        },
+        {
+          "title": "Waiting for the perfect time",
+          "body": "The best time to apply is when you have one finished project. Waiting for final year results often means missing the season.",
+          "icon": "Group-1000005365-6.png"
+        },
+        {
+          "title": "Ignoring communication skills",
+          "body": "Many capable students freeze in the interview. Practising your introduction and project walkthrough is as important as the code.",
+          "icon": "Group-1000005365-8.png"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "How we help",
+      "heading": "How Icanio Tech School helps you get an internship as a fresher",
+      "paragraphs": [
+        "Icanio Tech School is the education arm of Icanio Technologies, a Tamil Nadu based AI company trusted by 100+ businesses. We run 15 internship tracks, from 15 days to six months, in offline, online, part-time and hybrid modes, with weekday and weekend batches.",
+        "Every intern gets 1:1 mentorship from a practising Icanio engineer with 3+ years of client delivery experience. You work in structured phases, your work is reviewed to internal Icanio standards, and you finish with a certificate and a portfolio. Top performers are referred to the Icanio talent team.",
+        "For many students, a structured program is the fastest way to get an internship as a fresher, because the project, the mentor and the proof come together in one place."
+      ],
+      "image": {
+        "src": "Group-2085661740-3.png",
+        "alt": "Icanio Tech School mentor guiding students through their first internship"
+      },
+      "link": {
+        "label": "See how to apply",
+        "href": "/apply-for-internship"
+      }
+    },
+    {
+      "type": "testimonials",
+      "tone": "soft",
+      "eyebrow": "From our interns",
+      "heading": "Students who got an internship as a fresher with us",
+      "intro": "These students joined us with little or no work experience. Press play to hear how their first internship went."
+    },
+    {
+      "type": "links",
+      "eyebrow": "Keep reading",
+      "heading": "Related guides and internships",
+      "items": [
+        {
+          "title": "How to choose an internship",
+          "href": "/career-guides/how-to-choose-an-internship",
+          "body": "Compare tracks, durations and modes before you commit to one."
+        },
+        {
+          "title": "Soft skills for IT jobs",
+          "href": "/career-guides/soft-skills-for-it-jobs",
+          "body": "The workplace skills that help you clear interviews and do well in your first role."
+        },
+        {
+          "title": "Frontend developer roadmap",
+          "href": "/career-guides/frontend-developer-roadmap",
+          "body": "A month-by-month plan if you want to build websites and web apps."
+        },
+        {
+          "title": "Frontend development internship",
+          "href": "/internships/frontend-development-internship",
+          "body": "A popular first track for freshers who enjoy building interfaces."
+        },
+        {
+          "title": "Data analyst internship",
+          "href": "/internships/data-analyst-internship",
+          "body": "A strong start for students from any degree who like working with numbers."
+        },
+        {
+          "title": "All internships",
+          "href": "/internships",
+          "body": "All 15 tracks with durations, modes and eligibility."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "student",
+      "eyebrow": "Take the next step",
+      "heading": "Apply for your internship as a fresher",
+      "intro": "Tell us your track, college year and preferred start date. Our team will call you and help you plan your internship as a fresher.",
+      "points": [
+        "No fee is charged to apply or to talk to a counsellor",
+        "Durations from 15 days to six months",
+        "Offline, online, part-time and hybrid modes"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it hard to get an internship as a fresher?",
+      "a": "It feels hard when you apply without proof of skill. It becomes much easier once you have two small projects, a focused one-page resume and practice explaining your work. Most freshers who follow a plan for four to eight weeks start getting interview calls."
+    },
+    {
+      "q": "Can I get an internship as a fresher without coding?",
+      "a": "Yes. Non-technical tracks like HR, sales, finance, digital marketing and data analysis welcome freshers from any degree. You still need proof, such as a sample campaign plan, a clean Excel report or a short case write-up, instead of a code project."
+    },
+    {
+      "q": "When should I start applying for internships?",
+      "a": "Start in your pre-final year if you can. That gives you time for one short internship and one longer one before placements. Final-year students and recent graduates can still apply at any time, since many programs start every month."
+    },
+    {
+      "q": "How many applications should a fresher send?",
+      "a": "Aim for 15 to 20 well-matched applications over two to three weeks, rather than 200 random ones. Track each application in a sheet and follow up once after a week. Quality and relevance get more replies than volume."
+    },
+    {
+      "q": "Do certificates help me get an internship as a fresher?",
+      "a": "They help a little, mainly to show that you are learning. A certificate paired with a project you built using those skills is far more convincing. Recruiters open your project link before they read your certificate list."
+    },
+    {
+      "q": "Should a fresher take an unpaid internship?",
+      "a": "Judge an internship by what you will learn and build, who will mentor you and what proof you leave with. Be careful of listings that ask you to do unguided work for a business with no mentoring. A structured program with real feedback is usually worth your time."
+    },
+    {
+      "q": "How long should my first internship be?",
+      "a": "One to three months is a good length for an internship as a fresher. It is long enough to finish a real project and short enough to fit around college. Longer internships of up to six months give you a bigger project and a stronger portfolio."
+    },
+    {
+      "q": "What if I get rejected many times?",
+      "a": "Rejection is a normal part of looking for an internship as a fresher. Ask for one piece of feedback when you can, then fix the most common issue, which is usually the project or the resume. Keep applying every week. Each interview makes the next one easier."
+    }
+  ],
+  "takeaways": [
+    "You can get an internship as a fresher without experience, because recruiters look for proof of learning.",
+    "Pick one primary track and one backup, and learn only the tools that real listings ask for.",
+    "Two small, finished and published projects are the strongest part of a fresher application.",
+    "A one-page resume that leads with projects, plus 15 to 20 matched applications, gets more replies than mass applying.",
+    "Practise explaining your projects out loud, since most fresher interviews test clarity and thinking."
+  ],
+  "conclusion": [
+    "Landing an internship as a fresher is a process, not luck. Choose a track, build a little proof, present it clearly and keep applying every week. The students who follow this plan usually stop wondering where to start within a month.",
+    "If you want a mentor beside you while you build that proof, our team at Icanio Tech School can help you pick a track and start with the next batch."
+  ],
+  "references": [
+    {
+      "label": "AICTE internship policy and portal for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    },
+    {
+      "label": "Skill India, Government of India",
+      "href": "https://www.skillindia.gov.in/"
+    },
+    {
+      "label": "Internship, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Internship"
+    },
+    {
+      "label": "National Education Policy 2020, Ministry of Education",
+      "href": "https://www.education.gov.in/nep/about-nep"
+    }
+  ],
+  "cta": {
+    "title": "Ready to start your internship as a fresher?",
+    "body": "Pick a track, talk to our team and start building the project that gets you noticed.",
+    "primary": {
+      "label": "Apply for an internship",
+      "href": "/apply-for-internship"
+    },
+    "secondary": {
+      "label": "Browse internship tracks",
+      "href": "/internships"
+    }
+  }
+}

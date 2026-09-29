@@ -1,0 +1,468 @@
+{
+  "path": "/college-programs/mou-partnership",
+  "kind": "college",
+  "label": "MoU Partnership",
+  "parent": "/college-programs",
+  "seo": {
+    "metaTitle": "MoU Partnership: 4 Proven Benefits for Colleges",
+    "metaDescription": "An MoU partnership with Icanio Tech School gives your college priority workshops, value added courses, joint certification and sponsored internships.",
+    "focusKeyword": "mou partnership",
+    "secondaryKeywords": [
+      "college mou with industry",
+      "industry institute collaboration",
+      "mou for engineering colleges",
+      "sponsored internships for students",
+      "joint certification program"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "Industry and academic collaboration",
+    "title": "MoU Partnership With Icanio Tech School for Colleges",
+    "subtitle": "An MoU partnership connects your college with the engineers of Icanio Technologies. Your students get priority workshops, value added courses and sponsored internships. Your faculty get mentorship and training. Your institution gets a long-term industry partner.",
+    "image": {
+      "src": "Group-2085663219.png",
+      "alt": "College principal and Icanio team discussing an MoU partnership for industry and academic collaboration"
+    },
+    "primary": {
+      "label": "Enquire now",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "See partner colleges",
+      "href": "#partners"
+    },
+    "highlights": [
+      "30+ MoU colleges",
+      "Joint certification",
+      "Free or sponsored internships",
+      "Industry mentorship"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Format",
+      "value": "Formal MoU with a yearly program plan"
+    },
+    {
+      "label": "Duration",
+      "value": "Long term, planned semester by semester"
+    },
+    {
+      "label": "Delivered by",
+      "value": "Practising Icanio engineers"
+    },
+    {
+      "label": "For",
+      "value": "Engineering and arts and science colleges"
+    }
+  ],
+  "answer": {
+    "question": "What is an MoU partnership with Icanio Tech School?",
+    "answer": "An MoU partnership is a formal agreement between your college and Icanio Tech School, the education arm of Icanio Technologies. It gives your students priority access to workshops and value added courses, free or sponsored internships and joint certification. It also gives faculty industry mentorship. Over 30 colleges across Tamil Nadu work with us this way."
+  },
+  "sections": [
+    {
+      "type": "prose",
+      "eyebrow": "What it is",
+      "heading": "What an MoU partnership covers and why colleges sign one",
+      "intro": "A memorandum of understanding turns one-off industry events into a steady plan that runs across the academic year.",
+      "paragraphs": [
+        "Most colleges already invite industry speakers now and then. The problem is continuity. A single talk inspires students for a week, then the syllabus takes over again. An MoU partnership fixes that by putting a named industry partner on your calendar for the whole year.",
+        "Under the MoU partnership, Icanio Tech School plans a mix of programs with your principal, HoDs and placement officer. That can include hands-on workshops, value added courses, guest lectures, faculty development programs, industrial visits and internships. Every session is led by engineers who work on live client projects at Icanio Technologies.",
+        "Colleges choose an MoU partnership for three simple reasons. Students gain skills that employers screen for. Faculty stay close to current tools. The institution can show accreditation teams a documented, active industry collaboration with measurable student outcomes."
+      ],
+      "bullets": [
+        "Priority access to workshops and value added course (VAC) programs",
+        "Joint certification initiatives for your students",
+        "Industry mentorship support for students and faculty",
+        "Free or sponsored internships for selected students"
+      ],
+      "image": {
+        "src": "Group-2085661740-3.png",
+        "alt": "Signed MoU partnership document between a college and Icanio Tech School"
+      },
+      "link": {
+        "label": "See all college programs",
+        "href": "/college-programs"
+      }
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Benefits",
+      "heading": "What each group gains from an MoU partnership",
+      "intro": "An MoU partnership is designed to help four groups at once. Here is what each one can expect.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "Industry collaboration",
+          "body": "Your college builds a working relationship with a Tamil Nadu based AI company trusted by 100+ businesses. Engineers, not sales staff, deliver the sessions, so students hear how real delivery teams think.",
+          "icon": "Group-2085663532.png"
+        },
+        {
+          "title": "Student opportunities",
+          "body": "Students get first access to workshops, value added courses and certification programs. Selected students move into free or sponsored internships on live project teams with 1:1 mentors.",
+          "icon": "lightbulb-02.png"
+        },
+        {
+          "title": "Faculty development",
+          "body": "Faculty receive training, mentorship and support for modern, project-based teaching. The MoU partnership gives priority seats in our faculty development programs on current tools and technologies.",
+          "icon": "Icon.jpg"
+        },
+        {
+          "title": "Institutional growth",
+          "body": "The institution gains stronger learning outcomes and a documented industry link. Program records, attendance and certificates from the MoU partnership support NAAC, NBA and placement reporting.",
+          "icon": "line-chart-up-02.jpg"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "tone": "soft",
+      "eyebrow": "How it works",
+      "heading": "How we set up an MoU partnership with your college",
+      "intro": "Our team keeps the process short and clear. Most colleges move from first call to first program within a few weeks.",
+      "items": [
+        {
+          "title": "Enquiry and first call",
+          "body": "You send the form or call us. Our team speaks with your principal, HoD or placement officer to understand your departments, student strength and goals for the year."
+        },
+        {
+          "title": "Campus visit and needs review",
+          "body": "We visit or meet online to review your labs, timetable and the skills your recruiters ask for. We recommend programs that fit your academic calendar."
+        },
+        {
+          "title": "Draft and sign the MoU",
+          "body": "We share a draft MoU partnership document that lists the agreed programs, responsibilities and points of contact. Both sides review it and sign it at a short ceremony."
+        },
+        {
+          "title": "Plan the first semester",
+          "body": "Together we fix dates for the first workshop, value added course or guest lecture. Your placement cell gets a single coordinator at Icanio Tech School."
+        },
+        {
+          "title": "Deliver, certify and review",
+          "body": "Our engineers run the sessions. Students receive certificates, and we share attendance and feedback. Each semester we review results and plan the next set of programs."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Programs included",
+      "heading": "Programs your college can run under the MoU partnership",
+      "intro": "Pick the programs that suit each department. You can start small and add more each semester.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "Value Added Courses",
+          "body": "Lab-based courses on your campus in Python, web development, data science, AI, DevOps, UI/UX, mobile apps and testing.",
+          "href": "/college-programs/value-added-courses",
+          "meta": "Priority access",
+          "image": {
+            "src": "ValueAddedCourseImg.png",
+            "alt": "Students in a value added course run under an MoU partnership"
+          }
+        },
+        {
+          "title": "Guest Lectures",
+          "body": "Free, interactive sessions by practising engineers on AI, cloud, DevOps, cybersecurity, product management and careers.",
+          "href": "/college-programs/guest-lectures",
+          "meta": "Free",
+          "image": {
+            "src": "GuestLecturesImg.png",
+            "alt": "Industry guest lecture for students at an MoU partner college"
+          }
+        },
+        {
+          "title": "Faculty Development Program",
+          "body": "Hands-on FDPs with modern tools and project-based teaching methods, onsite, online or hybrid, with a certificate for participants.",
+          "href": "/college-programs/faculty-development-program",
+          "meta": "For faculty",
+          "image": {
+            "src": "young-handsome-man-holding-notebooks-concept-e-learning-courses-1.png",
+            "alt": "Faculty member attending a faculty development program"
+          }
+        },
+        {
+          "title": "Industrial Visit",
+          "body": "Students see a working software company, meet project teams, watch live demos and ask about careers.",
+          "href": "/college-programs/industrial-visit",
+          "meta": "Campus to company",
+          "image": {
+            "src": "home-IV.png",
+            "alt": "Students on an industrial visit arranged through an MoU partnership"
+          }
+        },
+        {
+          "title": "Technical Workshops",
+          "body": "Short, practical sessions on emerging technologies, from half-day formats to multi-day workshops such as Coding with AI.",
+          "href": "/technical-workshops",
+          "meta": "Priority access",
+          "image": {
+            "src": "WorkshopsImg.png",
+            "alt": "Students in a hands-on technical workshop by Icanio Tech School"
+          }
+        },
+        {
+          "title": "Internships",
+          "body": "Free or sponsored internships in 15 tracks, from 15 days to six months, with progress shared with your placement cell.",
+          "href": "/internships",
+          "meta": "Free or sponsored",
+          "image": {
+            "src": "WhatWeDoSectionImg2.png",
+            "alt": "College students joining internships through an MoU partnership"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Compare",
+      "heading": "MoU partnership vs one-off events",
+      "intro": "Both help students. The difference is how much your college can plan, measure and report.",
+      "columns": [
+        "What you get",
+        "MoU partnership",
+        "One-off industry event"
+      ],
+      "rows": [
+        [
+          "Planning",
+          "Yearly plan, reviewed each semester",
+          "Arranged event by event"
+        ],
+        [
+          "Access",
+          "Priority seats for workshops and VAC",
+          "Subject to availability"
+        ],
+        [
+          "Internships",
+          "Free or sponsored slots",
+          "Standard application"
+        ],
+        [
+          "Certification",
+          "Joint certification initiatives",
+          "Session certificate only"
+        ],
+        [
+          "Faculty support",
+          "Ongoing mentorship and FDPs",
+          "Not included"
+        ]
+      ],
+      "note": "We recommend an MoU partnership for any college that wants industry exposure every semester, not just once a year."
+    },
+    {
+      "type": "gallery",
+      "eyebrow": "Signing ceremonies",
+      "heading": "Recent MoU partnership signing ceremonies",
+      "intro": "A few of the colleges that signed an MoU partnership with Icanio Tech School, in their own campus photos.",
+      "items": [
+        {
+          "src": "23585-1.jpeg",
+          "alt": "MoU partnership signing with Rajalakshmi Engineering College, Chennai",
+          "caption": "Rajalakshmi Engineering College, Chennai: MoU signed to open up learning, industry exposure and career opportunities for students."
+        },
+        {
+          "src": "IMG-20260807-WA000713.jpeg",
+          "alt": "MoU partnership signing with Einstein College of Engineering, Tirunelveli",
+          "caption": "Einstein College of Engineering, Tirunelveli: MoU signed to build collaboration and new opportunities for students."
+        },
+        {
+          "src": "1000753852-1.jpeg",
+          "alt": "MoU signing with Karpagam College of Engineering, Coimbatore",
+          "caption": "Karpagam College of Engineering, Coimbatore: MoU signed to foster collaboration and student opportunities."
+        },
+        {
+          "src": "1000753873.jpeg",
+          "alt": "MoU signing with K.S.R. College of Engineering, Tiruchengode",
+          "caption": "K.S.R. College of Engineering, Tiruchengode: MoU signed for learning, industry exposure and careers."
+        },
+        {
+          "src": "1000753242-1.jpeg",
+          "alt": "MoU signing with National Engineering College, Kovilpatti",
+          "caption": "National Engineering College, Kovilpatti: MoU signed to connect students with industry practice."
+        },
+        {
+          "src": "1000753878-2.jpeg",
+          "alt": "MoU signing with Sri Sankara Bhagavathy Arts and Science College",
+          "caption": "Sri Sankara Bhagavathy Arts and Science College, Kommadikottai: MoU signed for learning and career opportunities."
+        },
+        {
+          "src": "1000753909.jpeg",
+          "alt": "MoU signing with Sri Krishna Adithya College of Arts and Science, Coimbatore",
+          "caption": "Sri Krishna Adithya College of Arts and Science, Coimbatore: MoU signed to create new opportunities for students."
+        },
+        {
+          "src": "1000753825-1.jpeg",
+          "alt": "MoU signing with Jai Shriram Engineering College, Tirupur",
+          "caption": "Jai Shriram Engineering College, Tirupur: MoU signed for industry exposure and career support."
+        },
+        {
+          "src": "1000753775-1.jpeg",
+          "alt": "MoU signing with Study World College of Engineering, Coimbatore",
+          "caption": "Study World College of Engineering, Coimbatore: MoU signed to open doors to learning and careers."
+        }
+      ]
+    },
+    {
+      "type": "testimonials",
+      "eyebrow": "Student voices",
+      "heading": "What students say after training with our engineers",
+      "intro": "Students from partner colleges describe what changed after hands-on work with Icanio mentors. Press play to hear them in their own words."
+    },
+    {
+      "type": "partners",
+      "id": "partners",
+      "tone": "soft",
+      "eyebrow": "Colleges in collaboration",
+      "heading": "Colleges in an MoU partnership with Icanio Tech School",
+      "intro": "Engineering and arts and science colleges across Tamil Nadu, from Chennai to Kanyakumari, work with us through an MoU partnership."
+    },
+    {
+      "type": "checklist",
+      "eyebrow": "Readiness",
+      "heading": "Is your college ready for an MoU partnership?",
+      "intro": "You do not need a large budget or special labs. In our experience, these few things make an MoU partnership work well from the first semester.",
+      "items": [
+        "A named coordinator, usually from the placement cell or a department",
+        "Support from the principal and at least one HoD",
+        "A computer lab that can host hands-on sessions",
+        "Time slots in the timetable for workshops or value added courses",
+        "Students willing to apply for internships and project work",
+        "A simple way to share attendance and feedback after each program"
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Icanio engineer mentoring students at an MoU partnership college"
+      }
+    },
+    {
+      "type": "links",
+      "eyebrow": "Keep exploring",
+      "heading": "Other college programs",
+      "items": [
+        {
+          "title": "College programs overview",
+          "href": "/college-programs",
+          "body": "Compare every program for colleges and see where an MoU partnership fits."
+        },
+        {
+          "title": "Value added courses",
+          "href": "/college-programs/value-added-courses",
+          "body": "Lab-based courses on your campus, delivered by industry experts."
+        },
+        {
+          "title": "Guest lectures",
+          "href": "/college-programs/guest-lectures",
+          "body": "Free sessions on AI, cloud, DevOps, cybersecurity and careers."
+        },
+        {
+          "title": "Faculty development program",
+          "href": "/college-programs/faculty-development-program",
+          "body": "Hands-on training for faculty in modern tools and teaching methods."
+        },
+        {
+          "title": "Industrial visit",
+          "href": "/college-programs/industrial-visit",
+          "body": "A guided day inside a working software company."
+        },
+        {
+          "title": "Partner colleges",
+          "href": "/partner-colleges",
+          "body": "The full list of colleges that work with us across Tamil Nadu."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "college",
+      "tone": "soft",
+      "eyebrow": "Start the conversation",
+      "heading": "Enquire about an MoU partnership",
+      "intro": "Tell us about your college and what you want your students to gain. Our team replies within one working day.",
+      "points": [
+        "No cost to enquire or to meet our team",
+        "A draft MoU partnership plan tailored to your departments",
+        "One coordinator at Icanio Tech School for your college"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does an MoU partnership with Icanio include?",
+      "a": "An MoU partnership includes priority access to workshops and value added courses, joint certification initiatives, industry mentorship support and free or sponsored internships for students. Colleges can also add guest lectures, faculty development programs and industrial visits. We agree the exact mix with your team and review it each semester."
+    },
+    {
+      "q": "Which colleges can sign an MoU partnership?",
+      "a": "Engineering colleges, arts and science colleges and institutes of business administration can all sign an MoU partnership. Our partners range from Rajalakshmi Engineering College in Chennai to Arunachala College of Engineering for Women in Kanyakumari. The programs are adapted to each department and to the size of your student batch."
+    },
+    {
+      "q": "How long does it take to sign the MoU?",
+      "a": "After the first call, our team visits or meets you online, shares a draft and answers questions. Once both sides agree on the programs and contacts, the MoU is signed at a short ceremony. Many colleges then run their first program in the same semester."
+    },
+    {
+      "q": "Are internships free under the MoU partnership?",
+      "a": "The MoU partnership gives your students access to free or sponsored internships. The number of slots and the tracks are agreed with your college. Interns join live project teams, work with a 1:1 mentor and receive an Icanio Tech School certificate on completion."
+    },
+    {
+      "q": "What is joint certification?",
+      "a": "Joint certification means certain programs, such as value added courses, are certified in collaboration with your college. Students receive a certificate that carries recognition from both the institution and Icanio Tech School. The details are agreed for each program under the MoU partnership."
+    },
+    {
+      "q": "How does the MoU help with NAAC or NBA?",
+      "a": "Accreditation teams look for active industry collaboration. An MoU partnership gives you a signed agreement plus records of workshops, courses, lectures, visits and internships, with attendance and certificates. Our team shares these records after each program so your IQAC can file them easily."
+    },
+    {
+      "q": "Who delivers the sessions for MoU colleges?",
+      "a": "Practising engineers, architects and product managers from Icanio Technologies deliver the sessions. Trainers have 3+ years of client delivery experience and are background verified by Icanio HR. They bring current tools and real project examples into your classrooms and labs."
+    },
+    {
+      "q": "Can we start with one program before signing?",
+      "a": "Yes. Some colleges begin with a guest lecture or a workshop to see how our team works. If it goes well, they move to a full MoU partnership. We recommend this route if your management wants to see results before committing to a yearly plan."
+    }
+  ],
+  "takeaways": [
+    "An MoU partnership is a formal, long-term agreement between your college and Icanio Tech School.",
+    "It gives students priority workshops and value added courses, joint certification and free or sponsored internships.",
+    "Faculty receive industry mentorship and priority access to faculty development programs.",
+    "Sessions are delivered by practising Icanio Technologies engineers and reviewed with your team every semester.",
+    "Over 30 colleges across Tamil Nadu already work with us through an MoU partnership."
+  ],
+  "conclusion": [
+    "Students learn fastest when industry is part of their college life, not a guest who visits once. An MoU partnership makes that possible with a clear plan, a single coordinator and engineers who do this work every day.",
+    "If your college wants steady industry exposure, stronger placement outcomes and a documented collaboration, the next step is a short call with our team. We will suggest a first semester plan and a draft MoU partnership for your review."
+  ],
+  "references": [
+    {
+      "label": "Memorandum of understanding, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Memorandum_of_understanding"
+    },
+    {
+      "label": "AICTE Internship Policy and guidelines",
+      "href": "https://www.aicte-india.org/education/internship"
+    },
+    {
+      "label": "National Education Policy 2020, Ministry of Education",
+      "href": "https://www.education.gov.in/nep/about-nep"
+    },
+    {
+      "label": "National Assessment and Accreditation Council (NAAC)",
+      "href": "http://www.naac.gov.in/"
+    }
+  ],
+  "cta": {
+    "title": "Plan an MoU partnership for your college",
+    "body": "Book a call with our team. We will review your goals, suggest programs and share a draft MoU for your management.",
+    "primary": {
+      "label": "Enquire now",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "Compare college programs",
+      "href": "/college-programs"
+    }
+  }
+}

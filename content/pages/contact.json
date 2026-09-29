@@ -1,0 +1,444 @@
+{
+  "path": "/contact",
+  "kind": "page",
+  "label": "Contact",
+  "seo": {
+    "metaTitle": "Contact Icanio Tech School: 2 Best Routes",
+    "metaDescription": "Contact Icanio Tech School, Tirunelveli: internship@icanio.com for students, techschool@icanio.com for colleges, +91 91500 09316. Reply in one working day.",
+    "focusKeyword": "contact",
+    "secondaryKeywords": [
+      "icanio tech school phone number",
+      "internship enquiry",
+      "college mou enquiry",
+      "icanio tirunelveli address",
+      "whatsapp icanio tech school"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "Talk with our team",
+    "title": "Contact Icanio Tech School",
+    "subtitle": "Contact the right team the first time. Students can ask about internships and applications. Colleges can ask about MoUs and campus programs. Our team replies within one working day.",
+    "image": {
+      "src": "ContactPerson.png",
+      "alt": "Icanio Tech School team member ready to answer your contact enquiry"
+    },
+    "primary": {
+      "label": "Apply for an internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "College enquiry",
+      "href": "#college-enquiry"
+    },
+    "highlights": [
+      "Reply within one working day",
+      "Phone and WhatsApp: +91 91500 09316",
+      "Monday to Saturday",
+      "Tirunelveli, Tamil Nadu"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Students",
+      "value": "internship@icanio.com"
+    },
+    {
+      "label": "Colleges",
+      "value": "techschool@icanio.com"
+    },
+    {
+      "label": "Phone and WhatsApp",
+      "value": "+91 91500 09316"
+    },
+    {
+      "label": "Response time",
+      "value": "Within one working day"
+    }
+  ],
+  "answer": {
+    "question": "How to contact Icanio Tech School?",
+    "answer": "Students should email internship@icanio.com or use the internship form on this page. Colleges should email techschool@icanio.com or use the college enquiry form. You can also call or WhatsApp +91 91500 09316, Monday to Saturday. Our office is at AP Towers, North Main Road, Tirunelveli, Tamil Nadu. We reply to every message within one working day."
+  },
+  "sections": [
+    {
+      "type": "cards",
+      "eyebrow": "Choose your route",
+      "heading": "Who should you contact?",
+      "intro": "Pick the option that matches you. Each route goes straight to the people who can answer, so you do not wait for a message to be passed on.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "Students and freshers",
+          "body": "Contact us about internship tracks, durations, batch timings, eligibility, certificates or the status of your application. Email internship@icanio.com, or fill in the internship form below. A counsellor will call you back within one working day.",
+          "href": "/apply-for-internship",
+          "icon": "Group-1000005365-7.png",
+          "meta": "internship@icanio.com"
+        },
+        {
+          "title": "Colleges and faculty",
+          "body": "Contact us about MoU partnerships, value added courses, guest lectures, faculty development programs, industrial visits and sponsored internships. Email techschool@icanio.com, or send the college enquiry form below. We will arrange a call or visit.",
+          "href": "/college-programs",
+          "icon": "Group-1000005365-6.png",
+          "meta": "techschool@icanio.com"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "tone": "soft",
+      "eyebrow": "Contact details",
+      "heading": "All our contact details in one place",
+      "intro": "Save these details. Use the email that matches your question for the fastest reply. Phone and WhatsApp are best for short questions, and email is best for anything with attachments.",
+      "columns": [
+        "Channel",
+        "Details",
+        "Best for"
+      ],
+      "rows": [
+        [
+          "Student email",
+          "internship@icanio.com",
+          "Internship questions and applications"
+        ],
+        [
+          "College email",
+          "techschool@icanio.com",
+          "MoUs, programs and general enquiries"
+        ],
+        [
+          "Phone",
+          "+91 91500 09316",
+          "Quick questions, Monday to Saturday"
+        ],
+        [
+          "WhatsApp",
+          "+91 91500 09316",
+          "Short messages and follow-ups"
+        ],
+        [
+          "Office",
+          "AP Towers No. A16, NGO A Colony, North Main Road, Tirunelveli 627007",
+          "Visits by appointment"
+        ]
+      ],
+      "note": "We recommend email for anything that needs documents, such as a college proposal or a resume, so our team has everything in one thread."
+    },
+    {
+      "type": "prose",
+      "eyebrow": "For students",
+      "heading": "Contact us about internships",
+      "intro": "Most student messages are about choosing a track or checking an application. Here is how to get a fast, useful answer.",
+      "paragraphs": [
+        "If you have not applied yet, the quickest route is the internship form at the bottom of this page. Tell us your name, college, year of study and the track you are interested in. A counsellor will call you within one working day to talk through durations, modes and start dates.",
+        "If you have already applied, email internship@icanio.com from the same email address you used on the form. Mention your full name and the track. This lets our team find your application straight away.",
+        "Not sure which track fits you? That is a normal question. Share your degree, the subjects you enjoy and your career goal. Our counsellors will suggest two or three tracks and explain what each one involves."
+      ],
+      "bullets": [
+        "15 internship tracks, engineering and non-engineering",
+        "Durations from 15 days to six months",
+        "Offline, online, part-time or hybrid mode",
+        "Weekday and weekend batches"
+      ],
+      "image": {
+        "src": "ourInternshipProgramImg.png",
+        "alt": "Student preparing to contact Icanio Tech School about an internship"
+      },
+      "link": {
+        "label": "Read how to apply for an internship",
+        "href": "/apply-for-internship"
+      }
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "For colleges",
+      "heading": "Contact us about MoUs and college programs",
+      "intro": "Principals, placement officers and heads of department can reach our college partnerships team directly.",
+      "paragraphs": [
+        "Email techschool@icanio.com or send the college enquiry form on this page. Tell us your institution, your role and what you want for your students or faculty. It helps to mention your academic calendar and any dates you already have in mind.",
+        "Our team will call you within one working day. For an MoU, we usually arrange a visit or an online meeting to understand your goals. From there, we plan a first program, such as a guest lecture, a workshop or a value added course.",
+        "More than 30 colleges across Tamil Nadu already work with us through an MoU. If your college is one of them and you want to add a new program, contact the same email and mention your MoU."
+      ],
+      "bullets": [
+        "MoU partnerships and joint certification initiatives",
+        "Value added courses, workshops and guest lectures",
+        "Faculty development programs and industrial visits",
+        "Free or sponsored internships for your students"
+      ],
+      "image": {
+        "src": "Group-2085663219.png",
+        "alt": "College representatives contacting Icanio Tech School about an MoU"
+      },
+      "reverse": true,
+      "link": {
+        "label": "See our partner colleges",
+        "href": "/partner-colleges"
+      }
+    },
+    {
+      "type": "prose",
+      "eyebrow": "For parents",
+      "heading": "Contact us as a parent or guardian",
+      "paragraphs": [
+        "Parents often have their own questions before a student joins. How is the internship run? Who mentors the student? What will the student have at the end? You are welcome to contact us directly, either with your child or on your own.",
+        "Our counsellors can explain how tracks, durations and modes work, how weekly reviews happen and what the certificate states. We can also walk you through our trainer standards. Every trainer is a practising Icanio engineer with at least three years of client delivery, background verified by Icanio HR.",
+        "If you prefer, ask for the details by email. That way you can read them at your own pace and share them with the rest of the family before deciding."
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Icanio engineer mentoring a student, as explained to parents who contact us"
+      }
+    },
+    {
+      "type": "steps",
+      "eyebrow": "What happens next",
+      "heading": "What happens after you contact us",
+      "intro": "Every message follows the same simple path, so you always know where it stands.",
+      "items": [
+        {
+          "title": "We receive your message",
+          "body": "Your form or email reaches the right team: internships for students, partnerships for colleges."
+        },
+        {
+          "title": "We reply within one working day",
+          "body": "A counsellor or partnerships lead calls or emails you back, Monday to Saturday."
+        },
+        {
+          "title": "We understand your need",
+          "body": "We ask a few questions about your goals, dates and background so our advice fits."
+        },
+        {
+          "title": "We suggest a clear next step",
+          "body": "Students get a track, duration and batch. Colleges get a program plan and dates."
+        },
+        {
+          "title": "We confirm in writing",
+          "body": "You receive the details by email so you can review them with family or college management."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Visit us",
+      "heading": "Our office in Tirunelveli",
+      "paragraphs": [
+        "Icanio Tech School is the education arm of Icanio Technologies, a Tamil Nadu based AI company trusted by 100+ businesses. Our headquarters is at AP Towers No. A16, NGO A Colony, North Main Road, Tirunelveli, Tamil Nadu 627007.",
+        "Offline interns attend sessions here, and colleges visit for industrial visits. If you would like to visit, contact us first so the right person is available to meet you. Many students also join online from other districts, so a visit is never required to apply."
+      ],
+      "image": {
+        "src": "home-IV.png",
+        "alt": "Students visiting the Icanio Technologies office in Tirunelveli"
+      },
+      "reverse": true
+    },
+    {
+      "type": "checklist",
+      "tone": "soft",
+      "eyebrow": "Faster answers",
+      "heading": "What to include when you contact us",
+      "intro": "A complete first message saves a round of back and forth. Include these details if you can.",
+      "items": [
+        "Your full name and phone number",
+        "Your college name, degree and year of study, or your institution and role",
+        "The internship track or college program you are interested in",
+        "Your preferred start date, duration and mode",
+        "Any questions about certificates, batches or timelines",
+        "For colleges: your academic calendar and expected student numbers"
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg2.png",
+        "alt": "Checklist of details to include when you contact Icanio Tech School"
+      }
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Stay connected",
+      "heading": "Follow us for updates",
+      "paragraphs": [
+        "Follow Icanio Tech School on LinkedIn, Instagram and X for student achievements, new MoUs, workshops and batch announcements. Recent posts include MoU signings with EGS Pillay Engineering College and Arunachala College of Engineering for Women, and the story of Jeyaram R, who joined Icanio Technologies as a Software Development Engineer.",
+        "Social media is great for updates, but it is not the fastest contact route for questions. For anything specific, use email, phone, WhatsApp or the forms on this page."
+      ],
+      "image": {
+        "src": "Untitled-design.png",
+        "alt": "MoU between Icanio Technologies and Arunachala College of Engineering for Women"
+      },
+      "link": {
+        "label": "See recent campus events",
+        "href": "/campus-events"
+      }
+    },
+    {
+      "type": "testimonials",
+      "eyebrow": "In their words",
+      "heading": "Hear from students who reached out to us",
+      "intro": "Every one of these interns started with a message or a call to our team. Press play to hear how it went."
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "Good to know",
+      "heading": "Tips for a smooth first conversation",
+      "paragraphs": [
+        "Keep your phone nearby after you send a form, because a counsellor will call you back. Our main number is +91 91500 09316. If you miss a call, message us on WhatsApp with a good time to talk, and we will call again.",
+        "Think about your goal before the call. Do you want a first taste of a track, a portfolio project for placements or a switch into a new field? A clear goal helps our team suggest the right track and duration in one conversation.",
+        "For colleges, a short note on what has worked before is useful. If you have run workshops or value added courses with other providers, tell us what students liked and what they missed. We will plan around it."
+      ],
+      "bullets": [
+        "Save +91 91500 09316 as Icanio Tech School",
+        "Have your year of study and preferred dates ready",
+        "Write down two or three questions in advance"
+      ],
+      "image": {
+        "src": "Group-2085662336-2-1.png",
+        "alt": "Student speaking with an Icanio Tech School counsellor after making contact"
+      },
+      "reverse": true
+    },
+    {
+      "type": "links",
+      "tone": "soft",
+      "eyebrow": "Before you write",
+      "heading": "You may find your answer here",
+      "items": [
+        {
+          "title": "All internships",
+          "href": "/internships",
+          "body": "Tracks, durations, modes and outcomes, side by side."
+        },
+        {
+          "title": "How to apply",
+          "href": "/apply-for-internship",
+          "body": "Eligibility, documents and what happens after you apply."
+        },
+        {
+          "title": "College programs",
+          "href": "/college-programs",
+          "body": "MoUs, courses, lectures, FDPs and visits for your campus."
+        },
+        {
+          "title": "Industry trainers",
+          "href": "/industry-trainers",
+          "body": "Who teaches, and the standards every trainer meets."
+        },
+        {
+          "title": "About Icanio Tech School",
+          "href": "/about-icanio-tech-school",
+          "body": "Who we are and how every program is structured."
+        },
+        {
+          "title": "Student success stories",
+          "href": "/student-success-stories",
+          "body": "Recent completions and placements."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "student",
+      "id": "apply",
+      "eyebrow": "Students",
+      "heading": "Internship enquiry for students",
+      "intro": "Apply or ask a question about any of our 15 internship tracks. Our team replies within one working day.",
+      "points": [
+        "No fee is charged to apply or to talk to a counsellor",
+        "Start dates every month, offline, online or part time",
+        "Questions by email: internship@icanio.com"
+      ]
+    },
+    {
+      "type": "form",
+      "form": "college",
+      "id": "college-enquiry",
+      "tone": "soft",
+      "eyebrow": "Colleges",
+      "heading": "College enquiry for MoUs and programs",
+      "intro": "Tell us about your institution and the program you have in mind. Our partnerships team replies within one working day.",
+      "points": [
+        "MoUs, value added courses, guest lectures, FDPs and visits",
+        "Programs planned around your academic calendar",
+        "Questions by email: techschool@icanio.com"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the fastest way to contact Icanio Tech School?",
+      "a": "Call or WhatsApp +91 91500 09316 for quick questions, Monday to Saturday. For anything that needs details or documents, use the form on this page or email the right address. Every message gets a reply within one working day."
+    },
+    {
+      "q": "Which email should students use?",
+      "a": "Students should use internship@icanio.com for internship questions, applications and application status. Write from the email you used on your form and include your full name and track, so our team can find your details quickly."
+    },
+    {
+      "q": "Which email should colleges use?",
+      "a": "Colleges should use techschool@icanio.com for MoU partnerships, value added courses, guest lectures, faculty development programs and industrial visits. It is also our general contact address for any other enquiry."
+    },
+    {
+      "q": "How long does it take to get a reply?",
+      "a": "We reply within one working day, Monday to Saturday. Messages sent on a Sunday or public holiday are answered on the next working day. If you have not heard back, check your spam folder and then call us."
+    },
+    {
+      "q": "Can I visit the Icanio Tech School office?",
+      "a": "Yes, by appointment. Our office is at AP Towers No. A16, NGO A Colony, North Main Road, Tirunelveli 627007. Contact us before you travel so the right counsellor or partnerships lead is available to meet you."
+    },
+    {
+      "q": "Do I have to visit the office to apply?",
+      "a": "No. You can apply online through the internship form, and many students join online internships from other districts. Our counsellor will speak to you by phone. A visit is only needed if you choose offline mode at our centre."
+    },
+    {
+      "q": "Is there a fee to talk to a counsellor?",
+      "a": "No. There is no fee to apply or to talk to a counsellor. Our team will explain the track, duration and mode options in the call so you can decide with complete information."
+    },
+    {
+      "q": "Can I contact you on WhatsApp?",
+      "a": "Yes. Message us on WhatsApp at +91 91500 09316. It works well for short questions and follow-ups. For applications or college proposals, the forms on this page keep everything in one place."
+    },
+    {
+      "q": "Can I contact you about a certificate I already received?",
+      "a": "Yes. Email internship@icanio.com with your full name, track, duration and the dates of your internship. Our team will help with questions about your Icanio Tech School certificate, such as corrections or verification requests from a college or employer."
+    },
+    {
+      "q": "Who should I contact about working at Icanio Technologies?",
+      "a": "For jobs at Icanio Technologies, visit the careers page on the Icanio website. Icanio Tech School students who perform well in their programs are referred to the Icanio talent team, which is how Jeyaram R went on to join as a Software Development Engineer."
+    }
+  ],
+  "takeaways": [
+    "Students should contact internship@icanio.com or use the internship form on this page.",
+    "Colleges should contact techschool@icanio.com or use the college enquiry form.",
+    "Call or WhatsApp +91 91500 09316, Monday to Saturday.",
+    "Our office is at AP Towers, North Main Road, Tirunelveli, Tamil Nadu 627007.",
+    "Every message gets a reply within one working day."
+  ],
+  "conclusion": [
+    "Whether you are a student choosing an internship or a college planning an MoU, the first step is a short message. Choose your route, send it, and our team will take it from there.",
+    "We reply within one working day and will always point you to a clear next step. If your question does not fit either route, write to techschool@icanio.com and our team will pass it to the right person."
+  ],
+  "references": [
+    {
+      "label": "AICTE Internship Policy and guidelines for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    },
+    {
+      "label": "Skill India, Government of India",
+      "href": "https://www.skillindia.gov.in/"
+    },
+    {
+      "label": "Tirunelveli, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Tirunelveli"
+    }
+  ],
+  "cta": {
+    "title": "Not sure where to start?",
+    "body": "Browse all internships or college programs, then send us your question.",
+    "primary": {
+      "label": "Explore internships",
+      "href": "/internships"
+    },
+    "secondary": {
+      "label": "See college programs",
+      "href": "/college-programs"
+    }
+  }
+}

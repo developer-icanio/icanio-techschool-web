@@ -1,0 +1,196 @@
+TITLE: DevOps – Icanio Tech School
+DESC: None
+
+ Skip to content
+[IMG alt='' Group-16117.jpg] 
+Home
+Student Program
+Internship 
+Student Development Program 
+Workshops
+College Program
+Guest Lecture 
+Faculty Development Courses 
+Industrial Visit Program 
+MOU 
+Value Added Courses
+Gallery
+About Us
+X
+ Contact Us
+[H2] DevOps Internship
+With Industry Experience
+Train in DevOps with practical learning, live projects, and mentor guidance. Gain real-world experience in automation, deployment, and cloud tools while earning certification.
+ Apply for DevOps Internship
+[IMG alt='Devops Group img' Group-6.png] 
+[H2] Enter one of the world's most
+in-demand careers. 
+[H2] 1:1
+Mentorship Support
+[H2] 4
+Learning Phases
+Students Trained 
+ 0
+ +
+Live Projects 
+ 0
+[H2] What You Will Learn in Internship
+Gain essential DevOps skills and hands-on experience in CI/CD, cloud infrastructure, automation, containerization, and scalable application deployment.
+[H2] Linux, Networking & Version Control
+[H2] PHASE 1
+Linux CLI, scripting & permissions
+Networking fundamentals (DNS, HTTP, TCP/IP)
+Git, GitHub & branching strategies
+Bash scripting & task automation
+SSH, firewalls & environment setup 
+[IMG alt='' code-01-1-150x150.png] 
+[H2] Containers, Docker & Kubernetes
+[H2] PHASE 2
+Docker images, containers & registries
+Docker Compose for multi-service apps
+Kubernetes pods, deployments & services
+Helm charts & cluster management
+Container security best practices 
+[IMG alt='' monitor-02-2-150x150.png] 
+[H2] CI/CD, IaC & Cloud Infrastructure
+[H2] PHASE 3
+CI/CD pipelines with GitHub Actions & Jenkins
+Infrastructure-as-Code with Terraform
+AWS core services (EC2, S3, VPC, IAM)
+Ansible for configuration management
+Cloud cost optimization strategies 
+[IMG alt='' settings-02-1-150x150.png] 
+[H2] Monitoring, Security & Career Preparation
+[H2] PHASE 4
+Observability with Prometheus & Grafana
+Logging with ELK stack (Elasticsearch, Logstash, Kibana)
+DevSecOps & vulnerability scanning
+Capstone end-to-end pipeline project
+DevOps resume & interview prep 
+[IMG alt='' check-verified-01-150x150.png] 
+[H2] Hands-On Experience with Industry Tools
+Explore industry tools for building secure and scalable DevOps systems with real-world experience.
+[IMG alt='' Group-6-1.png] 
+[H2] Docker
+Containerisation
+[IMG alt='' kubernets-2-1.png] 
+[H2] Kubernetes
+Container orchestration
+[IMG alt='' Terraform-Icon-Streamline-Svg-Logos-2-1.png] 
+[H2] Terraform
+Infrastructure as code
+[IMG alt='' git-icon-2.png] 
+[H2] GitHub Actions
+CI/CD automation
+[IMG alt='' aws-2-2-2.png] 
+[H2] AWS
+Cloud platform
+[IMG alt='' prometheus-2-1.png] 
+[H2] Prometheus
+Metrics & alerting
+[IMG alt='' grafana-2-1.png] 
+[H2] Grafana
+Observability dashboards
+[IMG alt='' bash-2-2-1.png] 
+[H2] Linux / Bash
+OS & scripting
+[H2] What You Will Achieve Through This Program
+[IMG alt='' customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-11.png] 
+[IMG alt='' Group-2085662024-1.png] 
+[H2] End-to-End CI/CD Pipeline
+Design, build, and deploy a fully automated pipeline that tests, builds, and ships code to production without manual intervention.
+[IMG alt='' Group-2085662024-4-4.png] 
+[H2] Cloud Infrastructure Mastery
+Provision AWS infrastructure using Terraform with modern scalable cloud Infrastructure as Code practices.
+[IMG alt='' Group-2085662024-5-2.png] 
+[H2] Container Orchestration Skills
+Package apps with Docker and manage scalable deployments using Kubernetes platforms and tools.
+[IMG alt='' Group-2085662024-6-1.png] 
+[H2] Observability & Reliability
+Monitor systems with Prometheus and Grafana to detect issues early and reliably in production environments.
+[H2] Who Is Eligible to Apply?
+Ideal for students and professionals looking to build or grow their skills.
+[IMG alt='' Group-2085662025-3.png] 
+[H2] Systems Thinkers
+Those who love understanding how large-scale infrastructure works and make systems faster and reliable.
+[IMG alt='' Group-2085662025-1-1.png] 
+[H2] Automation Enthusiasts
+Developers who want to automate repetitive tasks and build highly scalable pipelines efficiently today.
+[IMG alt='' Group-2085662025-2-2.png] 
+[H2] Cloud-Curious Learners
+Developers who want to automate repetitive tasks and build highly scalable pipelines efficiently today.
+[IMG alt='System Icon' Group-2085662024-5-1.png] 
+[H2] Back-End Developers
+Engineers who want to expand beyond code and own the full software delivery lifecycle from commit to production.
+[IMG alt='' Group-2085662523-1.png] 
+[H2] Discover More Internship Opportunities
+Explore our internship programs to gain practical skills and real-world experience.
+Frontend Developer
+Backend Developer
+Software Testing
+AI/ML Engineer
+UI/UX Designer
+DevOps Engineer
+Flutter Developer
+Full Stack Developer
+Business Analyst
+Project Manager
+[H2] Contact Our 
+Tech School Team 
+Share your technical training needs through the form
+ below, and our Tech School team will respond promptly.
+[H2] Talk With Our Team 
+ techschool@icanio.com​
+ +91 9150009316​
+[IMG alt='smiling-young-woman-wearing-white-hat-pointing-finger-toward-white-card 1' smiling-young-woman-wearing-white-hat-pointing-finger-toward-white-card-1-169x300.png] 
+[H2] Apply for internship 
+First Name *
+Last Name *
+Email Address *
+Phone *
+Area of Interest *Front-End InternshipBack-End InternshipSoftware TestingAI and MLUI/UX DesignerDevOpsMobile App/Flutter DeveloperFull Stack DeveloperBusiness analystProject ManagerHuman ResourcesDigital MarketingSalesFinanceData Analyst
+Internship Duration *
+Description
+Submit
+[IMG alt='' Group-16117-300x115.jpg] 
+ICANIO Tech School aims to empower learners with industry-ready skills and practical knowledge, becoming a stepping stone in their tech careers. Connect with us to discover how we’ve helped students and freshers build successful careers—and how we can support your journey too. 
+ Instagram
+ X-twitter
+ Linkedin
+[H2] Quick Links 
+ Home
+ Student
+ College
+[H2] Company 
+ Icanio
+ Careers
+[H2] Contact Us 
+[IMG alt='' mail-01.png] Contact : 
+techschool@icanio.com 
+[IMG alt='' mail-01.png] Internship : 
+internship@icanio.com 
+[IMG alt='' phone-1.png]
+Mobile No :
++91 9150009316 
+ Copyright © 2026 Icanio Tech School
+[IMG alt='' Group-16117-300x115.jpg] 
+ICANIO Tech School aims to empower learners with industry-ready skills and practical knowledge, becoming a stepping stone in their tech careers. Connect with us to discover how we’ve helped students and freshers build successful careers—and how we can support your journey too. 
+ Instagram
+ X-twitter
+ Linkedin
+[H2] Quick Links 
+ Home
+ Student
+ College
+[H2] Company 
+ Icanio
+ Careers
+[H2] Contact Us 
+[IMG alt='' mail-01.png] Contact : 
+techschool@icanio.com 
+[IMG alt='' mail-01.png] Internship : 
+internship@icanio.com 
+[IMG alt='' phone-1.png] Mobile No : +91 9150009316
+ Copyright © 2026 Icanio Tech School
+ -->
+ Scroll to Top

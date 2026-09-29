@@ -1,0 +1,458 @@
+{
+  "path": "/career-guides/frontend-developer-roadmap",
+  "kind": "guide",
+  "label": "Frontend Developer Roadmap",
+  "parent": "/career-guides",
+  "seo": {
+    "metaTitle": "Frontend Developer Roadmap: 6 Essential Stages",
+    "metaDescription": "A practical frontend developer roadmap for students: HTML, CSS, JavaScript, Git, React, TypeScript, testing and deployment, with timelines and projects.",
+    "focusKeyword": "frontend developer roadmap",
+    "secondaryKeywords": [
+      "learn frontend development",
+      "react developer skills",
+      "html css javascript roadmap",
+      "frontend projects for beginners",
+      "frontend developer jobs for freshers"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "Career guide",
+    "title": "Frontend Developer Roadmap for Students and Freshers",
+    "subtitle": "This frontend developer roadmap takes you from your first HTML page to a deployed React app in six clear stages. Each stage lists what to learn, how long it usually takes and what to build, so you always know what comes next.",
+    "image": {
+      "src": "Frame-2085662898.png",
+      "alt": "Student coding a responsive web page while following a frontend developer roadmap"
+    },
+    "primary": {
+      "label": "Apply for an internship",
+      "href": "/apply-for-internship"
+    },
+    "secondary": {
+      "label": "Frontend development internship",
+      "href": "/internships/frontend-development-internship"
+    },
+    "highlights": [
+      "6 stages, 6 to 9 months",
+      "Projects for every stage",
+      "Tool list you can trust",
+      "Written by the Icanio Tech School Academic Team"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Time needed",
+      "value": "6 to 9 months at 10 to 15 hours a week"
+    },
+    {
+      "label": "Start with",
+      "value": "HTML, CSS and JavaScript"
+    },
+    {
+      "label": "End with",
+      "value": "React, TypeScript, testing and deployment"
+    },
+    {
+      "label": "Written by",
+      "value": "Icanio Tech School Academic Team"
+    }
+  ],
+  "answer": {
+    "question": "What is a frontend developer roadmap?",
+    "answer": "A frontend developer roadmap is an ordered learning plan for building the parts of a website or web app that users see and use. It starts with HTML, CSS and JavaScript, adds Git, then a framework like React with TypeScript, and finishes with testing, accessibility, performance and deployment. Each stage ends with a small project you can show."
+  },
+  "sections": [
+    {
+      "type": "prose",
+      "eyebrow": "The role",
+      "heading": "What does a frontend developer do, and why follow a roadmap?",
+      "paragraphs": [
+        "A frontend developer builds the screens, layouts and interactions people use in a browser. They turn designs into working pages, connect those pages to data from APIs and make sure everything is fast, accessible and works on every screen size.",
+        "On a normal day, that means writing components, fixing layout bugs, reviewing a teammate's pull request and talking with designers and backend developers. Frontend work sits between design and engineering, so communication matters as much as code.",
+        "A good frontend developer roadmap mirrors this job. It teaches you the building blocks first, then the tools teams use to ship and maintain real products."
+      ],
+      "bullets": [
+        "Turn Figma designs into responsive pages",
+        "Build reusable components in a framework like React",
+        "Fetch and display data from APIs",
+        "Test, debug and improve performance and accessibility"
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Frontend developer mentor explaining component design to a student"
+      }
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "Timeline",
+      "heading": "How long does it take to become a frontend developer?",
+      "paragraphs": [
+        "Most students need six to nine months of steady practice to become ready for a frontend internship, at about 10 to 15 hours a week. If you already know some HTML and CSS, you can move faster. If you are new to programming, plan on the longer end.",
+        "The timeline depends on how much you build, not how many videos you watch. We recommend a simple rule for this frontend developer roadmap: for every hour of tutorial, spend two hours building something on your own. That ratio is what turns knowledge into skill.",
+        "You do not need to finish every stage before applying. Once you complete stage four and have two deployed projects, you can start applying for internships while you keep learning."
+      ],
+      "reverse": true,
+      "image": {
+        "src": "Group-2085662119.png",
+        "alt": "Timeline planning for a six to nine month frontend developer roadmap"
+      }
+    },
+    {
+      "type": "steps",
+      "id": "roadmap",
+      "eyebrow": "Stage by stage",
+      "heading": "The frontend developer roadmap in 6 stages",
+      "intro": "Work through the stages in order. Each one builds on the last, and each ends with a project for your portfolio.",
+      "items": [
+        {
+          "label": "Stage 1, weeks 1 to 4",
+          "title": "HTML, CSS and web foundations",
+          "body": "Learn semantic HTML5, Flexbox, Grid, media queries and CSS variables. Build a responsive personal portfolio page that looks right on a phone and a laptop."
+        },
+        {
+          "label": "Stage 2, weeks 3 to 5",
+          "title": "Git and GitHub",
+          "body": "Learn to commit, branch, merge and open a pull request. Put every project from here on in a public repository with a clear README."
+        },
+        {
+          "label": "Stage 3, weeks 5 to 12",
+          "title": "Core JavaScript",
+          "body": "Learn variables, functions, arrays, objects, DOM events, form validation, browser storage, and async code with fetch and promises. Build a weather or movie search app that calls a public API."
+        },
+        {
+          "label": "Stage 4, weeks 12 to 20",
+          "title": "React and TypeScript",
+          "body": "Learn components, props, state, hooks, routing and basic TypeScript types. Build a multi-page dashboard that fetches, filters and displays data."
+        },
+        {
+          "label": "Stage 5, weeks 20 to 28",
+          "title": "Testing, accessibility and performance",
+          "body": "Write unit tests with Vitest and React Testing Library. Learn WCAG basics, keyboard navigation and Core Web Vitals. Audit and improve one of your earlier projects."
+        },
+        {
+          "label": "Stage 6, weeks 28 to 36",
+          "title": "State, auth and deployment",
+          "body": "Learn state management, reusable component libraries, authentication and role-based screens, and deploy with a CI/CD pipeline. Build one capstone product UI end to end."
+        }
+      ]
+    },
+    {
+      "type": "tools",
+      "eyebrow": "Your toolkit",
+      "heading": "Which tools are on the frontend developer roadmap?",
+      "intro": "These are the tools most frontend teams use today. You do not need all of them on day one. Add each one when your frontend developer roadmap stage calls for it.",
+      "items": [
+        {
+          "name": "JavaScript",
+          "role": "The core language of the web",
+          "logo": "javascript-r-2-2.png"
+        },
+        {
+          "name": "React",
+          "role": "Component-based user interfaces",
+          "logo": "react-svgrepo-com-2-1.png"
+        },
+        {
+          "name": "Tailwind CSS",
+          "role": "Utility-first styling",
+          "logo": "tailwind-css-2-1-1-2.png"
+        },
+        {
+          "name": "Figma",
+          "role": "Reading designs and handoff specs",
+          "logo": "Group-1000004941-2-1.png"
+        },
+        {
+          "name": "Vite",
+          "role": "Fast local development and builds",
+          "logo": "vitejs-1-1.png"
+        },
+        {
+          "name": "GitHub",
+          "role": "Version control and code review",
+          "logo": "github-icon-1-1-2-1.png"
+        },
+        {
+          "name": "Chrome DevTools",
+          "role": "Debugging and performance checks",
+          "logo": "chrome-devtools-svgrepo-com-1-3.png"
+        },
+        {
+          "name": "Vercel",
+          "role": "Hosting and preview deployments",
+          "logo": "vercel-fill-svgrepo-com-1-2.png"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "Framework choice",
+      "heading": "Should you learn React first or JavaScript first?",
+      "paragraphs": [
+        "Learn JavaScript first. React is a JavaScript library, so every React problem you hit later is really a JavaScript problem. Students who skip ahead usually get stuck on arrays, objects and async code inside React components.",
+        "A fair checkpoint is this: can you build a small app that fetches data, shows a list, lets the user filter it and saves a setting in the browser, using plain JavaScript? If yes, you are ready for React. If not, spend two more weeks on stage three of this frontend developer roadmap.",
+        "Once you start React, learn TypeScript alongside it rather than later. Types catch many beginner mistakes early and most modern React codebases use TypeScript."
+      ],
+      "bullets": [
+        "Comfortable with map, filter and reduce on arrays",
+        "Can explain what a promise is and use async and await",
+        "Can add and remove DOM elements in response to events",
+        "Can read an error message and find the line that caused it"
+      ],
+      "image": {
+        "src": "code-01.png",
+        "alt": "Code editor icon representing the JavaScript stage of the frontend developer roadmap"
+      }
+    },
+    {
+      "type": "table",
+      "eyebrow": "Projects",
+      "heading": "What projects should you build at each stage?",
+      "intro": "Build one project per stage. By the end of the frontend developer roadmap you will have a portfolio that shows steady growth.",
+      "columns": [
+        "Stage",
+        "Project idea",
+        "What it proves"
+      ],
+      "rows": [
+        [
+          "HTML and CSS",
+          "Responsive portfolio page",
+          "Layout, responsive design, clean markup"
+        ],
+        [
+          "JavaScript",
+          "API search app with filters",
+          "DOM, events, async code, error handling"
+        ],
+        [
+          "React and TypeScript",
+          "Data dashboard with routing",
+          "Components, state, hooks, types"
+        ],
+        [
+          "Testing and accessibility",
+          "Audit and fix an old project",
+          "Tests, WCAG basics, performance"
+        ],
+        [
+          "Capstone",
+          "Full product UI with login",
+          "Auth, state management, CI/CD deploy"
+        ]
+      ],
+      "note": "Deploy every project and link it from your GitHub README. A recruiter should be able to open your work in one click."
+    },
+    {
+      "type": "checklist",
+      "eyebrow": "Job ready",
+      "heading": "Checklist: are you ready for a frontend internship?",
+      "intro": "Use this list to check your progress on the frontend developer roadmap before you apply.",
+      "items": [
+        "I can build a responsive layout with Flexbox and Grid without a tutorial",
+        "I use Git every day and can open and review a pull request",
+        "I can fetch data from an API and handle loading and error states",
+        "I have built at least one React app with routing and TypeScript",
+        "I have written a few unit tests for my components",
+        "My pages work with a keyboard and pass a basic accessibility check",
+        "I have three deployed projects linked from my resume",
+        "I can explain one technical decision in each project"
+      ],
+      "image": {
+        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-15.png",
+        "alt": "Student who completed the frontend developer roadmap checklist and is ready to apply"
+      }
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Avoid these",
+      "heading": "Mistakes that slow down your frontend developer roadmap",
+      "intro": "These are the patterns our mentors see most often in students who feel stuck.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "Tutorial loops without building",
+          "body": "Watching one more course feels productive but rarely is. Close the video and rebuild the same project from memory.",
+          "icon": "Group-2085662024-1.png"
+        },
+        {
+          "title": "Jumping to frameworks too early",
+          "body": "Skipping core JavaScript makes React confusing. Follow the frontend developer roadmap order, even when it feels slow.",
+          "icon": "Group-2085662024-4-4.png"
+        },
+        {
+          "title": "Ignoring accessibility",
+          "body": "Accessible, semantic markup is a skill few junior developers show. Learning WCAG basics early sets you apart.",
+          "icon": "Group-2085662024-5-2.png"
+        },
+        {
+          "title": "Projects that never go live",
+          "body": "A project on your laptop is invisible to recruiters. Deploy early, even if it is not perfect, and improve it in public.",
+          "icon": "Group-2085662024-6-1.png"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Learn with a mentor",
+      "heading": "How the Icanio frontend internship follows this roadmap",
+      "paragraphs": [
+        "The Frontend Development internship at Icanio Tech School runs in four learning phases that follow the same frontend developer roadmap: web foundations with HTML, CSS and Git, then core JavaScript and TypeScript, then performance, testing and accessibility, and finally advanced React, authentication and CI/CD deployment.",
+        "You work with a practising Icanio engineer as your 1:1 mentor. Your code is reviewed to internal Icanio standards, and you build real projects: a responsive portfolio site, a dynamic dashboard and a capstone product UI deployed to the web. You finish with a certificate and a GitHub portfolio.",
+        "Icanio Technologies is a Tamil Nadu based AI company trusted by 100+ businesses. You can choose a duration from 15 days to six months, offline, online, part time or hybrid."
+      ],
+      "reverse": true,
+      "image": {
+        "src": "ourInternshipProgramImg.png",
+        "alt": "Frontend intern at Icanio Tech School building a capstone project with a mentor"
+      },
+      "link": {
+        "label": "See the frontend internship curriculum",
+        "href": "/internships/frontend-development-internship"
+      }
+    },
+    {
+      "type": "stories",
+      "tone": "soft",
+      "eyebrow": "Recent completions",
+      "heading": "Students who followed a frontend developer roadmap with us",
+      "intro": "Recent interns who completed web and React tracks at Icanio Tech School.",
+      "track": "React",
+      "limit": 4
+    },
+    {
+      "type": "testimonials",
+      "eyebrow": "In their words",
+      "heading": "Interns on learning the frontend developer roadmap",
+      "intro": "Hear from students who built real web projects with our mentors while working through the frontend developer roadmap."
+    },
+    {
+      "type": "links",
+      "tone": "soft",
+      "eyebrow": "Keep exploring",
+      "heading": "Internships that match the frontend developer roadmap",
+      "items": [
+        {
+          "title": "Frontend development internship",
+          "href": "/internships/frontend-development-internship",
+          "body": "Four phases, 1:1 mentorship and three live web projects."
+        },
+        {
+          "title": "Full stack development internship",
+          "href": "/internships/full-stack-development-internship",
+          "body": "Add backend and database skills to your frontend base."
+        },
+        {
+          "title": "UI/UX design internship",
+          "href": "/internships/ui-ux-design-internship",
+          "body": "Learn the design side that frontend developers work with every day."
+        },
+        {
+          "title": "How to get an internship as a fresher",
+          "href": "/career-guides/how-to-get-an-internship-as-a-fresher",
+          "body": "Turn your roadmap projects into interview calls."
+        },
+        {
+          "title": "Technical workshops",
+          "href": "/technical-workshops",
+          "body": "Short, hands-on sessions on web development and more."
+        },
+        {
+          "title": "All internships",
+          "href": "/internships",
+          "body": "Compare all 15 tracks side by side."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "student",
+      "eyebrow": "Start building",
+      "heading": "Follow the frontend developer roadmap with a mentor",
+      "intro": "Apply for the frontend internship and our team will help you pick the right duration and start date.",
+      "points": [
+        "1:1 mentorship from a practising Icanio engineer",
+        "Four learning phases and three live web projects",
+        "Certificate on completion"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is frontend development a good career for freshers?",
+      "a": "Yes. Almost every business needs websites and web apps, so frontend skills stay useful across industries. It is also one of the easiest fields to show proof in, because a deployed project is visible to anyone with a link. That makes it a practical first track for many students."
+    },
+    {
+      "q": "Can I follow a frontend developer roadmap without a CS degree?",
+      "a": "Yes. Many frontend developers come from other degrees or are self-taught. Employers mainly look at what you can build. Follow the stages in order, build a project at each stage and keep your code public on GitHub. Your portfolio will speak for your skills."
+    },
+    {
+      "q": "Do I need to be good at maths for frontend development?",
+      "a": "Basic school maths is enough for most frontend work. You will use simple arithmetic for layouts and percentages and some logic for conditions and loops. Advanced maths only matters for niche areas like graphics or animation engines."
+    },
+    {
+      "q": "Which is better to learn first, React or Angular?",
+      "a": "Either can get you hired, but React is a common first choice because of its large community, learning resources and flexible ecosystem. Whichever you choose, learn core JavaScript first. The concepts you learn in one framework transfer well to others."
+    },
+    {
+      "q": "Is TypeScript necessary for a frontend developer?",
+      "a": "It is not required to start, but it is increasingly expected in team projects. TypeScript adds types to JavaScript and catches errors before your code runs. We recommend adding it at the React stage of your frontend developer roadmap."
+    },
+    {
+      "q": "How many projects do I need before applying?",
+      "a": "Two or three deployed projects are enough for an internship application. One should be a responsive static site, one a JavaScript app using an API, and ideally one React app. Quality and clear READMEs matter more than the number of projects."
+    },
+    {
+      "q": "What is the difference between frontend and full stack?",
+      "a": "A frontend developer focuses on what users see and interact with in the browser. A full stack developer also builds the server, APIs and database behind it. Many developers finish a frontend developer roadmap first and then extend into full stack."
+    },
+    {
+      "q": "How long is the Icanio frontend internship?",
+      "a": "You choose a duration from 15 days up to six months. Longer durations cover all four learning phases in more depth and include a larger capstone project. You can attend offline, online, part time or in hybrid mode."
+    }
+  ],
+  "takeaways": [
+    "A frontend developer roadmap runs from HTML, CSS and JavaScript to React, TypeScript, testing and deployment.",
+    "Most students need six to nine months at 10 to 15 hours a week to become internship ready.",
+    "Learn core JavaScript before React, and add TypeScript at the React stage.",
+    "Build and deploy one project at each stage, so your portfolio shows steady growth.",
+    "Accessibility, testing and performance skills set junior frontend developers apart."
+  ],
+  "conclusion": [
+    "A frontend developer roadmap only works if you build as you learn. Take one stage at a time, finish a project at each step and put everything online. In a few months, you will have both the skills and the proof employers look for.",
+    "If you want structure, reviews and a mentor who ships frontend code for clients, the Icanio Tech School frontend internship follows this same path."
+  ],
+  "references": [
+    {
+      "label": "MDN Web Docs: Learn web development",
+      "href": "https://developer.mozilla.org/en-US/docs/Learn"
+    },
+    {
+      "label": "React official documentation",
+      "href": "https://react.dev/learn"
+    },
+    {
+      "label": "W3C Web Content Accessibility Guidelines overview",
+      "href": "https://www.w3.org/WAI/standards-guidelines/wcag/"
+    },
+    {
+      "label": "Front-end web development on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Front-end_web_development"
+    }
+  ],
+  "cta": {
+    "title": "Start your frontend developer roadmap today",
+    "body": "Join the frontend internship, get a mentor and build three live web projects.",
+    "primary": {
+      "label": "Apply for an internship",
+      "href": "/apply-for-internship"
+    },
+    "secondary": {
+      "label": "See the frontend internship",
+      "href": "/internships/frontend-development-internship"
+    }
+  }
+}

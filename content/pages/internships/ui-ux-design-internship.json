@@ -1,0 +1,528 @@
+{
+  "path": "/internships/ui-ux-design-internship",
+  "kind": "internship",
+  "label": "UI/UX Design Internship",
+  "parent": "/internships",
+  "seo": {
+    "metaTitle": "UX Design Internship: 4 Proven Phases in Figma",
+    "metaDescription": "Join the UI/UX design internship at Icanio Tech School: user research, wireframes, Figma prototypes, 3 portfolio case studies, 1:1 mentors and a certificate.",
+    "focusKeyword": "ux design internship",
+    "secondaryKeywords": [
+      "ui ux internship in tamil nadu",
+      "figma internship",
+      "ui ux design course with certificate",
+      "user research internship",
+      "product design internship for students"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "Engineering internship",
+    "title": "UI/UX Design Internship: Research, Wireframe, Prototype",
+    "subtitle": "Our UI/UX design internship takes you from user research to wireframes to tested Figma prototypes. You design on real product briefs, get 1:1 feedback from an Icanio designer and leave with three portfolio case studies.",
+    "image": {
+      "src": "Group-2085663220-1.png",
+      "alt": "Student designing app screens in Figma during the UI/UX design internship at Icanio Tech School"
+    },
+    "primary": {
+      "label": "Apply for this internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "View curriculum",
+      "href": "#curriculum"
+    },
+    "highlights": [
+      "4 learning phases",
+      "1:1 design mentorship",
+      "3 portfolio case studies",
+      "Certificate on completion"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Duration",
+      "value": "15 days to 6 months"
+    },
+    {
+      "label": "Mode",
+      "value": "Offline, online or part time"
+    },
+    {
+      "label": "Mentorship",
+      "value": "1:1 with an Icanio mentor"
+    },
+    {
+      "label": "Certificate",
+      "value": "Yes, on completion"
+    }
+  ],
+  "answer": {
+    "question": "What is the UI/UX design internship at Icanio Tech School?",
+    "answer": "It is a mentored program where students learn to design digital products the way Icanio Technologies does. You study visual design and user research, build wireframes and information architecture, create interactive Figma prototypes and test them with users. The UI/UX design internship runs from 15 days to six months, offline or online, and ends with a certificate and portfolio case studies."
+  },
+  "sections": [
+    {
+      "type": "prose",
+      "eyebrow": "The role",
+      "heading": "What a UI/UX designer does, and why teams hire them",
+      "intro": "A UI/UX designer decides how a product looks, feels and works for the person using it. The job sits between users, business goals and developers.",
+      "paragraphs": [
+        "UX, or user experience, is about the whole journey. Can a new user sign up without help? Can they find the price, finish a payment and come back later? UX designers answer these questions with research, flows and testing, not guesses.",
+        "UI, or user interface, is the visible layer. It covers layout, type, colour, spacing, icons and motion. A good interface makes the right action obvious and the wrong action hard. It also stays consistent across dozens of screens through a design system.",
+        "Every company that ships an app or website needs this skill. Startups, banks, hospitals and colleges all compete on how easy their products are to use. That is why a UI/UX design internship with real briefs is worth more than a list of tutorials. Recruiters want to see how you think, not only how your screens look.",
+        "At Icanio Technologies, designers work alongside developers on client products. Our UX design internship puts you inside that workflow, so you learn to justify decisions, write handoff notes and accept critique."
+      ],
+      "bullets": [
+        "Research users before drawing a single screen",
+        "Turn findings into flows, wireframes and prototypes",
+        "Test with real people and fix what they struggle with",
+        "Hand off clean specs that developers can build from"
+      ],
+      "image": {
+        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-4-1.png",
+        "alt": "Intern reviewing a user flow with a mentor in the UX design internship"
+      },
+      "link": {
+        "label": "Compare all internship tracks",
+        "href": "/internships"
+      }
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Eligibility",
+      "heading": "Who can join the UI/UX design internship?",
+      "intro": "You do not need a design degree for our UI/UX design internship. You need curiosity about people and patience to iterate. These four groups do well in our UX design internship.",
+      "columns": 4,
+      "items": [
+        {
+          "title": "Systems thinkers",
+          "body": "You enjoy untangling user journeys, grouping information sensibly and solving the small problems that make a product feel simple.",
+          "icon": "Group-2085662025-3-1.png"
+        },
+        {
+          "title": "Career switchers",
+          "body": "You work in another field and want hands-on practice in research, prototyping and problem solving before moving into design.",
+          "icon": "Group-2085663537.png"
+        },
+        {
+          "title": "Creative students",
+          "body": "You sketch, edit photos or make posters for college events, and want to turn that eye for detail into a product design career.",
+          "icon": "Group-2085662024-26.png"
+        },
+        {
+          "title": "Aspiring UI/UX designers",
+          "body": "You already know some Figma and want structured feedback, real research and usability testing to grow into a job-ready designer.",
+          "icon": "Group-2085662024-5-1.png"
+        }
+      ]
+    },
+    {
+      "type": "phases",
+      "id": "curriculum",
+      "eyebrow": "Curriculum",
+      "heading": "UX design internship curriculum in 4 phases",
+      "intro": "Each phase of the UX design internship ends with a deliverable your mentor reviews. Shorter durations focus on the first phases; three and six month interns complete all four and a capstone.",
+      "items": [
+        {
+          "label": "Phase 1",
+          "title": "Design foundations and user research",
+          "points": [
+            "Principles of visual design: hierarchy, contrast, balance and alignment",
+            "Typography, colour theory and layout grids for web and mobile",
+            "User research methods: interviews, surveys and observation",
+            "Personas built from real interview notes, not assumptions",
+            "Competitive analysis and benchmarking of similar products",
+            "Introduction to Figma, frames, styles and design systems"
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "title": "Wireframing and information architecture",
+          "points": [
+            "User flows and journey maps for key tasks",
+            "Low-fidelity wireframes on paper and in Figma",
+            "Information architecture, content grouping and sitemaps",
+            "Navigation structure and layout planning across screens",
+            "Accessibility and inclusive design basics, including contrast and tap targets",
+            "Design critique sessions and fast iteration"
+          ]
+        },
+        {
+          "label": "Phase 3",
+          "title": "Prototyping and interaction design",
+          "points": [
+            "High-fidelity mockups with Auto Layout, components and variants",
+            "Interactive prototypes and micro-interactions",
+            "Mobile-first and responsive design for different screen sizes",
+            "Developer handoff with specs, redlines and asset exports",
+            "Usability testing sessions with real participants",
+            "Heuristic evaluation of your own and existing products"
+          ]
+        },
+        {
+          "label": "Phase 4",
+          "title": "Portfolio, testing and career preparation",
+          "points": [
+            "A/B testing and data-driven design decisions",
+            "Capstone end-to-end UX project from research to prototype",
+            "Design system documentation for a multi-screen product",
+            "Case study writing and portfolio presentation",
+            "UX interview preparation, design challenges and resume review"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tools",
+      "tone": "soft",
+      "eyebrow": "Tools",
+      "heading": "Design tools you will use every day",
+      "intro": "These are the tools product teams use to research, design, test and document. You will use each one on a real task during the UI/UX design internship.",
+      "items": [
+        {
+          "name": "Figma",
+          "role": "UI design, components and prototyping",
+          "logo": "figma-icon-one-color-1.png"
+        },
+        {
+          "name": "FigJam",
+          "role": "Research synthesis and ideation",
+          "logo": "Group-1000004941-3.png"
+        },
+        {
+          "name": "Maze",
+          "role": "Remote usability testing",
+          "logo": "Maze_idBN3M2S8R_0-1.png"
+        },
+        {
+          "name": "Notion",
+          "role": "Research notes and documentation",
+          "logo": "notion-2-1.png"
+        },
+        {
+          "name": "Miro",
+          "role": "Journey mapping and workshops",
+          "logo": "miro-2-2.png"
+        },
+        {
+          "name": "Zeroheight",
+          "role": "Design system documentation",
+          "logo": "jDXMT6V3A-w5wmqdXUexhmdZnAceKizSUqmpp01KXGU-2-1-2.png"
+        },
+        {
+          "name": "Lottie",
+          "role": "Micro-animation export",
+          "logo": "lottiefiles-1.png"
+        },
+        {
+          "name": "Hotjar",
+          "role": "Heatmaps and session insights",
+          "logo": "Group-4.png"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "How feedback works",
+      "heading": "How design reviews work in our UX design internship",
+      "intro": "Most students have never had their design work critiqued by a professional. This is where the biggest jumps in skill happen.",
+      "paragraphs": [
+        "Every week you share a Figma file with your mentor. They leave comments directly on frames, the same way designers review each other at Icanio Technologies. A comment might question a button label, a spacing choice or an assumption about the user.",
+        "You then reply, revise and explain your reasoning. The goal is not to please the mentor. The goal is to learn how to defend a decision with evidence from research or testing, and to change it when the evidence says so.",
+        "Twice in each phase you present your work in a short critique session with other interns. You learn to give feedback as well as take it. In our experience, this habit is what hiring managers notice first in a design interview.",
+        "By the end of the UI/UX design internship, you will have a record of your decisions and revisions. That record becomes the story inside each portfolio case study."
+      ],
+      "bullets": [
+        "Weekly comments inside your Figma file",
+        "Critique sessions with fellow interns",
+        "Usability test notes you act on",
+        "A written decision log for each case study"
+      ],
+      "image": {
+        "src": "ourInternshipProgramImg.png",
+        "alt": "Mentor giving design feedback to a student in the UI/UX design internship"
+      },
+      "reverse": true
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Outcomes",
+      "heading": "What you will achieve in this UX design internship",
+      "intro": "You finish the UI/UX design internship with work you can show, not only a certificate. Each outcome below maps to real deliverables your mentor signs off.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "3 portfolio case studies",
+          "body": "A mobile app redesign, a new web product and a capstone UX project. Each one shows research, wireframes, prototypes and what you learned from testing.",
+          "icon": "Group-1000005365-5-1.png"
+        },
+        {
+          "title": "Figma at a team level",
+          "body": "Auto Layout, components, variants, prototyping and developer handoff, used the way a professional design team uses them on shared files.",
+          "icon": "Group-1000005365-6-1.png"
+        },
+        {
+          "title": "A research-driven process",
+          "body": "Run user interviews, sort the findings and turn them into design decisions you can defend in a review or an interview.",
+          "icon": "Group-1000005365-7-1.png"
+        },
+        {
+          "title": "Design system skills",
+          "body": "Build and maintain a component library that keeps a multi-screen product consistent, and document it so developers can use it.",
+          "icon": "Group-2085662024-6.png"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "eyebrow": "Portfolio",
+      "heading": "What a strong UI/UX portfolio case study includes",
+      "intro": "Recruiters skim portfolios in minutes. Our mentors help you shape each case study from the UX design internship so the key points are easy to find.",
+      "items": [
+        "The problem, the user and the business goal, stated in two or three lines",
+        "Research you ran, with one or two quotes that changed your direction",
+        "User flows and wireframes that show how the idea took shape",
+        "Final screens, the prototype link and the design system parts you built",
+        "Usability test results and what you changed because of them",
+        "A short reflection on what you would do differently next time"
+      ]
+    },
+    {
+      "type": "steps",
+      "tone": "soft",
+      "eyebrow": "How it runs",
+      "heading": "How the UI/UX design internship runs, step by step",
+      "intro": "The rhythm is the same for every duration. Longer internships simply spend more time in each phase and take on a bigger capstone.",
+      "items": [
+        {
+          "label": "Start",
+          "title": "Apply and talk to our team",
+          "body": "Send the short UX design internship form. A counsellor calls you to understand your year, your design experience and the duration that fits your college calendar."
+        },
+        {
+          "label": "Week 1",
+          "title": "Onboarding and your first brief",
+          "body": "You meet your mentor, set up Figma and FigJam, and receive a small product brief. You also learn how critique works at Icanio."
+        },
+        {
+          "label": "Phases 1 to 3",
+          "title": "Research, wireframe, prototype",
+          "body": "You move through the phases with weekly reviews. Each week ends with a file your mentor comments on, line by line."
+        },
+        {
+          "label": "Capstone",
+          "title": "Design a product end to end",
+          "body": "You take one brief from interviews to a tested prototype and a handoff file. You present it to designers and developers, as you would at work."
+        },
+        {
+          "label": "Finish",
+          "title": "Review, certificate and referral",
+          "body": "We review your portfolio, run a mock design interview and issue your certificate. Top performers are referred to the Icanio talent team."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Career paths",
+      "heading": "Roles this UX design internship prepares you for",
+      "intro": "Design job titles vary between companies. These are the entry roles our UI/UX design internship lines up with.",
+      "columns": [
+        "Role",
+        "What you do",
+        "Key skills"
+      ],
+      "rows": [
+        [
+          "UI/UX designer",
+          "Designs flows and screens end to end",
+          "Figma, research, prototyping"
+        ],
+        [
+          "UX researcher",
+          "Plans interviews and usability tests",
+          "Interviewing, synthesis, reporting"
+        ],
+        [
+          "UI designer",
+          "Crafts visual layouts and components",
+          "Typography, colour, design systems"
+        ],
+        [
+          "Product designer",
+          "Links user needs to business goals",
+          "Flows, testing, metrics"
+        ],
+        [
+          "Interaction designer",
+          "Designs motion and micro-interactions",
+          "Prototyping, Lottie, detail"
+        ]
+      ],
+      "note": "We recommend starting as a generalist UI/UX designer. You can specialise once you know which part of the work you enjoy most."
+    },
+    {
+      "type": "stories",
+      "eyebrow": "Recent completions",
+      "heading": "Students who finished the UI/UX design internship",
+      "intro": "Recent interns from colleges across Tamil Nadu, with their track and duration.",
+      "track": "UI/UX",
+      "limit": 6
+    },
+    {
+      "type": "testimonials",
+      "tone": "soft",
+      "eyebrow": "In their words",
+      "heading": "What our interns say about learning with us",
+      "intro": "Short video stories from interns, including a UI/UX design intern, about real projects and mentor guidance."
+    },
+    {
+      "type": "links",
+      "tone": "soft",
+      "eyebrow": "Related tracks",
+      "heading": "Other internships designers often pair with",
+      "items": [
+        {
+          "title": "Frontend Development Internship",
+          "href": "/internships/frontend-development-internship",
+          "body": "Build the screens you design with HTML, CSS, JavaScript and React."
+        },
+        {
+          "title": "Flutter Developer Internship",
+          "href": "/internships/flutter-developer-internship",
+          "body": "Turn mobile designs into cross-platform apps for Android and iOS."
+        },
+        {
+          "title": "Business Analyst Internship",
+          "href": "/internships/business-analyst-internship",
+          "body": "Gather requirements and write the user stories designers work from."
+        },
+        {
+          "title": "Full Stack Development Internship",
+          "href": "/internships/full-stack-development-internship",
+          "body": "See how a design becomes a working product from interface to database."
+        },
+        {
+          "title": "Project Management Internship",
+          "href": "/internships/project-management-internship",
+          "body": "Plan sprints and coordinate designers, developers and clients."
+        },
+        {
+          "title": "All 15 internship tracks",
+          "href": "/internships",
+          "body": "Compare durations, modes and outcomes for every track side by side."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "student",
+      "id": "apply",
+      "eyebrow": "Apply now",
+      "heading": "Apply for the UI/UX design internship",
+      "intro": "Tell us a little about yourself and your design interest. Our team replies within one working day.",
+      "points": [
+        "No fee to apply or to talk to a counsellor",
+        "Offline, online or part-time batches on weekdays and weekends",
+        "Durations from 15 days to six months"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need design experience for the UX design internship?",
+      "a": "No. Many interns start with no design background. Phase 1 covers visual design basics, typography, colour and Figma from the start. What helps most is curiosity about why people use products the way they do. If you already know Figma, your mentor will push you further with research and testing."
+    },
+    {
+      "q": "Is the UI/UX design internship only for CSE and IT students?",
+      "a": "No. Students from any engineering branch, arts, science and commerce can apply. Design is about understanding people and solving problems, so a mechanical or B.Com student can do very well. Our team will talk through your background and suggest the right duration when you apply."
+    },
+    {
+      "q": "Which tools will I learn in the UX design internship?",
+      "a": "Figma is the main tool, used for wireframes, components, prototypes and handoff. You also use FigJam and Miro for research and journey maps, Maze for usability testing, Notion for notes, Zeroheight for design system docs, Lottie for animation and Hotjar for heatmaps."
+    },
+    {
+      "q": "How long is the UI/UX design internship?",
+      "a": "You choose from 15 days up to six months. A short internship covers design foundations and one small brief. Three and six month internships cover all four phases, the capstone project and the full set of portfolio case studies, which gives recruiters much more to review."
+    },
+    {
+      "q": "Will I work on real projects or only exercises?",
+      "a": "In the UI/UX design internship, you work on product briefs drawn from real Icanio client scenarios. That means actual constraints: a target user, a business goal and developers who need clear specs. Your mentor reviews your files each week, the same way designs are reviewed inside our delivery teams."
+    },
+    {
+      "q": "Do I get a certificate after the UX design internship?",
+      "a": "Yes. Every intern who completes the UX design internship receives an Icanio Tech School certificate stating the track and duration. More useful in interviews is your portfolio: up to three case studies that show your research, wireframes, prototypes and testing results."
+    },
+    {
+      "q": "Can I do the UI/UX design internship online?",
+      "a": "Yes. You can attend offline at our centre in Tirunelveli, join online, or choose part-time weekday or weekend batches. Design work suits online mode well because reviews happen inside shared Figma files, but many students still prefer offline critique sessions."
+    },
+    {
+      "q": "What jobs follow a UX design internship?",
+      "a": "Common entry roles are UI/UX designer, UI designer, UX researcher, product designer and interaction designer. Top performers from the UI/UX design internship are referred to the Icanio talent team. We also help every intern with resume review, portfolio feedback and mock design interviews."
+    }
+  ],
+  "takeaways": [
+    "The UI/UX design internship at Icanio Tech School covers research, wireframes, prototypes and testing in 4 phases.",
+    "Figma is the core tool, supported by FigJam, Miro, Maze, Notion, Zeroheight, Lottie and Hotjar.",
+    "You finish the UX design internship with up to three portfolio case studies and a certificate.",
+    "Durations run from 15 days to six months, offline, online or part time, with 1:1 mentorship.",
+    "Students from any branch can apply, and top performers are referred to Icanio Technologies."
+  ],
+  "conclusion": [
+    "Good design is learned by doing it, showing it and hearing honest feedback. Our UI/UX design internship gives you all three, with a mentor who designs for real clients every week.",
+    "If you want a design career that starts with a strong portfolio, apply today. Our team will help you choose a duration and start date that fits your college schedule."
+  ],
+  "references": [
+    {
+      "label": "User experience design, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/User_experience_design"
+    },
+    {
+      "label": "Web Content Accessibility Guidelines overview, W3C WAI",
+      "href": "https://www.w3.org/WAI/standards-guidelines/wcag/"
+    },
+    {
+      "label": "AICTE Internship Policy and guidelines for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    },
+    {
+      "label": "Skill India, Government of India",
+      "href": "https://www.skillindia.gov.in/"
+    }
+  ],
+  "cta": {
+    "title": "Ready to design your first real product?",
+    "body": "Join the next UI/UX design internship batch in Tamil Nadu or online. Pick a duration, meet your mentor and start your first brief within weeks.",
+    "primary": {
+      "label": "Apply for the internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "How to apply",
+      "href": "/apply-for-internship"
+    }
+  },
+  "course": {
+    "name": "UI/UX Design Internship",
+    "description": "A mentored UI/UX design internship covering user research, wireframing, information architecture, Figma prototyping, usability testing and portfolio case studies.",
+    "duration": "15 days to 6 months",
+    "modes": [
+      "Onsite",
+      "Online",
+      "Blended"
+    ],
+    "skills": [
+      "User research",
+      "Personas",
+      "Wireframing",
+      "Information architecture",
+      "Figma prototyping",
+      "Usability testing",
+      "Design systems",
+      "Accessibility"
+    ],
+    "audience": "Students and freshers"
+  }
+}

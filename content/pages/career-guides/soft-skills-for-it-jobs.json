@@ -1,0 +1,467 @@
+{
+  "path": "/career-guides/soft-skills-for-it-jobs",
+  "kind": "guide",
+  "label": "Soft Skills for IT Jobs",
+  "parent": "/career-guides",
+  "seo": {
+    "metaTitle": "Soft Skills for IT Jobs: 9 Essential Skills",
+    "metaDescription": "The 9 soft skills for IT jobs that decide how freshers do in interviews and at work, from communication and teamwork to time management and leadership.",
+    "focusKeyword": "soft skills for it jobs",
+    "secondaryKeywords": [
+      "workplace skills for freshers",
+      "communication skills for software engineers",
+      "teamwork in agile teams",
+      "interview soft skills",
+      "student development program"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "Career guide",
+    "title": "Soft Skills for IT Jobs: The 9 That Matter Most",
+    "subtitle": "Soft skills for IT jobs decide whether a capable coder becomes a trusted teammate. This guide explains the nine skills that matter most in a software team, how to practise each one while you are still in college and how to show them in an interview.",
+    "image": {
+      "src": "Group-2085663235.png",
+      "alt": "Students practising soft skills for IT jobs in a team discussion"
+    },
+    "primary": {
+      "label": "Apply for an internship",
+      "href": "/apply-for-internship"
+    },
+    "secondary": {
+      "label": "Student Development Program",
+      "href": "/student-development-program"
+    },
+    "highlights": [
+      "9 workplace skills",
+      "Practice plan for students",
+      "Interview examples",
+      "Written by the Icanio Tech School Academic Team"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Best for",
+      "value": "Pre-final and final-year students, early-career engineers"
+    },
+    {
+      "label": "Skills covered",
+      "value": "9, from communication to career growth"
+    },
+    {
+      "label": "Practice time",
+      "value": "A few minutes a day, every day"
+    },
+    {
+      "label": "Written by",
+      "value": "Icanio Tech School Academic Team"
+    }
+  ],
+  "answer": {
+    "question": "What is the role of soft skills for IT jobs?",
+    "answer": "Soft skills for IT jobs are the people and self-management skills that let you work well in a software team. They include clear communication, professional conduct, teamwork, problem solving, critical thinking, time management, emotional control, leadership and planning your career. Technical skills get you shortlisted. Soft skills decide how you perform in interviews, sprints and client calls."
+  },
+  "sections": [
+    {
+      "type": "prose",
+      "eyebrow": "Why it matters",
+      "heading": "Why do soft skills matter so much in IT?",
+      "paragraphs": [
+        "Software is built by teams, not individuals. Every feature involves a conversation with a product owner, a code review with a teammate and an update in a stand-up. If you cannot explain your work or handle feedback, even good code gets delayed.",
+        "Most campus training focuses on technical skills. Many graduates then find the first IT job hard, not because they cannot code, but because they are not ready for a sprint deadline, a pushback from a client or a manager asking for a status update. That is exactly the gap soft skills for IT jobs close.",
+        "In our experience, the freshers who grow fastest in their first year are not always the strongest coders. They are the ones who ask good questions early, keep their team informed and take ownership of small tasks."
+      ],
+      "bullets": [
+        "You explain your code in every review and stand-up",
+        "You receive feedback on your work every week",
+        "You estimate, plan and report on your own tasks",
+        "You talk to people outside engineering, including clients"
+      ],
+      "image": {
+        "src": "studentProgramOverviewImg.png",
+        "alt": "Student learning why soft skills for IT jobs matter in software teams"
+      }
+    },
+    {
+      "type": "cards",
+      "id": "nine-skills",
+      "tone": "soft",
+      "eyebrow": "The nine skills",
+      "heading": "Which soft skills for IT jobs do employers value most?",
+      "intro": "These nine soft skills for IT jobs come up again and again in real software teams. They are also the nine modules of our Student Development Program.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "Professional communication",
+          "body": "Write clear messages, give short status updates and explain technical ideas to non-technical people without jargon.",
+          "icon": "Group-2085661816.png"
+        },
+        {
+          "title": "Office etiquette and professionalism",
+          "body": "Be on time, reply to messages, respect meeting norms and handle email, chat and calls the way workplaces expect.",
+          "icon": "Group-2085661817.png"
+        },
+        {
+          "title": "Teamwork and interpersonal skills",
+          "body": "Share credit, help teammates, disagree respectfully and work well with people whose style differs from yours.",
+          "icon": "Group-2085661818.png"
+        },
+        {
+          "title": "Problem solving",
+          "body": "Break a vague problem into small steps, test ideas quickly and know when to ask for help instead of staying stuck.",
+          "icon": "Group-2085661819.png"
+        },
+        {
+          "title": "Critical thinking",
+          "body": "Question assumptions, weigh trade-offs and make decisions based on evidence rather than guesswork.",
+          "icon": "Group-2085662024-18.png"
+        },
+        {
+          "title": "Time management and productivity",
+          "body": "Estimate tasks honestly, prioritise what matters and deliver before the deadline, not on it.",
+          "icon": "Group-2085662024-19.png"
+        },
+        {
+          "title": "EQ and stress control",
+          "body": "Stay calm under pressure, take criticism without taking it personally and recover quickly after a mistake.",
+          "icon": "Group-2085662024-20.png"
+        },
+        {
+          "title": "Leadership in technology roles",
+          "body": "Take ownership of a task, guide a junior, raise risks early and lead without needing a title.",
+          "icon": "Group-2085662024-21.png"
+        },
+        {
+          "title": "Career growth and development",
+          "body": "Set clear goals, ask for feedback, track what you learn and plan your next step deliberately.",
+          "icon": "Group-2085661819.png"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Communication",
+      "heading": "How do you improve communication skills for an IT job?",
+      "paragraphs": [
+        "Practise short, structured updates every day. Use a simple pattern: what I did, what I will do next and what is blocking me. This is the format most agile stand-ups use, and it trains you to be brief and clear.",
+        "Writing matters as much as speaking. In a real team, most communication happens in chat, tickets, pull request descriptions and email. Write one clear README for each of your projects, and reread every message before you send it. Among all soft skills for IT jobs, written clarity is the one recruiters notice first.",
+        "Finally, learn to explain one technical idea at two levels: once for an engineer and once for someone with no technical background. If you can do both, you are ready for client calls."
+      ],
+      "bullets": [
+        "Give a 60-second stand-up update on your college project each day",
+        "Write a clear pull request description for every change",
+        "Explain your final-year project to a family member without jargon",
+        "Join a college club or event where you present to a group"
+      ],
+      "reverse": true,
+      "image": {
+        "src": "WhatWeDoSectionImg2.png",
+        "alt": "Student presenting a project update to practise communication for IT jobs"
+      }
+    },
+    {
+      "type": "table",
+      "eyebrow": "At work",
+      "heading": "Where do you use soft skills for IT jobs day to day?",
+      "intro": "Each part of a normal sprint calls on different soft skills for IT jobs. This table shows where they show up.",
+      "columns": [
+        "Moment in the sprint",
+        "Main soft skill",
+        "What good looks like"
+      ],
+      "rows": [
+        [
+          "Daily stand-up",
+          "Communication",
+          "A clear update in under a minute"
+        ],
+        [
+          "Sprint planning",
+          "Time management",
+          "Honest estimates and early risk flags"
+        ],
+        [
+          "Code review",
+          "EQ and teamwork",
+          "Accepting feedback and giving it kindly"
+        ],
+        [
+          "Production bug",
+          "Problem solving, stress control",
+          "Calm, step-by-step debugging"
+        ],
+        [
+          "Client demo",
+          "Professional communication",
+          "Explaining value, not just features"
+        ]
+      ],
+      "note": "We recommend practising these moments in college group projects. Run a short stand-up, set deadlines and review each other's work."
+    },
+    {
+      "type": "steps",
+      "id": "roadmap",
+      "tone": "soft",
+      "eyebrow": "Practice plan",
+      "heading": "A 6-week plan to build soft skills for IT jobs",
+      "intro": "Soft skills for IT jobs improve with repeated practice, not with reading alone. Pick one focus each week and practise it daily.",
+      "items": [
+        {
+          "label": "Week 1",
+          "title": "Self-check and goal setting",
+          "body": "Rate yourself from one to five on each of the nine skills. Ask a friend or faculty member to rate you too. Pick your two weakest skills as your focus."
+        },
+        {
+          "label": "Week 2",
+          "title": "Daily written and spoken updates",
+          "body": "Send a three-line update on your project each day to a study partner. Record one short spoken update and listen back."
+        },
+        {
+          "label": "Week 3",
+          "title": "Team project with roles",
+          "body": "Run a small group project with a planner, a reviewer and a presenter. Rotate roles each week so everyone practises each skill."
+        },
+        {
+          "label": "Week 4",
+          "title": "Deadlines and prioritisation",
+          "body": "Break your week into tasks, estimate each one and compare estimates with actual time. Adjust your planning next week."
+        },
+        {
+          "label": "Week 5",
+          "title": "Feedback and stress practice",
+          "body": "Ask for honest feedback on your work and reply only with thanks and one question. Practise a mock interview under time pressure."
+        },
+        {
+          "label": "Week 6",
+          "title": "Lead something small",
+          "body": "Organise a study session, guide a junior or present in class. Reflect on what went well and what to change."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Interviews",
+      "heading": "How do you show soft skills in an IT interview?",
+      "paragraphs": [
+        "Show them through short stories, not claims. Instead of saying you are a team player, describe a time you helped a teammate fix a bug before a deadline. Interviewers remember examples, not adjectives.",
+        "A simple structure works well: the situation, what you did and the result. Prepare four stories in advance: a team conflict, a tight deadline, a mistake you fixed and a time you learned something fast. These four cover most behavioural questions about soft skills for IT jobs.",
+        "Your behaviour in the interview is evidence too. Listen fully before answering, ask a clarifying question when a problem is vague and say clearly when you do not know something. Those habits show communication and critical thinking in real time."
+      ],
+      "bullets": [
+        "Tell me about a time you disagreed with a teammate",
+        "Describe a deadline you almost missed and what you did",
+        "What is the biggest mistake you made in a project?",
+        "How do you handle feedback you do not agree with?"
+      ],
+      "image": {
+        "src": "Group-2085663181.png",
+        "alt": "Fresher answering behavioural interview questions about soft skills for IT jobs"
+      },
+      "link": {
+        "label": "How to get an internship as a fresher",
+        "href": "/career-guides/how-to-get-an-internship-as-a-fresher"
+      }
+    },
+    {
+      "type": "checklist",
+      "tone": "soft",
+      "eyebrow": "Self-check",
+      "heading": "Checklist: soft skills for IT jobs you can show today",
+      "intro": "Tick each item you can prove with a real example. The unticked ones are your practice list for the next month.",
+      "items": [
+        "I can give a clear one-minute update on any project I am working on",
+        "I have written a README or report that someone else could follow",
+        "I have worked in a team project and can describe my role in it",
+        "I have handled a disagreement calmly and reached a decision",
+        "I plan my week and usually finish tasks before the deadline",
+        "I ask for feedback and act on it",
+        "I have led a small activity, event or study group",
+        "I have four interview stories ready, each under two minutes"
+      ],
+      "image": {
+        "src": "ourInternshipProgramImg.png",
+        "alt": "Student checking progress on soft skills for IT jobs before an internship"
+      }
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Avoid these",
+      "heading": "Mistakes freshers make with soft skills for IT jobs",
+      "intro": "Our mentors see these habits in many new interns. Each one is easy to fix once you notice it.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "Staying stuck in silence",
+          "body": "Spending a full day on a problem without asking for help looks like low ownership, not independence. Try for a fixed time, then ask with what you tried.",
+          "icon": "Group-1000005365-7.png"
+        },
+        {
+          "title": "Over-promising on deadlines",
+          "body": "Saying yes to every date feels polite but causes missed deadlines. Give an honest estimate and flag risks early.",
+          "icon": "Group-1000005365-5.png"
+        },
+        {
+          "title": "Taking code review personally",
+          "body": "Review comments are about the code, not about you. Thank the reviewer, ask questions and fix the issues.",
+          "icon": "Group-1000005365-6.png"
+        },
+        {
+          "title": "Treating soft skills as optional",
+          "body": "Many students plan to learn soft skills for IT jobs after they get hired. Starting in college gives you a clear head start.",
+          "icon": "Group-1000005365-8.png"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Learn with us",
+      "heading": "How the Student Development Program builds these skills",
+      "paragraphs": [
+        "The Student Development Program at Icanio Tech School teaches soft skills for IT jobs through nine modules built on real IT workplace scenarios. Students practise stand-ups, sprint pressure, client conversations and feedback, rather than only reading theory.",
+        "Alongside the modules, students get resume building and interview preparation, and guidance on career direction. Top performers are reviewed by the Icanio talent team for internship and associate opportunities. Colleges across Tamil Nadu use the program to improve student employability.",
+        "Icanio Technologies is a Tamil Nadu based AI company trusted by 100+ businesses, and our trainers are practising engineers with 3+ years of client delivery. They teach soft skills for IT jobs the way they use them every day."
+      ],
+      "reverse": true,
+      "image": {
+        "src": "WorkshopsImg.png",
+        "alt": "Students in a Student Development Program session on workplace skills"
+      },
+      "link": {
+        "label": "See the Student Development Program",
+        "href": "/student-development-program"
+      }
+    },
+    {
+      "type": "testimonials",
+      "tone": "soft",
+      "eyebrow": "In their words",
+      "heading": "Interns on using soft skills for IT jobs at work",
+      "intro": "Hear how our interns grew in confidence while working on real projects with mentors and teams."
+    },
+    {
+      "type": "links",
+      "eyebrow": "Keep exploring",
+      "heading": "Programs and guides that build soft skills for IT jobs",
+      "items": [
+        {
+          "title": "Student Development Program",
+          "href": "/student-development-program",
+          "body": "Nine soft skill modules built on real IT workplace scenarios."
+        },
+        {
+          "title": "Project management internship",
+          "href": "/internships/project-management-internship",
+          "body": "Practise planning, coordination and leadership on real delivery work."
+        },
+        {
+          "title": "Business analyst internship",
+          "href": "/internships/business-analyst-internship",
+          "body": "Build communication and requirement-gathering skills with stakeholders."
+        },
+        {
+          "title": "HR internship",
+          "href": "/internships/hr-internship",
+          "body": "Learn workplace behaviour and people skills from the inside."
+        },
+        {
+          "title": "How to choose an internship",
+          "href": "/career-guides/how-to-choose-an-internship",
+          "body": "Pick an internship that builds both technical and soft skills."
+        },
+        {
+          "title": "All internships",
+          "href": "/internships",
+          "body": "Every internship includes teamwork, reviews and presentations."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "student",
+      "eyebrow": "Get started",
+      "heading": "Build soft skills for IT jobs with a mentor",
+      "intro": "Apply for an internship or the Student Development Program. Our team will call you and suggest the right starting point.",
+      "points": [
+        "Nine modules built on real IT workplace scenarios",
+        "Resume building and interview preparation",
+        "Top performers reviewed by the Icanio talent team"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What are the most important soft skills for IT jobs?",
+      "a": "Communication, teamwork and time management are the three most freshers need first, because they show up every day in stand-ups, reviews and deadlines. Problem solving, critical thinking, emotional control, leadership, professionalism and career planning complete the set of nine that software teams value."
+    },
+    {
+      "q": "Are soft skills more important than technical skills?",
+      "a": "They are not more important, but they multiply your technical skills. Technical skills get you shortlisted and let you do the work. Soft skills decide how well you work in a team, how you perform in interviews and how quickly you are trusted with bigger tasks."
+    },
+    {
+      "q": "Can soft skills be learned, or are they natural?",
+      "a": "They can be learned. Like coding, they improve with deliberate practice and feedback. Quiet students often become excellent communicators once they learn a simple structure for updates and practise it daily. Personality affects your style, not your ability to learn."
+    },
+    {
+      "q": "How long does it take to improve soft skills?",
+      "a": "You can see a visible change in four to six weeks of daily practice, especially in communication and time management. Deeper skills like leadership and stress control keep growing over years. The key is regular practice with honest feedback."
+    },
+    {
+      "q": "Do introverts struggle with soft skills for IT jobs?",
+      "a": "Not necessarily. Many strong engineers are introverts. They often listen well, write clearly and prepare carefully, which are valuable soft skills for IT jobs. Introverts can use structure and preparation to handle meetings and interviews with confidence."
+    },
+    {
+      "q": "How can I practise soft skills while still in college?",
+      "a": "Use group projects, clubs, events and internships. Run short stand-ups in your project team, present in class, volunteer to organise an event and ask for feedback afterwards. A structured program adds realistic IT scenarios and guided practice."
+    },
+    {
+      "q": "Which soft skills do interviewers test for freshers?",
+      "a": "Interviewers usually test communication, problem solving, teamwork and attitude to learning. They listen to how you explain your projects, how you handle a question you cannot answer and how you describe working with others. Prepared stories help a lot."
+    },
+    {
+      "q": "Who can join the Student Development Program?",
+      "a": "Final and pre-final year students, early-career professionals, career switchers and colleges looking to improve placements can all join. The program focuses on the workplace skills that decide hiring and early career growth in IT."
+    }
+  ],
+  "takeaways": [
+    "Soft skills for IT jobs are the people and self-management skills that make you effective in a software team.",
+    "The nine that matter most are communication, professionalism, teamwork, problem solving, critical thinking, time management, EQ, leadership and career planning.",
+    "They improve with daily, deliberate practice, such as short updates, team roles and feedback.",
+    "In interviews, show soft skills through short stories with a situation, action and result.",
+    "Starting in college gives you a head start in your first IT job."
+  ],
+  "conclusion": [
+    "Code is only half of a software job. The other half is explaining your work, planning your time and working calmly with a team. Soft skills for IT jobs are learnable, and a few weeks of steady practice can change how you come across in an interview.",
+    "If you want structured practice in realistic IT scenarios, our Student Development Program and internships give you both the skills and the chance to use them."
+  ],
+  "references": [
+    {
+      "label": "Soft skills, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Soft_skills"
+    },
+    {
+      "label": "The Scrum Guide, Scrum.org",
+      "href": "https://www.scrum.org/resources/scrum-guide"
+    },
+    {
+      "label": "Skill India, Government of India",
+      "href": "https://www.skillindia.gov.in/"
+    },
+    {
+      "label": "National Education Policy 2020, Ministry of Education",
+      "href": "https://www.education.gov.in/nep/about-nep"
+    }
+  ],
+  "cta": {
+    "title": "Ready to build soft skills for IT jobs?",
+    "body": "Join an internship or the Student Development Program and practise these skills on real projects.",
+    "primary": {
+      "label": "Apply for an internship",
+      "href": "/apply-for-internship"
+    },
+    "secondary": {
+      "label": "See the Student Development Program",
+      "href": "/student-development-program"
+    }
+  }
+}

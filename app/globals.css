@@ -1,0 +1,174 @@
+@import "tailwindcss";
+
+/* Palette taken from the live Elementor site (navajowhite-oyster staging). */
+:root {
+  --navy: #004589; /* buttons, eyebrows, outlines */
+  --navy-2: #004485; /* stats band */
+  --navy-3: #0b3b6f;
+  --navy-deep: #00264c;
+  --navy-deep-2: #00366c;
+  --midnight: #0e2356; /* "What will you get" band */
+  --ink: #0a2540; /* H1 */
+  --heading: #1e293b; /* H2/H3 */
+  --body: #334155;
+  --muted: #64748b;
+  --soft: #f5fbff; /* light blue sections */
+  --soft-2: #dff3ff;
+  --soft-3: #f3f7ff;
+  --line: #e2e8f0;
+  --cyan: #19bad8;
+  --blue: #1671cc;
+}
+
+@theme inline {
+  --container-7xl: 80rem;
+  --color-navy: var(--navy);
+  --color-navy-2: var(--navy-2);
+  --color-navy-3: var(--navy-3);
+  --color-navy-deep: var(--navy-deep);
+  --color-midnight: var(--midnight);
+  --color-ink: var(--ink);
+  --color-heading: var(--heading);
+  --color-body: var(--body);
+  --color-muted: var(--muted);
+  --color-soft: var(--soft);
+  --color-soft-2: var(--soft-2);
+  --color-soft-3: var(--soft-3);
+  --color-line: var(--line);
+  --color-cyan: var(--cyan);
+  --color-blue: var(--blue);
+  /* The live site sets SF Pro Display; Inter is the web-loaded fallback. */
+  --font-sans: "SF Pro Display", -apple-system, BlinkMacSystemFont, var(--font-inter), "Segoe UI", Arial, sans-serif;
+}
+
+@layer base {
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+body {
+  background: #fff;
+  color: var(--body);
+  text-rendering: optimizeLegibility;
+}
+h1,
+h2,
+h3 {
+  color: var(--heading);
+  text-wrap: balance;
+}
+p {
+  text-wrap: pretty;
+}
+}
+
+::selection {
+  background: #19bad844;
+}
+
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* "Icanio" gradient word used in the live hero headline. */
+.text-gradient {
+  background: linear-gradient(90deg, #19bad8 0%, #1671cc 51.92%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@layer components {
+/* Buttons: filled navy and 2px navy outline, 4px radius, as on the live site. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+  border-radius: 4px;
+  padding: 0.75rem 1.4rem;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.25;
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s, transform 0.15s;
+}
+.btn:active {
+  transform: translateY(1px);
+}
+.btn-primary {
+  background: var(--navy);
+  color: #fff;
+  border: 2px solid var(--navy);
+}
+.btn-primary:hover {
+  background: var(--navy-3);
+  border-color: var(--navy-3);
+}
+.btn-outline {
+  background: #fff;
+  color: var(--navy);
+  border: 2px solid var(--navy);
+}
+.btn-outline:hover {
+  background: var(--navy);
+  color: #fff;
+}
+.btn-white {
+  background: #fff;
+  color: var(--navy);
+  border: 2px solid #fff;
+}
+.btn-white:hover {
+  background: transparent;
+  color: #fff;
+}
+.btn-ghost-white {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #ffffffb3;
+}
+.btn-ghost-white:hover {
+  background: #fff;
+  color: var(--navy);
+}
+}
+
+/* Inner-page hero: the blue skyline banner from the live course pages. */
+.hero-banner {
+  background: linear-gradient(180deg, #1f87dacc 0%, #3aa0c9cc 100%), url("/images/hero-banner.webp") left bottom / cover no-repeat, #1f87da;
+}
+
+/* Long-form copy. */
+.prose-body p + p {
+  margin-top: 1rem;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    main > section:not(:first-of-type) {
+      animation: reveal linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 25%;
+    }
+  }
+}
+@keyframes reveal {
+  from {
+    opacity: 0.001;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

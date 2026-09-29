@@ -1,0 +1,489 @@
+{
+  "path": "/about-icanio-tech-school",
+  "kind": "page",
+  "label": "About Icanio Tech School",
+  "seo": {
+    "metaTitle": "Icanio Tech School: 4 Proven Pillars of Learning",
+    "metaDescription": "About Icanio Tech School, the education arm of Icanio Technologies in Tamil Nadu: practising engineers as trainers, live projects and 30+ MoU colleges.",
+    "focusKeyword": "icanio tech school",
+    "secondaryKeywords": [
+      "education arm of icanio technologies",
+      "industry training in tamil nadu",
+      "internship with live projects",
+      "industry trainers",
+      "college mou programs"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "About us",
+    "title": "About Icanio Tech School: Where Industry Meets Ambition",
+    "subtitle": "Icanio Tech School is the education arm of Icanio Technologies. We bring AI, cloud and software engineering expertise from real client projects into structured programs for students, freshers and colleges across Tamil Nadu.",
+    "image": {
+      "src": "Mask-group-1-2.png",
+      "alt": "Students learning from industry engineers at Icanio Tech School in Tamil Nadu"
+    },
+    "primary": {
+      "label": "Talk to our team",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "Meet our trainers",
+      "href": "/industry-trainers"
+    },
+    "highlights": [
+      "2,000+ students trained",
+      "1,000+ students placed",
+      "30+ MoU colleges",
+      "Trainers from live Icanio projects"
+    ]
+  },
+  "answer": {
+    "question": "What is Icanio Tech School?",
+    "answer": "Icanio Tech School is the education arm of Icanio Technologies, a Tamil Nadu based AI company trusted by 100+ businesses. It runs 15 internship tracks, a Student Development Program, workshops and MoU programs for colleges. Practising Icanio engineers teach every session, and students work on briefs drawn from real client scenarios. Over 2,000 students have trained with us so far."
+  },
+  "sections": [
+    {
+      "type": "stats",
+      "heading": "Icanio Tech School in numbers",
+      "items": [
+        {
+          "value": "2,000+",
+          "label": "Students trained"
+        },
+        {
+          "value": "1,000+",
+          "label": "Students placed"
+        },
+        {
+          "value": "90%",
+          "label": "Placed within 5 months"
+        },
+        {
+          "value": "30+",
+          "label": "MoU colleges"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Who we are",
+      "heading": "Who we are at Icanio Tech School",
+      "intro": "We are a school built inside a working technology company. That single fact shapes everything we teach.",
+      "paragraphs": [
+        "Icanio Technologies is a Tamil Nadu based AI and software company. It builds AI, cloud, data and software systems for more than 100 businesses. Icanio Tech School is its education arm. We exist to pass that delivery experience on to the next generation of engineers and professionals.",
+        "Most training institutes teach from a syllabus. At Icanio Tech School, we teach from projects. Our trainers spend their week building products for clients. They then bring those problems, tools and standards into the classroom, both onsite and online.",
+        "Our headquarters is in Tirunelveli. From there, we work with students and colleges across the state, from Chennai and Coimbatore to Erode, Salem and Kanyakumari. Students join us for internships, soft skill programs and workshops. Colleges join us through an MoU."
+      ],
+      "bullets": [
+        "Education arm of Icanio Technologies, trusted by 100+ businesses",
+        "Headquartered in Tirunelveli, Tamil Nadu",
+        "Programs for students, freshers, faculty and institutions",
+        "Offline, online, part-time and hybrid modes"
+      ],
+      "image": {
+        "src": "Group-2085662336-2-1.png",
+        "alt": "Icanio Tech School students working with an Icanio engineer on a live project"
+      },
+      "link": {
+        "label": "Explore all internships",
+        "href": "/internships"
+      }
+    },
+    {
+      "type": "checklist",
+      "tone": "soft",
+      "eyebrow": "Outcomes",
+      "heading": "Industry-driven learning and outcomes",
+      "intro": "Every program at Icanio Tech School is designed around the skills a delivery team expects on day one. These are the five outcomes we build toward in every track.",
+      "items": [
+        "Production-ready coding habits, not just syntax, reviewed by working engineers",
+        "Hands-on AI model development on real datasets and practical problems",
+        "Cloud infrastructure fundamentals, from deployment to monitoring",
+        "Agile workflows and team collaboration with sprints, stand-ups and Git",
+        "The tools, stacks and delivery standards used on live client projects"
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Icanio engineer mentoring a student at Icanio Tech School"
+      }
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Our method",
+      "heading": "How every Icanio Tech School program is structured",
+      "intro": "Whether you join a 15-day internship or a semester-long value added course, the structure has four pillars. Each one mirrors how real software teams work and hire.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "Expert-Led Delivery",
+          "body": "Practising Icanio engineers, architects and product managers lead the sessions. They walk you through real production codebases and explain the architecture decisions behind them. Q&A panels with senior engineers follow the format of a technical interview. On campus programs, college faculty co-facilitate to keep academic rigour and attendance records.",
+          "icon": "Group-2085662436.png"
+        },
+        {
+          "title": "Industry Curriculum Design",
+          "body": "Icanio engineers write the curriculum from their active project experience. It is benchmarked against what clients actually screen for when they hire. We refresh it every cohort so it reflects the latest stack and tooling changes. Alignment sessions with faculty keep it compatible with academic credit.",
+          "icon": "Group-2085662436-1.png"
+        },
+        {
+          "title": "Live Project Execution",
+          "body": "You work on real-world briefs derived from Icanio client scenarios. Icanio engineers review your code to the same standard as internal pull requests. Work moves in iterative sprints, just like agile delivery on actual projects. Your final deliverables are production-quality outputs that you own and can share with employers.",
+          "icon": "Group-2085662436-3.png"
+        },
+        {
+          "title": "Placement-Ready Assessment",
+          "body": "Technical assessments mirror the first screening round at leading tech companies. Icanio hiring managers review your portfolio. The Icanio talent acquisition team runs LinkedIn and resume workshops. Top performers are fast-tracked to Icanio internship and associate roles.",
+          "icon": "Group-2085662436-2.png"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Our trainers",
+      "heading": "Trainers who build real products for clients",
+      "intro": "Every Icanio Tech School trainer is an active engineer, architect or specialist from Icanio Technologies or its partner ecosystem.",
+      "paragraphs": [
+        "Our trainers are not full-time lecturers. They work on live client projects and deliver training sessions onsite or online alongside that work. This keeps what they teach current. When a tool changes at work, it changes in class too.",
+        "Every trainer meets Icanio internal standards before they teach. They have a minimum of three years of client delivery experience. Icanio HR verifies their background. Academic faculty assess them before delivery on campus. After each cohort, our team reviews student feedback on every trainer.",
+        "The result is a mentor who can tell you how a feature was shipped last week, what broke and how the team fixed it. That kind of story is hard to get from a textbook."
+      ],
+      "bullets": [
+        "Active industry practitioners on live Icanio projects",
+        "Minimum 3 years of client delivery experience",
+        "Background verified by Icanio HR",
+        "Code reviews that follow internal Icanio standards"
+      ],
+      "image": {
+        "src": "Rectangle-34626444.png",
+        "alt": "Industry trainer from Icanio Technologies leading a session at Icanio Tech School"
+      },
+      "reverse": true,
+      "link": {
+        "label": "Meet our industry trainers",
+        "href": "/industry-trainers"
+      }
+    },
+    {
+      "type": "cards",
+      "tone": "soft",
+      "eyebrow": "What we run",
+      "heading": "Programs offered by Icanio Tech School",
+      "intro": "Students usually start with an internship. Colleges usually start with an MoU. Here is everything we run today.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "Internships in 15 tracks",
+          "body": "Engineering and non-engineering internships from 15 days to six months, with a 1:1 mentor, a live project and a certificate on completion.",
+          "href": "/internships",
+          "image": {
+            "src": "ourInternshipProgramImg.png",
+            "alt": "Intern building a project during an internship at Icanio Tech School"
+          },
+          "meta": "Students"
+        },
+        {
+          "title": "Student Development Program",
+          "body": "Nine soft skill modules built on real IT workplace scenarios, from professional communication to leadership in technology roles.",
+          "href": "/student-development-program",
+          "image": {
+            "src": "WhatWeDoSectionImg2.png",
+            "alt": "Students in the Icanio Tech School Student Development Program"
+          },
+          "meta": "Students"
+        },
+        {
+          "title": "Technical workshops",
+          "body": "Short, hands-on sessions on emerging technologies such as coding with AI, web development and data science, run on campus or online.",
+          "href": "/technical-workshops",
+          "image": {
+            "src": "WorkshopsImg.png",
+            "alt": "Hands-on technical workshop run by Icanio Tech School"
+          },
+          "meta": "Students"
+        },
+        {
+          "title": "MoU partnership",
+          "body": "A long-term agreement that gives students priority access to workshops, value added courses and free or sponsored internships.",
+          "href": "/college-programs/mou-partnership",
+          "meta": "Colleges"
+        },
+        {
+          "title": "Value added courses",
+          "body": "Lab-based courses on your campus, taught by industry experts with real tools, fitted into your academic timetable.",
+          "href": "/college-programs/value-added-courses",
+          "meta": "Colleges"
+        },
+        {
+          "title": "Guest lectures, FDPs and visits",
+          "body": "Guest lectures for students, faculty development programs for teachers and industrial visits to a working software company.",
+          "href": "/college-programs",
+          "meta": "Colleges"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Why it works",
+      "heading": "Why a company-run school prepares you better",
+      "paragraphs": [
+        "Hiring managers in IT look for three things in a fresher. Can you write clean, working code or deliverables? Can you work in a team with deadlines? Can you explain what you built and why? A college syllabus covers the first point in theory. It rarely covers the other two.",
+        "At Icanio Tech School, all three are part of the daily routine. You commit code to a shared repository. You join stand-ups and sprint reviews. You present your project to an engineer who asks the same questions an interviewer would ask.",
+        "In our experience, this is what makes the difference in the first job. Students who have lived through a real sprint settle in faster. They ask better questions, they handle feedback calmly and they deliver on time. That confidence is the real outcome we aim for."
+      ],
+      "bullets": [
+        "Shared repositories and pull request reviews",
+        "Weekly feedback from a 1:1 mentor",
+        "Project presentations in an interview format"
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Mentor reviewing a student project in a sprint review"
+      },
+      "reverse": true
+    },
+    {
+      "type": "steps",
+      "eyebrow": "How to start",
+      "heading": "How to start with Icanio Tech School",
+      "intro": "The first step is always a conversation. Our team replies within one working day.",
+      "items": [
+        {
+          "title": "Tell us who you are",
+          "body": "Send the short form below. Tell us if you are a student, a fresher, a faculty member or a college representative."
+        },
+        {
+          "title": "Talk to a counsellor",
+          "body": "A member of our team calls you to understand your goal, your year of study or your college plans."
+        },
+        {
+          "title": "Choose a program",
+          "body": "Students pick an internship track, duration and mode. Colleges pick an MoU, a course, a lecture or a visit."
+        },
+        {
+          "title": "Learn on real work",
+          "body": "You learn in phases with a mentor and ship a project based on a real Icanio client scenario."
+        },
+        {
+          "title": "Finish with proof",
+          "body": "Students leave with a certificate and a portfolio. Top performers are referred to the Icanio talent team."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "tone": "soft",
+      "eyebrow": "At a glance",
+      "heading": "Icanio Tech School at a glance",
+      "intro": "A quick summary for students, parents and placement officers.",
+      "columns": [
+        "Topic",
+        "What it means for you"
+      ],
+      "rows": [
+        [
+          "Parent company",
+          "Icanio Technologies, AI company trusted by 100+ businesses"
+        ],
+        [
+          "Trainers",
+          "Practising Icanio engineers with 3+ years of client delivery"
+        ],
+        [
+          "Tracks",
+          "15 internship tracks across 10+ tech stacks"
+        ],
+        [
+          "Durations and modes",
+          "15 days to 6 months, offline, online, part time or hybrid"
+        ],
+        [
+          "Outcome",
+          "Certificate, portfolio, interview practice and referral for top performers"
+        ]
+      ],
+      "note": "We recommend that students join in the pre-final or final year, when the fundamentals are fresh and a real project adds the most value."
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Purpose-led and future-ready",
+      "heading": "Our mission and vision",
+      "paragraphs": [
+        "Our mission is to bridge the digital divide through accessible, industry-relevant technical education. We keep learning practical, so students are ready for a tech landscape that changes every year.",
+        "Our vision is a generation of skilled professionals who contribute meaningfully to the digital world. When learners get the right knowledge and tools, innovation follows. We want that growth to start here in Tamil Nadu, in colleges of every size."
+      ],
+      "image": {
+        "src": "MissionVisionImg.png",
+        "alt": "Icanio Tech School mission and vision for industry-ready students"
+      }
+    },
+    {
+      "type": "testimonials",
+      "tone": "soft",
+      "eyebrow": "In their words",
+      "heading": "What students say about Icanio Tech School",
+      "intro": "Real experiences from interns who learned with our engineers. Press play to hear them in their own words."
+    },
+    {
+      "type": "gallery",
+      "eyebrow": "Recent moments",
+      "heading": "Recent milestones from Icanio Tech School",
+      "intro": "A few recent highlights from our LinkedIn page, from new college partnerships to a student who joined Icanio Technologies.",
+      "items": [
+        {
+          "src": "ChatGPT-Image-Sep-9-2026-03_54_26-PM.png",
+          "alt": "Jeyaram R from Icanio Tech School joins Icanio Technologies as SDE",
+          "caption": "Jeyaram R, an Icanio Tech School student, began his career as a Software Development Engineer at Icanio Technologies."
+        },
+        {
+          "src": "MOU-Signing-Ceremony-1_page-0001.jpg",
+          "alt": "MoU signing ceremony with Sri Shanmugha College of Engineering and Technology",
+          "caption": "An MoU signing and a guest talk with Sri Shanmugha College of Engineering and Technology."
+        },
+        {
+          "src": "Untitled-design-2-1.png",
+          "alt": "MoU between Icanio Technologies and EGS Pillay Engineering College",
+          "caption": "An MoU with EGS Pillay Engineering College, Nagapattinam, focused on training, internships and career guidance."
+        },
+        {
+          "src": "Untitled-design.png",
+          "alt": "MoU between Icanio Technologies and Arunachala College of Engineering for Women",
+          "caption": "An MoU with Arunachala College of Engineering for Women for industry exposure and internships."
+        }
+      ]
+    },
+    {
+      "type": "partners",
+      "eyebrow": "Trusted by colleges",
+      "heading": "Colleges that partner with Icanio Tech School",
+      "intro": "Our MoU partners include engineering and arts colleges across Tamil Nadu.",
+      "limit": 12
+    },
+    {
+      "type": "links",
+      "tone": "soft",
+      "eyebrow": "Keep exploring",
+      "heading": "Learn more about us",
+      "items": [
+        {
+          "title": "Industry trainers",
+          "href": "/industry-trainers",
+          "body": "The six trainer roles and the eight standards every trainer meets."
+        },
+        {
+          "title": "Student success stories",
+          "href": "/student-success-stories",
+          "body": "Recent completions and the story of Jeyaram R, now an SDE at Icanio."
+        },
+        {
+          "title": "Partner colleges",
+          "href": "/partner-colleges",
+          "body": "The 30+ colleges that work with us through an MoU."
+        },
+        {
+          "title": "Campus events",
+          "href": "/campus-events",
+          "body": "MoU signings, workshops, value added courses and guest lectures."
+        },
+        {
+          "title": "College programs",
+          "href": "/college-programs",
+          "body": "Every program we bring to your campus, in one place."
+        },
+        {
+          "title": "Contact us",
+          "href": "/contact",
+          "body": "Email, phone, WhatsApp and our Tirunelveli address."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "student",
+      "id": "apply",
+      "eyebrow": "Talk to our team",
+      "heading": "Start with Icanio Tech School",
+      "intro": "Tell us what you want to learn. Our team replies within one working day with the right track, duration and start date.",
+      "points": [
+        "No fee is charged to apply or to talk to a counsellor",
+        "Start dates every month, offline, online or part time",
+        "Colleges can use the enquiry option on our contact page"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Icanio Tech School part of Icanio Technologies?",
+      "a": "Yes. Icanio Tech School is the education arm of Icanio Technologies, a Tamil Nadu based AI and software company trusted by more than 100 businesses. Our trainers work on Icanio client projects, and top students are referred to the Icanio talent team for internship and associate roles."
+    },
+    {
+      "q": "Where is Icanio Tech School located?",
+      "a": "Our headquarters is in Tirunelveli, Tamil Nadu, at AP Towers on North Main Road, NGO A Colony. We also teach online and on partner college campuses across the state. Many students join online from other districts and attend review sessions virtually."
+    },
+    {
+      "q": "Who teaches at Icanio Tech School?",
+      "a": "Practising engineers, architects and product managers from Icanio Technologies and its partner ecosystem. Each trainer has at least three years of client delivery experience, is background verified by Icanio HR and is assessed by academic faculty before teaching on campus."
+    },
+    {
+      "q": "What makes this different from a regular training institute?",
+      "a": "Our trainers build real products for clients during the week. You work on briefs drawn from those projects, your code is reviewed like an internal pull request, and your portfolio is reviewed by Icanio hiring managers. The goal is proof of real work, not just a certificate."
+    },
+    {
+      "q": "What programs can students join?",
+      "a": "Students can join any of 15 internship tracks, the Student Development Program for workplace soft skills, and short technical workshops. Internships run from 15 days to six months, in offline, online, part-time or hybrid mode, with weekday and weekend batches."
+    },
+    {
+      "q": "How do colleges work with Icanio Tech School?",
+      "a": "Most colleges start with an MoU. It gives students priority access to workshops, value added courses and free or sponsored internships. Faculty get development programs and mentorship support. We also run guest lectures and industrial visits. Send an enquiry and our team will call you."
+    },
+    {
+      "q": "Does Icanio Tech School help with placement?",
+      "a": "We run resume building, mock interviews and LinkedIn workshops, and Icanio hiring managers review portfolios. More than 1,000 of our students have been placed, and 90% are placed within five months. Top performers are fast-tracked to Icanio roles, as with our SDE hire Jeyaram R."
+    },
+    {
+      "q": "Do I get a certificate from Icanio Tech School?",
+      "a": "Yes. Every student who completes an internship or program receives an Icanio Tech School certificate that states the track and duration. You also leave with project work you can show employers, which our experience says matters even more in interviews."
+    }
+  ],
+  "takeaways": [
+    "Icanio Tech School is the education arm of Icanio Technologies, an AI company in Tamil Nadu trusted by 100+ businesses.",
+    "Every program rests on four pillars: expert-led delivery, industry curriculum, live projects and placement-ready assessment.",
+    "Trainers are practising Icanio engineers with 3+ years of client delivery, verified by Icanio HR.",
+    "More than 2,000 students have trained with us and more than 1,000 have been placed.",
+    "Over 30 colleges partner with Icanio Tech School through an MoU for courses, lectures, FDPs and visits."
+  ],
+  "conclusion": [
+    "Icanio Tech School was built on a simple idea. The best people to prepare you for industry are the people doing the work today. That is why our trainers, projects and reviews all come from live Icanio delivery.",
+    "If you are a student, start with an internship or a workshop. If you represent a college, start with an MoU conversation. Either way, our team will help you choose the right next step."
+  ],
+  "references": [
+    {
+      "label": "AICTE Internship Policy and guidelines for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    },
+    {
+      "label": "National Education Policy 2020, Ministry of Education",
+      "href": "https://www.education.gov.in/nep/about-nep"
+    },
+    {
+      "label": "Skill India, Government of India",
+      "href": "https://www.skillindia.gov.in/"
+    },
+    {
+      "label": "Vocational education, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Vocational_education"
+    }
+  ],
+  "cta": {
+    "title": "Ready to learn from real industry builders?",
+    "body": "Pick an internship track or plan an MoU for your college. Our team will guide you through the next step.",
+    "primary": {
+      "label": "Apply for an internship",
+      "href": "/apply-for-internship"
+    },
+    "secondary": {
+      "label": "Contact our team",
+      "href": "/contact"
+    }
+  }
+}

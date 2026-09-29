@@ -1,0 +1,528 @@
+{
+  "path": "/internships/data-analyst-internship",
+  "kind": "internship",
+  "label": "Data Analyst Internship",
+  "parent": "/internships",
+  "seo": {
+    "metaTitle": "Data Analyst Internship: 4 Proven Learning Phases",
+    "metaDescription": "Data analyst internship in Tamil Nadu: Excel, SQL, Python and Power BI on real business data, 1:1 mentors, 4 reports and a certificate. Apply at Icanio today.",
+    "focusKeyword": "data analyst internship",
+    "secondaryKeywords": [
+      "data analytics internship",
+      "sql and power bi training",
+      "python for data analysis",
+      "internship with certificate",
+      "data analyst course in tamil nadu"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "Non-engineering internship",
+    "title": "Data Analyst Internship With Real Business Insights",
+    "subtitle": "Our data analyst internship takes you from spreadsheets to SQL, Python and live dashboards. You work on real business datasets with a 1:1 mentor, build four reports you can show employers, and finish with a certificate from Icanio Tech School.",
+    "image": {
+      "src": "Group-1-5.png",
+      "alt": "Student reviewing charts and dashboards during the data analyst internship at Icanio"
+    },
+    "primary": {
+      "label": "Apply for this internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "View curriculum",
+      "href": "#curriculum"
+    },
+    "highlights": [
+      "4 learning phases",
+      "4 business reports",
+      "Excel, SQL, Python and BI",
+      "Certificate on completion"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Duration",
+      "value": "15 days to 6 months"
+    },
+    {
+      "label": "Mode",
+      "value": "Offline, online or part time"
+    },
+    {
+      "label": "Mentorship",
+      "value": "1:1 with an Icanio mentor"
+    },
+    {
+      "label": "Certificate",
+      "value": "Yes, on completion"
+    }
+  ],
+  "answer": {
+    "question": "What is the data analyst internship at Icanio Tech School?",
+    "answer": "It is a hands-on program where students learn to turn raw business data into decisions. You move through four phases: Excel and data basics, SQL querying, Python with Pandas, and Power BI or Tableau dashboards. A practising Icanio mentor reviews your work, you build four business reports, and you earn a certificate. Durations run from 15 days to six months."
+  },
+  "sections": [
+    {
+      "type": "prose",
+      "eyebrow": "The role",
+      "heading": "What a data analyst does and why companies need one",
+      "paragraphs": [
+        "A data analyst answers business questions with evidence. Which product sold best last quarter? Why did customers stop renewing? Which region needs more stock next month? The analyst collects the data, cleans it, finds the pattern and explains it in plain language to the people who decide.",
+        "Every company now stores sales, customer, website and operations data. Very few people inside those companies can read it well. That gap is why analyst roles appear in banks, retail chains, hospitals, logistics firms, startups and IT services companies alike. It is also why the role suits students from commerce, science and engineering backgrounds.",
+        "A data analyst internship is the fastest way to prove you can do this work. Employers rarely hire analysts on marks alone. They want to see a cleaned dataset, a clear SQL query and a dashboard that tells a story. Our data analyst internship is built to give you exactly that proof."
+      ],
+      "bullets": [
+        "Clean messy data and fix missing or duplicate values",
+        "Query databases with SQL to answer specific questions",
+        "Explore and test patterns with Python and statistics",
+        "Present findings as dashboards and short written reports"
+      ],
+      "image": {
+        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-2-1.png",
+        "alt": "Intern presenting business insights from a data analyst internship project"
+      },
+      "link": {
+        "label": "Compare all internship tracks",
+        "href": "/internships"
+      }
+    },
+    {
+      "type": "cards",
+      "tone": "soft",
+      "eyebrow": "Eligibility",
+      "heading": "Who can join the data analyst internship",
+      "intro": "You do not need a computer science degree. You need curiosity about numbers and the patience to check your work. These four groups do especially well in our data analyst internship.",
+      "columns": 4,
+      "items": [
+        {
+          "title": "Business and commerce graduates",
+          "body": "B.Com, BBA and MBA students who already understand sales and profit, and now want the analytical tools that make those skills far more valuable.",
+          "icon": "Group-2085662025-2.png"
+        },
+        {
+          "title": "Everyday Excel users",
+          "body": "Students or professionals who are comfortable with spreadsheets and want to step up to SQL, Python and BI dashboards without starting from zero.",
+          "icon": "Group-2085663180.png"
+        },
+        {
+          "title": "Computer science students",
+          "body": "B.E., B.Tech, B.Sc. and BCA students who can code and want to explore analyst roles, where business sense matters as much as syntax.",
+          "icon": "Group-2085662024-4-2.png"
+        },
+        {
+          "title": "Career switchers",
+          "body": "People from operations, accounts, teaching or support roles who want to move into data-driven work and need a structured, mentored path.",
+          "icon": "Group-2085662024-5-1.png"
+        }
+      ]
+    },
+    {
+      "type": "phases",
+      "id": "curriculum",
+      "eyebrow": "Curriculum",
+      "heading": "Data analyst internship curriculum in 4 phases",
+      "intro": "Each phase of the data analyst internship builds on the last. You finish every phase with a small deliverable that your mentor reviews before you move on. Shorter internships cover the early phases in depth. Longer ones complete all four and the capstone.",
+      "items": [
+        {
+          "label": "Phase 1",
+          "title": "Data fundamentals and Excel",
+          "points": [
+            "Data types, variables and how an analyst frames a question",
+            "PivotTables, VLOOKUP and simple macros for repeat tasks",
+            "Cleaning data: missing values, duplicates and wrong formats",
+            "Descriptive statistics: mean, median, spread and outliers",
+            "How databases and data warehouses store business data"
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "title": "SQL and database querying",
+          "points": [
+            "SELECT, WHERE and JOIN across related tables",
+            "Subqueries and window functions for rankings and running totals",
+            "Aggregation with GROUP BY to summarise sales and customers",
+            "Writing efficient queries that answer a real business request",
+            "Google BigQuery basics for large, cloud-hosted datasets"
+          ]
+        },
+        {
+          "label": "Phase 3",
+          "title": "Python for data analysis",
+          "points": [
+            "Python with Pandas and NumPy for tables and calculations",
+            "Wrangling and reshaping data from several sources",
+            "Exploratory data analysis to find trends and anomalies",
+            "Charts and visualisation workflows in Jupyter Notebook",
+            "Statistical testing and A/B analysis for experiments"
+          ]
+        },
+        {
+          "label": "Phase 4",
+          "title": "BI dashboards and career preparation",
+          "points": [
+            "Interactive dashboards in Power BI and Tableau",
+            "Connecting live data sources so reports refresh on their own",
+            "Data storytelling: turning numbers into a clear recommendation",
+            "A business analytics capstone project, reviewed by your mentor",
+            "Resume building and interview practice for analyst roles"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tools",
+      "tone": "soft",
+      "eyebrow": "Tools",
+      "heading": "Tools you will use every day",
+      "intro": "These are the tools analyst teams use in real companies, and the tools our data analyst internship is built around. During the data analyst internship you use each one on actual tasks, not just in a demo.",
+      "items": [
+        {
+          "name": "Microsoft Excel",
+          "role": "Data analysis and PivotTables",
+          "logo": "microsoft-excel-2013-1.png"
+        },
+        {
+          "name": "SQL / MySQL",
+          "role": "Database querying",
+          "logo": "mysql-logo-pure-1.png"
+        },
+        {
+          "name": "Python (Pandas)",
+          "role": "Data wrangling and analysis",
+          "logo": "python-5-3-1.png"
+        },
+        {
+          "name": "Power BI",
+          "role": "Business dashboards",
+          "logo": "Microsoft-Power-Bi-Streamline-Svg-Logos-2.png"
+        },
+        {
+          "name": "Google Sheets",
+          "role": "Shared, collaborative reporting",
+          "logo": "google-sheets-logo-icon-1.png"
+        },
+        {
+          "name": "Tableau",
+          "role": "Interactive visualisation",
+          "logo": "tableau-software-1.png"
+        },
+        {
+          "name": "Google BigQuery",
+          "role": "Cloud data warehouse",
+          "logo": "google-bigquery-logo-1-1-1.png"
+        },
+        {
+          "name": "Jupyter Notebook",
+          "role": "Documenting your analysis",
+          "logo": "Jupyter-1-1.png"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Outcomes",
+      "heading": "What you will achieve in the data analyst internship",
+      "intro": "By the end of the data analyst internship you have skills and a body of work. Each outcome below maps to something you can show in an interview.",
+      "columns": 4,
+      "items": [
+        {
+          "title": "4 business reports",
+          "body": "A sales analysis, a customer insights study and executive dashboards, built on realistic business data and reviewed by your mentor.",
+          "icon": "Group-1000005365-4-1.png"
+        },
+        {
+          "title": "SQL fluency",
+          "body": "You write joins, subqueries and window functions with confidence, and you can explain why your query returns the right answer.",
+          "icon": "Group-2085663179.png"
+        },
+        {
+          "title": "BI dashboard expertise",
+          "body": "You design interactive dashboards in Power BI and Tableau that a manager can filter and understand without your help.",
+          "icon": "Group-1000005365-5-2.png"
+        },
+        {
+          "title": "Data storytelling",
+          "body": "You present insights as a short narrative with one clear recommendation, which is the skill hiring managers test most often.",
+          "icon": "Group-2085662024-1-2.png"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "Inside the program",
+      "heading": "A typical day in the data analyst internship",
+      "paragraphs": [
+        "Most days in the data analyst internship start with a short stand-up. You tell your mentor what you finished yesterday, what you plan today and where you are stuck. This is the same rhythm our delivery teams follow at Icanio Technologies.",
+        "The core of the day is hands-on work on a dataset. One week you might clean three months of order data in Excel. The next week you might write SQL to find the customers who stopped buying. Later you build a Power BI page that shows the trend in one glance.",
+        "Late afternoon is review time. Your mentor reads your query, checks your chart and asks the question a manager would ask. In our experience, this daily review is what separates a data analyst internship that builds real skill from a course that only covers theory."
+      ],
+      "bullets": [
+        "Daily stand-up with your 1:1 mentor",
+        "Hands-on work on a real business dataset",
+        "Written notes in Jupyter or Google Sheets for every analysis",
+        "End-of-day review of queries, charts and conclusions"
+      ],
+      "image": {
+        "src": "ourInternshipProgramImg.png",
+        "alt": "Interns working with a mentor during a data analyst internship session"
+      },
+      "reverse": true
+    },
+    {
+      "type": "steps",
+      "tone": "soft",
+      "eyebrow": "How it runs",
+      "heading": "How the data analyst internship runs, week by week",
+      "intro": "The exact pace depends on the duration you choose. The order stays the same, so you always know what comes next.",
+      "items": [
+        {
+          "label": "Step 1",
+          "title": "Apply and talk to our team",
+          "body": "Fill in the short form below to apply for the data analyst internship. Our team calls you, checks your background and helps you pick a duration and mode that fits your college calendar."
+        },
+        {
+          "label": "Step 2",
+          "title": "Onboarding and your first dataset",
+          "body": "You meet your data analyst internship mentor, set up Excel, MySQL and Python, and receive your first raw dataset. Week one is about asking good questions of it."
+        },
+        {
+          "label": "Step 3",
+          "title": "Work through the four phases",
+          "body": "You move from Excel to SQL to Python to dashboards. Each phase ends with a reviewed deliverable, so gaps are fixed early rather than at the end."
+        },
+        {
+          "label": "Step 4",
+          "title": "Build the capstone project",
+          "body": "You take one business problem from raw data to a dashboard and a written recommendation. This project becomes the centrepiece of your data analyst internship portfolio."
+        },
+        {
+          "label": "Step 5",
+          "title": "Final review and certificate",
+          "body": "You present your capstone to your mentor, get feedback and receive your Icanio Tech School certificate. Top performers are referred to the Icanio talent team."
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "eyebrow": "Readiness",
+      "heading": "Skills you can prove when you finish",
+      "intro": "Use this list to track your progress. By the final review of the data analyst internship you should tick every item.",
+      "items": [
+        "Clean a messy dataset and document every change you made",
+        "Build a PivotTable summary and explain what it shows",
+        "Write SQL joins, subqueries and window functions from a business brief",
+        "Load, reshape and explore data in Python with Pandas",
+        "Run a simple A/B comparison and state whether the difference is real",
+        "Design a Power BI or Tableau dashboard that refreshes from a live source",
+        "Present one clear recommendation in under five minutes",
+        "Show a portfolio of four reports and a capstone project"
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg2.png",
+        "alt": "Students completing data analyst internship tasks at Icanio Tech School"
+      }
+    },
+    {
+      "type": "table",
+      "eyebrow": "Career paths",
+      "heading": "Roles a data analyst internship prepares you for",
+      "intro": "The core skills from a data analyst internship open several entry-level doors. Here is how they differ.",
+      "columns": [
+        "Role",
+        "What you do",
+        "Key skills"
+      ],
+      "rows": [
+        [
+          "Data analyst",
+          "Answer business questions with data and reports",
+          "SQL, Excel, Python, storytelling"
+        ],
+        [
+          "BI analyst",
+          "Build and maintain company dashboards",
+          "Power BI, Tableau, data modelling"
+        ],
+        [
+          "MIS executive",
+          "Prepare daily and monthly performance reports",
+          "Excel, Google Sheets, accuracy"
+        ],
+        [
+          "Business analyst",
+          "Translate data into process and product changes",
+          "Requirements, SQL, communication"
+        ],
+        [
+          "Junior data scientist",
+          "Test patterns and simple predictive models",
+          "Python, statistics, A/B testing"
+        ]
+      ],
+      "note": "Many interns start in a data analyst or MIS role and move into BI or data science within a few years."
+    },
+    {
+      "type": "testimonials",
+      "eyebrow": "In their words",
+      "heading": "What our interns say about learning with us",
+      "intro": "Interns from every track describe the same thing: real tasks, steady feedback and growing confidence. The data analyst internship follows that same model. Press play to hear them."
+    },
+    {
+      "type": "stories",
+      "track": "Data Analytics",
+      "eyebrow": "Recent completions",
+      "heading": "Students who completed internships with us",
+      "intro": "Recent interns from colleges across Tamil Nadu, including our data analytics track.",
+      "limit": 6
+    },
+    {
+      "type": "links",
+      "tone": "soft",
+      "eyebrow": "Keep exploring",
+      "heading": "Related internships to consider",
+      "items": [
+        {
+          "title": "Business Analyst Internship",
+          "href": "/internships/business-analyst-internship",
+          "body": "Gather requirements and map processes. A natural next step for analysts who enjoy the business side."
+        },
+        {
+          "title": "AI & ML Internship",
+          "href": "/internships/ai-ml-internship",
+          "body": "Go beyond reporting and train machine learning models on real datasets."
+        },
+        {
+          "title": "Finance Internship",
+          "href": "/internships/finance-internship",
+          "body": "Accounting, GST and TDS with Excel, Zoho Books and Tally."
+        },
+        {
+          "title": "Digital Marketing Internship",
+          "href": "/internships/digital-marketing-internship",
+          "body": "Run live campaigns and measure them with Google Analytics 4."
+        },
+        {
+          "title": "Sales Internship",
+          "href": "/internships/sales-internship",
+          "body": "Lead generation, CRM pipelines and sales analytics."
+        },
+        {
+          "title": "All 15 internship tracks",
+          "href": "/internships",
+          "body": "Compare durations, modes and outcomes across every track."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "student",
+      "eyebrow": "Join now",
+      "heading": "Apply for the data analyst internship",
+      "intro": "It takes two minutes. Our team replies within one working day to help you choose a duration and start date.",
+      "points": [
+        "No fee is charged to apply or to talk to our team",
+        "Offline, online or part-time weekday and weekend batches",
+        "Durations from 15 days to six months"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need coding experience for the data analyst internship?",
+      "a": "No. We start with Excel and data thinking, then introduce SQL and Python step by step. Many interns write their first line of code during the program. What helps most is comfort with numbers and a habit of double-checking results. Your mentor sets the pace to match your background."
+    },
+    {
+      "q": "Is this data analyst internship suitable for commerce students?",
+      "a": "Yes. B.Com, BBA and MBA students often do very well because they already understand sales, margins and customers. The data analyst internship adds the tools to prove those insights with data. Many commerce interns find SQL easier than they expected once they see it applied to business questions."
+    },
+    {
+      "q": "How long is the data analyst internship?",
+      "a": "You choose the duration, from 15 days up to six months. A short internship covers Excel and SQL in depth with one report. Three to six months lets you complete all four phases, the Python work, the dashboards and the full capstone project. Our team helps you decide based on your goals."
+    },
+    {
+      "q": "Which tools will I learn during the internship?",
+      "a": "You work with Microsoft Excel, Google Sheets, MySQL, Google BigQuery, Python with Pandas and NumPy, Jupyter Notebook, Power BI and Tableau. These cover the full analyst workflow: collecting data, cleaning it, querying it, exploring it and presenting it. You use each tool on real tasks rather than just watching demos."
+    },
+    {
+      "q": "Can I do the data analyst internship online?",
+      "a": "Yes. You can attend offline at our centre, join online, or choose part-time weekday or weekend batches. Hybrid is also possible. Online interns get the same 1:1 mentorship, dataset reviews and certificate as offline interns, so pick whatever fits your college timetable."
+    },
+    {
+      "q": "What projects will I build in the internship?",
+      "a": "You build four business reports: a sales analysis, a customer insights study and executive dashboards, followed by a capstone project. The capstone takes one business problem from raw data to a recommendation. Together they form a portfolio that shows employers how you think, not only which tools you know."
+    },
+    {
+      "q": "Will I get a certificate and placement support?",
+      "a": "Every intern who completes the data analyst internship receives an Icanio Tech School certificate stating the track and duration. Phase 4 includes resume building and interview practice. Top performers are referred to the Icanio Technologies talent team, and our wider programs have placed over 1,000 students."
+    },
+    {
+      "q": "What is the difference between data analyst and business analyst?",
+      "a": "A data analyst works mainly with numbers: querying, cleaning and visualising data to answer questions. A business analyst works mainly with people and processes: gathering requirements and shaping solutions. The skills overlap. If you enjoy the business side, look at our business analyst internship as well."
+    }
+  ],
+  "takeaways": [
+    "The data analyst internship covers Excel, SQL, Python and BI dashboards in four mentored phases.",
+    "It suits commerce, science and engineering students, Excel users and career switchers.",
+    "You build four business reports and a capstone project on realistic business data.",
+    "Durations run from 15 days to six months, offline, online, part time or hybrid.",
+    "You finish with an Icanio Tech School certificate, interview preparation and a portfolio."
+  ],
+  "conclusion": [
+    "Data skills are valuable because so few people can turn a spreadsheet into a decision. Our data analyst internship gives you that ability through real datasets, honest feedback and a mentor who does this work at Icanio Technologies.",
+    "If you are a student in Tamil Nadu wondering where to start, start with one dataset and one question. Apply below, talk to our team, and we will help you plan the right duration for your data analyst internship."
+  ],
+  "references": [
+    {
+      "label": "Data analysis, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Data_analysis"
+    },
+    {
+      "label": "pandas documentation, the Python data analysis library",
+      "href": "https://pandas.pydata.org/docs/"
+    },
+    {
+      "label": "Python official documentation",
+      "href": "https://docs.python.org/3/"
+    },
+    {
+      "label": "AICTE Internship Policy and guidelines for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    }
+  ],
+  "cta": {
+    "title": "Ready to start your data analyst internship?",
+    "body": "Pick a duration, talk to our team and join the next batch. You can start within weeks.",
+    "primary": {
+      "label": "Apply now",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "See all internships",
+      "href": "/internships"
+    }
+  },
+  "course": {
+    "name": "Data Analyst Internship",
+    "description": "A mentored data analyst internship covering Excel, SQL, Python with Pandas and BI dashboards, with four business reports, a capstone project and a certificate.",
+    "duration": "15 days to 6 months",
+    "modes": [
+      "Onsite",
+      "Online",
+      "Blended"
+    ],
+    "skills": [
+      "Microsoft Excel",
+      "SQL",
+      "Google BigQuery",
+      "Python",
+      "Pandas",
+      "Exploratory data analysis",
+      "Power BI",
+      "Tableau",
+      "Data storytelling"
+    ],
+    "audience": "Students and freshers"
+  }
+}

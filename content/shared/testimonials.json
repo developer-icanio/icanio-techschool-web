@@ -1,0 +1,30 @@
+[
+ {
+  "name": "Madhukiran B",
+  "role": "Finance Intern",
+  "photo": "Madhukiran-B.jpg",
+  "video": "videoplayback.mp4",
+  "quote": "The training gave me the confidence and practical knowledge to begin my career in finance. I gained valuable experience through real-world tasks and hands-on learning."
+ },
+ {
+  "name": "Elakkiya Vadhana R",
+  "role": "Web Development Intern",
+  "photo": "Elakkiya-Vadhana-R.jpg",
+  "video": "Elakkiya-Vadhana-R-video.mp4",
+  "quote": "The program gave me the practical skills and confidence to build real-world web applications. I learned through hands-on projects and continuous guidance."
+ },
+ {
+  "name": "Amala Mary",
+  "role": "UI/UX Intern",
+  "photo": "Amala-Mary.png",
+  "video": "videoplayback-1.mp4",
+  "quote": "The training helped me strengthen my design skills and understand real-world user needs. I gained practical experience through hands-on projects and creative problem-solving."
+ },
+ {
+  "name": "Valli Myla Ganesan",
+  "role": "Front End Intern",
+  "photo": "Valli-Myla-Ganesan.jpg",
+  "video": "Valli-Myla-Ganesan-video.mp4",
+  "quote": "The training improved my technical skills and helped me understand modern front-end development. Working on real projects gave me valuable hands-on experience and confidence."
+ }
+]

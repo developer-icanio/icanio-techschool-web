@@ -1,0 +1,464 @@
+{
+  "path": "/college-programs/guest-lectures",
+  "kind": "college",
+  "label": "Guest Lectures",
+  "parent": "/college-programs",
+  "seo": {
+    "metaTitle": "Guest Lectures: 10+ Essential Topics for Colleges",
+    "metaDescription": "Free guest lectures for colleges by Icanio engineers on AI, cloud, DevOps, cybersecurity and careers, with live Q&A. 10+ topics. Book a session today.",
+    "focusKeyword": "guest lectures",
+    "secondaryKeywords": [
+      "industry expert guest lecture",
+      "free guest lecture for college",
+      "guest lecture on ai",
+      "career guidance session for students",
+      "industry talk for engineering students"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "Free program for colleges",
+    "title": "Industry Guest Lectures for Colleges by Icanio Engineers",
+    "subtitle": "Our guest lectures bring practising engineers from Icanio Technologies to your campus. Students hear how real teams use AI, cloud, DevOps and security, what recruiters expect and how careers grow, then ask their own questions in a live Q&A.",
+    "image": {
+      "src": "guestLectureLandingSectionImg.png",
+      "alt": "Icanio engineer delivering guest lectures to college students"
+    },
+    "primary": {
+      "label": "Enquire now",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "See topics covered",
+      "href": "#topics"
+    },
+    "highlights": [
+      "Completely free",
+      "10+ trending topics",
+      "Live Q&A",
+      "Led by industry professionals"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Format",
+      "value": "Interactive session with live Q&A"
+    },
+    {
+      "label": "Duration",
+      "value": "Single session, scheduled with your college"
+    },
+    {
+      "label": "Delivered by",
+      "value": "Experienced Icanio industry professionals"
+    },
+    {
+      "label": "For",
+      "value": "Students of any year and department"
+    }
+  ],
+  "answer": {
+    "question": "What are guest lectures by Icanio Tech School?",
+    "answer": "Guest lectures by Icanio Tech School are free, interactive sessions delivered on your campus by practising engineers from Icanio Technologies. Each one covers a current topic such as AI, cloud, DevOps, cybersecurity or career readiness. Students learn how the topic works in real companies, hear about career paths and ask questions in a live Q&A."
+  },
+  "sections": [
+    {
+      "type": "prose",
+      "eyebrow": "What you will explore",
+      "heading": "Why guest lectures from working engineers matter",
+      "intro": "Textbooks explain how a technology works. A working engineer explains how it is used, what goes wrong and what employers want.",
+      "paragraphs": [
+        "Students often ask the same questions in their final years. Which technologies are actually used at work? What does a DevOps engineer do all day? What will an interviewer ask? Faculty can answer many of these, but students listen differently when the answer comes from someone who does the job.",
+        "Our guest lectures are built for that moment. A speaker from Icanio Technologies walks through a real workflow, shows the tools behind it and explains the decisions a team makes along the way. Students leave with a clearer picture of the industry and of where they might fit in it.",
+        "Each session ends with an open Q&A. Students ask about skills, projects, interviews and first jobs. In our experience, this part is often the most useful, because students get honest, specific answers to the questions they care about."
+      ],
+      "bullets": [
+        "Covers 10+ trending and in-demand topics",
+        "Completely free, with no participation cost",
+        "Sessions led by experienced industry professionals",
+        "Interactive format with live Q&A discussion"
+      ],
+      "image": {
+        "src": "GuestLecturesImg.png",
+        "alt": "Students listening to industry guest lectures by Icanio Tech School"
+      },
+      "link": {
+        "label": "Meet our industry trainers",
+        "href": "/industry-trainers"
+      }
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Benefits",
+      "heading": "What students gain from our guest lectures",
+      "intro": "Four outcomes our speakers aim for in every one of our guest lectures.",
+      "columns": 4,
+      "items": [
+        {
+          "title": "Industry perspective",
+          "body": "Students see real company workflows and the tools teams use to build and ship software.",
+          "icon": "layers-three-02-1.png"
+        },
+        {
+          "title": "Career clarity",
+          "body": "Students understand different roles, what each one involves and how people grow in them.",
+          "icon": "target-03-1.png"
+        },
+        {
+          "title": "Practical knowledge",
+          "body": "Real-world case studies turn abstract topics into problems students can picture solving.",
+          "icon": "pie-chart-03.png"
+        },
+        {
+          "title": "Networking",
+          "body": "Students meet industry professionals and learn how to ask good questions of them.",
+          "icon": "bezier-curve-02.png"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "tone": "soft",
+      "eyebrow": "For your college",
+      "heading": "How guest lectures help students, faculty and the institution",
+      "columns": 3,
+      "items": [
+        {
+          "title": "For students",
+          "body": "Students hear current practice from the people doing the work. The talk gives context to their syllabus and a clearer idea of what to learn next, before placement season starts."
+        },
+        {
+          "title": "For faculty",
+          "body": "Faculty hear which tools and topics are active in industry right now. Many use points from the session to refresh examples, lab exercises and project ideas in their own courses."
+        },
+        {
+          "title": "For the institution",
+          "body": "Colleges add a documented industry interaction to their activity records at no cost. Regular guest lectures also build a relationship that can grow into an MoU and other programs."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "eyebrow": "How we run it",
+      "heading": "How we organise guest lectures with your college",
+      "intro": "Booking a session is simple. Our team takes care of the speaker and the content.",
+      "items": [
+        {
+          "title": "Send an enquiry",
+          "body": "Tell us your department, the year of study and the topic you have in mind. If you are unsure, we suggest one based on your students and goals."
+        },
+        {
+          "title": "Match the speaker",
+          "body": "We choose an Icanio engineer who works on the topic every day, so the examples are real and the Q&A answers are current."
+        },
+        {
+          "title": "Fix date and venue",
+          "body": "We agree a date that fits your academic calendar. Your team books the hall or seminar room and arranges a projector."
+        },
+        {
+          "title": "Deliver the session",
+          "body": "The speaker presents, shows real workflows and case studies, and then opens the floor for a live Q&A with students."
+        },
+        {
+          "title": "Follow up",
+          "body": "We share a short summary for your records. If students want more, we suggest a workshop, value added course or internship as the next step."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "topics",
+      "eyebrow": "Topics",
+      "heading": "Key topics covered in our guest lectures",
+      "intro": "Choose from these themes or ask for a specific focus. Each topic helps students understand current trends, tools and the skills needed to succeed.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "Emerging technologies",
+          "body": "Artificial intelligence and machine learning, the real-world tools behind them and the career paths they open.",
+          "icon": "Group-12.png"
+        },
+        {
+          "title": "Agile and DevOps",
+          "body": "How software is really built: the development process, CI/CD pipelines and the way teams work together.",
+          "icon": "Group-13.png"
+        },
+        {
+          "title": "Career readiness",
+          "body": "Resumes, core skills, what recruiters expect and how to plan a path into the first job.",
+          "icon": "Group-14.png"
+        },
+        {
+          "title": "Cybersecurity",
+          "body": "Common threats, the basics of ethical hacking and everyday security awareness for students.",
+          "icon": "Group-15.png"
+        },
+        {
+          "title": "Product and management",
+          "body": "Project management, business analysis and how product work flows in a real company.",
+          "icon": "Group-16.png"
+        },
+        {
+          "title": "Cloud and infrastructure",
+          "body": "AWS, Azure and GCP, with cloud architecture basics and real-world applications.",
+          "icon": "Group-17.png"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "Choosing a topic",
+      "heading": "How to pick the right topic for each year of study",
+      "paragraphs": [
+        "First year students gain most from broad topics. A talk on emerging technologies or on how a software company works helps them see what their degree can lead to. It also helps them choose electives and clubs with more purpose.",
+        "Second and third year students are ready for depth. Agile and DevOps, cloud and infrastructure or cybersecurity guest lectures show how the subjects they study turn into real systems. These sessions often spark mini projects and hackathon ideas.",
+        "Final year students want practical help. Career readiness sessions cover resumes, core skills, recruiter expectations and interview preparation. Product and management topics suit MBA students and anyone interested in business analysis. Our team is glad to recommend a topic if you share your batch profile."
+      ],
+      "bullets": [
+        "First year: emerging technologies and how a tech company works",
+        "Second and third year: Agile and DevOps, cloud, cybersecurity",
+        "Final year: career readiness, product and management"
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Icanio engineer answering student questions after guest lectures"
+      },
+      "reverse": true
+    },
+    {
+      "type": "table",
+      "eyebrow": "Compare",
+      "heading": "Guest lectures vs workshops vs value added courses",
+      "intro": "Each program has a different depth. Guest lectures are the lightest and fastest way to start.",
+      "columns": [
+        "Program",
+        "Format",
+        "Best for"
+      ],
+      "rows": [
+        [
+          "Guest lectures",
+          "Single interactive talk with live Q&A",
+          "Awareness, career clarity, first contact"
+        ],
+        [
+          "Technical workshop",
+          "Half-day to multi-day, hands-on",
+          "Trying a new technology in practice"
+        ],
+        [
+          "Value added course",
+          "Multi-session, lab-based, assessed",
+          "Building one skill in depth"
+        ],
+        [
+          "Industrial visit",
+          "A guided day at a software company",
+          "Seeing workplace culture first-hand"
+        ]
+      ],
+      "note": "We recommend pairing guest lectures with a workshop or value added course on the same topic, so interest turns into skill."
+    },
+    {
+      "type": "checklist",
+      "eyebrow": "Before the day",
+      "heading": "How to get the most from guest lectures",
+      "intro": "A little preparation on your side makes the session far more useful for students.",
+      "items": [
+        "Share the department, year and expected audience size with our team",
+        "Book a hall or seminar room with a projector and a microphone",
+        "Ask students to note two or three questions in advance",
+        "Invite interested faculty to attend and join the Q&A",
+        "Plan ten minutes at the end for students to talk to the speaker",
+        "Collect quick feedback so we can shape the next session"
+      ],
+      "image": {
+        "src": "GuestLecturesImg.png",
+        "alt": "College hall prepared for industry guest lectures with students seated"
+      }
+    },
+    {
+      "type": "gallery",
+      "eyebrow": "On campus",
+      "heading": "Recent guest lectures at partner colleges",
+      "intro": "A few of the guest lectures our engineers have delivered at colleges across Tamil Nadu.",
+      "items": [
+        {
+          "src": "1000243678.jpeg",
+          "alt": "Guest lecture at Velalar College of Engineering and Technology",
+          "caption": "Velalar College of Engineering and Technology, Erode: industry insights, practical knowledge and emerging technology trends for students."
+        },
+        {
+          "src": "1000753829.jpeg",
+          "alt": "Guest lecture at Karpagam College of Engineering, Coimbatore",
+          "caption": "Karpagam College of Engineering, Coimbatore: practical insights into industry practice and current developments."
+        },
+        {
+          "src": "1000753874-1.jpeg",
+          "alt": "Guest lecture at Sri Sankara Bhagavathy Arts and Science College",
+          "caption": "Sri Sankara Bhagavathy Arts and Science College: industry knowledge, emerging technologies and career opportunities."
+        },
+        {
+          "src": "1000753895.jpeg",
+          "alt": "Guest lecture at St. Xavier College of Arts and Science",
+          "caption": "St. Xavier College of Arts and Science: industry perspectives and practical experience shared with students."
+        },
+        {
+          "src": "1000753896.jpeg",
+          "alt": "Students at a guest lecture at St. Xavier College of Arts and Science",
+          "caption": "St. Xavier College of Arts and Science: an engaging session on industry knowledge and practical insights."
+        },
+        {
+          "src": "100075389904.jpeg",
+          "alt": "Icanio speaker at St. Xavier College of Arts and Science guest lecture",
+          "caption": "St. Xavier College of Arts and Science: students hear career-focused advice from an Icanio speaker."
+        }
+      ]
+    },
+    {
+      "type": "testimonials",
+      "eyebrow": "Student voices",
+      "heading": "What students say after learning from our engineers",
+      "intro": "Many students first meet our team through guest lectures, then join a program. Press play to hear a few of them."
+    },
+    {
+      "type": "partners",
+      "tone": "soft",
+      "eyebrow": "Partner colleges",
+      "heading": "Colleges that host our sessions",
+      "intro": "Engineering and arts and science colleges across Tamil Nadu work with Icanio Tech School.",
+      "limit": 10
+    },
+    {
+      "type": "links",
+      "eyebrow": "Keep exploring",
+      "heading": "Other college programs",
+      "items": [
+        {
+          "title": "College programs overview",
+          "href": "/college-programs",
+          "body": "Compare every program for colleges and choose where to start."
+        },
+        {
+          "title": "MoU partnership",
+          "href": "/college-programs/mou-partnership",
+          "body": "Make guest lectures part of a yearly plan with priority access."
+        },
+        {
+          "title": "Value added courses",
+          "href": "/college-programs/value-added-courses",
+          "body": "Turn interest into skill with lab-based courses on campus."
+        },
+        {
+          "title": "Faculty development program",
+          "href": "/college-programs/faculty-development-program",
+          "body": "Hands-on training for faculty in modern tools and methods."
+        },
+        {
+          "title": "Industrial visit",
+          "href": "/college-programs/industrial-visit",
+          "body": "A guided day inside a working software company."
+        },
+        {
+          "title": "Campus events",
+          "href": "/campus-events",
+          "body": "MoU signings, workshops, value added courses and lectures."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "college",
+      "tone": "soft",
+      "eyebrow": "Book a session",
+      "heading": "Enquire about guest lectures for your college",
+      "intro": "Share your department, student year and preferred topic. Our team replies within one working day with a speaker and dates.",
+      "points": [
+        "Guest lectures are completely free for colleges",
+        "Speakers are practising Icanio engineers",
+        "Every session includes a live Q&A"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are your guest lectures really free?",
+      "a": "Yes. Our guest lectures are completely free, with no participation cost for the college or the students. Your team only needs to arrange a hall, a projector and the student audience. We see these sessions as a way to share industry knowledge and to start a working relationship."
+    },
+    {
+      "q": "What topics can guest lectures cover?",
+      "a": "We cover 10+ trending topics. Popular themes are AI and machine learning, Agile and DevOps, career readiness, cybersecurity, project management and business analysis, and cloud platforms such as AWS, Azure and GCP. You can also request a specific focus for your department."
+    },
+    {
+      "q": "Who delivers the guest lectures?",
+      "a": "Experienced professionals from Icanio Technologies deliver every session. They work on live client projects in AI, cloud, data and software. That means students hear current practice, real examples and honest answers about the industry, rather than theory alone."
+    },
+    {
+      "q": "Which students should attend?",
+      "a": "Guest lectures suit students of any year and department. First and second year students gain awareness and direction. Pre-final and final year students get practical advice on skills, interviews and first jobs. We tune the depth of the talk to the audience you expect."
+    },
+    {
+      "q": "Can guest lectures be delivered for faculty too?",
+      "a": "Guest lectures are designed mainly for students, but faculty are always welcome to attend and join the Q&A. If your college wants deeper, hands-on training for teaching staff, our faculty development programs are a better fit. They cover modern tools and project-based teaching, onsite, online or in hybrid mode."
+    },
+    {
+      "q": "How far in advance should we book?",
+      "a": "We recommend sending an enquiry a few weeks before your preferred date. That gives our team time to match the right speaker to your topic and to plan around your academic calendar. For events such as department symposiums, earlier booking is better."
+    },
+    {
+      "q": "Can guest lectures be part of an MoU?",
+      "a": "Yes. Many colleges schedule regular guest lectures as part of an MoU partnership. The MoU also gives priority access to workshops and value added courses, joint certification initiatives, industry mentorship and free or sponsored internships for students."
+    },
+    {
+      "q": "Do you run guest lectures for arts and science colleges?",
+      "a": "Yes. We have delivered sessions at St. Xavier College of Arts and Science and Sri Sankara Bhagavathy Arts and Science College. Topics such as career readiness, AI awareness and project management work well for B.Sc., BCA and MCA students."
+    },
+    {
+      "q": "What happens after a guest lecture?",
+      "a": "We share a short summary for your records. Students who want to go further can join a workshop, a value added course or an internship. Our team is happy to suggest a next step based on the questions students asked in the Q&A."
+    }
+  ],
+  "takeaways": [
+    "Guest lectures by Icanio Tech School are completely free for colleges and students.",
+    "Practising Icanio Technologies engineers deliver them, with real workflows and a live Q&A.",
+    "Topics include AI and ML, Agile and DevOps, career readiness, cybersecurity, product management and cloud.",
+    "Sessions give students industry perspective, career clarity, practical knowledge and a chance to network.",
+    "Guest lectures are an easy first step toward workshops, value added courses and an MoU partnership."
+  ],
+  "conclusion": [
+    "One honest hour with a working engineer can change what a student chooses to learn next. That is the purpose of our guest lectures: clear, current and practical, with plenty of time for questions.",
+    "If your college wants to give students real industry insight at no cost, send us your topic and preferred dates. Our team will match a speaker and plan guest lectures that fit your calendar."
+  ],
+  "references": [
+    {
+      "label": "Lecture, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Lecture"
+    },
+    {
+      "label": "National Education Policy 2020, Ministry of Education",
+      "href": "https://www.education.gov.in/nep/about-nep"
+    },
+    {
+      "label": "OWASP Top Ten web application security risks",
+      "href": "https://owasp.org/www-project-top-ten/"
+    },
+    {
+      "label": "Skill India, Government of India",
+      "href": "https://www.skillindia.gov.in/"
+    }
+  ],
+  "cta": {
+    "title": "Book free guest lectures for your students",
+    "body": "Pick a topic and a date. Our team will send a speaker who does this work every day.",
+    "primary": {
+      "label": "Enquire now",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "Explore an MoU partnership",
+      "href": "/college-programs/mou-partnership"
+    }
+  }
+}

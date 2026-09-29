@@ -1,0 +1,531 @@
+{
+  "path": "/campus-events",
+  "kind": "page",
+  "label": "Campus Events",
+  "seo": {
+    "metaTitle": "Campus Events: 4 Proven Formats Across Tamil Nadu",
+    "metaDescription": "Campus events by Icanio Tech School: MoU signings, hands-on workshops, value added courses and guest lectures at colleges across Tamil Nadu, with photos.",
+    "focusKeyword": "campus events",
+    "secondaryKeywords": [
+      "mou signing ceremony",
+      "technical workshops for students",
+      "value added courses",
+      "guest lectures in colleges",
+      "industry academia events"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "Inside Icanio Tech School",
+    "title": "Campus Events: MoUs, Workshops and Guest Lectures",
+    "subtitle": "Our campus events bring practising engineers from Icanio Technologies into colleges across Tamil Nadu. Browse recent MoU signings, workshops, value added courses and guest lectures, and plan one for your own campus.",
+    "image": {
+      "src": "1000753869.jpeg",
+      "alt": "Coding with AI workshop, one of the campus events by Icanio Tech School"
+    },
+    "primary": {
+      "label": "Enquire now",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "See recent events",
+      "href": "#recent"
+    },
+    "highlights": [
+      "30+ MoU colleges",
+      "Workshops and VACs",
+      "Guest lectures with live Q&A",
+      "Led by practising engineers"
+    ]
+  },
+  "answer": {
+    "question": "What campus events does Icanio Tech School run?",
+    "answer": "Icanio Tech School runs four main kinds of campus events: MoU signing ceremonies with colleges, hands-on technical workshops, value added courses and industry guest lectures. It also runs career guidance sessions and industrial visits. Practising Icanio engineers lead every event, and each one is planned with college faculty to fit the academic calendar and give students real industry exposure."
+  },
+  "sections": [
+    {
+      "type": "stats",
+      "heading": "Campus events at a glance",
+      "items": [
+        {
+          "value": "30+",
+          "label": "MoU colleges"
+        },
+        {
+          "value": "2,000+",
+          "label": "Students trained"
+        },
+        {
+          "value": "6",
+          "label": "Colleges visited, 15 to 18 Sep 2026"
+        },
+        {
+          "value": "4",
+          "label": "Main event formats"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "recent",
+      "eyebrow": "Recent events",
+      "heading": "Recent campus events: 15 to 18 September 2026",
+      "intro": "In the middle of September 2026, our team completed a four-day tour of colleges across Tamil Nadu. These were the stops.",
+      "items": [
+        {
+          "label": "15 Sep",
+          "title": "SNS College of Technology",
+          "body": "An MoU signing, held in the morning, to build a strong partnership and better opportunities for students."
+        },
+        {
+          "label": "15 Sep",
+          "title": "JCT College of Engineering & Technology",
+          "body": "An afternoon MoU signing to start a long-term collaboration with the college."
+        },
+        {
+          "label": "16 Sep",
+          "title": "Velalar College of Engineering & Technology",
+          "body": "An MoU signing and an industry session that connected students with Icanio experts."
+        },
+        {
+          "label": "16 Sep",
+          "title": "Sri Shanmugha College of Engineering & Technology",
+          "body": "An MoU signing ceremony, paired with a guest talk on industry skills and mindset."
+        },
+        {
+          "label": "17 Sep",
+          "title": "AVS Engineering College",
+          "body": "An MoU signing and an industry session on skills and career opportunities."
+        },
+        {
+          "label": "18 Sep",
+          "title": "Er. Perumal Manimekalai College of Engineering",
+          "body": "A career guidance session to help students explore options and plan their professional future."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "A closer look",
+      "heading": "What our September campus events achieved",
+      "paragraphs": [
+        "The September tour covered six campuses in four days. Five of these campus events were MoU signings, which formally started long-term partnerships. Each signing sets up a calendar of workshops, value added courses, guest lectures and internship options for the college.",
+        "At Velalar College of Engineering & Technology and AVS Engineering College, the signing was followed by an industry session. Students heard from Icanio experts about current roles, skills and hiring expectations. At Sri Shanmugha College of Engineering & Technology, a guest talk gave students a view beyond the classroom.",
+        "The tour ended at Er. Perumal Manimekalai College of Engineering in Hosur with a career guidance session. It helped students explore their options and plan their next steps. For each new partner, the next stage is planning the first programs with faculty."
+      ],
+      "image": {
+        "src": "MOU-Signing-Ceremony-1_page-0001.jpg",
+        "alt": "MoU signing ceremony during campus events at Sri Shanmugha College of Engineering and Technology"
+      }
+    },
+    {
+      "type": "gallery",
+      "tone": "soft",
+      "eyebrow": "MoU signings",
+      "heading": "MoU signing ceremonies",
+      "intro": "An MoU signing is often the first of many campus events with a college. It sets up internships, courses and lectures for the semesters ahead.",
+      "items": [
+        {
+          "src": "23585-1.jpeg",
+          "alt": "MoU with Rajalakshmi Engineering College",
+          "caption": "Joining hands with Rajalakshmi Engineering College to open doors to learning and career opportunities."
+        },
+        {
+          "src": "IMG-20260807-WA000713.jpeg",
+          "alt": "MoU with Einstein College of Engineering",
+          "caption": "Signing an MoU with Einstein College of Engineering to create new opportunities for students."
+        },
+        {
+          "src": "1000753878-2.jpeg",
+          "alt": "MoU with Sri Sankara Bhagavathy Arts and Science College",
+          "caption": "An MoU with Sri Sankara Bhagavathy Arts and Science College for learning and industry exposure."
+        },
+        {
+          "src": "1000753852-1.jpeg",
+          "alt": "MoU with Karpagam College of Engineering",
+          "caption": "Signing an MoU with Karpagam College of Engineering to foster collaboration."
+        },
+        {
+          "src": "1000753909.jpeg",
+          "alt": "MoU with Sri Krishna Adithya College of Arts and Science",
+          "caption": "An MoU with Sri Krishna Adithya College of Arts and Science for new student opportunities."
+        },
+        {
+          "src": "1000753873.jpeg",
+          "alt": "MoU with K.S.R. College of Engineering",
+          "caption": "Joining hands with K.S.R. College of Engineering for industry exposure and careers."
+        },
+        {
+          "src": "1000753825-1.jpeg",
+          "alt": "MoU with Jaisriram College of Engineering",
+          "caption": "An MoU with Jaisriram College of Engineering for learning and career opportunities."
+        },
+        {
+          "src": "1000753775-1.jpeg",
+          "alt": "MoU with Study World College of Engineering",
+          "caption": "Joining hands with Study World College of Engineering through an MoU."
+        },
+        {
+          "src": "1000753242-1.jpeg",
+          "alt": "MoU with National Engineering College",
+          "caption": "An MoU with National Engineering College for industry exposure and career opportunities."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "eyebrow": "Workshops and courses",
+      "heading": "Workshops and value added courses on campus",
+      "intro": "These campus events go deeper than a talk. Students build something with their hands, guided by an industry expert.",
+      "items": [
+        {
+          "src": "1000753869.jpeg",
+          "alt": "Coding with AI workshop at Dr. N.G.P. Arts and Science College",
+          "caption": "A two-day interactive workshop on Coding with AI at Dr. N.G.P. Arts and Science College, Coimbatore, exploring AI-powered coding and modern development practices."
+        },
+        {
+          "src": "100075379710.jpeg",
+          "alt": "Hands-on workshop at Dr. N.G.P. Arts and Science College",
+          "caption": "A hands-on workshop at Dr. N.G.P. Arts and Science College with practical, real-world exercises."
+        },
+        {
+          "src": "1000753913-1.jpeg",
+          "alt": "Value added course at Kamaraj College of Engineering and Technology",
+          "caption": "A skill-focused value added course at Kamaraj College of Engineering and Technology."
+        },
+        {
+          "src": "1000754026.jpeg",
+          "alt": "Value added course on .NET at Kamaraj College of Engineering and Technology",
+          "caption": "A value added course on .NET covering C#, ASP.NET Core, web development and database integration."
+        },
+        {
+          "src": "1000754071.jpeg",
+          "alt": "Value added course on Generative AI at Rajalakshmi Engineering College",
+          "caption": "A value added course on Generative AI at Rajalakshmi Engineering College, Chennai."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "tone": "soft",
+      "eyebrow": "Guest lectures",
+      "heading": "Industry guest lectures",
+      "intro": "Guest lectures are the easiest campus events to start with. A practising engineer shares industry insight and takes live questions.",
+      "items": [
+        {
+          "src": "1000243678.jpeg",
+          "alt": "Guest lecture at Velalar College of Engineering and Technology",
+          "caption": "A guest lecture at Velalar College of Engineering and Technology on industry insights and emerging technology trends."
+        },
+        {
+          "src": "1000753829.jpeg",
+          "alt": "Guest lecture at Karpagam College of Engineering",
+          "caption": "A guest lecture at Karpagam College of Engineering on real-world applications and career opportunities."
+        },
+        {
+          "src": "1000753874-1.jpeg",
+          "alt": "Guest lecture at Sri Sankara Bhagavathy Arts and Science College",
+          "caption": "A guest lecture at Sri Sankara Bhagavathy Arts and Science College on emerging technologies and professional skills."
+        },
+        {
+          "src": "MOU-Signing-Ceremony-1_page-0001.jpg",
+          "alt": "MoU signing and guest talk at Sri Shanmugha College of Engineering and Technology",
+          "caption": "An MoU signing and guest talk at Sri Shanmugha College of Engineering and Technology."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Event formats",
+      "heading": "Campus events we can bring to your college",
+      "intro": "Choose one format or combine several across a semester. Each links to a page with full details.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "MoU signing",
+          "body": "A formal start to a long-term partnership, often paired with a guest talk so students benefit on day one.",
+          "href": "/college-programs/mou-partnership",
+          "meta": "Institution"
+        },
+        {
+          "title": "Technical workshops",
+          "body": "Half-day to multi-day hands-on sessions on topics such as coding with AI, web development and data science.",
+          "href": "/technical-workshops",
+          "meta": "Students"
+        },
+        {
+          "title": "Value added courses",
+          "body": "Lab-based courses such as Generative AI and .NET, taught by industry experts within your timetable.",
+          "href": "/college-programs/value-added-courses",
+          "meta": "Students"
+        },
+        {
+          "title": "Guest lectures",
+          "body": "Sessions by practising engineers on AI, cloud, DevOps, careers and emerging technologies, with live Q&A.",
+          "href": "/college-programs/guest-lectures",
+          "meta": "Students"
+        },
+        {
+          "title": "Faculty development",
+          "body": "Hands-on programs that help faculty stay current with modern tools and project-based teaching.",
+          "href": "/college-programs/faculty-development-program",
+          "meta": "Faculty"
+        },
+        {
+          "title": "Industrial visits",
+          "body": "Students visit a working software company, meet engineers and see how delivery teams run.",
+          "href": "/college-programs/industrial-visit",
+          "meta": "Students"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "tone": "soft",
+      "eyebrow": "Compare",
+      "heading": "Which campus events suit your goal?",
+      "intro": "Different campus events solve different problems. Use this table to pick a starting point.",
+      "columns": [
+        "Format",
+        "Best for",
+        "Typical length"
+      ],
+      "rows": [
+        [
+          "Guest lecture",
+          "Awareness and career clarity",
+          "A single session"
+        ],
+        [
+          "Workshop",
+          "Hands-on exposure to a new tool",
+          "Half day to a few days"
+        ],
+        [
+          "Value added course",
+          "Deeper, lab-based skills",
+          "Spread over weeks"
+        ],
+        [
+          "Career guidance",
+          "Planning next steps after college",
+          "A single session"
+        ],
+        [
+          "MoU signing",
+          "Long-term, multi-program partnership",
+          "One ceremony, many programs"
+        ]
+      ],
+      "note": "We recommend starting with a guest lecture or workshop, then planning an MoU once students and faculty have seen the format."
+    },
+    {
+      "type": "steps",
+      "eyebrow": "How it works",
+      "heading": "How we plan campus events with your college",
+      "intro": "Every event follows the same five steps, so faculty always know what comes next.",
+      "items": [
+        {
+          "title": "Enquiry and call",
+          "body": "Send the form below. Our team calls within one working day to understand your goals and student profile."
+        },
+        {
+          "title": "Choose format and topic",
+          "body": "Together we pick the format, topic, audience and date, around your exams and academic calendar."
+        },
+        {
+          "title": "Trainer and plan",
+          "body": "We assign a practising Icanio engineer and share the session plan with your faculty for review."
+        },
+        {
+          "title": "Event day",
+          "body": "The trainer delivers the session on campus. Your faculty co-facilitate and keep attendance records."
+        },
+        {
+          "title": "Follow-up",
+          "body": "We share feedback and suggest next steps, such as internships for interested students or a full course."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "Why it matters",
+      "heading": "Why campus events make a difference for students",
+      "paragraphs": [
+        "Many students in Tamil Nadu never meet a working software engineer before their first interview. A single guest lecture can change that. It shows students what the job looks like, which skills matter and how to prepare.",
+        "Hands-on campus events go further. In a workshop or value added course, students write code, use real tools and get feedback from someone who does this work every day. That early exposure helps them choose a track with confidence.",
+        "In our experience, the strongest results come when campus events connect to a next step. A student who enjoys a Coding with AI workshop can move into our AI & ML internship. A college that likes a guest lecture can plan an MoU for the full year."
+      ],
+      "bullets": [
+        "Real exposure to industry roles and expectations",
+        "Hands-on practice with current tools",
+        "A clear path into internships and further programs"
+      ],
+      "image": {
+        "src": "WorkshopsImg.png",
+        "alt": "Students at hands-on campus events run by Icanio Tech School"
+      },
+      "reverse": true,
+      "link": {
+        "label": "Explore internships",
+        "href": "/internships"
+      }
+    },
+    {
+      "type": "checklist",
+      "eyebrow": "For faculty",
+      "heading": "How to prepare your college for campus events",
+      "intro": "A little preparation helps students get the most from our campus events. Here is what our team suggests to faculty coordinators.",
+      "items": [
+        "Share the student profile: department, year and prior skills",
+        "Book a lab with working systems for hands-on sessions",
+        "Check that projectors, Wi-Fi and power points are ready",
+        "Nominate a faculty coordinator for attendance and logistics",
+        "Collect student questions in advance for the live Q&A",
+        "Plan a short feedback form for the end of the event"
+      ],
+      "image": {
+        "src": "GuestLecturesImg.png",
+        "alt": "Faculty and students at one of the campus events by Icanio Tech School"
+      }
+    },
+    {
+      "type": "testimonials",
+      "eyebrow": "In their words",
+      "heading": "What students say after our programs",
+      "intro": "Interns who continued from campus events into full internships share their experience. Press play to hear them."
+    },
+    {
+      "type": "links",
+      "tone": "soft",
+      "eyebrow": "Keep exploring",
+      "heading": "Related pages",
+      "items": [
+        {
+          "title": "Partner colleges",
+          "href": "/partner-colleges",
+          "body": "The 30+ colleges that work with us through an MoU."
+        },
+        {
+          "title": "College programs",
+          "href": "/college-programs",
+          "body": "Every program we bring to campus, compared."
+        },
+        {
+          "title": "Technical workshops",
+          "href": "/technical-workshops",
+          "body": "Formats, topics and durations for hands-on workshops."
+        },
+        {
+          "title": "Guest lectures",
+          "href": "/college-programs/guest-lectures",
+          "body": "Industry sessions on AI, cloud, DevOps and careers."
+        },
+        {
+          "title": "Student success stories",
+          "href": "/student-success-stories",
+          "body": "Completions from students across Tamil Nadu."
+        },
+        {
+          "title": "Contact us",
+          "href": "/contact",
+          "body": "Email, phone and WhatsApp for event enquiries."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "college",
+      "id": "apply",
+      "eyebrow": "Plan an event",
+      "heading": "Bring campus events to your college",
+      "intro": "Tell us about your college, your students and the kind of event you want. Our team replies within one working day.",
+      "points": [
+        "Events planned around your academic calendar",
+        "Led by practising engineers from Icanio Technologies",
+        "Follow-up paths into internships and courses"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What kinds of campus events does Icanio Tech School offer?",
+      "a": "We run MoU signing ceremonies, technical workshops, value added courses, guest lectures, career guidance sessions and faculty development programs. We also host industrial visits at Icanio. Colleges can choose one format or plan several across a semester."
+    },
+    {
+      "q": "Which colleges did you visit in September 2026?",
+      "a": "From 15 to 18 September 2026, our team visited SNS College of Technology, JCT College of Engineering & Technology, Velalar College of Engineering & Technology, Sri Shanmugha College of Engineering & Technology, AVS Engineering College and Er. Perumal Manimekalai College of Engineering."
+    },
+    {
+      "q": "Who leads the campus events?",
+      "a": "Practising engineers, architects and product managers from Icanio Technologies lead every session. Each has at least three years of client delivery experience and is background verified by Icanio HR. Your faculty co-facilitate on campus."
+    },
+    {
+      "q": "How far in advance should we book?",
+      "a": "Contact us as early as you can, ideally when you plan your semester calendar. That gives our team time to match a trainer, align the topic with your faculty and schedule around exams. Our team replies to every enquiry within one working day."
+    },
+    {
+      "q": "Can campus events be held online?",
+      "a": "Many formats, such as guest lectures and some workshops, can run online. Hands-on value added courses work best in your college lab. Tell us your constraints and we will suggest the right mode."
+    },
+    {
+      "q": "Do students get a certificate for attending?",
+      "a": "Certification depends on the format. Value added courses and internships lead to an Icanio Tech School certificate on completion. MoU colleges also have access to joint certification initiatives. Our team will confirm the details for your event."
+    },
+    {
+      "q": "What topics are popular for workshops?",
+      "a": "Recent workshops include Coding with AI and hands-on sessions on web development and data science. Value added courses have covered Generative AI and .NET. We can also tailor topics to your department and syllabus."
+    },
+    {
+      "q": "How do campus events lead to internships?",
+      "a": "Students who enjoy an event can apply for one of our 15 internship tracks. MoU colleges get priority access and free or sponsored internship options. Our team shares details with your placement cell after each event."
+    },
+    {
+      "q": "Can our college host campus events without an MoU?",
+      "a": "Yes. Many colleges begin with a single guest lecture or workshop before signing an MoU. It lets students and faculty see the format first. If the event goes well, our team can help you plan an MoU for regular programs across the year."
+    }
+  ],
+  "takeaways": [
+    "Icanio Tech School runs campus events across Tamil Nadu: MoU signings, workshops, value added courses and guest lectures.",
+    "From 15 to 18 September 2026, our team visited six colleges for MoUs, industry sessions and career guidance.",
+    "Practising Icanio engineers lead every event, with faculty co-facilitating on campus.",
+    "Guest lectures and workshops are easy starting points, and MoUs set up programs for the full year.",
+    "Events connect to next steps such as internships, value added courses and faculty programs."
+  ],
+  "conclusion": [
+    "Good campus events do more than fill an auditorium. They show students what industry work looks like and give them a clear next step.",
+    "If you want to bring a workshop, lecture or MoU signing to your college, send an enquiry. Our team will plan it with your faculty."
+  ],
+  "references": [
+    {
+      "label": "AICTE Internship Policy and guidelines for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    },
+    {
+      "label": "National Education Policy 2020, Ministry of Education",
+      "href": "https://www.education.gov.in/nep/about-nep"
+    },
+    {
+      "label": "Workshop, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Workshop"
+    },
+    {
+      "label": "Skill India, Government of India",
+      "href": "https://www.skillindia.gov.in/"
+    }
+  ],
+  "cta": {
+    "title": "Planning your next campus event?",
+    "body": "Book a guest lecture, workshop or MoU signing with our team.",
+    "primary": {
+      "label": "Enquire now",
+      "href": "/contact"
+    },
+    "secondary": {
+      "label": "See college programs",
+      "href": "/college-programs"
+    }
+  }
+}

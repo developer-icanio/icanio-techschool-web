@@ -1,0 +1,459 @@
+{
+  "path": "/college-programs/value-added-courses",
+  "kind": "college",
+  "label": "Value Added Courses",
+  "parent": "/college-programs",
+  "seo": {
+    "metaTitle": "Value Added Courses: 8 Proven Domains for Colleges",
+    "metaDescription": "Value added courses delivered on your campus by Icanio engineers: 8 domains, hands-on lab sessions, real tools and a certificate for every student.",
+    "focusKeyword": "value added courses",
+    "secondaryKeywords": [
+      "vac for engineering students",
+      "value added course for colleges",
+      "industry certification course",
+      "skill development course for students",
+      "on campus technical training"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "On-campus program for colleges",
+    "title": "Value Added Courses Delivered on Your Campus",
+    "subtitle": "Our value added courses bring Icanio engineers into your college labs. Students learn with real tools and workflows, inside your timetable and infrastructure, and finish with practical skills and a certificate that employers can see.",
+    "image": {
+      "src": "Mask-group-11.png",
+      "alt": "Student learning in value added courses delivered by Icanio Tech School"
+    },
+    "primary": {
+      "label": "Enquire now",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "See domains offered",
+      "href": "#domains"
+    },
+    "highlights": [
+      "8 domains",
+      "Hands-on lab sessions",
+      "Mentor-led assessments",
+      "Certificate on completion"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Format",
+      "value": "Live, lab-based sessions on your campus"
+    },
+    {
+      "label": "Duration",
+      "value": "Planned around your academic timetable"
+    },
+    {
+      "label": "Delivered by",
+      "value": "Practising Icanio engineers"
+    },
+    {
+      "label": "For",
+      "value": "Engineering and arts and science students"
+    }
+  ],
+  "answer": {
+    "question": "What are value added courses?",
+    "answer": "Value added courses are short, skill-focused programs that run alongside the regular syllabus. At Icanio Tech School, they are delivered on your campus by practising engineers from Icanio Technologies. Students work in your labs with real tools, build small projects and are assessed by mentors. They finish with a certificate and skills that match what recruiters ask for."
+  },
+  "sections": [
+    {
+      "type": "prose",
+      "eyebrow": "Why it matters",
+      "heading": "Value added courses that bridge the syllabus and industry",
+      "intro": "College teaches the what. Industry asks for the how. Our value added courses connect the two.",
+      "paragraphs": [
+        "Your syllabus gives students strong foundations in theory. Recruiters, however, test whether a graduate can use current tools, write working code and solve a problem under time pressure. That gap is where many capable students lose out in placement drives.",
+        "Our value added courses close that gap without moving students anywhere. Industry experts come to your campus and teach in your existing labs. There are no simulations and no recorded videos. Students use the same tools and workflows our delivery teams use on client projects.",
+        "Each course puts practice first. Students solve real problems, think through trade-offs and learn how professionals check their own work. Because the course sits inside your timetable, attendance stays high and your faculty can see exactly what is being taught."
+      ],
+      "bullets": [
+        "No relocation: sessions run in your college labs",
+        "No simulations: real tools, real workflows",
+        "Practical problem-solving and critical thinking in every session",
+        "Mentor-led assessments and a certificate at the end"
+      ],
+      "image": {
+        "src": "teacher-young-instructor-office-suit-class-with-computer-whiteboard-explaining-math-1-2.png",
+        "alt": "Industry trainer teaching value added courses in a college computer lab"
+      },
+      "link": {
+        "label": "Meet our industry trainers",
+        "href": "/industry-trainers"
+      }
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Benefits",
+      "heading": "Who benefits from value added courses",
+      "intro": "Students, faculty and the institution each gain something specific when value added courses run on campus.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "For students",
+          "body": "Students build skills recruiters screen for, complete small projects they can show and earn a certificate. They also learn how engineers plan, test and review work, which helps in interviews.",
+          "image": {
+            "src": "portrait-cheerful-girl-dress-eyeglasses-1.png",
+            "alt": "Student who completed value added courses with Icanio Tech School"
+          }
+        },
+        {
+          "title": "For faculty",
+          "body": "Faculty can sit in on sessions, see modern tools in use and pick up project-based teaching ideas. Many use the course material to refresh lab exercises in their own subjects.",
+          "image": {
+            "src": "top-view-notebook-clock-arrangement-1-1.png",
+            "alt": "Notebook and clock representing the learning approach of value added courses"
+          }
+        },
+        {
+          "title": "For the institution",
+          "body": "The college adds a visible, industry-led skill program to its record. Attendance, assessments and certificates from value added courses support accreditation files and placement reports.",
+          "image": {
+            "src": "top-view-notebook-clock-arrangement-1-3-1.png",
+            "alt": "Planner showing the structured approach of value added courses"
+          }
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "tone": "soft",
+      "eyebrow": "How we run it",
+      "heading": "How we run value added courses with your college",
+      "intro": "Our team handles the teaching and the material. Your team handles the lab, the batch and the timetable.",
+      "items": [
+        {
+          "title": "Choose domains and batches",
+          "body": "Your HoD or placement officer tells us which departments and years to cover. We help you choose domains that match your students and your recruiters."
+        },
+        {
+          "title": "Fix the schedule",
+          "body": "We plan sessions inside your academic calendar, so students do not miss regular classes. Our team checks the lab setup and software needs in advance."
+        },
+        {
+          "title": "Teach hands-on in your labs",
+          "body": "Icanio engineers deliver live sessions. Each one mixes a short concept, a guided exercise and independent practice with the trainer on hand."
+        },
+        {
+          "title": "Build and assess",
+          "body": "Students complete a small project or task set. Mentors assess the work against clear criteria and give feedback students can act on."
+        },
+        {
+          "title": "Certify and report",
+          "body": "Students who complete the course receive a certificate. We share attendance and assessment results with your college for its records."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "domains",
+      "eyebrow": "Domains offered",
+      "heading": "Value added courses in 8 industry domains",
+      "intro": "Choose one domain per batch or run several across departments. Each course uses tools our engineers work with every day.",
+      "columns": 4,
+      "items": [
+        {
+          "title": "Python Programming",
+          "body": "Python fundamentals, logic and problem-solving, leading to small working applications.",
+          "icon": "Group-2085663221-1.png"
+        },
+        {
+          "title": "Web Development",
+          "body": "Responsive websites and apps, with both frontend and backend technologies.",
+          "icon": "Group-2085663222.png"
+        },
+        {
+          "title": "Data Science",
+          "body": "Analyse data for trends and insights, and use tools that support data-driven decisions.",
+          "icon": "Group-2085663234.png"
+        },
+        {
+          "title": "AI and Machine Learning",
+          "body": "Core AI concepts and ML models built and tested on real-world datasets.",
+          "icon": "Group-2085663233.png"
+        },
+        {
+          "title": "DevOps",
+          "body": "Automation, deployment and CI/CD, plus how teams manage infrastructure and workflows.",
+          "icon": "Group-2085663224.png"
+        },
+        {
+          "title": "UI/UX Design",
+          "body": "User-friendly design, from wireframes to clickable prototypes.",
+          "icon": "Group-2085663230.png"
+        },
+        {
+          "title": "Mobile App Development",
+          "body": "Cross-platform apps and real-time mobile experiences, from screen to build.",
+          "icon": "Group-2085663228.png"
+        },
+        {
+          "title": "Software Testing",
+          "body": "Testing techniques and quality checks, with both manual and automation methods.",
+          "icon": "Group-2085663231.png"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "Choosing a domain",
+      "heading": "How to match value added courses to each department",
+      "intro": "The right domain depends on the department, the year of study and the jobs your students target.",
+      "paragraphs": [
+        "For CSE and IT departments, we usually suggest Web Development, Python or Software Testing in the second year. These give students a working base for projects and coding rounds. In the third year, AI and Machine Learning or DevOps add depth that stands out on a resume.",
+        "ECE and EEE students often want a route into software roles. Python Programming and Data Science work well here, because they build on the maths and logic these students already know. Mechanical and civil departments can use Python or Data Science to support analysis work in their own field.",
+        "For B.Sc., BCA and MCA batches, UI/UX Design, Web Development and Mobile App Development are popular choices. Our team is happy to talk through your recruiter list and recommend value added courses that match it. You can also run two domains in parallel for different sections of the same year."
+      ],
+      "bullets": [
+        "CSE and IT: Web Development, Python, Software Testing, then AI and ML or DevOps",
+        "ECE and EEE: Python Programming and Data Science",
+        "Arts and science: UI/UX Design, Web Development, Mobile App Development"
+      ]
+    },
+    {
+      "type": "checklist",
+      "eyebrow": "Learning approach",
+      "heading": "What every one of our value added courses includes",
+      "intro": "Whatever the domain, the approach stays the same: practice first, aligned to industry and checked by a mentor.",
+      "items": [
+        "Industry-aligned content written by Icanio engineers from live project experience",
+        "Hands-on lab sessions in every class, not only demonstrations",
+        "Real-world mini projects that students can add to a portfolio",
+        "Mentor-led assessments with specific, written feedback",
+        "Guidance on how the skill is used in real jobs and interviews",
+        "A certificate for every student who completes the course"
+      ],
+      "image": {
+        "src": "ValueAddedCourseImg.png",
+        "alt": "Students working on a project in value added courses by Icanio Tech School"
+      }
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Inside a session",
+      "heading": "What a typical session in our value added courses looks like",
+      "paragraphs": [
+        "A session opens with a short problem, not a long lecture. The trainer explains the one concept needed to solve it and shows how an engineer would approach it at work. Students then try it themselves in the lab while the trainer moves between desks.",
+        "Midway, the trainer pauses to review common mistakes on the projector. Students see real debugging, real naming choices and real trade-offs. The last part of the session is independent practice, where students extend the exercise on their own.",
+        "By the end of the course, each student has a small body of work, clear feedback from a mentor and a better sense of which career path suits them. In our experience, that mix of doing, reviewing and reflecting is what makes value added courses stick long after the certificate is issued."
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Icanio engineer guiding a student during a hands-on value added course session"
+      },
+      "reverse": true
+    },
+    {
+      "type": "table",
+      "eyebrow": "Compare",
+      "heading": "Value added courses vs other campus programs",
+      "intro": "Each college program has a different job. This table helps you place value added courses in your plan.",
+      "columns": [
+        "Program",
+        "Format",
+        "Best for"
+      ],
+      "rows": [
+        [
+          "Value added courses",
+          "Multi-session, hands-on, in your labs",
+          "Building one skill in depth"
+        ],
+        [
+          "Technical workshop",
+          "Half-day to multi-day session",
+          "Quick exposure to a new technology"
+        ],
+        [
+          "Guest lecture",
+          "Single interactive talk with Q&A",
+          "Awareness and career clarity"
+        ],
+        [
+          "Internship",
+          "15 days to six months on a live project",
+          "Job-ready experience and a portfolio"
+        ]
+      ],
+      "note": "We recommend value added courses for second and third year students, then an internship in the final year."
+    },
+    {
+      "type": "gallery",
+      "eyebrow": "On campus",
+      "heading": "Recent value added course sessions",
+      "intro": "Photos from value added courses and hands-on sessions our engineers have delivered at partner colleges in Tamil Nadu.",
+      "items": [
+        {
+          "src": "1000753913-1.jpeg",
+          "alt": "Value added course at Kamaraj College of Engineering and Technology",
+          "caption": "Kamaraj College of Engineering and Technology, Virudhunagar: a skill-focused course with hands-on practice and exposure to professional workflows."
+        },
+        {
+          "src": "1000754026.jpeg",
+          "alt": "Value added course on .NET at Kamaraj College of Engineering and Technology",
+          "caption": "Kamaraj College of Engineering and Technology: value added course on .NET, covering C#, ASP.NET Core, web development and database integration."
+        },
+        {
+          "src": "1000754071.jpeg",
+          "alt": "Value added course on Generative AI at Rajalakshmi Engineering College, Chennai",
+          "caption": "Rajalakshmi Engineering College, Chennai: value added course on Generative AI."
+        },
+        {
+          "src": "1000753869.jpeg",
+          "alt": "Coding with AI workshop at Dr. N.G.P. Arts and Science College, Coimbatore",
+          "caption": "Dr. N.G.P. Arts and Science College, Coimbatore: a two-day interactive workshop on Coding with AI and modern development practices."
+        }
+      ]
+    },
+    {
+      "type": "testimonials",
+      "eyebrow": "Student voices",
+      "heading": "What students say about learning with our engineers",
+      "intro": "Hands-on work with a mentor builds confidence. Hear it from students who trained with Icanio Tech School."
+    },
+    {
+      "type": "partners",
+      "tone": "soft",
+      "eyebrow": "Partner colleges",
+      "heading": "Colleges that bring our programs to campus",
+      "intro": "Many of these colleges run value added courses with us as part of an MoU partnership.",
+      "limit": 10
+    },
+    {
+      "type": "links",
+      "eyebrow": "Keep exploring",
+      "heading": "Other college programs",
+      "items": [
+        {
+          "title": "College programs overview",
+          "href": "/college-programs",
+          "body": "Compare every program for colleges and choose where to start."
+        },
+        {
+          "title": "MoU partnership",
+          "href": "/college-programs/mou-partnership",
+          "body": "Get priority access to value added courses and sponsored internships."
+        },
+        {
+          "title": "Guest lectures",
+          "href": "/college-programs/guest-lectures",
+          "body": "Free sessions on AI, cloud, DevOps, cybersecurity and careers."
+        },
+        {
+          "title": "Faculty development program",
+          "href": "/college-programs/faculty-development-program",
+          "body": "Hands-on training for faculty in modern tools and methods."
+        },
+        {
+          "title": "Industrial visit",
+          "href": "/college-programs/industrial-visit",
+          "body": "A guided day inside a working software company."
+        },
+        {
+          "title": "Technical workshops",
+          "href": "/technical-workshops",
+          "body": "Short, practical sessions on emerging technologies."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "college",
+      "tone": "soft",
+      "eyebrow": "Plan a course",
+      "heading": "Enquire about value added courses for your college",
+      "intro": "Tell us your departments, batch size and preferred domains. Our team replies within one working day with a suggested plan.",
+      "points": [
+        "No cost to enquire or to plan with our team",
+        "Sessions scheduled inside your academic calendar",
+        "Certificate for every student who completes the course"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What are value added courses in college?",
+      "a": "Value added courses are skill programs that run alongside the regular curriculum. They focus on practical, job-relevant skills that the syllabus may not cover in depth. Our value added courses are delivered by Icanio engineers in your labs, with hands-on exercises, mini projects and a certificate on completion."
+    },
+    {
+      "q": "Which domains do your value added courses cover?",
+      "a": "We offer value added courses in eight domains: Python Programming, Web Development, Data Science, AI and Machine Learning, DevOps, UI/UX Design, Mobile App Development and Software Testing. We have also delivered focused courses such as .NET and Generative AI for partner colleges."
+    },
+    {
+      "q": "Do students need to travel for the course?",
+      "a": "No. Our trainers come to your campus and teach in your existing computer labs. This keeps attendance high and avoids travel costs for students. Our team checks your lab setup and software needs before the first session."
+    },
+    {
+      "q": "Who teaches the value added courses?",
+      "a": "Practising engineers from Icanio Technologies teach every course. They have 3+ years of client delivery experience and are background verified by Icanio HR. They bring examples from live projects, so students learn how the skill is used at work."
+    },
+    {
+      "q": "Do students get a certificate?",
+      "a": "Yes. Every student who completes one of our value added courses receives a certificate. Under an MoU partnership, some courses can also be run as joint certification initiatives with your college. Attendance and assessment results are shared with your institution."
+    },
+    {
+      "q": "How do you fit the course into our timetable?",
+      "a": "We plan sessions with your HoD or placement officer around the academic calendar, internal exams and holidays. The aim is that students attend value added courses without missing regular classes. Schedules are agreed before the course starts."
+    },
+    {
+      "q": "Can arts and science colleges run these courses?",
+      "a": "Yes. Domains such as Python, Data Science, Web Development and UI/UX suit B.Sc., BCA and MCA students well. We adapt the level and examples to the batch. Arts and science colleges such as Dr. N.G.P. Arts and Science College already work with us."
+    },
+    {
+      "q": "How are value added courses different from internships?",
+      "a": "Value added courses build one skill in depth on your campus, for a whole batch. Internships place individual students on a live project team for 15 days to six months. Many colleges use value added courses first, then send their best students into internships."
+    },
+    {
+      "q": "How many students can join one batch?",
+      "a": "Batch size depends on the number of systems in your lab and the domain you choose. Hands-on value added courses work best when every student has a working computer. Our team discusses the right batch size with your college during planning, so each student gets enough time with the trainer."
+    }
+  ],
+  "takeaways": [
+    "Value added courses add practical, industry-relevant skills alongside the regular syllabus.",
+    "Icanio engineers deliver them on your campus, in your labs, with real tools and no simulations.",
+    "Eight domains are offered, from Python and Web Development to DevOps and Software Testing.",
+    "Every course includes mini projects, mentor-led assessments and a certificate on completion.",
+    "Colleges such as Kamaraj College of Engineering and Technology and Rajalakshmi Engineering College already run them."
+  ],
+  "conclusion": [
+    "Placement drives reward students who can show what they have built. Value added courses give a whole batch that chance, taught by engineers who use these tools on client projects every week.",
+    "If your college wants to raise practical skills without disturbing the timetable, start with one domain and one batch. Our team will help you plan the course, the schedule and the next step."
+  ],
+  "references": [
+    {
+      "label": "Experiential learning, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Experiential_learning"
+    },
+    {
+      "label": "National Education Policy 2020, Ministry of Education",
+      "href": "https://www.education.gov.in/nep/about-nep"
+    },
+    {
+      "label": "Skill India, Government of India",
+      "href": "https://www.skillindia.gov.in/"
+    },
+    {
+      "label": "All India Council for Technical Education",
+      "href": "https://www.aicte-india.org/"
+    }
+  ],
+  "cta": {
+    "title": "Bring value added courses to your campus",
+    "body": "Pick a domain and a batch. Our team will plan the course around your timetable and share a schedule.",
+    "primary": {
+      "label": "Enquire now",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "Explore an MoU partnership",
+      "href": "/college-programs/mou-partnership"
+    }
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "path": "/industry-trainers",
+  "kind": "page",
+  "label": "Industry Trainers",
+  "seo": {
+    "metaTitle": "Industry Trainers: 6 Proven Practitioner Roles",
+    "metaDescription": "Meet the industry trainers at Icanio Tech School: six practitioner roles from live Icanio projects, 3+ years of client delivery and 8 standards each meets.",
+    "focusKeyword": "industry trainers",
+    "secondaryKeywords": [
+      "practising engineers as trainers",
+      "industry expert training",
+      "internship mentors in tamil nadu",
+      "trainer standards",
+      "expert-led delivery"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "6 active practitioners",
+    "title": "Industry Trainers Who Build Real Products Every Week",
+    "subtitle": "Our industry trainers are active engineers, architects and specialists from Icanio Technologies. They work on live client projects and bring that work into every session, onsite or online, for students across Tamil Nadu.",
+    "image": {
+      "src": "Rectangle-34626444.png",
+      "alt": "Industry trainers from Icanio Technologies teaching students at Icanio Tech School"
+    },
+    "primary": {
+      "label": "Apply for an internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "See the trainer roles",
+      "href": "#roles"
+    },
+    "highlights": [
+      "3+ years of client delivery",
+      "Background verified by Icanio HR",
+      "Code reviews to Icanio standards",
+      "Feedback reviewed every cohort"
+    ]
+  },
+  "answer": {
+    "question": "Why learn from industry trainers instead of lecturers?",
+    "answer": "Industry trainers teach what they do at work that week. At Icanio Tech School, every trainer is a practising Icanio engineer, architect or product manager with at least three years of client delivery. They review your work to internal Icanio standards, share real production decisions and know exactly what hiring teams screen for. That closes the gap between college learning and your first job."
+  },
+  "sections": [
+    {
+      "type": "prose",
+      "eyebrow": "Our trainers",
+      "heading": "Who our industry trainers are",
+      "intro": "Every trainer at Icanio Tech School is a working professional first and a trainer second.",
+      "paragraphs": [
+        "Our industry trainers come from Icanio Technologies or its partner ecosystem. They are engineers, architects and specialists who spend their week on real client projects. Alongside that work, they deliver training sessions onsite at our centre, on partner campuses or online.",
+        "This model keeps teaching current. When the delivery team adopts a new tool, our industry trainers bring it into class in the next cohort. When a client project raises a hard design problem, it can become a brief for students.",
+        "All trainers meet Icanio internal standards. The focus is quality, accountability and production-level expertise. Programs are structured and outcome-driven, so students know what they will build and how it will be reviewed."
+      ],
+      "image": {
+        "src": "Group-2085662336-2-1.png",
+        "alt": "Icanio engineer guiding a student through a live project"
+      },
+      "link": {
+        "label": "About Icanio Tech School",
+        "href": "/about-icanio-tech-school"
+      }
+    },
+    {
+      "type": "cards",
+      "id": "roles",
+      "tone": "soft",
+      "eyebrow": "6 active practitioners",
+      "heading": "Six roles our industry trainers hold today",
+      "intro": "Your mentor is introduced to you at onboarding. Here are the six practitioner roles that lead our programs today.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "AI & ML Lead Trainer",
+          "body": "An active machine learning engineer on the Icanio AI team. Leads data preparation, model training and model evaluation work in the AI & ML track.",
+          "icon": "stars-02.png",
+          "href": "/internships/ai-ml-internship",
+          "meta": "AI team"
+        },
+        {
+          "title": "Support Engineer Trainer",
+          "body": "A platform reliability engineer who works on live systems. Teaches monitoring, incident handling and the habits that keep production stable.",
+          "icon": "user-check-02.png",
+          "meta": "Reliability"
+        },
+        {
+          "title": "Cloud & DevOps Trainer",
+          "body": "A DevOps architect from the Icanio delivery team. Covers CI/CD pipelines, containers, cloud infrastructure and automated deployments.",
+          "icon": "Icon-2.png",
+          "href": "/internships/devops-internship",
+          "meta": "Delivery team"
+        },
+        {
+          "title": "Data Engineering Trainer",
+          "body": "A data engineer in the Icanio analytics practice. Guides students through data pipelines, SQL, cleaning and reporting for real decisions.",
+          "icon": "Icon-1-1.png",
+          "href": "/internships/data-analyst-internship",
+          "meta": "Analytics"
+        },
+        {
+          "title": "Product & Agile Trainer",
+          "body": "A product manager who runs active sprint cycles. Teaches requirements, backlog planning, stand-ups and sprint reviews the way teams run them.",
+          "icon": "briefcase-01.png",
+          "href": "/internships/project-management-internship",
+          "meta": "Product"
+        },
+        {
+          "title": "Full-Stack Lead Trainer",
+          "body": "A software engineer who builds retail and education platforms. Leads frontend, backend and full stack work from interface to database.",
+          "icon": "code-circle-01.png",
+          "href": "/internships/full-stack-development-internship",
+          "meta": "Engineering"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "eyebrow": "Trainer standards",
+      "heading": "Eight standards all our industry trainers meet",
+      "intro": "Before anyone teaches at Icanio Tech School, they pass the same checks. These eight standards apply to every trainer, every cohort.",
+      "items": [
+        "Active industry practitioner on live client work",
+        "Curriculum aligned with live project standards",
+        "Student feedback reviewed every cohort",
+        "Code reviews follow internal Icanio standards",
+        "Minimum 3 years of client delivery experience",
+        "Background verified by Icanio HR",
+        "Assessed by academic faculty before delivery",
+        "Top students referred to the Icanio talent team"
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "One of our industry trainers reviewing student code at Icanio Tech School"
+      }
+    },
+    {
+      "type": "cards",
+      "tone": "soft",
+      "eyebrow": "How programs run",
+      "heading": "How industry trainers structure every program",
+      "intro": "Our industry trainers work to four pillars. Together they make each program feel like a real project team, not a lecture hall.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "Expert-Led Delivery",
+          "body": "Practising Icanio engineers, architects and product managers lead each session. They show live production codebases and explain the architecture decisions behind them. Q&A panels with senior engineers follow a technical interview format. On campus, faculty co-facilitate to keep academic rigour and attendance.",
+          "icon": "Group-2085662436.png"
+        },
+        {
+          "title": "Industry Curriculum Design",
+          "body": "Icanio engineers write the curriculum from active project experience. It is benchmarked against what clients screen for in hiring, and refreshed every cohort for the latest stack and tooling changes. Faculty alignment sessions keep it compatible with academic credit.",
+          "icon": "Group-2085662436-1.png"
+        },
+        {
+          "title": "Live Project Execution",
+          "body": "Students work on briefs derived from Icanio client scenarios. Trainers review code with the same standards as internal pull requests. Work moves in iterative sprints that mirror agile delivery. Final deliverables are production-quality outputs that students own and can share.",
+          "icon": "Group-2085662436-3.png"
+        },
+        {
+          "title": "Placement-Ready Assessment",
+          "body": "Technical assessments mirror first-round screening at leading tech companies. Icanio hiring managers run portfolio reviews. The Icanio talent acquisition team leads LinkedIn and resume workshops. Top performers are fast-tracked to Icanio internship and associate roles.",
+          "icon": "Group-2085662436-2.png"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Beyond the syllabus",
+      "heading": "What industry trainers teach that textbooks miss",
+      "intro": "Syntax and theory are easy to find online. The habits of a working team are not.",
+      "paragraphs": [
+        "A textbook explains how a sorting algorithm works. It rarely explains why a team rejects a clever solution in code review because nobody else can maintain it. Our industry trainers teach that judgement. They show you how real teams weigh speed, readability, cost and risk.",
+        "You also learn the unwritten rules of a software team. How to write a commit message that others can follow. How to ask for help without wasting a senior engineer's time. How to estimate a task and warn early when it will slip. These small habits decide how quickly a fresher earns trust.",
+        "Finally, trainers share what they see in hiring. They sit on the same side of the table as the people who will interview you. They know which projects impress, which answers fall flat and which gaps in a resume raise questions. That insight shapes the feedback you get every week."
+      ],
+      "bullets": [
+        "Code review judgement: readability, maintainability and risk",
+        "Team habits: commits, estimates, stand-ups and escalation",
+        "Hiring insight: what interviewers look for in a fresher",
+        "Production thinking: testing, monitoring and deployment"
+      ],
+      "image": {
+        "src": "ourInternshipProgramImg.png",
+        "alt": "Intern applying feedback from industry trainers on a live project"
+      }
+    },
+    {
+      "type": "steps",
+      "eyebrow": "Your weeks",
+      "heading": "What a week with industry trainers looks like",
+      "intro": "The rhythm is the same across tracks. Only the tools change. Here is how a typical week runs with your trainer, whether you join offline or online.",
+      "items": [
+        {
+          "title": "Kickoff and brief",
+          "body": "Your trainer explains the week's goal and the part of the project you will own, just like a sprint planning meeting."
+        },
+        {
+          "title": "Guided build sessions",
+          "body": "You learn a concept, then apply it straight away to the project with your trainer walking the room or the call."
+        },
+        {
+          "title": "Daily check-ins",
+          "body": "Short stand-ups show what you did, what is next and what is blocking you. Trainers step in early."
+        },
+        {
+          "title": "Code or work review",
+          "body": "Your trainer reviews your pull request, design or report to internal Icanio standards and leaves clear comments."
+        },
+        {
+          "title": "Demo and feedback",
+          "body": "You present your progress. The trainer asks interview-style questions, and your feedback shapes the next week."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Quality",
+      "heading": "How we select and review our industry trainers",
+      "paragraphs": [
+        "Being a good engineer does not automatically make someone a good teacher. So our team checks both. A new trainer first shadows an experienced one for a cohort. They learn how to break a concept into steps, how to pace a session and how to give feedback that helps rather than discourages.",
+        "Before a campus program, academic faculty assess the trainer and the session plan. This keeps our industry trainers aligned with academic expectations and credit rules. Icanio HR completes background verification before any trainer meets students.",
+        "After every cohort, we read student feedback on each trainer. We look at clarity, availability, quality of reviews and how well students did in the final assessment. Where feedback points to a gap, the trainer gets coaching. Curriculum changes suggested by trainers are reviewed and folded into the next cohort."
+      ],
+      "image": {
+        "src": "WorkshopsImg.png",
+        "alt": "Industry trainers running a hands-on workshop for college students"
+      },
+      "reverse": true
+    },
+    {
+      "type": "table",
+      "tone": "soft",
+      "eyebrow": "Compare",
+      "heading": "Industry trainers vs typical classroom teaching",
+      "intro": "Both have value. The difference is how close the teaching sits to real delivery work.",
+      "columns": [
+        "Area",
+        "Icanio industry trainers",
+        "Typical classroom"
+      ],
+      "rows": [
+        [
+          "Day job",
+          "Live client projects",
+          "Full-time teaching"
+        ],
+        [
+          "Material",
+          "Refreshed every cohort",
+          "Fixed syllabus"
+        ],
+        [
+          "Feedback",
+          "PR-style reviews each week",
+          "Marks at term end"
+        ],
+        [
+          "Interview prep",
+          "Q&A panels, portfolio review",
+          "Placement cell sessions"
+        ],
+        [
+          "Hiring link",
+          "Referral to Icanio talent team",
+          "Campus drives"
+        ]
+      ],
+      "note": "We recommend pairing your college fundamentals with a mentored internship, so theory and real practice reinforce each other."
+    },
+    {
+      "type": "prose",
+      "eyebrow": "For colleges",
+      "heading": "Industry trainers on your campus",
+      "paragraphs": [
+        "Colleges bring our industry trainers to campus through value added courses, guest lectures, workshops and faculty development programs. Each session is planned with your faculty, so it fits the timetable and supports academic credit.",
+        "Your faculty co-facilitate on campus and keep attendance records. Our team shares progress with your placement cell. Many colleges start with a single guest lecture, then move to an MoU for regular programs."
+      ],
+      "bullets": [
+        "Value added courses led by practising engineers",
+        "Guest lectures on AI, cloud, DevOps and careers",
+        "Faculty development programs on modern tools"
+      ],
+      "image": {
+        "src": "GuestLecturesImg.png",
+        "alt": "Industry trainers delivering a guest lecture at a partner college in Tamil Nadu"
+      },
+      "reverse": true,
+      "link": {
+        "label": "See college programs",
+        "href": "/college-programs"
+      }
+    },
+    {
+      "type": "testimonials",
+      "eyebrow": "In their words",
+      "heading": "What interns say about learning from our trainers",
+      "intro": "Hear from students who were mentored by our industry trainers during their internships."
+    },
+    {
+      "type": "links",
+      "tone": "soft",
+      "eyebrow": "Keep exploring",
+      "heading": "Where our industry trainers teach",
+      "items": [
+        {
+          "title": "All internships",
+          "href": "/internships",
+          "body": "Fifteen tracks, each led by a practitioner from the matching Icanio team."
+        },
+        {
+          "title": "AI & ML internship",
+          "href": "/internships/ai-ml-internship",
+          "body": "Learn model building with an ML engineer from the Icanio AI team."
+        },
+        {
+          "title": "DevOps internship",
+          "href": "/internships/devops-internship",
+          "body": "Build pipelines and deployments with a DevOps architect."
+        },
+        {
+          "title": "Value added courses",
+          "href": "/college-programs/value-added-courses",
+          "body": "Bring our trainers to your campus lab for a full course."
+        },
+        {
+          "title": "Student success stories",
+          "href": "/student-success-stories",
+          "body": "See what students built with their mentors."
+        },
+        {
+          "title": "About Icanio Tech School",
+          "href": "/about-icanio-tech-school",
+          "body": "Who we are, what we run and why it works."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "student",
+      "id": "apply",
+      "eyebrow": "Join now",
+      "heading": "Learn from our industry trainers",
+      "intro": "Apply for an internship and get a 1:1 mentor from a live Icanio project. Our team replies within one working day.",
+      "points": [
+        "No fee is charged to apply or to talk to a counsellor",
+        "Start dates every month, offline, online or part time",
+        "Durations from 15 days to six months"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Who are the industry trainers at Icanio Tech School?",
+      "a": "They are active engineers, architects, product managers and specialists from Icanio Technologies or its partner ecosystem. Each one works on real client projects and delivers training onsite or online alongside that work. Current roles include AI & ML, support engineering, cloud and DevOps, data engineering, product and agile, and full stack."
+    },
+    {
+      "q": "Why are trainer names not listed?",
+      "a": "Trainers are assigned to cohorts based on their live project schedules, so the person leading a batch can change. What stays fixed is the role and the standard. You will meet your trainer at onboarding, and our team can share their background when you enrol."
+    },
+    {
+      "q": "How much experience do the industry trainers have?",
+      "a": "Every trainer has at least three years of client delivery experience. They are background verified by Icanio HR and, for campus programs, assessed by academic faculty before delivery. Student feedback on each trainer is reviewed after every cohort."
+    },
+    {
+      "q": "Will a trainer review my code personally?",
+      "a": "Yes. Your trainer reviews your pull requests, designs or reports each week to internal Icanio standards. You get written comments you can act on, and you discuss them in check-ins. This is the same review process used on real client projects."
+    },
+    {
+      "q": "Do trainers teach online as well as offline?",
+      "a": "Yes. Trainers deliver sessions at our Tirunelveli centre, on partner college campuses and online. Online interns get the same reviews, stand-ups and demos, run through video calls and shared repositories."
+    },
+    {
+      "q": "Can our college invite Icanio trainers for a session?",
+      "a": "Yes. Colleges invite our trainers for guest lectures, workshops, value added courses and faculty development programs. Sessions are planned with your faculty. Send an enquiry from the contact page and our team will call within one working day."
+    },
+    {
+      "q": "Can a trainer refer me for a job at Icanio?",
+      "a": "Top students are referred to the Icanio talent team, and top performers are fast-tracked to Icanio internship and associate roles. Referral depends on your project quality, reviews and assessment results, not on attendance alone."
+    },
+    {
+      "q": "What is the Q&A panel with senior engineers?",
+      "a": "It is a session where senior Icanio engineers ask you questions about your project and core concepts. It follows the format of a technical interview, so you practise explaining your decisions under realistic pressure before real interviews."
+    },
+    {
+      "q": "Which trainer will I get for my internship track?",
+      "a": "You are matched with the practitioner role closest to your track. AI & ML interns work with the AI & ML Lead Trainer, DevOps interns with the Cloud & DevOps Trainer, and web interns with the Full-Stack Lead Trainer. For other tracks, our team introduces your mentor at onboarding and explains their project background."
+    }
+  ],
+  "takeaways": [
+    "Our industry trainers are practising Icanio engineers, architects and product managers on live client work.",
+    "Six practitioner roles lead programs today, from AI & ML to full stack.",
+    "Every trainer meets eight standards, including 3+ years of client delivery and HR background checks.",
+    "Programs follow four pillars: expert-led delivery, industry curriculum, live projects and placement-ready assessment.",
+    "Top students are referred to the Icanio talent team for internship and associate roles."
+  ],
+  "conclusion": [
+    "The quality of a program depends on who teaches it. At Icanio Tech School, our industry trainers bring live project experience, real review standards and hiring insight into every session.",
+    "If you want a mentor who does this work every day, apply for an internship. If you want our trainers on your campus, send a college enquiry and our team will plan it with you."
+  ],
+  "references": [
+    {
+      "label": "AICTE Internship Policy and guidelines for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    },
+    {
+      "label": "Skill India, Government of India",
+      "href": "https://www.skillindia.gov.in/"
+    },
+    {
+      "label": "What is Scrum, Scrum.org",
+      "href": "https://www.scrum.org/resources/what-scrum-module"
+    },
+    {
+      "label": "Mentorship, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Mentorship"
+    }
+  ],
+  "cta": {
+    "title": "Ready to learn from a practitioner?",
+    "body": "Pick a track and get mentored by an engineer from a live Icanio project. Colleges can book our trainers for campus programs.",
+    "primary": {
+      "label": "Apply for an internship",
+      "href": "/apply-for-internship"
+    },
+    "secondary": {
+      "label": "Enquire for your college",
+      "href": "/contact"
+    }
+  }
+}

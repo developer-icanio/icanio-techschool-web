@@ -1,0 +1,467 @@
+{
+  "path": "/career-guides/how-to-choose-an-internship",
+  "kind": "guide",
+  "label": "How to Choose an Internship",
+  "parent": "/career-guides",
+  "seo": {
+    "metaTitle": "Choose an Internship: 8 Essential Checks",
+    "metaDescription": "How to choose an internship that builds your career: compare track fit, mentorship, real projects, duration, mode and certificate, and spot the red flags.",
+    "focusKeyword": "choose an internship",
+    "secondaryKeywords": [
+      "best internship for students",
+      "internship duration",
+      "online vs offline internship",
+      "internship red flags",
+      "internship with certificate"
+    ],
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
+  },
+  "hero": {
+    "eyebrow": "Career guide",
+    "title": "How to Choose an Internship That Builds Your Career",
+    "subtitle": "When you choose an internship, the name on the certificate matters less than what you build and who reviews it. This guide gives you eight checks, a comparison of durations and modes, and the questions to ask before you say yes.",
+    "image": {
+      "src": "Mask-group-21.png",
+      "alt": "Students comparing options to choose an internship that fits their career goals"
+    },
+    "primary": {
+      "label": "Apply for an internship",
+      "href": "/apply-for-internship"
+    },
+    "secondary": {
+      "label": "Compare 15 internship tracks",
+      "href": "/internships"
+    },
+    "highlights": [
+      "8 checks before you join",
+      "Duration and mode compared",
+      "Red flags to avoid",
+      "Written by the Icanio Tech School Academic Team"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Best for",
+      "value": "Students deciding between internship offers or tracks"
+    },
+    {
+      "label": "Decision time",
+      "value": "One focused evening with this guide"
+    },
+    {
+      "label": "Key factors",
+      "value": "Track fit, mentorship, project, duration, mode"
+    },
+    {
+      "label": "Written by",
+      "value": "Icanio Tech School Academic Team"
+    }
+  ],
+  "answer": {
+    "question": "How to choose an internship?",
+    "answer": "To choose an internship, start with the track that fits your goal, then check four things: who mentors you, what real project you will build, how your work will be reviewed and what proof you leave with. Next, pick a duration and mode that fit your college schedule. Finally, rule out any offer with vague tasks, no mentor or unclear terms."
+  },
+  "sections": [
+    {
+      "type": "prose",
+      "eyebrow": "Why it matters",
+      "heading": "Why does it matter which internship you choose?",
+      "paragraphs": [
+        "Your internship is often the first real work you can show an employer. A good one gives you a project, a mentor and a story for interviews. A poor one gives you a certificate and very little to talk about.",
+        "Students often choose an internship based on the company name or the first offer that arrives. Both can work, but neither guarantees learning. What you actually do each week decides what you gain.",
+        "In our experience, students who choose an internship carefully and finish one strong project get better interview results than students who collect several short, unguided ones."
+      ],
+      "bullets": [
+        "It shapes the first project on your resume",
+        "It decides the tools and habits you learn",
+        "It gives you interview stories and references",
+        "It can open a path to a full-time role"
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg2.png",
+        "alt": "Student thinking about how to choose an internship that leads to a job"
+      }
+    },
+    {
+      "type": "cards",
+      "id": "eight-checks",
+      "tone": "soft",
+      "eyebrow": "The eight checks",
+      "heading": "What should you check before you choose an internship?",
+      "intro": "Run every option through these eight checks. An internship that passes six or more is usually worth your time.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "1. Track fit",
+          "body": "Does the track match the role you want in two years? Choose an internship in the field you want to be hired in, not just any available seat.",
+          "icon": "Group-1000005365-7.png"
+        },
+        {
+          "title": "2. A named mentor",
+          "body": "Will a specific person guide you and review your work? Ask about their experience. Mentorship is where most learning happens.",
+          "icon": "Group-1000005365-8.png"
+        },
+        {
+          "title": "3. A real project",
+          "body": "Will you build something with a clear goal and users, or only follow tutorials? A real brief gives you something to show.",
+          "icon": "Group-1000005365-6.png"
+        },
+        {
+          "title": "4. Regular review",
+          "body": "How often will someone review your code, design or reports? Weekly feedback is a strong sign of a well-run internship.",
+          "icon": "Group-1000005365-5.png"
+        },
+        {
+          "title": "5. Modern tools",
+          "body": "Are the tools the same ones listed in current job descriptions? Check the tool list against real listings in your track.",
+          "icon": "Group-2085661816.png"
+        },
+        {
+          "title": "6. Duration and mode",
+          "body": "Does the length and format fit your semester? A realistic schedule means you actually finish the project.",
+          "icon": "Group-2085661817.png"
+        },
+        {
+          "title": "7. Proof at the end",
+          "body": "Will you leave with a certificate, a portfolio and a reference? Proof is what turns the internship into interview calls.",
+          "icon": "Group-2085661818.png"
+        },
+        {
+          "title": "8. Clear terms",
+          "body": "Are the start date, schedule, fees if any, and expectations written down? Clear terms protect you and show a serious program.",
+          "icon": "Group-2085661819.png"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Track fit",
+      "heading": "How do you choose an internship track that suits you?",
+      "paragraphs": [
+        "Start from the job you want, then work backwards. Look at five real job listings for that role and note the skills they ask for. Then choose an internship track that teaches most of those skills.",
+        "If you do not know the role yet, test two tracks quickly. Spend a weekend on a beginner tutorial in each, or attend a short workshop. The track you want to keep working on is usually the right one.",
+        "Your degree does not lock you in. Engineering students do well in business analysis and project management, and non-engineering students succeed in data analysis and digital marketing. We recommend matching the track to your interest and strengths, then filling any gaps with practice."
+      ],
+      "bullets": [
+        "Enjoy building screens: frontend, UI/UX or Flutter",
+        "Enjoy logic and systems: backend, full stack or DevOps",
+        "Enjoy data and patterns: data analyst or AI and ML",
+        "Enjoy people and planning: business analyst, project management or HR",
+        "Enjoy markets and persuasion: digital marketing, sales or finance"
+      ],
+      "reverse": true,
+      "image": {
+        "src": "Group-2085661740-3.png",
+        "alt": "Student matching interests to tracks to choose an internship"
+      },
+      "link": {
+        "label": "Browse all internship tracks",
+        "href": "/internships"
+      }
+    },
+    {
+      "type": "table",
+      "eyebrow": "Duration",
+      "heading": "How long should an internship be?",
+      "intro": "Duration changes what you can build. Choose an internship length based on your goal and how much time your semester allows.",
+      "columns": [
+        "Duration",
+        "Best for",
+        "What you can realistically build"
+      ],
+      "rows": [
+        [
+          "15 days",
+          "Exploring a new track",
+          "One guided mini project"
+        ],
+        [
+          "1 month",
+          "A first internship in college",
+          "One small, complete project"
+        ],
+        [
+          "3 months",
+          "Serious skill building",
+          "A full project with reviews"
+        ],
+        [
+          "6 months",
+          "Final year or job preparation",
+          "A capstone and a strong portfolio"
+        ]
+      ],
+      "note": "If this is your first internship, one to three months usually gives the best balance of learning and time."
+    },
+    {
+      "type": "prose",
+      "tone": "soft",
+      "eyebrow": "Format",
+      "heading": "Should you choose an online or offline internship?",
+      "paragraphs": [
+        "Choose offline if you can travel and want the most interaction. Choose online if distance or cost is a barrier. Choose part-time or weekend batches if you are still attending college full time.",
+        "Offline internships make it easier to ask quick questions and see how a team works. Online internships save travel and let you learn from anywhere, but they need more self-discipline. Hybrid gives you some of both.",
+        "The format matters less than the structure. A well-run online internship with weekly reviews beats an offline one where nobody checks your work. Before you choose an internship format, ask how feedback and mentoring actually happen in it."
+      ],
+      "bullets": [
+        "Offline: most interaction, needs travel",
+        "Online: flexible location, needs self-discipline",
+        "Part-time or weekend: fits around college classes",
+        "Hybrid: a mix of in-person sessions and remote work"
+      ],
+      "image": {
+        "src": "studentProgramOverviewImg.png",
+        "alt": "Student deciding between online and offline formats to choose an internship"
+      }
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Red flags",
+      "heading": "What are the red flags when you choose an internship?",
+      "intro": "Walk away, or ask hard questions, if you see any of these signs.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "No named mentor or reviewer",
+          "body": "If nobody can tell you who will guide you, learning will depend entirely on luck.",
+          "icon": "Group-2085662025-6.png"
+        },
+        {
+          "title": "Vague tasks or no project",
+          "body": "Phrases like general support or assisting the team, with no project, often mean unstructured work.",
+          "icon": "Group-2085662025-7.png"
+        },
+        {
+          "title": "Pressure to pay before details",
+          "body": "A genuine program explains the curriculum, schedule and any fee clearly before asking you to commit.",
+          "icon": "Group-2085662025-5.png"
+        },
+        {
+          "title": "Certificate is the only outcome",
+          "body": "If the offer talks only about the certificate, ask what you will build. Proof of work matters more.",
+          "icon": "Group-2085662024-27.png"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Two offers",
+      "heading": "How do you compare two internship offers side by side?",
+      "paragraphs": [
+        "Put both offers in a simple table with the eight checks as rows. Score each check as yes, no or unclear. The offer with more clear yes answers is usually the stronger one, even if it looks less impressive at first.",
+        "Then weigh the checks by your goal. If you need a portfolio for placements, give extra weight to the project and review checks. If you are exploring, give more weight to track fit and a short duration. This keeps the decision about you, not about the brand.",
+        "If the scores are close, talk to a past intern from each option. Ask what they built, how often they got feedback and whether they would join again. Their answers often settle the choice in minutes."
+      ],
+      "bullets": [
+        "Score each check as yes, no or unclear",
+        "Weight the checks by your own goal",
+        "Talk to one past intern from each option"
+      ],
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Mentor helping a student compare two offers to choose an internship"
+      }
+    },
+    {
+      "type": "steps",
+      "id": "roadmap",
+      "tone": "soft",
+      "eyebrow": "Decision process",
+      "heading": "5 steps to choose an internship with confidence",
+      "intro": "Use these steps when you have several options, or when you are not sure where to start.",
+      "items": [
+        {
+          "title": "Write down your goal",
+          "body": "One sentence: the role you want and by when. For example, a frontend developer job after final year."
+        },
+        {
+          "title": "Shortlist three options",
+          "body": "Pick three internships in the track that matches your goal. Include at least one structured program and one company role."
+        },
+        {
+          "title": "Score each on the eight checks",
+          "body": "Give each option a point for every check it passes. Write down anything you could not confirm."
+        },
+        {
+          "title": "Ask your questions",
+          "body": "Call or email each option with the questions from the checklist below. The quality of the answers tells you a lot."
+        },
+        {
+          "title": "Decide and commit",
+          "body": "Choose an internship with the highest score that fits your schedule. Then commit fully, because finishing well matters more than choosing perfectly."
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "eyebrow": "Questions to ask",
+      "heading": "Questions to ask before you choose an internship",
+      "intro": "Ask these before you accept. Clear answers are a good sign.",
+      "items": [
+        "Who will mentor me, and what is their work experience?",
+        "What project will I build, and who is it for?",
+        "How often will my work be reviewed, and how?",
+        "Which tools will I use, and are they used in current jobs?",
+        "What is the schedule, mode and total duration?",
+        "What do I receive at the end: certificate, portfolio, reference?",
+        "Is there interview preparation or a path to a job?",
+        "Are all terms, including any fee, written down?"
+      ],
+      "image": {
+        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-15.png",
+        "alt": "Student asking the right questions before they choose an internship"
+      }
+    },
+    {
+      "type": "prose",
+      "eyebrow": "How Icanio compares",
+      "heading": "How Icanio Tech School internships meet these checks",
+      "paragraphs": [
+        "Icanio Tech School is the education arm of Icanio Technologies, a Tamil Nadu based AI company trusted by 100+ businesses. We run 15 internship tracks across engineering and non-engineering fields, so you can choose an internship that matches your goal.",
+        "Every intern gets 1:1 mentorship from a practising Icanio engineer with 3+ years of client delivery experience. Trainers are background verified by Icanio HR. Technical tracks run in four learning phases, work is reviewed to internal Icanio standards and you finish with a certificate and a portfolio.",
+        "You pick a duration from 15 days to six months, offline, online, part time or hybrid, in weekday or weekend batches. Top performers are referred to the Icanio talent team."
+      ],
+      "reverse": true,
+      "image": {
+        "src": "ourInternshipProgramImg.png",
+        "alt": "Intern working on a mentored project at Icanio Tech School"
+      },
+      "link": {
+        "label": "See how to apply",
+        "href": "/apply-for-internship"
+      }
+    },
+    {
+      "type": "testimonials",
+      "tone": "soft",
+      "eyebrow": "In their words",
+      "heading": "Why our interns chose an internship with us",
+      "intro": "Hear what mattered most to students once they started working on real projects."
+    },
+    {
+      "type": "links",
+      "eyebrow": "Keep exploring",
+      "heading": "Guides and internships to help you choose an internship",
+      "items": [
+        {
+          "title": "All internships",
+          "href": "/internships",
+          "body": "Compare all 15 tracks, durations and modes side by side."
+        },
+        {
+          "title": "How to get an internship as a fresher",
+          "href": "/career-guides/how-to-get-an-internship-as-a-fresher",
+          "body": "Build proof, write your resume and apply with confidence."
+        },
+        {
+          "title": "Frontend developer roadmap",
+          "href": "/career-guides/frontend-developer-roadmap",
+          "body": "A stage-by-stage plan if web development is your goal."
+        },
+        {
+          "title": "AI ML career path",
+          "href": "/career-guides/ai-ml-career-path",
+          "body": "The stages, tools and roles in artificial intelligence and machine learning."
+        },
+        {
+          "title": "Full stack development internship",
+          "href": "/internships/full-stack-development-internship",
+          "body": "Frontend, backend and deployment on one project."
+        },
+        {
+          "title": "Business analyst internship",
+          "href": "/internships/business-analyst-internship",
+          "body": "A strong choice if you enjoy people, process and planning."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "form": "student",
+      "eyebrow": "Talk to us",
+      "heading": "Not sure yet? We will help you choose an internship",
+      "intro": "Share your goal and college year. Our team will call you and suggest the right track and duration.",
+      "points": [
+        "No fee is charged to apply or to talk to a counsellor",
+        "15 tracks, from 15 days to six months",
+        "Offline, online, part-time and hybrid modes"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the most important factor when choosing an internship?",
+      "a": "Mentorship and a real project matter most. A mentor who reviews your work each week and a project you can show at the end will teach you more than a big company name with unstructured tasks. Track fit comes a close second."
+    },
+    {
+      "q": "Should I choose an internship by company name?",
+      "a": "A well-known name can help your resume, but only if you also learn and build something. When you choose an internship, compare what you will actually do each week. A structured program with a real project often gives you more to talk about in interviews."
+    },
+    {
+      "q": "Is a short internship worth it?",
+      "a": "A 15-day or one-month internship is worth it for exploring a track or finishing one small project. For deeper skills and a strong portfolio, a three to six month internship is better. Many students do a short one first, then a longer one."
+    },
+    {
+      "q": "Can I do an internship in a different field from my degree?",
+      "a": "Yes. Many students choose an internship outside their branch to explore a new direction. Employers care about what you can do. A related project and clear interest usually matter more than your degree title."
+    },
+    {
+      "q": "Are online internships as good as offline ones?",
+      "a": "They can be, if they are well structured. Look for scheduled sessions, weekly reviews and a named mentor. Offline gives more interaction, while online saves travel. Hybrid combines both, and part-time batches fit around college."
+    },
+    {
+      "q": "How many internships should a student do?",
+      "a": "Quality beats quantity. One or two internships with complete projects are usually more valuable than many short ones. If you have time, do a short one to explore, then a longer one in your chosen track."
+    },
+    {
+      "q": "Does the certificate matter when I choose an internship?",
+      "a": "A certificate is useful proof that you completed the program, but it should not be the only outcome. Choose an internship that also gives you a portfolio, feedback on your work and interview preparation."
+    },
+    {
+      "q": "Can Icanio help me decide which internship to join?",
+      "a": "Yes. When you apply, our team calls you to understand your goal, year of study and schedule. We then suggest a track, duration and mode. There is no fee to apply or to talk to a counsellor."
+    }
+  ],
+  "takeaways": [
+    "Choose an internship by what you will build and who will review it, not only by company name.",
+    "Run every option through eight checks: track fit, mentor, project, review, tools, duration and mode, proof and clear terms.",
+    "One to three months suits a first internship, while six months suits final-year job preparation.",
+    "Online, offline, part-time and hybrid can all work if the structure and feedback are strong.",
+    "Walk away from offers with no mentor, vague tasks or unclear terms."
+  ],
+  "conclusion": [
+    "The right internship is the one that leaves you with real work, honest feedback and a clear story for your next interview. Use the eight checks, compare your options and ask direct questions before you commit.",
+    "If you want help to choose an internship that fits your goal, our team at Icanio Tech School will talk you through the options."
+  ],
+  "references": [
+    {
+      "label": "AICTE internship policy and portal for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    },
+    {
+      "label": "National Education Policy 2020, Ministry of Education",
+      "href": "https://www.education.gov.in/nep/about-nep"
+    },
+    {
+      "label": "Skill India, Government of India",
+      "href": "https://www.skillindia.gov.in/"
+    },
+    {
+      "label": "Internship, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Internship"
+    }
+  ],
+  "cta": {
+    "title": "Ready to choose an internship?",
+    "body": "Compare our 15 tracks or talk to our team, and start with the next batch.",
+    "primary": {
+      "label": "Apply for an internship",
+      "href": "/apply-for-internship"
+    },
+    "secondary": {
+      "label": "Compare internship tracks",
+      "href": "/internships"
+    }
+  }
+}

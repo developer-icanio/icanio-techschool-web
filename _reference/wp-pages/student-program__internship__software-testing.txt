@@ -1,0 +1,235 @@
+TITLE: Software Testing – Icanio Tech School
+DESC: None
+
+ Skip to content
+[IMG alt='' Group-16117.jpg] 
+Home
+Student Program
+Internship 
+Student Development Program 
+Workshops
+College Program
+Guest Lecture 
+Faculty Development Courses 
+Industrial Visit Program 
+MOU 
+Value Added Courses
+Gallery
+About Us
+X
+ Contact Us
+[H2] Software Testing with Industry Exposure Internship
+Train in Software Testing with hands-on projects, and mentor support.
+Build strong testing skills and gain industry experience with certification.
+ Apply For Software Testing Internship
+[IMG alt='' Group-1-4.png] 
+[H2] Enter one of the world's most in-demand careers. 
+[H2] 1:1
+Mentorship Support
+[H2] 4
+Learning Phases
+Students Trained 
+ 0
+ +
+Live Projects 
+ 0
+[H2] What You Will Learn in Frontend Internship
+Gain essential backend development skills and hands-on experience in building efficient and scalable applications.
+[H2] Server Fundamentals & Node.js
+[H2] PHASE 1
+SDLC, STLC & testing types overview
+Writing test plans, cases & checklists
+Functional, regression & smoke testing
+Bug reporting with Jira & Bugzilla
+Exploratory testing techniques 
+[IMG alt='' code-01-1-150x150.png] 
+[H2] API Testing & Test Design
+[H2] PHASE 2
+REST API testing with Postman
+Test design techniques (boundary, equivalence)
+API automation with Newman & collections
+Mocking, stubs & test data management
+Database testing with SQL queries 
+[IMG alt='' monitor-02-2-150x150.png] 
+[H2] Test Automation with Selenium & Playwright
+[H2] PHASE 3
+Selenium WebDriver with Java/Pyth
+Page Object Model (POM) design pattern
+Playwright end-to-end test automation
+Cross-browser & mobile testing strategies
+Allure & TestNG/PyTest reporting frameworks 
+[IMG alt='' settings-02-1-150x150.png] 
+[H2] CI/CD Integration, Performance & Career Prep
+[H2] PHASE 4
+Performance testing with JMeter & k6
+Security testing fundamentals & OWASP
+CI/CD pipeline integration with GitHub Actions
+Capstone automated test suite project
+QA resume, portfolio & interview prep 
+[IMG alt='' check-verified-01-150x150.png] 
+[H2] Foundations of Software Testing
+Build strong software testing skills through test planning, debugging, defect identification, and quality assurance.
+[H2] Testing Fundamentals & Manual QA
+[H2] PHASE 1
+SDLC, STLC & testing types overview
+Writing test plans, cases & checklists
+Functional, regression & smoke testing
+Bug reporting with Jira & Bugzilla
+Exploratory testing techniques 
+[IMG alt='' code-01-1-150x150.png] 
+[H2] API Testing & Test Design
+[H2] PHASE 2
+API Request Validation
+Response Status Verification
+Test Case Design
+Error Handling Testing
+Data Validation Checks 
+[IMG alt='' monitor-02-2-150x150.png] 
+[H2] Test Automation with Selenium & Playwright
+[H2] PHASE 3
+Selenium WebDriver with Java/Python
+Page Object Model (POM) design pattern
+Playwright end-to-end test automation
+Cross-browser & mobile testing strategies
+Allure & TestNG/PyTest reporting frameworks 
+[IMG alt='' settings-02-1-150x150.png] 
+[H2] CI/CD Integration, Performance & Career Preparation
+[H2] PHASE 4
+Performance testing with JMeter & k6
+Security testing fundamentals & OWASP
+CI/CD pipeline integration with GitHub Actions
+Capstone automated test suite project
+QA resume, portfolio & interview preparation 
+[IMG alt='' check-verified-01-150x150.png] 
+[H2] Hands-On Experience with Industry Tools
+Explore industry tools for building secure and scalable software testing solutions with real-world experience.
+[IMG alt='' Group-22.png] 
+[H2] Selenium
+Web UI automation
+[IMG alt='' selenium-svgrepo-com-1.png] 
+[H2] Cypress
+Modern E2E testing
+[IMG alt='' Group-3-1.png] 
+[H2] Postman
+API testing & collections
+[IMG alt='' Pytest_logo-1-1.png] 
+[H2] MongoDB
+NoSQL database
+[IMG alt='' jmeter-1.png] 
+[H2] JMeter 
+Performance & testing
+[IMG alt='' Testrail-1.png] 
+[H2] TestRail
+Test case management
+[IMG alt='' jira-1-1-1.png] 
+[H2] Jira
+Bug tracking & boards
+[IMG alt='github img' github-icon-1-1-2.png] 
+[H2] GitHub
+CI/CD pipeline Integration
+[IMG alt='' logo-report-sign-1-1-3.png] 
+[H2] Allure
+Visual Test Analytics
+[IMG alt='' browserstack-1-1.png] 
+[H2] BrowserStack
+Cross-browser testing
+[H2] What You Will Achieve Through This Program
+[IMG alt='' customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-2.png] 
+[IMG alt='' Group-1000005365-11.png] 
+[H2] 200+ Test Cases Written
+Design and run a full test suite covering functional, regression, API, and performance testing.
+[IMG alt='' Group-2085662024-15-1.png] 
+[H2] Automation Framework Built
+Build a maintainable test automation framework using Selenium, pytest, and the Page Object Model.
+[IMG alt='' Group-1000005365-12.png] 
+[H2] CI/CD Integration Skills
+Run automated tests on every push via GitHub Actions, a standard development team practice.
+[IMG alt='' image-copy-2.png] 
+[H2] ISTQB Exam Readiness
+Master ISTQB concepts and syllabus coverage with focused exam preparation and practice.
+[H2] Who Is Eligible to Apply?
+Ideal for students and professionals looking to build or grow their software testing skills.
+[IMG alt='' Group-2085662024-15.png] 
+[H2] Detail - Oriented Thinkers
+Those who love finding small details, identifying issues, and ensuring everything works accurately and reliably.
+[IMG alt='' Group-2085662024-13-1.png] 
+[H2] Career Switchers
+Professionals who want to transition into software testing and build new skills for a successful career in tech.
+[IMG alt='' Group-2085662025-5.png] 
+[H2] Developers Entering QA
+QA professionals who want to master manual testing, automation, defect reporting, and effective test practices.
+[IMG alt='' Group-2085662024-14-1.png] 
+[H2] CS Students
+Students who want to expand beyond code and own the full software delivery lifecycle from commit to production.
+[IMG alt='' Group-2085662474.png] 
+[H2] Discover More Internship Opportunities
+Explore industry tools for building secure and scalable software testing solutions with real-world experience.
+Frontend Developer
+Backend Developer
+Software Testing
+AI/ML Engineer
+UI/UX Designer
+DevOps Engineer
+Flutter Developer
+Full Stack Developer
+Business Analyst
+Project Manager
+[H2] Contact Our 
+Tech School Team 
+Share your technical training needs through the form
+ below, and our Tech School team will respond promptly.
+[H2] Talk With Our Team 
+ techschool@icanio.com​
+ +91 9150009316​
+[IMG alt='smiling-young-woman-wearing-white-hat-pointing-finger-toward-white-card 1' smiling-young-woman-wearing-white-hat-pointing-finger-toward-white-card-1-169x300.png] 
+[H2] Apply for internship 
+First Name *
+Last Name *
+Email Address *
+Phone *
+Area of Interest *Front-End InternshipBack-End InternshipSoftware TestingAI and MLUI/UX DesignerDevOpsMobile App/Flutter DeveloperFull Stack DeveloperBusiness analystProject ManagerHuman ResourcesDigital MarketingSalesFinanceData Analyst
+Internship Duration *
+Description
+Submit
+[IMG alt='' Group-16117-300x115.jpg] 
+ICANIO Tech School aims to empower learners with industry-ready skills and practical knowledge, becoming a stepping stone in their tech careers. Connect with us to discover how we’ve helped students and freshers build successful careers—and how we can support your journey too. 
+ Instagram
+ X-twitter
+ Linkedin
+[H2] Quick Links 
+ Home
+ Student
+ College
+[H2] Company 
+ Icanio
+ Careers
+[H2] Contact Us 
+[IMG alt='' mail-01.png] Contact : 
+techschool@icanio.com 
+[IMG alt='' mail-01.png] Internship : 
+internship@icanio.com 
+[IMG alt='' phone-1.png]
+Mobile No :
++91 9150009316 
+ Copyright © 2026 Icanio Tech School
+[IMG alt='' Group-16117-300x115.jpg] 
+ICANIO Tech School aims to empower learners with industry-ready skills and practical knowledge, becoming a stepping stone in their tech careers. Connect with us to discover how we’ve helped students and freshers build successful careers—and how we can support your journey too. 
+ Instagram
+ X-twitter
+ Linkedin
+[H2] Quick Links 
+ Home
+ Student
+ College
+[H2] Company 
+ Icanio
+ Careers
+[H2] Contact Us 
+[IMG alt='' mail-01.png] Contact : 
+techschool@icanio.com 
+[IMG alt='' mail-01.png] Internship : 
+internship@icanio.com 
+[IMG alt='' phone-1.png] Mobile No : +91 9150009316
+ Copyright © 2026 Icanio Tech School
+ -->
+ Scroll to Top
