@@ -56,7 +56,7 @@ function Hero({ p }: { p: PageContent }) {
             </ul>
           )}
         </div>
-        <Image src={img.src} alt={h.image.alt} width={img.w ?? 1200} height={img.h ?? 900} priority sizes="(min-width: 1024px) 45vw, 100vw" className="mx-auto h-auto w-full max-w-xl" />
+        <Image src={img.src} alt={h.image.alt} width={img.w ?? 1200} height={img.h ?? 900} priority sizes="(min-width: 1024px) 45vw, (min-width: 640px) 576px, 88vw" quality={70} className="mx-auto h-auto w-full max-w-xl" />
       </div>
     </section>
   );

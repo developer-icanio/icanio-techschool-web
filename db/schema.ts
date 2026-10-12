@@ -66,6 +66,25 @@ export const libraryItems = pgTable("library_items", {
   updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
 });
 
+export interface SpeedMetrics { fcp?: string; lcp?: string; tbt?: string; cls?: string; si?: string; lcpMs?: number }
+export interface SpeedIssue { title: string; value?: string; category: string }
+
+/** Google PageSpeed Insights runs, one row per page and device. */
+export const pagespeedResults = pgTable("pagespeed_results", {
+  id: uuid("id").defaultRandom().primaryKey(),
+  path: text("path").notNull(),
+  strategy: varchar("strategy", { length: 8 }).$type<"mobile" | "desktop">().notNull(),
+  performance: integer("performance"),
+  accessibility: integer("accessibility"),
+  bestPractices: integer("best_practices"),
+  seo: integer("seo"),
+  metrics: jsonb("metrics").$type<SpeedMetrics>().notNull(),
+  issues: jsonb("issues").$type<SpeedIssue[]>().notNull(),
+  fieldData: varchar("field_data", { length: 16 }),
+  runBy: varchar("run_by", { length: 255 }),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+});
+
 /** Kept in sync with the tables above; applied on first connection (idempotent). */
 export const SCHEMA_SQL = `
 CREATE TABLE IF NOT EXISTS admin_users (
@@ -113,4 +132,19 @@ CREATE TABLE IF NOT EXISTS library_items (
   updated_at timestamptz NOT NULL DEFAULT now()
 );
 CREATE INDEX IF NOT EXISTS library_items_kind_idx ON library_items (kind, sort);
+CREATE TABLE IF NOT EXISTS pagespeed_results (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+  path text NOT NULL,
+  strategy varchar(8) NOT NULL,
+  performance integer,
+  accessibility integer,
+  best_practices integer,
+  seo integer,
+  metrics jsonb NOT NULL,
+  issues jsonb NOT NULL,
+  field_data varchar(16),
+  run_by varchar(255),
+  created_at timestamptz NOT NULL DEFAULT now()
+);
+CREATE INDEX IF NOT EXISTS pagespeed_results_path_idx ON pagespeed_results (path, strategy, created_at DESC);
 `;

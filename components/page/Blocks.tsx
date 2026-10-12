@@ -26,6 +26,9 @@ function Fit({ img, ratio, className = "", sizes = "(min-width: 1024px) 33vw, 10
   );
 }
 
+/** A resized copy from Next's image optimiser, for places next/image can't go (video posters). */
+const thumb = (src: string, w: 384 | 640 | 828) => `/_next/image?url=${encodeURIComponent(src)}&w=${w}&q=70`;
+
 function Icon({ name, className = "h-12 w-12" }: { name?: string; className?: string }) {
   if (!name) return null;
   const a = asset(name);
@@ -248,7 +251,7 @@ export function BlockView({ b }: { b: Block }) {
           <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {testimonials(b.ids).map((t) => (
               <li key={t.name} className="flex flex-col overflow-hidden rounded-2xl border border-line bg-white">
-                <video controls preload="none" poster={asset(t.photo).src} className="aspect-[4/5] w-full bg-midnight object-contain" aria-label={`Video testimonial from ${t.name}`}>
+                <video controls preload="none" poster={thumb(asset(t.photo).src, 640)} className="aspect-[4/5] w-full bg-midnight object-contain" aria-label={`Video testimonial from ${t.name}`}>
                   <source src={asset(t.video).src} type="video/mp4" />
                 </video>
                 <figure className="flex flex-1 flex-col p-5">

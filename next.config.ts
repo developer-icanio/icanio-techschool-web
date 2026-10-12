@@ -39,6 +39,7 @@ const nextConfig: NextConfig = {
   serverExternalPackages: ["@electric-sql/pglite"],
   images: {
     formats: ["image/avif", "image/webp"],
+    qualities: [70, 75],
     // Dashboard uploads (Vercel Blob).
     remotePatterns: [{ protocol: "https", hostname: "*.public.blob.vercel-storage.com" }],
   },

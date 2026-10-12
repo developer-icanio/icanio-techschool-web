@@ -31,6 +31,16 @@ async function seed() {
 }
 
 export async function ensureContent() {
+  try {
+    await load();
+  } catch (e) {
+    // Database unreachable: keep serving the last loaded edits, or the JSON
+    // files if nothing was loaded yet. Visitors never see an error page.
+    console.error("[content] database unavailable, serving cached or file content:", (e as Error).message);
+  }
+}
+
+async function load() {
   const db = await getDb();
   if (!db) return;
   seeded ??= seed().catch((e) => {

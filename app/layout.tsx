@@ -3,7 +3,9 @@ import { Inter } from "next/font/google";
 import { SITE } from "@/lib/site";
 import "./globals.css";
 
-const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
+// display "optional": if Inter is not ready at first paint, the matched fallback
+// stays for that visit instead of re-rendering the text (protects mobile LCP).
+const inter = Inter({ variable: "--font-inter", subsets: ["latin"], display: "optional" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
