@@ -36,6 +36,7 @@ export async function GET() {
       owners: Boolean(process.env.ADMIN_EMAILS),
       leadEmail: Boolean(process.env.RESEND_API_KEY && process.env.RESEND_FROM),
       dailySnapshot: Boolean(process.env.CRON_SECRET),
+      pagespeed: Boolean(process.env.GOOGLE_PAGESPEED_API_KEY),
       checkedAt: new Date().toISOString(),
     },
     { headers: { "cache-control": "no-store" } },
