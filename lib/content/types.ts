@@ -6,6 +6,9 @@
 export interface Img {
   src: string;
   alt: string;
+  /** Pixel size, recorded for dashboard uploads. */
+  w?: number;
+  h?: number;
 }
 
 export interface Link {
@@ -48,9 +51,10 @@ export type Block =
   /** Partner college logo wall (data: content/shared/partners.json). */
   | (BlockBase & { type: "partners"; limit?: number })
   /** Student testimonials with video (data: content/shared/testimonials.json). */
-  | (BlockBase & { type: "testimonials" })
+  /** `ids` picks and orders specific videos from the library; empty = all published. */
+  | (BlockBase & { type: "testimonials"; ids?: string[] })
   /** Verified internship completions (data: content/shared/stories.json). `track` filters by keyword. */
-  | (BlockBase & { type: "stories"; track?: string; limit?: number })
+  | (BlockBase & { type: "stories"; track?: string; limit?: number; ids?: string[] })
   /** Photo grid with captions. */
   | (BlockBase & { type: "gallery"; items: (Img & { caption: string })[] })
   /** Related pages. */

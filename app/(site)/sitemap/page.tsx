@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { allPages } from "@/lib/content/pages";
+import { ensureContent } from "@/lib/content/store";
 
 export const metadata: Metadata = { title: "Sitemap", description: "Every page on the Icanio Tech School website, grouped by section.", alternates: { canonical: "/sitemap" } };
 
@@ -12,10 +13,11 @@ const GROUPS: [string, string[]][] = [
   ["About and results", ["page"]],
 ];
 
-export default function SitemapPage() {
+export default async function SitemapPage() {
+  await ensureContent();
   const pages = allPages();
   return (
-    <main className="mx-auto max-w-5xl px-4 py-14 sm:px-6">
+    <main className="shell py-14">
       <h1 className="text-4xl font-bold">Sitemap</h1>
       <div className="mt-10 grid gap-10 sm:grid-cols-2">
         {GROUPS.map(([title, kinds]) => (

@@ -9,7 +9,9 @@ export const YEARS = ["1st year", "2nd year", "Pre-final year", "Final year", "G
 export const COLLEGE_INTERESTS = [...COLLEGE_PROGRAMS.map((p) => p.label), "Internships for our students", "Student Development Program", "Workshops"];
 
 export interface LeadPayload {
-  kind: "student" | "college";
+  kind: "student" | "college" | "callback";
+  /** Callback form: who is asking. */
+  audience?: string;
   name: string;
   email: string;
   phone: string;
@@ -30,10 +32,12 @@ export interface LeadPayload {
 }
 
 export function validate(p: LeadPayload): string | null {
-  if (p.kind !== "student" && p.kind !== "college") return "Unknown form.";
+  if (p.kind !== "student" && p.kind !== "college" && p.kind !== "callback") return "Unknown form.";
   if (!p.name?.trim()) return "Please enter your name.";
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(p.email ?? "")) return "Please enter a valid email address.";
   if ((p.phone ?? "").replace(/\D/g, "").length < 10) return "Please enter a valid 10-digit phone number.";
+  // The footer callback form only asks for name, phone and interest.
+  if (p.kind === "callback") return null;
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(p.email ?? "")) return "Please enter a valid email address.";
   if (p.kind === "student" && !p.track) return "Please choose an area of interest.";
   if (p.kind === "college" && !p.college?.trim()) return "Please enter your college name.";
   if ((p.message ?? "").length > 3000) return "Message is too long.";

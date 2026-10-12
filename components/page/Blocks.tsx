@@ -9,7 +9,21 @@ import { Section, SectionHead } from "./Section";
 
 function Pic({ img, className = "", sizes = "(min-width: 1024px) 50vw, 100vw", priority }: { img: Img; className?: string; sizes?: string; priority?: boolean }) {
   const a = asset(img.src);
-  return <Image src={a.src} alt={img.alt} width={a.w ?? 1200} height={a.h ?? 800} sizes={sizes} priority={priority} className={className} />;
+  return <Image src={a.src} alt={img.alt} width={a.w ?? img.w ?? 1200} height={a.h ?? img.h ?? 800} sizes={sizes} priority={priority} className={className} />;
+}
+
+/**
+ * Fixed frame that always shows the whole image (no cropping). Spare space is
+ * filled with a soft, blurred copy of the same image so grids stay tidy.
+ */
+function Fit({ img, ratio, className = "", sizes = "(min-width: 1024px) 33vw, 100vw" }: { img: Img; ratio: string; className?: string; sizes?: string }) {
+  const a = asset(img.src);
+  return (
+    <div className={`relative w-full overflow-hidden bg-soft ${className}`} style={{ aspectRatio: ratio }}>
+      <Image src={a.src} alt="" aria-hidden fill sizes="64px" className="scale-110 object-cover opacity-40 blur-2xl" />
+      <Image src={a.src} alt={img.alt} fill sizes={sizes} className="object-contain" />
+    </div>
+  );
 }
 
 function Icon({ name, className = "h-12 w-12" }: { name?: string; className?: string }) {
@@ -25,7 +39,7 @@ const Check = ({ light }: { light?: boolean }) => (
   </svg>
 );
 
-const cols = { 2: "sm:grid-cols-2", 3: "sm:grid-cols-2 lg:grid-cols-3", 4: "sm:grid-cols-2 lg:grid-cols-4" } as const;
+const cols = { 2: "sm:grid-cols-2", 3: "sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4", 4: "sm:grid-cols-2 lg:grid-cols-4" } as const;
 
 export function BlockView({ b }: { b: Block }) {
   const tone = b.tone ?? "white";
@@ -58,7 +72,7 @@ export function BlockView({ b }: { b: Block }) {
               {text}
             </div>
           ) : (
-            <div className="mx-auto max-w-3xl">{text}</div>
+            <div className="mx-auto max-w-4xl">{text}</div>
           )}
         </Section>
       );
@@ -74,7 +88,7 @@ export function BlockView({ b }: { b: Block }) {
               const art = c.icon ? (asset(c.icon).w ?? 0) > 100 : false;
               const inner = (
                 <>
-                  {c.image && <Pic img={c.image} sizes="(min-width: 1024px) 33vw, 100vw" className="mb-5 aspect-[16/10] w-full rounded-[14px] object-cover" />}
+                  {c.image && <Fit img={c.image} ratio="4 / 3" className="mb-5 rounded-[14px]" />}
                   {c.icon && !art && <Icon name={c.icon} className="mb-4 h-12 w-12" />}
                   {c.meta && <p className="mb-2 self-start rounded-full bg-soft-2 px-2.5 py-0.5 text-xs font-semibold text-navy">{c.meta}</p>}
                   <h3 className="text-lg font-semibold leading-snug">{c.title}</h3>
@@ -189,7 +203,7 @@ export function BlockView({ b }: { b: Block }) {
     case "stats":
       return (
         <section id={b.id} className="bg-navy-2 bg-[linear-gradient(90deg,#00264c_0%,#00366c_100%)] py-14 text-white">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="shell">
             <h2 className="mx-auto mb-8 max-w-4xl text-center text-[26px] font-semibold !text-white sm:text-[30px]">{b.heading}</h2>
             {b.intro && <p className="-mt-4 mb-8 text-center text-white/80">{b.intro}</p>}
             <ul className="grid grid-cols-2 gap-8 text-center lg:grid-cols-4">
@@ -232,9 +246,9 @@ export function BlockView({ b }: { b: Block }) {
         <Section id={b.id} tone={tone}>
           {head}
           <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {testimonials().map((t) => (
+            {testimonials(b.ids).map((t) => (
               <li key={t.name} className="flex flex-col overflow-hidden rounded-2xl border border-line bg-white">
-                <video controls preload="none" poster={asset(t.photo).src} className="aspect-[4/5] w-full bg-soft object-cover" aria-label={`Video testimonial from ${t.name}`}>
+                <video controls preload="none" poster={asset(t.photo).src} className="aspect-[4/5] w-full bg-midnight object-contain" aria-label={`Video testimonial from ${t.name}`}>
                   <source src={asset(t.video).src} type="video/mp4" />
                 </video>
                 <figure className="flex flex-1 flex-col p-5">
@@ -258,9 +272,9 @@ export function BlockView({ b }: { b: Block }) {
         <Section id={b.id} tone={tone}>
           {head}
           <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {storiesFor(b.track, b.limit).map((s) => (
+            {storiesFor(b.track, b.limit, b.ids).map((s) => (
               <li key={s.name} className="overflow-hidden rounded-2xl border border-line bg-white">
-                <Image src={asset(s.photo).src} alt={`${s.name}, ${s.track} intern at ${SITE.name}`} width={640} height={420} sizes="(min-width: 1024px) 33vw, 100vw" className="aspect-[3/2] w-full object-cover" />
+                <Fit img={{ src: s.photo, alt: `${s.name}, ${s.track} intern at ${SITE.name}` }} ratio="4 / 5" />
                 <div className="p-5">
                   <p className="text-xs font-semibold uppercase tracking-wider text-navy">{s.track} · {s.duration}</p>
                   <h3 className="mt-1.5 text-base font-semibold">{s.name}</h3>
@@ -280,7 +294,7 @@ export function BlockView({ b }: { b: Block }) {
             {b.items.map((g) => (
               <li key={g.src}>
                 <figure className="h-full overflow-hidden rounded-2xl border border-line bg-white">
-                  <Pic img={g} sizes="(min-width: 1024px) 33vw, 100vw" className="aspect-[4/3] w-full object-cover" />
+                  <Fit img={g} ratio="4 / 3" />
                   <figcaption className="p-4 text-sm leading-relaxed text-body">{g.caption}</figcaption>
                 </figure>
               </li>

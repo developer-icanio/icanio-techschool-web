@@ -14,7 +14,8 @@ const strip = (s: string) => s.replace(/-\d+x\d+(\.[a-z]+)$/i, "$1");
 
 /** Resolves a WordPress filename or a /images path. Unknown names throw so typos surface at build time. */
 export function asset(name: string): Asset {
-  if (name.startsWith("/")) return { src: name };
+  // Paths and full URLs (dashboard uploads) are used as they are.
+  if (name.startsWith("/") || /^https?:\/\//.test(name)) return { src: name };
   const a = assets()[name] ?? assets()[strip(name)];
   if (!a) throw new Error(`Unknown image "${name}" (not in lib/images.json)`);
   return a;

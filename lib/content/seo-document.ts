@@ -45,8 +45,8 @@ export function imagesOf(p: PageContent) {
     if ((b.type === "prose" || b.type === "checklist") && b.image) add(b.image.src, b.image.alt);
     if (b.type === "cards") b.items.forEach((c) => c.image && add(c.image.src, c.image.alt));
     if (b.type === "gallery") b.items.forEach((g) => add(g.src, g.alt));
-    if (b.type === "stories") storiesFor(b.track, b.limit).forEach((s) => add(s.photo, `${s.name}, ${s.track} intern at ${SITE.name}`));
-    if (b.type === "testimonials") testimonials().forEach((t) => add(t.photo, `${t.name}, ${t.role} at ${SITE.name}`));
+    if (b.type === "stories") storiesFor(b.track, b.limit, b.ids).forEach((s) => add(s.photo, `${s.name}, ${s.track} intern at ${SITE.name}`));
+    if (b.type === "testimonials") testimonials(b.ids).forEach((t) => add(t.photo, `${t.name}, ${t.role} at ${SITE.name}`));
   }
   return list;
 }
@@ -199,14 +199,14 @@ function blockMarkdown(b: Block, push: (...xs: (string | undefined | false)[]) =
       list(partners().slice(0, b.limit ?? 99).map((c) => `${c.name}, ${c.city}`));
       break;
     case "testimonials":
-      testimonials().forEach((t) => {
+      testimonials(b.ids).forEach((t) => {
         push(`> ${t.quote}`, `${t.name}, ${t.role}`);
         img(t.photo, `${t.name}, ${t.role} at ${SITE.name}`);
         push(`<video src="${asset(t.video).src}"></video>`);
       });
       break;
     case "stories":
-      storiesFor(b.track, b.limit).forEach((s) => {
+      storiesFor(b.track, b.limit, b.ids).forEach((s) => {
         push(`- ${s.text}`);
         img(s.photo, `${s.name}, ${s.track} intern at ${SITE.name}`);
       });

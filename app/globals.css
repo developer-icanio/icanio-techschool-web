@@ -81,6 +81,28 @@ p {
 }
 
 @layer components {
+/* Full-width page shell: edge to edge, with a 1-inch (96px) side margin on
+   desktop and smaller gutters on tablets and phones. */
+.shell {
+  width: 100%;
+  padding-inline: 1rem;
+}
+@media (min-width: 640px) {
+  .shell {
+    padding-inline: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .shell {
+    padding-inline: 3rem;
+  }
+}
+@media (min-width: 1024px) {
+  .shell {
+    padding-inline: 96px;
+  }
+}
+
 /* Buttons: filled navy and 2px navy outline, 4px radius, as on the live site. */
 .btn {
   display: inline-flex;

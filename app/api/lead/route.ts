@@ -16,17 +16,22 @@ export async function POST(req: Request) {
   const error = validate(p);
   if (error) return NextResponse.json({ ok: false, error }, { status: 422 });
 
-  const student = p.kind === "student";
+  const student = p.kind === "student" || (p.kind === "callback" && p.audience === "Student");
   const to = process.env.LEAD_TO_OVERRIDE || (student ? SITE.internshipEmail : SITE.email);
-  const rows: [string, string | undefined][] = student
+  const rows: [string, string | undefined][] = p.kind === "callback"
+    ? [["Name", p.name], ["Phone", p.phone], ["I am", p.audience], ["Interested in", p.track], ["Page", p.page]]
+    : p.kind === "student"
     ? [["Name", p.name], ["Email", p.email], ["Phone", p.phone], ["College", p.college], ["Year", p.year], ["Area of interest", p.track], ["Duration", p.duration], ["Mode", p.mode], ["Page", p.page], ["Message", p.message]]
     : [["Name", p.name], ["Designation", p.designation], ["College", p.college], ["City", p.city], ["Email", p.email], ["Phone", p.phone], ["Interested in", p.interest], ["Students", p.students], ["Page", p.page], ["Message", p.message]];
   try {
     const delivered = await sendMail({
       to,
       replyTo: p.email,
-      subject: student ? `Internship application: ${p.name} (${p.track})` : `College enquiry: ${p.college} (${p.interest ?? "general"})`,
-      html: htmlTable(student ? "New internship application" : "New college enquiry", rows),
+      subject:
+        p.kind === "callback" ? `Callback request: ${p.name}, ${p.phone} (${p.track ?? p.audience ?? "general"})`
+        : p.kind === "student" ? `Internship application: ${p.name} (${p.track})`
+        : `College enquiry: ${p.college} (${p.interest ?? "general"})`,
+      html: htmlTable(p.kind === "callback" ? "New callback request (call within one working day)" : p.kind === "student" ? "New internship application" : "New college enquiry", rows),
       log: Object.fromEntries(rows.filter(([, v]) => v)),
     });
     return NextResponse.json({ ok: true, delivered });

@@ -24,7 +24,7 @@ function Hero({ p }: { p: PageContent }) {
 
   return (
     <section className={home ? "relative overflow-hidden bg-[linear-gradient(180deg,#fff_0%,#f5fbff_100%)]" : "hero-banner text-white"}>
-      <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 pb-14 pt-10 sm:px-6 lg:grid-cols-[1.1fr_1fr] lg:gap-14 lg:px-8 lg:pb-20 lg:pt-14">
+      <div className="shell grid items-center gap-10 pb-14 pt-10 lg:grid-cols-[1.1fr_1fr] lg:gap-14 lg:pb-20 lg:pt-14">
         <div>
           {!home && (
             <nav aria-label="Breadcrumb" className="mb-5">
@@ -70,7 +70,7 @@ export default function PageView({ p }: { p: PageContent }) {
       <Hero p={p} />
 
       {p.facts && (
-        <div className="relative z-10 mx-auto -mt-8 max-w-6xl px-4 sm:px-6 lg:px-8">
+        <div className="shell relative z-10 -mt-8">
           <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-line bg-line shadow-lg shadow-slate-900/5 lg:grid-cols-4">
             {p.facts.map((f) => (
               <div key={f.label} className="bg-white px-5 py-4">
@@ -115,7 +115,7 @@ export default function PageView({ p }: { p: PageContent }) {
       )}
 
       <Section id="takeaways">
-        <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-2">
+        <div className="grid gap-10 lg:grid-cols-2">
           <div className="rounded-[20px] bg-midnight p-7 text-white sm:p-9">
             <h2 className="text-2xl font-bold !text-white">{TAKEAWAYS_HEADING}</h2>
             <ul className="mt-5 space-y-3">
@@ -146,15 +146,17 @@ export default function PageView({ p }: { p: PageContent }) {
         </div>
       </Section>
 
-      <section className="bg-[linear-gradient(90deg,#00264c_0%,#00366c_100%)] py-16 text-white">
-        <div className="mx-auto max-w-4xl px-4 text-center sm:px-6">
-          <h2 className="text-[28px] font-bold !text-white sm:text-4xl">{p.cta.title}</h2>
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-white/85">{p.cta.body}</p>
-          <div className="mt-8 flex flex-wrap justify-center gap-3">
-            <Link href={p.cta.primary.href} className="btn btn-white">{p.cta.primary.label}</Link>
-            {p.cta.secondary && <Link href={p.cta.secondary.href} className="btn btn-ghost-white">{p.cta.secondary.label}</Link>}
+      <section className="bg-soft-2 py-14">
+        <div className="shell flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-center">
+          <div className="max-w-3xl">
+            <h2 className="text-[28px] font-bold sm:text-[34px]">{p.cta.title}</h2>
+            <p className="mt-3 text-lg text-body">{p.cta.body}</p>
+            <p className="mt-3 text-sm text-muted">{CONTACT_LINE}</p>
           </div>
-          <p className="mt-6 text-sm text-white/75">{CONTACT_LINE}</p>
+          <div className="flex shrink-0 flex-wrap gap-3">
+            <Link href={p.cta.primary.href} className="btn btn-primary">{p.cta.primary.label}</Link>
+            {p.cta.secondary && <Link href={p.cta.secondary.href} className="btn btn-outline">{p.cta.secondary.label}</Link>}
+          </div>
         </div>
       </section>
     </main>

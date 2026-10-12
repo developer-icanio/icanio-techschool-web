@@ -1,4 +1,5 @@
 import { allPages } from "@/lib/content/pages";
+import { ensureContent } from "@/lib/content/store";
 import { SITE } from "@/lib/site";
 
 // llms.txt (https://llmstxt.org): a plain-language map of the site for AI assistants.
@@ -12,7 +13,8 @@ const GROUPS: [string, (k: string) => boolean][] = [
   ["About, results and contact", (k) => k === "page"],
 ];
 
-export function GET() {
+export async function GET() {
+  await ensureContent();
   const pages = allPages();
   const home = pages.find((p) => p.path === "/");
   const lines = [

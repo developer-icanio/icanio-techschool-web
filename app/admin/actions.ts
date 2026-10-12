@@ -37,13 +37,13 @@ export async function takeSnapshot(form: FormData) {
   revalidatePath("/admin/seo");
 }
 
-const ROLES: AdminRole[] = ["owner", "admin", "seo"];
+const ROLES: AdminRole[] = ["owner", "admin", "editor", "seo"];
 
 export async function addMember(_: unknown, form: FormData): Promise<{ ok: boolean; message: string }> {
   const me = await requireAdmin();
   if (!canManageTeam(me.role)) return { ok: false, message: "Only owners and admins can manage the team." };
   const email = String(form.get("email") ?? "").trim().toLowerCase();
-  const role = String(form.get("role") ?? "seo") as AdminRole;
+  const role = String(form.get("role") ?? "editor") as AdminRole;
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return { ok: false, message: "Enter a valid Google account email." };
   if (!ROLES.includes(role) || (role === "owner" && me.role !== "owner")) return { ok: false, message: "You can't grant that role." };
   const db = await getDb();

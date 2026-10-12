@@ -37,7 +37,11 @@ const nextConfig: NextConfig = {
   trailingSlash: false,
   // Embedded Postgres for local admin testing; loaded at runtime, never bundled.
   serverExternalPackages: ["@electric-sql/pglite"],
-  images: { formats: ["image/avif", "image/webp"] },
+  images: {
+    formats: ["image/avif", "image/webp"],
+    // Dashboard uploads (Vercel Blob).
+    remotePatterns: [{ protocol: "https", hostname: "*.public.blob.vercel-storage.com" }],
+  },
   async redirects() {
     return MOVED.map(([source, destination]) => ({ source, destination, permanent: true }));
   },

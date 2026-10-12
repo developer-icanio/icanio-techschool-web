@@ -12,7 +12,8 @@ export default function AddMemberForm({ canAddOwner }: { canAddOwner: boolean })
       <label className="text-sm font-medium text-heading">Name<input name="name" className={field} placeholder="Optional" /></label>
       <label className="text-sm font-medium text-heading">
         Role
-        <select name="role" defaultValue="seo" className={field}>
+        <select name="role" defaultValue="editor" className={field}>
+          <option value="editor">editor</option>
           <option value="seo">seo</option>
           <option value="admin">admin</option>
           {canAddOwner && <option value="owner">owner</option>}

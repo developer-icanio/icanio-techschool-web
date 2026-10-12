@@ -35,7 +35,21 @@ function check(p: PageContent, file: string) {
 
 let cache: PageContent[] | undefined;
 
+// Live edits from the admin dashboard, loaded by ensureContent() (lib/content/store.ts).
+// When set, they replace the matching file (by path) and the shared JSON libraries.
+export const live: {
+  pages?: Map<string, PageContent>;
+  library?: { video: Testimonial[]; student: Story[]; college: Partner[] };
+} = {};
+
 export function allPages(): PageContent[] {
+  const files = filePages();
+  if (!live.pages?.size) return files;
+  return files.map((p) => live.pages!.get(p.path) ?? p);
+}
+
+/** The JSON files only, without dashboard edits. */
+export function filePages(): PageContent[] {
   if (cache && process.env.NODE_ENV === "production") return cache;
   cache = walk(path.join(ROOT, "pages"))
     .flatMap((file) => {
@@ -74,18 +88,31 @@ export function breadcrumbsOf(p: PageContent): { name: string; href: string }[] 
 
 // Shared data -----------------------------------------------------------
 
-export interface Partner { name: string; city: string; logo: string }
-export interface Story { name: string; duration: string; track: string; degree: string; college: string; photo: string; text: string }
-export interface Testimonial { name: string; role: string; photo: string; video: string; quote: string }
+export interface Partner { id: string; name: string; city: string; logo: string }
+export interface Story { id: string; name: string; duration: string; track: string; degree: string; college: string; photo: string; text: string }
+export interface Testimonial { id: string; name: string; role: string; photo: string; video: string; quote: string }
 
-const shared = <T,>(name: string): T => JSON.parse(fs.readFileSync(path.join(ROOT, "shared", `${name}.json`), "utf8")) as T;
+export const slugId = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
-export const partners = () => shared<Partner[]>("partners");
-export const stories = () => shared<Story[]>("stories");
-export const testimonials = () => shared<Testimonial[]>("testimonials");
+/** content/shared/*.json, the seed for the dashboard libraries. Ids are derived from names. */
+export function sharedFile<T extends { id: string }>(name: string, prefix: string): T[] {
+  const rows = JSON.parse(fs.readFileSync(path.join(ROOT, "shared", `${name}.json`), "utf8")) as Omit<T, "id">[];
+  return rows.map((r) => ({ id: `${prefix}-${slugId((r as unknown as { name: string }).name)}`, ...r }) as T);
+}
 
-export function storiesFor(track?: string, limit?: number) {
+export const partners = () => live.library?.college ?? sharedFile<Partner>("partners", "college");
+export const stories = () => live.library?.student ?? sharedFile<Story>("stories", "student");
+/** Picked videos in their chosen order; all of them when none are picked (or none of the picks still exist). */
+export const testimonials = (ids?: string[]) => {
+  const all = live.library?.video ?? sharedFile<Testimonial>("testimonials", "video");
+  const picked = (ids ?? []).map((id) => all.find((t) => t.id === id)).filter(Boolean) as Testimonial[];
+  return picked.length ? picked : all;
+};
+
+export function storiesFor(track?: string, limit?: number, ids?: string[]) {
   const all = stories();
+  const picked = (ids ?? []).map((id) => all.find((s) => s.id === id)).filter(Boolean) as Story[];
+  if (picked.length) return picked.slice(0, limit ?? 99);
   const t = track?.toLowerCase();
   const hit = t ? all.filter((s) => s.track.toLowerCase().includes(t) || t.includes(s.track.toLowerCase())) : [];
   // Fall back to the most recent completions so the block is never empty.

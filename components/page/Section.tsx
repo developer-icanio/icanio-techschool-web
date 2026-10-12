@@ -10,7 +10,7 @@ const TONES: Record<Tone, string> = {
 export function Section({ id, tone = "white", children, className = "" }: { id?: string; tone?: Tone; children: ReactNode; className?: string }) {
   return (
     <section id={id} className={`${TONES[tone]} py-16 lg:py-20 ${className}`}>
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">{children}</div>
+      <div className="shell">{children}</div>
     </section>
   );
 }

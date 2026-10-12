@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import robots from "@/app/robots";
-import sitemap from "@/app/sitemap";
 import { ScorePill } from "@/components/admin/ui";
 import { requireAdmin } from "@/lib/admin";
 import { scoreboard } from "@/lib/seo-report";
 import { SITE } from "@/lib/site";
+import { GROUPS, groupUrls, sitemapUrl, VIDEO_SITEMAP, videoEntries } from "@/lib/sitemaps";
 
 export const metadata: Metadata = { title: "Sitemap and robots" };
 
@@ -25,7 +25,7 @@ function robotsText() {
 }
 
 const LINKS = [
-  { href: "/sitemap.xml", label: "sitemap.xml", note: "For Google, Bing and other search engines" },
+  { href: "/sitemap.xml", label: "sitemap.xml", note: "Sitemap index: submit this one to Google and Bing" },
   { href: "/robots.txt", label: "robots.txt", note: "Crawl rules, including AI crawlers" },
   { href: "/llms.txt", label: "llms.txt", note: "Plain-language site map for AI assistants" },
   { href: "/sitemap", label: "/sitemap", note: "Human-readable sitemap page" },
@@ -33,9 +33,12 @@ const LINKS = [
 
 export default async function SitemapAdmin() {
   await requireAdmin();
-  const entries = sitemap();
+  const groups = await Promise.all(GROUPS.map(async (g) => ({ name: g.name, title: g.title, urls: (await groupUrls(g.name))! })));
+  const videos = await videoEntries();
+  const entries = groups.flatMap((g) => g.urls.map((u) => ({ ...u, group: g.name })));
   const scores = new Map(scoreboard().rows.map((r) => [`${SITE.url}${r.path === "/" ? "" : r.path}`, r.score]));
-  const images = entries.reduce((n, e) => n + (e.images?.length ?? 0), 0);
+  const images = entries.reduce((n, e) => n + e.images.length, 0);
+  const videoCount = new Set(videos.flatMap((v) => v.videos.map((x) => x.id))).size;
 
   return (
     <div className="mx-auto max-w-6xl space-y-6">
@@ -64,6 +67,23 @@ export default async function SitemapAdmin() {
         </ol>
       </section>
 
+      <section className="overflow-hidden rounded-2xl border border-line bg-white">
+        <h2 className="border-b border-line px-6 py-4 text-lg font-semibold">Split sitemaps</h2>
+        <p className="px-6 pt-3 text-sm text-muted">sitemap.xml is an index. Search engines follow it to these files, so each section is crawled and reported separately in Search Console.</p>
+        <ul className="divide-y divide-line">
+          {groups.map((g) => (
+            <li key={g.name} className="flex flex-wrap items-center justify-between gap-3 px-6 py-3 text-sm">
+              <span><span className="font-medium text-heading">{g.title}</span><span className="block text-xs text-muted">{g.urls.length} URLs · {g.urls.reduce((n, u) => n + u.images.length, 0)} images</span></span>
+              <a href={sitemapUrl(g.name).replace(SITE.url, "")} target="_blank" className="font-mono text-xs text-navy hover:underline">/sitemaps/{g.name}.xml ↗</a>
+            </li>
+          ))}
+          <li className="flex flex-wrap items-center justify-between gap-3 px-6 py-3 text-sm">
+            <span><span className="font-medium text-heading">Videos</span><span className="block text-xs text-muted">{videoCount} videos on {videos.length} pages</span></span>
+            <a href={`/sitemaps/${VIDEO_SITEMAP}.xml`} target="_blank" className="font-mono text-xs text-navy hover:underline">/sitemaps/{VIDEO_SITEMAP}.xml ↗</a>
+          </li>
+        </ul>
+      </section>
+
       <div className="grid gap-6 lg:grid-cols-[1fr_1.3fr]">
         <section className="rounded-2xl border border-line bg-white p-6">
           <h2 className="text-lg font-semibold">robots.txt</h2>
@@ -73,14 +93,15 @@ export default async function SitemapAdmin() {
 
         <section className="overflow-hidden rounded-2xl border border-line bg-white">
           <div className="border-b border-line px-6 py-4">
-            <h2 className="text-lg font-semibold">sitemap.xml</h2>
-            <p className="mt-1 text-sm text-muted">{entries.length} URLs and {images} images.</p>
+            <h2 className="text-lg font-semibold">All URLs</h2>
+            <p className="mt-1 text-sm text-muted">{entries.length} URLs and {images} images across the section sitemaps.</p>
           </div>
           <div className="max-h-[560px] overflow-auto">
             <table className="w-full text-left text-sm">
               <thead className="sticky top-0 bg-soft text-xs uppercase tracking-wider text-muted">
                 <tr>
                   <th scope="col" className="px-4 py-2 font-semibold">URL</th>
+                  <th scope="col" className="px-4 py-2 font-semibold">Sitemap</th>
                   <th scope="col" className="px-4 py-2 font-semibold">Priority</th>
                   <th scope="col" className="px-4 py-2 font-semibold">Updated</th>
                   <th scope="col" className="px-4 py-2 font-semibold">SEO</th>
@@ -88,16 +109,17 @@ export default async function SitemapAdmin() {
               </thead>
               <tbody className="divide-y divide-line">
                 {entries.map((e) => {
-                  const path = e.url.replace(SITE.url, "") || "/";
-                  const score = scores.get(e.url);
+                  const path = e.loc.replace(SITE.url, "") || "/";
+                  const score = scores.get(e.loc);
                   return (
-                    <tr key={e.url}>
+                    <tr key={e.loc}>
                       <td className="px-4 py-2">
                         <a href={path} target="_blank" className="text-navy hover:underline">{path}</a>
-                        {e.images?.length ? <span className="ml-2 text-xs text-muted">{e.images.length} img</span> : null}
+                        {e.images.length ? <span className="ml-2 text-xs text-muted">{e.images.length} img</span> : null}
                       </td>
+                      <td className="px-4 py-2 text-xs text-muted">{e.group}</td>
                       <td className="px-4 py-2 tabular-nums text-body">{e.priority}</td>
-                      <td className="px-4 py-2 tabular-nums text-body">{String(e.lastModified ?? "")}</td>
+                      <td className="px-4 py-2 tabular-nums text-body">{e.lastmod}</td>
                       <td className="px-4 py-2">{score !== undefined ? <ScorePill score={score} /> : <span className="text-xs text-muted">n/a</span>}</td>
                     </tr>
                   );

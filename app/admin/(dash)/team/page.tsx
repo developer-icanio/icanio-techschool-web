@@ -18,7 +18,7 @@ export default async function Team() {
     <div className="mx-auto max-w-4xl space-y-6">
       <header>
         <h1 className="text-3xl font-bold">Team</h1>
-        <p className="mt-1 text-body">People who can sign in to this dashboard with Google. Roles: <b>owner</b> (everything), <b>admin</b> (everything except adding owners), <b>seo</b> (scoreboard only).</p>
+        <p className="mt-1 text-body">People who can sign in to this dashboard with Google. Roles: <b>owner</b> (everything), <b>admin</b> (everything except adding owners), <b>editor</b> (update content and libraries), <b>seo</b> (view scoreboard only).</p>
       </header>
 
       <section className="rounded-2xl border border-line bg-white p-6">

@@ -1,4 +1,5 @@
 import "server-only";
+import fs from "node:fs";
 import { redirect } from "next/navigation";
 import { auth, noLogin } from "@/auth";
 import { getDb, schema } from "@/db";
@@ -8,6 +9,8 @@ import { desc } from "drizzle-orm";
 
 /** Second lock after proxy.ts: every admin page and action calls this. */
 export async function requireAdmin(roles?: AdminRole[]) {
+  // Admin pages always show the latest dashboard edits.
+  await (await import("@/lib/content/store")).ensureContent();
   // Local dev without login (ADMIN_NO_LOGIN=1): act as the first owner.
   if (noLogin) {
     const email = (process.env.ADMIN_EMAILS ?? "").split(",")[0]?.trim() || "dev@localhost";
@@ -41,4 +44,13 @@ export async function recentSnapshots(limit = 30) {
   const db = await getDb();
   if (!db) return null;
   return db.select().from(schema.seoSnapshots).orderBy(desc(schema.seoSnapshots.takenAt)).limit(limit);
+}
+
+/** Who may edit content (the seo role is read-only). */
+export const canEdit = (role: AdminRole) => role !== "seo";
+
+/** WordPress filename -> optimised image URL, for previews in the editor. */
+export function assetMap(): Record<string, string> {
+  const map = JSON.parse(fs.readFileSync(`${process.cwd()}/lib/images.json`, "utf8")) as Record<string, { src: string }>;
+  return Object.fromEntries(Object.entries(map).map(([k, v]) => [k, v.src]));
 }
