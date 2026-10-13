@@ -14,7 +14,7 @@
       "expert-led delivery"
     ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "6 active practitioners",
@@ -194,23 +194,28 @@
       "items": [
         {
           "title": "Kickoff and brief",
-          "body": "Your trainer explains the week's goal and the part of the project you will own, just like a sprint planning meeting."
+          "body": "Your trainer explains the week's goal and the part of the project you will own, just like a sprint planning meeting.",
+          "label": "Step 1"
         },
         {
           "title": "Guided build sessions",
-          "body": "You learn a concept, then apply it straight away to the project with your trainer walking the room or the call."
+          "body": "You learn a concept, then apply it straight away to the project with your trainer walking the room or the call.",
+          "label": "Step 2"
         },
         {
           "title": "Daily check-ins",
-          "body": "Short stand-ups show what you did, what is next and what is blocking you. Trainers step in early."
+          "body": "Short stand-ups show what you did, what is next and what is blocking you. Trainers step in early.",
+          "label": "Step 3"
         },
         {
           "title": "Code or work review",
-          "body": "Your trainer reviews your pull request, design or report to internal Icanio standards and leaves clear comments."
+          "body": "Your trainer reviews your pull request, design or report to internal Icanio standards and leaves clear comments.",
+          "label": "Step 4"
         },
         {
           "title": "Demo and feedback",
-          "body": "You present your progress. The trainer asks interview-style questions, and your feedback shapes the next week."
+          "body": "You present your progress. The trainer asks interview-style questions, and your feedback shapes the next week.",
+          "label": "Finish"
         }
       ]
     },

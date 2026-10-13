@@ -6,24 +6,57 @@
     "metaTitle": "Internships in Tamil Nadu: 15 Proven Tracks",
     "metaDescription": "Internships at Icanio Tech School: 15 engineering and non-engineering tracks, live projects, 1:1 mentors and a certificate. 15 days to 6 months. Apply now.",
     "focusKeyword": "internships",
-    "secondaryKeywords": ["internship in tamil nadu", "engineering internships", "non-engineering internships", "internship with certificate", "internship for college students", "online internship"],
+    "secondaryKeywords": [
+      "internship in tamil nadu",
+      "engineering internships",
+      "non-engineering internships",
+      "internship with certificate",
+      "internship for college students",
+      "online internship"
+    ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "15 internship tracks",
     "title": "Internships With Live Projects and 1:1 Mentors",
     "subtitle": "Compare all 15 internships at Icanio Tech School in one place. Pick an engineering or non-engineering track, choose a duration from 15 days to six months, and learn on real project work with an Icanio engineer beside you.",
-    "image": { "src": "Mask-group-21.png", "alt": "Students working on live projects during internships at Icanio Tech School" },
-    "primary": { "label": "Apply for an internship", "href": "#apply" },
-    "secondary": { "label": "Browse all tracks", "href": "#tracks" },
-    "highlights": ["10 engineering tracks", "5 non-engineering tracks", "Certificate on completion", "Offline, online, part time or hybrid"]
+    "image": {
+      "src": "Mask-group-21.png",
+      "alt": "Students working on live projects during internships at Icanio Tech School"
+    },
+    "primary": {
+      "label": "Apply for an internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "Browse all tracks",
+      "href": "#tracks"
+    },
+    "highlights": [
+      "10 engineering tracks",
+      "5 non-engineering tracks",
+      "Certificate on completion",
+      "Offline, online, part time or hybrid"
+    ]
   },
   "facts": [
-    { "label": "Tracks", "value": "15 engineering and non-engineering" },
-    { "label": "Duration", "value": "15 days to 6 months" },
-    { "label": "Mode", "value": "Offline, online, part time or hybrid" },
-    { "label": "Certificate", "value": "Yes, on completion" }
+    {
+      "label": "Tracks",
+      "value": "15 engineering and non-engineering"
+    },
+    {
+      "label": "Duration",
+      "value": "15 days to 6 months"
+    },
+    {
+      "label": "Mode",
+      "value": "Offline, online, part time or hybrid"
+    },
+    {
+      "label": "Certificate",
+      "value": "Yes, on completion"
+    }
   ],
   "answer": {
     "question": "What is included in internships at Icanio Tech School?",
@@ -34,10 +67,22 @@
       "type": "stats",
       "heading": "Internships that turn students into hires",
       "items": [
-        { "value": "2,000+", "label": "Students trained" },
-        { "value": "1,000+", "label": "Students placed" },
-        { "value": "90%", "label": "Placed within 5 months" },
-        { "value": "30+", "label": "MoU partner colleges" }
+        {
+          "value": "2,000+",
+          "label": "Students trained"
+        },
+        {
+          "value": "1,000+",
+          "label": "Students placed"
+        },
+        {
+          "value": "90%",
+          "label": "Placed within 5 months"
+        },
+        {
+          "value": "30+",
+          "label": "MoU partner colleges"
+        }
       ]
     },
     {
@@ -55,8 +100,14 @@
         "Structured phases, so you always know what comes next",
         "Resume, mock interview and career guidance included"
       ],
-      "image": { "src": "Group-2085661740-3.png", "alt": "Mentor guiding a student through project work in Icanio internships" },
-      "link": { "label": "How to apply for an internship", "href": "/apply-for-internship" }
+      "image": {
+        "src": "Group-2085661740-3.png",
+        "alt": "Mentor guiding a student through project work in Icanio internships"
+      },
+      "link": {
+        "label": "How to apply for an internship",
+        "href": "/apply-for-internship"
+      }
     },
     {
       "type": "cards",
@@ -66,16 +117,76 @@
       "intro": "Engineering internships suit students of CSE, IT, ECE and related branches, plus BCA, B.Sc. and MCA learners. Each track builds hands-on skills on real tech projects.",
       "columns": 3,
       "items": [
-        { "title": "Frontend Developer", "body": "Build responsive user interfaces with HTML, CSS, JavaScript and React. You turn designs into working screens, connect them to APIs and deploy them. It is a strong start if you enjoy visual, fast feedback work.", "href": "/internships/frontend-development-internship", "icon": "Group-2085661927.png", "meta": "Engineering" },
-        { "title": "Backend Developer", "body": "Learn how servers, APIs and databases power every app. You design endpoints, model data, handle authentication and write tests. Choose this if you like logic, structure and solving problems behind the screen.", "href": "/internships/backend-development-internship", "icon": "Group-2085661908.png", "meta": "Engineering" },
-        { "title": "Software Testing", "body": "Build practical QA skills in manual and automation testing. You write test cases, find and report defects, and learn how testers protect quality before every release. Detail-minded students do well here.", "href": "/internships/software-testing-internship", "icon": "Group-2085661910.png", "meta": "Engineering" },
-        { "title": "AI & ML", "body": "Work with real datasets, from cleaning and exploring data to training and evaluating machine learning models. You learn Python tools used in industry and apply them to practical problems.", "href": "/internships/ai-ml-internship", "icon": "Group-2085663220.png", "meta": "Engineering" },
-        { "title": "UI/UX Designer", "body": "Design digital products from research to prototype. You interview users, map journeys, sketch wireframes and build clickable prototypes in Figma. Good for students who care about how people use technology.", "href": "/internships/ui-ux-design-internship", "icon": "Group-2085661914.png", "meta": "Engineering" },
-        { "title": "DevOps", "body": "Automate how software is built, tested and released. You set up version control workflows, CI/CD pipelines, containers and cloud deployments. Pick this if you enjoy systems, scripting and reliability.", "href": "/internships/devops-internship", "icon": "Group-2085661916.png", "meta": "Engineering" },
-        { "title": "Mobile App / Flutter Developer", "body": "Create cross-platform mobile apps with Flutter, from screen layouts to state management and API calls. You finish with an app you can install on a phone and show to employers.", "href": "/internships/flutter-developer-internship", "icon": "Group-2085661918.png", "meta": "Engineering" },
-        { "title": "Full Stack Developer", "body": "Take one web product from interface to database to deployment. You work on both frontend and backend, and learn how the pieces connect. Ideal if you want a broad view of how apps are built.", "href": "/internships/full-stack-development-internship", "icon": "Group-2085661920.png", "meta": "Engineering" },
-        { "title": "Business Analyst", "body": "Analyse business requirements and plan solutions with delivery teams. You run stakeholder conversations, map processes and write clear requirement documents. Suits students who like both people and problem solving.", "href": "/internships/business-analyst-internship", "icon": "Group-2085661922.png", "meta": "Engineering" },
-        { "title": "Project Manager", "body": "Coordinate projects from planning to delivery. You plan sprints, track tasks, manage risks and keep people aligned. Choose this if you are organised and enjoy helping a team ship on time.", "href": "/internships/project-management-internship", "icon": "Group-2085661924.png", "meta": "Engineering" }
+        {
+          "title": "Frontend Developer",
+          "body": "Build responsive user interfaces with HTML, CSS, JavaScript and React. You turn designs into working screens, connect them to APIs and deploy them. It is a strong start if you enjoy visual, fast feedback work.",
+          "href": "/internships/frontend-development-internship",
+          "icon": "Group-2085661927.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Backend Developer",
+          "body": "Learn how servers, APIs and databases power every app. You design endpoints, model data, handle authentication and write tests. Choose this if you like logic, structure and solving problems behind the screen.",
+          "href": "/internships/backend-development-internship",
+          "icon": "Group-2085661908.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Software Testing",
+          "body": "Build practical QA skills in manual and automation testing. You write test cases, find and report defects, and learn how testers protect quality before every release. Detail-minded students do well here.",
+          "href": "/internships/software-testing-internship",
+          "icon": "Group-2085661910.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "AI & ML",
+          "body": "Work with real datasets, from cleaning and exploring data to training and evaluating machine learning models. You learn Python tools used in industry and apply them to practical problems.",
+          "href": "/internships/ai-ml-internship",
+          "icon": "Group-2085663220.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "UI/UX Designer",
+          "body": "Design digital products from research to prototype. You interview users, map journeys, sketch wireframes and build clickable prototypes in Figma. Good for students who care about how people use technology.",
+          "href": "/internships/ui-ux-design-internship",
+          "icon": "Group-2085661914.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "DevOps",
+          "body": "Automate how software is built, tested and released. You set up version control workflows, CI/CD pipelines, containers and cloud deployments. Pick this if you enjoy systems, scripting and reliability.",
+          "href": "/internships/devops-internship",
+          "icon": "Group-2085661916.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Mobile App / Flutter Developer",
+          "body": "Create cross-platform mobile apps with Flutter, from screen layouts to state management and API calls. You finish with an app you can install on a phone and show to employers.",
+          "href": "/internships/flutter-developer-internship",
+          "icon": "Group-2085661918.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Full Stack Developer",
+          "body": "Take one web product from interface to database to deployment. You work on both frontend and backend, and learn how the pieces connect. Ideal if you want a broad view of how apps are built.",
+          "href": "/internships/full-stack-development-internship",
+          "icon": "Group-2085661920.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Business Analyst",
+          "body": "Analyse business requirements and plan solutions with delivery teams. You run stakeholder conversations, map processes and write clear requirement documents. Suits students who like both people and problem solving.",
+          "href": "/internships/business-analyst-internship",
+          "icon": "Group-2085661922.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Project Manager",
+          "body": "Coordinate projects from planning to delivery. You plan sprints, track tasks, manage risks and keep people aligned. Choose this if you are organised and enjoy helping a team ship on time.",
+          "href": "/internships/project-management-internship",
+          "icon": "Group-2085661924.png",
+          "meta": "Engineering"
+        }
       ]
     },
     {
@@ -86,11 +197,41 @@
       "intro": "Non-engineering internships build practical skills in marketing, management, finance and communication. They suit B.Com, BBA, MBA, B.Sc. and arts students, and anyone curious about business roles in a tech company.",
       "columns": 3,
       "items": [
-        { "title": "Human Resource", "body": "Get hands-on exposure to core HR work, from recruitment and onboarding to employee engagement. You support real hiring tasks and learn how people teams run inside a growing company.", "href": "/internships/hr-internship", "icon": "Group-1000005365-7-2.png", "meta": "Non-engineering" },
-        { "title": "Finance", "body": "Practise core finance functions on live business tasks. You work on budgeting, reporting and financial analysis, and learn how numbers guide decisions in a real company.", "href": "/internships/finance-internship", "icon": "Group-1000005365-8-2.png", "meta": "Non-engineering" },
-        { "title": "Sales", "body": "Learn real sales processes through live market interactions. You practise lead generation, client communication and follow-up, and build selling skills that every business values.", "href": "/internships/sales-internship", "icon": "Group-1000005365-11-1.png", "meta": "Non-engineering" },
-        { "title": "Digital Marketing", "body": "Run live campaigns and real projects across content creation, social media, SEO and ads. You learn to plan a campaign, publish it and measure what worked.", "href": "/internships/digital-marketing-internship", "icon": "Group-1000005365-9-2.png", "meta": "Non-engineering" },
-        { "title": "Data Analyst", "body": "Work with real datasets from cleaning to visualisation and insight. You use Excel, SQL and dashboard tools to answer business questions and present what the data shows.", "href": "/internships/data-analyst-internship", "icon": "Group-1000005365-10-2.png", "meta": "Non-engineering" }
+        {
+          "title": "Human Resource",
+          "body": "Get hands-on exposure to core HR work, from recruitment and onboarding to employee engagement. You support real hiring tasks and learn how people teams run inside a growing company.",
+          "href": "/internships/hr-internship",
+          "icon": "Group-1000005365-7-2.png",
+          "meta": "Non-engineering"
+        },
+        {
+          "title": "Finance",
+          "body": "Practise core finance functions on live business tasks. You work on budgeting, reporting and financial analysis, and learn how numbers guide decisions in a real company.",
+          "href": "/internships/finance-internship",
+          "icon": "Group-1000005365-8-2.png",
+          "meta": "Non-engineering"
+        },
+        {
+          "title": "Sales",
+          "body": "Learn real sales processes through live market interactions. You practise lead generation, client communication and follow-up, and build selling skills that every business values.",
+          "href": "/internships/sales-internship",
+          "icon": "Group-1000005365-11-1.png",
+          "meta": "Non-engineering"
+        },
+        {
+          "title": "Digital Marketing",
+          "body": "Run live campaigns and real projects across content creation, social media, SEO and ads. You learn to plan a campaign, publish it and measure what worked.",
+          "href": "/internships/digital-marketing-internship",
+          "icon": "Group-1000005365-9-2.png",
+          "meta": "Non-engineering"
+        },
+        {
+          "title": "Data Analyst",
+          "body": "Work with real datasets from cleaning to visualisation and insight. You use Excel, SQL and dashboard tools to answer business questions and present what the data shows.",
+          "href": "/internships/data-analyst-internship",
+          "icon": "Group-1000005365-10-2.png",
+          "meta": "Non-engineering"
+        }
       ]
     },
     {
@@ -98,13 +239,37 @@
       "eyebrow": "Compare",
       "heading": "Which internships suit you? A quick comparison",
       "intro": "Use this table to narrow your choice. Our team can help you decide on a counselling call.",
-      "columns": ["Track group", "Who it suits", "Example roles"],
+      "columns": [
+        "Track group",
+        "Who it suits",
+        "Example roles"
+      ],
       "rows": [
-        ["Build software", "CSE, IT, BCA, MCA students who enjoy coding", "Frontend, backend, full stack, Flutter developer"],
-        ["Data and AI", "Students strong in maths or logic", "ML engineer, data analyst"],
-        ["Quality and operations", "Detail-minded, systems-minded students", "QA tester, DevOps engineer"],
-        ["Design and planning", "Creative or organised communicators", "UI/UX designer, business analyst, project manager"],
-        ["Business functions", "Commerce, management and arts students", "HR, finance, sales, digital marketing executive"]
+        [
+          "Build software",
+          "CSE, IT, BCA, MCA students who enjoy coding",
+          "Frontend, backend, full stack, Flutter developer"
+        ],
+        [
+          "Data and AI",
+          "Students strong in maths or logic",
+          "ML engineer, data analyst"
+        ],
+        [
+          "Quality and operations",
+          "Detail-minded, systems-minded students",
+          "QA tester, DevOps engineer"
+        ],
+        [
+          "Design and planning",
+          "Creative or organised communicators",
+          "UI/UX designer, business analyst, project manager"
+        ],
+        [
+          "Business functions",
+          "Commerce, management and arts students",
+          "HR, finance, sales, digital marketing executive"
+        ]
       ],
       "note": "We recommend choosing internships that build on what you already know, then stretching one step further."
     },
@@ -115,11 +280,31 @@
       "heading": "How our internships work, from application to certificate",
       "intro": "Every track follows the same five steps. Our team stays with you at each one.",
       "items": [
-        { "title": "Apply and talk to a counsellor", "body": "Fill in the short form. Our team calls you within one working day to understand your goals, your year of study and when you can start." },
-        { "title": "Choose your track and duration", "body": "Pick one of 15 tracks and a duration from 15 days to six months. Choose offline, online, part time or hybrid, on weekdays or weekends." },
-        { "title": "Learn in phases with a mentor", "body": "Technical tracks move through four learning phases. Your mentor reviews your work each week and helps you improve." },
-        { "title": "Deliver a live project", "body": "You work on a brief drawn from Icanio client scenarios, in sprints, with the same review standards as our internal teams." },
-        { "title": "Get certified and career ready", "body": "Finish with a certificate, a portfolio review and mock interviews. Top performers are referred to the Icanio talent team." }
+        {
+          "title": "Apply and talk to a counsellor",
+          "body": "Fill in the short form. Our team calls you within one working day to understand your goals, your year of study and when you can start.",
+          "label": "Step 1"
+        },
+        {
+          "title": "Choose your track and duration",
+          "body": "Pick one of 15 tracks and a duration from 15 days to six months. Choose offline, online, part time or hybrid, on weekdays or weekends.",
+          "label": "Step 2"
+        },
+        {
+          "title": "Learn in phases with a mentor",
+          "body": "Technical tracks move through four learning phases. Your mentor reviews your work each week and helps you improve.",
+          "label": "Step 3"
+        },
+        {
+          "title": "Deliver a live project",
+          "body": "You work on a brief drawn from Icanio client scenarios, in sprints, with the same review standards as our internal teams.",
+          "label": "Step 4"
+        },
+        {
+          "title": "Get certified and career ready",
+          "body": "Finish with a certificate, a portfolio review and mock interviews. Top performers are referred to the Icanio talent team.",
+          "label": "Finish"
+        }
       ]
     },
     {
@@ -129,10 +314,26 @@
       "intro": "Four things make our internships different from a course or a certificate you can buy online.",
       "columns": 2,
       "items": [
-        { "title": "Live project experience", "body": "You work on real-time projects that show you how an application is built from start to finish. You see planning, building, testing and release, not just one slice of it.", "icon": "Group-1000005365-7.png" },
-        { "title": "Flexible learning options", "body": "Instructor-led classes run on weekdays and weekends, in offline, online and hybrid modes. You can fit your internship around college, exams or a job.", "icon": "Group-1000005365-5.png" },
-        { "title": "Customise your internship", "body": "Choose a duration that matches your goal, from a 15 day introduction to a six month deep dive. Longer internships include bigger projects and more phases.", "icon": "Group-1000005365-6.png" },
-        { "title": "Interview and career guidance", "body": "You get continuous interview preparation, resume building, mock interviews and career mentoring. Our goal is to make you ready for your first job, not just finish a course.", "icon": "Group-1000005365-8.png" }
+        {
+          "title": "Live project experience",
+          "body": "You work on real-time projects that show you how an application is built from start to finish. You see planning, building, testing and release, not just one slice of it.",
+          "icon": "Group-1000005365-7.png"
+        },
+        {
+          "title": "Flexible learning options",
+          "body": "Instructor-led classes run on weekdays and weekends, in offline, online and hybrid modes. You can fit your internship around college, exams or a job.",
+          "icon": "Group-1000005365-5.png"
+        },
+        {
+          "title": "Customise your internship",
+          "body": "Choose a duration that matches your goal, from a 15 day introduction to a six month deep dive. Longer internships include bigger projects and more phases.",
+          "icon": "Group-1000005365-6.png"
+        },
+        {
+          "title": "Interview and career guidance",
+          "body": "You get continuous interview preparation, resume building, mock interviews and career mentoring. Our goal is to make you ready for your first job, not just finish a course.",
+          "icon": "Group-1000005365-8.png"
+        }
       ]
     },
     {
@@ -141,12 +342,32 @@
       "eyebrow": "Duration and mode",
       "heading": "Duration and mode options for all internships",
       "intro": "Every track can be taken at any of these lengths. Choose what fits your semester and your goal.",
-      "columns": ["Duration", "Best for", "What you finish with"],
+      "columns": [
+        "Duration",
+        "Best for",
+        "What you finish with"
+      ],
       "rows": [
-        ["15 days", "A first look at a track", "Core concepts and a mini task"],
-        ["1 month", "Semester breaks, college requirements", "A small guided project"],
-        ["3 months", "Pre-final and final year students", "A full project and portfolio"],
-        ["6 months", "Freshers and career switchers", "Several projects and deep skills"]
+        [
+          "15 days",
+          "A first look at a track",
+          "Core concepts and a mini task"
+        ],
+        [
+          "1 month",
+          "Semester breaks, college requirements",
+          "A small guided project"
+        ],
+        [
+          "3 months",
+          "Pre-final and final year students",
+          "A full project and portfolio"
+        ],
+        [
+          "6 months",
+          "Freshers and career switchers",
+          "Several projects and deep skills"
+        ]
       ],
       "note": "All durations are available offline at our centre, online, part time or hybrid, in weekday or weekend batches."
     },
@@ -160,9 +381,15 @@
         "Every trainer has 3+ years of client delivery experience and is background verified by Icanio HR. Code reviews follow internal Icanio standards. This is why our internships teach habits that hiring managers look for, not just syntax.",
         "In our experience, students who get hired fastest can explain a real project, the trade-offs they made and what they would change. Our internships give you that story, along with a mentor who helps you tell it well."
       ],
-      "image": { "src": "WhatWeDoSectionImg1.png", "alt": "Icanio engineer mentoring an intern at Icanio Tech School" },
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Icanio engineer mentoring an intern at Icanio Tech School"
+      },
       "reverse": true,
-      "link": { "label": "Meet our industry trainers", "href": "/industry-trainers" }
+      "link": {
+        "label": "Meet our industry trainers",
+        "href": "/industry-trainers"
+      }
     },
     {
       "type": "testimonials",
@@ -183,12 +410,36 @@
       "eyebrow": "Keep exploring",
       "heading": "Helpful pages before you choose",
       "items": [
-        { "title": "How to apply", "href": "/apply-for-internship", "body": "Eligibility, what to prepare and what happens after you send the form." },
-        { "title": "How to choose an internship", "href": "/career-guides/how-to-choose-an-internship", "body": "A practical guide to matching a track with your skills and goals." },
-        { "title": "Internship as a fresher", "href": "/career-guides/how-to-get-an-internship-as-a-fresher", "body": "What recruiters look for and how to stand out without experience." },
-        { "title": "Student Development Program", "href": "/student-development-program", "body": "Nine workplace soft skill modules that pair well with any track." },
-        { "title": "Technical workshops", "href": "/technical-workshops", "body": "Short, hands-on sessions to explore a domain before you commit." },
-        { "title": "Student success stories", "href": "/student-success-stories", "body": "Completions and placements, including interns who joined Icanio." }
+        {
+          "title": "How to apply",
+          "href": "/apply-for-internship",
+          "body": "Eligibility, what to prepare and what happens after you send the form."
+        },
+        {
+          "title": "How to choose an internship",
+          "href": "/career-guides/how-to-choose-an-internship",
+          "body": "A practical guide to matching a track with your skills and goals."
+        },
+        {
+          "title": "Internship as a fresher",
+          "href": "/career-guides/how-to-get-an-internship-as-a-fresher",
+          "body": "What recruiters look for and how to stand out without experience."
+        },
+        {
+          "title": "Student Development Program",
+          "href": "/student-development-program",
+          "body": "Nine workplace soft skill modules that pair well with any track."
+        },
+        {
+          "title": "Technical workshops",
+          "href": "/technical-workshops",
+          "body": "Short, hands-on sessions to explore a domain before you commit."
+        },
+        {
+          "title": "Student success stories",
+          "href": "/student-success-stories",
+          "body": "Completions and placements, including interns who joined Icanio."
+        }
       ]
     },
     {
@@ -205,14 +456,38 @@
     }
   ],
   "faqs": [
-    { "q": "Which internships does Icanio Tech School offer?", "a": "We offer 15 internships. Engineering tracks are Frontend, Backend, Full Stack, Software Testing, AI & ML, UI/UX, DevOps, Flutter, Business Analyst and Project Management. Non-engineering tracks are Human Resource, Finance, Sales, Digital Marketing and Data Analyst. Each track has its own page with the curriculum, tools and projects." },
-    { "q": "Who can apply for these internships?", "a": "College students in any year, recent graduates, career switchers and self-taught learners can apply. Most interns are in their pre-final or final year of B.E., B.Tech, B.Sc., BCA, MCA, B.Com, BBA or MBA. If you are unsure about eligibility, apply anyway and our team will guide you to a suitable track." },
-    { "q": "How do I choose between engineering and non-engineering internships?", "a": "Start with what you enjoy and what you have studied. If you like coding, design or systems, look at the engineering tracks. If you prefer people, numbers or marketing, the non-engineering tracks fit better. Our counsellors talk through your background on the first call and suggest one or two options." },
-    { "q": "How long do the internships last?", "a": "You choose the length. Options run from 15 days and one month up to three and six months. Short internships give you a focused introduction. Longer ones add more learning phases and a larger live project, which makes your portfolio much stronger when you apply for jobs." },
-    { "q": "Are the internships offline or online?", "a": "Both. You can attend offline at our centre, learn online, choose a part-time batch or mix modes in a hybrid plan. Weekday and weekend batches are available, so you can plan your internship around classes, exams or work." },
-    { "q": "Do I get a certificate after completing an internship?", "a": "Yes. Every student who completes one of our internships receives an Icanio Tech School certificate that states the track and duration. You also leave with a portfolio of the work you did, which employers often find more convincing than the certificate alone." },
-    { "q": "Will I work on real projects during the internship?", "a": "Yes. Every intern works on a brief drawn from Icanio client scenarios. You work in sprints, with weekly reviews from a practising engineer or domain lead. The goal is to give you the same experience you would get in the first months of a real job." },
-    { "q": "Do your internships help with placement?", "a": "Our internships include resume building, mock interviews and career mentoring. Top performers are referred to the Icanio Technologies talent team for internship and associate roles. Across our programs, 1,000+ students have been placed, and 90% of them within five months." }
+    {
+      "q": "Which internships does Icanio Tech School offer?",
+      "a": "We offer 15 internships. Engineering tracks are Frontend, Backend, Full Stack, Software Testing, AI & ML, UI/UX, DevOps, Flutter, Business Analyst and Project Management. Non-engineering tracks are Human Resource, Finance, Sales, Digital Marketing and Data Analyst. Each track has its own page with the curriculum, tools and projects."
+    },
+    {
+      "q": "Who can apply for these internships?",
+      "a": "College students in any year, recent graduates, career switchers and self-taught learners can apply. Most interns are in their pre-final or final year of B.E., B.Tech, B.Sc., BCA, MCA, B.Com, BBA or MBA. If you are unsure about eligibility, apply anyway and our team will guide you to a suitable track."
+    },
+    {
+      "q": "How do I choose between engineering and non-engineering internships?",
+      "a": "Start with what you enjoy and what you have studied. If you like coding, design or systems, look at the engineering tracks. If you prefer people, numbers or marketing, the non-engineering tracks fit better. Our counsellors talk through your background on the first call and suggest one or two options."
+    },
+    {
+      "q": "How long do the internships last?",
+      "a": "You choose the length. Options run from 15 days and one month up to three and six months. Short internships give you a focused introduction. Longer ones add more learning phases and a larger live project, which makes your portfolio much stronger when you apply for jobs."
+    },
+    {
+      "q": "Are the internships offline or online?",
+      "a": "Both. You can attend offline at our centre, learn online, choose a part-time batch or mix modes in a hybrid plan. Weekday and weekend batches are available, so you can plan your internship around classes, exams or work."
+    },
+    {
+      "q": "Do I get a certificate after completing an internship?",
+      "a": "Yes. Every student who completes one of our internships receives an Icanio Tech School certificate that states the track and duration. You also leave with a portfolio of the work you did, which employers often find more convincing than the certificate alone."
+    },
+    {
+      "q": "Will I work on real projects during the internship?",
+      "a": "Yes. Every intern works on a brief drawn from Icanio client scenarios. You work in sprints, with weekly reviews from a practising engineer or domain lead. The goal is to give you the same experience you would get in the first months of a real job."
+    },
+    {
+      "q": "Do your internships help with placement?",
+      "a": "Our internships include resume building, mock interviews and career mentoring. Top performers are referred to the Icanio Technologies talent team for internship and associate roles. Across our programs, 1,000+ students have been placed, and 90% of them within five months."
+    }
   ],
   "takeaways": [
     "Icanio Tech School offers 15 internships: 10 engineering tracks and 5 non-engineering tracks.",
@@ -226,15 +501,33 @@
     "If you are still unsure, that is normal. Send the form and our team will call you, talk through your background and help you choose. Most students start within a few weeks of applying."
   ],
   "references": [
-    { "label": "AICTE internship policy and guidelines", "href": "https://www.aicte-india.org/education/internship" },
-    { "label": "National Education Policy 2020, Ministry of Education", "href": "https://www.education.gov.in/nep/about-nep" },
-    { "label": "Skill India, Government of India", "href": "https://www.skillindia.gov.in/" },
-    { "label": "Internship, overview on Wikipedia", "href": "https://en.wikipedia.org/wiki/Internship" }
+    {
+      "label": "AICTE internship policy and guidelines",
+      "href": "https://www.aicte-india.org/education/internship"
+    },
+    {
+      "label": "National Education Policy 2020, Ministry of Education",
+      "href": "https://www.education.gov.in/nep/about-nep"
+    },
+    {
+      "label": "Skill India, Government of India",
+      "href": "https://www.skillindia.gov.in/"
+    },
+    {
+      "label": "Internship, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Internship"
+    }
   ],
   "cta": {
     "title": "Found a track that fits you?",
     "body": "Apply in two minutes and talk to our team about the right duration and mode. Colleges can place student groups too.",
-    "primary": { "label": "Apply for an internship", "href": "/apply-for-internship" },
-    "secondary": { "label": "Programs for colleges", "href": "/college-programs" }
+    "primary": {
+      "label": "Apply for an internship",
+      "href": "/apply-for-internship"
+    },
+    "secondary": {
+      "label": "Programs for colleges",
+      "href": "/college-programs"
+    }
   }
 }

@@ -15,7 +15,7 @@
       "industry talk for engineering students"
     ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "Free program for colleges",
@@ -126,15 +126,27 @@
       "items": [
         {
           "title": "For students",
-          "body": "Students hear current practice from the people doing the work. The talk gives context to their syllabus and a clearer idea of what to learn next, before placement season starts."
+          "body": "Students hear current practice from the people doing the work. The talk gives context to their syllabus and a clearer idea of what to learn next, before placement season starts.",
+          "image": {
+            "src": "1000753829.jpeg",
+            "alt": "Icanio engineer giving guest lectures to students at Karpagam College of Engineering, Coimbatore"
+          }
         },
         {
           "title": "For faculty",
-          "body": "Faculty hear which tools and topics are active in industry right now. Many use points from the session to refresh examples, lab exercises and project ideas in their own courses."
+          "body": "Faculty hear which tools and topics are active in industry right now. Many use points from the session to refresh examples, lab exercises and project ideas in their own courses.",
+          "image": {
+            "src": "1000753896.jpeg",
+            "alt": "Icanio speaker with faculty members at a guest lecture at St. Xavier College of Arts and Science, Tirunelveli"
+          }
         },
         {
           "title": "For the institution",
-          "body": "Colleges add a documented industry interaction to their activity records at no cost. Regular guest lectures also build a relationship that can grow into an MoU and other programs."
+          "body": "Colleges add a documented industry interaction to their activity records at no cost. Regular guest lectures also build a relationship that can grow into an MoU and other programs.",
+          "image": {
+            "src": "1000243678.jpeg",
+            "alt": "Guest lecture in the AI and data science lab at Velalar College of Engineering and Technology, Erode"
+          }
         }
       ]
     },
@@ -146,23 +158,28 @@
       "items": [
         {
           "title": "Send an enquiry",
-          "body": "Tell us your department, the year of study and the topic you have in mind. If you are unsure, we suggest one based on your students and goals."
+          "body": "Tell us your department, the year of study and the topic you have in mind. If you are unsure, we suggest one based on your students and goals.",
+          "label": "Step 1"
         },
         {
           "title": "Match the speaker",
-          "body": "We choose an Icanio engineer who works on the topic every day, so the examples are real and the Q&A answers are current."
+          "body": "We choose an Icanio engineer who works on the topic every day, so the examples are real and the Q&A answers are current.",
+          "label": "Step 2"
         },
         {
           "title": "Fix date and venue",
-          "body": "We agree a date that fits your academic calendar. Your team books the hall or seminar room and arranges a projector."
+          "body": "We agree a date that fits your academic calendar. Your team books the hall or seminar room and arranges a projector.",
+          "label": "Step 3"
         },
         {
           "title": "Deliver the session",
-          "body": "The speaker presents, shows real workflows and case studies, and then opens the floor for a live Q&A with students."
+          "body": "The speaker presents, shows real workflows and case studies, and then opens the floor for a live Q&A with students.",
+          "label": "Step 4"
         },
         {
           "title": "Follow up",
-          "body": "We share a short summary for your records. If students want more, we suggest a workshop, value added course or internship as the next step."
+          "body": "We share a short summary for your records. If students want more, we suggest a workshop, value added course or internship as the next step.",
+          "label": "Finish"
         }
       ]
     },

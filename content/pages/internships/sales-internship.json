@@ -7,24 +7,56 @@
     "metaTitle": "Sales Internship: 3 Proven Live Campaigns and CRM",
     "metaDescription": "Sales internship in Tamil Nadu: lead generation, Odoo CRM, pitching, negotiation and a go-to-market plan, with a 1:1 mentor and a certificate. Apply today.",
     "focusKeyword": "sales internship",
-    "secondaryKeywords": ["business development internship", "lead generation training", "crm internship", "internship with certificate", "sales and marketing internship"],
+    "secondaryKeywords": [
+      "business development internship",
+      "lead generation training",
+      "crm internship",
+      "internship with certificate",
+      "sales and marketing internship"
+    ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "Non-engineering internship",
     "title": "Sales Internship With Real Industry Experience",
     "subtitle": "Our sales internship teaches you to find leads, manage a CRM pipeline, pitch with confidence and close. You run three live campaigns with a 1:1 mentor, build a go-to-market plan and finish with a certificate from Icanio Tech School.",
-    "image": { "src": "Frame-2085661617-1.png", "alt": "Sales internship at Icanio Tech School covering lead generation and client communication" },
-    "primary": { "label": "Apply for this internship", "href": "#apply" },
-    "secondary": { "label": "View curriculum", "href": "#curriculum" },
-    "highlights": ["4 learning phases", "3 live campaigns", "Odoo CRM pipeline", "Certificate on completion"]
+    "image": {
+      "src": "Frame-2085661617-1.png",
+      "alt": "Sales internship at Icanio Tech School covering lead generation and client communication"
+    },
+    "primary": {
+      "label": "Apply for this internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "View curriculum",
+      "href": "#curriculum"
+    },
+    "highlights": [
+      "4 learning phases",
+      "3 live campaigns",
+      "Odoo CRM pipeline",
+      "Certificate on completion"
+    ]
   },
   "facts": [
-    { "label": "Duration", "value": "15 days to 6 months" },
-    { "label": "Mode", "value": "Offline, online or part time" },
-    { "label": "Mentorship", "value": "1:1 with an Icanio mentor" },
-    { "label": "Certificate", "value": "Yes, on completion" }
+    {
+      "label": "Duration",
+      "value": "15 days to 6 months"
+    },
+    {
+      "label": "Mode",
+      "value": "Offline, online or part time"
+    },
+    {
+      "label": "Mentorship",
+      "value": "1:1 with an Icanio mentor"
+    },
+    {
+      "label": "Certificate",
+      "value": "Yes, on completion"
+    }
   ],
   "answer": {
     "question": "What is the sales internship at Icanio Tech School?",
@@ -46,8 +78,14 @@
         "Pitch, handle objections and negotiate terms",
         "Track pipeline metrics and report on results"
       ],
-      "image": { "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-13.png", "alt": "Intern speaking with a client during the sales internship" },
-      "link": { "label": "Compare all internship tracks", "href": "/internships" }
+      "image": {
+        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-13.png",
+        "alt": "Intern speaking with a client during the sales internship"
+      },
+      "link": {
+        "label": "Compare all internship tracks",
+        "href": "/internships"
+      }
     },
     {
       "type": "cards",
@@ -57,10 +95,26 @@
       "intro": "You do not need a business degree. You need energy, curiosity about people and the resilience to hear no and try again. These four groups do well in our sales internship.",
       "columns": 4,
       "items": [
-        { "title": "Students and fresh graduates", "body": "Final-year students and recent graduates from any stream who want job-ready sales and marketing skills before their first interview.", "icon": "Group-2085662027.png" },
-        { "title": "Career switchers", "body": "Professionals from customer service, retail, operations or other roles who want to move into sales or business development.", "icon": "Group-2085662024-24.png" },
-        { "title": "Aspiring entrepreneurs", "body": "People planning to launch or grow a business who need to learn lead generation, selling and marketing that turns leads into revenue.", "icon": "Group-2085662024-26.png" },
-        { "title": "Early-career professionals", "body": "People already in business roles who want to add CRM, campaign execution and pitching skills so they can grow faster.", "icon": "Group-2085662024-5-1.png" }
+        {
+          "title": "Students and fresh graduates",
+          "body": "Final-year students and recent graduates from any stream who want job-ready sales and marketing skills before their first interview.",
+          "icon": "Group-2085662027.png"
+        },
+        {
+          "title": "Career switchers",
+          "body": "Professionals from customer service, retail, operations or other roles who want to move into sales or business development.",
+          "icon": "Group-2085662024-24.png"
+        },
+        {
+          "title": "Aspiring entrepreneurs",
+          "body": "People planning to launch or grow a business who need to learn lead generation, selling and marketing that turns leads into revenue.",
+          "icon": "Group-2085662024-26.png"
+        },
+        {
+          "title": "Early-career professionals",
+          "body": "People already in business roles who want to add CRM, campaign execution and pitching skills so they can grow faster.",
+          "icon": "Group-2085662024-5-1.png"
+        }
       ]
     },
     {
@@ -123,12 +177,36 @@
       "heading": "Sales tools you will use hands-on",
       "intro": "These are the platforms modern sales teams use to find, track and win customers. In the sales internship you work in each one on real tasks.",
       "items": [
-        { "name": "Odoo CRM", "role": "Pipeline management", "logo": "odoo_logo-1-1-1.png" },
-        { "name": "Apollo.io", "role": "Prospecting and email outreach", "logo": "idNuu8-PhF_1777873390832-1-1-1.png" },
-        { "name": "LinkedIn Sales Navigator", "role": "B2B prospecting", "logo": "linkedin-svgrepo-com-1-1-1.png" },
-        { "name": "Google Analytics", "role": "Performance tracking", "logo": "google_analytics-ar21-1-4.png" },
-        { "name": "Canva", "role": "Sales and marketing collateral", "logo": "canva-icon-1-2.png" },
-        { "name": "Figma", "role": "Pitch decks and marketing assets", "logo": "Group-1000004941-1-1.png" }
+        {
+          "name": "Odoo CRM",
+          "role": "Pipeline management",
+          "logo": "odoo_logo-1-1-1.png"
+        },
+        {
+          "name": "Apollo.io",
+          "role": "Prospecting and email outreach",
+          "logo": "idNuu8-PhF_1777873390832-1-1-1.png"
+        },
+        {
+          "name": "LinkedIn Sales Navigator",
+          "role": "B2B prospecting",
+          "logo": "linkedin-svgrepo-com-1-1-1.png"
+        },
+        {
+          "name": "Google Analytics",
+          "role": "Performance tracking",
+          "logo": "google_analytics-ar21-1-4.png"
+        },
+        {
+          "name": "Canva",
+          "role": "Sales and marketing collateral",
+          "logo": "canva-icon-1-2.png"
+        },
+        {
+          "name": "Figma",
+          "role": "Pitch decks and marketing assets",
+          "logo": "Group-1000004941-1-1.png"
+        }
       ]
     },
     {
@@ -146,7 +224,10 @@
         "Pitch practice and objection role-play",
         "Friday review of replies, meetings and pipeline value"
       ],
-      "image": { "src": "ourInternshipProgramImg.png", "alt": "Interns practising a pitch with a mentor in the sales internship" },
+      "image": {
+        "src": "ourInternshipProgramImg.png",
+        "alt": "Interns practising a pitch with a mentor in the sales internship"
+      },
       "reverse": true
     },
     {
@@ -157,10 +238,26 @@
       "intro": "Each outcome below gives you results and stories you can bring to a sales interview.",
       "columns": 4,
       "items": [
-        { "title": "3 live campaigns", "body": "You run a lead generation campaign, a nurture email sequence and a full capstone go-to-market plan for a real or simulated business.", "icon": "Group-2085662024-1.png" },
-        { "title": "CRM fluency", "body": "You set up and manage an Odoo CRM pipeline, track leads, log activities and report on sales metrics like a professional.", "icon": "Group-2085662024-4-4.png" },
-        { "title": "Sales communication skills", "body": "You write cold emails, deliver pitches, handle objections and close deals using techniques strong sales teams rely on.", "icon": "Group-2085662024-5-2.png" },
-        { "title": "Go-to-market strategy", "body": "You build a go-to-market plan covering positioning, channels, messaging, lead generation and the metrics that prove it works.", "icon": "Group-2085662024-6-1.png" }
+        {
+          "title": "3 live campaigns",
+          "body": "You run a lead generation campaign, a nurture email sequence and a full capstone go-to-market plan for a real or simulated business.",
+          "icon": "Group-2085662024-1.png"
+        },
+        {
+          "title": "CRM fluency",
+          "body": "You set up and manage an Odoo CRM pipeline, track leads, log activities and report on sales metrics like a professional.",
+          "icon": "Group-2085662024-4-4.png"
+        },
+        {
+          "title": "Sales communication skills",
+          "body": "You write cold emails, deliver pitches, handle objections and close deals using techniques strong sales teams rely on.",
+          "icon": "Group-2085662024-5-2.png"
+        },
+        {
+          "title": "Go-to-market strategy",
+          "body": "You build a go-to-market plan covering positioning, channels, messaging, lead generation and the metrics that prove it works.",
+          "icon": "Group-2085662024-6-1.png"
+        }
       ]
     },
     {
@@ -169,11 +266,31 @@
       "heading": "How the sales internship runs, step by step",
       "intro": "The pace depends on the duration you choose. The order stays the same, so you always know what comes next.",
       "items": [
-        { "label": "Step 1", "title": "Apply and talk to our team", "body": "Fill in the short form below to apply for the sales internship. Our team calls you and helps you pick a duration and mode that suits your college calendar." },
-        { "label": "Step 2", "title": "Onboarding and your first product", "body": "You meet your mentor, get CRM access and study the product or business you will sell. Your first task is a one-page value proposition." },
-        { "label": "Step 3", "title": "Work through the four phases", "body": "You move from fundamentals to lead generation and CRM, then pitching and closing, then analytics. Each phase ends with a reviewed deliverable." },
-        { "label": "Step 4", "title": "Build the go-to-market capstone", "body": "You write a full go-to-market plan and run the campaigns behind it. This becomes the main case study in your sales internship portfolio." },
-        { "label": "Step 5", "title": "Final review and certificate", "body": "You present your plan and pipeline results to your mentor and receive your Icanio Tech School certificate. Top performers are referred to the Icanio talent team." }
+        {
+          "label": "Start",
+          "title": "Apply and talk to our team",
+          "body": "Fill in the short form below to apply for the sales internship. Our team calls you and helps you pick a duration and mode that suits your college calendar."
+        },
+        {
+          "label": "Week 1",
+          "title": "Onboarding and your first product",
+          "body": "You meet your mentor, get CRM access and study the product or business you will sell. Your first task is a one-page value proposition."
+        },
+        {
+          "label": "Phases 1 to 4",
+          "title": "Work through the four phases",
+          "body": "You move from fundamentals to lead generation and CRM, then pitching and closing, then analytics. Each phase ends with a reviewed deliverable. The phases are Phase 1: Marketing and sales fundamentals, Phase 2: Lead generation and CRM, Phase 3: Go-to-market, pitching and closing, Phase 4: Analytics, reporting and career preparation."
+        },
+        {
+          "label": "Capstone",
+          "title": "Build the go-to-market capstone",
+          "body": "You write a full go-to-market plan and run the campaigns behind it. This becomes the main case study in your sales internship portfolio."
+        },
+        {
+          "label": "Finish",
+          "title": "Final review and certificate",
+          "body": "You present your plan and pipeline results to your mentor and receive your Icanio Tech School certificate. Top performers are referred to the Icanio talent team."
+        }
       ]
     },
     {
@@ -192,20 +309,47 @@
         "Report pipeline metrics such as conversion rate and deal value",
         "Present a complete go-to-market plan with clear targets"
       ],
-      "image": { "src": "WhatWeDoSectionImg2.png", "alt": "Students completing sales internship tasks at Icanio Tech School" }
+      "image": {
+        "src": "WhatWeDoSectionImg2.png",
+        "alt": "Students completing sales internship tasks at Icanio Tech School"
+      }
     },
     {
       "type": "table",
       "eyebrow": "Career paths",
       "heading": "Roles a sales internship prepares you for",
       "intro": "The same sales skills open several entry-level roles. Here is how they differ.",
-      "columns": ["Role", "What you do", "Key skills"],
+      "columns": [
+        "Role",
+        "What you do",
+        "Key skills"
+      ],
       "rows": [
-        ["Sales development representative", "Find and qualify new leads", "Prospecting, cold email, calling"],
-        ["Business development executive", "Build relationships and win new accounts", "Pitching, negotiation, follow-up"],
-        ["Inside sales executive", "Sell over phone, email and video calls", "CRM, objection handling, closing"],
-        ["Account executive (junior)", "Manage and grow existing customers", "Retention, account planning"],
-        ["Sales operations associate", "Keep the CRM clean and report metrics", "Odoo CRM, KPIs, reporting"]
+        [
+          "Sales development representative",
+          "Find and qualify new leads",
+          "Prospecting, cold email, calling"
+        ],
+        [
+          "Business development executive",
+          "Build relationships and win new accounts",
+          "Pitching, negotiation, follow-up"
+        ],
+        [
+          "Inside sales executive",
+          "Sell over phone, email and video calls",
+          "CRM, objection handling, closing"
+        ],
+        [
+          "Account executive (junior)",
+          "Manage and grow existing customers",
+          "Retention, account planning"
+        ],
+        [
+          "Sales operations associate",
+          "Keep the CRM clean and report metrics",
+          "Odoo CRM, KPIs, reporting"
+        ]
       ],
       "note": "Many interns start in sales development and move into account management or business development leadership."
     },
@@ -228,12 +372,36 @@
       "eyebrow": "Keep exploring",
       "heading": "Related internships to consider",
       "items": [
-        { "title": "Digital Marketing Internship", "href": "/internships/digital-marketing-internship", "body": "SEO, paid ads and email. Marketing fills the pipeline that sales closes." },
-        { "title": "Business Analyst Internship", "href": "/internships/business-analyst-internship", "body": "Understand client needs and turn them into clear requirements." },
-        { "title": "Data Analyst Internship", "href": "/internships/data-analyst-internship", "body": "Analyse pipeline and customer data with SQL and Power BI." },
-        { "title": "Finance Internship", "href": "/internships/finance-internship", "body": "Accounting, GST and TDS with Excel, Zoho Books and Tally." },
-        { "title": "Student Development Program", "href": "/student-development-program", "body": "Nine workplace soft skill modules, from communication to leadership." },
-        { "title": "All 15 internship tracks", "href": "/internships", "body": "Compare durations, modes and outcomes across every track." }
+        {
+          "title": "Digital Marketing Internship",
+          "href": "/internships/digital-marketing-internship",
+          "body": "SEO, paid ads and email. Marketing fills the pipeline that sales closes."
+        },
+        {
+          "title": "Business Analyst Internship",
+          "href": "/internships/business-analyst-internship",
+          "body": "Understand client needs and turn them into clear requirements."
+        },
+        {
+          "title": "Data Analyst Internship",
+          "href": "/internships/data-analyst-internship",
+          "body": "Analyse pipeline and customer data with SQL and Power BI."
+        },
+        {
+          "title": "Finance Internship",
+          "href": "/internships/finance-internship",
+          "body": "Accounting, GST and TDS with Excel, Zoho Books and Tally."
+        },
+        {
+          "title": "Student Development Program",
+          "href": "/student-development-program",
+          "body": "Nine workplace soft skill modules, from communication to leadership."
+        },
+        {
+          "title": "All 15 internship tracks",
+          "href": "/internships",
+          "body": "Compare durations, modes and outcomes across every track."
+        }
       ]
     },
     {
@@ -250,14 +418,38 @@
     }
   ],
   "faqs": [
-    { "q": "Who is eligible for the sales internship?", "a": "Students and graduates from any stream can apply. The sales internship suits final-year students, fresh graduates, career switchers from customer service or retail, aspiring entrepreneurs and early-career business professionals. You do not need prior sales experience. Our team will look at your background and suggest a duration that fits." },
-    { "q": "I am an introvert. Can I still do well in sales?", "a": "Yes. Good selling depends more on listening, preparation and follow-up than on being loud. Many strong salespeople are quiet and thoughtful. The internship gives you scripts, role-play and steady practice, so your confidence grows with each conversation. Your mentor will help you find a style that suits you." },
-    { "q": "How long is the sales internship?", "a": "You choose the duration, from 15 days up to six months. A short internship covers fundamentals and lead generation in depth. Three to six months lets you complete all four phases, run three live campaigns and finish the full go-to-market capstone. Our team helps you decide based on your goals." },
-    { "q": "Which tools will I use in the sales internship?", "a": "You work with Odoo CRM for pipeline management, Apollo.io for email outreach, LinkedIn Sales Navigator for B2B prospecting and Google Analytics for tracking. You also use Canva and Figma to create sales collateral and pitch decks. Together they cover the full modern sales workflow." },
-    { "q": "Can I do the sales internship online?", "a": "Yes. You can attend offline at our centre, join online, or choose part-time weekday or weekend batches. Hybrid is also possible. Online interns get the same 1:1 mentorship, pipeline reviews and certificate as offline interns, so choose whatever fits your college timetable best." },
-    { "q": "What campaigns will I run during the internship?", "a": "You run three campaigns: a lead generation campaign, a nurture email sequence and a capstone go-to-market plan for a real or simulated business. For each you set targets, execute the outreach and report on results. Together they show employers you can plan and deliver, not just talk about selling." },
-    { "q": "Will I get a certificate and placement support?", "a": "Every intern who completes the sales internship receives an Icanio Tech School certificate stating the track and duration. Phase 4 includes sales resume building and interview coaching. Top performers are referred to the Icanio Technologies talent team, and our wider programs have placed over 1,000 students." },
-    { "q": "Should I choose sales or digital marketing?", "a": "Choose sales if you enjoy one-to-one conversations, persuasion and closing deals. Choose digital marketing if you enjoy content, channels and audience data. The two overlap in lead generation and campaign planning. If you are unsure, talk to our team, or read about our digital marketing internship before you apply." }
+    {
+      "q": "Who is eligible for the sales internship?",
+      "a": "Students and graduates from any stream can apply. The sales internship suits final-year students, fresh graduates, career switchers from customer service or retail, aspiring entrepreneurs and early-career business professionals. You do not need prior sales experience. Our team will look at your background and suggest a duration that fits."
+    },
+    {
+      "q": "I am an introvert. Can I still do well in sales?",
+      "a": "Yes. Good selling depends more on listening, preparation and follow-up than on being loud. Many strong salespeople are quiet and thoughtful. The internship gives you scripts, role-play and steady practice, so your confidence grows with each conversation. Your mentor will help you find a style that suits you."
+    },
+    {
+      "q": "How long is the sales internship?",
+      "a": "You choose the duration, from 15 days up to six months. A short internship covers fundamentals and lead generation in depth. Three to six months lets you complete all four phases, run three live campaigns and finish the full go-to-market capstone. Our team helps you decide based on your goals."
+    },
+    {
+      "q": "Which tools will I use in the sales internship?",
+      "a": "You work with Odoo CRM for pipeline management, Apollo.io for email outreach, LinkedIn Sales Navigator for B2B prospecting and Google Analytics for tracking. You also use Canva and Figma to create sales collateral and pitch decks. Together they cover the full modern sales workflow."
+    },
+    {
+      "q": "Can I do the sales internship online?",
+      "a": "Yes. You can attend offline at our centre, join online, or choose part-time weekday or weekend batches. Hybrid is also possible. Online interns get the same 1:1 mentorship, pipeline reviews and certificate as offline interns, so choose whatever fits your college timetable best."
+    },
+    {
+      "q": "What campaigns will I run during the internship?",
+      "a": "You run three campaigns: a lead generation campaign, a nurture email sequence and a capstone go-to-market plan for a real or simulated business. For each you set targets, execute the outreach and report on results. Together they show employers you can plan and deliver, not just talk about selling."
+    },
+    {
+      "q": "Will I get a certificate and placement support?",
+      "a": "Every intern who completes the sales internship receives an Icanio Tech School certificate stating the track and duration. Phase 4 includes sales resume building and interview coaching. Top performers are referred to the Icanio Technologies talent team, and our wider programs have placed over 1,000 students."
+    },
+    {
+      "q": "Should I choose sales or digital marketing?",
+      "a": "Choose sales if you enjoy one-to-one conversations, persuasion and closing deals. Choose digital marketing if you enjoy content, channels and audience data. The two overlap in lead generation and campaign planning. If you are unsure, talk to our team, or read about our digital marketing internship before you apply."
+    }
   ],
   "takeaways": [
     "The sales internship covers fundamentals, lead generation, CRM, pitching, closing and sales analytics in four phases.",
@@ -271,23 +463,55 @@
     "If you are a student in Tamil Nadu who enjoys people and targets, start with one prospect list and one well-written email. Apply below, talk to our team, and we will help you plan the right duration for your sales internship."
   ],
   "references": [
-    { "label": "Sales, overview on Wikipedia", "href": "https://en.wikipedia.org/wiki/Sales" },
-    { "label": "Customer relationship management, overview on Wikipedia", "href": "https://en.wikipedia.org/wiki/Customer_relationship_management" },
-    { "label": "Skill India, Government of India", "href": "https://www.skillindia.gov.in/" },
-    { "label": "AICTE Internship Policy and guidelines for students", "href": "https://www.aicte-india.org/education/internship" }
+    {
+      "label": "Sales, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Sales"
+    },
+    {
+      "label": "Customer relationship management, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Customer_relationship_management"
+    },
+    {
+      "label": "Skill India, Government of India",
+      "href": "https://www.skillindia.gov.in/"
+    },
+    {
+      "label": "AICTE Internship Policy and guidelines for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    }
   ],
   "cta": {
     "title": "Ready to start your sales internship?",
     "body": "Pick a duration, talk to our team and join the next batch. You can start within weeks.",
-    "primary": { "label": "Apply now", "href": "#apply" },
-    "secondary": { "label": "See all internships", "href": "/internships" }
+    "primary": {
+      "label": "Apply now",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "See all internships",
+      "href": "/internships"
+    }
   },
   "course": {
     "name": "Sales Internship",
     "description": "A mentored sales internship covering sales fundamentals, lead generation, Odoo CRM, pitching, negotiation, closing and sales analytics, with three live campaigns and a certificate.",
     "duration": "15 days to 6 months",
-    "modes": ["Onsite", "Online", "Blended"],
-    "skills": ["Sales funnel", "Lead generation", "LinkedIn prospecting", "Cold email", "Odoo CRM", "Objection handling", "Negotiation", "Go-to-market strategy", "Sales analytics"],
+    "modes": [
+      "Onsite",
+      "Online",
+      "Blended"
+    ],
+    "skills": [
+      "Sales funnel",
+      "Lead generation",
+      "LinkedIn prospecting",
+      "Cold email",
+      "Odoo CRM",
+      "Objection handling",
+      "Negotiation",
+      "Go-to-market strategy",
+      "Sales analytics"
+    ],
     "audience": "Students and freshers"
   }
 }

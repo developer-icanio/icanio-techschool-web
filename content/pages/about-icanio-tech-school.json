@@ -14,7 +14,7 @@
       "college mou programs"
     ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "About us",
@@ -250,23 +250,28 @@
       "items": [
         {
           "title": "Tell us who you are",
-          "body": "Send the short form below. Tell us if you are a student, a fresher, a faculty member or a college representative."
+          "body": "Send the short form below. Tell us if you are a student, a fresher, a faculty member or a college representative.",
+          "label": "Step 1"
         },
         {
           "title": "Talk to a counsellor",
-          "body": "A member of our team calls you to understand your goal, your year of study or your college plans."
+          "body": "A member of our team calls you to understand your goal, your year of study or your college plans.",
+          "label": "Step 2"
         },
         {
           "title": "Choose a program",
-          "body": "Students pick an internship track, duration and mode. Colleges pick an MoU, a course, a lecture or a visit."
+          "body": "Students pick an internship track, duration and mode. Colleges pick an MoU, a course, a lecture or a visit.",
+          "label": "Step 3"
         },
         {
           "title": "Learn on real work",
-          "body": "You learn in phases with a mentor and ship a project based on a real Icanio client scenario."
+          "body": "You learn in phases with a mentor and ship a project based on a real Icanio client scenario.",
+          "label": "Step 4"
         },
         {
           "title": "Finish with proof",
-          "body": "Students leave with a certificate and a portfolio. Top performers are referred to the Icanio talent team."
+          "body": "Students leave with a certificate and a portfolio. Top performers are referred to the Icanio talent team.",
+          "label": "Finish"
         }
       ]
     },
@@ -307,7 +312,7 @@
     {
       "type": "prose",
       "eyebrow": "Purpose-led and future-ready",
-      "heading": "Our mission and vision",
+      "heading": "Our Mission and Vision",
       "paragraphs": [
         "Our mission is to bridge the digital divide through accessible, industry-relevant technical education. We keep learning practical, so students are ready for a tech landscape that changes every year.",
         "Our vision is a generation of skilled professionals who contribute meaningfully to the digital world. When learners get the right knowledge and tools, innovation follows. We want that growth to start here in Tamil Nadu, in colleges of every size."

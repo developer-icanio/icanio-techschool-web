@@ -14,7 +14,7 @@
       "internship in tamil nadu"
     ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "2,000+ students trained",
@@ -192,23 +192,28 @@
       "items": [
         {
           "title": "Apply and talk to a counsellor",
-          "body": "Send the short form. Our team calls within one working day to understand your goals and year of study."
+          "body": "Send the short form. Our team calls within one working day to understand your goals and year of study.",
+          "label": "Step 1"
         },
         {
           "title": "Choose a track and duration",
-          "body": "Pick one of 15 tracks and a duration from 15 days to six months, offline, online or part time."
+          "body": "Pick one of 15 tracks and a duration from 15 days to six months, offline, online or part time.",
+          "label": "Step 2"
         },
         {
           "title": "Learn in phases with a mentor",
-          "body": "Work through structured phases with weekly reviews from your mentor."
+          "body": "Work through structured phases with weekly reviews from your mentor.",
+          "label": "Step 3"
         },
         {
           "title": "Ship a live project",
-          "body": "Build a brief based on an Icanio client scenario, in sprints, to real review standards."
+          "body": "Build a brief based on an Icanio client scenario, in sprints, to real review standards.",
+          "label": "Step 4"
         },
         {
           "title": "Get certified and referred",
-          "body": "Finish with a certificate, a portfolio review and interview practice. Top performers are referred to Icanio."
+          "body": "Finish with a certificate, a portfolio review and interview practice. Top performers are referred to Icanio.",
+          "label": "Finish"
         }
       ]
     },

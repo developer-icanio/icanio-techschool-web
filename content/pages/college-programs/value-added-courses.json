@@ -15,7 +15,7 @@
       "on campus technical training"
     ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "On-campus program for colleges",
@@ -130,23 +130,28 @@
       "items": [
         {
           "title": "Choose domains and batches",
-          "body": "Your HoD or placement officer tells us which departments and years to cover. We help you choose domains that match your students and your recruiters."
+          "body": "Your HoD or placement officer tells us which departments and years to cover. We help you choose domains that match your students and your recruiters.",
+          "label": "Step 1"
         },
         {
           "title": "Fix the schedule",
-          "body": "We plan sessions inside your academic calendar, so students do not miss regular classes. Our team checks the lab setup and software needs in advance."
+          "body": "We plan sessions inside your academic calendar, so students do not miss regular classes. Our team checks the lab setup and software needs in advance.",
+          "label": "Step 2"
         },
         {
           "title": "Teach hands-on in your labs",
-          "body": "Icanio engineers deliver live sessions. Each one mixes a short concept, a guided exercise and independent practice with the trainer on hand."
+          "body": "Icanio engineers deliver live sessions. Each one mixes a short concept, a guided exercise and independent practice with the trainer on hand.",
+          "label": "Step 3"
         },
         {
           "title": "Build and assess",
-          "body": "Students complete a small project or task set. Mentors assess the work against clear criteria and give feedback students can act on."
+          "body": "Students complete a small project or task set. Mentors assess the work against clear criteria and give feedback students can act on.",
+          "label": "Step 4"
         },
         {
           "title": "Certify and report",
-          "body": "Students who complete the course receive a certificate. We share attendance and assessment results with your college for its records."
+          "body": "Students who complete the course receive a certificate. We share attendance and assessment results with your college for its records.",
+          "label": "Finish"
         }
       ]
     },

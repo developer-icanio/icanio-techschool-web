@@ -7,24 +7,56 @@
     "metaTitle": "DevOps Internship: 4 Proven Phases, Live Pipelines",
     "metaDescription": "DevOps internship at Icanio Tech School: Linux, Docker, Kubernetes, CI/CD, Terraform, AWS and monitoring on live pipelines, 1:1 mentors and a certificate.",
     "focusKeyword": "devops internship",
-    "secondaryKeywords": ["devops internship in tamil nadu", "docker and kubernetes training", "ci cd internship", "aws cloud internship for students", "devops course with certificate"],
+    "secondaryKeywords": [
+      "devops internship in tamil nadu",
+      "docker and kubernetes training",
+      "ci cd internship",
+      "aws cloud internship for students",
+      "devops course with certificate"
+    ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "Engineering internship",
     "title": "DevOps Internship: Automate, Deploy and Monitor Real Systems",
     "subtitle": "Our DevOps internship teaches you to take code from a commit to production without manual steps. You work with Linux, Docker, Kubernetes, CI/CD, Terraform and AWS on live pipelines, guided 1:1 by an Icanio engineer.",
-    "image": { "src": "Group-6.png", "alt": "DevOps internship at Icanio Tech School showing CI/CD, containers and cloud tools" },
-    "primary": { "label": "Apply for this internship", "href": "#apply" },
-    "secondary": { "label": "View curriculum", "href": "#curriculum" },
-    "highlights": ["4 learning phases", "1:1 mentorship", "End-to-end CI/CD capstone", "Certificate on completion"]
+    "image": {
+      "src": "Group-6.png",
+      "alt": "DevOps internship at Icanio Tech School showing CI/CD, containers and cloud tools"
+    },
+    "primary": {
+      "label": "Apply for this internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "View curriculum",
+      "href": "#curriculum"
+    },
+    "highlights": [
+      "4 learning phases",
+      "1:1 mentorship",
+      "End-to-end CI/CD capstone",
+      "Certificate on completion"
+    ]
   },
   "facts": [
-    { "label": "Duration", "value": "15 days to 6 months" },
-    { "label": "Mode", "value": "Offline, online or part time" },
-    { "label": "Mentorship", "value": "1:1 with an Icanio engineer" },
-    { "label": "Certificate", "value": "Yes, on completion" }
+    {
+      "label": "Duration",
+      "value": "15 days to 6 months"
+    },
+    {
+      "label": "Mode",
+      "value": "Offline, online or part time"
+    },
+    {
+      "label": "Mentorship",
+      "value": "1:1 with an Icanio engineer"
+    },
+    {
+      "label": "Certificate",
+      "value": "Yes, on completion"
+    }
   ],
   "answer": {
     "question": "What is the DevOps internship at Icanio Tech School?",
@@ -48,8 +80,14 @@
         "Create cloud infrastructure from code, not from a console",
         "Monitor systems and respond when something breaks"
       ],
-      "image": { "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-11.png", "alt": "Intern checking a deployment pipeline during the DevOps internship" },
-      "link": { "label": "Compare all internship tracks", "href": "/internships" }
+      "image": {
+        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-11.png",
+        "alt": "Intern checking a deployment pipeline during the DevOps internship"
+      },
+      "link": {
+        "label": "Compare all internship tracks",
+        "href": "/internships"
+      }
     },
     {
       "type": "cards",
@@ -58,10 +96,26 @@
       "intro": "You need basic programming and comfort with a computer's command line, or the willingness to learn it quickly. These four groups get the most from our DevOps internship.",
       "columns": 4,
       "items": [
-        { "title": "Systems thinkers", "body": "You like understanding how large systems fit together, and you enjoy making them faster, cheaper and more reliable.", "icon": "Group-2085662025-3.png" },
-        { "title": "Automation enthusiasts", "body": "You get bored doing the same task twice. You would rather write a script or a pipeline that does it for you every time.", "icon": "Group-2085662025-1-1.png" },
-        { "title": "Cloud-curious learners", "body": "You have heard of AWS, containers and Kubernetes, and want to learn deployment, scaling and infrastructure by doing it yourself.", "icon": "Group-2085662025-2-2.png" },
-        { "title": "Backend developers", "body": "You already write APIs or server code and want to own the full delivery lifecycle, from commit to production.", "icon": "Group-2085662024-5-1.png" }
+        {
+          "title": "Systems thinkers",
+          "body": "You like understanding how large systems fit together, and you enjoy making them faster, cheaper and more reliable.",
+          "icon": "Group-2085662025-3.png"
+        },
+        {
+          "title": "Automation enthusiasts",
+          "body": "You get bored doing the same task twice. You would rather write a script or a pipeline that does it for you every time.",
+          "icon": "Group-2085662025-1-1.png"
+        },
+        {
+          "title": "Cloud-curious learners",
+          "body": "You have heard of AWS, containers and Kubernetes, and want to learn deployment, scaling and infrastructure by doing it yourself.",
+          "icon": "Group-2085662025-2-2.png"
+        },
+        {
+          "title": "Backend developers",
+          "body": "You already write APIs or server code and want to own the full delivery lifecycle, from commit to production.",
+          "icon": "Group-2085662024-5-1.png"
+        }
       ]
     },
     {
@@ -124,14 +178,46 @@
       "heading": "DevOps tools you will use hands-on",
       "intro": "These are the tools you will find in most DevOps job descriptions. You will install, configure and break each one during the DevOps internship.",
       "items": [
-        { "name": "Docker", "role": "Containerisation", "logo": "Group-6-1.png" },
-        { "name": "Kubernetes", "role": "Container orchestration", "logo": "kubernets-2-1.png" },
-        { "name": "Terraform", "role": "Infrastructure as code", "logo": "Terraform-Icon-Streamline-Svg-Logos-2-1.png" },
-        { "name": "GitHub Actions", "role": "CI/CD automation", "logo": "git-icon-2.png" },
-        { "name": "AWS", "role": "Cloud platform", "logo": "aws-2-2-2.png" },
-        { "name": "Prometheus", "role": "Metrics and alerting", "logo": "prometheus-2-1.png" },
-        { "name": "Grafana", "role": "Observability dashboards", "logo": "grafana-2-1.png" },
-        { "name": "Linux and Bash", "role": "Operating system and scripting", "logo": "bash-2-2-1.png" }
+        {
+          "name": "Docker",
+          "role": "Containerisation",
+          "logo": "Group-6-1.png"
+        },
+        {
+          "name": "Kubernetes",
+          "role": "Container orchestration",
+          "logo": "kubernets-2-1.png"
+        },
+        {
+          "name": "Terraform",
+          "role": "Infrastructure as code",
+          "logo": "Terraform-Icon-Streamline-Svg-Logos-2-1.png"
+        },
+        {
+          "name": "GitHub Actions",
+          "role": "CI/CD automation",
+          "logo": "git-icon-2.png"
+        },
+        {
+          "name": "AWS",
+          "role": "Cloud platform",
+          "logo": "aws-2-2-2.png"
+        },
+        {
+          "name": "Prometheus",
+          "role": "Metrics and alerting",
+          "logo": "prometheus-2-1.png"
+        },
+        {
+          "name": "Grafana",
+          "role": "Observability dashboards",
+          "logo": "grafana-2-1.png"
+        },
+        {
+          "name": "Linux and Bash",
+          "role": "Operating system and scripting",
+          "logo": "bash-2-2-1.png"
+        }
       ]
     },
     {
@@ -151,7 +237,10 @@
         "Pull request reviews on every pipeline and config change",
         "Runbooks you write and keep for your portfolio"
       ],
-      "image": { "src": "WhatWeDoSectionImg1.png", "alt": "Icanio engineer reviewing infrastructure code with a DevOps internship student" },
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Icanio engineer reviewing infrastructure code with a DevOps internship student"
+      },
       "reverse": true
     },
     {
@@ -161,10 +250,26 @@
       "intro": "Each DevOps internship outcome is something you build and keep in your GitHub account, so employers can see it for themselves.",
       "columns": 2,
       "items": [
-        { "title": "An end-to-end CI/CD pipeline", "body": "Design and build a pipeline that tests, builds and ships an application to production on every commit, with no manual steps.", "icon": "Group-2085662024-1.png" },
-        { "title": "Cloud infrastructure as code", "body": "Provision AWS networks, servers and storage with Terraform, using modular code that can be reviewed, reused and rolled back.", "icon": "Group-2085662024-4-4.png" },
-        { "title": "Container orchestration skills", "body": "Package applications with Docker and run scalable, self-healing deployments on Kubernetes with Helm.", "icon": "Group-2085662024-5-2.png" },
-        { "title": "Observability and reliability", "body": "Monitor live systems with Prometheus and Grafana, set sensible alerts and catch problems early in production.", "icon": "Group-2085662024-6-1.png" }
+        {
+          "title": "An end-to-end CI/CD pipeline",
+          "body": "Design and build a pipeline that tests, builds and ships an application to production on every commit, with no manual steps.",
+          "icon": "Group-2085662024-1.png"
+        },
+        {
+          "title": "Cloud infrastructure as code",
+          "body": "Provision AWS networks, servers and storage with Terraform, using modular code that can be reviewed, reused and rolled back.",
+          "icon": "Group-2085662024-4-4.png"
+        },
+        {
+          "title": "Container orchestration skills",
+          "body": "Package applications with Docker and run scalable, self-healing deployments on Kubernetes with Helm.",
+          "icon": "Group-2085662024-5-2.png"
+        },
+        {
+          "title": "Observability and reliability",
+          "body": "Monitor live systems with Prometheus and Grafana, set sensible alerts and catch problems early in production.",
+          "icon": "Group-2085662024-6-1.png"
+        }
       ]
     },
     {
@@ -188,11 +293,31 @@
       "heading": "How the DevOps internship runs, step by step",
       "intro": "The DevOps internship structure is the same for every duration. Longer internships go deeper in each phase and build a larger capstone.",
       "items": [
-        { "label": "Start", "title": "Apply and talk to our team", "body": "Send the short form. A counsellor calls you to understand your year, your programming background and the duration that fits your college calendar." },
-        { "label": "Week 1", "title": "Onboarding and environment setup", "body": "You meet your mentor, set up Linux, Git and your practice environment, and deploy a simple app by hand so you feel the pain automation removes." },
-        { "label": "Phases 1 to 3", "title": "Linux, containers, pipelines, cloud", "body": "You work through the phases with weekly reviews. Each week ends with something running: a script, a container, a pipeline or a cloud stack." },
-        { "label": "Capstone", "title": "Ship and monitor a real service", "body": "You build a pipeline from commit to production for a sample application, add monitoring and logging, and present it to Icanio engineers." },
-        { "label": "Finish", "title": "Review, certificate and referral", "body": "We review your repository, run a mock DevOps interview and issue your certificate. Top performers are referred to the Icanio talent team." }
+        {
+          "label": "Start",
+          "title": "Apply and talk to our team",
+          "body": "Send the short form. A counsellor calls you to understand your year, your programming background and the duration that fits your college calendar."
+        },
+        {
+          "label": "Week 1",
+          "title": "Onboarding and environment setup",
+          "body": "You meet your mentor, set up Linux, Git and your practice environment, and deploy a simple app by hand so you feel the pain automation removes."
+        },
+        {
+          "label": "Phases 1 to 3",
+          "title": "Linux, containers, pipelines, cloud",
+          "body": "You work through the phases with weekly reviews. Each week ends with something running: a script, a container, a pipeline or a cloud stack."
+        },
+        {
+          "label": "Capstone",
+          "title": "Ship and monitor a real service",
+          "body": "You build a pipeline from commit to production for a sample application, add monitoring and logging, and present it to Icanio engineers."
+        },
+        {
+          "label": "Finish",
+          "title": "Review, certificate and referral",
+          "body": "We review your repository, run a mock DevOps interview and issue your certificate. Top performers are referred to the Icanio talent team."
+        }
       ]
     },
     {
@@ -200,13 +325,37 @@
       "eyebrow": "Career paths",
       "heading": "Roles a DevOps internship prepares you for",
       "intro": "Titles vary between companies, but the skills overlap. These are common entry roles after our DevOps internship.",
-      "columns": ["Role", "What you do", "Key skills"],
+      "columns": [
+        "Role",
+        "What you do",
+        "Key skills"
+      ],
       "rows": [
-        ["Junior DevOps engineer", "Builds and maintains pipelines", "CI/CD, Docker, Git"],
-        ["Cloud engineer", "Provisions and runs cloud resources", "AWS, Terraform, networking"],
-        ["Site reliability engineer", "Keeps services fast and available", "Monitoring, Linux, incident response"],
-        ["Build and release engineer", "Owns versioning and releases", "Pipelines, scripting, packaging"],
-        ["Platform engineer", "Builds internal tools for developers", "Kubernetes, Helm, automation"]
+        [
+          "Junior DevOps engineer",
+          "Builds and maintains pipelines",
+          "CI/CD, Docker, Git"
+        ],
+        [
+          "Cloud engineer",
+          "Provisions and runs cloud resources",
+          "AWS, Terraform, networking"
+        ],
+        [
+          "Site reliability engineer",
+          "Keeps services fast and available",
+          "Monitoring, Linux, incident response"
+        ],
+        [
+          "Build and release engineer",
+          "Owns versioning and releases",
+          "Pipelines, scripting, packaging"
+        ],
+        [
+          "Platform engineer",
+          "Builds internal tools for developers",
+          "Kubernetes, Helm, automation"
+        ]
       ],
       "note": "We recommend starting as a junior DevOps or cloud engineer. Both roles give you broad exposure before you specialise in reliability or platforms."
     },
@@ -231,12 +380,36 @@
       "eyebrow": "Related tracks",
       "heading": "Internships that pair well with DevOps",
       "items": [
-        { "title": "Backend Development Internship", "href": "/internships/backend-development-internship", "body": "Write the APIs and services your pipelines will build and deploy." },
-        { "title": "Full Stack Development Internship", "href": "/internships/full-stack-development-internship", "body": "Build a complete web product, then ship it with your own pipeline." },
-        { "title": "Software Testing Internship", "href": "/internships/software-testing-internship", "body": "Learn the automated tests that every CI pipeline depends on." },
-        { "title": "AI & ML Internship", "href": "/internships/ai-ml-internship", "body": "Train models, then learn how they are packaged and served." },
-        { "title": "Project Management Internship", "href": "/internships/project-management-internship", "body": "Plan sprints and releases with the teams DevOps engineers support." },
-        { "title": "All 15 internship tracks", "href": "/internships", "body": "Compare durations, modes and outcomes for every track side by side." }
+        {
+          "title": "Backend Development Internship",
+          "href": "/internships/backend-development-internship",
+          "body": "Write the APIs and services your pipelines will build and deploy."
+        },
+        {
+          "title": "Full Stack Development Internship",
+          "href": "/internships/full-stack-development-internship",
+          "body": "Build a complete web product, then ship it with your own pipeline."
+        },
+        {
+          "title": "Software Testing Internship",
+          "href": "/internships/software-testing-internship",
+          "body": "Learn the automated tests that every CI pipeline depends on."
+        },
+        {
+          "title": "AI & ML Internship",
+          "href": "/internships/ai-ml-internship",
+          "body": "Train models, then learn how they are packaged and served."
+        },
+        {
+          "title": "Project Management Internship",
+          "href": "/internships/project-management-internship",
+          "body": "Plan sprints and releases with the teams DevOps engineers support."
+        },
+        {
+          "title": "All 15 internship tracks",
+          "href": "/internships",
+          "body": "Compare durations, modes and outcomes for every track side by side."
+        }
       ]
     },
     {
@@ -253,14 +426,38 @@
     }
   ],
   "faqs": [
-    { "q": "Do I need coding experience for the DevOps internship?", "a": "Basic programming helps, in any language. You should be able to read simple code and follow logic. You do not need prior Linux or cloud experience, because Phase 1 starts with the command line, networking and Git. Our team will check your background when you apply and suggest the right duration." },
-    { "q": "Which branches can apply for the DevOps internship?", "a": "Most interns come from CSE, IT, ECE and MCA, but any engineering or science student with basic programming can apply. What matters is comfort with computers and patience when something fails. Recent graduates and working developers who want to move into DevOps are also welcome." },
-    { "q": "Which tools will I learn in the DevOps internship?", "a": "You will use Linux and Bash, Git and GitHub, Docker and Docker Compose, Kubernetes with Helm, GitHub Actions and Jenkins for CI/CD, Terraform and Ansible for infrastructure, AWS for cloud, Prometheus and Grafana for monitoring, and the ELK stack for logging." },
-    { "q": "How long is the DevOps internship?", "a": "You choose from 15 days up to six months. A short DevOps internship covers Linux, Git and Docker basics. Three and six month internships cover all four phases, including Kubernetes, Terraform, AWS and monitoring, and finish with an end-to-end pipeline capstone that makes a much stronger portfolio." },
-    { "q": "Will the DevOps internship use real cloud systems?", "a": "Yes. You work in a practice environment that behaves like production, with real servers, containers and pipelines. Briefs are drawn from Icanio client scenarios, and your mentor reviews your pipelines and infrastructure code through pull requests, the same way our delivery teams review each other." },
-    { "q": "Do I get a certificate after the DevOps internship?", "a": "Yes. Every intern who completes the program receives an Icanio Tech School certificate stating the track and duration. More valuable in interviews is your GitHub repository, which shows the pipeline, containers, Terraform code and monitoring you built during the DevOps internship." },
-    { "q": "Can I do the DevOps internship online?", "a": "Yes. You can attend offline at our centre in Tirunelveli, join online, or choose part-time weekday or weekend batches. DevOps suits online learning well, since all the work happens in terminals, repositories and cloud consoles you can reach from anywhere." },
-    { "q": "What jobs can I get after a DevOps internship?", "a": "Common entry roles are junior DevOps engineer, cloud engineer, site reliability engineer, build and release engineer and platform engineer. Top performers are referred to the Icanio talent team. Every intern also gets resume review, GitHub feedback and mock technical interviews." }
+    {
+      "q": "Do I need coding experience for the DevOps internship?",
+      "a": "Basic programming helps, in any language. You should be able to read simple code and follow logic. You do not need prior Linux or cloud experience, because Phase 1 starts with the command line, networking and Git. Our team will check your background when you apply and suggest the right duration."
+    },
+    {
+      "q": "Which branches can apply for the DevOps internship?",
+      "a": "Most interns come from CSE, IT, ECE and MCA, but any engineering or science student with basic programming can apply. What matters is comfort with computers and patience when something fails. Recent graduates and working developers who want to move into DevOps are also welcome."
+    },
+    {
+      "q": "Which tools will I learn in the DevOps internship?",
+      "a": "You will use Linux and Bash, Git and GitHub, Docker and Docker Compose, Kubernetes with Helm, GitHub Actions and Jenkins for CI/CD, Terraform and Ansible for infrastructure, AWS for cloud, Prometheus and Grafana for monitoring, and the ELK stack for logging."
+    },
+    {
+      "q": "How long is the DevOps internship?",
+      "a": "You choose from 15 days up to six months. A short DevOps internship covers Linux, Git and Docker basics. Three and six month internships cover all four phases, including Kubernetes, Terraform, AWS and monitoring, and finish with an end-to-end pipeline capstone that makes a much stronger portfolio."
+    },
+    {
+      "q": "Will the DevOps internship use real cloud systems?",
+      "a": "Yes. You work in a practice environment that behaves like production, with real servers, containers and pipelines. Briefs are drawn from Icanio client scenarios, and your mentor reviews your pipelines and infrastructure code through pull requests, the same way our delivery teams review each other."
+    },
+    {
+      "q": "Do I get a certificate after the DevOps internship?",
+      "a": "Yes. Every intern who completes the program receives an Icanio Tech School certificate stating the track and duration. More valuable in interviews is your GitHub repository, which shows the pipeline, containers, Terraform code and monitoring you built during the DevOps internship."
+    },
+    {
+      "q": "Can I do the DevOps internship online?",
+      "a": "Yes. You can attend offline at our centre in Tirunelveli, join online, or choose part-time weekday or weekend batches. DevOps suits online learning well, since all the work happens in terminals, repositories and cloud consoles you can reach from anywhere."
+    },
+    {
+      "q": "What jobs can I get after a DevOps internship?",
+      "a": "Common entry roles are junior DevOps engineer, cloud engineer, site reliability engineer, build and release engineer and platform engineer. Top performers are referred to the Icanio talent team. Every intern also gets resume review, GitHub feedback and mock technical interviews."
+    }
   ],
   "takeaways": [
     "The DevOps internship at Icanio Tech School covers Linux, containers, CI/CD, cloud and monitoring in 4 phases.",
@@ -274,23 +471,54 @@
     "If you want a career in cloud, automation or reliability, apply today. Our team will help you choose a duration and start date that fits your college schedule."
   ],
   "references": [
-    { "label": "DevOps, overview on Wikipedia", "href": "https://en.wikipedia.org/wiki/DevOps" },
-    { "label": "Kubernetes documentation", "href": "https://kubernetes.io/docs/home/" },
-    { "label": "Docker documentation", "href": "https://docs.docker.com/" },
-    { "label": "AICTE Internship Policy and guidelines for students", "href": "https://www.aicte-india.org/education/internship" }
+    {
+      "label": "DevOps, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/DevOps"
+    },
+    {
+      "label": "Kubernetes documentation",
+      "href": "https://kubernetes.io/docs/home/"
+    },
+    {
+      "label": "Docker documentation",
+      "href": "https://docs.docker.com/"
+    },
+    {
+      "label": "AICTE Internship Policy and guidelines for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    }
   ],
   "cta": {
     "title": "Ready to ship your first pipeline?",
     "body": "Join the next DevOps internship batch in Tamil Nadu or online. Pick a duration, meet your mentor and start building within weeks.",
-    "primary": { "label": "Apply for the internship", "href": "#apply" },
-    "secondary": { "label": "How to apply", "href": "/apply-for-internship" }
+    "primary": {
+      "label": "Apply for the internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "How to apply",
+      "href": "/apply-for-internship"
+    }
   },
   "course": {
     "name": "DevOps Internship",
     "description": "A mentored DevOps internship covering Linux, networking, Git, Docker, Kubernetes, CI/CD, Terraform, AWS, monitoring and DevSecOps, with an end-to-end pipeline capstone.",
     "duration": "15 days to 6 months",
-    "modes": ["Onsite", "Online", "Blended"],
-    "skills": ["Linux and Bash", "Git", "Docker", "Kubernetes", "CI/CD", "Terraform", "AWS", "Prometheus and Grafana"],
+    "modes": [
+      "Onsite",
+      "Online",
+      "Blended"
+    ],
+    "skills": [
+      "Linux and Bash",
+      "Git",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "Terraform",
+      "AWS",
+      "Prometheus and Grafana"
+    ],
     "audience": "Students and freshers"
   }
 }

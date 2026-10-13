@@ -7,24 +7,56 @@
     "metaTitle": "Software Testing Internship: 4 Proven QA Phases",
     "metaDescription": "Software testing internship in Tamil Nadu: learn manual QA, API testing, Selenium and Playwright automation and CI/CD, with 1:1 mentors and a certificate.",
     "focusKeyword": "software testing internship",
-    "secondaryKeywords": ["qa internship", "automation testing internship", "selenium training with internship", "manual testing internship for freshers", "istqb preparation"],
+    "secondaryKeywords": [
+      "qa internship",
+      "automation testing internship",
+      "selenium training with internship",
+      "manual testing internship for freshers",
+      "istqb preparation"
+    ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "Engineering internship",
     "title": "Software Testing Internship: Manual QA to Automation",
     "subtitle": "Our software testing internship teaches you to find, report and prevent defects the way professional QA teams do. You move from test cases to API testing to Selenium and Playwright automation, with a 1:1 Icanio mentor and a certificate.",
-    "image": { "src": "Group-1-4.png", "alt": "QA dashboard with test results from the software testing internship at Icanio Tech School" },
-    "primary": { "label": "Apply for this internship", "href": "#apply" },
-    "secondary": { "label": "View curriculum", "href": "#curriculum" },
-    "highlights": ["4 learning phases", "Automation framework built", "1:1 mentorship", "Certificate on completion"]
+    "image": {
+      "src": "Group-1-4.png",
+      "alt": "QA dashboard with test results from the software testing internship at Icanio Tech School"
+    },
+    "primary": {
+      "label": "Apply for this internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "View curriculum",
+      "href": "#curriculum"
+    },
+    "highlights": [
+      "4 learning phases",
+      "Automation framework built",
+      "1:1 mentorship",
+      "Certificate on completion"
+    ]
   },
   "facts": [
-    { "label": "Duration", "value": "15 days to 6 months" },
-    { "label": "Mode", "value": "Offline, online or part time" },
-    { "label": "Mentorship", "value": "1:1 with an Icanio engineer" },
-    { "label": "Certificate", "value": "Yes, on completion" }
+    {
+      "label": "Duration",
+      "value": "15 days to 6 months"
+    },
+    {
+      "label": "Mode",
+      "value": "Offline, online or part time"
+    },
+    {
+      "label": "Mentorship",
+      "value": "1:1 with an Icanio engineer"
+    },
+    {
+      "label": "Certificate",
+      "value": "Yes, on completion"
+    }
   ],
   "answer": {
     "question": "What is a software testing internship at Icanio?",
@@ -47,8 +79,14 @@
         "Test APIs and databases, not just screens",
         "Automate checks and run them in CI/CD pipelines"
       ],
-      "image": { "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-2.png", "alt": "Intern reviewing an automated test report at Icanio Tech School" },
-      "link": { "label": "Soft skills that matter in IT jobs", "href": "/career-guides/soft-skills-for-it-jobs" }
+      "image": {
+        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-2.png",
+        "alt": "Intern reviewing an automated test report at Icanio Tech School"
+      },
+      "link": {
+        "label": "Soft skills that matter in IT jobs",
+        "href": "/career-guides/soft-skills-for-it-jobs"
+      }
     },
     {
       "type": "cards",
@@ -58,10 +96,26 @@
       "intro": "You do not need work experience. A careful eye and a habit of asking \"what if\" matter more than anything else.",
       "columns": 4,
       "items": [
-        { "title": "Detail-oriented thinkers", "body": "You notice small things others miss and like making sure a product works accurately and reliably for every user.", "icon": "Group-2085662024-15.png" },
-        { "title": "Career switchers", "body": "You want to move into IT through a role with steady demand. A software testing internship builds skills you can use from week one.", "icon": "Group-2085662024-13-1.png" },
-        { "title": "Developers adding QA", "body": "You write code already and want to master test design, automation and defect reporting to become a stronger engineer.", "icon": "Group-2085662025-5.png" },
-        { "title": "CS and IT students", "body": "You study B.E., B.Tech, B.Sc., BCA or MCA and want hands-on QA experience that your syllabus covers only in theory.", "icon": "Group-2085662024-14-1.png" }
+        {
+          "title": "Detail-oriented thinkers",
+          "body": "You notice small things others miss and like making sure a product works accurately and reliably for every user.",
+          "icon": "Group-2085662024-15.png"
+        },
+        {
+          "title": "Career switchers",
+          "body": "You want to move into IT through a role with steady demand. A software testing internship builds skills you can use from week one.",
+          "icon": "Group-2085662024-13-1.png"
+        },
+        {
+          "title": "Developers adding QA",
+          "body": "You write code already and want to master test design, automation and defect reporting to become a stronger engineer.",
+          "icon": "Group-2085662025-5.png"
+        },
+        {
+          "title": "CS and IT students",
+          "body": "You study B.E., B.Tech, B.Sc., BCA or MCA and want hands-on QA experience that your syllabus covers only in theory.",
+          "icon": "Group-2085662024-14-1.png"
+        }
       ]
     },
     {
@@ -124,16 +178,56 @@
       "heading": "Industry tools you will use every day",
       "intro": "The software testing internship uses the same QA toolset our team works with, from test management to cross-browser runs.",
       "items": [
-        { "name": "Selenium", "role": "Web UI automation", "logo": "Group-22.png" },
-        { "name": "Cypress", "role": "Modern end-to-end testing", "logo": "selenium-svgrepo-com-1.png" },
-        { "name": "Postman", "role": "API testing and collections", "logo": "Group-3-1.png" },
-        { "name": "pytest", "role": "Python test framework", "logo": "Pytest_logo-1-1.png" },
-        { "name": "JMeter", "role": "Performance and load testing", "logo": "jmeter-1.png" },
-        { "name": "TestRail", "role": "Test case management", "logo": "Testrail-1.png" },
-        { "name": "Jira", "role": "Bug tracking and boards", "logo": "jira-1-1-1.png" },
-        { "name": "GitHub", "role": "CI/CD pipeline integration", "logo": "github-icon-1-1-2.png" },
-        { "name": "Allure", "role": "Visual test reports", "logo": "logo-report-sign-1-1-3.png" },
-        { "name": "BrowserStack", "role": "Cross-browser testing", "logo": "browserstack-1-1.png" }
+        {
+          "name": "Selenium",
+          "role": "Web UI automation",
+          "logo": "Group-22.png"
+        },
+        {
+          "name": "Cypress",
+          "role": "Modern end-to-end testing",
+          "logo": "selenium-svgrepo-com-1.png"
+        },
+        {
+          "name": "Postman",
+          "role": "API testing and collections",
+          "logo": "Group-3-1.png"
+        },
+        {
+          "name": "pytest",
+          "role": "Python test framework",
+          "logo": "Pytest_logo-1-1.png"
+        },
+        {
+          "name": "JMeter",
+          "role": "Performance and load testing",
+          "logo": "jmeter-1.png"
+        },
+        {
+          "name": "TestRail",
+          "role": "Test case management",
+          "logo": "Testrail-1.png"
+        },
+        {
+          "name": "Jira",
+          "role": "Bug tracking and boards",
+          "logo": "jira-1-1-1.png"
+        },
+        {
+          "name": "GitHub",
+          "role": "CI/CD pipeline integration",
+          "logo": "github-icon-1-1-2.png"
+        },
+        {
+          "name": "Allure",
+          "role": "Visual test reports",
+          "logo": "logo-report-sign-1-1-3.png"
+        },
+        {
+          "name": "BrowserStack",
+          "role": "Cross-browser testing",
+          "logo": "browserstack-1-1.png"
+        }
       ]
     },
     {
@@ -143,10 +237,26 @@
       "intro": "By the end of the software testing internship you will have a test suite, reports and defect logs you can show an interviewer.",
       "columns": 4,
       "items": [
-        { "title": "200+ test cases written", "body": "Design and run a full suite covering functional, regression, API and performance testing on a real application.", "icon": "Group-1000005365-11.png" },
-        { "title": "An automation framework", "body": "Build a maintainable framework with Selenium, pytest and the Page Object Model that others could extend.", "icon": "Group-2085662024-15-1.png" },
-        { "title": "CI/CD integration skills", "body": "Run automated tests on every push through GitHub Actions, the standard practice in modern development teams.", "icon": "Group-1000005365-12.png" },
-        { "title": "ISTQB exam readiness", "body": "Cover the core ISTQB Foundation concepts with focused practice, so you can sit the exam with confidence later.", "icon": "image-copy-2.png" }
+        {
+          "title": "200+ test cases written",
+          "body": "Design and run a full suite covering functional, regression, API and performance testing on a real application.",
+          "icon": "Group-1000005365-11.png"
+        },
+        {
+          "title": "An automation framework",
+          "body": "Build a maintainable framework with Selenium, pytest and the Page Object Model that others could extend.",
+          "icon": "Group-2085662024-15-1.png"
+        },
+        {
+          "title": "CI/CD integration skills",
+          "body": "Run automated tests on every push through GitHub Actions, the standard practice in modern development teams.",
+          "icon": "Group-1000005365-12.png"
+        },
+        {
+          "title": "ISTQB exam readiness",
+          "body": "Cover the core ISTQB Foundation concepts with focused practice, so you can sit the exam with confidence later.",
+          "icon": "image-copy-2.png"
+        }
       ]
     },
     {
@@ -165,9 +275,15 @@
         "Curriculum refreshed from live project work each cohort",
         "Mock QA interviews and a portfolio review before you finish"
       ],
-      "image": { "src": "WhatWeDoSectionImg1.png", "alt": "Icanio engineer reviewing test cases with an intern in the software testing internship" },
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Icanio engineer reviewing test cases with an intern in the software testing internship"
+      },
       "reverse": true,
-      "link": { "label": "Meet our industry trainers", "href": "/industry-trainers" }
+      "link": {
+        "label": "Meet our industry trainers",
+        "href": "/industry-trainers"
+      }
     },
     {
       "type": "checklist",
@@ -182,7 +298,10 @@
         "One to two hours a day of practice outside mentor sessions",
         "Curiosity about how things break, and patience to prove it"
       ],
-      "image": { "src": "ourInternshipProgramImg.png", "alt": "Intern writing test cases in the software testing internship" }
+      "image": {
+        "src": "ourInternshipProgramImg.png",
+        "alt": "Intern writing test cases in the software testing internship"
+      }
     },
     {
       "type": "steps",
@@ -190,12 +309,36 @@
       "heading": "How the software testing internship runs, week by week",
       "intro": "The order stays the same for every duration. Shorter internships focus on manual and API testing, longer ones add full automation and CI/CD.",
       "items": [
-        { "label": "Day 1", "title": "Apply and speak to our team", "body": "Send the short form. A counsellor calls you within one working day to check your level, goals, duration and batch." },
-        { "label": "Week 1", "title": "Onboarding and setup", "body": "You meet your mentor, get access to Jira and the test application, and join the software testing internship board." },
-        { "label": "Phase 1", "title": "Manual testing", "body": "You write test plans and cases, run them and file defects. Your mentor reviews each report for clarity and priority." },
-        { "label": "Phase 2", "title": "API and database testing", "body": "You test endpoints in Postman, apply test design techniques and verify data with SQL." },
-        { "label": "Phases 3 and 4", "title": "Automation and pipelines", "body": "You build a Selenium and Playwright framework, add performance checks and run the suite in GitHub Actions." },
-        { "label": "Completion", "title": "Review and certificate", "body": "You present your capstone suite, get a resume review and receive your certificate. Top performers are referred to the Icanio talent team." }
+        {
+          "label": "Day 1",
+          "title": "Apply and speak to our team",
+          "body": "Send the short form. A counsellor calls you within one working day to check your level, goals, duration and batch."
+        },
+        {
+          "label": "Week 1",
+          "title": "Onboarding and setup",
+          "body": "You meet your mentor, get access to Jira and the test application, and join the software testing internship board."
+        },
+        {
+          "label": "Phase 1",
+          "title": "Manual testing",
+          "body": "You write test plans and cases, run them and file defects. Your mentor reviews each report for clarity and priority."
+        },
+        {
+          "label": "Phase 2",
+          "title": "API and database testing",
+          "body": "You test endpoints in Postman, apply test design techniques and verify data with SQL."
+        },
+        {
+          "label": "Phases 3 and 4",
+          "title": "Automation and pipelines",
+          "body": "You build a Selenium and Playwright framework, add performance checks and run the suite in GitHub Actions."
+        },
+        {
+          "label": "Finish",
+          "title": "Review and certificate",
+          "body": "You present your capstone suite, get a resume review and receive your certificate. Top performers are referred to the Icanio talent team."
+        }
       ]
     },
     {
@@ -214,13 +357,37 @@
       "eyebrow": "Career paths",
       "heading": "Roles this software testing internship prepares you for",
       "intro": "QA offers several entry points, from manual testing to automation. Here is how they compare.",
-      "columns": ["Role", "What you do", "Key skills"],
+      "columns": [
+        "Role",
+        "What you do",
+        "Key skills"
+      ],
       "rows": [
-        ["QA engineer", "Plan and run tests, report defects", "Test design, Jira, SQL"],
-        ["Automation test engineer", "Build and maintain test scripts", "Selenium, Playwright, pytest"],
-        ["API tester", "Validate services and data", "Postman, Newman, SQL"],
-        ["Performance tester", "Check speed under load", "JMeter, k6, reporting"],
-        ["SDET (junior)", "Write test code alongside developers", "Java or Python, CI/CD"]
+        [
+          "QA engineer",
+          "Plan and run tests, report defects",
+          "Test design, Jira, SQL"
+        ],
+        [
+          "Automation test engineer",
+          "Build and maintain test scripts",
+          "Selenium, Playwright, pytest"
+        ],
+        [
+          "API tester",
+          "Validate services and data",
+          "Postman, Newman, SQL"
+        ],
+        [
+          "Performance tester",
+          "Check speed under load",
+          "JMeter, k6, reporting"
+        ],
+        [
+          "SDET (junior)",
+          "Write test code alongside developers",
+          "Java or Python, CI/CD"
+        ]
       ],
       "note": "We recommend starting with manual and API testing even if you aim for automation. Strong test design is what makes automation useful."
     },
@@ -245,12 +412,36 @@
       "eyebrow": "Keep exploring",
       "heading": "Related internships you may like",
       "items": [
-        { "title": "All 15 internship tracks", "href": "/internships", "body": "Compare durations, modes, eligibility and outcomes across every track." },
-        { "title": "Frontend Development Internship", "href": "/internships/frontend-development-internship", "body": "Learn how the interfaces you test are built." },
-        { "title": "Backend Development Internship", "href": "/internships/backend-development-internship", "body": "Understand the APIs and databases behind the screens." },
-        { "title": "DevOps Internship", "href": "/internships/devops-internship", "body": "Go deeper on the CI/CD pipelines your tests run in." },
-        { "title": "Business Analyst Internship", "href": "/internships/business-analyst-internship", "body": "Work on the requirements your test cases are based on." },
-        { "title": "Full Stack Development Internship", "href": "/internships/full-stack-development-internship", "body": "Build complete web apps from interface to database." }
+        {
+          "title": "All 15 internship tracks",
+          "href": "/internships",
+          "body": "Compare durations, modes, eligibility and outcomes across every track."
+        },
+        {
+          "title": "Frontend Development Internship",
+          "href": "/internships/frontend-development-internship",
+          "body": "Learn how the interfaces you test are built."
+        },
+        {
+          "title": "Backend Development Internship",
+          "href": "/internships/backend-development-internship",
+          "body": "Understand the APIs and databases behind the screens."
+        },
+        {
+          "title": "DevOps Internship",
+          "href": "/internships/devops-internship",
+          "body": "Go deeper on the CI/CD pipelines your tests run in."
+        },
+        {
+          "title": "Business Analyst Internship",
+          "href": "/internships/business-analyst-internship",
+          "body": "Work on the requirements your test cases are based on."
+        },
+        {
+          "title": "Full Stack Development Internship",
+          "href": "/internships/full-stack-development-internship",
+          "body": "Build complete web apps from interface to database."
+        }
       ]
     },
     {
@@ -267,14 +458,38 @@
     }
   ],
   "faqs": [
-    { "q": "Do I need coding skills for software testing?", "a": "Not to start. The software testing internship begins with manual testing, which needs logic and clear writing rather than code. Basic Java or Python helps once you reach automation, and your mentor teaches what you need along the way." },
-    { "q": "How long is the software testing internship?", "a": "You choose between 15 days and six months. Short internships cover manual and API testing with a small project. Three and six month internships cover all four phases, including a full automation framework and CI/CD, which makes a much stronger portfolio." },
-    { "q": "Is the software testing internship offline or online?", "a": "Both. You can attend offline at our centre, join online from anywhere in Tamil Nadu, or choose a part-time weekday or weekend batch. Hybrid is also possible, so the software testing internship fits your college timetable." },
-    { "q": "Will I learn manual testing or automation testing?", "a": "Both. You start with manual testing because good automation depends on good test design. Then you move to API automation with Postman and Newman, and UI automation with Selenium and Playwright. By the end you can do either role." },
-    { "q": "Does the internship prepare me for ISTQB?", "a": "Yes. The software testing internship covers the core concepts of the ISTQB Foundation syllabus with focused practice. The exam itself is run separately by ISTQB member boards, and you can book it when you feel ready." },
-    { "q": "Do I get a certificate after the internship?", "a": "Yes. Every intern who completes the software testing internship receives an Icanio Tech School certificate that states the track and duration, along with a portfolio of test suites and reports." },
-    { "q": "Does the internship help with placement?", "a": "We run resume reviews, mock interviews and LinkedIn guidance for every intern, with QA-specific interview practice. Top performers are referred to the Icanio Technologies talent team. Across our programs, 90% of students are placed within five months." },
-    { "q": "Can my college send a batch of students?", "a": "Yes. Many of our 30+ MoU partner colleges send students together, and progress updates can be shared with the placement cell. Ask your placement officer to contact our team, or see our college programs page." }
+    {
+      "q": "Do I need coding skills for software testing?",
+      "a": "Not to start. The software testing internship begins with manual testing, which needs logic and clear writing rather than code. Basic Java or Python helps once you reach automation, and your mentor teaches what you need along the way."
+    },
+    {
+      "q": "How long is the software testing internship?",
+      "a": "You choose between 15 days and six months. Short internships cover manual and API testing with a small project. Three and six month internships cover all four phases, including a full automation framework and CI/CD, which makes a much stronger portfolio."
+    },
+    {
+      "q": "Is the software testing internship offline or online?",
+      "a": "Both. You can attend offline at our centre, join online from anywhere in Tamil Nadu, or choose a part-time weekday or weekend batch. Hybrid is also possible, so the software testing internship fits your college timetable."
+    },
+    {
+      "q": "Will I learn manual testing or automation testing?",
+      "a": "Both. You start with manual testing because good automation depends on good test design. Then you move to API automation with Postman and Newman, and UI automation with Selenium and Playwright. By the end you can do either role."
+    },
+    {
+      "q": "Does the internship prepare me for ISTQB?",
+      "a": "Yes. The software testing internship covers the core concepts of the ISTQB Foundation syllabus with focused practice. The exam itself is run separately by ISTQB member boards, and you can book it when you feel ready."
+    },
+    {
+      "q": "Do I get a certificate after the internship?",
+      "a": "Yes. Every intern who completes the software testing internship receives an Icanio Tech School certificate that states the track and duration, along with a portfolio of test suites and reports."
+    },
+    {
+      "q": "Does the internship help with placement?",
+      "a": "We run resume reviews, mock interviews and LinkedIn guidance for every intern, with QA-specific interview practice. Top performers are referred to the Icanio Technologies talent team. Across our programs, 90% of students are placed within five months."
+    },
+    {
+      "q": "Can my college send a batch of students?",
+      "a": "Yes. Many of our 30+ MoU partner colleges send students together, and progress updates can be shared with the placement cell. Ask your placement officer to contact our team, or see our college programs page."
+    }
   ],
   "takeaways": [
     "The software testing internship covers manual QA, API testing, automation and CI/CD in four phases.",
@@ -288,24 +503,60 @@
     "If you are a student or fresher in Tamil Nadu who enjoys finding what others miss, apply today. Our team will call you, check your level and help you choose the right duration and batch."
   ],
   "references": [
-    { "label": "ISTQB Certified Tester Foundation Level", "href": "https://www.istqb.org/" },
-    { "label": "Selenium official documentation", "href": "https://www.selenium.dev/documentation/" },
-    { "label": "OWASP Web Security Testing Guide", "href": "https://owasp.org/www-project-web-security-testing-guide/" },
-    { "label": "Software testing, Wikipedia", "href": "https://en.wikipedia.org/wiki/Software_testing" },
-    { "label": "AICTE internship guidelines for students", "href": "https://www.aicte-india.org/education/internship" }
+    {
+      "label": "ISTQB Certified Tester Foundation Level",
+      "href": "https://www.istqb.org/"
+    },
+    {
+      "label": "Selenium official documentation",
+      "href": "https://www.selenium.dev/documentation/"
+    },
+    {
+      "label": "OWASP Web Security Testing Guide",
+      "href": "https://owasp.org/www-project-web-security-testing-guide/"
+    },
+    {
+      "label": "Software testing, Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Software_testing"
+    },
+    {
+      "label": "AICTE internship guidelines for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    }
   ],
   "cta": {
     "title": "Start your software testing internship",
     "body": "Pick a duration and a batch, and begin your software testing internship with an Icanio mentor within weeks.",
-    "primary": { "label": "Apply for this internship", "href": "#apply" },
-    "secondary": { "label": "Compare all internships", "href": "/internships" }
+    "primary": {
+      "label": "Apply for this internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "Compare all internships",
+      "href": "/internships"
+    }
   },
   "course": {
     "name": "Software Testing Internship",
     "description": "A mentored software testing internship covering manual QA, test design, API testing, Selenium and Playwright automation, performance testing and CI/CD integration, with ISTQB-aligned preparation and a certificate.",
     "duration": "15 days to 6 months",
-    "modes": ["Onsite", "Online", "Blended"],
-    "skills": ["Test planning", "Manual testing", "Jira bug reporting", "Postman API testing", "SQL database testing", "Selenium WebDriver", "Playwright", "pytest", "JMeter", "GitHub Actions"],
+    "modes": [
+      "Onsite",
+      "Online",
+      "Blended"
+    ],
+    "skills": [
+      "Test planning",
+      "Manual testing",
+      "Jira bug reporting",
+      "Postman API testing",
+      "SQL database testing",
+      "Selenium WebDriver",
+      "Playwright",
+      "pytest",
+      "JMeter",
+      "GitHub Actions"
+    ],
     "audience": "Students and freshers"
   }
 }

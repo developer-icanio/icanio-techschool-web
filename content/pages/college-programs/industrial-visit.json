@@ -15,7 +15,7 @@
       "industry exposure program"
     ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "Campus to company",
@@ -159,23 +159,28 @@
       "items": [
         {
           "title": "Send an enquiry",
-          "body": "Share the department, year of study, approximate group size and your preferred dates. We confirm availability and suggest a slot."
+          "body": "Share the department, year of study, approximate group size and your preferred dates. We confirm availability and suggest a slot.",
+          "label": "Step 1"
         },
         {
           "title": "Agree the agenda",
-          "body": "We plan the visit around your students: which teams they meet, which projects are demonstrated and which careers the Q&A should cover."
+          "body": "We plan the visit around your students: which teams they meet, which projects are demonstrated and which careers the Q&A should cover.",
+          "label": "Step 2"
         },
         {
           "title": "Company introduction",
-          "body": "On the day, students start with an introduction to Icanio Technologies: what we build, who we build it for and how the company is organised."
+          "body": "On the day, students start with an introduction to Icanio Technologies: what we build, who we build it for and how the company is organised.",
+          "label": "Step 3"
         },
         {
           "title": "Teams and demonstrations",
-          "body": "Students meet project teams and watch live demonstrations of real work, from code and design to testing and delivery."
+          "body": "Students meet project teams and watch live demonstrations of real work, from code and design to testing and delivery.",
+          "label": "Step 4"
         },
         {
           "title": "Q&A and career discussion",
-          "body": "The visit ends with an open discussion on roles, skills, internships and first jobs. Faculty receive a short summary afterwards."
+          "body": "The visit ends with an open discussion on roles, skills, internships and first jobs. Faculty receive a short summary afterwards.",
+          "label": "Finish"
         }
       ]
     },

@@ -7,24 +7,56 @@
     "metaTitle": "Business Analyst Internship: 4 Proven Phases",
     "metaDescription": "Business analyst internship at Icanio Tech School: requirements, user stories, BPMN, SQL, Power BI and Jira on real cases, 1:1 mentors and a certificate.",
     "focusKeyword": "business analyst internship",
-    "secondaryKeywords": ["ba internship in tamil nadu", "business analysis training for freshers", "power bi and sql internship", "requirements gathering course", "business analyst course with certificate"],
+    "secondaryKeywords": [
+      "ba internship in tamil nadu",
+      "business analysis training for freshers",
+      "power bi and sql internship",
+      "requirements gathering course",
+      "business analyst course with certificate"
+    ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "Engineering internship",
     "title": "Business Analyst Internship: Requirements, Data and Delivery",
     "subtitle": "Our business analyst internship teaches you to turn business problems into clear requirements that tech teams can build. You practise stakeholder interviews, user stories, process maps, SQL and Power BI on real cases, with a 1:1 mentor.",
-    "image": { "src": "Group-2085662076-1.png", "alt": "Business analyst internship at Icanio Tech School with requirements, dashboards and process maps" },
-    "primary": { "label": "Apply for this internship", "href": "#apply" },
-    "secondary": { "label": "View curriculum", "href": "#curriculum" },
-    "highlights": ["4 learning phases", "1:1 mentorship", "3 BA case studies", "Certificate on completion"]
+    "image": {
+      "src": "Group-2085662076-1.png",
+      "alt": "Business analyst internship at Icanio Tech School with requirements, dashboards and process maps"
+    },
+    "primary": {
+      "label": "Apply for this internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "View curriculum",
+      "href": "#curriculum"
+    },
+    "highlights": [
+      "4 learning phases",
+      "1:1 mentorship",
+      "3 BA case studies",
+      "Certificate on completion"
+    ]
   },
   "facts": [
-    { "label": "Duration", "value": "15 days to 6 months" },
-    { "label": "Mode", "value": "Offline, online or part time" },
-    { "label": "Mentorship", "value": "1:1 with an Icanio mentor" },
-    { "label": "Certificate", "value": "Yes, on completion" }
+    {
+      "label": "Duration",
+      "value": "15 days to 6 months"
+    },
+    {
+      "label": "Mode",
+      "value": "Offline, online or part time"
+    },
+    {
+      "label": "Mentorship",
+      "value": "1:1 with an Icanio mentor"
+    },
+    {
+      "label": "Certificate",
+      "value": "Yes, on completion"
+    }
   ],
   "answer": {
     "question": "What is the business analyst internship at Icanio Tech School?",
@@ -48,8 +80,14 @@
         "Map business processes and spot gaps",
         "Back decisions with data from SQL, Excel and Power BI"
       ],
-      "image": { "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-10.png", "alt": "Intern presenting requirements to a mentor during the business analyst internship" },
-      "link": { "label": "Compare all internship tracks", "href": "/internships" }
+      "image": {
+        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-10.png",
+        "alt": "Intern presenting requirements to a mentor during the business analyst internship"
+      },
+      "link": {
+        "label": "Compare all internship tracks",
+        "href": "/internships"
+      }
     },
     {
       "type": "cards",
@@ -58,10 +96,26 @@
       "intro": "You do not need to be a programmer. You need curiosity, clear writing and comfort with numbers. These four groups do well in our business analyst internship.",
       "columns": 4,
       "items": [
-        { "title": "Problem solvers", "body": "You like finding out why things go wrong and designing smarter ways for a business to work.", "icon": "Group-2085662025-3.png" },
-        { "title": "Commerce and management graduates", "body": "You want to enter the tech industry in a business-facing role that does not demand deep coding skills.", "icon": "Group-2085662024-38.png" },
-        { "title": "Data-curious analysts", "body": "You enjoy pulling insights out of business data and turning them into recommendations people can act on.", "icon": "Group-2085662024-39.png" },
-        { "title": "Career switchers", "body": "You come from operations, finance or consulting and want to formalise your analytical skills in a tech setting.", "icon": "Group-2085662025-5.png" }
+        {
+          "title": "Problem solvers",
+          "body": "You like finding out why things go wrong and designing smarter ways for a business to work.",
+          "icon": "Group-2085662025-3.png"
+        },
+        {
+          "title": "Commerce and management graduates",
+          "body": "You want to enter the tech industry in a business-facing role that does not demand deep coding skills.",
+          "icon": "Group-2085662024-38.png"
+        },
+        {
+          "title": "Data-curious analysts",
+          "body": "You enjoy pulling insights out of business data and turning them into recommendations people can act on.",
+          "icon": "Group-2085662024-39.png"
+        },
+        {
+          "title": "Career switchers",
+          "body": "You come from operations, finance or consulting and want to formalise your analytical skills in a tech setting.",
+          "icon": "Group-2085662025-5.png"
+        }
       ]
     },
     {
@@ -124,14 +178,44 @@
       "heading": "Business analysis tools you will use",
       "intro": "These tools appear in most BA job descriptions. You will use each one on a real task during the business analyst internship.",
       "items": [
-        { "name": "Power BI", "role": "Business intelligence dashboards", "logo": "Microsoft-Power-Bi-Streamline-Svg-Logos-1-1-1.png" },
-        { "name": "SQL", "role": "Querying and analysing data", "logo": "database-01-1-1.png" },
-        { "name": "Excel", "role": "Data modelling and quick analysis", "logo": "excel-4-1-1-1.png" },
-        { "name": "Jira", "role": "Agile backlog and sprint tracking", "logo": "jira-1-1-3.png" },
-        { "name": "Confluence", "role": "Requirements documentation", "logo": "confluence-1-1-3.png" },
-        { "name": "Figma", "role": "Simple UI wireframes", "logo": "figma-icon-2-3.png" },
-        { "name": "Lucidchart", "role": "Process and flow diagrams" },
-        { "name": "MS Teams", "role": "Stakeholder communication" }
+        {
+          "name": "Power BI",
+          "role": "Business intelligence dashboards",
+          "logo": "Microsoft-Power-Bi-Streamline-Svg-Logos-1-1-1.png"
+        },
+        {
+          "name": "SQL",
+          "role": "Querying and analysing data",
+          "logo": "database-01-1-1.png"
+        },
+        {
+          "name": "Excel",
+          "role": "Data modelling and quick analysis",
+          "logo": "excel-4-1-1-1.png"
+        },
+        {
+          "name": "Jira",
+          "role": "Agile backlog and sprint tracking",
+          "logo": "jira-1-1-3.png"
+        },
+        {
+          "name": "Confluence",
+          "role": "Requirements documentation",
+          "logo": "confluence-1-1-3.png"
+        },
+        {
+          "name": "Figma",
+          "role": "Simple UI wireframes",
+          "logo": "figma-icon-2-3.png"
+        },
+        {
+          "name": "Lucidchart",
+          "role": "Process and flow diagrams"
+        },
+        {
+          "name": "MS Teams",
+          "role": "Stakeholder communication"
+        }
       ]
     },
     {
@@ -151,7 +235,10 @@
         "Dashboard reviews focused on decisions, not decoration",
         "Written feedback you can act on each week"
       ],
-      "image": { "src": "WhatWeDoSectionImg1.png", "alt": "Icanio mentor reviewing user stories with a student in the business analyst internship" },
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Icanio mentor reviewing user stories with a student in the business analyst internship"
+      },
       "reverse": true
     },
     {
@@ -161,10 +248,26 @@
       "intro": "You finish the business analyst internship with evidence of real analysis work, not only a certificate. Each outcome below maps to deliverables your mentor signs off.",
       "columns": 2,
       "items": [
-        { "title": "3 end-to-end BA case studies", "body": "Analyse a retail process inefficiency, define requirements for a SaaS feature and complete a documented capstone case.", "icon": "Group-2085662024-34.png" },
-        { "title": "Data storytelling with Power BI", "body": "Build interactive dashboards that turn raw business data into clear, decision-ready insights for senior stakeholders.", "icon": "Group-2085662024-35.png" },
-        { "title": "Agile BA skills", "body": "Write structured user stories, acceptance criteria and backlog items that product and delivery teams can pick up directly.", "icon": "Group-2085662024-27-1.png" },
-        { "title": "Stakeholder communication", "body": "Run workshops, lead sign-off sessions and present findings to non-technical audiences with confidence.", "icon": "Group-2085662024-37.png" }
+        {
+          "title": "3 end-to-end BA case studies",
+          "body": "Analyse a retail process inefficiency, define requirements for a SaaS feature and complete a documented capstone case.",
+          "icon": "Group-2085662024-34.png"
+        },
+        {
+          "title": "Data storytelling with Power BI",
+          "body": "Build interactive dashboards that turn raw business data into clear, decision-ready insights for senior stakeholders.",
+          "icon": "Group-2085662024-35.png"
+        },
+        {
+          "title": "Agile BA skills",
+          "body": "Write structured user stories, acceptance criteria and backlog items that product and delivery teams can pick up directly.",
+          "icon": "Group-2085662024-27-1.png"
+        },
+        {
+          "title": "Stakeholder communication",
+          "body": "Run workshops, lead sign-off sessions and present findings to non-technical audiences with confidence.",
+          "icon": "Group-2085662024-37.png"
+        }
       ]
     },
     {
@@ -188,11 +291,31 @@
       "heading": "How the business analyst internship runs, step by step",
       "intro": "The business analyst internship structure is the same for every duration. Longer internships go deeper in each phase and take on a larger capstone case.",
       "items": [
-        { "label": "Start", "title": "Apply and talk to our team", "body": "Send the short form. A counsellor calls you to understand your degree, your interests and the duration that fits your college calendar." },
-        { "label": "Week 1", "title": "Onboarding and your first brief", "body": "You meet your mentor, set up Jira, Confluence and Power BI, and receive a small business problem to explore." },
-        { "label": "Phases 1 to 3", "title": "Requirements, data, Agile", "body": "You work through the phases with weekly reviews. Each week ends with a document, a model or a dashboard your mentor comments on." },
-        { "label": "Capstone", "title": "Run a full BA case", "body": "You take one case from stakeholder interviews to requirements, analysis and a UAT plan, then present it to Icanio engineers and analysts." },
-        { "label": "Finish", "title": "Review, certificate and referral", "body": "We review your case studies, run a mock BA interview and issue your certificate. Top performers are referred to the Icanio talent team." }
+        {
+          "label": "Start",
+          "title": "Apply and talk to our team",
+          "body": "Send the short form. A counsellor calls you to understand your degree, your interests and the duration that fits your college calendar."
+        },
+        {
+          "label": "Week 1",
+          "title": "Onboarding and your first brief",
+          "body": "You meet your mentor, set up Jira, Confluence and Power BI, and receive a small business problem to explore."
+        },
+        {
+          "label": "Phases 1 to 3",
+          "title": "Requirements, data, Agile",
+          "body": "You work through the phases with weekly reviews. Each week ends with a document, a model or a dashboard your mentor comments on."
+        },
+        {
+          "label": "Capstone",
+          "title": "Run a full BA case",
+          "body": "You take one case from stakeholder interviews to requirements, analysis and a UAT plan, then present it to Icanio engineers and analysts."
+        },
+        {
+          "label": "Finish",
+          "title": "Review, certificate and referral",
+          "body": "We review your case studies, run a mock BA interview and issue your certificate. Top performers are referred to the Icanio talent team."
+        }
       ]
     },
     {
@@ -200,13 +323,37 @@
       "eyebrow": "Career paths",
       "heading": "Roles a business analyst internship prepares you for",
       "intro": "Analysis roles go by many names. These are common entry roles after our business analyst internship.",
-      "columns": ["Role", "What you do", "Key skills"],
+      "columns": [
+        "Role",
+        "What you do",
+        "Key skills"
+      ],
       "rows": [
-        ["Business analyst", "Gathers and documents requirements", "Elicitation, user stories, BPMN"],
-        ["Product analyst", "Studies how users use a product", "SQL, dashboards, metrics"],
-        ["Business intelligence analyst", "Builds reports for decision makers", "Power BI, Excel, SQL"],
-        ["Process analyst", "Finds and fixes process gaps", "Process mapping, root cause analysis"],
-        ["Associate product owner", "Manages the backlog with the team", "Agile, Jira, prioritisation"]
+        [
+          "Business analyst",
+          "Gathers and documents requirements",
+          "Elicitation, user stories, BPMN"
+        ],
+        [
+          "Product analyst",
+          "Studies how users use a product",
+          "SQL, dashboards, metrics"
+        ],
+        [
+          "Business intelligence analyst",
+          "Builds reports for decision makers",
+          "Power BI, Excel, SQL"
+        ],
+        [
+          "Process analyst",
+          "Finds and fixes process gaps",
+          "Process mapping, root cause analysis"
+        ],
+        [
+          "Associate product owner",
+          "Manages the backlog with the team",
+          "Agile, Jira, prioritisation"
+        ]
       ],
       "note": "We recommend starting as a business analyst in an IT services team. You see many clients and domains, which helps you choose a specialism later."
     },
@@ -231,12 +378,36 @@
       "eyebrow": "Related tracks",
       "heading": "Internships that pair well with business analysis",
       "items": [
-        { "title": "Project Management Internship", "href": "/internships/project-management-internship", "body": "Plan and deliver the projects your requirements feed into." },
-        { "title": "Data Analyst Internship", "href": "/internships/data-analyst-internship", "body": "Go deeper into Excel, SQL, Python and Power BI on real datasets." },
-        { "title": "UI/UX Design Internship", "href": "/internships/ui-ux-design-internship", "body": "Learn how designers turn your requirements into screens and flows." },
-        { "title": "Software Testing Internship", "href": "/internships/software-testing-internship", "body": "See how testers use acceptance criteria to check what was built." },
-        { "title": "Finance Internship", "href": "/internships/finance-internship", "body": "Practise budgeting, reporting and financial analysis on live data." },
-        { "title": "All 15 internship tracks", "href": "/internships", "body": "Compare durations, modes and outcomes for every track side by side." }
+        {
+          "title": "Project Management Internship",
+          "href": "/internships/project-management-internship",
+          "body": "Plan and deliver the projects your requirements feed into."
+        },
+        {
+          "title": "Data Analyst Internship",
+          "href": "/internships/data-analyst-internship",
+          "body": "Go deeper into Excel, SQL, Python and Power BI on real datasets."
+        },
+        {
+          "title": "UI/UX Design Internship",
+          "href": "/internships/ui-ux-design-internship",
+          "body": "Learn how designers turn your requirements into screens and flows."
+        },
+        {
+          "title": "Software Testing Internship",
+          "href": "/internships/software-testing-internship",
+          "body": "See how testers use acceptance criteria to check what was built."
+        },
+        {
+          "title": "Finance Internship",
+          "href": "/internships/finance-internship",
+          "body": "Practise budgeting, reporting and financial analysis on live data."
+        },
+        {
+          "title": "All 15 internship tracks",
+          "href": "/internships",
+          "body": "Compare durations, modes and outcomes for every track side by side."
+        }
       ]
     },
     {
@@ -253,14 +424,38 @@
     }
   ],
   "faqs": [
-    { "q": "Do I need coding skills for the business analyst internship?", "a": "No. A business analyst does not write production code. You will learn basic SQL to query data, and Excel and Power BI for analysis, all from the start. Clear writing, careful listening and comfort with numbers matter more. Our team checks your background when you apply and suggests a duration." },
-    { "q": "Can commerce or MBA students join the business analyst internship?", "a": "Yes. B.Com, BBA and MBA students do very well, because they already understand how businesses make money and where processes break. Engineering, BCA and MCA students also join. The internship teaches the tech side, such as Agile, Jira and user stories, so everyone starts on equal footing." },
-    { "q": "Which tools will I learn in the business analyst internship?", "a": "You will use Excel and SQL for data, Power BI for dashboards, Jira for backlogs and sprints, Confluence for requirement documents, Figma for simple wireframes, Lucidchart for process diagrams and MS Teams for stakeholder communication. You also learn BPMN notation for process models." },
-    { "q": "How long is the business analyst internship?", "a": "You choose from 15 days up to six months. A short business analyst internship covers BA foundations and requirements. Three and six month internships cover all four phases, including Power BI, Agile delivery and UAT, and finish with three case studies that make a far stronger portfolio." },
-    { "q": "What is the difference between a BA and a project manager?", "a": "A business analyst decides what should be built and why, by understanding needs and writing requirements. A project manager decides how and when it gets delivered, by planning time, people and budget. The two work closely. If you enjoy planning more than analysis, look at our project management internship." },
-    { "q": "Does the business analyst internship give a certificate?", "a": "Yes. Every intern who completes the business analyst internship receives an Icanio Tech School certificate stating the track and duration. More useful in interviews are your case studies, which show your requirements, process models and dashboards in a form recruiters can review quickly." },
-    { "q": "Can I do the business analyst internship online?", "a": "Yes. You can attend offline at our centre in Tirunelveli, join online, or choose part-time weekday or weekend batches. Requirement workshops and reviews work well over video calls, and all documents live in shared Jira and Confluence spaces you can reach from anywhere." },
-    { "q": "What jobs follow a business analyst internship?", "a": "Common entry roles are business analyst, product analyst, business intelligence analyst, process analyst and associate product owner. Top performers from the business analyst internship are referred to the Icanio talent team. Every intern also gets resume review, LinkedIn guidance and mock case interviews." }
+    {
+      "q": "Do I need coding skills for the business analyst internship?",
+      "a": "No. A business analyst does not write production code. You will learn basic SQL to query data, and Excel and Power BI for analysis, all from the start. Clear writing, careful listening and comfort with numbers matter more. Our team checks your background when you apply and suggests a duration."
+    },
+    {
+      "q": "Can commerce or MBA students join the business analyst internship?",
+      "a": "Yes. B.Com, BBA and MBA students do very well, because they already understand how businesses make money and where processes break. Engineering, BCA and MCA students also join. The internship teaches the tech side, such as Agile, Jira and user stories, so everyone starts on equal footing."
+    },
+    {
+      "q": "Which tools will I learn in the business analyst internship?",
+      "a": "You will use Excel and SQL for data, Power BI for dashboards, Jira for backlogs and sprints, Confluence for requirement documents, Figma for simple wireframes, Lucidchart for process diagrams and MS Teams for stakeholder communication. You also learn BPMN notation for process models."
+    },
+    {
+      "q": "How long is the business analyst internship?",
+      "a": "You choose from 15 days up to six months. A short business analyst internship covers BA foundations and requirements. Three and six month internships cover all four phases, including Power BI, Agile delivery and UAT, and finish with three case studies that make a far stronger portfolio."
+    },
+    {
+      "q": "What is the difference between a BA and a project manager?",
+      "a": "A business analyst decides what should be built and why, by understanding needs and writing requirements. A project manager decides how and when it gets delivered, by planning time, people and budget. The two work closely. If you enjoy planning more than analysis, look at our project management internship."
+    },
+    {
+      "q": "Does the business analyst internship give a certificate?",
+      "a": "Yes. Every intern who completes the business analyst internship receives an Icanio Tech School certificate stating the track and duration. More useful in interviews are your case studies, which show your requirements, process models and dashboards in a form recruiters can review quickly."
+    },
+    {
+      "q": "Can I do the business analyst internship online?",
+      "a": "Yes. You can attend offline at our centre in Tirunelveli, join online, or choose part-time weekday or weekend batches. Requirement workshops and reviews work well over video calls, and all documents live in shared Jira and Confluence spaces you can reach from anywhere."
+    },
+    {
+      "q": "What jobs follow a business analyst internship?",
+      "a": "Common entry roles are business analyst, product analyst, business intelligence analyst, process analyst and associate product owner. Top performers from the business analyst internship are referred to the Icanio talent team. Every intern also gets resume review, LinkedIn guidance and mock case interviews."
+    }
   ],
   "takeaways": [
     "The business analyst internship at Icanio Tech School covers requirements, data, Agile and a capstone in 4 phases.",
@@ -274,23 +469,54 @@
     "If you want a business-facing role in tech, apply today. Our team will help you choose a duration and start date that fits your college schedule."
   ],
   "references": [
-    { "label": "International Institute of Business Analysis (IIBA)", "href": "https://www.iiba.org/" },
-    { "label": "Business analysis, overview on Wikipedia", "href": "https://en.wikipedia.org/wiki/Business_analysis" },
-    { "label": "What is Scrum, Scrum.org", "href": "https://www.scrum.org/resources/what-scrum-module" },
-    { "label": "AICTE Internship Policy and guidelines for students", "href": "https://www.aicte-india.org/education/internship" }
+    {
+      "label": "International Institute of Business Analysis (IIBA)",
+      "href": "https://www.iiba.org/"
+    },
+    {
+      "label": "Business analysis, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Business_analysis"
+    },
+    {
+      "label": "What is Scrum, Scrum.org",
+      "href": "https://www.scrum.org/resources/what-scrum-module"
+    },
+    {
+      "label": "AICTE Internship Policy and guidelines for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    }
   ],
   "cta": {
     "title": "Ready to start your career in business analysis?",
     "body": "Join the next business analyst internship batch in Tamil Nadu or online. Pick a duration, meet your mentor and start your first case within weeks.",
-    "primary": { "label": "Apply for the internship", "href": "#apply" },
-    "secondary": { "label": "How to apply", "href": "/apply-for-internship" }
+    "primary": {
+      "label": "Apply for the internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "How to apply",
+      "href": "/apply-for-internship"
+    }
   },
   "course": {
     "name": "Business Analyst Internship",
     "description": "A mentored business analyst internship covering requirements elicitation, user stories, BPMN, SQL, Excel, Power BI, Agile and Scrum, Jira, Confluence and UAT planning.",
     "duration": "15 days to 6 months",
-    "modes": ["Onsite", "Online", "Blended"],
-    "skills": ["Requirements elicitation", "User stories", "BPMN", "SQL", "Power BI", "Agile and Scrum", "Jira and Confluence", "UAT planning"],
+    "modes": [
+      "Onsite",
+      "Online",
+      "Blended"
+    ],
+    "skills": [
+      "Requirements elicitation",
+      "User stories",
+      "BPMN",
+      "SQL",
+      "Power BI",
+      "Agile and Scrum",
+      "Jira and Confluence",
+      "UAT planning"
+    ],
     "audience": "Students and freshers"
   }
 }

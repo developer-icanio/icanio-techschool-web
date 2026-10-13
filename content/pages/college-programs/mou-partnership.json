@@ -15,7 +15,7 @@
       "joint certification program"
     ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "Industry and academic collaboration",
@@ -126,23 +126,28 @@
       "items": [
         {
           "title": "Enquiry and first call",
-          "body": "You send the form or call us. Our team speaks with your principal, HoD or placement officer to understand your departments, student strength and goals for the year."
+          "body": "You send the form or call us. Our team speaks with your principal, HoD or placement officer to understand your departments, student strength and goals for the year.",
+          "label": "Step 1"
         },
         {
           "title": "Campus visit and needs review",
-          "body": "We visit or meet online to review your labs, timetable and the skills your recruiters ask for. We recommend programs that fit your academic calendar."
+          "body": "We visit or meet online to review your labs, timetable and the skills your recruiters ask for. We recommend programs that fit your academic calendar.",
+          "label": "Step 2"
         },
         {
           "title": "Draft and sign the MoU",
-          "body": "We share a draft MoU partnership document that lists the agreed programs, responsibilities and points of contact. Both sides review it and sign it at a short ceremony."
+          "body": "We share a draft MoU partnership document that lists the agreed programs, responsibilities and points of contact. Both sides review it and sign it at a short ceremony.",
+          "label": "Step 3"
         },
         {
           "title": "Plan the first semester",
-          "body": "Together we fix dates for the first workshop, value added course or guest lecture. Your placement cell gets a single coordinator at Icanio Tech School."
+          "body": "Together we fix dates for the first workshop, value added course or guest lecture. Your placement cell gets a single coordinator at Icanio Tech School.",
+          "label": "Step 4"
         },
         {
           "title": "Deliver, certify and review",
-          "body": "Our engineers run the sessions. Students receive certificates, and we share attendance and feedback. Each semester we review results and plan the next set of programs."
+          "body": "Our engineers run the sessions. Students receive certificates, and we share attendance and feedback. Each semester we review results and plan the next set of programs.",
+          "label": "Finish"
         }
       ]
     },

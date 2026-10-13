@@ -11,7 +11,10 @@ import type { Block, PageContent } from "./types";
 const abs = (p: string) => `${SITE.url}${p === "/" ? "" : p}`;
 const orgId = `${SITE.url}/#organization`;
 
-export const CONTACT_LINE = `Contact our team at ${SITE.email} or call ${SITE.phone}, Monday to Saturday.`;
+/** Internship pages use the internship inbox; every other page the tech school inbox. */
+export const isInternshipPage = (p: Pick<PageContent, "kind" | "path">) => p.kind === "internship" || p.path === "/internships" || p.path === "/apply-for-internship";
+export const contactEmail = (p: Pick<PageContent, "kind" | "path">) => (isInternshipPage(p) ? SITE.internshipEmail : SITE.email);
+export const contactLine = (p: Pick<PageContent, "kind" | "path">) => `Contact our team at ${contactEmail(p)} or call ${SITE.phone}, Monday to Saturday.`;
 export const FAQ_HEADING = "Frequently Asked Questions";
 export const TAKEAWAYS_HEADING = "Key Takeaways";
 export const REFERENCES_HEADING = "References and Sources";
@@ -174,7 +177,7 @@ function blockMarkdown(b: Block, push: (...xs: (string | undefined | false)[]) =
       });
       break;
     case "steps":
-      push(...b.items.map((s, i) => `${i + 1}. **${s.label ? `${s.label}: ` : ""}${s.title}:** ${md(s.body)}`));
+      push(...b.items.map((s, i) => `${i + 1}. **${s.label ?? `Step ${i + 1}`}: ${s.title}:** ${md(s.body)}`));
       break;
     case "phases":
       b.items.forEach((ph) => {
@@ -243,7 +246,7 @@ export function markdownOf(p: PageContent): string {
   push(`## ${TAKEAWAYS_HEADING}`, ...p.takeaways.map((t) => `- ${md(t)}`));
   push("## Conclusion", ...p.conclusion.map(md));
   push(`## ${REFERENCES_HEADING}`, ...p.references.map((r) => `- [${r.label}](${r.href})`));
-  push(`## ${p.cta.title}`, md(p.cta.body), `[${p.cta.primary.label}](${p.cta.primary.href})`, p.cta.secondary && `[${p.cta.secondary.label}](${p.cta.secondary.href})`, CONTACT_LINE);
+  push(`## ${p.cta.title}`, md(p.cta.body), `[${p.cta.primary.label}](${p.cta.primary.href})`, p.cta.secondary && `[${p.cta.secondary.label}](${p.cta.secondary.href})`, contactLine(p));
   return out.join("\n\n");
 }
 

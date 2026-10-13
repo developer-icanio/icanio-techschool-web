@@ -81,10 +81,14 @@ p {
 }
 
 @layer components {
-/* Full-width page shell: edge to edge, with a 1-inch (96px) side margin on
-   desktop and smaller gutters on tablets and phones. */
+/* Page shell: 1-inch (96px) side margins on desktop, smaller gutters on
+   tablets and phones, and a maximum content width for very wide screens. */
 .shell {
   width: 100%;
+  /* Full width with 1-inch margins on normal screens; on very wide or
+     zoomed-out screens the content stops growing and centres. */
+  max-width: 1792px;
+  margin-inline: auto;
   padding-inline: 1rem;
 }
 @media (min-width: 640px) {

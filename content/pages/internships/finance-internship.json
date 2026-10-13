@@ -7,24 +7,56 @@
     "metaTitle": "Finance Internship: 4 Essential Accounting Phases",
     "metaDescription": "Finance internship in Tamil Nadu: accounting, GST, TDS and reconciliation in Excel, Zoho Books and Tally, with a 1:1 mentor and a certificate. Apply today.",
     "focusKeyword": "finance internship",
-    "secondaryKeywords": ["accounting internship", "gst and tds training", "tally and zoho books course", "internship with certificate", "internship for b.com students"],
+    "secondaryKeywords": [
+      "accounting internship",
+      "gst and tds training",
+      "tally and zoho books course",
+      "internship with certificate",
+      "internship for b.com students"
+    ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "Non-engineering internship",
     "title": "Finance Internship Through Practical Business Insights",
     "subtitle": "Our finance internship teaches the accounting work companies actually do: journals, ledgers, final accounts, GST, TDS and reconciliation. You practise in Excel, Zoho Books and Tally with a 1:1 mentor and finish with a certificate from Icanio Tech School.",
-    "image": { "src": "Group-2-1.png", "alt": "Student working on accounts and reports during the finance internship at Icanio" },
-    "primary": { "label": "Apply for this internship", "href": "#apply" },
-    "secondary": { "label": "View curriculum", "href": "#curriculum" },
-    "highlights": ["4 learning phases", "GST and TDS basics", "Excel, Zoho Books and Tally", "Certificate on completion"]
+    "image": {
+      "src": "Group-2-1.png",
+      "alt": "Student working on accounts and reports during the finance internship at Icanio"
+    },
+    "primary": {
+      "label": "Apply for this internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "View curriculum",
+      "href": "#curriculum"
+    },
+    "highlights": [
+      "4 learning phases",
+      "GST and TDS basics",
+      "Excel, Zoho Books and Tally",
+      "Certificate on completion"
+    ]
   },
   "facts": [
-    { "label": "Duration", "value": "15 days to 6 months" },
-    { "label": "Mode", "value": "Offline, online or part time" },
-    { "label": "Mentorship", "value": "1:1 with an Icanio mentor" },
-    { "label": "Certificate", "value": "Yes, on completion" }
+    {
+      "label": "Duration",
+      "value": "15 days to 6 months"
+    },
+    {
+      "label": "Mode",
+      "value": "Offline, online or part time"
+    },
+    {
+      "label": "Mentorship",
+      "value": "1:1 with an Icanio mentor"
+    },
+    {
+      "label": "Certificate",
+      "value": "Yes, on completion"
+    }
   ],
   "answer": {
     "question": "What is the finance internship at Icanio Tech School?",
@@ -46,8 +78,14 @@
         "Understand and compute GST and TDS",
         "Reconcile bank and vendor accounts"
       ],
-      "image": { "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-4-2.png", "alt": "Intern checking accounting entries during the finance internship" },
-      "link": { "label": "Compare all internship tracks", "href": "/internships" }
+      "image": {
+        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-4-2.png",
+        "alt": "Intern checking accounting entries during the finance internship"
+      },
+      "link": {
+        "label": "Compare all internship tracks",
+        "href": "/internships"
+      }
     },
     {
       "type": "cards",
@@ -57,10 +95,26 @@
       "intro": "You need basic comfort with numbers and a careful eye for detail. These four groups gain the most from our finance internship.",
       "columns": 4,
       "items": [
-        { "title": "Commerce graduates", "body": "B.Com, BBA and Economics students who know accounting theory and now want practical, job-ready finance experience.", "icon": "Group-2085662025-2.png" },
-        { "title": "CA and CMA aspirants", "body": "Students preparing for CA or CMA who want hands-on practice with real accounting work and software alongside their exams.", "icon": "Group-2085663180.png" },
-        { "title": "Career switchers", "body": "Professionals from any field who want to move into accounting, taxation or corporate finance roles in India.", "icon": "Group-2085662024-4-2.png" },
-        { "title": "Entrepreneurs and SME owners", "body": "Business owners who want to manage their own books, GST compliance and financial records with confidence.", "icon": "Group-2085662024-5-1.png" }
+        {
+          "title": "Commerce graduates",
+          "body": "B.Com, BBA and Economics students who know accounting theory and now want practical, job-ready finance experience.",
+          "icon": "Group-2085662025-2.png"
+        },
+        {
+          "title": "CA and CMA aspirants",
+          "body": "Students preparing for CA or CMA who want hands-on practice with real accounting work and software alongside their exams.",
+          "icon": "Group-2085663180.png"
+        },
+        {
+          "title": "Career switchers",
+          "body": "Professionals from any field who want to move into accounting, taxation or corporate finance roles in India.",
+          "icon": "Group-2085662024-4-2.png"
+        },
+        {
+          "title": "Entrepreneurs and SME owners",
+          "body": "Business owners who want to manage their own books, GST compliance and financial records with confidence.",
+          "icon": "Group-2085662024-5-1.png"
+        }
       ]
     },
     {
@@ -123,10 +177,26 @@
       "heading": "Accounting software you will use hands-on",
       "intro": "These are the tools accounts teams in Indian companies use every day. During the finance internship you record real entries in each one.",
       "items": [
-        { "name": "Microsoft Excel", "role": "Finance workings and analysis", "logo": "microsoft-excel-2013-1.png" },
-        { "name": "Zoho Books", "role": "Cloud accounting", "logo": "Group-2085662670.png" },
-        { "name": "Tally", "role": "Bookkeeping and GST", "logo": "tally-logo-black-1.png" },
-        { "name": "Word / Docs", "role": "Financial report writing", "logo": "word-svgrepo-com-1-2.png" }
+        {
+          "name": "Microsoft Excel",
+          "role": "Finance workings and analysis",
+          "logo": "microsoft-excel-2013-1.png"
+        },
+        {
+          "name": "Zoho Books",
+          "role": "Cloud accounting",
+          "logo": "Group-2085662670.png"
+        },
+        {
+          "name": "Tally",
+          "role": "Bookkeeping and GST",
+          "logo": "tally-logo-black-1.png"
+        },
+        {
+          "name": "Word / Docs",
+          "role": "Financial report writing",
+          "logo": "word-svgrepo-com-1-2.png"
+        }
       ]
     },
     {
@@ -144,7 +214,10 @@
         "GST and TDS workings for every relevant entry",
         "An end-of-week reconciliation reviewed by your mentor"
       ],
-      "image": { "src": "ourInternshipProgramImg.png", "alt": "Interns reviewing ledgers with a mentor in the finance internship" },
+      "image": {
+        "src": "ourInternshipProgramImg.png",
+        "alt": "Interns reviewing ledgers with a mentor in the finance internship"
+      },
       "reverse": true
     },
     {
@@ -155,10 +228,26 @@
       "intro": "Each outcome below is a practical skill you can demonstrate in an interview or a skills test.",
       "columns": 4,
       "items": [
-        { "title": "Core accounting skills", "body": "You handle bookkeeping, accounts preparation and the complete accounting cycle, from journal entry to final accounts.", "icon": "Group-2085662024-28.png" },
-        { "title": "Taxation compliance", "body": "You understand GST, TDS and the return filing process well enough to support a compliance team from day one.", "icon": "Group-2085662024-29.png" },
-        { "title": "Software proficiency", "body": "You work confidently in Excel, Zoho Books and Tally, the three tools most small and mid-sized firms rely on.", "icon": "Group-1000005365-12.png" },
-        { "title": "Reconciliation and controls", "body": "You reconcile bank and vendor accounts and validate financial records, so errors are caught before they grow.", "icon": "Group-2085662024-22-1.png" }
+        {
+          "title": "Core accounting skills",
+          "body": "You handle bookkeeping, accounts preparation and the complete accounting cycle, from journal entry to final accounts.",
+          "icon": "Group-2085662024-28.png"
+        },
+        {
+          "title": "Taxation compliance",
+          "body": "You understand GST, TDS and the return filing process well enough to support a compliance team from day one.",
+          "icon": "Group-2085662024-29.png"
+        },
+        {
+          "title": "Software proficiency",
+          "body": "You work confidently in Excel, Zoho Books and Tally, the three tools most small and mid-sized firms rely on.",
+          "icon": "Group-1000005365-12.png"
+        },
+        {
+          "title": "Reconciliation and controls",
+          "body": "You reconcile bank and vendor accounts and validate financial records, so errors are caught before they grow.",
+          "icon": "Group-2085662024-22-1.png"
+        }
       ]
     },
     {
@@ -167,11 +256,31 @@
       "heading": "How the finance internship runs, step by step",
       "intro": "The pace depends on the duration you choose. The order stays the same, so you always know what comes next.",
       "items": [
-        { "label": "Step 1", "title": "Apply and talk to our team", "body": "Fill in the short form below to apply for the finance internship. Our team calls you and helps you pick a duration and mode that suits your college calendar." },
-        { "label": "Step 2", "title": "Onboarding and a quick baseline", "body": "You meet your mentor and complete a short set of entries. This shows where you stand, so your mentor can set the right pace." },
-        { "label": "Step 3", "title": "Work through the four phases", "body": "You move from accounting basics to taxation, then software, then reconciliation. Each phase ends with a checked practice set." },
-        { "label": "Step 4", "title": "Close a full month of books", "body": "You record, reconcile and report one month of transactions end to end. This becomes the main case study in your finance internship portfolio." },
-        { "label": "Step 5", "title": "Final review and certificate", "body": "You walk your mentor through your books and receive your Icanio Tech School certificate. Top performers are referred to the Icanio talent team." }
+        {
+          "label": "Start",
+          "title": "Apply and talk to our team",
+          "body": "Fill in the short form below to apply for the finance internship. Our team calls you and helps you pick a duration and mode that suits your college calendar."
+        },
+        {
+          "label": "Week 1",
+          "title": "Onboarding and a quick baseline",
+          "body": "You meet your mentor and complete a short set of entries. This shows where you stand, so your mentor can set the right pace."
+        },
+        {
+          "label": "Phases 1 to 4",
+          "title": "Work through the four phases",
+          "body": "You move from accounting basics to taxation, then software, then reconciliation. Each phase ends with a checked practice set. The phases are Phase 1: Accounting and financial statement basics, Phase 2: Taxation fundamentals, Phase 3: Finance tools and software, Phase 4: Reconciliation and practical application."
+        },
+        {
+          "label": "Capstone",
+          "title": "Close a full month of books",
+          "body": "You record, reconcile and report one month of transactions end to end. This becomes the main case study in your finance internship portfolio."
+        },
+        {
+          "label": "Finish",
+          "title": "Final review and certificate",
+          "body": "You walk your mentor through your books and receive your Icanio Tech School certificate. Top performers are referred to the Icanio talent team."
+        }
       ]
     },
     {
@@ -190,20 +299,47 @@
         "Complete a bank reconciliation and a vendor reconciliation",
         "Keep a month of financial records organised and audit ready"
       ],
-      "image": { "src": "WhatWeDoSectionImg2.png", "alt": "Students completing finance internship tasks at Icanio Tech School" }
+      "image": {
+        "src": "WhatWeDoSectionImg2.png",
+        "alt": "Students completing finance internship tasks at Icanio Tech School"
+      }
     },
     {
       "type": "table",
       "eyebrow": "Career paths",
       "heading": "Roles a finance internship prepares you for",
       "intro": "The same accounting and tax skills lead to several entry-level roles. Here is how they differ.",
-      "columns": ["Role", "What you do", "Key skills"],
+      "columns": [
+        "Role",
+        "What you do",
+        "Key skills"
+      ],
       "rows": [
-        ["Accounts executive", "Record transactions and maintain books", "Tally, Zoho Books, ledgers"],
-        ["Accounts payable associate", "Process vendor bills and payments", "Vendor reconciliation, TDS, accuracy"],
-        ["Accounts receivable associate", "Invoice customers and track collections", "Excel, follow-up, reconciliation"],
-        ["GST and tax assistant", "Prepare GST and TDS workings and filings", "GST, TDS, compliance calendars"],
-        ["Junior finance analyst", "Prepare reports and simple analysis", "Excel, final accounts, reporting"]
+        [
+          "Accounts executive",
+          "Record transactions and maintain books",
+          "Tally, Zoho Books, ledgers"
+        ],
+        [
+          "Accounts payable associate",
+          "Process vendor bills and payments",
+          "Vendor reconciliation, TDS, accuracy"
+        ],
+        [
+          "Accounts receivable associate",
+          "Invoice customers and track collections",
+          "Excel, follow-up, reconciliation"
+        ],
+        [
+          "GST and tax assistant",
+          "Prepare GST and TDS workings and filings",
+          "GST, TDS, compliance calendars"
+        ],
+        [
+          "Junior finance analyst",
+          "Prepare reports and simple analysis",
+          "Excel, final accounts, reporting"
+        ]
       ],
       "note": "Many interns start in accounts or tax and grow into finance analyst or senior accountant roles."
     },
@@ -226,12 +362,36 @@
       "eyebrow": "Keep exploring",
       "heading": "Related internships to consider",
       "items": [
-        { "title": "Data Analyst Internship", "href": "/internships/data-analyst-internship", "body": "Add SQL, Python and Power BI to your Excel skills." },
-        { "title": "Business Analyst Internship", "href": "/internships/business-analyst-internship", "body": "Understand processes and requirements across a business." },
-        { "title": "Sales Internship", "href": "/internships/sales-internship", "body": "Lead generation, CRM pipelines and sales analytics." },
-        { "title": "HR Internship", "href": "/internships/hr-internship", "body": "Recruitment, onboarding, HR policy and people metrics." },
-        { "title": "Project Management Internship", "href": "/internships/project-management-internship", "body": "Plan budgets, timelines and delivery on real projects." },
-        { "title": "All 15 internship tracks", "href": "/internships", "body": "Compare durations, modes and outcomes across every track." }
+        {
+          "title": "Data Analyst Internship",
+          "href": "/internships/data-analyst-internship",
+          "body": "Add SQL, Python and Power BI to your Excel skills."
+        },
+        {
+          "title": "Business Analyst Internship",
+          "href": "/internships/business-analyst-internship",
+          "body": "Understand processes and requirements across a business."
+        },
+        {
+          "title": "Sales Internship",
+          "href": "/internships/sales-internship",
+          "body": "Lead generation, CRM pipelines and sales analytics."
+        },
+        {
+          "title": "HR Internship",
+          "href": "/internships/hr-internship",
+          "body": "Recruitment, onboarding, HR policy and people metrics."
+        },
+        {
+          "title": "Project Management Internship",
+          "href": "/internships/project-management-internship",
+          "body": "Plan budgets, timelines and delivery on real projects."
+        },
+        {
+          "title": "All 15 internship tracks",
+          "href": "/internships",
+          "body": "Compare durations, modes and outcomes across every track."
+        }
       ]
     },
     {
@@ -248,14 +408,38 @@
     }
   ],
   "faqs": [
-    { "q": "Who is eligible for the finance internship?", "a": "Students and graduates with basic comfort in numbers can apply. The finance internship suits B.Com, BBA and Economics students, CA and CMA aspirants, career switchers and small business owners. You do not need prior work experience. Our team will look at your background and suggest a duration that fits your goals." },
-    { "q": "Do I need to know Tally before joining?", "a": "No. Phase 3 covers Tally and Zoho Books from company setup onwards. If you already know Tally, your mentor will move you faster and add more practice sets. What matters more is a clear grasp of debits and credits, which we cover in Phase 1 before you touch any software." },
-    { "q": "How long is the finance internship?", "a": "You choose the duration, from 15 days up to six months. A short internship covers accounting basics and GST and TDS in depth. Three to six months lets you complete all four phases, practise in Excel, Zoho Books and Tally, and close a full month of books. Our team helps you decide." },
-    { "q": "Does the finance internship cover GST and TDS?", "a": "Yes. Phase 2 is dedicated to taxation. You learn TDS concepts and common sections, compute TDS on everyday payments and see how filing works. On GST you learn input tax credit, output tax and the basics of return filing. You then apply both in your weekly practice sets." },
-    { "q": "Can I do the finance internship online?", "a": "Yes. You can attend offline at our centre, join online, or choose part-time weekday or weekend batches. Hybrid is also possible. Online interns get the same 1:1 mentorship, practice set reviews and certificate as offline interns, so choose whatever fits your college timetable best." },
-    { "q": "Is this internship useful for CA or CMA students?", "a": "Yes. CA and CMA aspirants use it to connect exam concepts with real accounting work. Posting entries, computing TDS and reconciling accounts in software makes the theory easier to remember. It also gives you practical examples to discuss in articleship or job interviews." },
-    { "q": "Will I get a certificate and placement support?", "a": "Every intern who completes the finance internship receives an Icanio Tech School certificate stating the track and duration. The final phase includes resume building and interview practice. Top performers are referred to the Icanio Technologies talent team, and our wider programs have placed over 1,000 students." },
-    { "q": "Can business owners join to manage their own accounts?", "a": "Yes. Entrepreneurs and SME owners join to understand their own books, GST compliance and records. By the end you can read your accounts, spot errors and talk confidently with your auditor or tax consultant. You can also decide whether Tally or Zoho Books suits your business better." }
+    {
+      "q": "Who is eligible for the finance internship?",
+      "a": "Students and graduates with basic comfort in numbers can apply. The finance internship suits B.Com, BBA and Economics students, CA and CMA aspirants, career switchers and small business owners. You do not need prior work experience. Our team will look at your background and suggest a duration that fits your goals."
+    },
+    {
+      "q": "Do I need to know Tally before joining?",
+      "a": "No. Phase 3 covers Tally and Zoho Books from company setup onwards. If you already know Tally, your mentor will move you faster and add more practice sets. What matters more is a clear grasp of debits and credits, which we cover in Phase 1 before you touch any software."
+    },
+    {
+      "q": "How long is the finance internship?",
+      "a": "You choose the duration, from 15 days up to six months. A short internship covers accounting basics and GST and TDS in depth. Three to six months lets you complete all four phases, practise in Excel, Zoho Books and Tally, and close a full month of books. Our team helps you decide."
+    },
+    {
+      "q": "Does the finance internship cover GST and TDS?",
+      "a": "Yes. Phase 2 is dedicated to taxation. You learn TDS concepts and common sections, compute TDS on everyday payments and see how filing works. On GST you learn input tax credit, output tax and the basics of return filing. You then apply both in your weekly practice sets."
+    },
+    {
+      "q": "Can I do the finance internship online?",
+      "a": "Yes. You can attend offline at our centre, join online, or choose part-time weekday or weekend batches. Hybrid is also possible. Online interns get the same 1:1 mentorship, practice set reviews and certificate as offline interns, so choose whatever fits your college timetable best."
+    },
+    {
+      "q": "Is this internship useful for CA or CMA students?",
+      "a": "Yes. CA and CMA aspirants use it to connect exam concepts with real accounting work. Posting entries, computing TDS and reconciling accounts in software makes the theory easier to remember. It also gives you practical examples to discuss in articleship or job interviews."
+    },
+    {
+      "q": "Will I get a certificate and placement support?",
+      "a": "Every intern who completes the finance internship receives an Icanio Tech School certificate stating the track and duration. The final phase includes resume building and interview practice. Top performers are referred to the Icanio Technologies talent team, and our wider programs have placed over 1,000 students."
+    },
+    {
+      "q": "Can business owners join to manage their own accounts?",
+      "a": "Yes. Entrepreneurs and SME owners join to understand their own books, GST compliance and records. By the end you can read your accounts, spot errors and talk confidently with your auditor or tax consultant. You can also decide whether Tally or Zoho Books suits your business better."
+    }
   ],
   "takeaways": [
     "The finance internship covers accounting, GST, TDS, finance software and reconciliation in four phases.",
@@ -269,23 +453,55 @@
     "If you are a commerce student in Tamil Nadu ready to move from theory to practice, start with one ledger and one reconciliation. Apply below, talk to our team, and we will help you plan the right duration for your finance internship."
   ],
   "references": [
-    { "label": "Accounting, overview on Wikipedia", "href": "https://en.wikipedia.org/wiki/Accounting" },
-    { "label": "Goods and Services Tax portal, Government of India", "href": "https://www.gst.gov.in/" },
-    { "label": "Income Tax Department, Government of India", "href": "https://www.incometax.gov.in/" },
-    { "label": "AICTE Internship Policy and guidelines for students", "href": "https://www.aicte-india.org/education/internship" }
+    {
+      "label": "Accounting, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Accounting"
+    },
+    {
+      "label": "Goods and Services Tax portal, Government of India",
+      "href": "https://www.gst.gov.in/"
+    },
+    {
+      "label": "Income Tax Department, Government of India",
+      "href": "https://www.incometax.gov.in/"
+    },
+    {
+      "label": "AICTE Internship Policy and guidelines for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    }
   ],
   "cta": {
     "title": "Ready to start your finance internship?",
     "body": "Pick a duration, talk to our team and join the next batch. You can start within weeks.",
-    "primary": { "label": "Apply now", "href": "#apply" },
-    "secondary": { "label": "See all internships", "href": "/internships" }
+    "primary": {
+      "label": "Apply now",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "See all internships",
+      "href": "/internships"
+    }
   },
   "course": {
     "name": "Finance Internship",
     "description": "A mentored finance internship covering accounting, final accounts, GST, TDS, Excel, Zoho Books, Tally and reconciliation, with practical practice sets and a certificate.",
     "duration": "15 days to 6 months",
-    "modes": ["Onsite", "Online", "Blended"],
-    "skills": ["Bookkeeping", "Final accounts", "Payroll, AP and AR", "TDS", "GST", "Microsoft Excel", "Zoho Books", "Tally", "Bank reconciliation"],
+    "modes": [
+      "Onsite",
+      "Online",
+      "Blended"
+    ],
+    "skills": [
+      "Bookkeeping",
+      "Final accounts",
+      "Payroll, AP and AR",
+      "TDS",
+      "GST",
+      "Microsoft Excel",
+      "Zoho Books",
+      "Tally",
+      "Bank reconciliation"
+    ],
     "audience": "Students and freshers"
   }
 }

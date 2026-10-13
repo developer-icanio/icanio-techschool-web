@@ -14,7 +14,7 @@
       "industry academia events"
     ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "Inside Icanio Tech School",
@@ -328,23 +328,28 @@
       "items": [
         {
           "title": "Enquiry and call",
-          "body": "Send the form below. Our team calls within one working day to understand your goals and student profile."
+          "body": "Send the form below. Our team calls within one working day to understand your goals and student profile.",
+          "label": "Step 1"
         },
         {
           "title": "Choose format and topic",
-          "body": "Together we pick the format, topic, audience and date, around your exams and academic calendar."
+          "body": "Together we pick the format, topic, audience and date, around your exams and academic calendar.",
+          "label": "Step 2"
         },
         {
           "title": "Trainer and plan",
-          "body": "We assign a practising Icanio engineer and share the session plan with your faculty for review."
+          "body": "We assign a practising Icanio engineer and share the session plan with your faculty for review.",
+          "label": "Step 3"
         },
         {
           "title": "Event day",
-          "body": "The trainer delivers the session on campus. Your faculty co-facilitate and keep attendance records."
+          "body": "The trainer delivers the session on campus. Your faculty co-facilitate and keep attendance records.",
+          "label": "Step 4"
         },
         {
           "title": "Follow-up",
-          "body": "We share feedback and suggest next steps, such as internships for interested students or a full course."
+          "body": "We share feedback and suggest next steps, such as internships for interested students or a full course.",
+          "label": "Finish"
         }
       ]
     },

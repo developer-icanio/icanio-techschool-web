@@ -14,7 +14,7 @@
       "career planning for engineering students"
     ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "Free resources",
@@ -243,23 +243,28 @@
       "items": [
         {
           "title": "Read the direct answer first",
-          "body": "Every guide opens with a short answer. Read it, then decide which sections you need in detail."
+          "body": "Every guide opens with a short answer. Read it, then decide which sections you need in detail.",
+          "label": "Step 1"
         },
         {
           "title": "Pick one action for this week",
-          "body": "Choose a single step, such as building your first project or rewriting your resume, and put it in your calendar."
+          "body": "Choose a single step, such as building your first project or rewriting your resume, and put it in your calendar.",
+          "label": "Step 2"
         },
         {
           "title": "Use the checklist honestly",
-          "body": "Each guide has a checklist. Tick only what you can prove with real work. The unticked items are your plan."
+          "body": "Each guide has a checklist. Tick only what you can prove with real work. The unticked items are your plan.",
+          "label": "Step 3"
         },
         {
           "title": "Get feedback from someone",
-          "body": "Show your project, resume or practice interview to a senior, faculty member or mentor. Feedback speeds everything up."
+          "body": "Show your project, resume or practice interview to a senior, faculty member or mentor. Feedback speeds everything up.",
+          "label": "Step 4"
         },
         {
           "title": "Take the next structured step",
-          "body": "When you are ready, join an internship or program where a mentor reviews your work every week."
+          "body": "When you are ready, join an internship or program where a mentor reviews your work every week.",
+          "label": "Finish"
         }
       ]
     },

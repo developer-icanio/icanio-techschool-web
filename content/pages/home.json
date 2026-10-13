@@ -6,18 +6,38 @@
     "metaTitle": "Tech Internships: 15 Proven Tracks in Tamil Nadu",
     "metaDescription": "Tech internships in Tamil Nadu by Icanio Technologies: 15 tracks, live client projects, 1:1 mentors and a certificate. 2,000+ students trained. Apply today.",
     "focusKeyword": "tech internships",
-    "secondaryKeywords": ["internship in tamil nadu", "internship with certificate", "college mou programs", "industry training for students", "student development program"],
+    "secondaryKeywords": [
+      "internship in tamil nadu",
+      "internship with certificate",
+      "college mou programs",
+      "industry training for students",
+      "student development program"
+    ],
     "publishedAt": "2026-07-15",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "2,000+ students trained",
     "title": "Build an Industry-Ready Tech Career With Icanio",
     "subtitle": "Tech internships, career programs and college partnerships taught by the engineers who build real products at Icanio Technologies. Learn on live projects, get mentored 1:1 and leave with work you can show.",
-    "image": { "src": "HomeLandingSectionImg.png", "alt": "Student at Icanio Tech School surrounded by the tech stacks taught in its tech internships" },
-    "primary": { "label": "Explore internships", "href": "/internships" },
-    "secondary": { "label": "I represent a college", "href": "/college-programs" },
-    "highlights": ["15 internship tracks", "30+ MoU colleges", "Certificate on completion", "Offline, online and part time"]
+    "image": {
+      "src": "HomeLandingSectionImg.png",
+      "alt": "Student at Icanio Tech School surrounded by the tech stacks taught in its tech internships"
+    },
+    "primary": {
+      "label": "Explore internships",
+      "href": "/internships"
+    },
+    "secondary": {
+      "label": "I represent a college",
+      "href": "/college-programs"
+    },
+    "highlights": [
+      "15 internship tracks",
+      "30+ MoU colleges",
+      "Certificate on completion",
+      "Offline, online and part time"
+    ]
   },
   "answer": {
     "question": "What is Icanio Tech School?",
@@ -28,10 +48,22 @@
       "type": "stats",
       "heading": "Tech internships that lead to careers",
       "items": [
-        { "value": "90%", "label": "Placed within 5 months" },
-        { "value": "10+", "label": "Tech stacks taught" },
-        { "value": "2,000+", "label": "Students trained" },
-        { "value": "1,000+", "label": "Students placed" }
+        {
+          "value": "90%",
+          "label": "Placed within 5 months"
+        },
+        {
+          "value": "10+",
+          "label": "Tech stacks taught"
+        },
+        {
+          "value": "2,000+",
+          "label": "Students trained"
+        },
+        {
+          "value": "1,000+",
+          "label": "Students placed"
+        }
       ]
     },
     {
@@ -70,21 +102,111 @@
       "intro": "Our tech internships follow the same tools and workflows our delivery teams use. Choose a track, then choose a duration of up to six months.",
       "columns": 3,
       "items": [
-        { "title": "Frontend Development", "body": "Build responsive interfaces with HTML, CSS, JavaScript, React and TypeScript, then deploy them.", "href": "/internships/frontend-development-internship", "icon": "Group-2085661927.png", "meta": "Engineering" },
-        { "title": "Backend Development", "body": "Design APIs, databases and server logic, and learn how production services are tested and shipped.", "href": "/internships/backend-development-internship", "icon": "Group-2085661908.png", "meta": "Engineering" },
-        { "title": "Full Stack Development", "body": "Take a web product from interface to database to deployment on one end-to-end project.", "href": "/internships/full-stack-development-internship", "icon": "Group-2085661920.png", "meta": "Engineering" },
-        { "title": "Software Testing", "body": "Learn manual and automation testing, write test cases and report defects the way QA teams do.", "href": "/internships/software-testing-internship", "icon": "Group-2085661910.png", "meta": "Engineering" },
-        { "title": "AI & ML", "body": "Clean real datasets, train machine learning models and evaluate them on practical problems.", "href": "/internships/ai-ml-internship", "icon": "Group-2085663220.png", "meta": "Engineering" },
-        { "title": "UI/UX Design", "body": "Go from user research to wireframes to clickable prototypes in Figma on real product briefs.", "href": "/internships/ui-ux-design-internship", "icon": "Group-2085661914.png", "meta": "Engineering" },
-        { "title": "DevOps", "body": "Automate builds, deployments and infrastructure with CI/CD pipelines, containers and cloud.", "href": "/internships/devops-internship", "icon": "Group-2085661916.png", "meta": "Engineering" },
-        { "title": "Flutter App Development", "body": "Create cross-platform mobile apps with Flutter, from screen design to store-ready builds.", "href": "/internships/flutter-developer-internship", "icon": "Group-2085661918.png", "meta": "Engineering" },
-        { "title": "Business Analyst", "body": "Gather requirements, map processes and write the documents that guide delivery teams.", "href": "/internships/business-analyst-internship", "icon": "Group-2085661922.png", "meta": "Engineering" },
-        { "title": "Project Management", "body": "Plan sprints, track delivery and coordinate people from kickoff to release.", "href": "/internships/project-management-internship", "icon": "Group-2085661924.png", "meta": "Engineering" },
-        { "title": "Data Analyst", "body": "Turn raw data into dashboards and insights with Excel, SQL, Python and Power BI.", "href": "/internships/data-analyst-internship", "icon": "Group-1000005365-10-2.png", "meta": "Non-engineering" },
-        { "title": "Digital Marketing", "body": "Run live campaigns across content, social media, SEO and ads, and measure what works.", "href": "/internships/digital-marketing-internship", "icon": "Group-1000005365-9-2.png", "meta": "Non-engineering" },
-        { "title": "Human Resource", "body": "Work on recruitment, onboarding and employee engagement tasks inside a real company.", "href": "/internships/hr-internship", "icon": "Group-1000005365-7-2.png", "meta": "Non-engineering" },
-        { "title": "Finance", "body": "Practise budgeting, reporting and financial analysis on live business data.", "href": "/internships/finance-internship", "icon": "Group-1000005365-8-2.png", "meta": "Non-engineering" },
-        { "title": "Sales", "body": "Learn lead generation, client communication and closing through real market interactions.", "href": "/internships/sales-internship", "icon": "Group-1000005365-11-1.png", "meta": "Non-engineering" }
+        {
+          "title": "Frontend Development",
+          "body": "Build responsive interfaces with HTML, CSS, JavaScript, React and TypeScript, then deploy them.",
+          "href": "/internships/frontend-development-internship",
+          "icon": "Group-2085661927.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Backend Development",
+          "body": "Design APIs, databases and server logic, and learn how production services are tested and shipped.",
+          "href": "/internships/backend-development-internship",
+          "icon": "Group-2085661908.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Full Stack Development",
+          "body": "Take a web product from interface to database to deployment on one end-to-end project.",
+          "href": "/internships/full-stack-development-internship",
+          "icon": "Group-2085661920.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Software Testing",
+          "body": "Learn manual and automation testing, write test cases and report defects the way QA teams do.",
+          "href": "/internships/software-testing-internship",
+          "icon": "Group-2085661910.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "AI & ML",
+          "body": "Clean real datasets, train machine learning models and evaluate them on practical problems.",
+          "href": "/internships/ai-ml-internship",
+          "icon": "Group-2085663220.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "UI/UX Design",
+          "body": "Go from user research to wireframes to clickable prototypes in Figma on real product briefs.",
+          "href": "/internships/ui-ux-design-internship",
+          "icon": "Group-2085661914.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "DevOps",
+          "body": "Automate builds, deployments and infrastructure with CI/CD pipelines, containers and cloud.",
+          "href": "/internships/devops-internship",
+          "icon": "Group-2085661916.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Flutter App Development",
+          "body": "Create cross-platform mobile apps with Flutter, from screen design to store-ready builds.",
+          "href": "/internships/flutter-developer-internship",
+          "icon": "Group-2085661918.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Business Analyst",
+          "body": "Gather requirements, map processes and write the documents that guide delivery teams.",
+          "href": "/internships/business-analyst-internship",
+          "icon": "Group-2085661922.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Project Management",
+          "body": "Plan sprints, track delivery and coordinate people from kickoff to release.",
+          "href": "/internships/project-management-internship",
+          "icon": "Group-2085661924.png",
+          "meta": "Engineering"
+        },
+        {
+          "title": "Data Analyst",
+          "body": "Turn raw data into dashboards and insights with Excel, SQL, Python and Power BI.",
+          "href": "/internships/data-analyst-internship",
+          "icon": "Group-1000005365-10-2.png",
+          "meta": "Non-engineering"
+        },
+        {
+          "title": "Digital Marketing",
+          "body": "Run live campaigns across content, social media, SEO and ads, and measure what works.",
+          "href": "/internships/digital-marketing-internship",
+          "icon": "Group-1000005365-9-2.png",
+          "meta": "Non-engineering"
+        },
+        {
+          "title": "Human Resource",
+          "body": "Work on recruitment, onboarding and employee engagement tasks inside a real company.",
+          "href": "/internships/hr-internship",
+          "icon": "Group-1000005365-7-2.png",
+          "meta": "Non-engineering"
+        },
+        {
+          "title": "Finance",
+          "body": "Practise budgeting, reporting and financial analysis on live business data.",
+          "href": "/internships/finance-internship",
+          "icon": "Group-1000005365-8-2.png",
+          "meta": "Non-engineering"
+        },
+        {
+          "title": "Sales",
+          "body": "Learn lead generation, client communication and closing through real market interactions.",
+          "href": "/internships/sales-internship",
+          "icon": "Group-1000005365-11-1.png",
+          "meta": "Non-engineering"
+        }
       ]
     },
     {
@@ -94,11 +216,31 @@
       "heading": "How tech internships at Icanio work, step by step",
       "intro": "Five steps take you from application to a verified certificate. Our team stays with you at each one.",
       "items": [
-        { "title": "Apply and talk to a counsellor", "body": "Send the short form. Our team calls you within one working day to understand your goal, year of study and preferred start date." },
-        { "title": "Pick your track and duration", "body": "Choose one of our 15 tech internships and a duration from 15 days to six months, offline, online or part time." },
-        { "title": "Learn in phases with a mentor", "body": "Each track moves through structured phases. A working engineer reviews your code or deliverables every week." },
-        { "title": "Ship a live project", "body": "You work on a brief derived from Icanio client scenarios, in sprints, with the same review standards as our internal teams." },
-        { "title": "Get certified and referred", "body": "Finish with a certificate, a portfolio review and interview practice. Top performers are referred to the Icanio talent team." }
+        {
+          "title": "Apply and talk to a counsellor",
+          "body": "Send the short form. Our team calls you within one working day to understand your goal, year of study and preferred start date.",
+          "label": "Step 1"
+        },
+        {
+          "title": "Pick your track and duration",
+          "body": "Choose one of our 15 tech internships and a duration from 15 days to six months, offline, online or part time.",
+          "label": "Step 2"
+        },
+        {
+          "title": "Learn in phases with a mentor",
+          "body": "Each track moves through structured phases. A working engineer reviews your code or deliverables every week.",
+          "label": "Step 3"
+        },
+        {
+          "title": "Ship a live project",
+          "body": "You work on a brief derived from Icanio client scenarios, in sprints, with the same review standards as our internal teams.",
+          "label": "Step 4"
+        },
+        {
+          "title": "Get certified and referred",
+          "body": "Finish with a certificate, a portfolio review and interview practice. Top performers are referred to the Icanio talent team.",
+          "label": "Finish"
+        }
       ]
     },
     {
@@ -117,22 +259,63 @@
         "Trainers are background verified by Icanio HR",
         "Student feedback is reviewed every cohort"
       ],
-      "image": { "src": "WhatWeDoSectionImg1.png", "alt": "Icanio engineer mentoring a student during tech internships at Icanio Tech School" },
-      "link": { "label": "Meet our industry trainers", "href": "/industry-trainers" }
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Icanio engineer mentoring a student during tech internships at Icanio Tech School"
+      },
+      "link": {
+        "label": "Meet our industry trainers",
+        "href": "/industry-trainers"
+      }
     },
     {
       "type": "table",
       "eyebrow": "Compare",
       "heading": "Tech internships vs online courses vs college projects",
       "intro": "Each option teaches something. The difference is how close you get to real work, and what you can show an employer at the end.",
-      "columns": ["What you get", "Icanio tech internships", "Online video course", "Typical college project"],
+      "columns": [
+        "What you get",
+        "Icanio tech internships",
+        "Online video course",
+        "Typical college project"
+      ],
       "rows": [
-        ["Who teaches", "Practising Icanio engineers", "Pre-recorded instructor", "Faculty guide"],
-        ["Project type", "Real client scenarios", "Tutorial follow-along", "Self-chosen topic"],
-        ["Work review", "Weekly, to PR standards", "Auto quizzes", "End-term viva"],
-        ["Team workflow", "Sprints, stand-ups, Git", "Solo", "Small group, informal"],
-        ["Career support", "Mock interviews, referral", "Rarely", "Placement cell"],
-        ["Proof at the end", "Certificate plus shipped portfolio", "Completion badge", "Report and marks"]
+        [
+          "Who teaches",
+          "Practising Icanio engineers",
+          "Pre-recorded instructor",
+          "Faculty guide"
+        ],
+        [
+          "Project type",
+          "Real client scenarios",
+          "Tutorial follow-along",
+          "Self-chosen topic"
+        ],
+        [
+          "Work review",
+          "Weekly, to PR standards",
+          "Auto quizzes",
+          "End-term viva"
+        ],
+        [
+          "Team workflow",
+          "Sprints, stand-ups, Git",
+          "Solo",
+          "Small group, informal"
+        ],
+        [
+          "Career support",
+          "Mock interviews, referral",
+          "Rarely",
+          "Placement cell"
+        ],
+        [
+          "Proof at the end",
+          "Certificate plus shipped portfolio",
+          "Completion badge",
+          "Report and marks"
+        ]
       ],
       "note": "We recommend tech internships in your pre-final or final year, when you can apply the fundamentals you already know to a real project."
     },
@@ -149,7 +332,10 @@
         "Resume building, mock interviews and LinkedIn guidance",
         "A referral to the Icanio talent team if you are a top performer"
       ],
-      "image": { "src": "ourInternshipProgramImg.png", "alt": "Intern completing a project in tech internships at Icanio Tech School" }
+      "image": {
+        "src": "ourInternshipProgramImg.png",
+        "alt": "Intern completing a project in tech internships at Icanio Tech School"
+      }
     },
     {
       "type": "partners",
@@ -166,19 +352,67 @@
       "intro": "Colleges use these programs to close the gap between the syllabus and what industry expects. Most start with an MoU and add programs each semester.",
       "columns": 3,
       "items": [
-        { "title": "MoU Partnership", "body": "A long-term agreement that gives your students priority access to workshops, value added courses and free or sponsored internships.", "href": "/college-programs/mou-partnership", "image": { "src": "Group-2085661740-3.png", "alt": "MoU partnership between a college and Icanio Tech School" } },
-        { "title": "Value Added Courses", "body": "Lab-based courses delivered on your campus by industry experts, using real tools and workflows within your timetable.", "href": "/college-programs/value-added-courses", "image": { "src": "ValueAddedCourseImg.png", "alt": "Students in a value added course by Icanio Tech School" } },
-        { "title": "Guest Lectures", "body": "Sessions by practising engineers on AI, cloud, DevOps, cybersecurity and careers, with live Q&A for students.", "href": "/college-programs/guest-lectures", "image": { "src": "GuestLecturesImg.png", "alt": "Industry guest lecture for college students by Icanio" } },
-        { "title": "Faculty Development Program", "body": "Hands-on FDPs that help faculty stay current with modern tools, technologies and project-based teaching.", "href": "/college-programs/faculty-development-program", "image": { "src": "young-handsome-man-holding-notebooks-concept-e-learning-courses-1.png", "alt": "Faculty member attending a faculty development program" } },
-        { "title": "Industrial Visit", "body": "Students visit a working software company, meet engineers and see how real delivery teams run day to day.", "href": "/college-programs/industrial-visit", "image": { "src": "home-IV.png", "alt": "Students on an industrial visit to Icanio Technologies" } },
-        { "title": "Internships for your students", "body": "Place your students in any of our 15 tech internships, with progress updates shared with your placement cell.", "href": "/internships", "image": { "src": "WhatWeDoSectionImg2.png", "alt": "College students joining tech internships at Icanio" } }
+        {
+          "title": "MoU Partnership",
+          "body": "A long-term agreement that gives your students priority access to workshops, value added courses and free or sponsored internships.",
+          "href": "/college-programs/mou-partnership",
+          "image": {
+            "src": "Group-2085661740-3.png",
+            "alt": "MoU partnership between a college and Icanio Tech School"
+          }
+        },
+        {
+          "title": "Value Added Courses",
+          "body": "Lab-based courses delivered on your campus by industry experts, using real tools and workflows within your timetable.",
+          "href": "/college-programs/value-added-courses",
+          "image": {
+            "src": "ValueAddedCourseImg.png",
+            "alt": "Students in a value added course by Icanio Tech School"
+          }
+        },
+        {
+          "title": "Guest Lectures",
+          "body": "Sessions by practising engineers on AI, cloud, DevOps, cybersecurity and careers, with live Q&A for students.",
+          "href": "/college-programs/guest-lectures",
+          "image": {
+            "src": "GuestLecturesImg.png",
+            "alt": "Industry guest lecture for college students by Icanio"
+          }
+        },
+        {
+          "title": "Faculty Development Program",
+          "body": "Hands-on FDPs that help faculty stay current with modern tools, technologies and project-based teaching.",
+          "href": "/college-programs/faculty-development-program",
+          "image": {
+            "src": "young-handsome-man-holding-notebooks-concept-e-learning-courses-1.png",
+            "alt": "Faculty member attending a faculty development program"
+          }
+        },
+        {
+          "title": "Industrial Visit",
+          "body": "Students visit a working software company, meet engineers and see how real delivery teams run day to day.",
+          "href": "/college-programs/industrial-visit",
+          "image": {
+            "src": "home-IV.png",
+            "alt": "Students on an industrial visit to Icanio Technologies"
+          }
+        },
+        {
+          "title": "Internships for your students",
+          "body": "Place your students in any of our 15 tech internships, with progress updates shared with your placement cell.",
+          "href": "/internships",
+          "image": {
+            "src": "WhatWeDoSectionImg2.png",
+            "alt": "College students joining tech internships at Icanio"
+          }
+        }
       ]
     },
     {
       "type": "prose",
       "tone": "soft",
       "eyebrow": "Beyond code",
-      "heading": "Student Development Program and hands-on workshops",
+      "heading": "Student Development Program and Hands-On Workshops",
       "paragraphs": [
         "Most campus training focuses on technical skills alone. Many graduates then struggle in the first IT job, not because they cannot code, but because they are not ready for a stand-up, a sprint deadline or a client call.",
         "Our Student Development Program fixes that with nine modules built on real IT workplace scenarios, from professional communication to leadership in technology roles. Alongside tech internships, our workshops add short, practical exposure to emerging technologies, from half-day sessions to multi-day formats."
@@ -188,9 +422,15 @@
         "Workshops in Python, web development, data science, AI and more",
         "Interview preparation and career roadmap planning"
       ],
-      "image": { "src": "WorkshopsImg.png", "alt": "Students in a hands-on technical workshop by Icanio Tech School" },
+      "image": {
+        "src": "WorkshopsImg.png",
+        "alt": "Students in a hands-on technical workshop by Icanio Tech School"
+      },
       "reverse": true,
-      "link": { "label": "See the Student Development Program", "href": "/student-development-program" }
+      "link": {
+        "label": "See the Student Development Program",
+        "href": "/student-development-program"
+      }
     },
     {
       "type": "testimonials",
@@ -208,13 +448,19 @@
     {
       "type": "prose",
       "eyebrow": "Purpose-led and future-ready",
-      "heading": "Our mission and vision",
+      "heading": "Our Mission and Vision",
       "paragraphs": [
         "Our mission is to bridge the digital divide through accessible, industry-relevant technical education. We make learning practical and prepare students to succeed in a fast-changing tech landscape.",
         "Our vision is to nurture a generation of skilled professionals who contribute meaningfully to the digital world. By giving learners the right knowledge and tools, we foster innovation and technological growth, starting in Tamil Nadu."
       ],
-      "image": { "src": "MissionVisionImg.png", "alt": "Icanio Tech School mission and vision for industry-ready students" },
-      "link": { "label": "About Icanio Tech School", "href": "/about-icanio-tech-school" }
+      "image": {
+        "src": "MissionVisionImg.png",
+        "alt": "Icanio Tech School mission and vision for industry-ready students"
+      },
+      "link": {
+        "label": "About Icanio Tech School",
+        "href": "/about-icanio-tech-school"
+      }
     },
     {
       "type": "links",
@@ -222,12 +468,36 @@
       "eyebrow": "Keep exploring",
       "heading": "Useful next reads",
       "items": [
-        { "title": "Compare all tech internships", "href": "/internships", "body": "Durations, modes, eligibility and outcomes for all 15 tracks, side by side." },
-        { "title": "Student success stories", "href": "/student-success-stories", "body": "Completions and placements, including interns who joined Icanio Technologies." },
-        { "title": "Partner colleges", "href": "/partner-colleges", "body": "The 30+ colleges across Tamil Nadu that work with us through an MoU." },
-        { "title": "Campus events", "href": "/campus-events", "body": "MoU signings, workshops, value added courses and guest lectures." },
-        { "title": "Career guides", "href": "/career-guides", "body": "Roadmaps and practical advice on landing your first tech role." },
-        { "title": "How to apply", "href": "/apply-for-internship", "body": "Eligibility, documents, timelines and what happens after you apply." }
+        {
+          "title": "Compare all tech internships",
+          "href": "/internships",
+          "body": "Durations, modes, eligibility and outcomes for all 15 tracks, side by side."
+        },
+        {
+          "title": "Student success stories",
+          "href": "/student-success-stories",
+          "body": "Completions and placements, including interns who joined Icanio Technologies."
+        },
+        {
+          "title": "Partner colleges",
+          "href": "/partner-colleges",
+          "body": "The 30+ colleges across Tamil Nadu that work with us through an MoU."
+        },
+        {
+          "title": "Campus events",
+          "href": "/campus-events",
+          "body": "MoU signings, workshops, value added courses and guest lectures."
+        },
+        {
+          "title": "Career guides",
+          "href": "/career-guides",
+          "body": "Roadmaps and practical advice on landing your first tech role."
+        },
+        {
+          "title": "How to apply",
+          "href": "/apply-for-internship",
+          "body": "Eligibility, documents, timelines and what happens after you apply."
+        }
       ]
     },
     {
@@ -244,14 +514,38 @@
     }
   ],
   "faqs": [
-    { "q": "What tech internships does Icanio Tech School offer?", "a": "We offer 15 tech internships. Engineering tracks are Frontend, Backend, Full Stack, Software Testing, AI & ML, UI/UX, DevOps, Flutter, Business Analyst and Project Management. Non-engineering tracks are Data Analyst, Digital Marketing, Human Resource, Finance and Sales." },
-    { "q": "Who can apply for tech internships at Icanio?", "a": "College students in any year, recent graduates, self-taught learners and career switchers can apply. Most interns are in their pre-final or final year of B.E., B.Tech, B.Sc., BCA, MCA or MBA. Our team will suggest a track based on your background." },
-    { "q": "How long are the tech internships?", "a": "You choose the duration. Options range from 15 days and one month up to three and six months. Longer internships include more phases and a larger live project, which gives you a stronger portfolio." },
-    { "q": "Are tech internships offline or online?", "a": "Both. You can attend offline at our centre, join online, or choose part-time weekday or weekend batches. Hybrid is also possible, so the internship fits around your college schedule." },
-    { "q": "Do I get a certificate after the internship?", "a": "Yes. Every intern who completes one of our tech internships receives an Icanio Tech School certificate that states the track and duration. You also leave with a portfolio of the projects you built." },
-    { "q": "Does Icanio help with placement?", "a": "We run resume building, mock interviews and LinkedIn workshops for every intern. Top performers are referred to the Icanio Technologies talent team for internship and associate roles, as happened with our SDE hire Jeyaram R." },
-    { "q": "How can my college partner with Icanio Tech School?", "a": "Colleges usually start with an MoU. It gives students priority access to workshops, value added courses and sponsored internships, and faculty access to development programs. Send an enquiry and our team will visit or call." },
-    { "q": "Where is Icanio Tech School located?", "a": "We are part of Icanio Technologies, headquartered in Tirunelveli, Tamil Nadu. Programs run at our centre, online, and on partner college campuses across the state, from Chennai and Coimbatore to Erode and Kanyakumari." }
+    {
+      "q": "What tech internships does Icanio Tech School offer?",
+      "a": "We offer 15 tech internships. Engineering tracks are Frontend, Backend, Full Stack, Software Testing, AI & ML, UI/UX, DevOps, Flutter, Business Analyst and Project Management. Non-engineering tracks are Data Analyst, Digital Marketing, Human Resource, Finance and Sales."
+    },
+    {
+      "q": "Who can apply for tech internships at Icanio?",
+      "a": "College students in any year, recent graduates, self-taught learners and career switchers can apply. Most interns are in their pre-final or final year of B.E., B.Tech, B.Sc., BCA, MCA or MBA. Our team will suggest a track based on your background."
+    },
+    {
+      "q": "How long are the tech internships?",
+      "a": "You choose the duration. Options range from 15 days and one month up to three and six months. Longer internships include more phases and a larger live project, which gives you a stronger portfolio."
+    },
+    {
+      "q": "Are tech internships offline or online?",
+      "a": "Both. You can attend offline at our centre, join online, or choose part-time weekday or weekend batches. Hybrid is also possible, so the internship fits around your college schedule."
+    },
+    {
+      "q": "Do I get a certificate after the internship?",
+      "a": "Yes. Every intern who completes one of our tech internships receives an Icanio Tech School certificate that states the track and duration. You also leave with a portfolio of the projects you built."
+    },
+    {
+      "q": "Does Icanio help with placement?",
+      "a": "We run resume building, mock interviews and LinkedIn workshops for every intern. Top performers are referred to the Icanio Technologies talent team for internship and associate roles, as happened with our SDE hire Jeyaram R."
+    },
+    {
+      "q": "How can my college partner with Icanio Tech School?",
+      "a": "Colleges usually start with an MoU. It gives students priority access to workshops, value added courses and sponsored internships, and faculty access to development programs. Send an enquiry and our team will visit or call."
+    },
+    {
+      "q": "Where is Icanio Tech School located?",
+      "a": "We are part of Icanio Technologies, headquartered in Tirunelveli, Tamil Nadu. Programs run at our centre, online, and on partner college campuses across the state, from Chennai and Coimbatore to Erode and Kanyakumari."
+    }
   ],
   "takeaways": [
     "Icanio Tech School is the education arm of Icanio Technologies, an AI and software company in Tamil Nadu.",
@@ -265,15 +559,33 @@
     "Whether you are a student choosing between tech internships or a college planning the next semester, the next step is the same: talk to our team. We will help you choose the right track or program, and you can start within weeks."
   ],
   "references": [
-    { "label": "AICTE Internship Policy and guidelines for students", "href": "https://www.aicte-india.org/education/internship" },
-    { "label": "National Education Policy 2020, Ministry of Education", "href": "https://www.education.gov.in/nep/about-nep" },
-    { "label": "Skill India, Government of India", "href": "https://www.skillindia.gov.in/" },
-    { "label": "Internship, overview on Wikipedia", "href": "https://en.wikipedia.org/wiki/Internship" }
+    {
+      "label": "AICTE Internship Policy and guidelines for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    },
+    {
+      "label": "National Education Policy 2020, Ministry of Education",
+      "href": "https://www.education.gov.in/nep/about-nep"
+    },
+    {
+      "label": "Skill India, Government of India",
+      "href": "https://www.skillindia.gov.in/"
+    },
+    {
+      "label": "Internship, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Internship"
+    }
   ],
   "cta": {
     "title": "Ready to start your tech career?",
     "body": "Choose a track, talk to our team and join the next batch. Colleges can book a call to plan an MoU.",
-    "primary": { "label": "Apply for an internship", "href": "/apply-for-internship" },
-    "secondary": { "label": "Enquire for your college", "href": "/contact" }
+    "primary": {
+      "label": "Apply for an internship",
+      "href": "/apply-for-internship"
+    },
+    "secondary": {
+      "label": "Enquire for your college",
+      "href": "/contact"
+    }
   }
 }

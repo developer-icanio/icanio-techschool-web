@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 import { breadcrumbsOf } from "@/lib/content/pages";
-import { CONTACT_LINE, FAQ_HEADING, REFERENCES_HEADING, schemasOf, TAKEAWAYS_HEADING } from "@/lib/content/seo-document";
+import { contactEmail, contactLine, FAQ_HEADING, REFERENCES_HEADING, schemasOf, TAKEAWAYS_HEADING } from "@/lib/content/seo-document";
 import type { PageContent } from "@/lib/content/types";
 import { asset } from "@/lib/images";
 import { SITE } from "@/lib/site";
@@ -56,7 +56,7 @@ function Hero({ p }: { p: PageContent }) {
             </ul>
           )}
         </div>
-        <Image src={img.src} alt={h.image.alt} width={img.w ?? 1200} height={img.h ?? 900} priority sizes="(min-width: 1024px) 45vw, (min-width: 640px) 576px, 88vw" quality={70} className="mx-auto h-auto w-full max-w-xl" />
+        <Image src={img.src} alt={h.image.alt} width={img.w ?? 1200} height={img.h ?? 900} priority sizes="(min-width: 1024px) 45vw, (min-width: 640px) 576px, 88vw" quality={70} className="mx-auto h-auto w-full max-w-xl" style={img.w ? { maxWidth: Math.min(img.w, 576) } : undefined} />
       </div>
     </section>
   );
@@ -93,7 +93,7 @@ export default function PageView({ p }: { p: PageContent }) {
         </div>
       </Section>
 
-      {p.sections.map((b, i) => <BlockView key={i} b={b} />)}
+      {p.sections.map((b, i) => <BlockView key={i} b={b} email={contactEmail(p)} />)}
 
       {p.faqs.length > 0 && (
         <Section id="faq" tone="soft">
@@ -151,7 +151,7 @@ export default function PageView({ p }: { p: PageContent }) {
           <div className="max-w-3xl">
             <h2 className="text-[28px] font-bold sm:text-[34px]">{p.cta.title}</h2>
             <p className="mt-3 text-lg text-body">{p.cta.body}</p>
-            <p className="mt-3 text-sm text-muted">{CONTACT_LINE}</p>
+            <p className="mt-3 text-sm text-muted">{contactLine(p)}</p>
           </div>
           <div className="flex shrink-0 flex-wrap gap-3">
             <Link href={p.cta.primary.href} className="btn btn-primary">{p.cta.primary.label}</Link>

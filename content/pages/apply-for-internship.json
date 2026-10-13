@@ -14,7 +14,7 @@
       "internship with certificate"
     ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "Applications open every month",
@@ -148,23 +148,28 @@
       "items": [
         {
           "title": "We call you within one working day",
-          "body": "A counsellor from our team calls to understand your background, your year of study, your goals and when you can start."
+          "body": "A counsellor from our team calls to understand your background, your year of study, your goals and when you can start.",
+          "label": "Step 1"
         },
         {
           "title": "Track counselling",
-          "body": "If you are unsure between two tracks, the counsellor explains what each one involves and which suits your skills and interests."
+          "body": "If you are unsure between two tracks, the counsellor explains what each one involves and which suits your skills and interests.",
+          "label": "Step 2"
         },
         {
           "title": "Duration and mode counselling",
-          "body": "Together you choose a duration from 15 days to six months, and offline, online, part-time or hybrid mode, in weekday or weekend batches."
+          "body": "Together you choose a duration from 15 days to six months, and offline, online, part-time or hybrid mode, in weekday or weekend batches.",
+          "label": "Step 3"
         },
         {
           "title": "Onboarding",
-          "body": "You receive your batch details, meet your mentor and get set up with the tools and accounts your track needs."
+          "body": "You receive your batch details, meet your mentor and get set up with the tools and accounts your track needs.",
+          "label": "Step 4"
         },
         {
           "title": "Start learning and building",
-          "body": "You begin the learning phases, then move onto a live project brief. Weekly reviews keep you on track until your certificate."
+          "body": "You begin the learning phases, then move onto a live project brief. Weekly reviews keep you on track until your certificate.",
+          "label": "Finish"
         }
       ]
     },

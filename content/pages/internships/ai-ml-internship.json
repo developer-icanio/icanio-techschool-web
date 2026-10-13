@@ -7,24 +7,56 @@
     "metaTitle": "AI ML Internship: Train 5+ Models, Proven Path",
     "metaDescription": "AI ML internship in Tamil Nadu: train 5+ machine learning and deep learning models with Python, scikit-learn and TensorFlow, then deploy them. 1:1 mentors.",
     "focusKeyword": "ai ml internship",
-    "secondaryKeywords": ["machine learning internship", "artificial intelligence internship", "data science internship for students", "deep learning internship", "python ml training"],
+    "secondaryKeywords": [
+      "machine learning internship",
+      "artificial intelligence internship",
+      "data science internship for students",
+      "deep learning internship",
+      "python ml training"
+    ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "Engineering internship",
     "title": "AI ML Internship: Build and Deploy Real Models",
     "subtitle": "Our AI ML internship takes you from Python and statistics to machine learning, deep learning, NLP and MLOps. You train 5+ models on real datasets, deploy one as a live API with a 1:1 Icanio mentor, and finish with a certificate.",
-    "image": { "src": "Group-2085662119.png", "alt": "Neural network and data charts from the AI ML internship at Icanio Tech School" },
-    "primary": { "label": "Apply for this internship", "href": "#apply" },
-    "secondary": { "label": "View curriculum", "href": "#curriculum" },
-    "highlights": ["4 learning phases", "5+ trained models", "1:1 mentorship", "Certificate on completion"]
+    "image": {
+      "src": "Group-2085662119.png",
+      "alt": "Neural network and data charts from the AI ML internship at Icanio Tech School"
+    },
+    "primary": {
+      "label": "Apply for this internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "View curriculum",
+      "href": "#curriculum"
+    },
+    "highlights": [
+      "4 learning phases",
+      "5+ trained models",
+      "1:1 mentorship",
+      "Certificate on completion"
+    ]
   },
   "facts": [
-    { "label": "Duration", "value": "15 days to 6 months" },
-    { "label": "Mode", "value": "Offline, online or part time" },
-    { "label": "Mentorship", "value": "1:1 with an Icanio engineer" },
-    { "label": "Certificate", "value": "Yes, on completion" }
+    {
+      "label": "Duration",
+      "value": "15 days to 6 months"
+    },
+    {
+      "label": "Mode",
+      "value": "Offline, online or part time"
+    },
+    {
+      "label": "Mentorship",
+      "value": "1:1 with an Icanio engineer"
+    },
+    {
+      "label": "Certificate",
+      "value": "Yes, on completion"
+    }
   ],
   "answer": {
     "question": "What is an AI ML internship at Icanio?",
@@ -47,8 +79,14 @@
         "Build neural networks for image and text tasks",
         "Deploy, track and monitor models in production"
       ],
-      "image": { "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-3.png", "alt": "Intern presenting model evaluation results at Icanio Tech School" },
-      "link": { "label": "Read the AI and ML career path guide", "href": "/career-guides/ai-ml-career-path" }
+      "image": {
+        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-3.png",
+        "alt": "Intern presenting model evaluation results at Icanio Tech School"
+      },
+      "link": {
+        "label": "Read the AI and ML career path guide",
+        "href": "/career-guides/ai-ml-career-path"
+      }
     },
     {
       "type": "cards",
@@ -58,10 +96,26 @@
       "intro": "You do not need prior AI experience. Comfort with basic maths and a willingness to learn Python are enough to begin.",
       "columns": 4,
       "items": [
-        { "title": "Data enthusiasts", "body": "You are fascinated by patterns in data and want to build models that make predictions and power intelligent applications.", "icon": "Group-2085662025-6.png" },
-        { "title": "Career changers", "body": "You come from analytics, finance or science and want to move into AI engineering with real projects to show for it.", "icon": "Group-2085662025-7.png" },
-        { "title": "Developers", "body": "You know Python basics and want to apply them in one of the fastest-growing areas of technology through an AI ML internship.", "icon": "Group-2085662025-5.png" },
-        { "title": "CS and maths students", "body": "You study B.E., B.Tech, B.Sc. or MCA with a quantitative base and want hands-on machine learning beyond the syllabus.", "icon": "Group-2085662024-5-1.png" }
+        {
+          "title": "Data enthusiasts",
+          "body": "You are fascinated by patterns in data and want to build models that make predictions and power intelligent applications.",
+          "icon": "Group-2085662025-6.png"
+        },
+        {
+          "title": "Career changers",
+          "body": "You come from analytics, finance or science and want to move into AI engineering with real projects to show for it.",
+          "icon": "Group-2085662025-7.png"
+        },
+        {
+          "title": "Developers",
+          "body": "You know Python basics and want to apply them in one of the fastest-growing areas of technology through an AI ML internship.",
+          "icon": "Group-2085662025-5.png"
+        },
+        {
+          "title": "CS and maths students",
+          "body": "You study B.E., B.Tech, B.Sc. or MCA with a quantitative base and want hands-on machine learning beyond the syllabus.",
+          "icon": "Group-2085662024-5-1.png"
+        }
       ]
     },
     {
@@ -124,14 +178,46 @@
       "heading": "Industry tools you will use every day",
       "intro": "The AI ML internship uses the open-source stack our team works with on client AI projects, from notebooks to deployment.",
       "items": [
-        { "name": "Python", "role": "Primary language", "logo": "python-5-3-1.png" },
-        { "name": "Pandas", "role": "Data manipulation", "logo": "pandas-svgrepo-com-1.png" },
-        { "name": "Scikit-learn", "role": "Classical ML algorithms", "logo": "Scikit_learn_logo_small.svg-1-1.png" },
-        { "name": "TensorFlow", "role": "Deep learning", "logo": "tensorflow-2-1.png" },
-        { "name": "Jupyter", "role": "Interactive development", "logo": "Jupyter-1-1.png" },
-        { "name": "Seaborn", "role": "Data visualisation", "logo": "seaborn-1-1.png" },
-        { "name": "MLflow", "role": "Experiment tracking", "logo": "idOeRd2gAI_1775631476316-1-1.png" },
-        { "name": "FastAPI", "role": "Model deployment", "logo": "fastapi-1-1.png" }
+        {
+          "name": "Python",
+          "role": "Primary language",
+          "logo": "python-5-3-1.png"
+        },
+        {
+          "name": "Pandas",
+          "role": "Data manipulation",
+          "logo": "pandas-svgrepo-com-1.png"
+        },
+        {
+          "name": "Scikit-learn",
+          "role": "Classical ML algorithms",
+          "logo": "Scikit_learn_logo_small.svg-1-1.png"
+        },
+        {
+          "name": "TensorFlow",
+          "role": "Deep learning",
+          "logo": "tensorflow-2-1.png"
+        },
+        {
+          "name": "Jupyter",
+          "role": "Interactive development",
+          "logo": "Jupyter-1-1.png"
+        },
+        {
+          "name": "Seaborn",
+          "role": "Data visualisation",
+          "logo": "seaborn-1-1.png"
+        },
+        {
+          "name": "MLflow",
+          "role": "Experiment tracking",
+          "logo": "idOeRd2gAI_1775631476316-1-1.png"
+        },
+        {
+          "name": "FastAPI",
+          "role": "Model deployment",
+          "logo": "fastapi-1-1.png"
+        }
       ]
     },
     {
@@ -141,10 +227,26 @@
       "intro": "Every model in the AI ML internship comes with metrics, a documented experiment and code you can explain in an interview.",
       "columns": 4,
       "items": [
-        { "title": "5+ trained ML models", "body": "Regression, classification, clustering, CNN and NLP models, each with evaluation metrics and documented experiments.", "icon": "Group-2085662024-4-1.png" },
-        { "title": "An end-to-end ML pipeline", "body": "Take a raw dataset through cleaning, feature engineering, training and evaluation, then deploy it as a live API.", "icon": "Group-1000005365-3-2.png" },
-        { "title": "Deep learning fluency", "body": "Train and fine-tune neural networks for image and text tasks with TensorFlow and pre-trained Transformer models.", "icon": "Group-2085662024-5.png" },
-        { "title": "MLOps foundations", "body": "Track experiments, version models and deploy them the way production AI and ML teams do, with monitoring after release.", "icon": "Group-2085662024-27.png" }
+        {
+          "title": "5+ trained ML models",
+          "body": "Regression, classification, clustering, CNN and NLP models, each with evaluation metrics and documented experiments.",
+          "icon": "Group-2085662024-4-1.png"
+        },
+        {
+          "title": "An end-to-end ML pipeline",
+          "body": "Take a raw dataset through cleaning, feature engineering, training and evaluation, then deploy it as a live API.",
+          "icon": "Group-1000005365-3-2.png"
+        },
+        {
+          "title": "Deep learning fluency",
+          "body": "Train and fine-tune neural networks for image and text tasks with TensorFlow and pre-trained Transformer models.",
+          "icon": "Group-2085662024-5.png"
+        },
+        {
+          "title": "MLOps foundations",
+          "body": "Track experiments, version models and deploy them the way production AI and ML teams do, with monitoring after release.",
+          "icon": "Group-2085662024-27.png"
+        }
       ]
     },
     {
@@ -163,9 +265,15 @@
         "Curriculum refreshed from live AI project work each cohort",
         "ML interview practice and a portfolio review before you finish"
       ],
-      "image": { "src": "WhatWeDoSectionImg1.png", "alt": "Icanio engineer explaining model results to an intern in the AI ML internship" },
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Icanio engineer explaining model results to an intern in the AI ML internship"
+      },
       "reverse": true,
-      "link": { "label": "Meet our industry trainers", "href": "/industry-trainers" }
+      "link": {
+        "label": "Meet our industry trainers",
+        "href": "/industry-trainers"
+      }
     },
     {
       "type": "checklist",
@@ -180,7 +288,10 @@
         "One to two hours a day of practice outside mentor sessions",
         "Patience with experiments, since most first attempts do not work"
       ],
-      "image": { "src": "ourInternshipProgramImg.png", "alt": "Intern setting up Jupyter notebooks for the AI ML internship" }
+      "image": {
+        "src": "ourInternshipProgramImg.png",
+        "alt": "Intern setting up Jupyter notebooks for the AI ML internship"
+      }
     },
     {
       "type": "steps",
@@ -188,12 +299,36 @@
       "heading": "How the AI ML internship runs, week by week",
       "intro": "The order stays the same for every duration. Shorter internships focus on foundations and classical ML, longer ones reach deep learning and deployment.",
       "items": [
-        { "label": "Day 1", "title": "Apply and speak to our team", "body": "Send the short form. A counsellor calls you within one working day to check your maths and Python level, goals and batch." },
-        { "label": "Week 1", "title": "Onboarding and setup", "body": "You meet your mentor, set up Python, Jupyter and GitHub, and join the AI ML internship project board." },
-        { "label": "Phases 1 and 2", "title": "Data and classical ML", "body": "You explore real datasets, build baseline models and compare them fairly with proper validation." },
-        { "label": "Phase 3", "title": "Deep learning and NLP", "body": "You train CNNs for images and fine-tune a Transformer for text, tracking every run." },
-        { "label": "Phase 4", "title": "Deployment and capstone", "body": "You serve a model with FastAPI and Docker, track it in MLflow and build a capstone from a brief based on Icanio client scenarios." },
-        { "label": "Completion", "title": "Review and certificate", "body": "You present your capstone, get a resume review and receive your certificate. Top performers are referred to the Icanio talent team." }
+        {
+          "label": "Day 1",
+          "title": "Apply and speak to our team",
+          "body": "Send the short form. A counsellor calls you within one working day to check your maths and Python level, goals and batch."
+        },
+        {
+          "label": "Week 1",
+          "title": "Onboarding and setup",
+          "body": "You meet your mentor, set up Python, Jupyter and GitHub, and join the AI ML internship project board."
+        },
+        {
+          "label": "Phases 1 and 2",
+          "title": "Data and classical ML",
+          "body": "You explore real datasets, build baseline models and compare them fairly with proper validation."
+        },
+        {
+          "label": "Phase 3",
+          "title": "Deep learning and NLP",
+          "body": "You train CNNs for images and fine-tune a Transformer for text, tracking every run."
+        },
+        {
+          "label": "Phase 4",
+          "title": "Deployment and capstone",
+          "body": "You serve a model with FastAPI and Docker, track it in MLflow and build a capstone from a brief based on Icanio client scenarios."
+        },
+        {
+          "label": "Finish",
+          "title": "Review and certificate",
+          "body": "You present your capstone, get a resume review and receive your certificate. Top performers are referred to the Icanio talent team."
+        }
       ]
     },
     {
@@ -212,13 +347,37 @@
       "eyebrow": "Career paths",
       "heading": "Roles this AI ML internship prepares you for",
       "intro": "AI and ML skills lead to several entry-level roles. Here is how they compare.",
-      "columns": ["Role", "What you do", "Key skills"],
+      "columns": [
+        "Role",
+        "What you do",
+        "Key skills"
+      ],
       "rows": [
-        ["ML engineer", "Build and deploy models", "Python, scikit-learn, FastAPI"],
-        ["Data scientist", "Find insights and predict outcomes", "Pandas, statistics, ML"],
-        ["Deep learning engineer", "Train neural networks", "TensorFlow, PyTorch, CNNs"],
-        ["NLP engineer", "Build text and language models", "Transformers, Hugging Face"],
-        ["MLOps engineer", "Run models in production", "MLflow, Docker, cloud"]
+        [
+          "ML engineer",
+          "Build and deploy models",
+          "Python, scikit-learn, FastAPI"
+        ],
+        [
+          "Data scientist",
+          "Find insights and predict outcomes",
+          "Pandas, statistics, ML"
+        ],
+        [
+          "Deep learning engineer",
+          "Train neural networks",
+          "TensorFlow, PyTorch, CNNs"
+        ],
+        [
+          "NLP engineer",
+          "Build text and language models",
+          "Transformers, Hugging Face"
+        ],
+        [
+          "MLOps engineer",
+          "Run models in production",
+          "MLflow, Docker, cloud"
+        ]
       ],
       "note": "We recommend the data analyst track first if you are new to data and want to build confidence with SQL and dashboards."
     },
@@ -243,12 +402,36 @@
       "eyebrow": "Keep exploring",
       "heading": "Related internships you may like",
       "items": [
-        { "title": "All 15 internship tracks", "href": "/internships", "body": "Compare durations, modes, eligibility and outcomes across every track." },
-        { "title": "Data Analyst Internship", "href": "/internships/data-analyst-internship", "body": "Build strong data skills with Excel, SQL, Python and Power BI." },
-        { "title": "Backend Development Internship", "href": "/internships/backend-development-internship", "body": "Learn the APIs and databases that serve your models." },
-        { "title": "DevOps Internship", "href": "/internships/devops-internship", "body": "Go deeper on containers, pipelines and cloud for MLOps." },
-        { "title": "Full Stack Development Internship", "href": "/internships/full-stack-development-internship", "body": "Build the web apps that put AI features in front of users." },
-        { "title": "AI and ML career path", "href": "/career-guides/ai-ml-career-path", "body": "A practical roadmap from student to first AI role." }
+        {
+          "title": "All 15 internship tracks",
+          "href": "/internships",
+          "body": "Compare durations, modes, eligibility and outcomes across every track."
+        },
+        {
+          "title": "Data Analyst Internship",
+          "href": "/internships/data-analyst-internship",
+          "body": "Build strong data skills with Excel, SQL, Python and Power BI."
+        },
+        {
+          "title": "Backend Development Internship",
+          "href": "/internships/backend-development-internship",
+          "body": "Learn the APIs and databases that serve your models."
+        },
+        {
+          "title": "DevOps Internship",
+          "href": "/internships/devops-internship",
+          "body": "Go deeper on containers, pipelines and cloud for MLOps."
+        },
+        {
+          "title": "Full Stack Development Internship",
+          "href": "/internships/full-stack-development-internship",
+          "body": "Build the web apps that put AI features in front of users."
+        },
+        {
+          "title": "AI and ML career path",
+          "href": "/career-guides/ai-ml-career-path",
+          "body": "A practical roadmap from student to first AI role."
+        }
       ]
     },
     {
@@ -265,14 +448,38 @@
     }
   ],
   "faqs": [
-    { "q": "Do I need strong maths for the AI ML internship?", "a": "You need school-level algebra and some comfort with graphs. The AI ML internship teaches the statistics, probability and linear algebra you need in Phase 1, with a focus on intuition and code rather than proofs. Your mentor adjusts the pace to your background." },
-    { "q": "How long is the AI ML internship?", "a": "You choose between 15 days and six months. Short internships cover Python, data analysis and classical ML with one project. Three and six month internships cover all four phases, including deep learning, NLP and deployment, which gives you a far stronger portfolio." },
-    { "q": "Is the AI ML internship offline or online?", "a": "Both. You can attend offline at our centre, join online from anywhere in Tamil Nadu, or choose a part-time weekday or weekend batch. Hybrid is possible too, so the AI ML internship fits your college schedule." },
-    { "q": "Do I need a powerful laptop or GPU?", "a": "No. A laptop with 8 GB RAM is enough for most of the work. For deep learning, you can train on free cloud notebooks with GPU access. Our team shows you how to set this up during onboarding." },
-    { "q": "Will I work on generative AI and large language models?", "a": "Phase 3 covers Transformers, the architecture behind modern language models, and fine-tuning BERT with Hugging Face. That gives you the foundation to understand and build on generative AI tools with confidence, rather than only calling them." },
-    { "q": "Do I get a certificate after the internship?", "a": "Yes. Every intern who completes the AI ML internship receives an Icanio Tech School certificate that states the track and duration, along with a portfolio of documented models and a deployed API." },
-    { "q": "Does the internship help with placement?", "a": "We run resume reviews, mock interviews and LinkedIn guidance for every intern, with ML-specific interview practice. Top performers are referred to the Icanio Technologies talent team. Across our programs, 90% of students are placed within five months." },
-    { "q": "Can my college send a batch of students?", "a": "Yes. Many of our 30+ MoU partner colleges send students together, and progress updates can be shared with the placement cell. Ask your placement officer to contact our team, or see our college programs page." }
+    {
+      "q": "Do I need strong maths for the AI ML internship?",
+      "a": "You need school-level algebra and some comfort with graphs. The AI ML internship teaches the statistics, probability and linear algebra you need in Phase 1, with a focus on intuition and code rather than proofs. Your mentor adjusts the pace to your background."
+    },
+    {
+      "q": "How long is the AI ML internship?",
+      "a": "You choose between 15 days and six months. Short internships cover Python, data analysis and classical ML with one project. Three and six month internships cover all four phases, including deep learning, NLP and deployment, which gives you a far stronger portfolio."
+    },
+    {
+      "q": "Is the AI ML internship offline or online?",
+      "a": "Both. You can attend offline at our centre, join online from anywhere in Tamil Nadu, or choose a part-time weekday or weekend batch. Hybrid is possible too, so the AI ML internship fits your college schedule."
+    },
+    {
+      "q": "Do I need a powerful laptop or GPU?",
+      "a": "No. A laptop with 8 GB RAM is enough for most of the work. For deep learning, you can train on free cloud notebooks with GPU access. Our team shows you how to set this up during onboarding."
+    },
+    {
+      "q": "Will I work on generative AI and large language models?",
+      "a": "Phase 3 covers Transformers, the architecture behind modern language models, and fine-tuning BERT with Hugging Face. That gives you the foundation to understand and build on generative AI tools with confidence, rather than only calling them."
+    },
+    {
+      "q": "Do I get a certificate after the internship?",
+      "a": "Yes. Every intern who completes the AI ML internship receives an Icanio Tech School certificate that states the track and duration, along with a portfolio of documented models and a deployed API."
+    },
+    {
+      "q": "Does the internship help with placement?",
+      "a": "We run resume reviews, mock interviews and LinkedIn guidance for every intern, with ML-specific interview practice. Top performers are referred to the Icanio Technologies talent team. Across our programs, 90% of students are placed within five months."
+    },
+    {
+      "q": "Can my college send a batch of students?",
+      "a": "Yes. Many of our 30+ MoU partner colleges send students together, and progress updates can be shared with the placement cell. Ask your placement officer to contact our team, or see our college programs page."
+    }
   ],
   "takeaways": [
     "The AI ML internship covers Python, statistics, classical ML, deep learning, NLP and MLOps in four phases.",
@@ -286,24 +493,61 @@
     "If you are a student or fresher in Tamil Nadu ready to build real models, apply today. Our team will call you, check your maths and Python level and help you choose the right duration and batch."
   ],
   "references": [
-    { "label": "scikit-learn user guide", "href": "https://scikit-learn.org/stable/user_guide.html" },
-    { "label": "TensorFlow tutorials", "href": "https://www.tensorflow.org/tutorials" },
-    { "label": "Python official documentation", "href": "https://docs.python.org/3/" },
-    { "label": "Machine learning, Wikipedia", "href": "https://en.wikipedia.org/wiki/Machine_learning" },
-    { "label": "AICTE internship guidelines for students", "href": "https://www.aicte-india.org/education/internship" }
+    {
+      "label": "scikit-learn user guide",
+      "href": "https://scikit-learn.org/stable/user_guide.html"
+    },
+    {
+      "label": "TensorFlow tutorials",
+      "href": "https://www.tensorflow.org/tutorials"
+    },
+    {
+      "label": "Python official documentation",
+      "href": "https://docs.python.org/3/"
+    },
+    {
+      "label": "Machine learning, Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Machine_learning"
+    },
+    {
+      "label": "AICTE internship guidelines for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    }
   ],
   "cta": {
     "title": "Start your AI ML internship",
     "body": "Pick a duration and a batch, and begin your AI ML internship with an Icanio mentor within weeks.",
-    "primary": { "label": "Apply for this internship", "href": "#apply" },
-    "secondary": { "label": "Compare all internships", "href": "/internships" }
+    "primary": {
+      "label": "Apply for this internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "Compare all internships",
+      "href": "/internships"
+    }
   },
   "course": {
     "name": "AI ML Internship",
     "description": "A mentored AI ML internship covering Python, statistics, classical machine learning, deep learning, NLP and MLOps, with 5+ trained models, a deployed ML API and a certificate.",
     "duration": "15 days to 6 months",
-    "modes": ["Onsite", "Online", "Blended"],
-    "skills": ["Python", "NumPy and Pandas", "Exploratory data analysis", "scikit-learn", "Model evaluation", "TensorFlow", "PyTorch", "NLP with Hugging Face", "MLflow", "FastAPI", "Docker"],
+    "modes": [
+      "Onsite",
+      "Online",
+      "Blended"
+    ],
+    "skills": [
+      "Python",
+      "NumPy and Pandas",
+      "Exploratory data analysis",
+      "scikit-learn",
+      "Model evaluation",
+      "TensorFlow",
+      "PyTorch",
+      "NLP with Hugging Face",
+      "MLflow",
+      "FastAPI",
+      "Docker"
+    ],
     "audience": "Students and freshers"
   }
 }

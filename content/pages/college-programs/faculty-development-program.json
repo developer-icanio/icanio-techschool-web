@@ -15,7 +15,7 @@
       "faculty training program tamil nadu"
     ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "For college faculty",
@@ -159,23 +159,28 @@
       "items": [
         {
           "title": "Understand your goals",
-          "body": "Your principal or HoD tells us which departments will attend, what they teach and which technologies they want to explore."
+          "body": "Your principal or HoD tells us which departments will attend, what they teach and which technologies they want to explore.",
+          "label": "Step 1"
         },
         {
           "title": "Design the program",
-          "body": "We propose topics, hands-on exercises and a delivery mode: onsite at your college, online, or a hybrid of both."
+          "body": "We propose topics, hands-on exercises and a delivery mode: onsite at your college, online, or a hybrid of both.",
+          "label": "Step 2"
         },
         {
           "title": "Fix the schedule",
-          "body": "We plan dates around your academic calendar, often during a semester break, so teaching is not disturbed."
+          "body": "We plan dates around your academic calendar, often during a semester break, so teaching is not disturbed.",
+          "label": "Step 3"
         },
         {
           "title": "Deliver hands-on sessions",
-          "body": "Icanio engineers lead each session with a short concept, a guided exercise and time for faculty to practise on their own."
+          "body": "Icanio engineers lead each session with a short concept, a guided exercise and time for faculty to practise on their own.",
+          "label": "Step 4"
         },
         {
           "title": "Apply, certify and review",
-          "body": "Faculty plan how to use the method in their own courses. Participants receive certificates, and we review feedback with your team."
+          "body": "Faculty plan how to use the method in their own courses. Participants receive certificates, and we review feedback with your team.",
+          "label": "Finish"
         }
       ]
     },

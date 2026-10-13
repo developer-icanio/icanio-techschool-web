@@ -37,6 +37,8 @@ function headingWarnings(p: PageContent) {
 }
 
 async function commit(next: PageContent, by: string, note: string): Promise<Result> {
+  // The "Updated" date on the page is the day it was last saved (India time).
+  next.seo = { ...next.seo, updatedAt: new Date().toLocaleDateString("en-CA", { timeZone: "Asia/Kolkata" }) };
   const before = pageReport(next.path)?.audit.overallScore;
   await savePage(next, by, note);
   await ensureContent();

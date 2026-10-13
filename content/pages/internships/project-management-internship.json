@@ -7,24 +7,56 @@
     "metaTitle": "Project Management Internship: 4 Proven Phases",
     "metaDescription": "Project management internship at Icanio Tech School: scope, WBS, Gantt charts, budgets, Agile, Scrum, Jira and risk on real projects, with 1:1 mentors.",
     "focusKeyword": "project management internship",
-    "secondaryKeywords": ["pm internship in tamil nadu", "agile and scrum training for students", "jira project tracking course", "it project coordinator internship", "project management course with certificate"],
+    "secondaryKeywords": [
+      "pm internship in tamil nadu",
+      "agile and scrum training for students",
+      "jira project tracking course",
+      "it project coordinator internship",
+      "project management course with certificate"
+    ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "Engineering internship",
     "title": "Project Management Internship: Plan, Run and Deliver Projects",
     "subtitle": "Our project management internship teaches you to take an IT project from idea to delivery. You write charters, build schedules and budgets, run Agile sprints in Jira and manage risk on real projects, with a 1:1 mentor from Icanio.",
-    "image": { "src": "Group-4-1.png", "alt": "Project management internship at Icanio Tech School with timelines, boards and team planning" },
-    "primary": { "label": "Apply for this internship", "href": "#apply" },
-    "secondary": { "label": "View curriculum", "href": "#curriculum" },
-    "highlights": ["4 learning phases", "1:1 mentorship", "Capstone project presentation", "Certificate on completion"]
+    "image": {
+      "src": "Group-4-1.png",
+      "alt": "Project management internship at Icanio Tech School with timelines, boards and team planning"
+    },
+    "primary": {
+      "label": "Apply for this internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "View curriculum",
+      "href": "#curriculum"
+    },
+    "highlights": [
+      "4 learning phases",
+      "1:1 mentorship",
+      "Capstone project presentation",
+      "Certificate on completion"
+    ]
   },
   "facts": [
-    { "label": "Duration", "value": "15 days to 6 months" },
-    { "label": "Mode", "value": "Offline, online or part time" },
-    { "label": "Mentorship", "value": "1:1 with an Icanio mentor" },
-    { "label": "Certificate", "value": "Yes, on completion" }
+    {
+      "label": "Duration",
+      "value": "15 days to 6 months"
+    },
+    {
+      "label": "Mode",
+      "value": "Offline, online or part time"
+    },
+    {
+      "label": "Mentorship",
+      "value": "1:1 with an Icanio mentor"
+    },
+    {
+      "label": "Certificate",
+      "value": "Yes, on completion"
+    }
   ],
   "answer": {
     "question": "What is the project management internship at Icanio Tech School?",
@@ -48,8 +80,14 @@
         "Run sprints, stand-ups and reviews with an Agile team",
         "Track risks, changes and status for stakeholders"
       ],
-      "image": { "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-9.png", "alt": "Intern presenting a project plan to a mentor during the project management internship" },
-      "link": { "label": "Compare all internship tracks", "href": "/internships" }
+      "image": {
+        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-9.png",
+        "alt": "Intern presenting a project plan to a mentor during the project management internship"
+      },
+      "link": {
+        "label": "Compare all internship tracks",
+        "href": "/internships"
+      }
     },
     {
       "type": "cards",
@@ -58,10 +96,26 @@
       "intro": "You do not need to code. You need organisation, clear communication and a calm head under deadlines. These four groups get the most from our project management internship.",
       "columns": 4,
       "items": [
-        { "title": "Fresh graduates", "body": "You want to enter IT, operations or business teams with a structured, practical skill set that employers recognise.", "icon": "Group-2085662024-17-1.png" },
-        { "title": "Career switchers", "body": "You work in another field and want to move into a project management role with hands-on practice behind you.", "icon": "Group-2085662024-16-2.png" },
-        { "title": "Junior team leads", "body": "You already guide a small team and want to formalise your planning, tracking and delivery skills.", "icon": "Group-2085662024-15-3.png" },
-        { "title": "Entrepreneurs", "body": "You run a startup or side project and need to manage several timelines, tasks and people at once.", "icon": "Group-2085662025-3-2.png" }
+        {
+          "title": "Fresh graduates",
+          "body": "You want to enter IT, operations or business teams with a structured, practical skill set that employers recognise.",
+          "icon": "Group-2085662024-17-1.png"
+        },
+        {
+          "title": "Career switchers",
+          "body": "You work in another field and want to move into a project management role with hands-on practice behind you.",
+          "icon": "Group-2085662024-16-2.png"
+        },
+        {
+          "title": "Junior team leads",
+          "body": "You already guide a small team and want to formalise your planning, tracking and delivery skills.",
+          "icon": "Group-2085662024-15-3.png"
+        },
+        {
+          "title": "Entrepreneurs",
+          "body": "You run a startup or side project and need to manage several timelines, tasks and people at once.",
+          "icon": "Group-2085662025-3-2.png"
+        }
       ]
     },
     {
@@ -124,12 +178,35 @@
       "heading": "Project management tools you will use",
       "intro": "These are the tools IT project teams use every day. You will use each one on a real task during the project management internship.",
       "items": [
-        { "name": "MS Project", "role": "Scheduling and timelines" },
-        { "name": "Jira", "role": "Agile project tracking", "logo": "jira-1-1-2-1.png" },
-        { "name": "Trello", "role": "Kanban boards", "logo": "trello-1-1-1.png" },
-        { "name": "Confluence", "role": "Team documentation", "logo": "confluence-1-1-2-1.png" },
-        { "name": "MS Excel", "role": "Budgets and reporting", "logo": "excel-4-1-1-150x150.png" },
-        { "name": "Slack", "role": "Team communication", "logo": "Group-10-1.png" }
+        {
+          "name": "MS Project",
+          "role": "Scheduling and timelines"
+        },
+        {
+          "name": "Jira",
+          "role": "Agile project tracking",
+          "logo": "jira-1-1-2-1.png"
+        },
+        {
+          "name": "Trello",
+          "role": "Kanban boards",
+          "logo": "trello-1-1-1.png"
+        },
+        {
+          "name": "Confluence",
+          "role": "Team documentation",
+          "logo": "confluence-1-1-2-1.png"
+        },
+        {
+          "name": "MS Excel",
+          "role": "Budgets and reporting",
+          "logo": "excel-4-1-1-150x150.png"
+        },
+        {
+          "name": "Slack",
+          "role": "Team communication",
+          "logo": "Group-10-1.png"
+        }
       ]
     },
     {
@@ -149,7 +226,10 @@
         "Send weekly status reports with mentor feedback",
         "Lead a retrospective and write lessons learned"
       ],
-      "image": { "src": "WhatWeDoSectionImg1.png", "alt": "Icanio mentor reviewing a project schedule with a student in the project management internship" },
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Icanio mentor reviewing a project schedule with a student in the project management internship"
+      },
       "reverse": true
     },
     {
@@ -159,10 +239,26 @@
       "intro": "You finish the project management internship with a real project file and the confidence to run a team meeting, not only a certificate.",
       "columns": 2,
       "items": [
-        { "title": "A complete project plan", "body": "A charter, scope statement, WBS, Gantt chart, resource plan and budget for one project, reviewed by an Icanio mentor.", "icon": "Group-2085662024-34.png" },
-        { "title": "Agile delivery experience", "body": "Plan and run sprints, keep a backlog healthy in Jira and lead stand-ups, reviews and retrospectives with a team.", "icon": "Group-1000005365-13.png" },
-        { "title": "Risk and change control", "body": "Keep a risk register, plan mitigations and handle change requests without losing control of scope, time or budget.", "icon": "Group-2085662024-41.png" },
-        { "title": "Stakeholder communication", "body": "Write clear status reports, run meetings and present your capstone project confidently to a panel of engineers and managers.", "icon": "Group-2085662024-42.png" }
+        {
+          "title": "A complete project plan",
+          "body": "A charter, scope statement, WBS, Gantt chart, resource plan and budget for one project, reviewed by an Icanio mentor.",
+          "icon": "Group-2085662024-34.png"
+        },
+        {
+          "title": "Agile delivery experience",
+          "body": "Plan and run sprints, keep a backlog healthy in Jira and lead stand-ups, reviews and retrospectives with a team.",
+          "icon": "Group-1000005365-13.png"
+        },
+        {
+          "title": "Risk and change control",
+          "body": "Keep a risk register, plan mitigations and handle change requests without losing control of scope, time or budget.",
+          "icon": "Group-2085662024-41.png"
+        },
+        {
+          "title": "Stakeholder communication",
+          "body": "Write clear status reports, run meetings and present your capstone project confidently to a panel of engineers and managers.",
+          "icon": "Group-2085662024-42.png"
+        }
       ]
     },
     {
@@ -186,11 +282,31 @@
       "heading": "How the project management internship runs, step by step",
       "intro": "The project management internship structure is the same for every duration. Longer internships go deeper in each phase and manage a larger capstone project.",
       "items": [
-        { "label": "Start", "title": "Apply and talk to our team", "body": "Send the short form. A counsellor calls you to understand your degree, your experience and the duration that fits your college calendar." },
-        { "label": "Week 1", "title": "Onboarding and project kickoff", "body": "You meet your mentor, set up Jira, Confluence and Excel templates, and receive the brief for the project you will manage." },
-        { "label": "Phases 1 to 3", "title": "Initiate, plan, execute", "body": "You work through the phases with weekly reviews. Each week ends with a plan, board or report your mentor comments on." },
-        { "label": "Capstone", "title": "Deliver and present your project", "body": "You close your project, run a retrospective and present the full project file to a panel of Icanio engineers and managers." },
-        { "label": "Finish", "title": "Review, certificate and referral", "body": "We review your project file, run a mock PM interview and issue your certificate. Top performers are referred to the Icanio talent team." }
+        {
+          "label": "Start",
+          "title": "Apply and talk to our team",
+          "body": "Send the short form. A counsellor calls you to understand your degree, your experience and the duration that fits your college calendar."
+        },
+        {
+          "label": "Week 1",
+          "title": "Onboarding and project kickoff",
+          "body": "You meet your mentor, set up Jira, Confluence and Excel templates, and receive the brief for the project you will manage."
+        },
+        {
+          "label": "Phases 1 to 3",
+          "title": "Initiate, plan, execute",
+          "body": "You work through the phases with weekly reviews. Each week ends with a plan, board or report your mentor comments on."
+        },
+        {
+          "label": "Capstone",
+          "title": "Deliver and present your project",
+          "body": "You close your project, run a retrospective and present the full project file to a panel of Icanio engineers and managers."
+        },
+        {
+          "label": "Finish",
+          "title": "Review, certificate and referral",
+          "body": "We review your project file, run a mock PM interview and issue your certificate. Top performers are referred to the Icanio talent team."
+        }
       ]
     },
     {
@@ -198,13 +314,37 @@
       "eyebrow": "Career paths",
       "heading": "Roles a project management internship prepares you for",
       "intro": "Most people do not start with the title project manager. These are common entry roles after our project management internship.",
-      "columns": ["Role", "What you do", "Key skills"],
+      "columns": [
+        "Role",
+        "What you do",
+        "Key skills"
+      ],
       "rows": [
-        ["Project coordinator", "Supports the PM with plans and tracking", "Scheduling, Excel, reporting"],
-        ["Associate project manager", "Runs smaller projects or workstreams", "Planning, risk, communication"],
-        ["Scrum team member", "Helps an Agile team run its sprints", "Scrum, Jira, facilitation"],
-        ["PMO analyst", "Tracks many projects for leadership", "Reporting, dashboards, governance"],
-        ["Delivery coordinator", "Keeps client releases on track", "Stakeholders, timelines, follow-up"]
+        [
+          "Project coordinator",
+          "Supports the PM with plans and tracking",
+          "Scheduling, Excel, reporting"
+        ],
+        [
+          "Associate project manager",
+          "Runs smaller projects or workstreams",
+          "Planning, risk, communication"
+        ],
+        [
+          "Scrum team member",
+          "Helps an Agile team run its sprints",
+          "Scrum, Jira, facilitation"
+        ],
+        [
+          "PMO analyst",
+          "Tracks many projects for leadership",
+          "Reporting, dashboards, governance"
+        ],
+        [
+          "Delivery coordinator",
+          "Keeps client releases on track",
+          "Stakeholders, timelines, follow-up"
+        ]
       ],
       "note": "We recommend starting as a project coordinator or Scrum team member. You learn how delivery really works before you lead a project yourself."
     },
@@ -229,12 +369,36 @@
       "eyebrow": "Related tracks",
       "heading": "Internships that pair well with project management",
       "items": [
-        { "title": "Business Analyst Internship", "href": "/internships/business-analyst-internship", "body": "Gather requirements and write the user stories your projects deliver." },
-        { "title": "DevOps Internship", "href": "/internships/devops-internship", "body": "Learn how automated pipelines make releases faster and safer." },
-        { "title": "Software Testing Internship", "href": "/internships/software-testing-internship", "body": "See how QA fits into sprints and release planning." },
-        { "title": "UI/UX Design Internship", "href": "/internships/ui-ux-design-internship", "body": "Understand how design work is planned and reviewed in a project." },
-        { "title": "HR Internship", "href": "/internships/hr-internship", "body": "Work on recruitment, onboarding and team engagement tasks." },
-        { "title": "All 15 internship tracks", "href": "/internships", "body": "Compare durations, modes and outcomes for every track side by side." }
+        {
+          "title": "Business Analyst Internship",
+          "href": "/internships/business-analyst-internship",
+          "body": "Gather requirements and write the user stories your projects deliver."
+        },
+        {
+          "title": "DevOps Internship",
+          "href": "/internships/devops-internship",
+          "body": "Learn how automated pipelines make releases faster and safer."
+        },
+        {
+          "title": "Software Testing Internship",
+          "href": "/internships/software-testing-internship",
+          "body": "See how QA fits into sprints and release planning."
+        },
+        {
+          "title": "UI/UX Design Internship",
+          "href": "/internships/ui-ux-design-internship",
+          "body": "Understand how design work is planned and reviewed in a project."
+        },
+        {
+          "title": "HR Internship",
+          "href": "/internships/hr-internship",
+          "body": "Work on recruitment, onboarding and team engagement tasks."
+        },
+        {
+          "title": "All 15 internship tracks",
+          "href": "/internships",
+          "body": "Compare durations, modes and outcomes for every track side by side."
+        }
       ]
     },
     {
@@ -251,14 +415,38 @@
     }
   ],
   "faqs": [
-    { "q": "Is a tech background needed for a project management internship?", "a": "No. You do not write code as a project manager. It helps to understand how software is built, and Phase 1 covers that in plain terms. What matters most is organisation, clear writing and staying calm when plans change. Our team checks your background when you apply and suggests a duration." },
-    { "q": "Who can apply for the project management internship?", "a": "Engineering, BCA, MCA, B.Com, BBA and MBA students can all apply, as can recent graduates and working professionals. Junior team leads and founders who want to formalise their planning skills also join. If you have led a college event or club, you already have useful instincts to build on." },
-    { "q": "Which tools will I learn in the project management internship?", "a": "You will use MS Project for schedules and timelines, Jira for Agile tracking, Trello for Kanban boards, Confluence for team documentation, MS Excel for budgets and reports, and Slack for team communication. You also learn Gantt charts, WBS and risk registers as working methods." },
-    { "q": "How long is the project management internship?", "a": "You choose from 15 days up to six months. A short project management internship covers foundations and planning. Three and six month internships cover all four phases, including Agile execution, change control and closure, and finish with a capstone presentation that makes a much stronger portfolio." },
-    { "q": "Does the project management internship cover Scrum?", "a": "Yes. Phase 3 covers Agile, Waterfall and hybrid delivery, Scrum ceremonies and roles, Kanban and backlog management. You then run real sprints in Jira during your project. Our team recommends reading the official Scrum Guide alongside the internship so the terms stay clear." },
-    { "q": "Do I get a certificate after the internship?", "a": "Yes. Every intern who completes the project management internship receives an Icanio Tech School certificate stating the track and duration. More useful in interviews is your project file, which shows your charter, schedule, board, risk register and status reports in one place." },
-    { "q": "Can I do the project management internship online?", "a": "Yes. You can attend offline at our centre in Tirunelveli, join online, or choose part-time weekday or weekend batches. Stand-ups and reviews work well over video, and all your plans and boards live in shared tools like Jira, Confluence and Slack." },
-    { "q": "What jobs follow a project management internship?", "a": "Common entry roles are project coordinator, associate project manager, Scrum team member, PMO analyst and delivery coordinator. Top performers from the project management internship are referred to the Icanio talent team. Every intern also gets resume review, LinkedIn guidance and interview coaching." }
+    {
+      "q": "Is a tech background needed for a project management internship?",
+      "a": "No. You do not write code as a project manager. It helps to understand how software is built, and Phase 1 covers that in plain terms. What matters most is organisation, clear writing and staying calm when plans change. Our team checks your background when you apply and suggests a duration."
+    },
+    {
+      "q": "Who can apply for the project management internship?",
+      "a": "Engineering, BCA, MCA, B.Com, BBA and MBA students can all apply, as can recent graduates and working professionals. Junior team leads and founders who want to formalise their planning skills also join. If you have led a college event or club, you already have useful instincts to build on."
+    },
+    {
+      "q": "Which tools will I learn in the project management internship?",
+      "a": "You will use MS Project for schedules and timelines, Jira for Agile tracking, Trello for Kanban boards, Confluence for team documentation, MS Excel for budgets and reports, and Slack for team communication. You also learn Gantt charts, WBS and risk registers as working methods."
+    },
+    {
+      "q": "How long is the project management internship?",
+      "a": "You choose from 15 days up to six months. A short project management internship covers foundations and planning. Three and six month internships cover all four phases, including Agile execution, change control and closure, and finish with a capstone presentation that makes a much stronger portfolio."
+    },
+    {
+      "q": "Does the project management internship cover Scrum?",
+      "a": "Yes. Phase 3 covers Agile, Waterfall and hybrid delivery, Scrum ceremonies and roles, Kanban and backlog management. You then run real sprints in Jira during your project. Our team recommends reading the official Scrum Guide alongside the internship so the terms stay clear."
+    },
+    {
+      "q": "Do I get a certificate after the internship?",
+      "a": "Yes. Every intern who completes the project management internship receives an Icanio Tech School certificate stating the track and duration. More useful in interviews is your project file, which shows your charter, schedule, board, risk register and status reports in one place."
+    },
+    {
+      "q": "Can I do the project management internship online?",
+      "a": "Yes. You can attend offline at our centre in Tirunelveli, join online, or choose part-time weekday or weekend batches. Stand-ups and reviews work well over video, and all your plans and boards live in shared tools like Jira, Confluence and Slack."
+    },
+    {
+      "q": "What jobs follow a project management internship?",
+      "a": "Common entry roles are project coordinator, associate project manager, Scrum team member, PMO analyst and delivery coordinator. Top performers from the project management internship are referred to the Icanio talent team. Every intern also gets resume review, LinkedIn guidance and interview coaching."
+    }
   ],
   "takeaways": [
     "The project management internship at Icanio Tech School covers foundations, planning, Agile and delivery in 4 phases.",
@@ -272,23 +460,54 @@
     "If you want to plan and lead work in tech, apply today. Our team will help you choose a duration and start date that fits your college schedule."
   ],
   "references": [
-    { "label": "Project Management Institute (PMI)", "href": "https://www.pmi.org/" },
-    { "label": "Project management, overview on Wikipedia", "href": "https://en.wikipedia.org/wiki/Project_management" },
-    { "label": "What is Scrum, Scrum.org", "href": "https://www.scrum.org/resources/what-scrum-module" },
-    { "label": "AICTE Internship Policy and guidelines for students", "href": "https://www.aicte-india.org/education/internship" }
+    {
+      "label": "Project Management Institute (PMI)",
+      "href": "https://www.pmi.org/"
+    },
+    {
+      "label": "Project management, overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Project_management"
+    },
+    {
+      "label": "What is Scrum, Scrum.org",
+      "href": "https://www.scrum.org/resources/what-scrum-module"
+    },
+    {
+      "label": "AICTE Internship Policy and guidelines for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    }
   ],
   "cta": {
     "title": "Ready to manage your first real project?",
     "body": "Join the next project management internship batch in Tamil Nadu or online. Pick a duration, meet your mentor and kick off your project within weeks.",
-    "primary": { "label": "Apply for the internship", "href": "#apply" },
-    "secondary": { "label": "How to apply", "href": "/apply-for-internship" }
+    "primary": {
+      "label": "Apply for the internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "How to apply",
+      "href": "/apply-for-internship"
+    }
   },
   "course": {
     "name": "Project Management Internship",
     "description": "A mentored project management internship covering the project lifecycle, charters, scope, WBS, Gantt charts, budgets, Agile and Scrum, Kanban, risk, change control and closure.",
     "duration": "15 days to 6 months",
-    "modes": ["Onsite", "Online", "Blended"],
-    "skills": ["Project lifecycle", "Scope and charters", "WBS and Gantt charts", "Budgeting", "Agile and Scrum", "Kanban", "Risk management", "Stakeholder communication"],
+    "modes": [
+      "Onsite",
+      "Online",
+      "Blended"
+    ],
+    "skills": [
+      "Project lifecycle",
+      "Scope and charters",
+      "WBS and Gantt charts",
+      "Budgeting",
+      "Agile and Scrum",
+      "Kanban",
+      "Risk management",
+      "Stakeholder communication"
+    ],
     "audience": "Students and freshers"
   }
 }

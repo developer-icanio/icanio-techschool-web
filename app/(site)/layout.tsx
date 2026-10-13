@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import JsonLd from "@/components/JsonLd";
+import OneVideoAtATime from "@/components/OneVideoAtATime";
 import StickyActions from "@/components/StickyActions";
 import { organizationSchema } from "@/lib/content/seo-document";
 
@@ -18,6 +19,7 @@ export default function SiteLayout({ children }: LayoutProps<"/">) {
       </div>
       <Footer />
       <StickyActions />
+      <OneVideoAtATime />
     </>
   );
 }

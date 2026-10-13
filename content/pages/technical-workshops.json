@@ -14,7 +14,7 @@
       "tech workshops in tamil nadu"
     ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "Hands-on learning",
@@ -241,23 +241,28 @@
       "items": [
         {
           "title": "Plan the session with you",
-          "body": "Our team agrees the domain, format, student level and available lab setup before the day."
+          "body": "Our team agrees the domain, format, student level and available lab setup before the day.",
+          "label": "Step 1"
         },
         {
           "title": "Live demo by an engineer",
-          "body": "An Icanio engineer shows the technology in action on a real example, explaining each step."
+          "body": "An Icanio engineer shows the technology in action on a real example, explaining each step.",
+          "label": "Step 2"
         },
         {
           "title": "Tool walkthrough",
-          "body": "Students open the same tools and follow along, so setup problems are solved together."
+          "body": "Students open the same tools and follow along, so setup problems are solved together.",
+          "label": "Step 3"
         },
         {
           "title": "Guided practice",
-          "body": "Students build their own version with the trainer and helpers moving around the room."
+          "body": "Students build their own version with the trainer and helpers moving around the room.",
+          "label": "Step 4"
         },
         {
           "title": "Use cases and career guidance",
-          "body": "We end with real-world applications, industry expectations and a roadmap for what to learn next."
+          "body": "We end with real-world applications, industry expectations and a roadmap for what to learn next.",
+          "label": "Finish"
         }
       ]
     },

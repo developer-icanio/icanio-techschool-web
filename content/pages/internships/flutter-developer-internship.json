@@ -7,24 +7,56 @@
     "metaTitle": "Flutter Developer Internship: 4 Proven Phases",
     "metaDescription": "Flutter developer internship at Icanio Tech School: Dart, widgets, Firebase, APIs, state management and store release, with 1:1 mentors and a certificate.",
     "focusKeyword": "flutter developer internship",
-    "secondaryKeywords": ["mobile app development internship", "flutter internship in tamil nadu", "dart and firebase training", "android and ios app internship", "flutter course with certificate"],
+    "secondaryKeywords": [
+      "mobile app development internship",
+      "flutter internship in tamil nadu",
+      "dart and firebase training",
+      "android and ios app internship",
+      "flutter course with certificate"
+    ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "Engineering internship",
     "title": "Flutter Developer Internship: Build Apps for Android and iOS",
     "subtitle": "Our Flutter developer internship teaches you to build cross-platform mobile apps from one codebase. You learn Dart, widgets, Firebase, APIs and store release on real app briefs, with 1:1 guidance from an Icanio engineer.",
-    "image": { "src": "Frame-2085661693-1.png", "alt": "Mobile app screens built during the Flutter developer internship at Icanio Tech School" },
-    "primary": { "label": "Apply for this internship", "href": "#apply" },
-    "secondary": { "label": "View curriculum", "href": "#curriculum" },
-    "highlights": ["4 learning phases", "1:1 mentorship", "4 portfolio apps", "Certificate on completion"]
+    "image": {
+      "src": "Frame-2085661693-1.png",
+      "alt": "Mobile app screens built during the Flutter developer internship at Icanio Tech School"
+    },
+    "primary": {
+      "label": "Apply for this internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "View curriculum",
+      "href": "#curriculum"
+    },
+    "highlights": [
+      "4 learning phases",
+      "1:1 mentorship",
+      "4 portfolio apps",
+      "Certificate on completion"
+    ]
   },
   "facts": [
-    { "label": "Duration", "value": "15 days to 6 months" },
-    { "label": "Mode", "value": "Offline, online or part time" },
-    { "label": "Mentorship", "value": "1:1 with an Icanio engineer" },
-    { "label": "Certificate", "value": "Yes, on completion" }
+    {
+      "label": "Duration",
+      "value": "15 days to 6 months"
+    },
+    {
+      "label": "Mode",
+      "value": "Offline, online or part time"
+    },
+    {
+      "label": "Mentorship",
+      "value": "1:1 with an Icanio engineer"
+    },
+    {
+      "label": "Certificate",
+      "value": "Yes, on completion"
+    }
   ],
   "answer": {
     "question": "What is the Flutter developer internship at Icanio Tech School?",
@@ -48,8 +80,14 @@
         "Manage app state cleanly as features grow",
         "Prepare, sign and submit builds for the app stores"
       ],
-      "image": { "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-7-1.png", "alt": "Intern testing a mobile app on a phone during the Flutter developer internship" },
-      "link": { "label": "Compare all internship tracks", "href": "/internships" }
+      "image": {
+        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-7-1.png",
+        "alt": "Intern testing a mobile app on a phone during the Flutter developer internship"
+      },
+      "link": {
+        "label": "Compare all internship tracks",
+        "href": "/internships"
+      }
     },
     {
       "type": "cards",
@@ -58,10 +96,26 @@
       "intro": "Basic programming in any language is enough to start. These four groups get the most from our Flutter developer internship.",
       "columns": 4,
       "items": [
-        { "title": "App idea owners", "body": "You have an app idea and want to learn how to turn it into a working product that real people can install and use.", "icon": "Group-2085662025-3.png" },
-        { "title": "Aspiring mobile developers", "body": "You want a structured path into mobile engineering, with finished apps you can show recruiters instead of only course certificates.", "icon": "Group-2085662025-2-3.png" },
-        { "title": "Web developers going mobile", "body": "You already build frontends or backends and want to extend your skills to Android and iOS with Flutter.", "icon": "Group-2085662024-12-1.png" },
-        { "title": "CS and IT students", "body": "You want hands-on experience with mobile toolchains, emulators, build pipelines and real store release steps before placements.", "icon": "Group-2085662024-13-2.png" }
+        {
+          "title": "App idea owners",
+          "body": "You have an app idea and want to learn how to turn it into a working product that real people can install and use.",
+          "icon": "Group-2085662025-3.png"
+        },
+        {
+          "title": "Aspiring mobile developers",
+          "body": "You want a structured path into mobile engineering, with finished apps you can show recruiters instead of only course certificates.",
+          "icon": "Group-2085662025-2-3.png"
+        },
+        {
+          "title": "Web developers going mobile",
+          "body": "You already build frontends or backends and want to extend your skills to Android and iOS with Flutter.",
+          "icon": "Group-2085662024-12-1.png"
+        },
+        {
+          "title": "CS and IT students",
+          "body": "You want hands-on experience with mobile toolchains, emulators, build pipelines and real store release steps before placements.",
+          "icon": "Group-2085662024-13-2.png"
+        }
       ]
     },
     {
@@ -124,14 +178,46 @@
       "heading": "Mobile development tools you will use",
       "intro": "These are the tools most mobile teams use daily. You will use each one on a real task during the Flutter developer internship.",
       "items": [
-        { "name": "Flutter", "role": "Cross-platform mobile UI toolkit", "logo": "Group-7-2.png" },
-        { "name": "React Native", "role": "JavaScript mobile apps, for comparison", "logo": "Frame-2085661721-1.png" },
-        { "name": "VS Code and emulators", "role": "Code editor and device testing", "logo": "visual-studio-code-1-2-1-1.png" },
-        { "name": "Firebase", "role": "Authentication, database and storage", "logo": "firebase-1-1-2-1-1.png" },
-        { "name": "Figma", "role": "Reading designs and prototypes", "logo": "figma-icon-2-2.png" },
-        { "name": "Postman", "role": "API testing and debugging", "logo": "Frame-2085661702-1.png" },
-        { "name": "App Store tools", "role": "iOS builds, testing and release", "logo": "apple-app-store-2-1-1.png" },
-        { "name": "Google Play Console", "role": "Android builds and release", "logo": "google-play-5-2-1-1.png" }
+        {
+          "name": "Flutter",
+          "role": "Cross-platform mobile UI toolkit",
+          "logo": "Group-7-2.png"
+        },
+        {
+          "name": "React Native",
+          "role": "JavaScript mobile apps, for comparison",
+          "logo": "Frame-2085661721-1.png"
+        },
+        {
+          "name": "VS Code and emulators",
+          "role": "Code editor and device testing",
+          "logo": "visual-studio-code-1-2-1-1.png"
+        },
+        {
+          "name": "Firebase",
+          "role": "Authentication, database and storage",
+          "logo": "firebase-1-1-2-1-1.png"
+        },
+        {
+          "name": "Figma",
+          "role": "Reading designs and prototypes",
+          "logo": "figma-icon-2-2.png"
+        },
+        {
+          "name": "Postman",
+          "role": "API testing and debugging",
+          "logo": "Frame-2085661702-1.png"
+        },
+        {
+          "name": "App Store tools",
+          "role": "iOS builds, testing and release",
+          "logo": "apple-app-store-2-1-1.png"
+        },
+        {
+          "name": "Google Play Console",
+          "role": "Android builds and release",
+          "logo": "google-play-5-2-1-1.png"
+        }
       ]
     },
     {
@@ -151,7 +237,10 @@
         "Weekly demos with fellow interns",
         "Performance profiling with Flutter DevTools"
       ],
-      "image": { "src": "WhatWeDoSectionImg2.png", "alt": "Icanio mentor reviewing app code with a student in the Flutter developer internship" },
+      "image": {
+        "src": "WhatWeDoSectionImg2.png",
+        "alt": "Icanio mentor reviewing app code with a student in the Flutter developer internship"
+      },
       "reverse": true
     },
     {
@@ -161,10 +250,26 @@
       "intro": "You leave the Flutter developer internship with apps people can install and code employers can read, not only a certificate.",
       "columns": 2,
       "items": [
-        { "title": "4 portfolio mobile apps", "body": "A Flutter UI showcase, a Firebase chat app, a React Native comparison app and a capstone app prepared for the App Store and Google Play.", "icon": "Group-2085662024-1.png" },
-        { "title": "Cross-platform fluency", "body": "Write once and run on Android and iOS. You also understand how Flutter and React Native differ, so you can talk about both in interviews.", "icon": "Group-2085662024-5-3.png" },
-        { "title": "Full release experience", "body": "Go through the whole release process: signing, versioning, store listings, screenshots and crash monitoring after launch.", "icon": "Group-2085662024-6-2.png" },
-        { "title": "A portfolio that gets calls", "body": "Graduate with live, installable apps as proof of work, plus a mobile-focused resume reviewed by industry mentors.", "icon": "Group-1000005365-6-2.png" }
+        {
+          "title": "4 portfolio mobile apps",
+          "body": "A Flutter UI showcase, a Firebase chat app, a React Native comparison app and a capstone app prepared for the App Store and Google Play.",
+          "icon": "Group-2085662024-1.png"
+        },
+        {
+          "title": "Cross-platform fluency",
+          "body": "Write once and run on Android and iOS. You also understand how Flutter and React Native differ, so you can talk about both in interviews.",
+          "icon": "Group-2085662024-5-3.png"
+        },
+        {
+          "title": "Full release experience",
+          "body": "Go through the whole release process: signing, versioning, store listings, screenshots and crash monitoring after launch.",
+          "icon": "Group-2085662024-6-2.png"
+        },
+        {
+          "title": "A portfolio that gets calls",
+          "body": "Graduate with live, installable apps as proof of work, plus a mobile-focused resume reviewed by industry mentors.",
+          "icon": "Group-1000005365-6-2.png"
+        }
       ]
     },
     {
@@ -188,11 +293,31 @@
       "heading": "How the Flutter developer internship runs, step by step",
       "intro": "The Flutter developer internship structure is the same for every duration. Longer internships go deeper in each phase and build a bigger capstone app.",
       "items": [
-        { "label": "Start", "title": "Apply and talk to our team", "body": "Send the short form. A counsellor calls you to understand your year, your programming background and the duration that fits your college calendar." },
-        { "label": "Week 1", "title": "Onboarding and your first screen", "body": "You meet your mentor, install Flutter and an emulator, and build your first screen from a Figma design. You also learn our Git workflow." },
-        { "label": "Phases 1 to 3", "title": "Dart, UI, data and state", "body": "You work through the phases with weekly reviews. Each week ends with a working feature on a real device and a pull request your mentor comments on." },
-        { "label": "Capstone", "title": "Build and release a full app", "body": "You take one app from design to a signed release build, with API data, Firebase and notifications. You demo it to Icanio engineers." },
-        { "label": "Finish", "title": "Review, certificate and referral", "body": "We review your apps and GitHub, run a mock mobile interview and issue your certificate. Top performers are referred to the Icanio talent team." }
+        {
+          "label": "Start",
+          "title": "Apply and talk to our team",
+          "body": "Send the short form. A counsellor calls you to understand your year, your programming background and the duration that fits your college calendar."
+        },
+        {
+          "label": "Week 1",
+          "title": "Onboarding and your first screen",
+          "body": "You meet your mentor, install Flutter and an emulator, and build your first screen from a Figma design. You also learn our Git workflow."
+        },
+        {
+          "label": "Phases 1 to 3",
+          "title": "Dart, UI, data and state",
+          "body": "You work through the phases with weekly reviews. Each week ends with a working feature on a real device and a pull request your mentor comments on."
+        },
+        {
+          "label": "Capstone",
+          "title": "Build and release a full app",
+          "body": "You take one app from design to a signed release build, with API data, Firebase and notifications. You demo it to Icanio engineers."
+        },
+        {
+          "label": "Finish",
+          "title": "Review, certificate and referral",
+          "body": "We review your apps and GitHub, run a mock mobile interview and issue your certificate. Top performers are referred to the Icanio talent team."
+        }
       ]
     },
     {
@@ -200,13 +325,37 @@
       "eyebrow": "Career paths",
       "heading": "Roles a Flutter developer internship prepares you for",
       "intro": "Mobile job titles vary between companies. These are common entry roles after our Flutter developer internship.",
-      "columns": ["Role", "What you do", "Key skills"],
+      "columns": [
+        "Role",
+        "What you do",
+        "Key skills"
+      ],
       "rows": [
-        ["Flutter developer", "Builds cross-platform app features", "Dart, widgets, state management"],
-        ["Mobile app developer", "Ships Android and iOS apps", "APIs, Firebase, store release"],
-        ["Junior Android developer", "Works on Android builds and quality", "Flutter, Play Console, testing"],
-        ["Cross-platform engineer", "Chooses and uses the right framework", "Flutter, React Native, trade-offs"],
-        ["Mobile QA engineer", "Tests apps on real devices", "Device testing, crash analytics"]
+        [
+          "Flutter developer",
+          "Builds cross-platform app features",
+          "Dart, widgets, state management"
+        ],
+        [
+          "Mobile app developer",
+          "Ships Android and iOS apps",
+          "APIs, Firebase, store release"
+        ],
+        [
+          "Junior Android developer",
+          "Works on Android builds and quality",
+          "Flutter, Play Console, testing"
+        ],
+        [
+          "Cross-platform engineer",
+          "Chooses and uses the right framework",
+          "Flutter, React Native, trade-offs"
+        ],
+        [
+          "Mobile QA engineer",
+          "Tests apps on real devices",
+          "Device testing, crash analytics"
+        ]
       ],
       "note": "We recommend starting as a Flutter or mobile app developer. You can later move towards native Android, iOS or full stack work."
     },
@@ -231,12 +380,36 @@
       "eyebrow": "Related tracks",
       "heading": "Internships that pair well with Flutter",
       "items": [
-        { "title": "UI/UX Design Internship", "href": "/internships/ui-ux-design-internship", "body": "Design the screens and flows your Flutter apps will bring to life." },
-        { "title": "Frontend Development Internship", "href": "/internships/frontend-development-internship", "body": "Build responsive web interfaces with HTML, CSS, JavaScript and React." },
-        { "title": "Backend Development Internship", "href": "/internships/backend-development-internship", "body": "Write the APIs and databases that mobile apps depend on." },
-        { "title": "Full Stack Development Internship", "href": "/internships/full-stack-development-internship", "body": "Take a product from interface to database to deployment." },
-        { "title": "Software Testing Internship", "href": "/internships/software-testing-internship", "body": "Learn how QA teams test apps before and after release." },
-        { "title": "All 15 internship tracks", "href": "/internships", "body": "Compare durations, modes and outcomes for every track side by side." }
+        {
+          "title": "UI/UX Design Internship",
+          "href": "/internships/ui-ux-design-internship",
+          "body": "Design the screens and flows your Flutter apps will bring to life."
+        },
+        {
+          "title": "Frontend Development Internship",
+          "href": "/internships/frontend-development-internship",
+          "body": "Build responsive web interfaces with HTML, CSS, JavaScript and React."
+        },
+        {
+          "title": "Backend Development Internship",
+          "href": "/internships/backend-development-internship",
+          "body": "Write the APIs and databases that mobile apps depend on."
+        },
+        {
+          "title": "Full Stack Development Internship",
+          "href": "/internships/full-stack-development-internship",
+          "body": "Take a product from interface to database to deployment."
+        },
+        {
+          "title": "Software Testing Internship",
+          "href": "/internships/software-testing-internship",
+          "body": "Learn how QA teams test apps before and after release."
+        },
+        {
+          "title": "All 15 internship tracks",
+          "href": "/internships",
+          "body": "Compare durations, modes and outcomes for every track side by side."
+        }
       ]
     },
     {
@@ -253,14 +426,38 @@
     }
   ],
   "faqs": [
-    { "q": "Do I need to know Dart for the Flutter developer internship?", "a": "No. Phase 1 teaches Dart from the basics, including types, null safety, classes and async code. If you have written simple programs in C, Java, Python or JavaScript, Dart will feel familiar within a few days. Our team checks your background when you apply and suggests a suitable duration." },
-    { "q": "Is the Flutter developer internship only for CSE and IT students?", "a": "No. CSE, IT, ECE, BCA, MCA and B.Sc. students all join, as do graduates and self-taught developers. What matters is basic programming and a willingness to debug. If you have an app idea of your own, bring it, and your mentor may help you shape it into your capstone." },
-    { "q": "Does the Flutter developer internship need a Mac?", "a": "No. You can build and test Android apps on any Windows or Linux laptop with an emulator or an Android phone. iOS builds need macOS, so your mentor will show you the iOS release steps and how teams handle them. Most of the Flutter code is shared across both platforms anyway." },
-    { "q": "How long is the Flutter developer internship?", "a": "You choose from 15 days up to six months. A short Flutter developer internship covers Dart, widgets and navigation. Three and six month internships cover all four phases, including Firebase, state management and store release, and finish with a capstone app that makes a much stronger portfolio." },
-    { "q": "Does the Flutter developer internship cover React Native?", "a": "You get a focused introduction to React Native alongside Flutter, so you understand how the two compare. The main track is Flutter. Knowing both lets you answer a common interview question well: which framework would you choose for a given project, and why." },
-    { "q": "Do I get a certificate after the internship?", "a": "Yes. Every intern who completes the Flutter developer internship receives an Icanio Tech School certificate stating the track and duration. More useful in interviews are your apps and GitHub repository, which show the screens, data handling and release work you did yourself." },
-    { "q": "Can I do the Flutter developer internship online?", "a": "Yes. You can attend offline at our centre in Tirunelveli, join online, or choose part-time weekday or weekend batches. Online interns share code through GitHub and demo apps over screen share, while offline interns can also test on shared devices at our centre." },
-    { "q": "What jobs follow a Flutter developer internship?", "a": "Common entry roles are Flutter developer, mobile app developer, junior Android developer, cross-platform engineer and mobile QA engineer. Top performers from the Flutter developer internship are referred to the Icanio talent team. Every intern also gets resume review and mock technical interviews." }
+    {
+      "q": "Do I need to know Dart for the Flutter developer internship?",
+      "a": "No. Phase 1 teaches Dart from the basics, including types, null safety, classes and async code. If you have written simple programs in C, Java, Python or JavaScript, Dart will feel familiar within a few days. Our team checks your background when you apply and suggests a suitable duration."
+    },
+    {
+      "q": "Is the Flutter developer internship only for CSE and IT students?",
+      "a": "No. CSE, IT, ECE, BCA, MCA and B.Sc. students all join, as do graduates and self-taught developers. What matters is basic programming and a willingness to debug. If you have an app idea of your own, bring it, and your mentor may help you shape it into your capstone."
+    },
+    {
+      "q": "Does the Flutter developer internship need a Mac?",
+      "a": "No. You can build and test Android apps on any Windows or Linux laptop with an emulator or an Android phone. iOS builds need macOS, so your mentor will show you the iOS release steps and how teams handle them. Most of the Flutter code is shared across both platforms anyway."
+    },
+    {
+      "q": "How long is the Flutter developer internship?",
+      "a": "You choose from 15 days up to six months. A short Flutter developer internship covers Dart, widgets and navigation. Three and six month internships cover all four phases, including Firebase, state management and store release, and finish with a capstone app that makes a much stronger portfolio."
+    },
+    {
+      "q": "Does the Flutter developer internship cover React Native?",
+      "a": "You get a focused introduction to React Native alongside Flutter, so you understand how the two compare. The main track is Flutter. Knowing both lets you answer a common interview question well: which framework would you choose for a given project, and why."
+    },
+    {
+      "q": "Do I get a certificate after the internship?",
+      "a": "Yes. Every intern who completes the Flutter developer internship receives an Icanio Tech School certificate stating the track and duration. More useful in interviews are your apps and GitHub repository, which show the screens, data handling and release work you did yourself."
+    },
+    {
+      "q": "Can I do the Flutter developer internship online?",
+      "a": "Yes. You can attend offline at our centre in Tirunelveli, join online, or choose part-time weekday or weekend batches. Online interns share code through GitHub and demo apps over screen share, while offline interns can also test on shared devices at our centre."
+    },
+    {
+      "q": "What jobs follow a Flutter developer internship?",
+      "a": "Common entry roles are Flutter developer, mobile app developer, junior Android developer, cross-platform engineer and mobile QA engineer. Top performers from the Flutter developer internship are referred to the Icanio talent team. Every intern also gets resume review and mock technical interviews."
+    }
   ],
   "takeaways": [
     "The Flutter developer internship at Icanio Tech School covers Dart, UI, data and release in 4 phases.",
@@ -274,23 +471,54 @@
     "If you want a career in mobile apps, apply today. Our team will help you choose a duration and start date that fits your college schedule."
   ],
   "references": [
-    { "label": "Flutter documentation", "href": "https://docs.flutter.dev/" },
-    { "label": "Dart language documentation", "href": "https://dart.dev/guides" },
-    { "label": "Flutter (software), overview on Wikipedia", "href": "https://en.wikipedia.org/wiki/Flutter_(software)" },
-    { "label": "AICTE Internship Policy and guidelines for students", "href": "https://www.aicte-india.org/education/internship" }
+    {
+      "label": "Flutter documentation",
+      "href": "https://docs.flutter.dev/"
+    },
+    {
+      "label": "Dart language documentation",
+      "href": "https://dart.dev/guides"
+    },
+    {
+      "label": "Flutter (software), overview on Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Flutter_(software)"
+    },
+    {
+      "label": "AICTE Internship Policy and guidelines for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    }
   ],
   "cta": {
     "title": "Ready to build your first mobile app?",
     "body": "Join the next Flutter developer internship batch in Tamil Nadu or online. Pick a duration, meet your mentor and start building within weeks.",
-    "primary": { "label": "Apply for the internship", "href": "#apply" },
-    "secondary": { "label": "How to apply", "href": "/apply-for-internship" }
+    "primary": {
+      "label": "Apply for the internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "How to apply",
+      "href": "/apply-for-internship"
+    }
   },
   "course": {
     "name": "Flutter Developer Internship",
     "description": "A mentored Flutter developer internship covering Dart, widgets, navigation, REST APIs, Firebase, local storage, state management, notifications and app store release.",
     "duration": "15 days to 6 months",
-    "modes": ["Onsite", "Online", "Blended"],
-    "skills": ["Dart", "Flutter widgets", "Navigation", "REST APIs", "Firebase", "State management", "SQLite and Hive", "App store release"],
+    "modes": [
+      "Onsite",
+      "Online",
+      "Blended"
+    ],
+    "skills": [
+      "Dart",
+      "Flutter widgets",
+      "Navigation",
+      "REST APIs",
+      "Firebase",
+      "State management",
+      "SQLite and Hive",
+      "App store release"
+    ],
     "audience": "Students and freshers"
   }
 }

@@ -21,10 +21,21 @@ function Fit({ img, ratio, className = "", sizes = "(min-width: 1024px) 33vw, 10
   return (
     <div className={`relative w-full overflow-hidden bg-soft ${className}`} style={{ aspectRatio: ratio }}>
       <Image src={a.src} alt="" aria-hidden fill sizes="64px" className="scale-110 object-cover opacity-40 blur-2xl" />
-      <Image src={a.src} alt={img.alt} fill sizes={sizes} className="object-contain" />
+      {a.w && a.h ? (
+        // Small originals are shown at their real size (centred) instead of
+        // being stretched, which is what made them look blurry.
+        <span className="absolute inset-0 grid place-items-center">
+          <Image src={a.src} alt={img.alt} width={a.w} height={a.h} sizes={sizes} className="h-auto max-h-full w-auto max-w-full object-contain" style={{ maxWidth: Math.min(a.w, 2000) }} />
+        </span>
+      ) : (
+        <Image src={a.src} alt={img.alt} fill sizes={sizes} className="object-contain" />
+      )}
     </div>
   );
 }
+
+/** True when every card has a large illustration (the old site's track art). */
+const gridArt = (items: { icon?: string }[]) => items.length > 0 && items.every((c) => c.icon && (asset(c.icon).w ?? 0) >= 200);
 
 /** A resized copy from Next's image optimiser, for places next/image can't go (video posters). */
 const thumb = (src: string, w: 384 | 640 | 828) => `/_next/image?url=${encodeURIComponent(src)}&w=${w}&q=70`;
@@ -44,7 +55,7 @@ const Check = ({ light }: { light?: boolean }) => (
 
 const cols = { 2: "sm:grid-cols-2", 3: "sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4", 4: "sm:grid-cols-2 lg:grid-cols-4" } as const;
 
-export function BlockView({ b }: { b: Block }) {
+export function BlockView({ b, email = SITE.email }: { b: Block; email?: string }) {
   const tone = b.tone ?? "white";
   const dark = tone === "navy";
   const head = <SectionHead eyebrow={b.eyebrow} heading={b.heading} intro={b.intro} tone={tone} />;
@@ -85,10 +96,11 @@ export function BlockView({ b }: { b: Block }) {
       return (
         <Section id={b.id} tone={tone}>
           {head}
-          <ul className={`grid gap-5 ${cols[b.columns ?? 3]}`}>
+          <ul className={`grid gap-5 ${b.items.length === 3 ? cols[3].replace(" 2xl:grid-cols-4", "") : cols[b.columns ?? 3]}`}>
             {b.items.map((c) => {
-              // Small icons sit above the title; the live site's larger corner art sits bottom-right.
-              const art = c.icon ? (asset(c.icon).w ?? 0) > 100 : false;
+              // One placement per grid so cards never look swapped: corner art
+              // only when every card in the grid carries a large illustration.
+              const art = gridArt(b.items);
               const inner = (
                 <>
                   {c.image && <Fit img={c.image} ratio="4 / 3" className="mb-5 rounded-[14px]" />}
@@ -118,7 +130,7 @@ export function BlockView({ b }: { b: Block }) {
               <li key={s.title} className="relative">
                 <div className="flex items-center gap-3">
                   <span className={`grid h-11 w-11 shrink-0 place-items-center rounded-full text-base font-bold ${dark ? "bg-white text-navy" : "bg-navy text-white"}`}>{i + 1}</span>
-                  {s.label && <span className={`text-xs font-semibold uppercase tracking-wider ${dark ? "text-cyan" : "text-navy"}`}>{s.label}</span>}
+                  <span className={`text-xs font-semibold uppercase tracking-wider ${dark ? "text-cyan" : "text-navy"}`}>{s.label ?? `Step ${i + 1}`}</span>
                 </div>
                 <h3 className="mt-4 text-lg font-semibold">{s.title}</h3>
                 <p className={`mt-2 text-[15px] leading-relaxed ${dark ? "text-white/80" : "text-body"}`}>{s.body}</p>
@@ -338,7 +350,7 @@ export function BlockView({ b }: { b: Block }) {
               )}
               <div className="mt-8 space-y-2 text-[15px]">
                 <p className="font-semibold text-heading">Talk with our team</p>
-                <p><a href={`mailto:${b.form === "student" ? SITE.internshipEmail : SITE.email}`} className="text-navy hover:underline">{b.form === "student" ? SITE.internshipEmail : SITE.email}</a></p>
+                <p><a href={`mailto:${email}`} className="text-navy hover:underline">{email}</a></p>
                 <p><a href={`tel:${SITE.telephone}`} className="text-navy hover:underline">{SITE.phone}</a></p>
               </div>
             </div>

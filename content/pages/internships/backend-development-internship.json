@@ -7,24 +7,56 @@
     "metaTitle": "Backend Development Internship: 3 Proven APIs",
     "metaDescription": "Backend development internship in Tamil Nadu: build 3 production-grade APIs with Python, Node.js, PostgreSQL, Docker and AWS. 1:1 mentors and a certificate.",
     "focusKeyword": "backend development internship",
-    "secondaryKeywords": ["api development internship", "python backend internship", "node js internship", "server side development training", "backend internship for freshers"],
+    "secondaryKeywords": [
+      "api development internship",
+      "python backend internship",
+      "node js internship",
+      "server side development training",
+      "backend internship for freshers"
+    ],
     "publishedAt": "2026-09-29",
-    "updatedAt": "2026-09-29"
+    "updatedAt": "2026-10-13"
   },
   "hero": {
     "eyebrow": "Engineering internship",
     "title": "Backend Development Internship With Real APIs",
     "subtitle": "Our backend development internship teaches you to design APIs, model databases, secure user data and deploy services to the cloud. You build three production-grade APIs with a 1:1 Icanio mentor and finish with a certificate.",
-    "image": { "src": "Group.png", "alt": "Server, database and API diagram from the backend development internship at Icanio Tech School" },
-    "primary": { "label": "Apply for this internship", "href": "#apply" },
-    "secondary": { "label": "View curriculum", "href": "#curriculum" },
-    "highlights": ["4 learning phases", "3 production-grade APIs", "1:1 mentorship", "Certificate on completion"]
+    "image": {
+      "src": "Group.png",
+      "alt": "Server, database and API diagram from the backend development internship at Icanio Tech School"
+    },
+    "primary": {
+      "label": "Apply for this internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "View curriculum",
+      "href": "#curriculum"
+    },
+    "highlights": [
+      "4 learning phases",
+      "3 production-grade APIs",
+      "1:1 mentorship",
+      "Certificate on completion"
+    ]
   },
   "facts": [
-    { "label": "Duration", "value": "15 days to 6 months" },
-    { "label": "Mode", "value": "Offline, online or part time" },
-    { "label": "Mentorship", "value": "1:1 with an Icanio engineer" },
-    { "label": "Certificate", "value": "Yes, on completion" }
+    {
+      "label": "Duration",
+      "value": "15 days to 6 months"
+    },
+    {
+      "label": "Mode",
+      "value": "Offline, online or part time"
+    },
+    {
+      "label": "Mentorship",
+      "value": "1:1 with an Icanio engineer"
+    },
+    {
+      "label": "Certificate",
+      "value": "Yes, on completion"
+    }
   ],
   "answer": {
     "question": "What is a backend development internship at Icanio?",
@@ -47,8 +79,14 @@
         "Secure services with authentication and access control",
         "Package, deploy and monitor services in the cloud"
       ],
-      "image": { "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-1.png", "alt": "Backend intern testing an API on a laptop at Icanio Tech School" },
-      "link": { "label": "How to get an internship as a fresher", "href": "/career-guides/how-to-get-an-internship-as-a-fresher" }
+      "image": {
+        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-1.png",
+        "alt": "Backend intern testing an API on a laptop at Icanio Tech School"
+      },
+      "link": {
+        "label": "How to get an internship as a fresher",
+        "href": "/career-guides/how-to-get-an-internship-as-a-fresher"
+      }
     },
     {
       "type": "cards",
@@ -58,10 +96,26 @@
       "intro": "No work experience is needed. If you enjoy logic and want to understand how systems work under the hood, you will do well here.",
       "columns": 4,
       "items": [
-        { "title": "Logic-driven builders", "body": "You like solving system problems and want to build the invisible engine behind every app, not just the screens on top.", "icon": "image-copy-3.png" },
-        { "title": "Career switchers", "body": "You come from another field and want a technical role with long-term demand. A backend development internship gives you real services to show.", "icon": "Group-2085663180.png" },
-        { "title": "API enthusiasts", "body": "You are curious about how data flows between applications and how large systems stay fast and secure under heavy load.", "icon": "Group-2085662025-4.png" },
-        { "title": "CS and IT students", "body": "You study B.E., B.Tech, BCA or MCA and want server-side experience at company standards alongside your college coursework.", "icon": "Group-2085662024-5-1.png" }
+        {
+          "title": "Logic-driven builders",
+          "body": "You like solving system problems and want to build the invisible engine behind every app, not just the screens on top.",
+          "icon": "image-copy-3.png"
+        },
+        {
+          "title": "Career switchers",
+          "body": "You come from another field and want a technical role with long-term demand. A backend development internship gives you real services to show.",
+          "icon": "Group-2085663180.png"
+        },
+        {
+          "title": "API enthusiasts",
+          "body": "You are curious about how data flows between applications and how large systems stay fast and secure under heavy load.",
+          "icon": "Group-2085662025-4.png"
+        },
+        {
+          "title": "CS and IT students",
+          "body": "You study B.E., B.Tech, BCA or MCA and want server-side experience at company standards alongside your college coursework.",
+          "icon": "Group-2085662024-5-1.png"
+        }
       ]
     },
     {
@@ -124,14 +178,46 @@
       "heading": "Industry tools you will use every day",
       "intro": "The backend development internship uses the same stack our team runs on client systems, so the tools are familiar on your first job.",
       "items": [
-        { "name": "Python", "role": "Primary language", "logo": "python-svgrepo-com.png" },
-        { "name": "FastAPI", "role": "API framework", "logo": "fastapi-1-1.png" },
-        { "name": "PostgreSQL", "role": "Relational database", "logo": "postgresql-inc-1.png" },
-        { "name": "MongoDB", "role": "NoSQL database", "logo": "mongodb-icon-2-2-1.png" },
-        { "name": "Redis", "role": "Caching layer", "logo": "redis-1.png" },
-        { "name": "Docker", "role": "Containerisation", "logo": "docker.png" },
-        { "name": "Postman", "role": "API testing", "logo": "postman-icon-svgrepo-com-1.png" },
-        { "name": "AWS", "role": "Cloud deployment", "logo": "Group-2085662524.png" }
+        {
+          "name": "Python",
+          "role": "Primary language",
+          "logo": "python-svgrepo-com.png"
+        },
+        {
+          "name": "FastAPI",
+          "role": "API framework",
+          "logo": "fastapi-1-1.png"
+        },
+        {
+          "name": "PostgreSQL",
+          "role": "Relational database",
+          "logo": "postgresql-inc-1.png"
+        },
+        {
+          "name": "MongoDB",
+          "role": "NoSQL database",
+          "logo": "mongodb-icon-2-2-1.png"
+        },
+        {
+          "name": "Redis",
+          "role": "Caching layer",
+          "logo": "redis-1.png"
+        },
+        {
+          "name": "Docker",
+          "role": "Containerisation",
+          "logo": "docker.png"
+        },
+        {
+          "name": "Postman",
+          "role": "API testing",
+          "logo": "postman-icon-svgrepo-com-1.png"
+        },
+        {
+          "name": "AWS",
+          "role": "Cloud deployment",
+          "logo": "Group-2085662524.png"
+        }
       ]
     },
     {
@@ -141,10 +227,26 @@
       "intro": "Each project in the backend development internship is a working service with a public URL, documentation and tests you can walk an interviewer through.",
       "columns": 4,
       "items": [
-        { "title": "3 production-grade APIs", "body": "A CRUD inventory API, a secured authentication service and a capstone backend system deployed to the cloud.", "icon": "Group-2085662024-3.png" },
-        { "title": "Database design skills", "body": "Model real business data, write optimised queries and manage both relational and NoSQL databases with confidence.", "icon": "Group-1000005365-1-2.png" },
-        { "title": "Security-first habits", "body": "JWT authentication, OAuth flows and standard security patterns built in from the first commit, not added at the end.", "icon": "BEn.png" },
-        { "title": "Cloud deployment experience", "body": "Package services in Docker, deploy to AWS and manage infrastructure the way professional teams do in the backend development internship.", "icon": "Group-1000005365-2-3.png" }
+        {
+          "title": "3 production-grade APIs",
+          "body": "A CRUD inventory API, a secured authentication service and a capstone backend system deployed to the cloud.",
+          "icon": "Group-2085662024-3.png"
+        },
+        {
+          "title": "Database design skills",
+          "body": "Model real business data, write optimised queries and manage both relational and NoSQL databases with confidence.",
+          "icon": "Group-1000005365-1-2.png"
+        },
+        {
+          "title": "Security-first habits",
+          "body": "JWT authentication, OAuth flows and standard security patterns built in from the first commit, not added at the end.",
+          "icon": "BEn.png"
+        },
+        {
+          "title": "Cloud deployment experience",
+          "body": "Package services in Docker, deploy to AWS and manage infrastructure the way professional teams do in the backend development internship.",
+          "icon": "Group-1000005365-2-3.png"
+        }
       ]
     },
     {
@@ -163,9 +265,15 @@
         "Curriculum refreshed from live project work each cohort",
         "Mock system design interviews before you finish"
       ],
-      "image": { "src": "WhatWeDoSectionImg1.png", "alt": "Icanio engineer reviewing code with an intern in the backend development internship" },
+      "image": {
+        "src": "WhatWeDoSectionImg1.png",
+        "alt": "Icanio engineer reviewing code with an intern in the backend development internship"
+      },
       "reverse": true,
-      "link": { "label": "Meet our industry trainers", "href": "/industry-trainers" }
+      "link": {
+        "label": "Meet our industry trainers",
+        "href": "/industry-trainers"
+      }
     },
     {
       "type": "checklist",
@@ -180,7 +288,10 @@
         "One to two hours a day of practice outside mentor sessions",
         "Patience with debugging, which is half of backend work"
       ],
-      "image": { "src": "ourInternshipProgramImg.png", "alt": "Intern preparing a development setup for the backend development internship" }
+      "image": {
+        "src": "ourInternshipProgramImg.png",
+        "alt": "Intern preparing a development setup for the backend development internship"
+      }
     },
     {
       "type": "steps",
@@ -188,12 +299,36 @@
       "heading": "How the backend development internship runs, week by week",
       "intro": "The pace follows your chosen duration. Shorter internships go deeper on the first phases, longer ones reach cloud deployment and the capstone.",
       "items": [
-        { "label": "Day 1", "title": "Apply and speak to our team", "body": "Send the short form. A counsellor calls you within one working day to check your level, your preferred language and your batch." },
-        { "label": "Week 1", "title": "Onboarding and setup", "body": "You meet your mentor, install Python or Node.js, Docker and Postman, and join the backend development internship project board." },
-        { "label": "Phases 1 and 2", "title": "APIs and databases", "body": "You build your first REST API, then connect it to PostgreSQL and MongoDB. Each pull request gets a written review." },
-        { "label": "Phase 3", "title": "Security and integrations", "body": "You add login, roles, rate limits and a webhook, and learn how services talk to each other safely." },
-        { "label": "Phase 4", "title": "Cloud and capstone", "body": "You containerise your service, deploy it to AWS through a pipeline and build a capstone from a brief based on Icanio client scenarios." },
-        { "label": "Completion", "title": "Review and certificate", "body": "You demo your capstone, get a resume review and receive your certificate. Top performers are referred to the Icanio talent team." }
+        {
+          "label": "Day 1",
+          "title": "Apply and speak to our team",
+          "body": "Send the short form. A counsellor calls you within one working day to check your level, your preferred language and your batch."
+        },
+        {
+          "label": "Week 1",
+          "title": "Onboarding and setup",
+          "body": "You meet your mentor, install Python or Node.js, Docker and Postman, and join the backend development internship project board."
+        },
+        {
+          "label": "Phases 1 and 2",
+          "title": "APIs and databases",
+          "body": "You build your first REST API, then connect it to PostgreSQL and MongoDB. Each pull request gets a written review."
+        },
+        {
+          "label": "Phase 3",
+          "title": "Security and integrations",
+          "body": "You add login, roles, rate limits and a webhook, and learn how services talk to each other safely."
+        },
+        {
+          "label": "Phase 4",
+          "title": "Cloud and capstone",
+          "body": "You containerise your service, deploy it to AWS through a pipeline and build a capstone from a brief based on Icanio client scenarios."
+        },
+        {
+          "label": "Finish",
+          "title": "Review and certificate",
+          "body": "You demo your capstone, get a resume review and receive your certificate. Top performers are referred to the Icanio talent team."
+        }
       ]
     },
     {
@@ -212,13 +347,37 @@
       "eyebrow": "Career paths",
       "heading": "Roles this backend development internship prepares you for",
       "intro": "Server-side skills lead to several entry-level roles. Here is how they compare.",
-      "columns": ["Role", "What you do", "Key skills"],
+      "columns": [
+        "Role",
+        "What you do",
+        "Key skills"
+      ],
       "rows": [
-        ["Backend developer", "Build APIs and business logic", "Python or Node.js, REST, SQL"],
-        ["API developer", "Design and document service contracts", "REST, GraphQL, Swagger"],
-        ["Database developer", "Model data and tune queries", "PostgreSQL, indexing, MongoDB"],
-        ["Cloud support engineer", "Deploy and monitor services", "Docker, AWS, CI/CD"],
-        ["Junior full stack developer", "Work across APIs and screens", "Node.js, React, databases"]
+        [
+          "Backend developer",
+          "Build APIs and business logic",
+          "Python or Node.js, REST, SQL"
+        ],
+        [
+          "API developer",
+          "Design and document service contracts",
+          "REST, GraphQL, Swagger"
+        ],
+        [
+          "Database developer",
+          "Model data and tune queries",
+          "PostgreSQL, indexing, MongoDB"
+        ],
+        [
+          "Cloud support engineer",
+          "Deploy and monitor services",
+          "Docker, AWS, CI/CD"
+        ],
+        [
+          "Junior full stack developer",
+          "Work across APIs and screens",
+          "Node.js, React, databases"
+        ]
       ],
       "note": "We recommend the full stack track if you also want to own the interface, and DevOps if deployment excites you most."
     },
@@ -243,12 +402,36 @@
       "eyebrow": "Keep exploring",
       "heading": "Related internships you may like",
       "items": [
-        { "title": "All 15 internship tracks", "href": "/internships", "body": "Compare durations, modes, eligibility and outcomes across every track." },
-        { "title": "Full Stack Development Internship", "href": "/internships/full-stack-development-internship", "body": "Add React and deployment to your server-side skills." },
-        { "title": "DevOps Internship", "href": "/internships/devops-internship", "body": "Go deeper on CI/CD, containers and cloud infrastructure." },
-        { "title": "Frontend Development Internship", "href": "/internships/frontend-development-internship", "body": "Build the interfaces that call your APIs." },
-        { "title": "Software Testing Internship", "href": "/internships/software-testing-internship", "body": "Learn API testing and automation from the QA side." },
-        { "title": "AI ML Internship", "href": "/internships/ai-ml-internship", "body": "Use Python to train models and serve them as APIs." }
+        {
+          "title": "All 15 internship tracks",
+          "href": "/internships",
+          "body": "Compare durations, modes, eligibility and outcomes across every track."
+        },
+        {
+          "title": "Full Stack Development Internship",
+          "href": "/internships/full-stack-development-internship",
+          "body": "Add React and deployment to your server-side skills."
+        },
+        {
+          "title": "DevOps Internship",
+          "href": "/internships/devops-internship",
+          "body": "Go deeper on CI/CD, containers and cloud infrastructure."
+        },
+        {
+          "title": "Frontend Development Internship",
+          "href": "/internships/frontend-development-internship",
+          "body": "Build the interfaces that call your APIs."
+        },
+        {
+          "title": "Software Testing Internship",
+          "href": "/internships/software-testing-internship",
+          "body": "Learn API testing and automation from the QA side."
+        },
+        {
+          "title": "AI ML Internship",
+          "href": "/internships/ai-ml-internship",
+          "body": "Use Python to train models and serve them as APIs."
+        }
       ]
     },
     {
@@ -265,14 +448,38 @@
     }
   ],
   "faqs": [
-    { "q": "Do I need to know Python or Node.js before joining?", "a": "No. The backend development internship starts with core programming in your chosen language. Basic logic from any language, such as C or Java, helps. On the counselling call we check your level and suggest Python or Node.js based on your goals and background." },
-    { "q": "How long is the backend development internship?", "a": "You choose between 15 days and six months. Short internships cover server fundamentals and databases with one API project. Three and six month internships cover all four phases, three APIs and cloud deployment, which makes a far stronger portfolio." },
-    { "q": "Is the backend development internship offline or online?", "a": "Both. You can attend offline at our centre, join online from anywhere in Tamil Nadu, or choose a part-time weekday or weekend batch. Hybrid works too, so the backend development internship fits your college timetable." },
-    { "q": "Which language is better for backend: Python or Node.js?", "a": "Both are widely used, and the concepts are the same: HTTP, databases, security and deployment. Python with FastAPI suits students heading towards data or AI. Node.js with Express suits those who also want full stack JavaScript. Your mentor helps you decide." },
-    { "q": "Will I deploy real services?", "a": "Yes. During the backend development internship you containerise your APIs with Docker and deploy them to AWS through a CI/CD pipeline. You leave with live endpoints, Swagger documentation and a GitHub history that employers can check." },
-    { "q": "Do I get a certificate after the internship?", "a": "Yes. Every intern who completes the backend development internship receives an Icanio Tech School certificate that states the track and duration, along with a portfolio of the services you built." },
-    { "q": "Does the internship help with placement?", "a": "We run resume reviews, mock interviews and LinkedIn guidance for every intern, including system design practice for backend roles. Top performers are referred to the Icanio Technologies talent team. Across our programs, 90% of students are placed within five months." },
-    { "q": "Can my college send a batch of students?", "a": "Yes. Many of our 30+ MoU partner colleges send students together, and progress updates can be shared with the placement cell. Ask your placement officer to contact our team, or see our college programs page." }
+    {
+      "q": "Do I need to know Python or Node.js before joining?",
+      "a": "No. The backend development internship starts with core programming in your chosen language. Basic logic from any language, such as C or Java, helps. On the counselling call we check your level and suggest Python or Node.js based on your goals and background."
+    },
+    {
+      "q": "How long is the backend development internship?",
+      "a": "You choose between 15 days and six months. Short internships cover server fundamentals and databases with one API project. Three and six month internships cover all four phases, three APIs and cloud deployment, which makes a far stronger portfolio."
+    },
+    {
+      "q": "Is the backend development internship offline or online?",
+      "a": "Both. You can attend offline at our centre, join online from anywhere in Tamil Nadu, or choose a part-time weekday or weekend batch. Hybrid works too, so the backend development internship fits your college timetable."
+    },
+    {
+      "q": "Which language is better for backend: Python or Node.js?",
+      "a": "Both are widely used, and the concepts are the same: HTTP, databases, security and deployment. Python with FastAPI suits students heading towards data or AI. Node.js with Express suits those who also want full stack JavaScript. Your mentor helps you decide."
+    },
+    {
+      "q": "Will I deploy real services?",
+      "a": "Yes. During the backend development internship you containerise your APIs with Docker and deploy them to AWS through a CI/CD pipeline. You leave with live endpoints, Swagger documentation and a GitHub history that employers can check."
+    },
+    {
+      "q": "Do I get a certificate after the internship?",
+      "a": "Yes. Every intern who completes the backend development internship receives an Icanio Tech School certificate that states the track and duration, along with a portfolio of the services you built."
+    },
+    {
+      "q": "Does the internship help with placement?",
+      "a": "We run resume reviews, mock interviews and LinkedIn guidance for every intern, including system design practice for backend roles. Top performers are referred to the Icanio Technologies talent team. Across our programs, 90% of students are placed within five months."
+    },
+    {
+      "q": "Can my college send a batch of students?",
+      "a": "Yes. Many of our 30+ MoU partner colleges send students together, and progress updates can be shared with the placement cell. Ask your placement officer to contact our team, or see our college programs page."
+    }
   ],
   "takeaways": [
     "The backend development internship covers APIs, databases, security and cloud deployment in four phases.",
@@ -286,24 +493,61 @@
     "If you are a student or fresher in Tamil Nadu ready to build the engine behind the apps, apply today. Our team will call you, check your level and help you choose a language, duration and batch."
   ],
   "references": [
-    { "label": "Python official documentation", "href": "https://docs.python.org/3/" },
-    { "label": "PostgreSQL official documentation", "href": "https://www.postgresql.org/docs/" },
-    { "label": "OWASP API Security Project", "href": "https://owasp.org/www-project-api-security/" },
-    { "label": "Representational state transfer (REST), Wikipedia", "href": "https://en.wikipedia.org/wiki/REST" },
-    { "label": "AICTE internship guidelines for students", "href": "https://www.aicte-india.org/education/internship" }
+    {
+      "label": "Python official documentation",
+      "href": "https://docs.python.org/3/"
+    },
+    {
+      "label": "PostgreSQL official documentation",
+      "href": "https://www.postgresql.org/docs/"
+    },
+    {
+      "label": "OWASP API Security Project",
+      "href": "https://owasp.org/www-project-api-security/"
+    },
+    {
+      "label": "Representational state transfer (REST), Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/REST"
+    },
+    {
+      "label": "AICTE internship guidelines for students",
+      "href": "https://www.aicte-india.org/education/internship"
+    }
   ],
   "cta": {
     "title": "Start your backend development internship",
     "body": "Pick a language, a duration and a batch, and begin your backend development internship with an Icanio mentor within weeks.",
-    "primary": { "label": "Apply for this internship", "href": "#apply" },
-    "secondary": { "label": "Compare all internships", "href": "/internships" }
+    "primary": {
+      "label": "Apply for this internship",
+      "href": "#apply"
+    },
+    "secondary": {
+      "label": "Compare all internships",
+      "href": "/internships"
+    }
   },
   "course": {
     "name": "Backend Development Internship",
     "description": "A mentored backend development internship covering Python or Node.js, REST and GraphQL APIs, PostgreSQL, MongoDB, Redis, authentication, Docker and AWS deployment, with three production-grade APIs and a certificate.",
     "duration": "15 days to 6 months",
-    "modes": ["Onsite", "Online", "Blended"],
-    "skills": ["Python", "FastAPI", "Node.js", "Express", "PostgreSQL", "MongoDB", "Redis", "JWT and OAuth 2.0", "Docker", "AWS", "GitHub Actions"],
+    "modes": [
+      "Onsite",
+      "Online",
+      "Blended"
+    ],
+    "skills": [
+      "Python",
+      "FastAPI",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "JWT and OAuth 2.0",
+      "Docker",
+      "AWS",
+      "GitHub Actions"
+    ],
     "audience": "Students and freshers"
   }
 }
