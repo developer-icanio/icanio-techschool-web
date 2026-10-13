@@ -22,7 +22,7 @@
     "title": "Digital Marketing Internship With Real Campaign Experience",
     "subtitle": "Our digital marketing internship puts you in charge of real campaigns. You learn SEO, content, Google Ads, Meta Ads, email and analytics with a 1:1 mentor, run three live campaigns and finish with a certificate from Icanio Tech School.",
     "image": {
-      "src": "OBJECTS-1.png",
+      "src": "ts:Digital/Digital marketing.png",
       "alt": "Illustration of channels and analytics covered in the digital marketing internship at Icanio"
     },
     "primary": {
@@ -79,8 +79,9 @@
         "Track results in Google Analytics 4 and report the return"
       ],
       "image": {
-        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-14.png",
-        "alt": "Intern reviewing campaign results during the digital marketing internship"
+        "src": "ts:Digital/The role.png",
+        "portrait": "ts:Digital/The role - p.png",
+        "alt": "Professional at work in the digital marketing role the internship prepares you for"
       },
       "link": {
         "label": "Compare all internship tracks",
@@ -235,8 +236,9 @@
         "Friday review of results in Google Analytics 4"
       ],
       "image": {
-        "src": "ourInternshipProgramImg.png",
-        "alt": "Interns planning a campaign with a mentor in the digital marketing internship"
+        "src": "ts:Digital/why icanio.png",
+        "alt": "Interns learning digital marketing with Icanio Tech School mentors",
+        "portrait": "ts:Digital/why icanio - p.png"
       },
       "reverse": true
     },
@@ -320,8 +322,8 @@
         "Present a campaign report with cost, results and next steps"
       ],
       "image": {
-        "src": "WhatWeDoSectionImg2.png",
-        "alt": "Students completing digital marketing internship tasks at Icanio Tech School"
+        "src": "ts:Digital/Before you start.png",
+        "alt": "Student getting ready for the digital marketing internship"
       }
     },
     {

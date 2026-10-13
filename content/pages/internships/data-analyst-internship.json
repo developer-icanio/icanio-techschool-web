@@ -22,7 +22,7 @@
     "title": "Data Analyst Internship With Real Business Insights",
     "subtitle": "Our data analyst internship takes you from spreadsheets to SQL, Python and live dashboards. You work on real business datasets with a 1:1 mentor, build four reports you can show employers, and finish with a certificate from Icanio Tech School.",
     "image": {
-      "src": "Group-1-5.png",
+      "src": "ts:data/Data Anlyst.png",
       "alt": "Student reviewing charts and dashboards during the data analyst internship at Icanio"
     },
     "primary": {
@@ -79,8 +79,9 @@
         "Present findings as dashboards and short written reports"
       ],
       "image": {
-        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-2-1.png",
-        "alt": "Intern presenting business insights from a data analyst internship project"
+        "src": "ts:data/The role.png",
+        "portrait": "ts:data/The role-1.png",
+        "alt": "Professional at work in the data analyst role the internship prepares you for"
       },
       "link": {
         "label": "Compare all internship tracks",
@@ -265,8 +266,9 @@
         "End-of-day review of queries, charts and conclusions"
       ],
       "image": {
-        "src": "ourInternshipProgramImg.png",
-        "alt": "Interns working with a mentor during a data analyst internship session"
+        "src": "ts:data/why icanio.png",
+        "alt": "Interns learning data analyst with Icanio Tech School mentors",
+        "portrait": "ts:data/why icanio-1.png"
       },
       "reverse": true
     },
@@ -320,8 +322,8 @@
         "Show a portfolio of four reports and a capstone project"
       ],
       "image": {
-        "src": "WhatWeDoSectionImg2.png",
-        "alt": "Students completing data analyst internship tasks at Icanio Tech School"
+        "src": "ts:data/Before you start.png",
+        "alt": "Student getting ready for the data analyst internship"
       }
     },
     {

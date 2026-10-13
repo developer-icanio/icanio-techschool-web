@@ -2513,5 +2513,876 @@
   "src": "/images/vellalr.webp",
   "w": 832,
   "h": 1248
+ },
+ "ts:AI_ML/Before you start.png": {
+  "src": "/images/ts/ai-ml-before-you-start.webp",
+  "w": 870,
+  "h": 1119
+ },
+ "ts:AI_ML/ML.png": {
+  "src": "/images/ts/ai-ml-ml.webp",
+  "w": 2400,
+  "h": 957,
+  "tone": "dark",
+  "bg": "#187c8a",
+  "art": {
+   "src": "/images/ts/ai-ml-ml-art.webp",
+   "w": 1600,
+   "h": 1099
+  }
+ },
+ "ts:AI_ML/The role- p.png": {
+  "src": "/images/ts/ai-ml-the-role-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:AI_ML/The role.png": {
+  "src": "/images/ts/ai-ml-the-role.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:AI_ML/why icanio - p.png": {
+  "src": "/images/ts/ai-ml-why-icanio-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:AI_ML/why icanio.png": {
+  "src": "/images/ts/ai-ml-why-icanio.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Backend/Backend.png": {
+  "src": "/images/ts/backend-backend.webp",
+  "w": 2400,
+  "h": 930,
+  "tone": "dark",
+  "bg": "#27458a",
+  "art": {
+   "src": "/images/ts/backend-backend-art.webp",
+   "w": 1600,
+   "h": 1069
+  }
+ },
+ "ts:Backend/Before you start.png": {
+  "src": "/images/ts/backend-before-you-start.webp",
+  "w": 870,
+  "h": 1119
+ },
+ "ts:Backend/The role - P.png": {
+  "src": "/images/ts/backend-the-role-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Backend/The role.png": {
+  "src": "/images/ts/backend-the-role.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Backend/why icanio - p.png": {
+  "src": "/images/ts/backend-why-icanio-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Backend/why icanio.png": {
+  "src": "/images/ts/backend-why-icanio.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Business analyst/Before you start.png": {
+  "src": "/images/ts/business-analyst-before-you-start.webp",
+  "w": 870,
+  "h": 1119
+ },
+ "ts:Business analyst/Business analyst.png": {
+  "src": "/images/ts/business-analyst-business-analyst.webp",
+  "w": 2400,
+  "h": 885,
+  "tone": "dark",
+  "bg": "#1a195e",
+  "art": {
+   "src": "/images/ts/business-analyst-business-analyst-art.webp",
+   "w": 1600,
+   "h": 1017
+  }
+ },
+ "ts:Business analyst/The role - P.png": {
+  "src": "/images/ts/business-analyst-the-role-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Business analyst/The role.png": {
+  "src": "/images/ts/business-analyst-the-role.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Business analyst/why icanio - P.png": {
+  "src": "/images/ts/business-analyst-why-icanio-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Business analyst/why icanio.png": {
+  "src": "/images/ts/business-analyst-why-icanio.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:DeOps/Before you start.png": {
+  "src": "/images/ts/deops-before-you-start.webp",
+  "w": 870,
+  "h": 1119
+ },
+ "ts:DeOps/DevOps.png": {
+  "src": "/images/ts/deops-devops.webp",
+  "w": 2400,
+  "h": 957,
+  "tone": "dark",
+  "bg": "#091c74",
+  "art": {
+   "src": "/images/ts/deops-devops-art.webp",
+   "w": 1600,
+   "h": 1099
+  }
+ },
+ "ts:DeOps/The role.png": {
+  "src": "/images/ts/deops-the-role.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:DeOps/Why icanio - p.png": {
+  "src": "/images/ts/deops-why-icanio-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:DeOps/th role - p.png": {
+  "src": "/images/ts/deops-th-role-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:DeOps/why icanio.png": {
+  "src": "/images/ts/deops-why-icanio.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Digital/Before you start.png": {
+  "src": "/images/ts/digital-before-you-start.webp",
+  "w": 870,
+  "h": 1119
+ },
+ "ts:Digital/Digital marketing.png": {
+  "src": "/images/ts/digital-digital-marketing.webp",
+  "w": 2400,
+  "h": 930,
+  "tone": "dark",
+  "bg": "#49325b",
+  "art": {
+   "src": "/images/ts/digital-digital-marketing-art.webp",
+   "w": 1600,
+   "h": 1069
+  }
+ },
+ "ts:Digital/The role - p.png": {
+  "src": "/images/ts/digital-the-role-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Digital/The role.png": {
+  "src": "/images/ts/digital-the-role.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Digital/why icanio - p.png": {
+  "src": "/images/ts/digital-why-icanio-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Digital/why icanio.png": {
+  "src": "/images/ts/digital-why-icanio.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Faculty/Before the day.png": {
+  "src": "/images/ts/faculty-before-the-day.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:Faculty/Choosing a topic.png": {
+  "src": "/images/ts/faculty-choosing-a-topic.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:Faculty/Faculty - hero sec.png": {
+  "src": "/images/ts/faculty-faculty-hero-sec.webp",
+  "w": 2400,
+  "h": 928,
+  "tone": "light",
+  "bg": "#e9e9ec",
+  "art": {
+   "src": "/images/ts/faculty-faculty-hero-sec-art.webp",
+   "w": 1600,
+   "h": 1067
+  }
+ },
+ "ts:Faculty/What you will explore.png": {
+  "src": "/images/ts/faculty-what-you-will-explore.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:Finance/Before you start.png": {
+  "src": "/images/ts/finance-before-you-start.webp",
+  "w": 870,
+  "h": 1119
+ },
+ "ts:Finance/Finance.png": {
+  "src": "/images/ts/finance-finance.webp",
+  "w": 2400,
+  "h": 930,
+  "tone": "dark",
+  "bg": "#0b1c6f",
+  "art": {
+   "src": "/images/ts/finance-finance-art.webp",
+   "w": 1600,
+   "h": 1069
+  }
+ },
+ "ts:Finance/The role - P.png": {
+  "src": "/images/ts/finance-the-role-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Finance/The role.png": {
+  "src": "/images/ts/finance-the-role.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Finance/why icanio - P.png": {
+  "src": "/images/ts/finance-why-icanio-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Finance/why icanio.png": {
+  "src": "/images/ts/finance-why-icanio.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Frontend/Before you start copy.png": {
+  "src": "/images/ts/frontend-before-you-start-copy.webp",
+  "w": 870,
+  "h": 1119
+ },
+ "ts:Frontend/Frontend.png": {
+  "src": "/images/ts/frontend-frontend.webp",
+  "w": 2400,
+  "h": 1047,
+  "tone": "dark",
+  "bg": "#3b96ca",
+  "art": {
+   "src": "/images/ts/frontend-frontend-art.webp",
+   "w": 1600,
+   "h": 1203
+  }
+ },
+ "ts:Frontend/The role - p.png": {
+  "src": "/images/ts/frontend-the-role-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Frontend/The role.png": {
+  "src": "/images/ts/frontend-the-role.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Frontend/why icanio - p.png": {
+  "src": "/images/ts/frontend-why-icanio-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Frontend/why icanio.png": {
+  "src": "/images/ts/frontend-why-icanio.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Full Stack/Before you start.png": {
+  "src": "/images/ts/full-stack-before-you-start.webp",
+  "w": 870,
+  "h": 1119
+ },
+ "ts:Full Stack/Full stack.png": {
+  "src": "/images/ts/full-stack-full-stack.webp",
+  "w": 2400,
+  "h": 932,
+  "tone": "dark",
+  "bg": "#194f95",
+  "art": {
+   "src": "/images/ts/full-stack-full-stack-art.webp",
+   "w": 1600,
+   "h": 1071
+  }
+ },
+ "ts:Full Stack/The role -p.png": {
+  "src": "/images/ts/full-stack-the-role-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Full Stack/The role.png": {
+  "src": "/images/ts/full-stack-the-role.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Full Stack/why icanio - p.png": {
+  "src": "/images/ts/full-stack-why-icanio-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Full Stack/why icanio.png": {
+  "src": "/images/ts/full-stack-why-icanio.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Guest/Before the day - P.png": {
+  "src": "/images/ts/guest-before-the-day-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Guest/Before the day.png": {
+  "src": "/images/ts/guest-before-the-day.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:Guest/Guest Lecture - hero sec.png": {
+  "src": "/images/ts/guest-guest-lecture-hero-sec.webp",
+  "w": 2400,
+  "h": 928,
+  "tone": "light",
+  "bg": "#edf0f2",
+  "art": {
+   "src": "/images/ts/guest-guest-lecture-hero-sec-art.webp",
+   "w": 1600,
+   "h": 1067
+  }
+ },
+ "ts:Guest/What you will explore - P.png": {
+  "src": "/images/ts/guest-what-you-will-explore-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Guest/What you will explore.png": {
+  "src": "/images/ts/guest-what-you-will-explore.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:Guest lecture.png": {
+  "src": "/images/ts/guest-lecture.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:HR/Before you start.png": {
+  "src": "/images/ts/hr-before-you-start.webp",
+  "w": 870,
+  "h": 1119
+ },
+ "ts:HR/HR.png": {
+  "src": "/images/ts/hr-hr.webp",
+  "w": 2400,
+  "h": 930,
+  "tone": "dark",
+  "bg": "#2769a5",
+  "art": {
+   "src": "/images/ts/hr-hr-art.webp",
+   "w": 1600,
+   "h": 1069
+  }
+ },
+ "ts:HR/The role - p.png": {
+  "src": "/images/ts/hr-the-role-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:HR/The role.png": {
+  "src": "/images/ts/hr-the-role.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:HR/why icanio -p.png": {
+  "src": "/images/ts/hr-why-icanio-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:HR/why icanio.png": {
+  "src": "/images/ts/hr-why-icanio.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:IV/A day at Icanio - p.png": {
+  "src": "/images/ts/iv-a-day-at-icanio-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:IV/A day at Icanio-1.png": {
+  "src": "/images/ts/iv-a-day-at-icanio-1.webp",
+  "w": 1200,
+  "h": 810
+ },
+ "ts:IV/A day at Icanio.png": {
+  "src": "/images/ts/iv-a-day-at-icanio.webp",
+  "w": 1200,
+  "h": 810
+ },
+ "ts:IV/Benefits card1.png": {
+  "src": "/images/ts/iv-benefits-card1.webp",
+  "w": 1200,
+  "h": 810
+ },
+ "ts:IV/Benefits card2.png": {
+  "src": "/images/ts/iv-benefits-card2.webp",
+  "w": 1200,
+  "h": 810
+ },
+ "ts:IV/Benefits card3.png": {
+  "src": "/images/ts/iv-benefits-card3.webp",
+  "w": 1200,
+  "h": 810
+ },
+ "ts:IV/IV - hero sec.png": {
+  "src": "/images/ts/iv-iv-hero-sec.webp",
+  "w": 2400,
+  "h": 928,
+  "tone": "dark",
+  "bg": "#114c83",
+  "art": {
+   "src": "/images/ts/iv-iv-hero-sec-art.webp",
+   "w": 1600,
+   "h": 1067
+  }
+ },
+ "ts:IV/What you will explore.png": {
+  "src": "/images/ts/iv-what-you-will-explore.webp",
+  "w": 870,
+  "h": 1119
+ },
+ "ts:IV.png": {
+  "src": "/images/ts/iv.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:Intership screen/Industry-ready programs.png": {
+  "src": "/images/ts/intership-screen-industry-ready-programs.webp",
+  "w": 1284,
+  "h": 1284
+ },
+ "ts:Intership screen/Intership- Hero sec.png": {
+  "src": "/images/ts/intership-screen-intership-hero-sec.webp",
+  "w": 2400,
+  "h": 928,
+  "tone": "light",
+  "bg": "#e2e4e4",
+  "art": {
+   "src": "/images/ts/intership-screen-intership-hero-sec-art.webp",
+   "w": 1600,
+   "h": 1067
+  }
+ },
+ "ts:Intership screen/Why Icanio.png": {
+  "src": "/images/ts/intership-screen-why-icanio.webp",
+  "w": 1284,
+  "h": 1284
+ },
+ "ts:Intership.png": {
+  "src": "/images/ts/intership.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:MoU/After the signing - P.png": {
+  "src": "/images/ts/mou-after-the-signing-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:MoU/After the signing.png": {
+  "src": "/images/ts/mou-after-the-signing.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:MoU/MOU.png": {
+  "src": "/images/ts/mou-mou.webp",
+  "w": 2400,
+  "h": 993,
+  "tone": "dark",
+  "bg": "#19538f",
+  "art": {
+   "src": "/images/ts/mou-mou-art.webp",
+   "w": 1600,
+   "h": 1142
+  }
+ },
+ "ts:MoU/What an MoU means- p.png": {
+  "src": "/images/ts/mou-what-an-mou-means-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:MoU/What an MoU means.png": {
+  "src": "/images/ts/mou-what-an-mou-means.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:MoU.png": {
+  "src": "/images/ts/mou.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:Mobile App/Before you start.png": {
+  "src": "/images/ts/mobile-app-before-you-start.webp",
+  "w": 870,
+  "h": 1119
+ },
+ "ts:Mobile App/Mobile app.png": {
+  "src": "/images/ts/mobile-app-mobile-app.webp",
+  "w": 2400,
+  "h": 872,
+  "tone": "dark",
+  "bg": "#2a4875",
+  "art": {
+   "src": "/images/ts/mobile-app-mobile-app-art.webp",
+   "w": 1600,
+   "h": 1002
+  }
+ },
+ "ts:Mobile App/The role - p.png": {
+  "src": "/images/ts/mobile-app-the-role-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Mobile App/The role.png": {
+  "src": "/images/ts/mobile-app-the-role.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Mobile App/why icanio - p.png": {
+  "src": "/images/ts/mobile-app-why-icanio-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Mobile App/why icanio.png": {
+  "src": "/images/ts/mobile-app-why-icanio.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Project manager/Before you start.png": {
+  "src": "/images/ts/project-manager-before-you-start.webp",
+  "w": 870,
+  "h": 1119
+ },
+ "ts:Project manager/Project manager.png": {
+  "src": "/images/ts/project-manager-project-manager.webp",
+  "w": 2400,
+  "h": 930,
+  "tone": "dark",
+  "bg": "#0a3869",
+  "art": {
+   "src": "/images/ts/project-manager-project-manager-art.webp",
+   "w": 1600,
+   "h": 1069
+  }
+ },
+ "ts:Project manager/The role - p.png": {
+  "src": "/images/ts/project-manager-the-role-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Project manager/The role.png": {
+  "src": "/images/ts/project-manager-the-role.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Project manager/why icanio - p.png": {
+  "src": "/images/ts/project-manager-why-icanio-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Project manager/why icanio.png": {
+  "src": "/images/ts/project-manager-why-icanio.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Sales/Before you start.png": {
+  "src": "/images/ts/sales-before-you-start.webp",
+  "w": 870,
+  "h": 1119
+ },
+ "ts:Sales/Sales.png": {
+  "src": "/images/ts/sales-sales.webp",
+  "w": 2400,
+  "h": 930,
+  "tone": "dark",
+  "bg": "#285174",
+  "art": {
+   "src": "/images/ts/sales-sales-art.webp",
+   "w": 1600,
+   "h": 1069
+  }
+ },
+ "ts:Sales/The role - P.png": {
+  "src": "/images/ts/sales-the-role-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Sales/The role.png": {
+  "src": "/images/ts/sales-the-role.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Sales/why icanio - P.png": {
+  "src": "/images/ts/sales-why-icanio-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Sales/why icanio.png": {
+  "src": "/images/ts/sales-why-icanio.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Software testing/Before you start.png": {
+  "src": "/images/ts/software-testing-before-you-start.webp",
+  "w": 870,
+  "h": 1119
+ },
+ "ts:Software testing/Software.png": {
+  "src": "/images/ts/software-testing-software.webp",
+  "w": 2400,
+  "h": 957,
+  "tone": "dark",
+  "bg": "#4a335d",
+  "art": {
+   "src": "/images/ts/software-testing-software-art.webp",
+   "w": 1600,
+   "h": 1099
+  }
+ },
+ "ts:Software testing/The role - p.png": {
+  "src": "/images/ts/software-testing-the-role-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Software testing/The role.png": {
+  "src": "/images/ts/software-testing-the-role.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Software testing/why icanio - p.png": {
+  "src": "/images/ts/software-testing-why-icanio-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Software testing/why icanio.png": {
+  "src": "/images/ts/software-testing-why-icanio.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Student/In practice.png": {
+  "src": "/images/ts/student-in-practice.webp",
+  "w": 870,
+  "h": 1119
+ },
+ "ts:Student/Outcomes.png": {
+  "src": "/images/ts/student-outcomes.webp",
+  "w": 870,
+  "h": 1119
+ },
+ "ts:Student/Program overview-1.png": {
+  "src": "/images/ts/student-program-overview-1.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:Student/Program overview.png": {
+  "src": "/images/ts/student-program-overview.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:Student/Student development program.png": {
+  "src": "/images/ts/student-student-development-program.webp",
+  "w": 2400,
+  "h": 928,
+  "tone": "dark",
+  "bg": "#0c3f74",
+  "art": {
+   "src": "/images/ts/student-student-development-program-art.webp",
+   "w": 1600,
+   "h": 1067
+  }
+ },
+ "ts:Student/why icanio.png": {
+  "src": "/images/ts/student-why-icanio.webp",
+  "w": 870,
+  "h": 1119
+ },
+ "ts:UX_UI/Before you start.png": {
+  "src": "/images/ts/ux-ui-before-you-start.webp",
+  "w": 870,
+  "h": 1119
+ },
+ "ts:UX_UI/The role - p.png": {
+  "src": "/images/ts/ux-ui-the-role-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:UX_UI/The role.png": {
+  "src": "/images/ts/ux-ui-the-role.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:UX_UI/UI.png": {
+  "src": "/images/ts/ux-ui-ui.webp",
+  "w": 2400,
+  "h": 957,
+  "tone": "dark",
+  "bg": "#2e276b",
+  "art": {
+   "src": "/images/ts/ux-ui-ui-art.webp",
+   "w": 1600,
+   "h": 1099
+  }
+ },
+ "ts:UX_UI/why icanio- p.png": {
+  "src": "/images/ts/ux-ui-why-icanio-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:UX_UI/why icanio.png": {
+  "src": "/images/ts/ux-ui-why-icanio.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:Value added/Benefits card 1 - For students.png": {
+  "src": "/images/ts/value-added-benefits-card-1-for-students.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:Value added/Benefits card 2 - For faculty.png": {
+  "src": "/images/ts/value-added-benefits-card-2-for-faculty.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:Value added/Benefits card 3 - For faculty.png": {
+  "src": "/images/ts/value-added-benefits-card-3-for-faculty.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:Value added/Choosing a domain.png": {
+  "src": "/images/ts/value-added-choosing-a-domain.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:Value added/Inside a session.png": {
+  "src": "/images/ts/value-added-inside-a-session.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:Value added/Learning approach.png": {
+  "src": "/images/ts/value-added-learning-approach.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:Value added/Value Added - hero sec.png": {
+  "src": "/images/ts/value-added-value-added-hero-sec.webp",
+  "w": 2400,
+  "h": 928,
+  "tone": "light",
+  "bg": "#e4e2df",
+  "art": {
+   "src": "/images/ts/value-added-value-added-hero-sec-art.webp",
+   "w": 1600,
+   "h": 1067
+  }
+ },
+ "ts:Value added/Why it matters.png": {
+  "src": "/images/ts/value-added-why-it-matters.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:Value added.png": {
+  "src": "/images/ts/value-added.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:Workshop/Before the day - P.png": {
+  "src": "/images/ts/workshop-before-the-day-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Workshop/Before the day.png": {
+  "src": "/images/ts/workshop-before-the-day.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:Workshop/Choosing a domain- P.png": {
+  "src": "/images/ts/workshop-choosing-a-domain-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Workshop/Choosing a domain.png": {
+  "src": "/images/ts/workshop-choosing-a-domain.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:Workshop/Overview - P.png": {
+  "src": "/images/ts/workshop-overview-p.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:Workshop/Overview.png": {
+  "src": "/images/ts/workshop-overview.webp",
+  "w": 1506,
+  "h": 1005
+ },
+ "ts:Workshop/Workshop - hero sec.png": {
+  "src": "/images/ts/workshop-workshop-hero-sec.webp",
+  "w": 2400,
+  "h": 928,
+  "tone": "light",
+  "bg": "#d3dadf",
+  "art": {
+   "src": "/images/ts/workshop-workshop-hero-sec-art.webp",
+   "w": 1600,
+   "h": 1067
+  }
+ },
+ "ts:data/Before you start.png": {
+  "src": "/images/ts/data-before-you-start.webp",
+  "w": 870,
+  "h": 1119
+ },
+ "ts:data/Data Anlyst.png": {
+  "src": "/images/ts/data-data-anlyst.webp",
+  "w": 2400,
+  "h": 930,
+  "tone": "dark",
+  "bg": "#3996cd",
+  "art": {
+   "src": "/images/ts/data-data-anlyst-art.webp",
+   "w": 1600,
+   "h": 1069
+  }
+ },
+ "ts:data/The role-1.png": {
+  "src": "/images/ts/data-the-role-1.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:data/The role.png": {
+  "src": "/images/ts/data-the-role.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:data/why icanio-1.png": {
+  "src": "/images/ts/data-why-icanio-1.webp",
+  "w": 900,
+  "h": 1200
+ },
+ "ts:data/why icanio.png": {
+  "src": "/images/ts/data-why-icanio.webp",
+  "w": 1212,
+  "h": 807
+ },
+ "ts:faculty.png": {
+  "src": "/images/ts/faculty.webp",
+  "w": 1506,
+  "h": 1005
  }
 }

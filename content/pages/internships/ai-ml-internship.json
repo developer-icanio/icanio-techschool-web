@@ -22,7 +22,7 @@
     "title": "AI ML Internship: Build and Deploy Real Models",
     "subtitle": "Our AI ML internship takes you from Python and statistics to machine learning, deep learning, NLP and MLOps. You train 5+ models on real datasets, deploy one as a live API with a 1:1 Icanio mentor, and finish with a certificate.",
     "image": {
-      "src": "Group-2085662119.png",
+      "src": "ts:AI_ML/ML.png",
       "alt": "Neural network and data charts from the AI ML internship at Icanio Tech School"
     },
     "primary": {
@@ -80,8 +80,9 @@
         "Deploy, track and monitor models in production"
       ],
       "image": {
-        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-3.png",
-        "alt": "Intern presenting model evaluation results at Icanio Tech School"
+        "src": "ts:AI_ML/The role.png",
+        "portrait": "ts:AI_ML/The role- p.png",
+        "alt": "Professional at work in the AI and ML role the internship prepares you for"
       },
       "link": {
         "label": "Read the AI and ML career path guide",
@@ -266,8 +267,9 @@
         "ML interview practice and a portfolio review before you finish"
       ],
       "image": {
-        "src": "WhatWeDoSectionImg1.png",
-        "alt": "Icanio engineer explaining model results to an intern in the AI ML internship"
+        "src": "ts:AI_ML/why icanio.png",
+        "alt": "Interns learning AI and ML with Icanio Tech School mentors",
+        "portrait": "ts:AI_ML/why icanio - p.png"
       },
       "reverse": true,
       "link": {
@@ -289,8 +291,8 @@
         "Patience with experiments, since most first attempts do not work"
       ],
       "image": {
-        "src": "ourInternshipProgramImg.png",
-        "alt": "Intern setting up Jupyter notebooks for the AI ML internship"
+        "src": "ts:AI_ML/Before you start.png",
+        "alt": "Student getting ready for the AI and ML internship"
       }
     },
     {

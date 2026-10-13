@@ -22,7 +22,7 @@
     "title": "HR Internship With Real Industry Experience",
     "subtitle": "Our HR internship gives you hands-on exposure to real human resource work, from writing job descriptions and screening candidates to onboarding, engagement and HR reports. You learn on live tasks with a 1:1 mentor and finish with a certificate from Icanio Tech School.",
     "image": {
-      "src": "Frame-2085661551.png",
+      "src": "ts:HR/HR.png",
       "alt": "HR internship at Icanio Tech School covering recruitment and people management"
     },
     "primary": {
@@ -79,8 +79,9 @@
         "Track HR metrics and present them in a simple report"
       ],
       "image": {
-        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-12.png",
-        "alt": "Intern handling recruitment tasks during the HR internship"
+        "src": "ts:HR/The role.png",
+        "portrait": "ts:HR/The role - p.png",
+        "alt": "Professional at work in the HR role the internship prepares you for"
       },
       "link": {
         "label": "Compare all internship tracks",
@@ -210,8 +211,9 @@
         "End-of-week review of documents and decisions"
       ],
       "image": {
-        "src": "ourInternshipProgramImg.png",
-        "alt": "Interns discussing a hiring plan with a mentor in the HR internship"
+        "src": "ts:HR/why icanio.png",
+        "alt": "Interns learning HR with Icanio Tech School mentors",
+        "portrait": "ts:HR/why icanio -p.png"
       },
       "reverse": true
     },
@@ -295,8 +297,8 @@
         "Present an HR report to a manager in under five minutes"
       ],
       "image": {
-        "src": "WhatWeDoSectionImg2.png",
-        "alt": "Students completing HR internship tasks at Icanio Tech School"
+        "src": "ts:HR/Before you start.png",
+        "alt": "Student getting ready for the HR internship"
       }
     },
     {

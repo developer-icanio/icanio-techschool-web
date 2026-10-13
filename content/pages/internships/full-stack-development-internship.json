@@ -22,7 +22,7 @@
     "title": "Full Stack Development Internship: Build 4 Real Apps",
     "subtitle": "Our full stack development internship takes you from the React interface to the Node.js API to the database and the cloud. You ship four deployed web applications with a 1:1 Icanio mentor and finish with a certificate.",
     "image": {
-      "src": "Group-9.png",
+      "src": "ts:Full Stack/Full stack.png",
       "alt": "Student working across frontend, backend and database layers in the full stack development internship at Icanio Tech School"
     },
     "primary": {
@@ -80,8 +80,9 @@
         "Deploy apps to AWS with automated pipelines"
       ],
       "image": {
-        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-5-1.png",
-        "alt": "Intern demonstrating a deployed web app built at Icanio Tech School"
+        "src": "ts:Full Stack/The role.png",
+        "portrait": "ts:Full Stack/The role -p.png",
+        "alt": "Professional at work in the full stack development role the internship prepares you for"
       },
       "link": {
         "label": "How to choose the right internship",
@@ -266,8 +267,9 @@
         "Resume, mock interview and LinkedIn support before you finish"
       ],
       "image": {
-        "src": "WhatWeDoSectionImg1.png",
-        "alt": "Icanio engineer guiding an intern through the full stack development internship"
+        "src": "ts:Full Stack/why icanio.png",
+        "alt": "Interns learning full stack development with Icanio Tech School mentors",
+        "portrait": "ts:Full Stack/why icanio - p.png"
       },
       "reverse": true,
       "link": {
@@ -289,8 +291,8 @@
         "Comfort with reading error messages and searching documentation"
       ],
       "image": {
-        "src": "ourInternshipProgramImg.png",
-        "alt": "Intern planning project tasks for the full stack development internship"
+        "src": "ts:Full Stack/Before you start.png",
+        "alt": "Student getting ready for the full stack development internship"
       }
     },
     {

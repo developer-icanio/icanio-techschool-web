@@ -21,7 +21,7 @@
     "title": "Student Development Program for Industry-Ready Careers",
     "subtitle": "The Icanio Tech School student development program builds the nine workplace skills that decide how fast a new graduate grows in an IT job. You learn through real workplace scenarios, guided by people who work in tech every day.",
     "image": {
-      "src": "Group-2085663235.png",
+      "src": "ts:Student/Student development program.png",
       "alt": "Students building workplace skills in the student development program at Icanio Tech School"
     },
     "primary": {
@@ -78,8 +78,8 @@
         "Pairs well with any of our 15 internship tracks"
       ],
       "image": {
-        "src": "studentProgramOverviewImg.png",
-        "alt": "Group session in the student development program at Icanio Tech School"
+        "src": "ts:Student/Program overview.png",
+        "alt": "Students working together in a student development program session"
       },
       "link": {
         "label": "Explore internship tracks",
@@ -240,8 +240,8 @@
         "On Friday you demo your work and suggest one improvement for the next sprint. That is leadership in a technology role. Over months, how you handle weeks like this shapes your career growth. The student development program lets you rehearse all of it before it counts."
       ],
       "image": {
-        "src": "WhatWeDoSectionImg2.png",
-        "alt": "Student practising a team scenario in the student development program"
+        "src": "ts:Student/In practice.png",
+        "alt": "Student celebrating progress in the student development program"
       },
       "link": {
         "label": "Read our soft skills guide",
@@ -263,8 +263,8 @@
         "A written career goal with the next skills you need to build"
       ],
       "image": {
-        "src": "ourInternshipProgramImg.png",
-        "alt": "Student reviewing career goals after the student development program"
+        "src": "ts:Student/Outcomes.png",
+        "alt": "Student holding books after completing the student development program"
       }
     },
     {
@@ -375,8 +375,8 @@
         "For colleges, the student development program is a practical way to lift placement readiness across a batch. It can run alongside value added courses, workshops and internships under an MoU."
       ],
       "image": {
-        "src": "Group-2085663181.png",
-        "alt": "Career growth outcomes from the student development program by Icanio"
+        "src": "ts:Student/why icanio.png",
+        "alt": "Smiling student with ideas, learning soft skills from people in tech"
       },
       "reverse": true,
       "link": {

@@ -22,7 +22,7 @@
     "title": "Value Added Courses Delivered on Your Campus",
     "subtitle": "Our value added courses bring Icanio engineers into your college labs. Students learn with real tools and workflows, inside your timetable and infrastructure, and finish with practical skills and a certificate that employers can see.",
     "image": {
-      "src": "Mask-group-11.png",
+      "src": "ts:Value added/Value Added - hero sec.png",
       "alt": "Student learning in value added courses delivered by Icanio Tech School"
     },
     "primary": {
@@ -80,8 +80,8 @@
         "Mentor-led assessments and a certificate at the end"
       ],
       "image": {
-        "src": "teacher-young-instructor-office-suit-class-with-computer-whiteboard-explaining-math-1-2.png",
-        "alt": "Industry trainer teaching value added courses in a college computer lab"
+        "src": "ts:Value added/Why it matters.png",
+        "alt": "Industry trainer explaining a concept in value added courses"
       },
       "link": {
         "label": "Meet our industry trainers",
@@ -99,24 +99,24 @@
           "title": "For students",
           "body": "Students build skills recruiters screen for, complete small projects they can show and earn a certificate. They also learn how engineers plan, test and review work, which helps in interviews.",
           "image": {
-            "src": "portrait-cheerful-girl-dress-eyeglasses-1.png",
-            "alt": "Student who completed value added courses with Icanio Tech School"
+            "src": "ts:Value added/Benefits card 1 - For students.png",
+            "alt": "Students attending value added courses in a classroom"
           }
         },
         {
           "title": "For faculty",
           "body": "Faculty can sit in on sessions, see modern tools in use and pick up project-based teaching ideas. Many use the course material to refresh lab exercises in their own subjects.",
           "image": {
-            "src": "top-view-notebook-clock-arrangement-1-1.png",
-            "alt": "Notebook and clock representing the learning approach of value added courses"
+            "src": "ts:Value added/Benefits card 2 - For faculty.png",
+            "alt": "Trainer presenting to faculty during a value added course"
           }
         },
         {
           "title": "For the institution",
           "body": "The college adds a visible, industry-led skill program to its record. Attendance, assessments and certificates from value added courses support accreditation files and placement reports.",
           "image": {
-            "src": "top-view-notebook-clock-arrangement-1-3-1.png",
-            "alt": "Planner showing the structured approach of value added courses"
+            "src": "ts:Value added/Benefits card 3 - For faculty.png",
+            "alt": "College campus building, representing the institution"
           }
         }
       ]
@@ -220,7 +220,11 @@
         "CSE and IT: Web Development, Python, Software Testing, then AI and ML or DevOps",
         "ECE and EEE: Python Programming and Data Science",
         "Arts and science: UI/UX Design, Web Development, Mobile App Development"
-      ]
+      ],
+      "image": {
+        "src": "ts:Value added/Choosing a domain.png",
+        "alt": "Student reviewing course options to choose a domain"
+      }
     },
     {
       "type": "checklist",
@@ -236,8 +240,8 @@
         "A certificate for every student who completes the course"
       ],
       "image": {
-        "src": "ValueAddedCourseImg.png",
-        "alt": "Students working on a project in value added courses by Icanio Tech School"
+        "src": "ts:Value added/Learning approach.png",
+        "alt": "Students learning together on a laptop in a value added course"
       }
     },
     {
@@ -250,8 +254,8 @@
         "By the end of the course, each student has a small body of work, clear feedback from a mentor and a better sense of which career path suits them. In our experience, that mix of doing, reviewing and reflecting is what makes value added courses stick long after the certificate is issued."
       ],
       "image": {
-        "src": "WhatWeDoSectionImg1.png",
-        "alt": "Icanio engineer guiding a student during a hands-on value added course session"
+        "src": "ts:Value added/Inside a session.png",
+        "alt": "Trainer leading a hands-on value added courses session"
       },
       "reverse": true
     },

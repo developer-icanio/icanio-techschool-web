@@ -6,6 +6,8 @@
 export interface Img {
   src: string;
   alt: string;
+  /** Optional tall crop of the same photo, shown beside the text on desktop. */
+  portrait?: string;
   /** Pixel size, recorded for dashboard uploads. */
   w?: number;
   h?: number;

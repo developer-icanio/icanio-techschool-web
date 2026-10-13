@@ -2,11 +2,12 @@ import fs from "node:fs";
 import path from "node:path";
 
 // Original WordPress filenames -> optimised /images/*.webp (built by scripts/build-images.mjs).
-type Asset = { src: string; w?: number; h?: number };
+type Asset = { src: string; w?: number; h?: number; tone?: "dark" | "light"; bg?: string; art?: { src: string; w: number; h: number } };
 let map: Record<string, Asset> | undefined;
 
 function assets() {
-  map ??= JSON.parse(fs.readFileSync(path.join(process.cwd(), "lib/images.json"), "utf8")) as Record<string, Asset>;
+  // Cached in production; re-read in development so newly imported images show up.
+  if (!map || process.env.NODE_ENV !== "production") map = JSON.parse(fs.readFileSync(path.join(process.cwd(), "lib/images.json"), "utf8")) as Record<string, Asset>;
   return map;
 }
 

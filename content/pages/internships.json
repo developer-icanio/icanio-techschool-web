@@ -22,7 +22,7 @@
     "title": "Internships With Live Projects and 1:1 Mentors",
     "subtitle": "Compare all 15 internships at Icanio Tech School in one place. Pick an engineering or non-engineering track, choose a duration from 15 days to six months, and learn on real project work with an Icanio engineer beside you.",
     "image": {
-      "src": "Mask-group-21.png",
+      "src": "ts:Intership screen/Intership- Hero sec.png",
       "alt": "Students working on live projects during internships at Icanio Tech School"
     },
     "primary": {
@@ -101,8 +101,8 @@
         "Resume, mock interview and career guidance included"
       ],
       "image": {
-        "src": "Group-2085661740-3.png",
-        "alt": "Mentor guiding a student through project work in Icanio internships"
+        "src": "ts:Intership screen/Industry-ready programs.png",
+        "alt": "Student ready for an industry internship at Icanio Tech School"
       },
       "link": {
         "label": "How to apply for an internship",
@@ -382,8 +382,8 @@
         "In our experience, students who get hired fastest can explain a real project, the trade-offs they made and what they would change. Our internships give you that story, along with a mentor who helps you tell it well."
       ],
       "image": {
-        "src": "WhatWeDoSectionImg1.png",
-        "alt": "Icanio engineer mentoring an intern at Icanio Tech School"
+        "src": "ts:Intership screen/Why Icanio.png",
+        "alt": "Intern holding a notebook, learning from Icanio engineers"
       },
       "reverse": true,
       "link": {

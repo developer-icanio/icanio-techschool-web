@@ -22,7 +22,7 @@
     "title": "Industrial Visit to a Working Software Company",
     "subtitle": "An industrial visit to Icanio Technologies lets your students step inside a real software company. They meet project teams, watch live demonstrations, see how work is planned and delivered, and ask engineers about careers in an open Q&A.",
     "image": {
-      "src": "Group-2085663183.png",
+      "src": "ts:IV/IV - hero sec.png",
       "alt": "Student on an industrial visit to Icanio Technologies"
     },
     "primary": {
@@ -129,24 +129,24 @@
           "title": "For students",
           "body": "Students connect classroom subjects to real work. Seeing teams, tools and deadlines in person makes the syllabus feel relevant and helps them choose a direction for internships and jobs.",
           "image": {
-            "src": "Group-2085663185-1.png",
-            "alt": "Student learning about careers during an industrial visit"
+            "src": "ts:IV/Benefits card1.png",
+            "alt": "Students learning together on an industrial visit"
           }
         },
         {
           "title": "For faculty",
           "body": "Accompanying faculty see current industry practice and the tools teams use. They can bring those examples back into lectures, labs and final-year project guidance.",
           "image": {
-            "src": "WhatWeDoSectionImg1.png",
-            "alt": "Icanio engineer explaining project work to visitors on an industrial visit"
+            "src": "ts:IV/Benefits card2.png",
+            "alt": "Faculty member listening to an engineer during an industrial visit"
           }
         },
         {
           "title": "For the institution",
           "body": "The college adds a documented industry exposure activity to its records. A visit is also a simple way to begin a relationship that can grow into an MoU partnership.",
           "image": {
-            "src": "Group-2085661740-3.png",
-            "alt": "College and Icanio Tech School partnership that began with an industrial visit"
+            "src": "ts:IV/Benefits card3.png",
+            "alt": "College campus building, representing the institution"
           }
         }
       ]
@@ -195,8 +195,9 @@
         "Project demonstrations follow. Engineers walk through real work and explain the decisions behind it. The day ends with a Q&A and career discussion, where students ask about skills, internships and interviews. In our experience, this is when the most useful conversations happen."
       ],
       "image": {
-        "src": "industryExposureProgramImg.png",
-        "alt": "Grace College of Engineering students during an industrial visit program"
+        "src": "ts:IV/A day at Icanio.png",
+        "alt": "Office building where students spend an industrial visit day",
+        "portrait": "ts:IV/A day at Icanio - p.png"
       },
       "reverse": true
     },
@@ -259,8 +260,8 @@
         "Plan a short class discussion afterwards to capture what students learned"
       ],
       "image": {
-        "src": "ourInternshipProgramImg.png",
-        "alt": "Student taking notes to prepare for an industrial visit"
+        "src": "ts:IV/What you will explore.png",
+        "alt": "Student with a laptop ready for an industrial visit"
       }
     },
     {

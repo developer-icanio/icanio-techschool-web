@@ -22,7 +22,7 @@
     "title": "UI/UX Design Internship: Research, Wireframe, Prototype",
     "subtitle": "Our UI/UX design internship takes you from user research to wireframes to tested Figma prototypes. You design on real product briefs, get 1:1 feedback from an Icanio designer and leave with three portfolio case studies.",
     "image": {
-      "src": "Group-2085663220-1.png",
+      "src": "ts:UX_UI/UI.png",
       "alt": "Student designing app screens in Figma during the UI/UX design internship at Icanio Tech School"
     },
     "primary": {
@@ -81,8 +81,9 @@
         "Hand off clean specs that developers can build from"
       ],
       "image": {
-        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-4-1.png",
-        "alt": "Intern reviewing a user flow with a mentor in the UX design internship"
+        "src": "ts:UX_UI/The role.png",
+        "portrait": "ts:UX_UI/The role - p.png",
+        "alt": "Professional at work in the UI/UX design role the internship prepares you for"
       },
       "link": {
         "label": "Compare all internship tracks",
@@ -241,8 +242,9 @@
         "A written decision log for each case study"
       ],
       "image": {
-        "src": "ourInternshipProgramImg.png",
-        "alt": "Mentor giving design feedback to a student in the UI/UX design internship"
+        "src": "ts:UX_UI/why icanio.png",
+        "alt": "Interns learning UI/UX design with Icanio Tech School mentors",
+        "portrait": "ts:UX_UI/why icanio- p.png"
       },
       "reverse": true
     },
@@ -287,7 +289,11 @@
         "Final screens, the prototype link and the design system parts you built",
         "Usability test results and what you changed because of them",
         "A short reflection on what you would do differently next time"
-      ]
+      ],
+      "image": {
+        "src": "ts:UX_UI/Before you start.png",
+        "alt": "Student getting ready for the UI/UX design internship"
+      }
     },
     {
       "type": "steps",

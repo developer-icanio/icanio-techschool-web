@@ -22,7 +22,7 @@
     "title": "Business Analyst Internship: Requirements, Data and Delivery",
     "subtitle": "Our business analyst internship teaches you to turn business problems into clear requirements that tech teams can build. You practise stakeholder interviews, user stories, process maps, SQL and Power BI on real cases, with a 1:1 mentor.",
     "image": {
-      "src": "Group-2085662076-1.png",
+      "src": "ts:Business analyst/Business analyst.png",
       "alt": "Business analyst internship at Icanio Tech School with requirements, dashboards and process maps"
     },
     "primary": {
@@ -81,8 +81,9 @@
         "Back decisions with data from SQL, Excel and Power BI"
       ],
       "image": {
-        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-10.png",
-        "alt": "Intern presenting requirements to a mentor during the business analyst internship"
+        "src": "ts:Business analyst/The role.png",
+        "portrait": "ts:Business analyst/The role - P.png",
+        "alt": "Professional at work in the business analyst role the internship prepares you for"
       },
       "link": {
         "label": "Compare all internship tracks",
@@ -236,8 +237,9 @@
         "Written feedback you can act on each week"
       ],
       "image": {
-        "src": "WhatWeDoSectionImg1.png",
-        "alt": "Icanio mentor reviewing user stories with a student in the business analyst internship"
+        "src": "ts:Business analyst/why icanio.png",
+        "alt": "Interns learning business analyst with Icanio Tech School mentors",
+        "portrait": "ts:Business analyst/why icanio - P.png"
       },
       "reverse": true
     },
@@ -282,7 +284,11 @@
         "A prioritised set of user stories with acceptance criteria",
         "A Power BI dashboard or SQL analysis that supports your recommendation",
         "A UAT plan and a short note on risks and next steps"
-      ]
+      ],
+      "image": {
+        "src": "ts:Business analyst/Before you start.png",
+        "alt": "Student getting ready for the business analyst internship"
+      }
     },
     {
       "type": "steps",

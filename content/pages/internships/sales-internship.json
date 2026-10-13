@@ -22,7 +22,7 @@
     "title": "Sales Internship With Real Industry Experience",
     "subtitle": "Our sales internship teaches you to find leads, manage a CRM pipeline, pitch with confidence and close. You run three live campaigns with a 1:1 mentor, build a go-to-market plan and finish with a certificate from Icanio Tech School.",
     "image": {
-      "src": "Frame-2085661617-1.png",
+      "src": "ts:Sales/Sales.png",
       "alt": "Sales internship at Icanio Tech School covering lead generation and client communication"
     },
     "primary": {
@@ -79,8 +79,9 @@
         "Track pipeline metrics and report on results"
       ],
       "image": {
-        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-13.png",
-        "alt": "Intern speaking with a client during the sales internship"
+        "src": "ts:Sales/The role.png",
+        "portrait": "ts:Sales/The role - P.png",
+        "alt": "Professional at work in the sales role the internship prepares you for"
       },
       "link": {
         "label": "Compare all internship tracks",
@@ -225,8 +226,9 @@
         "Friday review of replies, meetings and pipeline value"
       ],
       "image": {
-        "src": "ourInternshipProgramImg.png",
-        "alt": "Interns practising a pitch with a mentor in the sales internship"
+        "src": "ts:Sales/why icanio.png",
+        "alt": "Interns learning sales with Icanio Tech School mentors",
+        "portrait": "ts:Sales/why icanio - P.png"
       },
       "reverse": true
     },
@@ -310,8 +312,8 @@
         "Present a complete go-to-market plan with clear targets"
       ],
       "image": {
-        "src": "WhatWeDoSectionImg2.png",
-        "alt": "Students completing sales internship tasks at Icanio Tech School"
+        "src": "ts:Sales/Before you start.png",
+        "alt": "Student getting ready for the sales internship"
       }
     },
     {

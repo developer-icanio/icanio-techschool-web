@@ -22,7 +22,7 @@
     "title": "Frontend Development Internship With Live Projects",
     "subtitle": "Our frontend development internship takes you from semantic HTML to production React and TypeScript. You build three live web projects, get 1:1 mentoring from an Icanio engineer and finish with a certificate and a deployed portfolio.",
     "image": {
-      "src": "Frame-2085662898.png",
+      "src": "ts:Frontend/Frontend.png",
       "alt": "Student building a responsive React interface during the frontend development internship at Icanio Tech School"
     },
     "primary": {
@@ -80,8 +80,9 @@
         "Test, review and deploy code as part of a team"
       ],
       "image": {
-        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-15.png",
-        "alt": "Intern reviewing a deployed web project with a mentor at Icanio Tech School"
+        "src": "ts:Frontend/The role.png",
+        "portrait": "ts:Frontend/The role - p.png",
+        "alt": "Professional at work in the frontend development role the internship prepares you for"
       },
       "link": {
         "label": "Read the frontend developer roadmap",
@@ -266,8 +267,9 @@
         "Resume, mock interview and LinkedIn support before you finish"
       ],
       "image": {
-        "src": "WhatWeDoSectionImg1.png",
-        "alt": "Icanio engineer mentoring an intern in the frontend development internship"
+        "src": "ts:Frontend/why icanio.png",
+        "alt": "Interns learning frontend development with Icanio Tech School mentors",
+        "portrait": "ts:Frontend/why icanio - p.png"
       },
       "reverse": true,
       "link": {
@@ -289,8 +291,8 @@
         "Willingness to ask questions and accept code review feedback"
       ],
       "image": {
-        "src": "ourInternshipProgramImg.png",
-        "alt": "Intern setting up a code editor on the first day of the frontend development internship"
+        "src": "ts:Frontend/Before you start copy.png",
+        "alt": "Student getting ready for the frontend development internship"
       }
     },
     {

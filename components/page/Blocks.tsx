@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image, { getImageProps } from "next/image";
 import Link from "next/link";
 import LeadForm from "@/components/forms/LeadForm";
 import { partners, storiesFor, testimonials } from "@/lib/content/pages";
@@ -9,7 +9,20 @@ import { Section, SectionHead } from "./Section";
 
 function Pic({ img, className = "", sizes = "(min-width: 1024px) 50vw, 100vw", priority }: { img: Img; className?: string; sizes?: string; priority?: boolean }) {
   const a = asset(img.src);
-  return <Image src={a.src} alt={img.alt} width={a.w ?? img.w ?? 1200} height={a.h ?? img.h ?? 800} sizes={sizes} priority={priority} className={className} />;
+  const w = a.w ?? img.w ?? 1200;
+  const h = a.h ?? img.h ?? 800;
+  if (!img.portrait) return <Image src={a.src} alt={img.alt} width={w} height={h} sizes={sizes} priority={priority} className={className} />;
+  // Art direction: the tall crop beside the text on desktop, the wide one on phones.
+  const p = asset(img.portrait);
+  const desktop = getImageProps({ src: p.src, alt: "", width: p.w ?? 900, height: p.h ?? 1200, sizes });
+  const { props: mobile } = getImageProps({ src: a.src, alt: img.alt, width: w, height: h, sizes, priority });
+  return (
+    <picture>
+      <source media="(min-width: 1024px)" srcSet={desktop.props.srcSet} width={p.w} height={p.h} />
+      {/* eslint-disable-next-line jsx-a11y/alt-text */}
+      <img {...mobile} className={className} />
+    </picture>
+  );
 }
 
 /**

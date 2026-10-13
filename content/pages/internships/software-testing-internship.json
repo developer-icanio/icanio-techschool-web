@@ -22,7 +22,7 @@
     "title": "Software Testing Internship: Manual QA to Automation",
     "subtitle": "Our software testing internship teaches you to find, report and prevent defects the way professional QA teams do. You move from test cases to API testing to Selenium and Playwright automation, with a 1:1 Icanio mentor and a certificate.",
     "image": {
-      "src": "Group-1-4.png",
+      "src": "ts:Software testing/Software.png",
       "alt": "QA dashboard with test results from the software testing internship at Icanio Tech School"
     },
     "primary": {
@@ -80,8 +80,9 @@
         "Automate checks and run them in CI/CD pipelines"
       ],
       "image": {
-        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-2.png",
-        "alt": "Intern reviewing an automated test report at Icanio Tech School"
+        "src": "ts:Software testing/The role.png",
+        "portrait": "ts:Software testing/The role - p.png",
+        "alt": "Professional at work in the software testing role the internship prepares you for"
       },
       "link": {
         "label": "Soft skills that matter in IT jobs",
@@ -276,8 +277,9 @@
         "Mock QA interviews and a portfolio review before you finish"
       ],
       "image": {
-        "src": "WhatWeDoSectionImg1.png",
-        "alt": "Icanio engineer reviewing test cases with an intern in the software testing internship"
+        "src": "ts:Software testing/why icanio.png",
+        "alt": "Interns learning software testing with Icanio Tech School mentors",
+        "portrait": "ts:Software testing/why icanio - p.png"
       },
       "reverse": true,
       "link": {
@@ -299,8 +301,8 @@
         "Curiosity about how things break, and patience to prove it"
       ],
       "image": {
-        "src": "ourInternshipProgramImg.png",
-        "alt": "Intern writing test cases in the software testing internship"
+        "src": "ts:Software testing/Before you start.png",
+        "alt": "Student getting ready for the software testing internship"
       }
     },
     {

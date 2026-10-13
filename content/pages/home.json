@@ -357,8 +357,8 @@
           "body": "A long-term agreement that gives your students priority access to workshops, value added courses and free or sponsored internships.",
           "href": "/college-programs/mou-partnership",
           "image": {
-            "src": "Group-2085661740-3.png",
-            "alt": "MoU partnership between a college and Icanio Tech School"
+            "src": "ts:MoU.png",
+            "alt": "MoU partnership handshake between a college and Icanio Tech School"
           }
         },
         {
@@ -366,8 +366,8 @@
           "body": "Lab-based courses delivered on your campus by industry experts, using real tools and workflows within your timetable.",
           "href": "/college-programs/value-added-courses",
           "image": {
-            "src": "ValueAddedCourseImg.png",
-            "alt": "Students in a value added course by Icanio Tech School"
+            "src": "ts:Value added.png",
+            "alt": "Students in a value added course session"
           }
         },
         {
@@ -375,8 +375,8 @@
           "body": "Sessions by practising engineers on AI, cloud, DevOps, cybersecurity and careers, with live Q&A for students.",
           "href": "/college-programs/guest-lectures",
           "image": {
-            "src": "GuestLecturesImg.png",
-            "alt": "Industry guest lecture for college students by Icanio"
+            "src": "ts:Guest lecture.png",
+            "alt": "Industry guest lecture for college students"
           }
         },
         {
@@ -384,8 +384,8 @@
           "body": "Hands-on FDPs that help faculty stay current with modern tools, technologies and project-based teaching.",
           "href": "/college-programs/faculty-development-program",
           "image": {
-            "src": "young-handsome-man-holding-notebooks-concept-e-learning-courses-1.png",
-            "alt": "Faculty member attending a faculty development program"
+            "src": "ts:faculty.png",
+            "alt": "Faculty member at a faculty development program"
           }
         },
         {
@@ -393,8 +393,8 @@
           "body": "Students visit a working software company, meet engineers and see how real delivery teams run day to day.",
           "href": "/college-programs/industrial-visit",
           "image": {
-            "src": "home-IV.png",
-            "alt": "Students on an industrial visit to Icanio Technologies"
+            "src": "ts:IV.png",
+            "alt": "Students on an industrial visit to a software company"
           }
         },
         {
@@ -402,8 +402,8 @@
           "body": "Place your students in any of our 15 tech internships, with progress updates shared with your placement cell.",
           "href": "/internships",
           "image": {
-            "src": "WhatWeDoSectionImg2.png",
-            "alt": "College students joining tech internships at Icanio"
+            "src": "ts:Intership.png",
+            "alt": "College students in tech internships at Icanio"
           }
         }
       ]

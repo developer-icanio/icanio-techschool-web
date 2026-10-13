@@ -22,7 +22,7 @@
     "title": "MoU Partnership With Icanio Tech School for Colleges",
     "subtitle": "An MoU partnership connects your college with the engineers of Icanio Technologies. Your students get priority workshops, value added courses and sponsored internships. Your faculty get mentorship and training. Your institution gets a long-term industry partner.",
     "image": {
-      "src": "Group-2085663219.png",
+      "src": "ts:MoU/MOU.png",
       "alt": "College principal and Icanio team discussing an MoU partnership for industry and academic collaboration"
     },
     "primary": {
@@ -80,8 +80,9 @@
         "Free or sponsored internships for selected students"
       ],
       "image": {
-        "src": "Group-2085661740-3.png",
-        "alt": "Signed MoU partnership document between a college and Icanio Tech School"
+        "src": "ts:MoU/What an MoU means.png",
+        "alt": "Industry mentor representing an MoU partnership with Icanio Tech School",
+        "portrait": "ts:MoU/What an MoU means- p.png"
       },
       "link": {
         "label": "See all college programs",
@@ -340,8 +341,9 @@
         "A simple way to share attendance and feedback after each program"
       ],
       "image": {
-        "src": "WhatWeDoSectionImg1.png",
-        "alt": "Icanio engineer mentoring students at an MoU partnership college"
+        "src": "ts:MoU/After the signing.png",
+        "alt": "College and Icanio representatives shaking hands after signing an MoU partnership",
+        "portrait": "ts:MoU/After the signing - P.png"
       }
     },
     {

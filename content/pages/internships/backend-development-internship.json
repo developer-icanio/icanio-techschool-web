@@ -22,7 +22,7 @@
     "title": "Backend Development Internship With Real APIs",
     "subtitle": "Our backend development internship teaches you to design APIs, model databases, secure user data and deploy services to the cloud. You build three production-grade APIs with a 1:1 Icanio mentor and finish with a certificate.",
     "image": {
-      "src": "Group.png",
+      "src": "ts:Backend/Backend.png",
       "alt": "Server, database and API diagram from the backend development internship at Icanio Tech School"
     },
     "primary": {
@@ -80,8 +80,9 @@
         "Package, deploy and monitor services in the cloud"
       ],
       "image": {
-        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-1.png",
-        "alt": "Backend intern testing an API on a laptop at Icanio Tech School"
+        "src": "ts:Backend/The role.png",
+        "portrait": "ts:Backend/The role - P.png",
+        "alt": "Professional at work in the backend development role the internship prepares you for"
       },
       "link": {
         "label": "How to get an internship as a fresher",
@@ -266,8 +267,9 @@
         "Mock system design interviews before you finish"
       ],
       "image": {
-        "src": "WhatWeDoSectionImg1.png",
-        "alt": "Icanio engineer reviewing code with an intern in the backend development internship"
+        "src": "ts:Backend/why icanio.png",
+        "alt": "Interns learning backend development with Icanio Tech School mentors",
+        "portrait": "ts:Backend/why icanio - p.png"
       },
       "reverse": true,
       "link": {
@@ -289,8 +291,8 @@
         "Patience with debugging, which is half of backend work"
       ],
       "image": {
-        "src": "ourInternshipProgramImg.png",
-        "alt": "Intern preparing a development setup for the backend development internship"
+        "src": "ts:Backend/Before you start.png",
+        "alt": "Student getting ready for the backend development internship"
       }
     },
     {

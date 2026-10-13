@@ -22,7 +22,7 @@
     "title": "Industry-Integrated Faculty Development Program",
     "subtitle": "Our faculty development program gives teaching staff hands-on time with modern tools, a clear view of how industry works today and practical project-based teaching methods. It is led by Icanio engineers and delivered onsite, online or in hybrid mode.",
     "image": {
-      "src": "Group-2085661740.png",
+      "src": "ts:Faculty/Faculty - hero sec.png",
       "alt": "Faculty members in a hands-on faculty development program by Icanio Tech School"
     },
     "primary": {
@@ -80,8 +80,8 @@
         "Certificate for every faculty participant"
       ],
       "image": {
-        "src": "Mask-group-20.png",
-        "alt": "Faculty member practising modern tools during a faculty development program"
+        "src": "ts:Faculty/What you will explore.png",
+        "alt": "Faculty collaborating at computers during a faculty development program"
       },
       "link": {
         "label": "Meet our industry trainers",
@@ -199,8 +199,8 @@
         "Project-based learning: designing, running and assessing student projects"
       ],
       "image": {
-        "src": "WhatWeDoSectionImg1.png",
-        "alt": "Icanio engineer mentoring during a faculty development program session"
+        "src": "ts:Faculty/Choosing a topic.png",
+        "alt": "Faculty member choosing a topic for the faculty development program"
       }
     },
     {
@@ -211,7 +211,11 @@
         "A day starts with a short industry briefing. An Icanio engineer explains where a tool fits in a real project, what problem it solves and what mistakes new users make. This takes minutes, not hours, so most of the day is left for practice.",
         "Faculty then work through a guided exercise on their own systems. The trainer moves between participants, answers questions and shows shortcuts that come from daily use. After lunch, faculty take the same tool and apply it to a topic from their own syllabus.",
         "The day closes with a short review. Participants share what they built, discuss how students might struggle with it and note one change they will make in their next lab. This is the part of the faculty development program that turns training into better teaching."
-      ]
+      ],
+      "image": {
+        "src": "ts:Faculty/Before the day.png",
+        "alt": "Trainer teaching at a whiteboard during a faculty development program day"
+      }
     },
     {
       "type": "prose",

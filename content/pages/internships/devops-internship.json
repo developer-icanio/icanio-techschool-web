@@ -22,7 +22,7 @@
     "title": "DevOps Internship: Automate, Deploy and Monitor Real Systems",
     "subtitle": "Our DevOps internship teaches you to take code from a commit to production without manual steps. You work with Linux, Docker, Kubernetes, CI/CD, Terraform and AWS on live pipelines, guided 1:1 by an Icanio engineer.",
     "image": {
-      "src": "Group-6.png",
+      "src": "ts:DeOps/DevOps.png",
       "alt": "DevOps internship at Icanio Tech School showing CI/CD, containers and cloud tools"
     },
     "primary": {
@@ -81,8 +81,9 @@
         "Monitor systems and respond when something breaks"
       ],
       "image": {
-        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-11.png",
-        "alt": "Intern checking a deployment pipeline during the DevOps internship"
+        "src": "ts:DeOps/The role.png",
+        "portrait": "ts:DeOps/th role - p.png",
+        "alt": "Professional at work in the DevOps role the internship prepares you for"
       },
       "link": {
         "label": "Compare all internship tracks",
@@ -238,8 +239,9 @@
         "Runbooks you write and keep for your portfolio"
       ],
       "image": {
-        "src": "WhatWeDoSectionImg1.png",
-        "alt": "Icanio engineer reviewing infrastructure code with a DevOps internship student"
+        "src": "ts:DeOps/why icanio.png",
+        "alt": "Interns learning DevOps with Icanio Tech School mentors",
+        "portrait": "ts:DeOps/Why icanio - p.png"
       },
       "reverse": true
     },
@@ -284,7 +286,11 @@
         "Terraform modules for the cloud resources, with sensible variables",
         "Grafana dashboard screenshots and the alerts you configured",
         "One incident write-up: what broke, how you found it, what you changed"
-      ]
+      ],
+      "image": {
+        "src": "ts:DeOps/Before you start.png",
+        "alt": "Student getting ready for the DevOps internship"
+      }
     },
     {
       "type": "steps",

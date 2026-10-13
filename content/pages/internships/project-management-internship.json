@@ -22,7 +22,7 @@
     "title": "Project Management Internship: Plan, Run and Deliver Projects",
     "subtitle": "Our project management internship teaches you to take an IT project from idea to delivery. You write charters, build schedules and budgets, run Agile sprints in Jira and manage risk on real projects, with a 1:1 mentor from Icanio.",
     "image": {
-      "src": "Group-4-1.png",
+      "src": "ts:Project manager/Project manager.png",
       "alt": "Project management internship at Icanio Tech School with timelines, boards and team planning"
     },
     "primary": {
@@ -81,8 +81,9 @@
         "Track risks, changes and status for stakeholders"
       ],
       "image": {
-        "src": "customer-service-curly-brunette-young-man-office-suit-red-tie-with-laptop-happy-smiley-1-9.png",
-        "alt": "Intern presenting a project plan to a mentor during the project management internship"
+        "src": "ts:Project manager/The role.png",
+        "portrait": "ts:Project manager/The role - p.png",
+        "alt": "Professional at work in the project management role the internship prepares you for"
       },
       "link": {
         "label": "Compare all internship tracks",
@@ -227,8 +228,9 @@
         "Lead a retrospective and write lessons learned"
       ],
       "image": {
-        "src": "WhatWeDoSectionImg1.png",
-        "alt": "Icanio mentor reviewing a project schedule with a student in the project management internship"
+        "src": "ts:Project manager/why icanio.png",
+        "alt": "Interns learning project management with Icanio Tech School mentors",
+        "portrait": "ts:Project manager/why icanio - p.png"
       },
       "reverse": true
     },
@@ -273,7 +275,11 @@
         "A Jira or Trello board with sprints, backlog and completed work",
         "A risk register and at least one handled change request",
         "Weekly status reports and a closure note with lessons learned"
-      ]
+      ],
+      "image": {
+        "src": "ts:Project manager/Before you start.png",
+        "alt": "Student getting ready for the project management internship"
+      }
     },
     {
       "type": "steps",

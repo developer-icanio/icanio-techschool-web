@@ -22,7 +22,7 @@
     "title": "Industry Guest Lectures for Colleges by Icanio Engineers",
     "subtitle": "Our guest lectures bring practising engineers from Icanio Technologies to your campus. Students hear how real teams use AI, cloud, DevOps and security, what recruiters expect and how careers grow, then ask their own questions in a live Q&A.",
     "image": {
-      "src": "guestLectureLandingSectionImg.png",
+      "src": "ts:Guest/Guest Lecture - hero sec.png",
       "alt": "Icanio engineer delivering guest lectures to college students"
     },
     "primary": {
@@ -80,8 +80,9 @@
         "Interactive format with live Q&A discussion"
       ],
       "image": {
-        "src": "GuestLecturesImg.png",
-        "alt": "Students listening to industry guest lectures by Icanio Tech School"
+        "src": "ts:Guest/What you will explore.png",
+        "alt": "Students working on computers during guest lectures by industry engineers",
+        "portrait": "ts:Guest/What you will explore - P.png"
       },
       "link": {
         "label": "Meet our industry trainers",
@@ -292,8 +293,9 @@
         "Collect quick feedback so we can shape the next session"
       ],
       "image": {
-        "src": "GuestLecturesImg.png",
-        "alt": "College hall prepared for industry guest lectures with students seated"
+        "src": "ts:Guest/Before the day.png",
+        "alt": "Students taking notes before guest lectures",
+        "portrait": "ts:Guest/Before the day - P.png"
       }
     },
     {

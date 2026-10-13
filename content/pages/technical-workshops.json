@@ -21,7 +21,7 @@
     "title": "Technical Workshops With Live Demos and Guided Practice",
     "subtitle": "Our technical workshops give students short, practical exposure to the technologies shaping IT careers. Icanio engineers run live demos, walk you through real tools and guide you as you build, in formats from half a day to several days.",
     "image": {
-      "src": "Group-2085662141-1.png",
+      "src": "ts:Workshop/Workshop - hero sec.png",
       "alt": "Students in hands-on technical workshops by Icanio Tech School"
     },
     "primary": {
@@ -78,8 +78,9 @@
         "Flexible, customisable formats from half-day to multi-day sessions"
       ],
       "image": {
-        "src": "Group-2085662171.png",
-        "alt": "Group of students at one of the technical workshops run by Icanio"
+        "src": "ts:Workshop/Overview.png",
+        "alt": "Students around a laptop in hands-on technical workshops",
+        "portrait": "ts:Workshop/Overview - P.png"
       },
       "link": {
         "label": "Compare internship tracks",
@@ -212,7 +213,12 @@
         "Start with where your students are now. First-year students usually enjoy Python or web development, because they see results on screen quickly. Pre-final and final-year students often want AI and ML, DevOps or software testing, since these link directly to job roles.",
         "Next, think about the branch. CSE and IT students can go deeper into code in any domain. ECE, EEE and mechanical students often find data science or Python a friendly bridge into software. Students interested in design and product thinking tend to love UI/UX sessions.",
         "Finally, consider the goal of the event. A symposium or tech fest suits a short, lively demo with a quick build. A department that wants lasting skills should choose a multi-day format with a mini project. Our team will help you match the domain and format to that goal."
-      ]
+      ],
+      "image": {
+        "src": "ts:Workshop/Choosing a domain.png",
+        "alt": "Students listening while choosing technical workshops for their batch",
+        "portrait": "ts:Workshop/Choosing a domain- P.png"
+      }
     },
     {
       "type": "checklist",
@@ -229,8 +235,9 @@
         "A rough idea of the domain and the date range you prefer"
       ],
       "image": {
-        "src": "ValueAddedCourseImg.png",
-        "alt": "College lab set up for technical workshops by Icanio Tech School"
+        "src": "ts:Workshop/Before the day.png",
+        "alt": "Trainer guiding students before technical workshops begin",
+        "portrait": "ts:Workshop/Before the day - P.png"
       }
     },
     {
