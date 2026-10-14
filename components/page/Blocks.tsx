@@ -234,7 +234,7 @@ export function BlockView({ b, email = SITE.email }: { b: Block; email?: string 
           <div className="shell">
             <h2 className="mx-auto mb-8 max-w-4xl text-center text-[26px] font-semibold !text-white sm:text-[30px]">{b.heading}</h2>
             {b.intro && <p className="-mt-4 mb-8 text-center text-white/80">{b.intro}</p>}
-            <ul className="grid grid-cols-2 gap-8 text-center lg:grid-cols-4">
+            <ul className={`grid gap-8 text-center ${b.items.length === 3 ? "sm:grid-cols-3" : "grid-cols-2 lg:grid-cols-4"}`}>
               {b.items.map((s) => (
                 <li key={s.label}>
                   <p className="text-4xl font-semibold sm:text-5xl">{s.value}</p>

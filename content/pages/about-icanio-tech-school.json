@@ -224,7 +224,7 @@
       "tone": "soft",
       "eyebrow": "Leadership",
       "heading": "Built by industry experts",
-      "intro": "Icanio Tech School is led by the co-founders of Icanio Technologies. Each leader brings real industry experience, so every program stays practical and aligned with how companies work.",
+      "intro": "Icanio Tech School is led by the co-founders of Icanio Technologies. Each leader contributes real-world experience to create an authentic learning environment, so every program stays practical and industry-aligned.",
       "columns": 3,
       "items": [
         {
@@ -450,11 +450,63 @@
       ]
     },
     {
+      "type": "cards",
+      "id": "linkedin",
+      "tone": "soft",
+      "eyebrow": "Stay connected on LinkedIn",
+      "heading": "Latest news from Icanio Tech School on LinkedIn",
+      "intro": "Follow our latest updates, student achievements, workshops and industry insights in one place on the Icanio Tech School LinkedIn page.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "MoU and guest talk at Sri Shanmugha College",
+          "meta": "MoU signing",
+          "href": "https://www.linkedin.com/showcase/icanio-tech-school",
+          "body": "We signed an MoU with Sri Shanmugha College of Engineering and Technology and ran a guest talk for students. The partnership brings industry perspectives, practical learning, technical exposure and career-focused opportunities closer to students, turning collaboration into action and opportunities into careers.",
+          "image": {
+            "src": "MOU-Signing-Ceremony-1_page-0001.jpg",
+            "alt": "MoU signing ceremony with Sri Shanmugha College of Engineering and Technology"
+          }
+        },
+        {
+          "title": "MoU with EGS Pillay Engineering College",
+          "meta": "MoU signing",
+          "href": "https://www.linkedin.com/showcase/icanio-tech-school",
+          "body": "Icanio Technologies signed an MoU with EGS Pillay Engineering College, Nagapattinam. It opens industry-oriented training, internships, real-world exposure to workplace practices, career guidance and industry interaction for students. Together, we Learn, Build and Grow.",
+          "image": {
+            "src": "Untitled-design-2-1.png",
+            "alt": "MoU between Icanio Technologies and EGS Pillay Engineering College"
+          }
+        },
+        {
+          "title": "From Tech School to tech career: Jeyaram R",
+          "meta": "Student success",
+          "href": "https://www.linkedin.com/showcase/icanio-tech-school",
+          "body": "Jeyaram R, a student of Icanio Tech School, began his professional journey as a Software Development Engineer (SDE) at Icanio Technologies. His path shows how consistent learning, hands-on skill development and the right opportunities lead to a real career.",
+          "image": {
+            "src": "ChatGPT-Image-Sep-9-2026-03_54_26-PM.png",
+            "alt": "Jeyaram R from Icanio Tech School joins Icanio Technologies as SDE"
+          }
+        },
+        {
+          "title": "MoU with Arunachala College of Engineering for Women",
+          "meta": "MoU signing",
+          "href": "https://www.linkedin.com/showcase/icanio-tech-school",
+          "body": "Icanio Technologies signed an MoU with Arunachala College of Engineering for Women. The collaboration connects students with industry exposure, practical learning, internships, skill development and career-focused opportunities for skilled, confident, future-ready professionals.",
+          "image": {
+            "src": "Untitled-design.png",
+            "alt": "MoU between Icanio Technologies and Arunachala College of Engineering for Women"
+          }
+        }
+      ]
+    },
+    {
       "type": "partners",
       "eyebrow": "Trusted by colleges",
       "heading": "Colleges that partner with Icanio Tech School",
       "intro": "Our MoU partners include engineering and arts colleges across Tamil Nadu.",
-      "limit": 12
+      "limit": 12,
+      "tone": "white"
     },
     {
       "type": "links",

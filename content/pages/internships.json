@@ -337,6 +337,25 @@
       ]
     },
     {
+      "type": "stats",
+      "eyebrow": "Results",
+      "heading": "What our internship program does for your career",
+      "items": [
+        {
+          "value": "50%",
+          "label": "Job-ready skills: practical skills that prepare you"
+        },
+        {
+          "value": "70%",
+          "label": "Faster career start, with confidence"
+        },
+        {
+          "value": "30%",
+          "label": "Higher employability"
+        }
+      ]
+    },
+    {
       "type": "table",
       "tone": "soft",
       "eyebrow": "Duration and mode",

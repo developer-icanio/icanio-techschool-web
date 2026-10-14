@@ -244,6 +244,53 @@
       ]
     },
     {
+      "type": "cards",
+      "id": "batches",
+      "tone": "white",
+      "eyebrow": "Find your next batch",
+      "heading": "Upcoming batches for tech internships",
+      "intro": "Explore upcoming programs designed to prepare you for real-world careers in technology and business. Every batch runs from 9am to 6pm, offline, online or part time. Ask our team for the next start date in your track.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "Frontend Development",
+          "body": "Frontend Development batch, 9am to 6pm, with a 1:1 mentor and a live project. Apply now for this internship.",
+          "href": "/internships/frontend-development-internship",
+          "meta": "Offline · Online · Part time"
+        },
+        {
+          "title": "Backend Development",
+          "body": "Backend Development batch, 9am to 6pm, with a 1:1 mentor and a live project. Apply now for this internship.",
+          "href": "/internships/backend-development-internship",
+          "meta": "Offline · Online · Part time"
+        },
+        {
+          "title": "Software Testing",
+          "body": "Software Testing batch, 9am to 6pm, with a 1:1 mentor and a live project. Apply now for this internship.",
+          "href": "/internships/software-testing-internship",
+          "meta": "Offline · Online · Part time"
+        },
+        {
+          "title": "AI & ML",
+          "body": "AI & ML batch, 9am to 6pm, with a 1:1 mentor and a live project. Apply now for this internship.",
+          "href": "/internships/ai-ml-internship",
+          "meta": "Offline · Online · Part time"
+        },
+        {
+          "title": "Mobile App Development",
+          "body": "Mobile App Development batch, 9am to 6pm, with a 1:1 mentor and a live project. Apply now for this internship.",
+          "href": "/internships/flutter-developer-internship",
+          "meta": "Offline · Online · Part time"
+        },
+        {
+          "title": "Full Stack Development",
+          "body": "Full Stack Development batch, 9am to 6pm, with a 1:1 mentor and a live project. Apply now for this internship.",
+          "href": "/internships/full-stack-development-internship",
+          "meta": "Offline · Online · Part time"
+        }
+      ]
+    },
+    {
       "type": "prose",
       "eyebrow": "Why Icanio",
       "heading": "Learn from engineers who build real products",
@@ -405,6 +452,46 @@
             "src": "ts:Intership.png",
             "alt": "College students in tech internships at Icanio"
           }
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "events",
+      "tone": "soft",
+      "eyebrow": "Events and learning experiences",
+      "heading": "Our recent events and learning experiences",
+      "intro": "Workshops, hackathons, tech talks and industry events help students learn, build and connect. These were our most recent college visits, with session times.",
+      "items": [
+        {
+          "label": "15 Sep",
+          "title": "SNS College of Technology",
+          "body": "An MoU signing, held in the morning, to build a strong partnership and better opportunities for students. Session: 15 Sep 2026, 10:00 am to 12:30 pm."
+        },
+        {
+          "label": "15 Sep",
+          "title": "JCT College of Engineering & Technology",
+          "body": "An afternoon MoU signing to start a long-term collaboration with the college. Session: 15 Sep 2026, 2:15 pm to 4:45 pm."
+        },
+        {
+          "label": "16 Sep",
+          "title": "Velalar College of Engineering & Technology",
+          "body": "An MoU signing and an industry session that connected students with Icanio experts. Session: 16 Sep 2026, 10:00 am to 12:30 pm."
+        },
+        {
+          "label": "16 Sep",
+          "title": "Sri Shanmugha College of Engineering & Technology",
+          "body": "An MoU signing ceremony, paired with a guest talk on industry skills and mindset. Session: 16 Sep 2026, 2:15 pm to 4:30 pm."
+        },
+        {
+          "label": "17 Sep",
+          "title": "AVS Engineering College",
+          "body": "An MoU signing and an industry session on skills and career opportunities. Session: 17 Sep 2026, 10:00 am to 12:30 pm."
+        },
+        {
+          "label": "18 Sep",
+          "title": "Er. Perumal Manimekalai College of Engineering",
+          "body": "A career guidance session to help students explore options and plan their professional future. Session: 18 Sep 2026, 10:00 am to 12:30 pm."
         }
       ]
     },
