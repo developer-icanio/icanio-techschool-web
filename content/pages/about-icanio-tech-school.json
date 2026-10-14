@@ -149,10 +149,14 @@
         "The result is a mentor who can tell you how a feature was shipped last week, what broke and how the team fixed it. That kind of story is hard to get from a textbook."
       ],
       "bullets": [
-        "Active industry practitioners on live Icanio projects",
+        "Active industry practitioners on live client work",
+        "Curriculum aligned with live project standards",
+        "Student feedback reviewed after every cohort",
+        "Code reviews that follow internal Icanio standards",
         "Minimum 3 years of client delivery experience",
         "Background verified by Icanio HR",
-        "Code reviews that follow internal Icanio standards"
+        "Assessed by academic faculty before delivery",
+        "Top students referred to the Icanio talent team"
       ],
       "image": {
         "src": "Rectangle-34626444.png",
@@ -166,7 +170,95 @@
     },
     {
       "type": "cards",
+      "tone": "white",
+      "eyebrow": "6 active practitioners",
+      "heading": "Six trainer roles at Icanio Tech School",
+      "intro": "Six practitioner roles lead Icanio Tech School programs today. You meet your own mentor at onboarding, and each one still works on client projects.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "AI & ML Lead Trainer",
+          "body": "Machine learning engineer on the Icanio AI team. Leads the AI & ML track, from data preparation to model evaluation.",
+          "icon": "stars-02.png",
+          "href": "/internships/ai-ml-internship",
+          "meta": "AI team"
+        },
+        {
+          "title": "Support Engineer Trainer",
+          "body": "Platform reliability engineer on live systems. Teaches monitoring, incident handling and keeping production stable.",
+          "icon": "user-check-02.png",
+          "meta": "Reliability"
+        },
+        {
+          "title": "Cloud & DevOps Trainer",
+          "body": "DevOps architect from the Icanio delivery team. Covers CI/CD, containers, cloud infrastructure and deployments.",
+          "icon": "Icon-2.png",
+          "href": "/internships/devops-internship",
+          "meta": "Delivery team"
+        },
+        {
+          "title": "Data Engineering Trainer",
+          "body": "Data engineer in the Icanio analytics practice. Guides students through pipelines, SQL, cleaning and reporting.",
+          "icon": "Icon-1-1.png",
+          "href": "/internships/data-analyst-internship",
+          "meta": "Analytics"
+        },
+        {
+          "title": "Product & Agile Trainer",
+          "body": "Product manager running active sprint cycles. Teaches requirements, backlog planning and sprint reviews.",
+          "icon": "briefcase-01.png",
+          "href": "/internships/project-management-internship",
+          "meta": "Product"
+        },
+        {
+          "title": "Full-Stack Lead Trainer",
+          "body": "Software engineer building retail and education platforms. Leads frontend, backend and full stack work.",
+          "icon": "code-circle-01.png",
+          "href": "/internships/full-stack-development-internship",
+          "meta": "Engineering"
+        }
+      ]
+    },
+    {
+      "type": "cards",
       "tone": "soft",
+      "eyebrow": "Leadership",
+      "heading": "Built by industry experts",
+      "intro": "Icanio Tech School is led by the co-founders of Icanio Technologies. Each leader brings real industry experience, so every program stays practical and aligned with how companies work.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "Jebastin Prabaharan",
+          "meta": "Co-founder & CEO",
+          "body": "Co-founder and Chief Executive Officer of Icanio Technologies, the company behind Icanio Tech School.",
+          "image": {
+            "src": "Group-2085662541.png",
+            "alt": "Jebastin Prabaharan, Co-founder and CEO of Icanio Technologies"
+          }
+        },
+        {
+          "title": "Rajasekaran S",
+          "meta": "Co-founder & COO",
+          "body": "Co-founder and Chief Operating Officer of Icanio Technologies, the company behind Icanio Tech School.",
+          "image": {
+            "src": "Group-2085662542.png",
+            "alt": "Rajasekaran S, Co-founder and COO of Icanio Technologies"
+          }
+        },
+        {
+          "title": "Angeline Anita",
+          "meta": "Co-founder & CFO",
+          "body": "Co-founder and Chief Financial Officer of Icanio Technologies, the company behind Icanio Tech School.",
+          "image": {
+            "src": "Group-2085662543.png",
+            "alt": "Angeline Anita, Co-founder and CFO of Icanio Technologies"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "tone": "white",
       "eyebrow": "What we run",
       "heading": "Programs offered by Icanio Tech School",
       "intro": "Students usually start with an internship. Colleges usually start with an MoU. Here is everything we run today.",
