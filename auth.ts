@@ -64,8 +64,11 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
   ],
   callbacks: {
     // Only allowlisted or invited accounts get a session at all.
-    async signIn({ user }) {
+    async signIn({ user, account, profile }) {
       if (!user.email) return false;
+      // Google must have verified the address, so nobody can sign in as an
+      // admin with an unverified email that merely matches the allowlist.
+      if (account?.provider === "google" && profile?.email_verified !== true) return false;
       return Boolean(await roleFor(user.email, true));
     },
     async jwt({ token, user }) {

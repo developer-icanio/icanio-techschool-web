@@ -1,7 +1,7 @@
 // Transactional email via Resend's REST API. Without RESEND_API_KEY and
 // RESEND_FROM (local dev) the message is logged instead, so forms still work.
 
-const esc = (s = "") => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
+const esc = (s = "") => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
 
 export function htmlTable(title: string, rows: [string, string | undefined][]) {
   return `<h2>${esc(title)}</h2><table cellpadding="6">${rows

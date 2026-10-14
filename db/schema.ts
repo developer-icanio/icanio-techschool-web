@@ -85,6 +85,32 @@ export const pagespeedResults = pgTable("pagespeed_results", {
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 });
 
+export const rateLimits = pgTable("rate_limits", {
+  key: text("key").primaryKey(),
+  count: integer("count").notNull(),
+  resetAt: timestamp("reset_at", { withTimezone: true }).notNull(),
+});
+
+const TABLES = ["admin_users", "seo_snapshots", "content_pages", "content_revisions", "library_items", "pagespeed_results", "rate_limits"];
+
+// Supabase publishes every table in "public" through its REST API to the
+// "anon" and "authenticated" roles. This site only connects as the database
+// owner (which bypasses row-level security), so: RLS on with no policies,
+// and no grants for the API roles. On PGlite those roles don't exist and the
+// REVOKE is skipped.
+const LOCK_DOWN_SQL = `
+${TABLES.map((t) => `ALTER TABLE ${t} ENABLE ROW LEVEL SECURITY;`).join("\n")}
+DO $$
+DECLARE r text;
+BEGIN
+  FOREACH r IN ARRAY ARRAY['anon', 'authenticated'] LOOP
+    IF EXISTS (SELECT 1 FROM pg_roles WHERE rolname = r) THEN
+      EXECUTE format('REVOKE ALL ON TABLE ${TABLES.join(", ")} FROM %I', r);
+    END IF;
+  END LOOP;
+END $$;
+`;
+
 /** Kept in sync with the tables above; applied on first connection (idempotent). */
 export const SCHEMA_SQL = `
 CREATE TABLE IF NOT EXISTS admin_users (
@@ -147,4 +173,9 @@ CREATE TABLE IF NOT EXISTS pagespeed_results (
   created_at timestamptz NOT NULL DEFAULT now()
 );
 CREATE INDEX IF NOT EXISTS pagespeed_results_path_idx ON pagespeed_results (path, strategy, created_at DESC);
-`;
+CREATE TABLE IF NOT EXISTS rate_limits (
+  key text PRIMARY KEY,
+  count integer NOT NULL,
+  reset_at timestamptz NOT NULL
+);
+${LOCK_DOWN_SQL}`;

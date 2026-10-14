@@ -7,6 +7,7 @@ import { getPage } from "@/lib/content/pages";
 import { ensureContent, libraryDelete, libraryReorder, librarySave, resetPage, restoreRevision, savePage } from "@/lib/content/store";
 import type { Block, PageContent } from "@/lib/content/types";
 import { pageReport } from "@/lib/seo-report";
+import { safeUrl } from "@/lib/security";
 
 // Server side of the content editor. Every save re-scores the page with the
 // 69-rule engine and reports what changed, so non-technical editors see
@@ -16,13 +17,34 @@ const EDITORS = ["owner", "admin", "editor"] as const;
 
 type Result = { ok: boolean; message: string; score?: number; before?: number; failed?: string[]; fixes?: string[] };
 
-/** Trims strings and swaps characters the SEO rules forbid (em dash). */
-function clean<T>(v: T): T {
-  if (typeof v === "string") return v.replace(/\s*—\s*/g, ", ").replace(/–/g, "-").replace(/[ \t]+\n/g, "\n").trim() as T;
-  if (Array.isArray(v)) return v.map(clean) as T;
-  if (v && typeof v === "object") return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, clean(x)])) as T;
+/** Fields that hold a link or a file address. */
+const URL_KEYS = new Set(["href", "src", "video", "photo", "logo", "poster", "url"]);
+
+/**
+ * Trims strings, swaps characters the SEO rules forbid (em dash) and drops
+ * script or data URLs from link and media fields, so a dashboard edit can
+ * never put runnable code on the public site.
+ */
+function clean<T>(v: T, key = ""): T {
+  if (typeof v === "string") {
+    const s = v.replace(/\s*—\s*/g, ", ").replace(/–/g, "-").replace(/[ \t]+\n/g, "\n").trim();
+    return (URL_KEYS.has(key) ? safeUrl(s) : s) as T;
+  }
+  if (Array.isArray(v)) return v.map((x) => clean(x, key)) as T;
+  if (v && typeof v === "object") return Object.fromEntries(Object.entries(v).filter(([k]) => k !== "__proto__" && k !== "constructor").map(([k, x]) => [k, clean(x, k)])) as T;
   return v;
 }
+
+/** Rejects oversized or malformed edits before they reach the database. */
+function checkSize(v: unknown, max = 200_000) {
+  if (v === null || typeof v !== "object") throw new Error("Invalid content.");
+  if (JSON.stringify(v).length > max) throw new Error("This section is too large to save. Split it into smaller sections.");
+}
+
+const LIB_KINDS = new Set<LibraryKind>(["video", "student", "college"]);
+const checkKind = (kind: LibraryKind) => {
+  if (!LIB_KINDS.has(kind)) throw new Error("Unknown library.");
+};
 
 function headingWarnings(p: PageContent) {
   const long: string[] = [];
@@ -70,8 +92,9 @@ function current(path: string) {
 export async function saveSection(path: string, index: number, block: Block): Promise<Result> {
   const me = await requireAdmin([...EDITORS]);
   try {
+    checkSize(block);
     const p = current(path);
-    const old = p.sections[index];
+    const old = Number.isInteger(index) ? p.sections[index] : undefined;
     if (!old || old.type !== block.type) return { ok: false, message: "This section changed while you were editing. Reload the page." };
     p.sections[index] = clean(block);
     return await commit(p, me.email, `Edited section "${old.heading}"`);
@@ -83,6 +106,7 @@ export async function saveSection(path: string, index: number, block: Block): Pr
 export async function saveHero(path: string, hero: PageContent["hero"]): Promise<Result> {
   const me = await requireAdmin([...EDITORS]);
   try {
+    checkSize(hero, 20_000);
     const p = current(path);
     p.hero = { ...p.hero, ...clean(hero), primary: p.hero.primary, secondary: p.hero.secondary };
     return await commit(p, me.email, "Edited hero");
@@ -94,8 +118,10 @@ export async function saveHero(path: string, hero: PageContent["hero"]): Promise
 export async function saveFaqs(path: string, faqs: PageContent["faqs"]): Promise<Result> {
   const me = await requireAdmin([...EDITORS]);
   try {
+    checkSize(faqs, 100_000);
+    if (!Array.isArray(faqs)) throw new Error("Invalid FAQs.");
     const p = current(path);
-    p.faqs = clean(faqs).filter((f) => f.q && f.a);
+    p.faqs = clean(faqs).filter((f) => typeof f?.q === "string" && typeof f?.a === "string" && f.q && f.a).map((f) => ({ q: f.q, a: f.a }));
     return await commit(p, me.email, "Edited FAQs");
   } catch (e) {
     return { ok: false, message: (e as Error).message };
@@ -105,6 +131,7 @@ export async function saveFaqs(path: string, faqs: PageContent["faqs"]): Promise
 export async function restoreVersion(id: string): Promise<Result> {
   const me = await requireAdmin([...EDITORS]);
   try {
+    if (typeof id !== "string" || !/^[0-9a-f-]{36}$/i.test(id)) throw new Error("Version not found.");
     const path = await restoreRevision(id, me.email);
     await ensureContent();
     revalidatePath(path);
@@ -117,6 +144,7 @@ export async function restoreVersion(id: string): Promise<Result> {
 
 export async function resetToOriginal(path: string): Promise<Result> {
   const me = await requireAdmin(["owner", "admin"]);
+  current(path); // only real pages
   await resetPage(path, me.email);
   await ensureContent();
   revalidatePath(path);
@@ -136,7 +164,11 @@ function refreshAll(kind: LibraryKind) {
 export async function saveLibraryItem(kind: LibraryKind, id: string | null, data: Record<string, string>, published: boolean): Promise<Result & { id?: string }> {
   const me = await requireAdmin([...EDITORS]);
   try {
-    const d = clean(data);
+    checkKind(kind);
+    checkSize(data, 20_000);
+    if (id !== null && typeof id !== "string") throw new Error("Invalid item.");
+    // Library items are flat text fields.
+    const d = clean(Object.fromEntries(Object.entries(data).filter(([, v]) => typeof v === "string")) as Record<string, string>);
     if (!d.name) return { ok: false, message: "Name is required." };
     if (kind === "video" && (!d.video || !d.photo || !d.quote)) return { ok: false, message: "A video, a photo and a quote are required." };
     if (kind === "student" && (!d.photo || !d.track || !d.college)) return { ok: false, message: "Photo, track and college are required." };
@@ -152,13 +184,17 @@ export async function saveLibraryItem(kind: LibraryKind, id: string | null, data
 
 export async function reorderLibrary(kind: LibraryKind, ids: string[]): Promise<Result> {
   await requireAdmin([...EDITORS]);
+  checkKind(kind);
+  if (!Array.isArray(ids) || ids.length > 1000 || !ids.every((i) => typeof i === "string" && i.length < 100)) return { ok: false, message: "Invalid order." };
   await libraryReorder(ids);
   refreshAll(kind);
   return { ok: true, message: "New order saved." };
 }
 
 export async function deleteLibraryItem(kind: LibraryKind, id: string): Promise<Result> {
-  await requireAdmin(["owner", "admin", "editor"]);
+  await requireAdmin([...EDITORS]);
+  checkKind(kind);
+  if (typeof id !== "string") return { ok: false, message: "Invalid item." };
   await libraryDelete(id);
   refreshAll(kind);
   return { ok: true, message: "Deleted." };

@@ -53,3 +53,6 @@ next-env.d.ts
 # dashboard uploads in local dev
 /public/uploads/
 /_reference/team-images/
+
+# template the site was started from (kept locally, not part of the site)
+/_starter-kit/

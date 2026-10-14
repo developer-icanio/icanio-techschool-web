@@ -2,6 +2,7 @@ import { after, NextResponse } from "next/server";
 import { allPages } from "@/lib/content/pages";
 import { ensureContent } from "@/lib/content/store";
 import { hasSpeedKey, latestSpeed, runPageSpeed, type Strategy } from "@/lib/pagespeed";
+import { hasCronSecret } from "@/lib/security";
 
 // Daily PageSpeed run for every page, mobile and desktop (vercel.json cron).
 // 76 Google tests take far longer than one function may run (60 s), so each
@@ -17,12 +18,12 @@ const PARALLEL = 8; // tests per call, all started at once
 const MAX_HOPS = 20; // safety stop for the relay (76 tests need about 10)
 
 export async function GET(req: Request) {
-  const secret = process.env.CRON_SECRET;
-  if (!secret || req.headers.get("authorization") !== `Bearer ${secret}`) return new NextResponse(null, { status: 401 });
+  if (!hasCronSecret(req)) return new NextResponse(null, { status: 401 });
+  const secret = process.env.CRON_SECRET!;
   if (!hasSpeedKey()) return NextResponse.json({ ok: false, error: "GOOGLE_PAGESPEED_API_KEY is not set." }, { status: 503 });
 
   const url = new URL(req.url);
-  const hop = Number(url.searchParams.get("hop") ?? 0);
+  const hop = Math.max(0, Math.floor(Number(url.searchParams.get("hop")) || 0));
   const started = Date.now();
 
   await ensureContent();

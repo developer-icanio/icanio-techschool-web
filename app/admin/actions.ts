@@ -8,11 +8,9 @@ import { signIn, signOut } from "@/auth";
 import { getDb, schema } from "@/db";
 import type { AdminRole } from "@/db/schema";
 import { canManageTeam, requireAdmin, saveSnapshot } from "@/lib/admin";
+import { safeAdminPath } from "@/lib/security";
 
-const safeNext = (v: FormDataEntryValue | null) => {
-  const s = String(v ?? "");
-  return s.startsWith("/admin") ? s : "/admin/seo";
-};
+const safeNext = (v: FormDataEntryValue | null) => safeAdminPath(v, "/admin/seo");
 
 export async function signInWithGoogle(form: FormData) {
   await signIn("google", { redirectTo: safeNext(form.get("next")) });
@@ -48,9 +46,12 @@ export async function addMember(_: unknown, form: FormData): Promise<{ ok: boole
   if (!ROLES.includes(role) || (role === "owner" && me.role !== "owner")) return { ok: false, message: "You can't grant that role." };
   const db = await getDb();
   if (!db) return { ok: false, message: "No database configured. Set DATABASE_URL to invite team members." };
+  // Admins can't change an owner's role (owners can).
+  const [existing] = await db.select().from(schema.adminUsers).where(eq(schema.adminUsers.email, email)).limit(1);
+  if (existing?.role === "owner" && me.role !== "owner") return { ok: false, message: "Only an owner can change another owner's role." };
   await db
     .insert(schema.adminUsers)
-    .values({ email, role, name: String(form.get("name") ?? "").trim() || null, addedBy: me.email })
+    .values({ email, role, name: String(form.get("name") ?? "").trim().slice(0, 120) || null, addedBy: me.email })
     .onConflictDoUpdate({ target: schema.adminUsers.email, set: { role } });
   revalidatePath("/admin/team");
   return { ok: true, message: `${email} can now sign in with Google.` };
@@ -59,8 +60,8 @@ export async function addMember(_: unknown, form: FormData): Promise<{ ok: boole
 export async function removeMember(form: FormData) {
   const me = await requireAdmin();
   if (!canManageTeam(me.role)) return;
-  const email = String(form.get("email") ?? "");
-  if (email === me.email) return; // can't remove yourself
+  const email = String(form.get("email") ?? "").trim().toLowerCase();
+  if (email === me.email.toLowerCase()) return; // can't remove yourself
   const db = await getDb();
   if (!db) return;
   const [row] = await db.select().from(schema.adminUsers).where(eq(schema.adminUsers.email, email)).limit(1);

@@ -9,13 +9,27 @@ import * as schema from "./schema";
 
 type Db = Awaited<ReturnType<typeof connect>>;
 
+/**
+ * Remote databases are always reached over TLS, so the password and content
+ * never cross the network in plain text. Supabase signs its certificates with
+ * its own root CA: put that certificate (Dashboard > Database > SSL) in
+ * DATABASE_CA_CERT to also verify the server; without it the connection is
+ * encrypted but the certificate is not checked. Local databases skip TLS.
+ */
+function sslFor(url: string) {
+  const host = new URL(url).hostname;
+  if (["localhost", "127.0.0.1", "::1"].includes(host)) return undefined;
+  const ca = process.env.DATABASE_CA_CERT?.replace(/\\n/g, "\n");
+  return ca ? { ca, rejectUnauthorized: true } : { rejectUnauthorized: false };
+}
+
 async function connect() {
   const url = process.env.DATABASE_URL;
   if (url) {
     const { Pool } = await import("pg");
     const { drizzle } = await import("drizzle-orm/node-postgres");
     // Small pool: serverless builds open one pool per worker (see starter kit notes).
-    const pool = new Pool({ connectionString: url, max: 3, idleTimeoutMillis: 10_000, connectionTimeoutMillis: 15_000 });
+    const pool = new Pool({ connectionString: url, ssl: sslFor(url), max: 3, idleTimeoutMillis: 10_000, connectionTimeoutMillis: 15_000 });
     // A dropped connection (network blip, pooler restart) must not crash the
     // server: log it; the pool opens a fresh connection on the next query.
     pool.on("error", (e) => console.error("[db] connection lost:", e.message));

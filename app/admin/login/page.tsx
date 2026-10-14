@@ -5,6 +5,7 @@ import { redirect } from "next/navigation";
 import { auth, isDevLogin, noLogin } from "@/auth";
 import { asset } from "@/lib/images";
 import { SITE } from "@/lib/site";
+import { safeAdminPath } from "@/lib/security";
 import { signInDev, signInWithGoogle } from "../actions";
 
 export const metadata: Metadata = { title: { absolute: `Sign in | ${SITE.name} Admin` }, robots: { index: false, follow: false } };
@@ -26,7 +27,7 @@ const GoogleG = () => (
 
 export default async function Login({ searchParams }: PageProps<"/admin/login">) {
   const sp = await searchParams;
-  const next = typeof sp.next === "string" && sp.next.startsWith("/admin") ? sp.next : "/admin/content";
+  const next = safeAdminPath(sp.next, "/admin/content");
   // Local no-login mode skips this page; add ?preview=1 to look at it anyway.
   if ((noLogin && sp.preview !== "1") || (await auth())?.user?.role) redirect(next);
   const error = typeof sp.error === "string" ? ERRORS[sp.error] ?? "Sign-in failed. Please try again." : null;

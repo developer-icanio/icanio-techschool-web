@@ -33,8 +33,56 @@ const MOVED: [string, string][] = [
   ["/hello-world", "/"],
 ];
 
+const dev = process.env.NODE_ENV !== "production";
+const BLOB = "https://*.public.blob.vercel-storage.com";
+
+// Content Security Policy: the browser only loads code and media from this
+// site and our Blob storage, can't be framed by other sites (clickjacking),
+// and forms can only post here or to Google sign-in. Next.js needs inline
+// scripts for hydration ('unsafe-inline'); dev also needs eval and a
+// websocket for hot reload.
+const CSP = [
+  "default-src 'self'",
+  `script-src 'self' 'unsafe-inline'${dev ? " 'unsafe-eval'" : ""}`,
+  "style-src 'self' 'unsafe-inline'",
+  `img-src 'self' data: blob: ${BLOB}`,
+  "font-src 'self' data:",
+  `media-src 'self' blob: ${BLOB}`,
+  // Dashboard uploads go from the browser straight to Vercel Blob.
+  `connect-src 'self' https://vercel.com ${BLOB}${dev ? " ws: wss:" : ""}`,
+  "frame-src 'none'",
+  "object-src 'none'",
+  "base-uri 'self'",
+  "form-action 'self' https://accounts.google.com",
+  "frame-ancestors 'none'",
+  "manifest-src 'self'",
+  "worker-src 'self' blob:",
+  ...(dev ? [] : ["upgrade-insecure-requests"]),
+].join("; ");
+
+const SECURITY_HEADERS = [
+  { key: "Content-Security-Policy", value: CSP },
+  { key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains" },
+  { key: "X-Content-Type-Options", value: "nosniff" },
+  { key: "X-Frame-Options", value: "DENY" },
+  { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+  { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(), payment=(), usb=(), browsing-topics=()" },
+  { key: "Cross-Origin-Opener-Policy", value: "same-origin" },
+  { key: "X-DNS-Prefetch-Control", value: "on" },
+];
+
 const nextConfig: NextConfig = {
   trailingSlash: false,
+  // Don't advertise the framework in every response.
+  poweredByHeader: false,
+  async headers() {
+    return [
+      { source: "/:path*", headers: SECURITY_HEADERS },
+      // The dashboard stays out of search engines, even if a link to it leaks.
+      { source: "/admin/:path*", headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }] },
+      { source: "/api/:path*", headers: [{ key: "X-Robots-Tag", value: "noindex" }] },
+    ];
+  },
   // Embedded Postgres for local admin testing; loaded at runtime, never bundled.
   serverExternalPackages: ["@electric-sql/pglite"],
   images: {

@@ -1,12 +1,16 @@
 import { sql } from "drizzle-orm";
 import { NextResponse } from "next/server";
+import { auth, noLogin } from "@/auth";
 import { dbKind, getDb } from "@/db";
+import { hasCronSecret } from "@/lib/security";
 
-// Service status for the team: what is configured and whether the database
-// answers. Reports yes/no only, never keys or connection details.
+// Service status. The public sees only whether the site is healthy; signed-in
+// admins (or a request with the cron secret) also see what is configured and
+// the table counts. Never reports keys or connection details.
 export const dynamic = "force-dynamic";
 
-export async function GET() {
+export async function GET(req: Request) {
+  const detailed = noLogin || hasCronSecret(req) || Boolean((await auth())?.user?.role);
   const started = Date.now();
   let database: { status: "connected" | "not configured" | "local embedded" | "error"; tables?: Record<string, number>; ms?: number; error?: string };
 
@@ -26,6 +30,9 @@ export async function GET() {
       database = { status: "error", error: (e as Error).message.replace(/postgres(ql)?:\/\/\S+/gi, "[url]").slice(0, 160) };
     }
   }
+
+  const ok = database.status === "connected" || database.status === "local embedded";
+  if (!detailed) return NextResponse.json({ ok, checkedAt: new Date().toISOString() }, { status: ok ? 200 : 503, headers: { "cache-control": "no-store" } });
 
   return NextResponse.json(
     {
