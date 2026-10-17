@@ -90,13 +90,15 @@
         "Free or sponsored internships for students"
       ],
       "image": {
-        "src": "Group-2085663532.png",
-        "alt": "MoU collaboration between partner colleges and Icanio Tech School"
+        "src": "ts:MoU/What an MoU means.png",
+        "alt": "College leaders and Icanio Technologies at an MoU signing for a long-term partnership",
+        "portrait": "ts:MoU/What an MoU means- p.png"
       },
       "link": {
         "label": "Read about the MoU partnership",
         "href": "/college-programs/mou-partnership"
-      }
+      },
+      "id": "how-it-works"
     },
     {
       "type": "cards",

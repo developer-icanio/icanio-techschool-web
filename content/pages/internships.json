@@ -121,71 +121,61 @@
           "title": "Frontend Developer",
           "body": "Build responsive user interfaces with HTML, CSS, JavaScript and React. You turn designs into working screens, connect them to APIs and deploy them. It is a strong start if you enjoy visual, fast feedback work.",
           "href": "/internships/frontend-development-internship",
-          "icon": "Group-2085661927.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661927.png"
         },
         {
           "title": "Backend Developer",
           "body": "Learn how servers, APIs and databases power every app. You design endpoints, model data, handle authentication and write tests. Choose this if you like logic, structure and solving problems behind the screen.",
           "href": "/internships/backend-development-internship",
-          "icon": "Group-2085661908.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661908.png"
         },
         {
           "title": "Software Testing",
           "body": "Build practical QA skills in manual and automation testing. You write test cases, find and report defects, and learn how testers protect quality before every release. Detail-minded students do well here.",
           "href": "/internships/software-testing-internship",
-          "icon": "Group-2085661910.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661910.png"
         },
         {
           "title": "AI & ML",
           "body": "Work with real datasets, from cleaning and exploring data to training and evaluating machine learning models. You learn Python tools used in industry and apply them to practical problems.",
           "href": "/internships/ai-ml-internship",
-          "icon": "Group-2085663220.png",
-          "meta": "Engineering"
+          "icon": "Group-2085663220.png"
         },
         {
           "title": "UI/UX Designer",
           "body": "Design digital products from research to prototype. You interview users, map journeys, sketch wireframes and build clickable prototypes in Figma. Good for students who care about how people use technology.",
           "href": "/internships/ui-ux-design-internship",
-          "icon": "Group-2085661914.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661914.png"
         },
         {
           "title": "DevOps",
           "body": "Automate how software is built, tested and released. You set up version control workflows, CI/CD pipelines, containers and cloud deployments. Pick this if you enjoy systems, scripting and reliability.",
           "href": "/internships/devops-internship",
-          "icon": "Group-2085661916.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661916.png"
         },
         {
           "title": "Mobile App / Flutter Developer",
           "body": "Create cross-platform mobile apps with Flutter, from screen layouts to state management and API calls. You finish with an app you can install on a phone and show to employers.",
           "href": "/internships/flutter-developer-internship",
-          "icon": "Group-2085661918.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661918.png"
         },
         {
           "title": "Full Stack Developer",
           "body": "Take one web product from interface to database to deployment. You work on both frontend and backend, and learn how the pieces connect. Ideal if you want a broad view of how apps are built.",
           "href": "/internships/full-stack-development-internship",
-          "icon": "Group-2085661920.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661920.png"
         },
         {
           "title": "Business Analyst",
           "body": "Analyse business requirements and plan solutions with delivery teams. You run stakeholder conversations, map processes and write clear requirement documents. Suits students who like both people and problem solving.",
           "href": "/internships/business-analyst-internship",
-          "icon": "Group-2085661922.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661922.png"
         },
         {
           "title": "Project Manager",
           "body": "Coordinate projects from planning to delivery. You plan sprints, track tasks, manage risks and keep people aligned. Choose this if you are organised and enjoy helping a team ship on time.",
           "href": "/internships/project-management-internship",
-          "icon": "Group-2085661924.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661924.png"
         }
       ]
     },
@@ -201,36 +191,31 @@
           "title": "Human Resource",
           "body": "Get hands-on exposure to core HR work, from recruitment and onboarding to employee engagement. You support real hiring tasks and learn how people teams run inside a growing company.",
           "href": "/internships/hr-internship",
-          "icon": "Group-1000005365-7-2.png",
-          "meta": "Non-engineering"
+          "icon": "Group-1000005365-7-2.png"
         },
         {
           "title": "Finance",
           "body": "Practise core finance functions on live business tasks. You work on budgeting, reporting and financial analysis, and learn how numbers guide decisions in a real company.",
           "href": "/internships/finance-internship",
-          "icon": "Group-1000005365-8-2.png",
-          "meta": "Non-engineering"
+          "icon": "Group-1000005365-8-2.png"
         },
         {
           "title": "Sales",
           "body": "Learn real sales processes through live market interactions. You practise lead generation, client communication and follow-up, and build selling skills that every business values.",
           "href": "/internships/sales-internship",
-          "icon": "Group-1000005365-11-1.png",
-          "meta": "Non-engineering"
+          "icon": "Group-1000005365-11-1.png"
         },
         {
           "title": "Digital Marketing",
           "body": "Run live campaigns and real projects across content creation, social media, SEO and ads. You learn to plan a campaign, publish it and measure what worked.",
           "href": "/internships/digital-marketing-internship",
-          "icon": "Group-1000005365-9-2.png",
-          "meta": "Non-engineering"
+          "icon": "Group-1000005365-9-2.png"
         },
         {
           "title": "Data Analyst",
           "body": "Work with real datasets from cleaning to visualisation and insight. You use Excel, SQL and dashboard tools to answer business questions and present what the data shows.",
           "href": "/internships/data-analyst-internship",
-          "icon": "Group-1000005365-10-2.png",
-          "meta": "Non-engineering"
+          "icon": "Group-1000005365-10-2.png"
         }
       ]
     },

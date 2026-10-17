@@ -163,8 +163,8 @@
         "Certificates and relevant workshops, if any"
       ],
       "image": {
-        "src": "studentProgramOverviewImg.png",
-        "alt": "Fresher writing a one-page resume for an internship application"
+        "src": "ts:Student/Program overview-1.png",
+        "alt": "Fresher preparing an internship resume with a team"
       }
     },
     {

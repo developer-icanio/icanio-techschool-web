@@ -95,8 +95,8 @@
       ],
       "reverse": true,
       "image": {
-        "src": "Group-2085662119.png",
-        "alt": "Timeline planning for a six to nine month frontend developer roadmap"
+        "src": "ts:Frontend/The role.png",
+        "alt": "Frontend developer building a responsive web interface"
       }
     },
     {
@@ -203,8 +203,8 @@
         "Can read an error message and find the line that caused it"
       ],
       "image": {
-        "src": "code-01.png",
-        "alt": "Code editor icon representing the JavaScript stage of the frontend developer roadmap"
+        "src": "ts:Frontend/why icanio.png",
+        "alt": "Frontend intern learning JavaScript and React with a mentor"
       }
     },
     {

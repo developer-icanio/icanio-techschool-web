@@ -79,8 +79,8 @@
         "You talk to people outside engineering, including clients"
       ],
       "image": {
-        "src": "studentProgramOverviewImg.png",
-        "alt": "Student learning why soft skills for IT jobs matter in software teams"
+        "src": "ts:Student/In practice.png",
+        "alt": "Students practising teamwork and communication skills"
       }
     },
     {
@@ -255,8 +255,8 @@
         "How do you handle feedback you do not agree with?"
       ],
       "image": {
-        "src": "Group-2085663181.png",
-        "alt": "Fresher answering behavioural interview questions about soft skills for IT jobs"
+        "src": "ts:Student/Outcomes.png",
+        "alt": "Student showing confidence and communication in an interview"
       },
       "link": {
         "label": "How to get an internship as a fresher",

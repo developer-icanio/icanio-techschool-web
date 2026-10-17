@@ -6,12 +6,15 @@ import type { Block, Img } from "@/lib/content/types";
 import { asset } from "@/lib/images";
 import { SITE } from "@/lib/site";
 import { Section, SectionHead } from "./Section";
+import { isTrackIcon, TrackIcon } from "./TrackIcon";
 
 function Pic({ img, className = "", sizes = "(min-width: 1024px) 50vw, 100vw", priority }: { img: Img; className?: string; sizes?: string; priority?: boolean }) {
   const a = asset(img.src);
   const w = a.w ?? img.w ?? 1200;
   const h = a.h ?? img.h ?? 800;
-  if (!img.portrait) return <Image src={a.src} alt={img.alt} width={w} height={h} sizes={sizes} priority={priority} className={className} />;
+  // Never wider than the file itself: a small image is shown at its real
+  // size (centred) instead of being stretched into a blur.
+  if (!img.portrait) return <Image src={a.src} alt={img.alt} width={w} height={h} sizes={sizes} priority={priority} className={`mx-auto ${className}`} style={{ maxWidth: w }} />;
   // Art direction: the tall crop beside the text on desktop, the wide one on phones.
   const p = asset(img.portrait);
   const desktop = getImageProps({ src: p.src, alt: "", width: p.w ?? 900, height: p.h ?? 1200, sizes });
@@ -34,21 +37,33 @@ function Fit({ img, ratio, className = "", sizes = "(min-width: 1024px) 33vw, 10
   return (
     <div className={`relative w-full overflow-hidden bg-soft ${className}`} style={{ aspectRatio: ratio }}>
       <Image src={a.src} alt="" aria-hidden fill sizes="64px" className="scale-110 object-cover opacity-40 blur-2xl" />
-      {a.w && a.h ? (
-        // Small originals are shown at their real size (centred) instead of
-        // being stretched, which is what made them look blurry.
-        <span className="absolute inset-0 grid place-items-center">
-          <Image src={a.src} alt={img.alt} width={a.w} height={a.h} sizes={sizes} className="h-auto max-h-full w-auto max-w-full object-contain" style={{ maxWidth: Math.min(a.w, 2000) }} />
-        </span>
-      ) : (
-        <Image src={a.src} alt={img.alt} fill sizes={sizes} className="object-contain" />
-      )}
+      {/* The whole picture always fits the frame (never cropped). Small
+          originals stop at their real size, centred, instead of being
+          stretched, which is what made them look blurry. */}
+      <Image src={a.src} alt={img.alt} fill sizes={sizes} className="m-auto object-contain" style={a.w && a.h ? { maxWidth: a.w, maxHeight: a.h } : undefined} />
     </div>
   );
 }
 
 /** True when every card has a large illustration (the old site's track art). */
-const gridArt = (items: { icon?: string }[]) => items.length > 0 && items.every((c) => c.icon && (asset(c.icon).w ?? 0) >= 200);
+const gridArt = (items: { icon?: string }[]) => items.length > 0 && items.every((c) => c.icon && !isTrackIcon(c.icon) && (asset(c.icon).w ?? 0) >= 200);
+
+/**
+ * Card photo frame: when every photo in the grid has the same shape, the
+ * frame takes that shape so the photo fills it edge to edge; mixed grids use
+ * 4:3 so the cards stay level (photos are fitted whole either way).
+ */
+function frameRatio(items: { image?: Img }[]) {
+  const r = items.filter((c) => c.image).map((c) => { const a = asset(c.image!.src); return a.w && a.h ? a.w / a.h : 0; });
+  if (!r.length || r.some((x) => !x || Math.abs(x - r[0]) > 0.02)) return "4 / 3";
+  return String(Math.min(Math.max(r[0], 1), 16 / 9));
+}
+
+/** Gallery frame: tall frames when every photo is portrait or square (posters), else 4:3. */
+function galleryFrame(items: Img[]) {
+  const tall = items.every((g) => { const a = asset(g.src); return a.w && a.h && a.w / a.h <= 1.02; });
+  return tall ? "4 / 5" : "4 / 3";
+}
 
 /** A resized copy from Next's image optimiser, for places next/image can't go (video posters). */
 const thumb = (src: string, w: 384 | 640 | 828) => `/_next/image?url=${encodeURIComponent(src)}&w=${w}&q=70`;
@@ -109,25 +124,32 @@ export function BlockView({ b, email = SITE.email }: { b: Block; email?: string 
       return (
         <Section id={b.id} tone={tone}>
           {head}
-          <ul className={`grid gap-5 ${b.items.length === 3 ? cols[3].replace(" 2xl:grid-cols-4", "") : cols[b.columns ?? 3]}`}>
+          <ul className={`grid gap-5 ${b.items.length === 3 || b.items.length === 6 ? cols[3].replace(" 2xl:grid-cols-4", "") : cols[b.columns ?? 3]}`}>
             {b.items.map((c) => {
               // One placement per grid so cards never look swapped: corner art
               // only when every card in the grid carries a large illustration.
               const art = gridArt(b.items);
+              const frame = frameRatio(b.items);
               const inner = (
                 <>
-                  {c.image && <Fit img={c.image} ratio="4 / 3" className="mb-5 rounded-[14px]" />}
-                  {c.icon && !art && <Icon name={c.icon} className="mb-4 h-12 w-12" />}
-                  {c.meta && <p className="mb-2 self-start rounded-full bg-soft-2 px-2.5 py-0.5 text-xs font-semibold text-navy">{c.meta}</p>}
+                  {c.image && <Fit img={c.image} ratio={frame} className="mb-5 rounded-[14px]" />}
+                  {(() => {
+                    // Track icons sit at the bottom right instead (see below).
+                    const icon = c.icon && !art && !isTrackIcon(c.icon) ? <Icon name={c.icon} className="mb-4 h-12 w-12" /> : null;
+                    const pill = c.meta && <p className={`rounded-full px-2.5 py-0.5 text-xs font-semibold bg-soft-2 text-navy ${icon ? "mb-4" : "mb-2 self-start"}`}>{c.meta}</p>;
+                    // Icon and category share one row, so every title starts at the same height.
+                    return icon && pill ? <div className="flex items-start justify-between gap-3">{icon}{pill}</div> : <>{icon}{pill}</>;
+                  })()}
                   <h3 className="text-lg font-semibold leading-snug">{c.title}</h3>
                   <p className={`mt-2 text-[15px] leading-relaxed ${dark ? "text-white/80" : "text-body"}`}>{c.body}</p>
-                  <div className="mt-auto flex items-end justify-between gap-3 pt-4">
-                    {c.href ? <span className="inline-flex items-center gap-1 text-sm font-semibold text-navy">Learn more <span aria-hidden>→</span></span> : <span />}
+                  <div className={`mt-auto flex justify-between gap-3 pt-4 ${art ? "items-end" : "items-center"}`}>
+                    {c.href ? <span className="inline-flex items-center gap-1 text-sm font-semibold text-navy">Learn more <span aria-hidden className="transition-transform duration-200 group-hover:translate-x-1">→</span></span> : <span />}
                     {art && <Icon name={c.icon} className="-mb-3 -mr-3 h-20 w-20" />}
+                    {!art && isTrackIcon(c.icon) && <TrackIcon name={c.icon!} dark={dark} />}
                   </div>
                 </>
               );
-              const cls = `flex h-full flex-col rounded-2xl border p-6 transition ${dark ? "border-white/15 bg-white/5" : "border-line bg-white hover:border-navy/40 hover:shadow-lg hover:shadow-slate-900/5"}`;
+              const cls = `group flex h-full flex-col rounded-2xl border p-6 transition duration-200 ${dark ? "border-white/15 bg-white/5" : `border-line bg-white ${c.href ? "hover:-translate-y-0.5 hover:border-navy/40 hover:shadow-lg hover:shadow-slate-900/5 motion-reduce:hover:translate-y-0" : ""}`}`;
               return <li key={c.title}>{c.href ? <Link href={c.href} className={cls}>{inner}</Link> : <div className={cls}>{inner}</div>}</li>;
             })}
           </ul>
@@ -318,11 +340,11 @@ export function BlockView({ b, email = SITE.email }: { b: Block; email?: string 
       return (
         <Section id={b.id} tone={tone}>
           {head}
-          <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className={`grid gap-5 sm:grid-cols-2 ${b.items.length === 4 ? "lg:grid-cols-4" : "lg:grid-cols-3"}`}>
             {b.items.map((g) => (
               <li key={g.src}>
                 <figure className="h-full overflow-hidden rounded-2xl border border-line bg-white">
-                  <Fit img={g} ratio="4 / 3" />
+                  <Fit img={g} ratio={galleryFrame(b.items)} />
                   <figcaption className="p-4 text-sm leading-relaxed text-body">{g.caption}</figcaption>
                 </figure>
               </li>

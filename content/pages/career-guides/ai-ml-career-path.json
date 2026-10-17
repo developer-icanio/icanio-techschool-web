@@ -101,8 +101,8 @@
       ],
       "reverse": true,
       "image": {
-        "src": "code-01.png",
-        "alt": "Code icon for the Python and maths foundations of an AI ML career path"
+        "src": "ts:AI_ML/The role.png",
+        "alt": "Student working on a machine learning model with an Icanio engineer"
       }
     },
     {
@@ -244,8 +244,8 @@
       ],
       "reverse": true,
       "image": {
-        "src": "monitor-02.png",
-        "alt": "Monitor icon for machine learning projects on an AI ML career path"
+        "src": "ts:AI_ML/why icanio.png",
+        "alt": "AI and ML intern reviewing a project with a mentor"
       }
     },
     {

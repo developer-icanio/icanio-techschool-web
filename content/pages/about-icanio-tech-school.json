@@ -217,7 +217,8 @@
           "href": "/internships/full-stack-development-internship",
           "meta": "Engineering"
         }
-      ]
+      ],
+      "id": "trainer-roles"
     },
     {
       "type": "cards",
@@ -269,8 +270,8 @@
           "body": "Engineering and non-engineering internships from 15 days to six months, with a 1:1 mentor, a live project and a certificate on completion.",
           "href": "/internships",
           "image": {
-            "src": "ourInternshipProgramImg.png",
-            "alt": "Intern building a project during an internship at Icanio Tech School"
+            "src": "ts:Intership.png",
+            "alt": "College students working on a live project during an internship at Icanio Tech School"
           },
           "meta": "Students"
         },
@@ -279,8 +280,8 @@
           "body": "Nine soft skill modules built on real IT workplace scenarios, from professional communication to leadership in technology roles.",
           "href": "/student-development-program",
           "image": {
-            "src": "WhatWeDoSectionImg2.png",
-            "alt": "Students in the Icanio Tech School Student Development Program"
+            "src": "ts:Student/Program overview.png",
+            "alt": "Students working through a team exercise in the Student Development Program"
           },
           "meta": "Students"
         },
@@ -289,8 +290,8 @@
           "body": "Short, hands-on sessions on emerging technologies such as coding with AI, web development and data science, run on campus or online.",
           "href": "/technical-workshops",
           "image": {
-            "src": "WorkshopsImg.png",
-            "alt": "Hands-on technical workshop run by Icanio Tech School"
+            "src": "ts:Workshop/Overview.png",
+            "alt": "Students building together at an Icanio Tech School technical workshop"
           },
           "meta": "Students"
         },
@@ -298,21 +299,34 @@
           "title": "MoU partnership",
           "body": "A long-term agreement that gives students priority access to workshops, value added courses and free or sponsored internships.",
           "href": "/college-programs/mou-partnership",
-          "meta": "Colleges"
+          "meta": "Colleges",
+          "image": {
+            "src": "ts:MoU.png",
+            "alt": "MoU partnership handshake between a college and Icanio Tech School"
+          }
         },
         {
           "title": "Value added courses",
           "body": "Lab-based courses on your campus, taught by industry experts with real tools, fitted into your academic timetable.",
           "href": "/college-programs/value-added-courses",
-          "meta": "Colleges"
+          "meta": "Colleges",
+          "image": {
+            "src": "ts:Value added.png",
+            "alt": "Students learning with an industry expert in a value added course"
+          }
         },
         {
           "title": "Guest lectures, FDPs and visits",
           "body": "Guest lectures for students, faculty development programs for teachers and industrial visits to a working software company.",
           "href": "/college-programs",
-          "meta": "Colleges"
+          "meta": "Colleges",
+          "image": {
+            "src": "ts:Guest lecture.png",
+            "alt": "Industry engineer guiding students during a guest lecture"
+          }
         }
-      ]
+      ],
+      "id": "programs"
     },
     {
       "type": "prose",
@@ -447,7 +461,8 @@
           "alt": "MoU between Icanio Technologies and Arunachala College of Engineering for Women",
           "caption": "An MoU with Arunachala College of Engineering for Women for industry exposure and internships."
         }
-      ]
+      ],
+      "id": "milestones"
     },
     {
       "type": "cards",

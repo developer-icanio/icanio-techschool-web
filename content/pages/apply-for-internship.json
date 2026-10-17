@@ -219,106 +219,91 @@
           "title": "Frontend Development",
           "body": "Build responsive interfaces with HTML, CSS, JavaScript and React.",
           "href": "/internships/frontend-development-internship",
-          "icon": "Group-2085661927.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661927.png"
         },
         {
           "title": "Backend Development",
           "body": "Design APIs, databases and server logic for real applications.",
           "href": "/internships/backend-development-internship",
-          "icon": "Group-2085661908.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661908.png"
         },
         {
           "title": "Full Stack Development",
           "body": "Take one product from interface to database to deployment.",
           "href": "/internships/full-stack-development-internship",
-          "icon": "Group-2085661920.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661920.png"
         },
         {
           "title": "Software Testing",
           "body": "Learn manual and automation testing and report defects clearly.",
           "href": "/internships/software-testing-internship",
-          "icon": "Group-2085661910.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661910.png"
         },
         {
           "title": "AI & ML",
           "body": "Clean datasets, train models and evaluate them on real problems.",
           "href": "/internships/ai-ml-internship",
-          "icon": "Group-2085663220.png",
-          "meta": "Engineering"
+          "icon": "Group-2085663220.png"
         },
         {
           "title": "UI/UX Design",
           "body": "Move from user research to wireframes to Figma prototypes.",
           "href": "/internships/ui-ux-design-internship",
-          "icon": "Group-2085661914.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661914.png"
         },
         {
           "title": "DevOps",
           "body": "Automate builds and releases with CI/CD, containers and cloud.",
           "href": "/internships/devops-internship",
-          "icon": "Group-2085661916.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661916.png"
         },
         {
           "title": "Flutter App Development",
           "body": "Create cross-platform mobile apps from screens to store builds.",
           "href": "/internships/flutter-developer-internship",
-          "icon": "Group-2085661918.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661918.png"
         },
         {
           "title": "Business Analyst",
           "body": "Gather requirements, map processes and write clear documents.",
           "href": "/internships/business-analyst-internship",
-          "icon": "Group-2085661922.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661922.png"
         },
         {
           "title": "Project Management",
           "body": "Plan sprints, track delivery and coordinate a project team.",
           "href": "/internships/project-management-internship",
-          "icon": "Group-2085661924.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661924.png"
         },
         {
           "title": "Data Analyst",
           "body": "Turn raw data into dashboards and insights with Excel and SQL.",
           "href": "/internships/data-analyst-internship",
-          "icon": "Group-1000005365-10-2.png",
-          "meta": "Non-engineering"
+          "icon": "Group-1000005365-10-2.png"
         },
         {
           "title": "Digital Marketing",
           "body": "Run live campaigns across content, social media, SEO and ads.",
           "href": "/internships/digital-marketing-internship",
-          "icon": "Group-1000005365-9-2.png",
-          "meta": "Non-engineering"
+          "icon": "Group-1000005365-9-2.png"
         },
         {
           "title": "Human Resource",
           "body": "Support recruitment, onboarding and employee engagement tasks.",
           "href": "/internships/hr-internship",
-          "icon": "Group-1000005365-7-2.png",
-          "meta": "Non-engineering"
+          "icon": "Group-1000005365-7-2.png"
         },
         {
           "title": "Finance",
           "body": "Practise budgeting, reporting and analysis on business data.",
           "href": "/internships/finance-internship",
-          "icon": "Group-1000005365-8-2.png",
-          "meta": "Non-engineering"
+          "icon": "Group-1000005365-8-2.png"
         },
         {
           "title": "Sales",
           "body": "Learn lead generation, client communication and follow-up.",
           "href": "/internships/sales-internship",
-          "icon": "Group-1000005365-11-1.png",
-          "meta": "Non-engineering"
+          "icon": "Group-1000005365-11-1.png"
         }
       ]
     },

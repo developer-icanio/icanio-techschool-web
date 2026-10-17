@@ -248,43 +248,37 @@
           "title": "DevOps",
           "body": "Pipelines, containers and cloud deployments, as completed by Harisankar M from Karpagam College of Engineering.",
           "href": "/internships/devops-internship",
-          "icon": "Group-2085661916.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661916.png"
         },
         {
           "title": "UI/UX Design",
           "body": "Research, wireframes and prototypes in Figma, as completed by students from Karunya and Ramco.",
           "href": "/internships/ui-ux-design-internship",
-          "icon": "Group-2085661914.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661914.png"
         },
         {
           "title": "AI & ML",
           "body": "Data preparation, model training and evaluation on practical problems.",
           "href": "/internships/ai-ml-internship",
-          "icon": "Group-2085663220.png",
-          "meta": "Engineering"
+          "icon": "Group-2085663220.png"
         },
         {
           "title": "Backend Development",
           "body": "APIs, databases and server logic, including the Java and Spring Boot work several interns completed.",
           "href": "/internships/backend-development-internship",
-          "icon": "Group-2085661908.png",
-          "meta": "Engineering"
+          "icon": "Group-2085661908.png"
         },
         {
           "title": "Data Analyst",
           "body": "Dashboards and insights with Excel, SQL, Python and Power BI.",
           "href": "/internships/data-analyst-internship",
-          "icon": "Group-1000005365-10-2.png",
-          "meta": "Non-engineering"
+          "icon": "Group-1000005365-10-2.png"
         },
         {
           "title": "Digital Marketing",
           "body": "Live campaigns across content, social, SEO and ads, as completed over three months by two of our interns.",
           "href": "/internships/digital-marketing-internship",
-          "icon": "Group-1000005365-9-2.png",
-          "meta": "Non-engineering"
+          "icon": "Group-1000005365-9-2.png"
         }
       ]
     },
