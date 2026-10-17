@@ -2,7 +2,16 @@ import fs from "node:fs";
 import path from "node:path";
 
 // Original WordPress filenames -> optimised /images/*.webp (built by scripts/build-images.mjs).
-type Asset = { src: string; w?: number; h?: number; tone?: "dark" | "light"; bg?: string; art?: { src: string; w: number; h: number } };
+type Asset = {
+  src: string;
+  w?: number;
+  h?: number;
+  tone?: "dark" | "light";
+  bg?: string;
+  art?: { src: string; w: number; h: number };
+  /** Cut-out photo whose subject runs off this edge of the file (faded on the page). */
+  cut?: ("left" | "right")[];
+};
 let map: Record<string, Asset> | undefined;
 
 function assets() {

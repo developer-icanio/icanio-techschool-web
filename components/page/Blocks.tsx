@@ -14,7 +14,7 @@ function Pic({ img, className = "", sizes = "(min-width: 1024px) 50vw, 100vw", p
   const h = a.h ?? img.h ?? 800;
   // Never wider than the file itself: a small image is shown at its real
   // size (centred) instead of being stretched into a blur.
-  if (!img.portrait) return <Image src={a.src} alt={img.alt} width={w} height={h} sizes={sizes} priority={priority} className={`mx-auto ${className}`} style={{ maxWidth: w }} />;
+  if (!img.portrait) return <Image src={a.src} alt={img.alt} width={w} height={h} sizes={sizes} priority={priority} className={`mx-auto ${className}`} style={{ maxWidth: w, ...fadeCut(a.cut) }} />;
   // Art direction: the tall crop beside the text on desktop, the wide one on phones.
   const p = asset(img.portrait);
   const desktop = getImageProps({ src: p.src, alt: "", width: p.w ?? 900, height: p.h ?? 1200, sizes });
@@ -26,6 +26,17 @@ function Pic({ img, className = "", sizes = "(min-width: 1024px) 50vw, 100vw", p
       <img {...mobile} className={className} />
     </picture>
   );
+}
+
+/**
+ * Some design files are cut-outs where an arm or shoulder runs off the edge
+ * of the canvas. That edge fades out softly instead of ending on a hard line.
+ */
+function fadeCut(cut?: ("left" | "right")[]): React.CSSProperties {
+  if (!cut?.length) return {};
+  const l = cut.includes("left"), r = cut.includes("right");
+  const mask = `linear-gradient(90deg, ${l ? "transparent 0%, #000 16%" : "#000 0%"}, ${r ? "#000 84%, transparent 100%" : "#000 100%"})`;
+  return { maskImage: mask, WebkitMaskImage: mask };
 }
 
 /**

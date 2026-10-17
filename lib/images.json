@@ -2517,7 +2517,10 @@
  "ts:AI_ML/Before you start.png": {
   "src": "/images/ts/ai-ml-before-you-start.webp",
   "w": 870,
-  "h": 1119
+  "h": 1119,
+  "cut": [
+   "left"
+  ]
  },
  "ts:AI_ML/ML.png": {
   "src": "/images/ts/ai-ml-ml.webp",
@@ -2591,7 +2594,10 @@
  "ts:Business analyst/Before you start.png": {
   "src": "/images/ts/business-analyst-before-you-start.webp",
   "w": 870,
-  "h": 1119
+  "h": 1119,
+  "cut": [
+   "left"
+  ]
  },
  "ts:Business analyst/Business analyst.png": {
   "src": "/images/ts/business-analyst-business-analyst.webp",
@@ -2628,7 +2634,10 @@
  "ts:DeOps/Before you start.png": {
   "src": "/images/ts/deops-before-you-start.webp",
   "w": 870,
-  "h": 1119
+  "h": 1119,
+  "cut": [
+   "left"
+  ]
  },
  "ts:DeOps/DevOps.png": {
   "src": "/images/ts/deops-devops.webp",
@@ -2665,7 +2674,10 @@
  "ts:Digital/Before you start.png": {
   "src": "/images/ts/digital-before-you-start.webp",
   "w": 870,
-  "h": 1119
+  "h": 1119,
+  "cut": [
+   "right"
+  ]
  },
  "ts:Digital/Digital marketing.png": {
   "src": "/images/ts/digital-digital-marketing.webp",
@@ -2729,7 +2741,10 @@
  "ts:Finance/Before you start.png": {
   "src": "/images/ts/finance-before-you-start.webp",
   "w": 870,
-  "h": 1119
+  "h": 1119,
+  "cut": [
+   "left"
+  ]
  },
  "ts:Finance/Finance.png": {
   "src": "/images/ts/finance-finance.webp",
@@ -2766,7 +2781,10 @@
  "ts:Frontend/Before you start copy.png": {
   "src": "/images/ts/frontend-before-you-start-copy.webp",
   "w": 870,
-  "h": 1119
+  "h": 1119,
+  "cut": [
+   "left"
+  ]
  },
  "ts:Frontend/Frontend.png": {
   "src": "/images/ts/frontend-frontend.webp",
@@ -2803,7 +2821,10 @@
  "ts:Full Stack/Before you start.png": {
   "src": "/images/ts/full-stack-before-you-start.webp",
   "w": 870,
-  "h": 1119
+  "h": 1119,
+  "cut": [
+   "right"
+  ]
  },
  "ts:Full Stack/Full stack.png": {
   "src": "/images/ts/full-stack-full-stack.webp",
@@ -2877,7 +2898,10 @@
  "ts:HR/Before you start.png": {
   "src": "/images/ts/hr-before-you-start.webp",
   "w": 870,
-  "h": 1119
+  "h": 1119,
+  "cut": [
+   "left"
+  ]
  },
  "ts:HR/HR.png": {
   "src": "/images/ts/hr-hr.webp",
@@ -3067,7 +3091,10 @@
  "ts:Project manager/Before you start.png": {
   "src": "/images/ts/project-manager-before-you-start.webp",
   "w": 870,
-  "h": 1119
+  "h": 1119,
+  "cut": [
+   "left"
+  ]
  },
  "ts:Project manager/Project manager.png": {
   "src": "/images/ts/project-manager-project-manager.webp",
@@ -3141,7 +3168,10 @@
  "ts:Software testing/Before you start.png": {
   "src": "/images/ts/software-testing-before-you-start.webp",
   "w": 870,
-  "h": 1119
+  "h": 1119,
+  "cut": [
+   "right"
+  ]
  },
  "ts:Software testing/Software.png": {
   "src": "/images/ts/software-testing-software.webp",
@@ -3178,7 +3208,10 @@
  "ts:Student/In practice.png": {
   "src": "/images/ts/student-in-practice.webp",
   "w": 870,
-  "h": 1119
+  "h": 1119,
+  "cut": [
+   "right"
+  ]
  },
  "ts:Student/Outcomes.png": {
   "src": "/images/ts/student-outcomes.webp",
@@ -3215,7 +3248,10 @@
  "ts:UX_UI/Before you start.png": {
   "src": "/images/ts/ux-ui-before-you-start.webp",
   "w": 870,
-  "h": 1119
+  "h": 1119,
+  "cut": [
+   "left"
+  ]
  },
  "ts:UX_UI/The role - p.png": {
   "src": "/images/ts/ux-ui-the-role-p.webp",
@@ -3346,7 +3382,10 @@
  "ts:data/Before you start.png": {
   "src": "/images/ts/data-before-you-start.webp",
   "w": 870,
-  "h": 1119
+  "h": 1119,
+  "cut": [
+   "left"
+  ]
  },
  "ts:data/Data Anlyst.png": {
   "src": "/images/ts/data-data-anlyst.webp",
