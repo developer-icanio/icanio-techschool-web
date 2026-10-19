@@ -47,7 +47,8 @@ export type Block =
   /** Comparison or reference table. First column is the row label. */
   | (BlockBase & { type: "table"; columns: string[]; rows: string[][]; note?: string })
   /** Tick list with an optional image. */
-  | (BlockBase & { type: "checklist"; items: string[]; image?: Img })
+  /** `reverse` puts the image on the left (default right). */
+  | (BlockBase & { type: "checklist"; items: string[]; image?: Img; reverse?: boolean })
   /** Big numbers on a navy band. */
   | (BlockBase & { type: "stats"; items: { value: string; label: string }[] })
   /** Partner college logo wall (data: content/shared/partners.json). */
@@ -94,6 +95,8 @@ export interface PageContent {
     secondary?: Link;
     /** Short trust points under the buttons. */
     highlights?: string[];
+    /** Image on the left, text on the right (desktop), e.g. when the person points right. */
+    imageLeft?: boolean;
   };
   /** Key facts strip under the hero (duration, mode, eligibility...). */
   facts?: { label: string; value: string }[];

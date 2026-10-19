@@ -9,6 +9,8 @@ type Asset = {
   tone?: "dark" | "light";
   bg?: string;
   art?: { src: string; w: number; h: number };
+  /** The artwork with its own canvas removed (scripts/clear-banner-art.mjs), for the brand-blue hero. */
+  artClear?: { src: string; w: number; h: number };
   /** Cut-out photo whose subject runs off this edge of the file (faded on the page). */
   cut?: ("left" | "right")[];
 };

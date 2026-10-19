@@ -82,7 +82,6 @@
       ],
       "image": {
         "src": "ts:Mobile App/The role.png",
-        "portrait": "ts:Mobile App/The role - p.png",
         "alt": "Professional at work in the Flutter app development role the internship prepares you for"
       },
       "link": {
@@ -240,8 +239,7 @@
       ],
       "image": {
         "src": "ts:Mobile App/why icanio.png",
-        "alt": "Interns learning Flutter app development with Icanio Tech School mentors",
-        "portrait": "ts:Mobile App/why icanio - p.png"
+        "alt": "Interns learning Flutter app development with Icanio Tech School mentors"
       },
       "reverse": true
     },
@@ -250,7 +248,7 @@
       "eyebrow": "Outcomes",
       "heading": "What you will achieve in the Flutter developer internship",
       "intro": "You leave the Flutter developer internship with apps people can install and code employers can read, not only a certificate.",
-      "columns": 2,
+      "columns": 4,
       "items": [
         {
           "title": "4 portfolio mobile apps",

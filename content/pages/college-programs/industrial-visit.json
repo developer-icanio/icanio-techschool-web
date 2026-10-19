@@ -196,8 +196,7 @@
       ],
       "image": {
         "src": "ts:IV/A day at Icanio.png",
-        "alt": "Office building where students spend an industrial visit day",
-        "portrait": "ts:IV/A day at Icanio - p.png"
+        "alt": "Office building where students spend an industrial visit day"
       },
       "reverse": true
     },

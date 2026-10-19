@@ -80,7 +80,6 @@
       ],
       "image": {
         "src": "ts:Digital/The role.png",
-        "portrait": "ts:Digital/The role - p.png",
         "alt": "Professional at work in the digital marketing role the internship prepares you for"
       },
       "link": {
@@ -237,8 +236,7 @@
       ],
       "image": {
         "src": "ts:Digital/why icanio.png",
-        "alt": "Interns learning digital marketing with Icanio Tech School mentors",
-        "portrait": "ts:Digital/why icanio - p.png"
+        "alt": "Interns learning digital marketing with Icanio Tech School mentors"
       },
       "reverse": true
     },
@@ -322,8 +320,8 @@
         "Present a campaign report with cost, results and next steps"
       ],
       "image": {
-        "src": "ts:Digital/Before you start.png",
-        "alt": "Student getting ready for the digital marketing internship"
+        "src": "ts:Backend/Before you start.png",
+        "alt": "Student getting ready to start the digital marketing internship at Icanio Tech School"
       }
     },
     {

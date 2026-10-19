@@ -2532,6 +2532,11 @@
    "src": "/images/ts/ai-ml-ml-art.webp",
    "w": 1600,
    "h": 1099
+  },
+  "artClear": {
+   "src": "/images/ts/ai-ml-ml-art-clear-8e289f1e.webp",
+   "w": 733,
+   "h": 920
   }
  },
  "ts:AI_ML/The role- p.png": {
@@ -2564,6 +2569,11 @@
    "src": "/images/ts/backend-backend-art.webp",
    "w": 1600,
    "h": 1069
+  },
+  "artClear": {
+   "src": "/images/ts/backend-backend-art-clear-dd216ee3.webp",
+   "w": 1097,
+   "h": 581
   }
  },
  "ts:Backend/Before you start.png": {
@@ -2609,6 +2619,11 @@
    "src": "/images/ts/business-analyst-business-analyst-art.webp",
    "w": 1600,
    "h": 1017
+  },
+  "artClear": {
+   "src": "/images/ts/business-analyst-business-analyst-art-clear-a6ee0620.webp",
+   "w": 729,
+   "h": 711
   }
  },
  "ts:Business analyst/The role - P.png": {
@@ -2649,6 +2664,11 @@
    "src": "/images/ts/deops-devops-art.webp",
    "w": 1600,
    "h": 1099
+  },
+  "artClear": {
+   "src": "/images/ts/deops-devops-art-clear-767758b1.webp",
+   "w": 690,
+   "h": 666
   }
  },
  "ts:DeOps/The role.png": {
@@ -2689,6 +2709,11 @@
    "src": "/images/ts/digital-digital-marketing-art.webp",
    "w": 1600,
    "h": 1069
+  },
+  "artClear": {
+   "src": "/images/ts/digital-digital-marketing-art-clear-a756fff3.webp",
+   "w": 767,
+   "h": 683
   }
  },
  "ts:Digital/The role - p.png": {
@@ -2731,6 +2756,11 @@
    "src": "/images/ts/faculty-faculty-hero-sec-art.webp",
    "w": 1600,
    "h": 1067
+  },
+  "artClear": {
+   "src": "/images/ts/faculty-faculty-hero-sec-art-clear-04529d82.webp",
+   "w": 778,
+   "h": 797
   }
  },
  "ts:Faculty/What you will explore.png": {
@@ -2756,6 +2786,11 @@
    "src": "/images/ts/finance-finance-art.webp",
    "w": 1600,
    "h": 1069
+  },
+  "artClear": {
+   "src": "/images/ts/finance-finance-art-clear-deb03811.webp",
+   "w": 766,
+   "h": 429
   }
  },
  "ts:Finance/The role - P.png": {
@@ -2796,6 +2831,11 @@
    "src": "/images/ts/frontend-frontend-art.webp",
    "w": 1600,
    "h": 1203
+  },
+  "artClear": {
+   "src": "/images/ts/frontend-frontend-art-clear-24c82e39.webp",
+   "w": 1061,
+   "h": 971
   }
  },
  "ts:Frontend/The role - p.png": {
@@ -2836,6 +2876,11 @@
    "src": "/images/ts/full-stack-full-stack-art.webp",
    "w": 1600,
    "h": 1071
+  },
+  "artClear": {
+   "src": "/images/ts/full-stack-full-stack-art-clear-7fe20c54.webp",
+   "w": 690,
+   "h": 764
   }
  },
  "ts:Full Stack/The role -p.png": {
@@ -2878,6 +2923,11 @@
    "src": "/images/ts/guest-guest-lecture-hero-sec-art.webp",
    "w": 1600,
    "h": 1067
+  },
+  "artClear": {
+   "src": "/images/ts/guest-guest-lecture-hero-sec-art-clear-e72e1445.webp",
+   "w": 875,
+   "h": 658
   }
  },
  "ts:Guest/What you will explore - P.png": {
@@ -2913,6 +2963,11 @@
    "src": "/images/ts/hr-hr-art.webp",
    "w": 1600,
    "h": 1069
+  },
+  "artClear": {
+   "src": "/images/ts/hr-hr-art-clear-31607ec2.webp",
+   "w": 606,
+   "h": 599
   }
  },
  "ts:HR/The role - p.png": {
@@ -2975,6 +3030,11 @@
    "src": "/images/ts/iv-iv-hero-sec-art.webp",
    "w": 1600,
    "h": 1067
+  },
+  "artClear": {
+   "src": "/images/ts/iv-iv-hero-sec-art-clear-c65d8e7c.webp",
+   "w": 656,
+   "h": 871
   }
  },
  "ts:IV/What you will explore.png": {
@@ -3002,6 +3062,11 @@
    "src": "/images/ts/intership-screen-intership-hero-sec-art.webp",
    "w": 1600,
    "h": 1067
+  },
+  "artClear": {
+   "src": "/images/ts/intership-screen-intership-hero-sec-art-clear-9f5ba4f6.webp",
+   "w": 805,
+   "h": 767
   }
  },
  "ts:Intership screen/Why Icanio.png": {
@@ -3034,6 +3099,11 @@
    "src": "/images/ts/mou-mou-art.webp",
    "w": 1600,
    "h": 1142
+  },
+  "artClear": {
+   "src": "/images/ts/mou-mou-art-clear-4c83bfed.webp",
+   "w": 724,
+   "h": 855
   }
  },
  "ts:MoU/What an MoU means- p.png": {
@@ -3066,6 +3136,11 @@
    "src": "/images/ts/mobile-app-mobile-app-art.webp",
    "w": 1600,
    "h": 1002
+  },
+  "artClear": {
+   "src": "/images/ts/mobile-app-mobile-app-art-clear-fb55c3bf.webp",
+   "w": 822,
+   "h": 695
   }
  },
  "ts:Mobile App/The role - p.png": {
@@ -3106,6 +3181,11 @@
    "src": "/images/ts/project-manager-project-manager-art.webp",
    "w": 1600,
    "h": 1069
+  },
+  "artClear": {
+   "src": "/images/ts/project-manager-project-manager-art-clear-f2d38d30.webp",
+   "w": 811,
+   "h": 613
   }
  },
  "ts:Project manager/The role - p.png": {
@@ -3143,6 +3223,11 @@
    "src": "/images/ts/sales-sales-art.webp",
    "w": 1600,
    "h": 1069
+  },
+  "artClear": {
+   "src": "/images/ts/sales-sales-art-clear-4517b05d.webp",
+   "w": 751,
+   "h": 589
   }
  },
  "ts:Sales/The role - P.png": {
@@ -3183,6 +3268,11 @@
    "src": "/images/ts/software-testing-software-art.webp",
    "w": 1600,
    "h": 1099
+  },
+  "artClear": {
+   "src": "/images/ts/software-testing-software-art-clear-601fc95c.webp",
+   "w": 830,
+   "h": 567
   }
  },
  "ts:Software testing/The role - p.png": {
@@ -3238,6 +3328,11 @@
    "src": "/images/ts/student-student-development-program-art.webp",
    "w": 1600,
    "h": 1067
+  },
+  "artClear": {
+   "src": "/images/ts/student-student-development-program-art-clear-b2804975.webp",
+   "w": 565,
+   "h": 838
   }
  },
  "ts:Student/why icanio.png": {
@@ -3273,6 +3368,11 @@
    "src": "/images/ts/ux-ui-ui-art.webp",
    "w": 1600,
    "h": 1099
+  },
+  "artClear": {
+   "src": "/images/ts/ux-ui-ui-art-clear-c6ba9344.webp",
+   "w": 832,
+   "h": 715
   }
  },
  "ts:UX_UI/why icanio- p.png": {
@@ -3325,6 +3425,11 @@
    "src": "/images/ts/value-added-value-added-hero-sec-art.webp",
    "w": 1600,
    "h": 1067
+  },
+  "artClear": {
+   "src": "/images/ts/value-added-value-added-hero-sec-art-clear-beb57828.webp",
+   "w": 805,
+   "h": 766
   }
  },
  "ts:Value added/Why it matters.png": {
@@ -3377,6 +3482,11 @@
    "src": "/images/ts/workshop-workshop-hero-sec-art.webp",
    "w": 1600,
    "h": 1067
+  },
+  "artClear": {
+   "src": "/images/ts/workshop-workshop-hero-sec-art-clear-abfa1b0b.webp",
+   "w": 829,
+   "h": 828
   }
  },
  "ts:data/Before you start.png": {
@@ -3397,6 +3507,11 @@
    "src": "/images/ts/data-data-anlyst-art.webp",
    "w": 1600,
    "h": 1069
+  },
+  "artClear": {
+   "src": "/images/ts/data-data-anlyst-art-clear-5dda5b04.webp",
+   "w": 1009,
+   "h": 539
   }
  },
  "ts:data/The role-1.png": {

@@ -81,7 +81,6 @@
       ],
       "image": {
         "src": "ts:Software testing/The role.png",
-        "portrait": "ts:Software testing/The role - p.png",
         "alt": "Professional at work in the software testing role the internship prepares you for"
       },
       "link": {
@@ -278,8 +277,7 @@
       ],
       "image": {
         "src": "ts:Software testing/why icanio.png",
-        "alt": "Interns learning software testing with Icanio Tech School mentors",
-        "portrait": "ts:Software testing/why icanio - p.png"
+        "alt": "Interns learning software testing with Icanio Tech School mentors"
       },
       "reverse": true,
       "link": {
@@ -301,8 +299,8 @@
         "Curiosity about how things break, and patience to prove it"
       ],
       "image": {
-        "src": "ts:Software testing/Before you start.png",
-        "alt": "Student getting ready for the software testing internship"
+        "src": "ts:Backend/Before you start.png",
+        "alt": "Student getting ready to start the software testing internship at Icanio Tech School"
       }
     },
     {

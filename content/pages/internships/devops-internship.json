@@ -82,7 +82,6 @@
       ],
       "image": {
         "src": "ts:DeOps/The role.png",
-        "portrait": "ts:DeOps/th role - p.png",
         "alt": "Professional at work in the DevOps role the internship prepares you for"
       },
       "link": {
@@ -240,8 +239,7 @@
       ],
       "image": {
         "src": "ts:DeOps/why icanio.png",
-        "alt": "Interns learning DevOps with Icanio Tech School mentors",
-        "portrait": "ts:DeOps/Why icanio - p.png"
+        "alt": "Interns learning DevOps with Icanio Tech School mentors"
       },
       "reverse": true
     },
@@ -250,7 +248,7 @@
       "eyebrow": "Outcomes",
       "heading": "What you will achieve in the DevOps internship",
       "intro": "Each DevOps internship outcome is something you build and keep in your GitHub account, so employers can see it for themselves.",
-      "columns": 2,
+      "columns": 4,
       "items": [
         {
           "title": "An end-to-end CI/CD pipeline",
@@ -288,8 +286,8 @@
         "One incident write-up: what broke, how you found it, what you changed"
       ],
       "image": {
-        "src": "ts:DeOps/Before you start.png",
-        "alt": "Student getting ready for the DevOps internship"
+        "src": "ts:Backend/Before you start.png",
+        "alt": "Student getting ready to start the DevOps internship at Icanio Tech School"
       }
     },
     {

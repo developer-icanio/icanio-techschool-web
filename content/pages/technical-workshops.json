@@ -79,8 +79,7 @@
       ],
       "image": {
         "src": "ts:Workshop/Overview.png",
-        "alt": "Students around a laptop in hands-on technical workshops",
-        "portrait": "ts:Workshop/Overview - P.png"
+        "alt": "Students around a laptop in hands-on technical workshops"
       },
       "link": {
         "label": "Compare internship tracks",
@@ -93,7 +92,7 @@
       "eyebrow": "What we bring",
       "heading": "What our technical workshops bring to students",
       "intro": "Every workshop is designed to leave students with practical skills, a clearer view of a domain and a plan for what to learn next.",
-      "columns": 2,
+      "columns": 4,
       "items": [
         {
           "title": "Short-term practical exposure",
@@ -216,8 +215,7 @@
       ],
       "image": {
         "src": "ts:Workshop/Choosing a domain.png",
-        "alt": "Students listening while choosing technical workshops for their batch",
-        "portrait": "ts:Workshop/Choosing a domain- P.png"
+        "alt": "Students listening while choosing technical workshops for their batch"
       }
     },
     {
@@ -236,8 +234,7 @@
       ],
       "image": {
         "src": "ts:Workshop/Before the day.png",
-        "alt": "Trainer guiding students before technical workshops begin",
-        "portrait": "ts:Workshop/Before the day - P.png"
+        "alt": "Trainer guiding students before technical workshops begin"
       }
     },
     {

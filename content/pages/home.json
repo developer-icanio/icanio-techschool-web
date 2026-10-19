@@ -367,7 +367,9 @@
       "image": {
         "src": "ourInternshipProgramImg.png",
         "alt": "Intern completing a project in tech internships at Icanio Tech School"
-      }
+      },
+      "reverse": true,
+      "id": "outcomes"
     },
     {
       "type": "partners",
@@ -509,7 +511,8 @@
       "type": "testimonials",
       "eyebrow": "In their words",
       "heading": "What our interns say about us",
-      "intro": "Real experiences from learners who started their careers through tech internships at Icanio. Press play to hear them."
+      "intro": "Real experiences from learners who started their careers through tech internships at Icanio. Press play to hear them.",
+      "id": "testimonials"
     },
     {
       "type": "stories",
@@ -533,7 +536,9 @@
       "link": {
         "label": "About Icanio Tech School",
         "href": "/about-icanio-tech-school"
-      }
+      },
+      "reverse": true,
+      "id": "mission"
     },
     {
       "type": "links",

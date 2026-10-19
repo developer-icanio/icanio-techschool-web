@@ -80,7 +80,6 @@
       ],
       "image": {
         "src": "ts:Finance/The role.png",
-        "portrait": "ts:Finance/The role - P.png",
         "alt": "Professional at work in the finance role the internship prepares you for"
       },
       "link": {
@@ -217,8 +216,7 @@
       ],
       "image": {
         "src": "ts:Finance/why icanio.png",
-        "alt": "Interns learning finance with Icanio Tech School mentors",
-        "portrait": "ts:Finance/why icanio - P.png"
+        "alt": "Interns learning finance with Icanio Tech School mentors"
       },
       "reverse": true
     },
@@ -302,8 +300,8 @@
         "Keep a month of financial records organised and audit ready"
       ],
       "image": {
-        "src": "ts:Finance/Before you start.png",
-        "alt": "Student getting ready for the finance internship"
+        "src": "ts:Backend/Before you start.png",
+        "alt": "Student getting ready to start the finance internship at Icanio Tech School"
       }
     },
     {

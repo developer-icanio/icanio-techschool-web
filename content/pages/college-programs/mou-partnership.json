@@ -81,8 +81,7 @@
       ],
       "image": {
         "src": "ts:MoU/What an MoU means.png",
-        "alt": "Industry mentor representing an MoU partnership with Icanio Tech School",
-        "portrait": "ts:MoU/What an MoU means- p.png"
+        "alt": "Industry mentor representing an MoU partnership with Icanio Tech School"
       },
       "link": {
         "label": "See all college programs",
@@ -94,7 +93,7 @@
       "eyebrow": "Benefits",
       "heading": "What each group gains from an MoU partnership",
       "intro": "An MoU partnership is designed to help four groups at once. Here is what each one can expect.",
-      "columns": 2,
+      "columns": 4,
       "items": [
         {
           "title": "Industry collaboration",
@@ -343,8 +342,7 @@
       ],
       "image": {
         "src": "ts:MoU/After the signing.png",
-        "alt": "College and Icanio representatives shaking hands after signing an MoU partnership",
-        "portrait": "ts:MoU/After the signing - P.png"
+        "alt": "College and Icanio representatives shaking hands after signing an MoU partnership"
       }
     },
     {

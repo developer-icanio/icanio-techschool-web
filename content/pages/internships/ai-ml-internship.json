@@ -81,7 +81,6 @@
       ],
       "image": {
         "src": "ts:AI_ML/The role.png",
-        "portrait": "ts:AI_ML/The role- p.png",
         "alt": "Professional at work in the AI and ML role the internship prepares you for"
       },
       "link": {
@@ -268,8 +267,7 @@
       ],
       "image": {
         "src": "ts:AI_ML/why icanio.png",
-        "alt": "Interns learning AI and ML with Icanio Tech School mentors",
-        "portrait": "ts:AI_ML/why icanio - p.png"
+        "alt": "Interns learning AI and ML with Icanio Tech School mentors"
       },
       "reverse": true,
       "link": {
@@ -291,8 +289,8 @@
         "Patience with experiments, since most first attempts do not work"
       ],
       "image": {
-        "src": "ts:AI_ML/Before you start.png",
-        "alt": "Student getting ready for the AI and ML internship"
+        "src": "ts:Backend/Before you start.png",
+        "alt": "Student getting ready to start the AI ML internship at Icanio Tech School"
       }
     },
     {

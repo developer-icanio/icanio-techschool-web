@@ -81,7 +81,6 @@
       ],
       "image": {
         "src": "ts:Frontend/The role.png",
-        "portrait": "ts:Frontend/The role - p.png",
         "alt": "Professional at work in the frontend development role the internship prepares you for"
       },
       "link": {
@@ -268,8 +267,7 @@
       ],
       "image": {
         "src": "ts:Frontend/why icanio.png",
-        "alt": "Interns learning frontend development with Icanio Tech School mentors",
-        "portrait": "ts:Frontend/why icanio - p.png"
+        "alt": "Interns learning frontend development with Icanio Tech School mentors"
       },
       "reverse": true,
       "link": {
@@ -291,8 +289,8 @@
         "Willingness to ask questions and accept code review feedback"
       ],
       "image": {
-        "src": "ts:Frontend/Before you start copy.png",
-        "alt": "Student getting ready for the frontend development internship"
+        "src": "ts:Backend/Before you start.png",
+        "alt": "Student getting ready to start the frontend development internship at Icanio Tech School"
       }
     },
     {

@@ -80,7 +80,6 @@
       ],
       "image": {
         "src": "ts:HR/The role.png",
-        "portrait": "ts:HR/The role - p.png",
         "alt": "Professional at work in the HR role the internship prepares you for"
       },
       "link": {
@@ -212,8 +211,7 @@
       ],
       "image": {
         "src": "ts:HR/why icanio.png",
-        "alt": "Interns learning HR with Icanio Tech School mentors",
-        "portrait": "ts:HR/why icanio -p.png"
+        "alt": "Interns learning HR with Icanio Tech School mentors"
       },
       "reverse": true
     },
@@ -297,8 +295,8 @@
         "Present an HR report to a manager in under five minutes"
       ],
       "image": {
-        "src": "ts:HR/Before you start.png",
-        "alt": "Student getting ready for the HR internship"
+        "src": "ts:Backend/Before you start.png",
+        "alt": "Student getting ready to start the HR internship at Icanio Tech School"
       }
     },
     {

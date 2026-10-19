@@ -311,7 +311,7 @@
       "eyebrow": "Why join",
       "heading": "Why join our student development program?",
       "intro": "The student development program is built around outcomes that matter when you face your first interview and your first team.",
-      "columns": 2,
+      "columns": 4,
       "items": [
         {
           "title": "Stronger interview performance",
@@ -341,7 +341,7 @@
       "eyebrow": "Eligibility",
       "heading": "Who is eligible for the student development program?",
       "intro": "The student development program suits anyone who wants to build workplace skills for a career in technology.",
-      "columns": 2,
+      "columns": 4,
       "items": [
         {
           "title": "Final and pre-final year students",

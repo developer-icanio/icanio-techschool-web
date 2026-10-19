@@ -230,8 +230,7 @@
       "image": {
         "src": "ourInternshipProgramImg.png",
         "alt": "Project work planned during a faculty development program on project-based learning"
-      },
-      "reverse": true
+      }
     },
     {
       "type": "table",

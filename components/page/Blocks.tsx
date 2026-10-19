@@ -208,9 +208,10 @@ export function BlockView({ b, email = SITE.email }: { b: Block; email?: string 
       return (
         <Section id={b.id} tone={tone}>
           {head}
-          <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+          {/* Centred rows: a short list (or the last row) sits in the middle, not hard left. */}
+          <ul className="flex flex-wrap justify-center gap-4">
             {b.items.map((t) => (
-              <li key={t.name} className="flex items-center gap-3 rounded-xl border border-line bg-white p-4">
+              <li key={t.name} className="flex w-[calc(50%-8px)] items-center gap-3 rounded-xl border border-line bg-white p-4 sm:w-[calc(33.333%-10.667px)] lg:w-[calc(25%-12px)]">
                 {t.logo ? <Icon name={t.logo} className="h-10 w-10" /> : <span className="grid h-10 w-10 place-items-center rounded-lg bg-soft-2 text-sm font-bold text-navy">{t.name.slice(0, 2)}</span>}
                 <div>
                   <h3 className="text-[15px] font-semibold leading-tight">{t.name}</h3>
@@ -256,7 +257,7 @@ export function BlockView({ b, email = SITE.email }: { b: Block; email?: string 
                 ))}
               </ul>
             </div>
-            {b.image && <Pic img={b.image} className="h-auto w-full rounded-[20px]" />}
+            {b.image && <div className={b.reverse ? "lg:order-first" : ""}><Pic img={b.image} className="h-auto w-full rounded-[20px]" /></div>}
           </div>
         </Section>
       );
@@ -309,7 +310,7 @@ export function BlockView({ b, email = SITE.email }: { b: Block; email?: string 
           <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {testimonials(b.ids).map((t) => (
               <li key={t.name} className="flex flex-col overflow-hidden rounded-2xl border border-line bg-white">
-                <video controls preload="none" poster={thumb(asset(t.photo).src, 640)} className="aspect-[4/5] w-full bg-midnight object-contain" aria-label={`Video testimonial from ${t.name}`}>
+                <video controls preload="none" poster={thumb(asset(t.photo).src, 640)} className="aspect-square w-full bg-midnight object-contain" aria-label={`Video testimonial from ${t.name}`}>
                   <source src={asset(t.video).src} type="video/mp4" />
                 </video>
                 <figure className="flex flex-1 flex-col p-5">

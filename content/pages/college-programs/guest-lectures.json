@@ -81,8 +81,7 @@
       ],
       "image": {
         "src": "ts:Guest/What you will explore.png",
-        "alt": "Students working on computers during guest lectures by industry engineers",
-        "portrait": "ts:Guest/What you will explore - P.png"
+        "alt": "Students working on computers during guest lectures by industry engineers"
       },
       "link": {
         "label": "Meet our industry trainers",
@@ -294,8 +293,7 @@
       ],
       "image": {
         "src": "ts:Guest/Before the day.png",
-        "alt": "Students taking notes before guest lectures",
-        "portrait": "ts:Guest/Before the day - P.png"
+        "alt": "Students taking notes before guest lectures"
       }
     },
     {

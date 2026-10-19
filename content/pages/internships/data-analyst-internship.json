@@ -80,7 +80,6 @@
       ],
       "image": {
         "src": "ts:data/The role.png",
-        "portrait": "ts:data/The role-1.png",
         "alt": "Professional at work in the data analyst role the internship prepares you for"
       },
       "link": {
@@ -267,8 +266,7 @@
       ],
       "image": {
         "src": "ts:data/why icanio.png",
-        "alt": "Interns learning data analyst with Icanio Tech School mentors",
-        "portrait": "ts:data/why icanio-1.png"
+        "alt": "Interns learning data analyst with Icanio Tech School mentors"
       },
       "reverse": true
     },
@@ -322,8 +320,8 @@
         "Show a portfolio of four reports and a capstone project"
       ],
       "image": {
-        "src": "ts:data/Before you start.png",
-        "alt": "Student getting ready for the data analyst internship"
+        "src": "ts:Backend/Before you start.png",
+        "alt": "Student getting ready to start the data analyst internship at Icanio Tech School"
       }
     },
     {

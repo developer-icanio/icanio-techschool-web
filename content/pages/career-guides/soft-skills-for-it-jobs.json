@@ -282,14 +282,15 @@
       "image": {
         "src": "ourInternshipProgramImg.png",
         "alt": "Student checking progress on soft skills for IT jobs before an internship"
-      }
+      },
+      "reverse": true
     },
     {
       "type": "cards",
       "eyebrow": "Avoid these",
       "heading": "Mistakes freshers make with soft skills for IT jobs",
       "intro": "Our mentors see these habits in many new interns. Each one is easy to fix once you notice it.",
-      "columns": 2,
+      "columns": 4,
       "items": [
         {
           "title": "Staying stuck in silence",

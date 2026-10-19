@@ -82,7 +82,6 @@
       ],
       "image": {
         "src": "ts:UX_UI/The role.png",
-        "portrait": "ts:UX_UI/The role - p.png",
         "alt": "Professional at work in the UI/UX design role the internship prepares you for"
       },
       "link": {
@@ -243,8 +242,7 @@
       ],
       "image": {
         "src": "ts:UX_UI/why icanio.png",
-        "alt": "Interns learning UI/UX design with Icanio Tech School mentors",
-        "portrait": "ts:UX_UI/why icanio- p.png"
+        "alt": "Interns learning UI/UX design with Icanio Tech School mentors"
       },
       "reverse": true
     },
@@ -253,7 +251,7 @@
       "eyebrow": "Outcomes",
       "heading": "What you will achieve in this UX design internship",
       "intro": "You finish the UI/UX design internship with work you can show, not only a certificate. Each outcome below maps to real deliverables your mentor signs off.",
-      "columns": 2,
+      "columns": 4,
       "items": [
         {
           "title": "3 portfolio case studies",
@@ -291,8 +289,8 @@
         "A short reflection on what you would do differently next time"
       ],
       "image": {
-        "src": "ts:UX_UI/Before you start.png",
-        "alt": "Student getting ready for the UI/UX design internship"
+        "src": "ts:Backend/Before you start.png",
+        "alt": "Student getting ready to start the UI/UX design internship at Icanio Tech School"
       }
     },
     {

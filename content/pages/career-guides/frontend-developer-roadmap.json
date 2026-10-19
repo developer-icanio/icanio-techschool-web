@@ -271,7 +271,7 @@
       "eyebrow": "Avoid these",
       "heading": "Mistakes that slow down your frontend developer roadmap",
       "intro": "These are the patterns our mentors see most often in students who feel stuck.",
-      "columns": 2,
+      "columns": 4,
       "items": [
         {
           "title": "Tutorial loops without building",
@@ -304,7 +304,6 @@
         "You work with a practising Icanio engineer as your 1:1 mentor. Your code is reviewed to internal Icanio standards, and you build real projects: a responsive portfolio site, a dynamic dashboard and a capstone product UI deployed to the web. You finish with a certificate and a GitHub portfolio.",
         "Icanio Technologies is a Tamil Nadu based AI company trusted by 100+ businesses. You can choose a duration from 15 days to six months, offline, online, part time or hybrid."
       ],
-      "reverse": true,
       "image": {
         "src": "ourInternshipProgramImg.png",
         "alt": "Frontend intern at Icanio Tech School building a capstone project with a mentor"

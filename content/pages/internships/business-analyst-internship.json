@@ -82,7 +82,6 @@
       ],
       "image": {
         "src": "ts:Business analyst/The role.png",
-        "portrait": "ts:Business analyst/The role - P.png",
         "alt": "Professional at work in the business analyst role the internship prepares you for"
       },
       "link": {
@@ -238,8 +237,7 @@
       ],
       "image": {
         "src": "ts:Business analyst/why icanio.png",
-        "alt": "Interns learning business analyst with Icanio Tech School mentors",
-        "portrait": "ts:Business analyst/why icanio - P.png"
+        "alt": "Interns learning business analyst with Icanio Tech School mentors"
       },
       "reverse": true
     },
@@ -248,7 +246,7 @@
       "eyebrow": "Outcomes",
       "heading": "What you will achieve in the business analyst internship",
       "intro": "You finish the business analyst internship with evidence of real analysis work, not only a certificate. Each outcome below maps to deliverables your mentor signs off.",
-      "columns": 2,
+      "columns": 4,
       "items": [
         {
           "title": "3 end-to-end BA case studies",
@@ -286,8 +284,8 @@
         "A UAT plan and a short note on risks and next steps"
       ],
       "image": {
-        "src": "ts:Business analyst/Before you start.png",
-        "alt": "Student getting ready for the business analyst internship"
+        "src": "ts:Backend/Before you start.png",
+        "alt": "Student getting ready to start the business analyst internship at Icanio Tech School"
       }
     },
     {

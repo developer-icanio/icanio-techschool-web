@@ -82,7 +82,6 @@
       ],
       "image": {
         "src": "ts:Project manager/The role.png",
-        "portrait": "ts:Project manager/The role - p.png",
         "alt": "Professional at work in the project management role the internship prepares you for"
       },
       "link": {
@@ -229,8 +228,7 @@
       ],
       "image": {
         "src": "ts:Project manager/why icanio.png",
-        "alt": "Interns learning project management with Icanio Tech School mentors",
-        "portrait": "ts:Project manager/why icanio - p.png"
+        "alt": "Interns learning project management with Icanio Tech School mentors"
       },
       "reverse": true
     },
@@ -239,7 +237,7 @@
       "eyebrow": "Outcomes",
       "heading": "What you will achieve in the project management internship",
       "intro": "You finish the project management internship with a real project file and the confidence to run a team meeting, not only a certificate.",
-      "columns": 2,
+      "columns": 4,
       "items": [
         {
           "title": "A complete project plan",
@@ -277,8 +275,8 @@
         "Weekly status reports and a closure note with lessons learned"
       ],
       "image": {
-        "src": "ts:Project manager/Before you start.png",
-        "alt": "Student getting ready for the project management internship"
+        "src": "ts:Backend/Before you start.png",
+        "alt": "Student getting ready to start the project management internship at Icanio Tech School"
       }
     },
     {

@@ -37,7 +37,8 @@
       "Call within one working day",
       "15 tracks to choose from",
       "Start dates every month"
-    ]
+    ],
+    "imageLeft": true
   },
   "facts": [
     {
@@ -77,7 +78,8 @@
       "image": {
         "src": "ourInternshipProgramImg.png",
         "alt": "Intern checking eligibility before they apply for internship at Icanio"
-      }
+      },
+      "reverse": true
     },
     {
       "type": "form",
@@ -97,7 +99,7 @@
       "eyebrow": "Eligibility",
       "heading": "Who can apply for internship tracks at Icanio",
       "intro": "Our internships are open to a wide range of learners. What matters most is your willingness to learn and to do the work.",
-      "columns": 2,
+      "columns": 4,
       "items": [
         {
           "title": "College students in any year",

@@ -81,7 +81,6 @@
       ],
       "image": {
         "src": "ts:Full Stack/The role.png",
-        "portrait": "ts:Full Stack/The role -p.png",
         "alt": "Professional at work in the full stack development role the internship prepares you for"
       },
       "link": {
@@ -268,8 +267,7 @@
       ],
       "image": {
         "src": "ts:Full Stack/why icanio.png",
-        "alt": "Interns learning full stack development with Icanio Tech School mentors",
-        "portrait": "ts:Full Stack/why icanio - p.png"
+        "alt": "Interns learning full stack development with Icanio Tech School mentors"
       },
       "reverse": true,
       "link": {
@@ -291,8 +289,8 @@
         "Comfort with reading error messages and searching documentation"
       ],
       "image": {
-        "src": "ts:Full Stack/Before you start.png",
-        "alt": "Student getting ready for the full stack development internship"
+        "src": "ts:Backend/Before you start.png",
+        "alt": "Student getting ready to start the full stack development internship at Icanio Tech School"
       }
     },
     {

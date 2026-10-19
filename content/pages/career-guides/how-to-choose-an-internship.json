@@ -220,7 +220,7 @@
       "eyebrow": "Red flags",
       "heading": "What are the red flags when you choose an internship?",
       "intro": "Walk away, or ask hard questions, if you see any of these signs.",
-      "columns": 2,
+      "columns": 4,
       "items": [
         {
           "title": "No named mentor or reviewer",
@@ -322,7 +322,6 @@
         "Every intern gets 1:1 mentorship from a practising Icanio engineer with 3+ years of client delivery experience. Trainers are background verified by Icanio HR. Technical tracks run in four learning phases, work is reviewed to internal Icanio standards and you finish with a certificate and a portfolio.",
         "You pick a duration from 15 days to six months, offline, online, part time or hybrid, in weekday or weekend batches. Top performers are referred to the Icanio talent team."
       ],
-      "reverse": true,
       "image": {
         "src": "ourInternshipProgramImg.png",
         "alt": "Intern working on a mentored project at Icanio Tech School"

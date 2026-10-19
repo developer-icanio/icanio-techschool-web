@@ -81,7 +81,6 @@
       ],
       "image": {
         "src": "ts:Backend/The role.png",
-        "portrait": "ts:Backend/The role - P.png",
         "alt": "Professional at work in the backend development role the internship prepares you for"
       },
       "link": {
@@ -268,8 +267,7 @@
       ],
       "image": {
         "src": "ts:Backend/why icanio.png",
-        "alt": "Interns learning backend development with Icanio Tech School mentors",
-        "portrait": "ts:Backend/why icanio - p.png"
+        "alt": "Interns learning backend development with Icanio Tech School mentors"
       },
       "reverse": true,
       "link": {

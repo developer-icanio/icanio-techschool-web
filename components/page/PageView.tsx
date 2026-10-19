@@ -18,16 +18,16 @@ function Hero({ p }: { p: PageContent }) {
   const h = p.hero;
   const img = asset(h.image.src);
   const home = p.kind === "home";
-  // Designed banners (very wide, artwork on the right) fill the whole hero.
+  // Designed banners (very wide, artwork on the right): their artwork half
+  // is shown as a card, on the same bright brand blue as every other hero.
   const banner = Boolean(img.w && img.h && img.w / img.h >= 2.2);
-  // Text colour follows the background: banners carry a measured tone.
-  const dark = banner ? img.tone !== "light" : !home;
+  const dark = !home;
   const crumbs = breadcrumbsOf(p);
   // Headline: wrap "Icanio" in the live site's gradient on light heroes.
   const title = h.title.split(/(Icanio)/).map((part, i) => (part === "Icanio" ? <span key={i} className={dark ? "" : "text-gradient"}>{part}</span> : part));
 
   const text = (
-    <div className={banner ? "lg:max-w-[46%]" : ""}>
+    <div>
       {!home && (
         <nav aria-label="Breadcrumb" className="mb-5">
           <ol className={`flex flex-wrap items-center gap-1.5 text-sm ${dark ? "text-white/85" : "text-muted"}`}>
@@ -41,7 +41,7 @@ function Hero({ p }: { p: PageContent }) {
         </nav>
       )}
       <p className={`text-sm font-semibold uppercase tracking-wider sm:text-base ${dark ? "text-white/90" : "text-navy"}`}>{h.eyebrow}</p>
-      <h1 className={`mt-3 text-[34px] font-bold leading-[1.12] sm:text-5xl ${banner ? "lg:text-[40px] xl:text-5xl" : ""} ${dark ? "!text-white" : "!text-ink"}`}>{title}</h1>
+      <h1 className={`mt-3 text-[34px] font-bold leading-[1.12] sm:text-5xl ${dark ? "!text-white" : "!text-ink"}`}>{title}</h1>
       <p className={`mt-5 max-w-2xl text-lg leading-relaxed sm:text-xl ${dark ? "text-white/90" : "text-[#0b0b0b]"}`}>{h.subtitle}</p>
       <div className="mt-8 flex flex-wrap gap-3">
         <Link href={h.primary.href} className={`btn ${dark ? "btn-white" : "btn-primary"}`}>{h.primary.label}</Link>
@@ -60,27 +60,27 @@ function Hero({ p }: { p: PageContent }) {
     </div>
   );
 
-  if (banner)
+  if (banner) {
+    // Prefer the cut-out artwork (its own white or dark canvas removed), which
+    // sits straight on the blue; otherwise frame the artwork as a card.
+    const clear = img.artClear;
+    const art = clear ?? img.art ?? { src: img.src, w: img.w!, h: img.h! };
     return (
-      <section className={`relative overflow-hidden ${dark ? "text-white" : ""}`} style={{ backgroundColor: img.bg ?? (dark ? "#0b3f80" : "#f3f7fa") }}>
-        {/* Desktop: the banner's artwork fills the right side and fades into its
-            own edge colour, so the heading never sits on top of the artwork. */}
-        <div className="absolute inset-y-0 right-0 hidden w-1/2 lg:block" style={{ maskImage: "linear-gradient(90deg, transparent 0%, #000 18%)", WebkitMaskImage: "linear-gradient(90deg, transparent 0%, #000 18%)" }}>
-          <Image src={img.art?.src ?? img.src} alt={h.image.alt} fill priority sizes="50vw" quality={75} className="object-cover object-[30%_50%]" />
-        </div>
-        <div className="shell relative flex items-center pb-12 pt-10 lg:min-h-[clamp(440px,32vw,620px)] lg:pb-16 lg:pt-12">{text}</div>
-        {/* Phones and tablets: the artwork side of the banner under the text. */}
-        <div className="relative aspect-[16/10] w-full lg:hidden">
-          <Image src={img.art?.src ?? img.src} alt="" aria-hidden fill sizes="100vw" quality={70} className="object-cover object-center" />
+      <section className="hero-banner text-white">
+        <div className="shell grid items-center gap-10 pb-14 pt-10 lg:grid-cols-[1.1fr_1fr] lg:gap-14 lg:pb-20 lg:pt-14">
+          {text}
+          {/* The whole artwork, never cropped. */}
+          <Image src={art.src} alt={h.image.alt} width={art.w} height={art.h} priority sizes="(min-width: 1024px) 45vw, 92vw" quality={75} className={clear ? "mx-auto h-auto max-h-[460px] w-auto max-w-full object-contain drop-shadow-xl" : "h-auto w-full rounded-[20px] shadow-xl shadow-slate-900/20 ring-1 ring-white/30"} />
         </div>
       </section>
     );
+  }
 
   return (
     <section className={home ? "relative overflow-hidden bg-[linear-gradient(180deg,#fff_0%,#f5fbff_100%)]" : "hero-banner text-white"}>
-      <div className="shell grid items-center gap-10 pb-14 pt-10 lg:grid-cols-[1.1fr_1fr] lg:gap-14 lg:pb-20 lg:pt-14">
+      <div className={`shell grid items-center gap-10 pb-14 pt-10 lg:gap-14 lg:pb-20 lg:pt-14 ${h.imageLeft ? "lg:grid-cols-[1fr_1.1fr]" : "lg:grid-cols-[1.1fr_1fr]"}`}>
         {text}
-        <Image src={img.src} alt={h.image.alt} width={img.w ?? 1200} height={img.h ?? 900} priority sizes="(min-width: 1024px) 45vw, (min-width: 640px) 576px, 88vw" quality={70} className="mx-auto h-auto w-full max-w-xl" style={img.w ? { maxWidth: Math.min(img.w, 576) } : undefined} />
+        <Image src={img.src} alt={h.image.alt} width={img.w ?? 1200} height={img.h ?? 900} priority sizes="(min-width: 1024px) 45vw, (min-width: 640px) 576px, 88vw" quality={70} className={`mx-auto h-auto w-full max-w-xl ${h.imageLeft ? "lg:order-first" : ""}`} style={img.w ? { maxWidth: Math.min(img.w, 576) } : undefined} />
       </div>
     </section>
   );

@@ -298,7 +298,8 @@
       "image": {
         "src": "ourInternshipProgramImg.png",
         "alt": "Placement officer planning college programs with Icanio Tech School"
-      }
+      },
+      "reverse": true
     },
     {
       "type": "gallery",

@@ -80,7 +80,6 @@
       ],
       "image": {
         "src": "ts:Sales/The role.png",
-        "portrait": "ts:Sales/The role - P.png",
         "alt": "Professional at work in the sales role the internship prepares you for"
       },
       "link": {
@@ -227,8 +226,7 @@
       ],
       "image": {
         "src": "ts:Sales/why icanio.png",
-        "alt": "Interns learning sales with Icanio Tech School mentors",
-        "portrait": "ts:Sales/why icanio - P.png"
+        "alt": "Interns learning sales with Icanio Tech School mentors"
       },
       "reverse": true
     },

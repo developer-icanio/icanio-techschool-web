@@ -114,7 +114,7 @@
       "eyebrow": "Our method",
       "heading": "How every Icanio Tech School program is structured",
       "intro": "Whether you join a 15-day internship or a semester-long value added course, the structure has four pillars. Each one mirrors how real software teams work and hire.",
-      "columns": 2,
+      "columns": 4,
       "items": [
         {
           "title": "Expert-Led Delivery",
@@ -426,7 +426,9 @@
       "image": {
         "src": "MissionVisionImg.png",
         "alt": "Icanio Tech School mission and vision for industry-ready students"
-      }
+      },
+      "reverse": true,
+      "id": "mission"
     },
     {
       "type": "testimonials",
