@@ -379,6 +379,23 @@
       "intro": "Short video stories from interns across our tracks about real projects, mentor guidance and the confidence to start a tech career."
     },
     {
+      "type": "reviews",
+      "id": "reviews",
+      "tone": "soft",
+      "eyebrow": "In their words",
+      "heading": "What a DevOps intern says about us",
+      "intro": "Written reviews from interns who completed the DevOps internship at Icanio Tech School, in their own words.",
+      "items": [
+        {
+          "name": "Sajina",
+          "college": "Ramco Institute of Technology, Rajapalayam",
+          "track": "DevOps Intern",
+          "photo": "people:22-Sajina-J.jpeg",
+          "quote": "I'm Sajina J, a second-year CSBS student, and during my internship I actively took part in training sessions, completed assigned tasks, practised the concepts taught, and collaborated with my team as needed. The most valuable lesson was the importance of automation, collaboration, and continuous learning in the DevOps field. Understanding and troubleshooting new DevOps tools and workflows was challenging at first, requiring extra time and research, but regular practice, documentation, and guidance from mentors helped me work through each problem."
+        }
+      ]
+    },
+    {
       "type": "links",
       "tone": "soft",
       "eyebrow": "Related tracks",

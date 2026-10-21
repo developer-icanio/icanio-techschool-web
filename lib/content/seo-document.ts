@@ -50,6 +50,8 @@ export function imagesOf(p: PageContent) {
     if (b.type === "gallery") b.items.forEach((g) => add(g.src, g.alt));
     if (b.type === "stories") storiesFor(b.track, b.limit, b.ids).forEach((s) => add(s.photo, `${s.name}, ${s.track} intern at ${SITE.name}`));
     if (b.type === "testimonials") testimonials(b.ids).forEach((t) => add(t.photo, `${t.name}, ${t.role} at ${SITE.name}`));
+    if (b.type === "reviews") b.items.forEach((r) => r.photo && add(r.photo, `${r.name}, ${r.track} at ${SITE.name}`));
+    if (b.type === "experts") b.items.forEach((e) => e.photo && add(e.photo, `${e.name}, ${e.role} at ${SITE.parent.name}`));
   }
   return list;
 }
@@ -225,6 +227,21 @@ function blockMarkdown(b: Block, push: (...xs: (string | undefined | false)[]) =
       break;
     case "form":
       if (b.points) list(b.points);
+      break;
+    case "batches":
+      list(b.items.map((x) => `[${x.title}](${x.href}): every week, ${b.time}, ${b.modes.join(", ")}`));
+      break;
+    case "reviews":
+      b.items.forEach((r) => {
+        push(`> ${md(r.quote)}`, `${r.name}, ${r.track}, ${r.college}`);
+        if (r.photo) img(r.photo, `${r.name}, ${r.track} at ${SITE.name}`);
+      });
+      break;
+    case "experts":
+      b.items.forEach((e) => {
+        push(`### ${e.name}`, e.role, md(e.bio));
+        if (e.photo) img(e.photo, `${e.name}, ${e.role} at ${SITE.parent.name}`);
+      });
       break;
   }
 }

@@ -2,9 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { NAV } from "@/lib/nav";
 import { SITE } from "@/lib/site";
+import DesktopNav from "./DesktopNav";
 import MobileMenu from "./MobileMenu";
 
-// Desktop: hover/focus dropdowns in pure CSS. Mobile: <MobileMenu/>.
+// Desktop: hover/focus dropdowns in CSS; <DesktopNav/> closes them after a click. Mobile: <MobileMenu/>.
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-line/70 bg-white/95 backdrop-blur">
@@ -13,20 +14,20 @@ export default function Header() {
           <Image src={SITE.logo} alt={`${SITE.name} logo`} width={132} height={51} priority />
         </Link>
 
-        <nav aria-label="Main" className="hidden lg:block">
+        <DesktopNav>
           <ul className="flex items-center gap-1">
             {NAV.map((g) => (
-              <li key={g.label} className="group relative">
+              <li key={g.label} data-nav-item className="group relative">
                 <Link
                   href={g.href}
                   className="flex items-center gap-1 whitespace-nowrap rounded px-2.5 py-2 text-[15px] font-medium text-heading hover:text-navy xl:px-3"
                 >
                   {g.label}
-                  <svg aria-hidden width="12" height="12" viewBox="0 0 12 12" className="mt-0.5 transition group-hover:rotate-180 group-focus-within:rotate-180">
+                  <svg aria-hidden width="12" height="12" viewBox="0 0 12 12" className="mt-0.5 transition group-hover:rotate-180 group-focus-within:rotate-180 group-data-closed:!rotate-0">
                     <path d="M3 4.5 6 7.5 9 4.5" fill="none" stroke="currentColor" strokeWidth="1.5" />
                   </svg>
                 </Link>
-                <div className="invisible absolute left-1/2 top-full z-50 -translate-x-1/2 pt-3 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+                <div className="invisible absolute left-1/2 top-full z-50 -translate-x-1/2 pt-3 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100 group-data-closed:!invisible group-data-closed:!opacity-0">
                   <div className={`rounded-2xl border border-line bg-white p-5 shadow-xl shadow-slate-900/10 ${g.columns.length > 1 ? "w-[560px]" : "w-[320px]"}`}>
                     <div className={`grid gap-6 ${g.columns.length > 1 ? "grid-cols-2" : ""}`}>
                       {g.columns.map((c) => (
@@ -55,7 +56,7 @@ export default function Header() {
               </li>
             ))}
           </ul>
-        </nav>
+        </DesktopNav>
 
         <div className="flex items-center gap-2">
           <Link href="/contact" className="btn btn-outline hidden !px-4 !py-2 sm:inline-flex lg:hidden xl:inline-flex">

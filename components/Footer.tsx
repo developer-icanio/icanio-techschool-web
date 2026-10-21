@@ -40,11 +40,11 @@ export default function Footer() {
   return (
     <footer>
       <section aria-labelledby="footer-cta" className="bg-[linear-gradient(90deg,#00264c_0%,#004589_100%)] text-white">
-        <div className="shell grid gap-8 py-12 lg:py-14 xl:grid-cols-[0.9fr_1.6fr] xl:items-center xl:gap-14">
+        <div className="shell grid gap-10 py-12 lg:grid-cols-[1fr_minmax(0,560px)] lg:items-center lg:gap-16 lg:py-16">
           <div>
             <h2 id="footer-cta" className="text-[26px] font-bold leading-tight !text-white sm:text-3xl">Not sure which program fits you?</h2>
             <p className="mt-3 text-lg text-white/85">Leave your number. A counsellor calls you back within one working day, free of charge.</p>
-            <ul className="mt-6 grid grid-cols-2 gap-x-6 gap-y-3 sm:grid-cols-4 xl:grid-cols-2 2xl:grid-cols-4">
+            <ul className="mt-6 grid grid-cols-2 gap-x-6 gap-y-3 sm:grid-cols-4 lg:grid-cols-2">
               {TRUST.map((t) => (
                 <li key={t.label}>
                   <span className="block text-2xl font-semibold">{t.value}</span>

@@ -360,6 +360,23 @@
       "intro": "Interns from every track describe the same thing: real tasks, steady feedback and growing confidence. The sales internship follows that same model. Press play to hear them."
     },
     {
+      "type": "reviews",
+      "id": "reviews",
+      "tone": "soft",
+      "eyebrow": "In their words",
+      "heading": "What a Sales intern says about us",
+      "intro": "Written reviews from interns who completed the sales internship at Icanio Tech School, in their own words.",
+      "items": [
+        {
+          "name": "Fathim Nisha",
+          "college": "Kongu Engineering College",
+          "track": "Sales Intern",
+          "photo": "people:5-fathimnisha2025.jpg",
+          "quote": "I'm Fathim Nisha S, pursuing my MCA, and I interned with the Sales Support and Lead Engagement team at Icanio Technologies, finding potential clients, collecting and organising lead data, and sending and tracking follow-up messages. The most valuable lesson was how essential clear communication and teamwork are in a professional setting, along with the importance of planning, time management, and coordination for team efficiency."
+        }
+      ]
+    },
+    {
       "type": "stories",
       "eyebrow": "Recent completions",
       "heading": "Students who completed internships with us",

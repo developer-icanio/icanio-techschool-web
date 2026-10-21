@@ -382,6 +382,30 @@
       "intro": "Short video stories from interns, including a UI/UX design intern, about real projects and mentor guidance."
     },
     {
+      "type": "reviews",
+      "id": "reviews",
+      "tone": "soft",
+      "eyebrow": "In their words",
+      "heading": "What UI/UX interns say about us",
+      "intro": "Written reviews from interns who completed the UX design internship at Icanio Tech School, in their own words.",
+      "items": [
+        {
+          "name": "Afreen",
+          "college": "Nellai College of Engineering",
+          "track": "UI/UX Intern",
+          "photo": "people:1-Afreenshaw.jpg",
+          "quote": "I'm Afreen, a Computer Science undergraduate who worked as a UI/UX Design Intern, designing user-friendly mobile app interfaces in Figma, from user research and wireframes to high- and low-fidelity prototypes, colour palettes, and typography. The biggest lesson I took away was that good design isn't just about looking attractive; it's about understanding user needs and refining work through continuous feedback and iteration."
+        },
+        {
+          "name": "Ridley Paul Roshan",
+          "college": "Karunya Institute of Technology and Science",
+          "track": "UI/UX Intern",
+          "photo": "people:19-R-RIDLEY-PAUL-ROSHAN.jpg",
+          "quote": "Hi, I'm Ridley Paul Roshan, and during my UI/UX internship I worked on designing user-friendly, visually appealing interfaces, conducting user research, building wireframes and prototypes in Figma, designing reusable UI components, and refining the user experience based on feedback. The most valuable lesson was that good design is about solving real user problems, not just looking attractive, and that the design process is inherently iterative, feedback, revision, and testing are all essential to a successful outcome."
+        }
+      ]
+    },
+    {
       "type": "links",
       "tone": "soft",
       "eyebrow": "Related tracks",

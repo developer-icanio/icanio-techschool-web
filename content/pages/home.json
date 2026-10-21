@@ -229,49 +229,43 @@
       ]
     },
     {
-      "type": "cards",
+      "type": "batches",
       "id": "batches",
-      "tone": "white",
+      "tone": "soft",
       "eyebrow": "Find your next batch",
       "heading": "Upcoming batches for tech internships",
-      "intro": "Explore upcoming programs designed to prepare you for real-world careers in technology and business. Every batch runs from 9am to 6pm, offline, online or part time. Ask our team for the next start date in your track.",
-      "columns": 3,
+      "intro": "Explore upcoming programs designed to prepare you for real-world careers in technology and business. New batches of our tech internships start every week, offline, online or part time.",
+      "weekday": 2,
+      "time": "9am to 6pm",
+      "modes": [
+        "Offline",
+        "Online",
+        "Part time"
+      ],
       "items": [
         {
           "title": "Frontend Development",
-          "body": "Frontend Development batch, 9am to 6pm, with a 1:1 mentor and a live project. Apply now for this internship.",
-          "href": "/internships/frontend-development-internship",
-          "meta": "Offline · Online · Part time"
+          "href": "/internships/frontend-development-internship"
         },
         {
           "title": "Backend Development",
-          "body": "Backend Development batch, 9am to 6pm, with a 1:1 mentor and a live project. Apply now for this internship.",
-          "href": "/internships/backend-development-internship",
-          "meta": "Offline · Online · Part time"
+          "href": "/internships/backend-development-internship"
         },
         {
           "title": "Software Testing",
-          "body": "Software Testing batch, 9am to 6pm, with a 1:1 mentor and a live project. Apply now for this internship.",
-          "href": "/internships/software-testing-internship",
-          "meta": "Offline · Online · Part time"
+          "href": "/internships/software-testing-internship"
         },
         {
           "title": "AI & ML",
-          "body": "AI & ML batch, 9am to 6pm, with a 1:1 mentor and a live project. Apply now for this internship.",
-          "href": "/internships/ai-ml-internship",
-          "meta": "Offline · Online · Part time"
+          "href": "/internships/ai-ml-internship"
         },
         {
           "title": "Mobile App Development",
-          "body": "Mobile App Development batch, 9am to 6pm, with a 1:1 mentor and a live project. Apply now for this internship.",
-          "href": "/internships/flutter-developer-internship",
-          "meta": "Offline · Online · Part time"
+          "href": "/internships/flutter-developer-internship"
         },
         {
           "title": "Full Stack Development",
-          "body": "Full Stack Development batch, 9am to 6pm, with a 1:1 mentor and a live project. Apply now for this internship.",
-          "href": "/internships/full-stack-development-internship",
-          "meta": "Offline · Online · Part time"
+          "href": "/internships/full-stack-development-internship"
         }
       ]
     },
@@ -513,6 +507,58 @@
       "heading": "What our interns say about us",
       "intro": "Real experiences from learners who started their careers through tech internships at Icanio. Press play to hear them.",
       "id": "testimonials"
+    },
+    {
+      "type": "reviews",
+      "id": "reviews",
+      "tone": "soft",
+      "eyebrow": "In their words",
+      "heading": "What People Say About Us",
+      "intro": "Real experiences from learners who transformed their careers with tech internships at Icanio. More reviews from our tech internships appear on each internship page and on our student success stories page.",
+      "items": [
+        {
+          "name": "Kevin Abishek",
+          "college": "St. Joseph's College of Engineering",
+          "track": "Python Intern",
+          "photo": "people:3-Kevin-Abishek.jpeg",
+          "quote": "I'm Kevin Abishek, a first-year B.E. Computer Science student who completed a one-week Python internship at Icanio Technologies, working on mentor-assigned tasks that sharpened my programming, problem-solving, and debugging skills. The key lesson I learned was to keep going instead of giving up when errors appeared, to analyse the problem, debug carefully, and find the right solution, while also writing clean code and asking for guidance when needed."
+        },
+        {
+          "name": "Siva Prabha",
+          "college": "Ramco Institute of Technology",
+          "track": "Frontend Intern",
+          "photo": "people:4-Siva-Prabha-A.png",
+          "quote": "I'm Siva Prabha A, and I interned as a Frontend Development intern at ICANIO, working with HTML and CSS to build and improve UI components and interactive web page features. The internship taught me that building real projects cements concepts far better than theory alone, alongside the value of problem-solving, teamwork, and asking for guidance. Some concepts, especially around React JS, were difficult at first, but regular practice, learning resources, and my mentor's support helped me work through them."
+        },
+        {
+          "name": "Fathim Nisha",
+          "college": "Kongu Engineering College",
+          "track": "Sales Intern",
+          "photo": "people:5-fathimnisha2025.jpg",
+          "quote": "I'm Fathim Nisha S, pursuing my MCA, and I interned with the Sales Support and Lead Engagement team at Icanio Technologies, finding potential clients, collecting and organising lead data, and sending and tracking follow-up messages. The most valuable lesson was how essential clear communication and teamwork are in a professional setting, along with the importance of planning, time management, and coordination for team efficiency."
+        },
+        {
+          "name": "Afreen",
+          "college": "Nellai College of Engineering",
+          "track": "UI/UX Intern",
+          "photo": "people:1-Afreenshaw.jpg",
+          "quote": "I'm Afreen, a Computer Science undergraduate who worked as a UI/UX Design Intern, designing user-friendly mobile app interfaces in Figma, from user research and wireframes to high- and low-fidelity prototypes, colour palettes, and typography. The biggest lesson I took away was that good design isn't just about looking attractive; it's about understanding user needs and refining work through continuous feedback and iteration."
+        },
+        {
+          "name": "Sriramprakash",
+          "college": "Kalasalingam Academy of Research and Education",
+          "track": "AI/ML Intern",
+          "photo": "people:6-sriramprakash.jpg",
+          "quote": "Hi, I'm Sriramprakash S, an AI/ML Intern at Icanio Technologies, where I worked on data processing, model development across supervised, unsupervised, and NLP approaches, and deployment using Scikit-Learn, TensorFlow, and Flask, while collaborating with mentors through code reviews in an agile team. The most valuable lesson was the power of iterative improvement, early models often underperform, but testing, optimisation, and feedback drive real gains, teaching me patience and adaptability."
+        },
+        {
+          "name": "Vijayalakshmi",
+          "college": "Rani Anna Government College, Tirunelveli",
+          "track": "HR Intern",
+          "photo": "people:9-Viji.jpg",
+          "quote": "Hi, I'm M. Vijayalakshmi, and after completing my Master of Social Work at Rani Anna Government College, I interned as an HR intern, preparing and managing HR materials, creating Google Forms for surveys and maintaining data in Google Sheets and Slides. The internship taught me to adapt quickly in a technology-driven workplace and take ownership of unfamiliar tasks, seeking feedback whenever challenges came up."
+        }
+      ]
     },
     {
       "type": "stories",

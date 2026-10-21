@@ -145,6 +145,72 @@
       "intro": "Some student success stories are best told by the students themselves. Press play to hear interns from finance, web development, UI/UX and frontend."
     },
     {
+      "type": "reviews",
+      "id": "reviews",
+      "tone": "soft",
+      "eyebrow": "In their words",
+      "heading": "What our interns say in their own words",
+      "intro": "Written student success stories from interns in tracks like Python, Java and Digital Twin. More reviews appear on each internship page.",
+      "items": [
+        {
+          "name": "Kevin Abishek",
+          "college": "St. Joseph's College of Engineering",
+          "track": "Python Intern",
+          "photo": "people:3-Kevin-Abishek.jpeg",
+          "quote": "I'm Kevin Abishek, a first-year B.E. Computer Science student who completed a one-week Python internship at Icanio Technologies, working on mentor-assigned tasks that sharpened my programming, problem-solving, and debugging skills. The key lesson I learned was to keep going instead of giving up when errors appeared, to analyse the problem, debug carefully, and find the right solution, while also writing clean code and asking for guidance when needed."
+        },
+        {
+          "name": "Jerusha Glory Angelin",
+          "college": "Francis Xavier Engineering College",
+          "track": "Digital Twin Intern",
+          "photo": "people:10-Jerusha-Glory-Angelin.jpeg",
+          "quote": "I'm Jerusha Glory Angelin, a final-year Computer Science and Engineering student, and I interned in the Digital Twin domain at Icanio Technologies, gaining hands-on experience developing 3D visualisations using NVIDIA Isaac Sim Omniverse. The internship taught me the importance of teamwork and the growing role of AI across every field, and working in Isaac Sim Omniverse was the biggest technical challenge I tackled."
+        },
+        {
+          "name": "Jebinskaran",
+          "college": "Vellore Institute of Technology",
+          "track": "Java Intern",
+          "photo": "people:15-JEBINSKARAN.jpeg",
+          "quote": "I'm currently learning Java fundamentals, variables, loops, arrays, classes, and basic object-oriented programming, and during my internship I assisted with Java-based tasks, writing simple programs, debugging basic code, and understanding how Java is applied in real-world applications, while also getting exposure to IDEs like Eclipse and IntelliJ and best practices for clean, readable code."
+        },
+        {
+          "name": "Sri Varshini",
+          "college": "Anna University Regional Campus, Tirunelveli",
+          "track": "Python Intern",
+          "photo": "people:20-Sri-Varshini.jpg",
+          "quote": "I'm Sri Varshini M, pursuing my Bachelor's in Computer Science and Engineering, and I focused during my internship on Python programming, Data Structures and Algorithms, Git, and GitHub, actively taking part in training sessions, coding exercises, and hands-on activities. The most valuable lesson was the importance of a strong foundation in the basics, since deeply understanding fundamentals makes it far easier to solve problems and apply knowledge in real-world situations."
+        },
+        {
+          "name": "Harsith",
+          "college": "Shiv Nadar University",
+          "track": "SDE Intern",
+          "photo": "people:21-Harsith-N-V.jpeg",
+          "quote": "I'm Harsith NV, a Computer Science student at Shiv Nadar University with a strong foundation in systems architecture and competitive programming, and my internship focused on intensive training, absorbing enterprise development standards and industry best practices to build a rigorous technical foundation. The most valuable lesson was learning to bridge academic concepts with enterprise execution, realising that effective code isn't just about functionality but about creating scalable, maintainable solutions that hold up under rigorous review."
+        },
+        {
+          "name": "Thanga Dharshini",
+          "college": "Kamaraj College of Engineering and Technology",
+          "track": "Python Intern",
+          "photo": "people:25-Thanga-Dharshini.jpg",
+          "quote": "I'm Thanga Dharshini R, and after first learning Android development with Kotlin, I worked during my internship as a backend developer on a project called Pulse, gaining real-world experience with Python and the Django framework by developing and managing backend functionality. The most valuable lesson was learning how to apply technical knowledge to real projects, manage tasks effectively, and work as part of a team to solve problems."
+        },
+        {
+          "name": "Sugi Brighty",
+          "college": "Govindammal Aditanar College for Women",
+          "track": "Java Intern",
+          "photo": "people:27-Sugi.jpg",
+          "quote": "I'm Sugi Brighty, a BCA student, and during this internship I learned Java and worked on practical tasks and projects to build my technical skills. The most valuable lesson was learning how to apply classroom knowledge to real-world tasks, along with the importance of teamwork, communication, and continuous learning. Improving my communication skills alongside grasping new concepts was the main challenge, which I worked through with regular practice and guidance from my mentors."
+        },
+        {
+          "name": "Lakshmi",
+          "college": "Dr. Sivanthi Aditanar College of Engineering",
+          "track": "Java & Spring Boot Intern",
+          "photo": "people:26-Lakshmi.jpeg",
+          "quote": "Hello, I'm Lakshmi from Tirunelveli, pursuing my final year B.Tech in Information Technology at Dr. Sivanthi Aditanar College of Engineering, and during my internship I learned the basics of Java and Spring Boot, Core Java, OOP concepts, Collections, Exception Handling, REST APIs, and foundational Spring Boot concepts. The most valuable lesson was adapting to a new environment and people, building a wider professional network, understanding how developers work on real projects, and recognising that while AI tools are useful for reference and syntax, real skill comes from building projects with your own ability."
+        }
+      ]
+    },
+    {
       "type": "prose",
       "eyebrow": "Behind the results",
       "heading": "What makes these student success stories possible",

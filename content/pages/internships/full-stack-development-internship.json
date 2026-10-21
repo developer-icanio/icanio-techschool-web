@@ -389,6 +389,23 @@
       "intro": "Hear from learners who built real applications with Icanio mentors. Press play to watch."
     },
     {
+      "type": "reviews",
+      "id": "reviews",
+      "tone": "soft",
+      "eyebrow": "In their words",
+      "heading": "What a Full Stack intern says about us",
+      "intro": "Written reviews from interns who completed the full stack development internship at Icanio Tech School, in their own words.",
+      "items": [
+        {
+          "name": "ShenbagaVinotha",
+          "college": "Francis Xavier Engineering College, Vannarpettai",
+          "track": "Full Stack Intern",
+          "photo": "people:18-shenbaga-vinotha.jpeg",
+          "quote": "Hi, I'm A. ShenbagaVinotha, and I worked as a Full Stack Web Development Intern, building web applications using the MERN stack while sharpening my technical and problem-solving skills. The most valuable lesson was learning how to apply technical knowledge to real-world projects while continuously learning and improving. Debugging complex issues was the biggest challenge, which I overcame through research, regular practice, and guidance from my mentor."
+        }
+      ]
+    },
+    {
       "type": "stories",
       "eyebrow": "Recent completions",
       "heading": "Students who completed internships with us",

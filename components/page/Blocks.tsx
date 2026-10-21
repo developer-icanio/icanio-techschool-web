@@ -6,6 +6,9 @@ import type { Block, Img } from "@/lib/content/types";
 import { asset } from "@/lib/images";
 import { SITE } from "@/lib/site";
 import { Section, SectionHead } from "./Section";
+import BatchDate from "./BatchDate";
+import Carousel from "./Carousel";
+import ReadMore from "./ReadMore";
 import { isTrackIcon, TrackIcon } from "./TrackIcon";
 
 function Pic({ img, className = "", sizes = "(min-width: 1024px) 50vw, 100vw", priority }: { img: Img; className?: string; sizes?: string; priority?: boolean }) {
@@ -75,6 +78,8 @@ function galleryFrame(items: Img[]) {
   const tall = items.every((g) => { const a = asset(g.src); return a.w && a.h && a.w / a.h <= 1.02; });
   return tall ? "4 / 5" : "4 / 3";
 }
+
+const initials = (name: string) => name.trim().split(/\s+/).slice(0, 2).map((w) => w[0]).join("").toUpperCase();
 
 /** A resized copy from Next's image optimiser, for places next/image can't go (video posters). */
 const thumb = (src: string, w: 384 | 640 | 828) => `/_next/image?url=${encodeURIComponent(src)}&w=${w}&q=70`;
@@ -379,6 +384,90 @@ export function BlockView({ b, email = SITE.email }: { b: Block; email?: string 
               </li>
             ))}
           </ul>
+        </Section>
+      );
+
+    case "batches":
+      return (
+        <Section id={b.id} tone={tone}>
+          {head}
+          <Carousel label={b.heading} dark={dark}>
+            {b.items.map((x) => (
+              <article key={x.title} className="flex h-full flex-col rounded-2xl border border-line bg-white p-6 shadow-sm shadow-slate-900/5">
+                <ul className="flex flex-wrap gap-2" aria-label="Modes">
+                  {b.modes.map((m) => (
+                    <li key={m} className="flex items-center gap-1.5 rounded-full bg-soft-2 px-3 py-1 text-xs font-semibold text-navy"><span aria-hidden className="h-1.5 w-1.5 rounded-full bg-navy" />{m}</li>
+                  ))}
+                </ul>
+                <h3 className="mt-5 text-lg font-bold uppercase tracking-wide text-heading">{x.title}</h3>
+                <p className="mt-3 flex items-center gap-2 text-[15px] text-body">
+                  <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden className="text-navy"><rect x="3" y="4.5" width="14" height="12.5" rx="2" fill="none" stroke="currentColor" strokeWidth="1.6" /><path d="M3 8.5h14M7 3v3M13 3v3" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" /></svg>
+                  <span><span className="sr-only">Next batch starts </span><BatchDate weekday={b.weekday} weekOffset={x.weekOffset} /></span>
+                </p>
+                <p className="mt-2 flex items-center gap-2 text-[15px] text-body">
+                  <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden className="text-navy"><circle cx="10" cy="10" r="7.25" fill="none" stroke="currentColor" strokeWidth="1.6" /><path d="M10 6v4.2l2.8 1.8" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" /></svg>
+                  {b.time}
+                </p>
+                <Link href={x.href} className="btn btn-outline mt-6 w-full justify-center">Apply now for this internship</Link>
+              </article>
+            ))}
+          </Carousel>
+        </Section>
+      );
+
+    case "reviews":
+      return (
+        <Section id={b.id} tone={tone}>
+          {head}
+          <Carousel label={b.heading} dark={dark}>
+            {b.items.map((r) => (
+              <figure key={r.name} className="flex h-full flex-col rounded-2xl border border-line bg-white p-6 shadow-sm shadow-slate-900/5">
+                <figcaption className="flex items-start gap-4">
+                  {r.photo ? (
+                    <Image src={asset(r.photo).src} alt={`${r.name}, ${r.track} at ${SITE.name}`} width={64} height={64} className="h-16 w-16 shrink-0 rounded-full object-cover" />
+                  ) : (
+                    <span aria-hidden className="grid h-16 w-16 shrink-0 place-items-center rounded-full bg-soft-2 text-lg font-bold text-navy">{initials(r.name)}</span>
+                  )}
+                  <div className="min-w-0">
+                    <p className="text-lg font-semibold leading-snug text-heading">{r.name}</p>
+                    <p className="mt-0.5 text-sm text-muted">{r.college}</p>
+                    <p className="mt-2 inline-block rounded-full bg-soft-2 px-2.5 py-0.5 text-xs font-semibold text-navy">{r.track}</p>
+                  </div>
+                </figcaption>
+                <blockquote className="mt-5 flex flex-1 flex-col">
+                  <ReadMore text={r.quote} />
+                </blockquote>
+              </figure>
+            ))}
+          </Carousel>
+        </Section>
+      );
+
+    case "experts":
+      return (
+        <Section id={b.id} tone={tone}>
+          {head}
+          <Carousel label={b.heading} dark={dark} perView="lg:w-[calc((100%-72px)/4)]">
+            {b.items.map((e) => (
+              <article key={e.name} tabIndex={0} className="group relative aspect-[720/764] overflow-hidden rounded-2xl bg-[linear-gradient(180deg,#f3f7fb_0%,#dfe8f1_100%)] shadow-sm shadow-slate-900/10 outline-none focus-visible:ring-2 focus-visible:ring-cyan">
+                {e.photo ? (
+                  <Image src={asset(e.photo).src} alt={`${e.name}, ${e.role} at ${SITE.parent.name}`} fill sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 85vw" className="object-contain object-bottom" />
+                ) : (
+                  <span aria-hidden className="absolute left-1/2 top-[38%] grid h-28 w-28 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-navy text-3xl font-bold text-white">{initials(e.name)}</span>
+                )}
+                {/* Name and role over a soft dark fade, like the original design. */}
+                <div className="absolute inset-x-0 bottom-0 bg-[linear-gradient(180deg,transparent_0%,rgba(4,22,48,.82)_70%)] px-5 pb-4 pt-16 text-right">
+                  <h3 className="text-base font-semibold !text-white">{e.name}</h3>
+                  <p className="text-xs text-white/85">{e.role}</p>
+                </div>
+                <div className="absolute inset-0 flex flex-col justify-center bg-white/95 p-6 opacity-0 transition-opacity duration-200 group-hover:opacity-100 group-focus:opacity-100 motion-reduce:transition-none">
+                  <p className="text-lg font-semibold text-heading">{e.name}</p>
+                  <p className="mt-1 text-sm text-muted">{e.role}</p>
+                  <p className="mt-4 text-[15px] leading-relaxed text-body">{e.bio}</p>
+                </div>
+              </article>
+            ))}
+          </Carousel>
         </Section>
       );
 

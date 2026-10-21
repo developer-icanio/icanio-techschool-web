@@ -29,6 +29,9 @@ export const BLOCK_LABEL: Record<Block["type"], string> = {
   table: "Table",
   prose: "Text and image",
   form: "Lead form",
+  batches: "Upcoming batches",
+  reviews: "Written reviews",
+  experts: "Team / experts",
 };
 
 export type SaveResult = Awaited<ReturnType<typeof saveSection>>;
@@ -150,6 +153,77 @@ function Body({ b, set, ctx }: { b: Block; set: (b: Block) => void; ctx: EditorC
               </div>
               <Upload label="Icon (optional)" value={c.icon} accept="image/*" preview="icon" onChange={(u) => s({ ...c, icon: u.src })} />
               <ImageWithAlt label="Photo (optional)" value={c.image} onChange={(image) => s({ ...c, image })} />
+            </>
+          )}
+        />
+      );
+    case "batches":
+      return (
+        <div className="space-y-3">
+          <p className="text-sm text-body">The start date updates itself: each card shows the next batch day (India time). Change the day here if batches move.</p>
+          <div className="grid gap-3 sm:grid-cols-3">
+            <label className="block text-sm">
+              <span className="font-medium text-heading">Batch day</span>
+              <select value={b.weekday} onChange={(e) => set({ ...b, weekday: Number(e.target.value) })} className="mt-1 w-full rounded-lg border border-line px-3 py-2">
+                {["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"].map((d, i) => <option key={d} value={i}>{d}</option>)}
+              </select>
+            </label>
+            <Text label="Timing" value={b.time} onChange={(time) => set({ ...b, time })} placeholder="9am to 6pm" />
+            <Text label="Modes (comma separated)" value={b.modes.join(", ")} onChange={(v) => set({ ...b, modes: v.split(",").map((x) => x.trim()).filter(Boolean) })} placeholder="Offline, Online, Part time" />
+          </div>
+          <ListEditor
+            items={b.items}
+            onChange={(items) => set({ ...b, items })}
+            title={(x) => x.title}
+            blank={() => ({ title: "", href: "/internships" }) as (typeof b.items)[number]}
+            addLabel="Add batch"
+            render={(x, s) => (
+              <div className="grid gap-3 sm:grid-cols-3">
+                <Text label="Track" value={x.title} onChange={(title) => s({ ...x, title })} />
+                <LinkPicker label="Apply button links to" value={x.href} onChange={(href) => s({ ...x, href: href || "/internships" })} pages={ctx.pages} />
+                <Text label="Weeks later than the next batch (0 = next)" value={String(x.weekOffset ?? 0)} onChange={(v) => s({ ...x, weekOffset: Number(v) || undefined })} />
+              </div>
+            )}
+          />
+        </div>
+      );
+    case "reviews":
+      return (
+        <ListEditor
+          items={b.items}
+          onChange={(items) => set({ ...b, items })}
+          title={(r) => `${r.name} (${r.track})`}
+          blank={() => ({ name: "", college: "", track: "", quote: "" }) as (typeof b.items)[number]}
+          addLabel="Add review"
+          render={(r, s) => (
+            <>
+              <div className="grid gap-3 sm:grid-cols-3">
+                <Text label="Name" value={r.name} onChange={(name) => s({ ...r, name })} />
+                <Text label="College" value={r.college} onChange={(college) => s({ ...r, college })} />
+                <Text label="Track" value={r.track} onChange={(track) => s({ ...r, track })} placeholder="e.g. Frontend Intern" />
+              </div>
+              <Area label="What they said" value={r.quote} onChange={(quote) => s({ ...r, quote })} rows={4} />
+              <Upload label="Photo (square)" value={r.photo} accept="image/*" preview="icon" onChange={(u) => s({ ...r, photo: u.src })} />
+            </>
+          )}
+        />
+      );
+    case "experts":
+      return (
+        <ListEditor
+          items={b.items}
+          onChange={(items) => set({ ...b, items })}
+          title={(e) => `${e.name}, ${e.role}`}
+          blank={() => ({ name: "", role: "", bio: "" }) as (typeof b.items)[number]}
+          addLabel="Add team member"
+          render={(e, s) => (
+            <>
+              <div className="grid gap-3 sm:grid-cols-2">
+                <Text label="Name" value={e.name} onChange={(name) => s({ ...e, name })} />
+                <Text label="Role" value={e.role} onChange={(role) => s({ ...e, role })} placeholder="e.g. SDE II - Engineering" />
+              </div>
+              <Area label="Short bio (shows on hover)" value={e.bio} onChange={(bio) => s({ ...e, bio })} rows={3} />
+              <Upload label="Photo card" value={e.photo} accept="image/*" preview="image" onChange={(u) => s({ ...e, photo: u.src })} />
             </>
           )}
         />

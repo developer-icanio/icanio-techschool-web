@@ -10,7 +10,7 @@ const ROOT = path.join(process.cwd(), "content");
 
 const BLOCK_TYPES = new Set<Block["type"]>([
   "prose", "cards", "steps", "phases", "tools", "table", "checklist", "stats",
-  "partners", "testimonials", "stories", "gallery", "links", "form",
+  "partners", "testimonials", "stories", "gallery", "links", "form", "batches", "reviews", "experts",
 ]);
 
 function walk(dir: string): string[] {
