@@ -1,7 +1,7 @@
 import Image, { getImageProps } from "next/image";
 import Link from "next/link";
 import LeadForm from "@/components/forms/LeadForm";
-import { partners, storiesFor, testimonials } from "@/lib/content/pages";
+import { experts, partners, reviews, storiesFor, testimonials } from "@/lib/content/pages";
 import type { Block, Img } from "@/lib/content/types";
 import { asset } from "@/lib/images";
 import { SITE } from "@/lib/site";
@@ -420,8 +420,8 @@ export function BlockView({ b, email = SITE.email }: { b: Block; email?: string 
         <Section id={b.id} tone={tone}>
           {head}
           <Carousel label={b.heading} dark={dark}>
-            {b.items.map((r) => (
-              <figure key={r.name} className="flex h-full flex-col rounded-2xl border border-line bg-white p-6 shadow-sm shadow-slate-900/5">
+            {reviews(b.ids).map((r) => (
+              <figure key={r.id} className="flex h-full flex-col rounded-2xl border border-line bg-white p-6 shadow-sm shadow-slate-900/5">
                 <figcaption className="flex items-start gap-4">
                   {r.photo ? (
                     <Image src={asset(r.photo).src} alt={`${r.name}, ${r.track} at ${SITE.name}`} width={64} height={64} className="h-16 w-16 shrink-0 rounded-full object-cover" />
@@ -448,8 +448,8 @@ export function BlockView({ b, email = SITE.email }: { b: Block; email?: string 
         <Section id={b.id} tone={tone}>
           {head}
           <Carousel label={b.heading} dark={dark} perView="lg:w-[calc((100%-72px)/4)]">
-            {b.items.map((e) => (
-              <article key={e.name} tabIndex={0} className="group relative aspect-[720/764] overflow-hidden rounded-2xl bg-[linear-gradient(180deg,#f3f7fb_0%,#dfe8f1_100%)] shadow-sm shadow-slate-900/10 outline-none focus-visible:ring-2 focus-visible:ring-cyan">
+            {experts(b.ids).map((e) => (
+              <article key={e.id} tabIndex={0} className="group relative aspect-[720/764] overflow-hidden rounded-2xl bg-[linear-gradient(180deg,#f3f7fb_0%,#dfe8f1_100%)] shadow-sm shadow-slate-900/10 outline-none focus-visible:ring-2 focus-visible:ring-cyan">
                 {e.photo ? (
                   <Image src={asset(e.photo).src} alt={`${e.name}, ${e.role} at ${SITE.parent.name}`} fill sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 85vw" className="object-contain object-bottom" />
                 ) : (

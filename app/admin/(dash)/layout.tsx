@@ -16,10 +16,13 @@ export default async function AdminLayout({ children }: LayoutProps<"/admin">) {
     { href: "/admin/library/videos", label: "Videos" },
     { href: "/admin/library/students", label: "Students" },
     { href: "/admin/library/colleges", label: "Partner colleges" },
+    { href: "/admin/library/reviews", label: "Reviews" },
+    { href: "/admin/library/team", label: "Team" },
+    { href: "/admin/settings", label: "Site settings" },
     { href: "/admin/seo", label: "SEO scoreboard" },
     { href: "/admin/speed", label: "PageSpeed" },
     { href: "/admin/sitemap", label: "Sitemap and robots" },
-    ...(canManageTeam(me.role) ? [{ href: "/admin/team", label: "Team" }] : []),
+    ...(canManageTeam(me.role) ? [{ href: "/admin/team", label: "Admin users" }] : []),
   ];
   return (
     <div className="min-h-screen bg-soft lg:grid lg:grid-cols-[240px_1fr]">

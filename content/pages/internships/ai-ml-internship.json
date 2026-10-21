@@ -395,14 +395,8 @@
       "eyebrow": "In their words",
       "heading": "What a AI/ML intern says about us",
       "intro": "Written reviews from interns who completed the AI ML internship at Icanio Tech School, in their own words.",
-      "items": [
-        {
-          "name": "Sriramprakash",
-          "college": "Kalasalingam Academy of Research and Education",
-          "track": "AI/ML Intern",
-          "photo": "people:6-sriramprakash.jpg",
-          "quote": "Hi, I'm Sriramprakash S, an AI/ML Intern at Icanio Technologies, where I worked on data processing, model development across supervised, unsupervised, and NLP approaches, and deployment using Scikit-Learn, TensorFlow, and Flask, while collaborating with mentors through code reviews in an agile team. The most valuable lesson was the power of iterative improvement, early models often underperform, but testing, optimisation, and feedback drive real gains, teaching me patience and adaptability."
-        }
+      "ids": [
+        "review-sriramprakash"
       ]
     },
     {

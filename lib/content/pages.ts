@@ -39,7 +39,7 @@ let cache: PageContent[] | undefined;
 // When set, they replace the matching file (by path) and the shared JSON libraries.
 export const live: {
   pages?: Map<string, PageContent>;
-  library?: { video: Testimonial[]; student: Story[]; college: Partner[] };
+  library?: { video: Testimonial[]; student: Story[]; college: Partner[]; review: Review[]; expert: Expert[] };
 } = {};
 
 export function allPages(): PageContent[] {
@@ -91,6 +91,8 @@ export function breadcrumbsOf(p: PageContent): { name: string; href: string }[] 
 export interface Partner { id: string; name: string; city: string; logo: string }
 export interface Story { id: string; name: string; duration: string; track: string; degree: string; college: string; photo: string; text: string }
 export interface Testimonial { id: string; name: string; role: string; photo: string; video: string; quote: string }
+export interface Review { id: string; name: string; college: string; track: string; photo?: string; quote: string }
+export interface Expert { id: string; name: string; role: string; bio: string; photo?: string }
 
 export const slugId = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
@@ -108,6 +110,14 @@ export const testimonials = (ids?: string[]) => {
   const picked = (ids ?? []).map((id) => all.find((t) => t.id === id)).filter(Boolean) as Testimonial[];
   return picked.length ? picked : all;
 };
+
+/** Picked items in their chosen order; all of them when none are picked (or none of the picks still exist). */
+function pick<T extends { id: string }>(all: T[], ids?: string[]) {
+  const picked = (ids ?? []).map((id) => all.find((t) => t.id === id)).filter(Boolean) as T[];
+  return picked.length ? picked : all;
+}
+export const reviews = (ids?: string[]) => pick(live.library?.review ?? sharedFile<Review>("reviews", "review"), ids);
+export const experts = (ids?: string[]) => pick(live.library?.expert ?? sharedFile<Expert>("experts", "expert"), ids);
 
 export function storiesFor(track?: string, limit?: number, ids?: string[]) {
   const all = stories();

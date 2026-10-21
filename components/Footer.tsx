@@ -4,20 +4,10 @@ import { COLLEGE_PROGRAMS, ENGINEERING_TRACKS, NON_ENGINEERING_TRACKS } from "@/
 import QuickCallback from "@/components/forms/QuickCallback";
 import { SITE } from "@/lib/site";
 
-const social = [
-  { label: "Instagram", href: SITE.social.instagram, d: "M12 7.4a4.6 4.6 0 1 0 0 9.2 4.6 4.6 0 0 0 0-9.2Zm0 7.6a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm4.8-8.9a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2ZM12 4c2.2 0 2.4 0 3.3.1 2.2.1 3.3 1.2 3.4 3.4.1.9.1 1.1.1 3.3v2.4c0 2.2 0 2.4-.1 3.3-.1 2.2-1.2 3.3-3.4 3.4-.9.1-1.1.1-3.3.1H9.6c-2.2 0-2.4 0-3.3-.1-2.2-.1-3.3-1.2-3.4-3.4C2.8 15.6 2.8 15.4 2.8 13.2v-2.4c0-2.2 0-2.4.1-3.3.1-2.2 1.2-3.3 3.4-3.4C7.2 4 7.4 4 9.6 4H12Z" },
-  { label: "X (Twitter)", href: SITE.social.x, d: "M17.8 3h3l-6.6 7.6L22 21h-6.1l-4.8-6.2L5.6 21h-3l7.1-8.1L2.2 3h6.2l4.3 5.7L17.8 3Zm-1.1 16.2h1.7L7.4 4.7H5.6l11.1 14.5Z" },
-  { label: "LinkedIn", href: SITE.social.linkedin, d: "M6.9 8.8H3.6V20h3.3V8.8ZM5.2 3.5a1.9 1.9 0 1 0 0 3.9 1.9 1.9 0 0 0 0-3.9ZM20.4 13.6c0-3-.6-5.1-4.1-5.1-1.7 0-2.8.9-3.2 1.8h-.1V8.8H9.8V20h3.3v-5.5c0-1.5.3-2.9 2.1-2.9 1.8 0 1.8 1.7 1.8 3V20h3.4v-6.4Z" },
-];
 
-const wa = `https://wa.me/${SITE.whatsapp.number}?text=${encodeURIComponent(SITE.whatsapp.greeting)}`;
 
-const TRUST = [
-  { value: "2,000+", label: "students trained" },
-  { value: "90%", label: "placed within 5 months" },
-  { value: "30+", label: "MoU colleges" },
-  { value: "15", label: "internship tracks" },
-];
+
+
 
 function Col({ title, links }: { title: string; links: { label: string; href: string }[] }) {
   return (
@@ -36,7 +26,16 @@ function Col({ title, links }: { title: string; links: { label: string; href: st
 
 // Footer = last chance to convert: a callback band first, then every page
 // one click away, then contact details.
+const socialLinks = () => [
+  { label: "Instagram", href: SITE.social.instagram, d: "M12 7.4a4.6 4.6 0 1 0 0 9.2 4.6 4.6 0 0 0 0-9.2Zm0 7.6a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm4.8-8.9a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2ZM12 4c2.2 0 2.4 0 3.3.1 2.2.1 3.3 1.2 3.4 3.4.1.9.1 1.1.1 3.3v2.4c0 2.2 0 2.4-.1 3.3-.1 2.2-1.2 3.3-3.4 3.4-.9.1-1.1.1-3.3.1H9.6c-2.2 0-2.4 0-3.3-.1-2.2-.1-3.3-1.2-3.4-3.4C2.8 15.6 2.8 15.4 2.8 13.2v-2.4c0-2.2 0-2.4.1-3.3.1-2.2 1.2-3.3 3.4-3.4C7.2 4 7.4 4 9.6 4H12Z" },
+  { label: "X (Twitter)", href: SITE.social.x, d: "M17.8 3h3l-6.6 7.6L22 21h-6.1l-4.8-6.2L5.6 21h-3l7.1-8.1L2.2 3h6.2l4.3 5.7L17.8 3Zm-1.1 16.2h1.7L7.4 4.7H5.6l11.1 14.5Z" },
+  { label: "LinkedIn", href: SITE.social.linkedin, d: "M6.9 8.8H3.6V20h3.3V8.8ZM5.2 3.5a1.9 1.9 0 1 0 0 3.9 1.9 1.9 0 0 0 0-3.9ZM20.4 13.6c0-3-.6-5.1-4.1-5.1-1.7 0-2.8.9-3.2 1.8h-.1V8.8H9.8V20h3.3v-5.5c0-1.5.3-2.9 2.1-2.9 1.8 0 1.8 1.7 1.8 3V20h3.4v-6.4Z" },
+];
+
 export default function Footer() {
+  // Read at render time: these come from /admin/settings.
+  const social = socialLinks().filter((x) => x.href);
+  const wa = `https://wa.me/${SITE.whatsapp.number}?text=${encodeURIComponent(SITE.whatsapp.greeting)}`;
   return (
     <footer>
       <section aria-labelledby="footer-cta" className="bg-[linear-gradient(90deg,#00264c_0%,#004589_100%)] text-white">
@@ -45,7 +44,7 @@ export default function Footer() {
             <h2 id="footer-cta" className="text-[26px] font-bold leading-tight !text-white sm:text-3xl">Not sure which program fits you?</h2>
             <p className="mt-3 text-lg text-white/85">Leave your number. A counsellor calls you back within one working day, free of charge.</p>
             <ul className="mt-6 grid grid-cols-2 gap-x-6 gap-y-3 sm:grid-cols-4 lg:grid-cols-2">
-              {TRUST.map((t) => (
+              {SITE.trust.map((t) => (
                 <li key={t.label}>
                   <span className="block text-2xl font-semibold">{t.value}</span>
                   <span className="text-sm text-white/75">{t.label}</span>

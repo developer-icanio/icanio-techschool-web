@@ -395,28 +395,10 @@
       "eyebrow": "In their words",
       "heading": "What Java & Spring Boot interns say about us",
       "intro": "Written reviews from interns who completed the backend development internship at Icanio Tech School, in their own words.",
-      "items": [
-        {
-          "name": "Narendran",
-          "college": "Government College of Engineering, Tirunelveli",
-          "track": "Java & Spring Boot Intern",
-          "photo": "people:7-Narendran-M.jpg",
-          "quote": "I'm Narendran M, and I worked as a backend developer during my internship, focusing on Java and Spring Boot, building RESTful APIs, implementing business logic, and gaining hands-on experience with JPA, Hibernate, and PostgreSQL as part of a scalable web application stack. The most valuable lesson was learning to stay productive without clear instructions or structured mentorship, which taught me a kind of independent problem-solving I didn't expect to need."
-        },
-        {
-          "name": "Veeralakshmi",
-          "college": "Ramco Institute of Technology",
-          "track": "Java & Spring Boot Intern",
-          "photo": "people:12-Veeralakshmi-M.jpg",
-          "quote": "I'm Veeralakshmi M, a second-year AI & DS student at Ramco Institute of Technology, and I interned at Icanio Technologies on Java Spring Boot, completing the fundamentals of Java and going quite a bit deeper within just one month. The most valuable lesson was the importance of writing efficient, maintainable code, following OOP principles, clean structure, and proper exception handling made debugging and future updates much easier."
-        },
-        {
-          "name": "Magesh Balram",
-          "college": "Einstein College of Engineering",
-          "track": "Node.js Intern",
-          "photo": "people:17-Magesh-Balram.jpg",
-          "quote": "I'm Magesh Balram B V, a computer science engineering student with a strong interest in development, and during my internship I built and optimised RESTful APIs, managed databases using MongoDB, PostgreSQL, and Prisma ORM, and wrote clean, efficient code with Node.js and Express, while also learning testing practices alongside my mentor. The key lesson was realising that every framework I touched was really just the surface of a much deeper sea of knowledge still to learn."
-        }
+      "ids": [
+        "review-narendran",
+        "review-veeralakshmi",
+        "review-magesh-balram"
       ]
     },
     {

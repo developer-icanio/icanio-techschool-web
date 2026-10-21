@@ -1,0 +1,191 @@
+[
+ {
+  "name": "Afreen",
+  "college": "Nellai College of Engineering",
+  "track": "UI/UX Intern",
+  "photo": "people:1-Afreenshaw.jpg",
+  "quote": "I'm Afreen, a Computer Science undergraduate who worked as a UI/UX Design Intern, designing user-friendly mobile app interfaces in Figma, from user research and wireframes to high- and low-fidelity prototypes, colour palettes, and typography. The biggest lesson I took away was that good design isn't just about looking attractive; it's about understanding user needs and refining work through continuous feedback and iteration."
+ },
+ {
+  "name": "Rajashree",
+  "college": "Einstein College of Engineering, Tirunelveli",
+  "track": "Frontend Intern",
+  "photo": "people:2-RAJA-SHREE-.S.jpeg",
+  "quote": "I'm S. Rajashree, and I joined as a Web Development Intern focused on front-end technologies, working with HTML, CSS, and JavaScript through coding exercises and assessments. The internship taught me the value of time management, continuous learning, and clear communication, along with staying professional and resilient when working with different personalities. Grasping and retaining core web development concepts was initially difficult, but regular practice and revision built my confidence and proficiency over time."
+ },
+ {
+  "name": "Kevin Abishek",
+  "college": "St. Joseph's College of Engineering",
+  "track": "Python Intern",
+  "photo": "people:3-Kevin-Abishek.jpeg",
+  "quote": "I'm Kevin Abishek, a first-year B.E. Computer Science student who completed a one-week Python internship at Icanio Technologies, working on mentor-assigned tasks that sharpened my programming, problem-solving, and debugging skills. The key lesson I learned was to keep going instead of giving up when errors appeared, to analyse the problem, debug carefully, and find the right solution, while also writing clean code and asking for guidance when needed."
+ },
+ {
+  "name": "Siva Prabha",
+  "college": "Ramco Institute of Technology",
+  "track": "Frontend Intern",
+  "photo": "people:4-Siva-Prabha-A.png",
+  "quote": "I'm Siva Prabha A, and I interned as a Frontend Development intern at ICANIO, working with HTML and CSS to build and improve UI components and interactive web page features. The internship taught me that building real projects cements concepts far better than theory alone, alongside the value of problem-solving, teamwork, and asking for guidance. Some concepts, especially around React JS, were difficult at first, but regular practice, learning resources, and my mentor's support helped me work through them."
+ },
+ {
+  "name": "Fathim Nisha",
+  "college": "Kongu Engineering College",
+  "track": "Sales Intern",
+  "photo": "people:5-fathimnisha2025.jpg",
+  "quote": "I'm Fathim Nisha S, pursuing my MCA, and I interned with the Sales Support and Lead Engagement team at Icanio Technologies, finding potential clients, collecting and organising lead data, and sending and tracking follow-up messages. The most valuable lesson was how essential clear communication and teamwork are in a professional setting, along with the importance of planning, time management, and coordination for team efficiency."
+ },
+ {
+  "name": "Sriramprakash",
+  "college": "Kalasalingam Academy of Research and Education",
+  "track": "AI/ML Intern",
+  "photo": "people:6-sriramprakash.jpg",
+  "quote": "Hi, I'm Sriramprakash S, an AI/ML Intern at Icanio Technologies, where I worked on data processing, model development across supervised, unsupervised, and NLP approaches, and deployment using Scikit-Learn, TensorFlow, and Flask, while collaborating with mentors through code reviews in an agile team. The most valuable lesson was the power of iterative improvement, early models often underperform, but testing, optimisation, and feedback drive real gains, teaching me patience and adaptability."
+ },
+ {
+  "name": "Narendran",
+  "college": "Government College of Engineering, Tirunelveli",
+  "track": "Java & Spring Boot Intern",
+  "photo": "people:7-Narendran-M.jpg",
+  "quote": "I'm Narendran M, and I worked as a backend developer during my internship, focusing on Java and Spring Boot, building RESTful APIs, implementing business logic, and gaining hands-on experience with JPA, Hibernate, and PostgreSQL as part of a scalable web application stack. The most valuable lesson was learning to stay productive without clear instructions or structured mentorship, which taught me a kind of independent problem-solving I didn't expect to need."
+ },
+ {
+  "name": "Martin",
+  "college": "VV College of Engineering",
+  "track": "Frontend Intern",
+  "photo": "people:8-Martin-J-scaled.jpg",
+  "quote": "I'm Martin J, pursuing B.E. Computer Science at VV College of Engineering, and I worked as a Frontend Developer at Icanio Technologies, learning and practising web development with HTML, CSS, and JavaScript. The most valuable lesson was the importance of writing clean, well-structured code and staying consistent with self-learning, which sharpened my critical thinking and independent problem-solving."
+ },
+ {
+  "name": "Vijayalakshmi",
+  "college": "Rani Anna Government College, Tirunelveli",
+  "track": "HR Intern",
+  "photo": "people:9-Viji.jpg",
+  "quote": "Hi, I'm M. Vijayalakshmi, and after completing my Master of Social Work at Rani Anna Government College, I interned as an HR intern, preparing and managing HR materials, creating Google Forms for surveys and maintaining data in Google Sheets and Slides. The internship taught me to adapt quickly in a technology-driven workplace and take ownership of unfamiliar tasks, seeking feedback whenever challenges came up."
+ },
+ {
+  "name": "Jerusha Glory Angelin",
+  "college": "Francis Xavier Engineering College",
+  "track": "Digital Twin Intern",
+  "photo": "people:10-Jerusha-Glory-Angelin.jpeg",
+  "quote": "I'm Jerusha Glory Angelin, a final-year Computer Science and Engineering student, and I interned in the Digital Twin domain at Icanio Technologies, gaining hands-on experience developing 3D visualisations using NVIDIA Isaac Sim Omniverse. The internship taught me the importance of teamwork and the growing role of AI across every field, and working in Isaac Sim Omniverse was the biggest technical challenge I tackled."
+ },
+ {
+  "name": "Jerovin Floyd",
+  "college": "IIIT-Delhi",
+  "track": "Flutter Intern",
+  "photo": "people:11-Jerovin-Floyd.jpeg",
+  "quote": "I'm Jerovin Floyd, a third-year B.Tech CSE student at IIIT-Delhi, originally from Tirunelveli and raised in Qatar. During my internship, I built a fully functioning app using Flutter/Dart and Firebase to replace the old Google-Forms-based system for collecting daily intern evaluations of communication activities. The most valuable lesson was that building a good product isn't just about writing code, it's about continuously understanding problems, debugging patiently, thinking end-to-end, and iterating instead of chasing perfection on the first try."
+ },
+ {
+  "name": "Veeralakshmi",
+  "college": "Ramco Institute of Technology",
+  "track": "Java & Spring Boot Intern",
+  "photo": "people:12-Veeralakshmi-M.jpg",
+  "quote": "I'm Veeralakshmi M, a second-year AI & DS student at Ramco Institute of Technology, and I interned at Icanio Technologies on Java Spring Boot, completing the fundamentals of Java and going quite a bit deeper within just one month. The most valuable lesson was the importance of writing efficient, maintainable code, following OOP principles, clean structure, and proper exception handling made debugging and future updates much easier."
+ },
+ {
+  "name": "Nandhini",
+  "college": "SCAD College of Engineering and Technology",
+  "track": "Data Analyst Intern",
+  "photo": "people:13-NANDHINI-A.jpg",
+  "quote": "I'm Nandhini A, and I interned as a Data Analyst, gaining hands-on exposure to real-world projects that strengthened both my technical and collaborative skills. The most valuable lesson was that technical skills alone aren't enough, teamwork, effective communication, and continuous learning are equally essential for professional success. Adapting to new tools and work processes was the main challenge, which I overcame by asking questions, seeking my mentor's guidance, and practising regularly."
+ },
+ {
+  "name": "Jenila Princy",
+  "college": "RVS Institute of Management Studies, Coimbatore",
+  "track": "HR Intern",
+  "photo": "people:14-Jenila-Princy.jpg",
+  "quote": "I'm Jenila Princy, a motivated learner with a strong interest in Human Resources, and I interned as an HR Intern gaining practical experience in candidate sourcing, resume screening, interview coordination, assessment management, and candidate communication, along with hands-on exposure to recruitment tools and the overall hiring process. The most valuable lesson was the importance of communication, teamwork, and a practical understanding of HR and recruitment workflows."
+ },
+ {
+  "name": "Jebinskaran",
+  "college": "Vellore Institute of Technology",
+  "track": "Java Intern",
+  "photo": "people:15-JEBINSKARAN.jpeg",
+  "quote": "I'm currently learning Java fundamentals, variables, loops, arrays, classes, and basic object-oriented programming, and during my internship I assisted with Java-based tasks, writing simple programs, debugging basic code, and understanding how Java is applied in real-world applications, while also getting exposure to IDEs like Eclipse and IntelliJ and best practices for clean, readable code."
+ },
+ {
+  "name": "Madhukiran",
+  "college": "Ayya Nadar Janaki Ammal College",
+  "track": "Finance Intern",
+  "photo": "people:Madhukiran-B.jpg",
+  "quote": "I'm B. Madhukiran, pursuing my Bachelor of Commerce at Ayya Nadar Janaki Ammal College, and I interned with the finance team at ICANIO to understand how finance operates in a technology-driven organisation. The most valuable lesson was strengthening my foundational knowledge in finance, since without strong basics it's difficult to learn anything further. I most enjoyed getting hands-on practice with real financial statements, preparing statements, trial balances, and more."
+ },
+ {
+  "name": "Magesh Balram",
+  "college": "Einstein College of Engineering",
+  "track": "Node.js Intern",
+  "photo": "people:17-Magesh-Balram.jpg",
+  "quote": "I'm Magesh Balram B V, a computer science engineering student with a strong interest in development, and during my internship I built and optimised RESTful APIs, managed databases using MongoDB, PostgreSQL, and Prisma ORM, and wrote clean, efficient code with Node.js and Express, while also learning testing practices alongside my mentor. The key lesson was realising that every framework I touched was really just the surface of a much deeper sea of knowledge still to learn."
+ },
+ {
+  "name": "ShenbagaVinotha",
+  "college": "Francis Xavier Engineering College, Vannarpettai",
+  "track": "Full Stack Intern",
+  "photo": "people:18-shenbaga-vinotha.jpeg",
+  "quote": "Hi, I'm A. ShenbagaVinotha, and I worked as a Full Stack Web Development Intern, building web applications using the MERN stack while sharpening my technical and problem-solving skills. The most valuable lesson was learning how to apply technical knowledge to real-world projects while continuously learning and improving. Debugging complex issues was the biggest challenge, which I overcame through research, regular practice, and guidance from my mentor."
+ },
+ {
+  "name": "Ridley Paul Roshan",
+  "college": "Karunya Institute of Technology and Science",
+  "track": "UI/UX Intern",
+  "photo": "people:19-R-RIDLEY-PAUL-ROSHAN.jpg",
+  "quote": "Hi, I'm Ridley Paul Roshan, and during my UI/UX internship I worked on designing user-friendly, visually appealing interfaces, conducting user research, building wireframes and prototypes in Figma, designing reusable UI components, and refining the user experience based on feedback. The most valuable lesson was that good design is about solving real user problems, not just looking attractive, and that the design process is inherently iterative, feedback, revision, and testing are all essential to a successful outcome."
+ },
+ {
+  "name": "Sri Varshini",
+  "college": "Anna University Regional Campus, Tirunelveli",
+  "track": "Python Intern",
+  "photo": "people:20-Sri-Varshini.jpg",
+  "quote": "I'm Sri Varshini M, pursuing my Bachelor's in Computer Science and Engineering, and I focused during my internship on Python programming, Data Structures and Algorithms, Git, and GitHub, actively taking part in training sessions, coding exercises, and hands-on activities. The most valuable lesson was the importance of a strong foundation in the basics, since deeply understanding fundamentals makes it far easier to solve problems and apply knowledge in real-world situations."
+ },
+ {
+  "name": "Harsith",
+  "college": "Shiv Nadar University",
+  "track": "SDE Intern",
+  "photo": "people:21-Harsith-N-V.jpeg",
+  "quote": "I'm Harsith NV, a Computer Science student at Shiv Nadar University with a strong foundation in systems architecture and competitive programming, and my internship focused on intensive training, absorbing enterprise development standards and industry best practices to build a rigorous technical foundation. The most valuable lesson was learning to bridge academic concepts with enterprise execution, realising that effective code isn't just about functionality but about creating scalable, maintainable solutions that hold up under rigorous review."
+ },
+ {
+  "name": "Sajina",
+  "college": "Ramco Institute of Technology, Rajapalayam",
+  "track": "DevOps Intern",
+  "photo": "people:22-Sajina-J.jpeg",
+  "quote": "I'm Sajina J, a second-year CSBS student, and during my internship I actively took part in training sessions, completed assigned tasks, practised the concepts taught, and collaborated with my team as needed. The most valuable lesson was the importance of automation, collaboration, and continuous learning in the DevOps field. Understanding and troubleshooting new DevOps tools and workflows was challenging at first, requiring extra time and research, but regular practice, documentation, and guidance from mentors helped me work through each problem."
+ },
+ {
+  "name": "Sumithra",
+  "college": "Ramco Institute of Technology, Rajapalayam",
+  "track": "Flutter Intern",
+  "photo": "people:23-Sumithra.jpg",
+  "quote": "I'm Sumithra K, a student intern who worked on learning and developing skills in Flutter application development, understanding core concepts, building UI components, writing code, and testing applications for mobile app development. The most valuable lesson was the importance of continuous learning and problem-solving, since technical skills grow through regular practice, patience, and learning from mistakes, alongside teamwork, communication, and time management."
+ },
+ {
+  "name": "Jeya Nishanth",
+  "college": "SRM Institute of Science and Technology",
+  "track": "Frontend Intern",
+  "photo": "people:24-Jeya-Nishanth.jpg",
+  "quote": "I'm Jeya Nishanth S, and I took part in the internship program at ICANIO Technologies with a focus on front-end web development, working with HTML, CSS, and JavaScript to design responsive web pages through hands-on projects and training sessions. The most valuable lesson was the importance of writing clean, structured code and consistently practising to improve, along with approaching problems logically instead of giving up when stuck."
+ },
+ {
+  "name": "Thanga Dharshini",
+  "college": "Kamaraj College of Engineering and Technology",
+  "track": "Python Intern",
+  "photo": "people:25-Thanga-Dharshini.jpg",
+  "quote": "I'm Thanga Dharshini R, and after first learning Android development with Kotlin, I worked during my internship as a backend developer on a project called Pulse, gaining real-world experience with Python and the Django framework by developing and managing backend functionality. The most valuable lesson was learning how to apply technical knowledge to real projects, manage tasks effectively, and work as part of a team to solve problems."
+ },
+ {
+  "name": "Lakshmi",
+  "college": "Dr. Sivanthi Aditanar College of Engineering",
+  "track": "Java & Spring Boot Intern",
+  "photo": "people:26-Lakshmi.jpeg",
+  "quote": "Hello, I'm Lakshmi from Tirunelveli, pursuing my final year B.Tech in Information Technology at Dr. Sivanthi Aditanar College of Engineering, and during my internship I learned the basics of Java and Spring Boot, Core Java, OOP concepts, Collections, Exception Handling, REST APIs, and foundational Spring Boot concepts. The most valuable lesson was adapting to a new environment and people, building a wider professional network, understanding how developers work on real projects, and recognising that while AI tools are useful for reference and syntax, real skill comes from building projects with your own ability."
+ },
+ {
+  "name": "Sugi Brighty",
+  "college": "Govindammal Aditanar College for Women",
+  "track": "Java Intern",
+  "photo": "people:27-Sugi.jpg",
+  "quote": "I'm Sugi Brighty, a BCA student, and during this internship I learned Java and worked on practical tasks and projects to build my technical skills. The most valuable lesson was learning how to apply classroom knowledge to real-world tasks, along with the importance of teamwork, communication, and continuous learning. Improving my communication skills alongside grasping new concepts was the main challenge, which I worked through with regular practice and guidance from my mentors."
+ }
+]

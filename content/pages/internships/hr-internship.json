@@ -351,21 +351,9 @@
       "eyebrow": "In their words",
       "heading": "What HR interns say about us",
       "intro": "Written reviews from interns who completed the HR internship at Icanio Tech School, in their own words.",
-      "items": [
-        {
-          "name": "Vijayalakshmi",
-          "college": "Rani Anna Government College, Tirunelveli",
-          "track": "HR Intern",
-          "photo": "people:9-Viji.jpg",
-          "quote": "Hi, I'm M. Vijayalakshmi, and after completing my Master of Social Work at Rani Anna Government College, I interned as an HR intern, preparing and managing HR materials, creating Google Forms for surveys and maintaining data in Google Sheets and Slides. The internship taught me to adapt quickly in a technology-driven workplace and take ownership of unfamiliar tasks, seeking feedback whenever challenges came up."
-        },
-        {
-          "name": "Jenila Princy",
-          "college": "RVS Institute of Management Studies, Coimbatore",
-          "track": "HR Intern",
-          "photo": "people:14-Jenila-Princy.jpg",
-          "quote": "I'm Jenila Princy, a motivated learner with a strong interest in Human Resources, and I interned as an HR Intern gaining practical experience in candidate sourcing, resume screening, interview coordination, assessment management, and candidate communication, along with hands-on exposure to recruitment tools and the overall hiring process. The most valuable lesson was the importance of communication, teamwork, and a practical understanding of HR and recruitment workflows."
-        }
+      "ids": [
+        "review-vijayalakshmi",
+        "review-jenila-princy"
       ]
     },
     {

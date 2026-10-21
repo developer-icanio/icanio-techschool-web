@@ -48,6 +48,31 @@ export const SITE = {
   ],
   /** Author shown on every page (EEAT). */
   author: "Icanio Tech School Academic Team",
+  /** Office hours, shown next to the phone number. */
+  hours: "Monday to Saturday",
+  /** Big numbers in the footer lead band on every page. */
+  trust: [
+    { value: "2,000+", label: "students trained" },
+    { value: "90%", label: "placed within 5 months" },
+    { value: "30+", label: "MoU colleges" },
+    { value: "15", label: "internship tracks" },
+  ],
 };
 
-export const sameAs = [SITE.social.linkedin, SITE.social.instagram, SITE.social.x];
+/** The parts of SITE the team can change in /admin/settings (stored in site_settings). */
+export type SiteSettings = Pick<typeof SITE, "email" | "internshipEmail" | "phone" | "hours" | "trust"> & {
+  whatsapp: typeof SITE.whatsapp;
+  social: typeof SITE.social;
+  address: typeof SITE.address;
+};
+
+export const DEFAULT_SETTINGS: SiteSettings = structuredClone({ email: SITE.email, internshipEmail: SITE.internshipEmail, phone: SITE.phone, hours: SITE.hours, trust: SITE.trust, whatsapp: SITE.whatsapp, social: SITE.social, address: SITE.address });
+
+/** Applies saved settings on top of the defaults (server side, before rendering). */
+export function applySettings(s?: Partial<SiteSettings> | null) {
+  const d = structuredClone(DEFAULT_SETTINGS);
+  const v = { ...d, ...(s ?? {}), whatsapp: { ...d.whatsapp, ...(s?.whatsapp ?? {}) }, social: { ...d.social, ...(s?.social ?? {}) }, address: { ...d.address, ...(s?.address ?? {}) } };
+  Object.assign(SITE, v, { telephone: "+" + v.phone.replace(/\D/g, "") });
+}
+
+export const sameAs = () => [SITE.social.linkedin, SITE.social.instagram, SITE.social.x].filter(Boolean);

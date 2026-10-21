@@ -395,35 +395,11 @@
       "eyebrow": "In their words",
       "heading": "What Frontend interns say about us",
       "intro": "Written reviews from interns who completed the frontend development internship at Icanio Tech School, in their own words.",
-      "items": [
-        {
-          "name": "Rajashree",
-          "college": "Einstein College of Engineering, Tirunelveli",
-          "track": "Frontend Intern",
-          "photo": "people:2-RAJA-SHREE-.S.jpeg",
-          "quote": "I'm S. Rajashree, and I joined as a Web Development Intern focused on front-end technologies, working with HTML, CSS, and JavaScript through coding exercises and assessments. The internship taught me the value of time management, continuous learning, and clear communication, along with staying professional and resilient when working with different personalities. Grasping and retaining core web development concepts was initially difficult, but regular practice and revision built my confidence and proficiency over time."
-        },
-        {
-          "name": "Siva Prabha",
-          "college": "Ramco Institute of Technology",
-          "track": "Frontend Intern",
-          "photo": "people:4-Siva-Prabha-A.png",
-          "quote": "I'm Siva Prabha A, and I interned as a Frontend Development intern at ICANIO, working with HTML and CSS to build and improve UI components and interactive web page features. The internship taught me that building real projects cements concepts far better than theory alone, alongside the value of problem-solving, teamwork, and asking for guidance. Some concepts, especially around React JS, were difficult at first, but regular practice, learning resources, and my mentor's support helped me work through them."
-        },
-        {
-          "name": "Martin",
-          "college": "VV College of Engineering",
-          "track": "Frontend Intern",
-          "photo": "people:8-Martin-J-scaled.jpg",
-          "quote": "I'm Martin J, pursuing B.E. Computer Science at VV College of Engineering, and I worked as a Frontend Developer at Icanio Technologies, learning and practising web development with HTML, CSS, and JavaScript. The most valuable lesson was the importance of writing clean, well-structured code and staying consistent with self-learning, which sharpened my critical thinking and independent problem-solving."
-        },
-        {
-          "name": "Jeya Nishanth",
-          "college": "SRM Institute of Science and Technology",
-          "track": "Frontend Intern",
-          "photo": "people:24-Jeya-Nishanth.jpg",
-          "quote": "I'm Jeya Nishanth S, and I took part in the internship program at ICANIO Technologies with a focus on front-end web development, working with HTML, CSS, and JavaScript to design responsive web pages through hands-on projects and training sessions. The most valuable lesson was the importance of writing clean, structured code and consistently practising to improve, along with approaching problems logically instead of giving up when stuck."
-        }
+      "ids": [
+        "review-rajashree",
+        "review-siva-prabha",
+        "review-martin",
+        "review-jeya-nishanth"
       ]
     },
     {

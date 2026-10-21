@@ -10,6 +10,8 @@ const KINDS: Record<string, { kind: LibraryKind; title: string; intro: string }>
   videos: { kind: "video", title: "Videos", intro: "Student video testimonials. A video here appears in every \"What students say\" section unless that section picks specific videos." },
   students: { kind: "student", title: "Students", intro: "Internship completions with photo, track and college. They appear in the \"Students who completed internships\" sections, newest first." },
   colleges: { kind: "college", title: "Partner colleges", intro: "MoU colleges with logo and city. They appear in every partner college grid." },
+  reviews: { kind: "review", title: "Reviews", intro: "Written intern reviews with photo, college and track. Each \"What people say\" section picks which reviews it shows; new reviews go first." },
+  team: { kind: "expert", title: "Team", intro: "Industry trainers and team members shown in the \"Meet the industry trainers\" slider. Drag to change the order." },
 };
 
 export async function generateMetadata({ params }: PageProps<"/admin/library/[kind]">): Promise<Metadata> {

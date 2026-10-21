@@ -30,12 +30,27 @@ const FIELDS: Record<LibraryKind, Field[]> = {
     { key: "city", label: "City", type: "text" },
     { key: "logo", label: "Logo", type: "image" },
   ],
+  review: [
+    { key: "name", label: "Student name", type: "text" },
+    { key: "college", label: "College", type: "text", placeholder: "e.g. Ramco Institute of Technology" },
+    { key: "track", label: "Track", type: "text", placeholder: "e.g. Frontend Intern" },
+    { key: "quote", label: "Review (what they said)", type: "area", hint: "Two to four sentences in their own words. Long reviews show a Read more link." },
+    { key: "photo", label: "Photo (square)", type: "image" },
+  ],
+  expert: [
+    { key: "name", label: "Name", type: "text" },
+    { key: "role", label: "Role", type: "text", placeholder: "e.g. SDE II - Engineering" },
+    { key: "bio", label: "Short bio (shows on hover)", type: "area", placeholder: "An SDE II with 4+ years of experience in ..." },
+    { key: "photo", label: "Photo card (portrait, white background)", type: "image" },
+  ],
 };
 
 const TITLE: Record<LibraryKind, (d: Record<string, string>) => [string, string]> = {
   video: (d) => [d.name, d.role],
   student: (d) => [d.name, `${d.track} · ${d.college}`],
   college: (d) => [d.name, d.city],
+  review: (d) => [d.name, `${d.track} · ${d.college}`],
+  expert: (d) => [d.name, d.role],
 };
 
 function Item({ kind, row, onSaved, onDeleted, drag }: { kind: LibraryKind; row: LibraryRow; onSaved: (r: LibraryRow) => void; onDeleted: () => void; drag: Record<string, unknown> }) {

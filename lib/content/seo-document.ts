@@ -1,7 +1,7 @@
 import { asset } from "@/lib/images";
 import { SITE, sameAs } from "@/lib/site";
 import type { BlogPost } from "@/types/blog";
-import { breadcrumbsOf, getPage, pagesUnder, partners, storiesFor, testimonials } from "./pages";
+import { breadcrumbsOf, experts, getPage, pagesUnder, partners, reviews, storiesFor, testimonials } from "./pages";
 import type { Block, PageContent } from "./types";
 
 // (1) JSON-LD for a page and (2) a markdown mirror of its visible copy in
@@ -14,12 +14,13 @@ const orgId = `${SITE.url}/#organization`;
 /** Internship pages use the internship inbox; every other page the tech school inbox. */
 export const isInternshipPage = (p: Pick<PageContent, "kind" | "path">) => p.kind === "internship" || p.path === "/internships" || p.path === "/apply-for-internship";
 export const contactEmail = (p: Pick<PageContent, "kind" | "path">) => (isInternshipPage(p) ? SITE.internshipEmail : SITE.email);
-export const contactLine = (p: Pick<PageContent, "kind" | "path">) => `Contact our team at ${contactEmail(p)} or call ${SITE.phone}, Monday to Saturday.`;
+export const contactLine = (p: Pick<PageContent, "kind" | "path">) => `Contact our team at ${contactEmail(p)} or call ${SITE.phone}, ${SITE.hours}.`;
 export const FAQ_HEADING = "Frequently Asked Questions";
 export const TAKEAWAYS_HEADING = "Key Takeaways";
 export const REFERENCES_HEADING = "References and Sources";
 
-export const organizationSchema = {
+/** Built per render, so contact details edited in /admin/settings show up. */
+export const organizationSchema = () => ({
   "@context": "https://schema.org",
   "@type": "EducationalOrganization",
   "@id": orgId,
@@ -32,13 +33,13 @@ export const organizationSchema = {
   description: "Icanio Tech School is the education arm of Icanio Technologies. It runs industry internships, student development programs and college partnership programs in Tamil Nadu, India.",
   address: { "@type": "PostalAddress", ...SITE.address },
   areaServed: { "@type": "State", name: "Tamil Nadu" },
-  sameAs,
+  sameAs: sameAs(),
   parentOrganization: { "@type": "Organization", name: SITE.parent.name, url: SITE.parent.url },
   contactPoint: [
     { "@type": "ContactPoint", contactType: "admissions", email: SITE.email, telephone: SITE.telephone, areaServed: "IN", availableLanguage: ["English", "Tamil"] },
     { "@type": "ContactPoint", contactType: "internships", email: SITE.internshipEmail, telephone: SITE.telephone, areaServed: "IN" },
   ],
-};
+});
 
 /** Every image a page shows, in order (hero first). */
 export function imagesOf(p: PageContent) {
@@ -50,8 +51,8 @@ export function imagesOf(p: PageContent) {
     if (b.type === "gallery") b.items.forEach((g) => add(g.src, g.alt));
     if (b.type === "stories") storiesFor(b.track, b.limit, b.ids).forEach((s) => add(s.photo, `${s.name}, ${s.track} intern at ${SITE.name}`));
     if (b.type === "testimonials") testimonials(b.ids).forEach((t) => add(t.photo, `${t.name}, ${t.role} at ${SITE.name}`));
-    if (b.type === "reviews") b.items.forEach((r) => r.photo && add(r.photo, `${r.name}, ${r.track} at ${SITE.name}`));
-    if (b.type === "experts") b.items.forEach((e) => e.photo && add(e.photo, `${e.name}, ${e.role} at ${SITE.parent.name}`));
+    if (b.type === "reviews") reviews(b.ids).forEach((r) => r.photo && add(r.photo, `${r.name}, ${r.track} at ${SITE.name}`));
+    if (b.type === "experts") experts(b.ids).forEach((e) => e.photo && add(e.photo, `${e.name}, ${e.role} at ${SITE.parent.name}`));
   }
   return list;
 }
@@ -152,7 +153,7 @@ export function schemasOf(p: PageContent) {
       };
   }
 
-  return { organization: organizationSchema, webpage, faq, breadcrumb, offer };
+  return { organization: organizationSchema(), webpage, faq, breadcrumb, offer };
 }
 
 // Markdown mirror ---------------------------------------------------------
@@ -232,13 +233,13 @@ function blockMarkdown(b: Block, push: (...xs: (string | undefined | false)[]) =
       list(b.items.map((x) => `[${x.title}](${x.href}): every week, ${b.time}, ${b.modes.join(", ")}`));
       break;
     case "reviews":
-      b.items.forEach((r) => {
+      reviews(b.ids).forEach((r) => {
         push(`> ${md(r.quote)}`, `${r.name}, ${r.track}, ${r.college}`);
         if (r.photo) img(r.photo, `${r.name}, ${r.track} at ${SITE.name}`);
       });
       break;
     case "experts":
-      b.items.forEach((e) => {
+      experts(b.ids).forEach((e) => {
         push(`### ${e.name}`, e.role, md(e.bio));
         if (e.photo) img(e.photo, `${e.name}, ${e.role} at ${SITE.parent.name}`);
       });

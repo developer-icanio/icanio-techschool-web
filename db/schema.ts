@@ -53,7 +53,7 @@ export const contentRevisions = pgTable("content_revisions", {
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 });
 
-export type LibraryKind = "video" | "student" | "college";
+export type LibraryKind = "video" | "student" | "college" | "review" | "expert";
 
 /** Shared, reusable content: video testimonials, student completions, partner colleges. */
 export const libraryItems = pgTable("library_items", {
@@ -85,13 +85,21 @@ export const pagespeedResults = pgTable("pagespeed_results", {
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 });
 
+/** Site-wide settings edited in /admin/settings (one row, key "site"). */
+export const siteSettings = pgTable("site_settings", {
+  key: text("key").primaryKey(),
+  data: jsonb("data").notNull(),
+  updatedBy: varchar("updated_by", { length: 255 }),
+  updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
+});
+
 export const rateLimits = pgTable("rate_limits", {
   key: text("key").primaryKey(),
   count: integer("count").notNull(),
   resetAt: timestamp("reset_at", { withTimezone: true }).notNull(),
 });
 
-const TABLES = ["admin_users", "seo_snapshots", "content_pages", "content_revisions", "library_items", "pagespeed_results", "rate_limits"];
+const TABLES = ["admin_users", "seo_snapshots", "content_pages", "content_revisions", "library_items", "pagespeed_results", "rate_limits", "site_settings"];
 
 // Supabase publishes every table in "public" through its REST API to the
 // "anon" and "authenticated" roles. This site only connects as the database
@@ -173,6 +181,12 @@ CREATE TABLE IF NOT EXISTS pagespeed_results (
   created_at timestamptz NOT NULL DEFAULT now()
 );
 CREATE INDEX IF NOT EXISTS pagespeed_results_path_idx ON pagespeed_results (path, strategy, created_at DESC);
+CREATE TABLE IF NOT EXISTS site_settings (
+  key text PRIMARY KEY,
+  data jsonb NOT NULL,
+  updated_by varchar(255),
+  updated_at timestamptz NOT NULL DEFAULT now()
+);
 CREATE TABLE IF NOT EXISTS rate_limits (
   key text PRIMARY KEY,
   count integer NOT NULL,

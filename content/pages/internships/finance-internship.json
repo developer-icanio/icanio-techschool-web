@@ -356,14 +356,8 @@
       "eyebrow": "In their words",
       "heading": "What a Finance intern says about us",
       "intro": "Written reviews from interns who completed the finance internship at Icanio Tech School, in their own words.",
-      "items": [
-        {
-          "name": "Madhukiran",
-          "college": "Ayya Nadar Janaki Ammal College",
-          "track": "Finance Intern",
-          "photo": "people:Madhukiran-B.jpg",
-          "quote": "I'm B. Madhukiran, pursuing my Bachelor of Commerce at Ayya Nadar Janaki Ammal College, and I interned with the finance team at ICANIO to understand how finance operates in a technology-driven organisation. The most valuable lesson was strengthening my foundational knowledge in finance, since without strong basics it's difficult to learn anything further. I most enjoyed getting hands-on practice with real financial statements, preparing statements, trial balances, and more."
-        }
+      "ids": [
+        "review-madhukiran"
       ]
     },
     {

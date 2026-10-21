@@ -376,14 +376,8 @@
       "eyebrow": "In their words",
       "heading": "What a Data Analyst intern says about us",
       "intro": "Written reviews from interns who completed the data analyst internship at Icanio Tech School, in their own words.",
-      "items": [
-        {
-          "name": "Nandhini",
-          "college": "SCAD College of Engineering and Technology",
-          "track": "Data Analyst Intern",
-          "photo": "people:13-NANDHINI-A.jpg",
-          "quote": "I'm Nandhini A, and I interned as a Data Analyst, gaining hands-on exposure to real-world projects that strengthened both my technical and collaborative skills. The most valuable lesson was that technical skills alone aren't enough, teamwork, effective communication, and continuous learning are equally essential for professional success. Adapting to new tools and work processes was the main challenge, which I overcame by asking questions, seeking my mentor's guidance, and practising regularly."
-        }
+      "ids": [
+        "review-nandhini"
       ]
     },
     {

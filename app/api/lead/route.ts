@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { ensureContent } from "@/lib/content/store";
 import { sanitize, validate } from "@/lib/lead";
 import { htmlTable, sendMail } from "@/lib/mail";
 import { clientIp, rateLimit } from "@/lib/rate-limit";
@@ -40,6 +41,8 @@ export async function POST(req: Request) {
   const error = validate(p);
   if (error) return NextResponse.json({ ok: false, error }, { status: 422 });
 
+  // Inbox addresses come from /admin/settings.
+  await ensureContent();
   const student = p.kind === "student" || (p.kind === "callback" && p.audience === "Student");
   const to = process.env.LEAD_TO_OVERRIDE || (student ? SITE.internshipEmail : SITE.email);
   const rows: [string, string | undefined][] = p.kind === "callback"

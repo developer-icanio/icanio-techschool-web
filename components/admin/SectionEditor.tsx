@@ -11,6 +11,8 @@ export interface EditorContext {
   pages: { path: string; label: string }[];
   videos: LibraryOption[];
   students: LibraryOption[];
+  reviews: LibraryOption[];
+  experts: LibraryOption[];
 }
 
 // What each block is called in the dashboard, matching the content sheet.
@@ -188,46 +190,9 @@ function Body({ b, set, ctx }: { b: Block; set: (b: Block) => void; ctx: EditorC
         </div>
       );
     case "reviews":
-      return (
-        <ListEditor
-          items={b.items}
-          onChange={(items) => set({ ...b, items })}
-          title={(r) => `${r.name} (${r.track})`}
-          blank={() => ({ name: "", college: "", track: "", quote: "" }) as (typeof b.items)[number]}
-          addLabel="Add review"
-          render={(r, s) => (
-            <>
-              <div className="grid gap-3 sm:grid-cols-3">
-                <Text label="Name" value={r.name} onChange={(name) => s({ ...r, name })} />
-                <Text label="College" value={r.college} onChange={(college) => s({ ...r, college })} />
-                <Text label="Track" value={r.track} onChange={(track) => s({ ...r, track })} placeholder="e.g. Frontend Intern" />
-              </div>
-              <Area label="What they said" value={r.quote} onChange={(quote) => s({ ...r, quote })} rows={4} />
-              <Upload label="Photo (square)" value={r.photo} accept="image/*" preview="icon" onChange={(u) => s({ ...r, photo: u.src })} />
-            </>
-          )}
-        />
-      );
+      return <Picker options={ctx.reviews} value={b.ids ?? []} onChange={(ids) => set({ ...b, ids })} note="Tick the reviews to show here, in order. Leave all unticked to show every published review. Add or edit reviews in Library: Reviews." />;
     case "experts":
-      return (
-        <ListEditor
-          items={b.items}
-          onChange={(items) => set({ ...b, items })}
-          title={(e) => `${e.name}, ${e.role}`}
-          blank={() => ({ name: "", role: "", bio: "" }) as (typeof b.items)[number]}
-          addLabel="Add team member"
-          render={(e, s) => (
-            <>
-              <div className="grid gap-3 sm:grid-cols-2">
-                <Text label="Name" value={e.name} onChange={(name) => s({ ...e, name })} />
-                <Text label="Role" value={e.role} onChange={(role) => s({ ...e, role })} placeholder="e.g. SDE II - Engineering" />
-              </div>
-              <Area label="Short bio (shows on hover)" value={e.bio} onChange={(bio) => s({ ...e, bio })} rows={3} />
-              <Upload label="Photo card" value={e.photo} accept="image/*" preview="image" onChange={(u) => s({ ...e, photo: u.src })} />
-            </>
-          )}
-        />
-      );
+      return <Picker options={ctx.experts} value={b.ids ?? []} onChange={(ids) => set({ ...b, ids })} note="Tick people to show here, in order. Leave all unticked to show everyone in Library: Team, in that order." />;
     case "tools":
       return (
         <ListEditor

@@ -66,10 +66,10 @@ export type Block =
   | (BlockBase & { type: "form"; form: "student" | "college"; points?: string[] })
   /** Upcoming batches. The start date is worked out in the browser: the next `weekday` (0 = Sunday, 2 = Tuesday) in India time, today included. */
   | (BlockBase & { type: "batches"; weekday: number; time: string; modes: string[]; items: { title: string; href: string; weekOffset?: number }[] })
-  /** Written intern reviews, shown as a slider. `photo` is an image key; without it the card shows initials. */
-  | (BlockBase & { type: "reviews"; items: { name: string; college: string; track: string; photo?: string; quote: string }[] })
-  /** Team members (experts) slider: photo card, the bio shows on hover or tap. */
-  | (BlockBase & { type: "experts"; dark?: boolean; items: { name: string; role: string; bio: string; photo?: string }[] });
+  /** Written intern reviews slider (data: Library: Reviews). `ids` picks and orders reviews; empty = all published. */
+  | (BlockBase & { type: "reviews"; ids?: string[] })
+  /** Team members slider (data: Library: Team). `ids` picks and orders people; empty = everyone published. */
+  | (BlockBase & { type: "experts"; ids?: string[] });
 
 export type PageKind = "home" | "hub" | "internship" | "program" | "college" | "page" | "guide";
 

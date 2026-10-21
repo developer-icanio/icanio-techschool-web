@@ -2,8 +2,9 @@ import "server-only";
 import { asc, desc, eq } from "drizzle-orm";
 import { getDb, schema } from "@/db";
 import type { LibraryKind } from "@/db/schema";
-import { filePages, live, sharedFile, type Partner, type Story, type Testimonial } from "./pages";
+import { filePages, live, sharedFile, type Expert, type Partner, type Review, type Story, type Testimonial } from "./pages";
 import type { PageContent } from "./types";
+import { applySettings, type SiteSettings } from "@/lib/site";
 
 // Dashboard-edited content lives in Postgres. Every render calls
 // ensureContent() first; it loads page edits and the shared libraries into
@@ -14,6 +15,8 @@ const SEEDS: Record<LibraryKind, () => { id: string }[]> = {
   video: () => sharedFile<Testimonial>("testimonials", "video"),
   student: () => sharedFile<Story>("stories", "student"),
   college: () => sharedFile<Partner>("partners", "college"),
+  review: () => sharedFile<Review>("reviews", "review"),
+  expert: () => sharedFile<Expert>("experts", "expert"),
 };
 
 let seeded: Promise<void> | undefined;
@@ -48,13 +51,15 @@ async function load() {
     console.error("[content] seed failed", e);
   });
   await seeded;
-  const [pages, items] = await Promise.all([
+  const [pages, items, settings] = await Promise.all([
     db.select().from(schema.contentPages),
     db.select().from(schema.libraryItems).where(eq(schema.libraryItems.published, 1)).orderBy(asc(schema.libraryItems.sort)),
+    db.select().from(schema.siteSettings).where(eq(schema.siteSettings.key, "site")).limit(1),
   ]);
+  applySettings(settings[0]?.data as Partial<SiteSettings> | undefined);
   live.pages = new Map(pages.map((p) => [p.path, p.data as PageContent]));
   const pick = <T,>(kind: LibraryKind) => items.filter((i) => i.kind === kind).map((i) => ({ ...(i.data as object), id: i.id }) as T);
-  live.library = { video: pick<Testimonial>("video"), student: pick<Story>("student"), college: pick<Partner>("college") };
+  live.library = { video: pick<Testimonial>("video"), student: pick<Story>("student"), college: pick<Partner>("college"), review: pick<Review>("review"), expert: pick<Expert>("expert") };
 }
 
 // Pages ---------------------------------------------------------------------
@@ -102,6 +107,17 @@ export async function resetPage(path: string, by: string) {
 }
 
 // Libraries ------------------------------------------------------------------
+
+// Site settings ---------------------------------------------------------------
+
+export async function saveSettings(data: SiteSettings, by: string) {
+  const db = await getDb();
+  if (!db) throw new Error("No database configured.");
+  await db
+    .insert(schema.siteSettings)
+    .values({ key: "site", data, updatedBy: by, updatedAt: new Date() })
+    .onConflictDoUpdate({ target: schema.siteSettings.key, set: { data, updatedBy: by, updatedAt: new Date() } });
+}
 
 export async function libraryList(kind: LibraryKind) {
   const db = await getDb();

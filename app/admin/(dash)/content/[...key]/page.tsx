@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import PageEditor from "@/components/admin/PageEditor";
 import { ScorePill } from "@/components/admin/ui";
 import { assetMap, canEdit, requireAdmin } from "@/lib/admin";
-import { allPages, getPage, stories, testimonials } from "@/lib/content/pages";
+import { allPages, experts, getPage, reviews, stories, testimonials } from "@/lib/content/pages";
 import { pageMeta } from "@/lib/content/store";
 import { keyOf, pageReport, pathOfKey } from "@/lib/seo-report";
 
@@ -50,6 +50,8 @@ export default async function EditPage({ params }: PageProps<"/admin/content/[..
             pages: allPages().map((p) => ({ path: p.path, label: p.label })),
             videos: testimonials().map((t) => ({ id: t.id, title: t.name, subtitle: t.role, photo: t.photo })),
             students: stories().map((s) => ({ id: s.id, title: s.name, subtitle: `${s.track} · ${s.college}`, photo: s.photo })),
+            reviews: reviews().map((r) => ({ id: r.id, title: r.name, subtitle: `${r.track} · ${r.college}`, photo: r.photo ?? "" })),
+            experts: experts().map((e) => ({ id: e.id, title: e.name, subtitle: e.role, photo: e.photo ?? "" })),
           }}
         />
       )}

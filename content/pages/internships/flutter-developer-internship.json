@@ -385,21 +385,9 @@
       "eyebrow": "In their words",
       "heading": "What Flutter interns say about us",
       "intro": "Written reviews from interns who completed the Flutter developer internship at Icanio Tech School, in their own words.",
-      "items": [
-        {
-          "name": "Jerovin Floyd",
-          "college": "IIIT-Delhi",
-          "track": "Flutter Intern",
-          "photo": "people:11-Jerovin-Floyd.jpeg",
-          "quote": "I'm Jerovin Floyd, a third-year B.Tech CSE student at IIIT-Delhi, originally from Tirunelveli and raised in Qatar. During my internship, I built a fully functioning app using Flutter/Dart and Firebase to replace the old Google-Forms-based system for collecting daily intern evaluations of communication activities. The most valuable lesson was that building a good product isn't just about writing code, it's about continuously understanding problems, debugging patiently, thinking end-to-end, and iterating instead of chasing perfection on the first try."
-        },
-        {
-          "name": "Sumithra",
-          "college": "Ramco Institute of Technology, Rajapalayam",
-          "track": "Flutter Intern",
-          "photo": "people:23-Sumithra.jpg",
-          "quote": "I'm Sumithra K, a student intern who worked on learning and developing skills in Flutter application development, understanding core concepts, building UI components, writing code, and testing applications for mobile app development. The most valuable lesson was the importance of continuous learning and problem-solving, since technical skills grow through regular practice, patience, and learning from mistakes, alongside teamwork, communication, and time management."
-        }
+      "ids": [
+        "review-jerovin-floyd",
+        "review-sumithra"
       ]
     },
     {
