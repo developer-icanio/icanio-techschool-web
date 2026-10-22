@@ -6,6 +6,7 @@ import { getDb, schema } from "@/db";
 import type { AdminRole } from "@/db/schema";
 import { scoreboard } from "@/lib/seo-report";
 import { desc } from "drizzle-orm";
+import { cdn } from "@/lib/images";
 
 /** Second lock after proxy.ts: every admin page and action calls this. */
 export async function requireAdmin(roles?: AdminRole[]) {
@@ -52,5 +53,5 @@ export const canEdit = (role: AdminRole) => role !== "seo";
 /** WordPress filename -> optimised image URL, for previews in the editor. */
 export function assetMap(): Record<string, string> {
   const map = JSON.parse(fs.readFileSync(`${process.cwd()}/lib/images.json`, "utf8")) as Record<string, { src: string }>;
-  return Object.fromEntries(Object.entries(map).map(([k, v]) => [k, v.src]));
+  return Object.fromEntries(Object.entries(map).map(([k, v]) => [k, cdn(v.src)]));
 }

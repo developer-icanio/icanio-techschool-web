@@ -53,7 +53,7 @@ export default async function Media({ searchParams }: PageProps<"/admin/media">)
               <tr key={`${r.pagePath}-${r.url}-${i}`} className="align-top">
                 <td className="p-3">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={r.url.replace(/^https?:\/\/[^/]+(?=\/images\/)/, "")} alt="" loading="lazy" className="h-14 w-20 rounded-md bg-soft object-contain" />
+                  <img src={r.url} alt="" loading="lazy" className="h-14 w-20 rounded-md bg-soft object-contain" />
                 </td>
                 <td className="max-w-xs p-3">
                   <p className="break-all font-medium text-heading">{r.file}</p>

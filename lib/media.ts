@@ -24,6 +24,11 @@ export interface MediaRow {
 
 const sizes = JSON.parse(fs.readFileSync(path.join(process.cwd(), "lib/images.json"), "utf8")) as Record<string, { src: string; w?: number; h?: number }>;
 const bySrc = new Map(Object.values(sizes).map((v) => [v.src, v]));
+/** /images/... path of a site image, whether it is served locally or from R2. */
+const localPath = (src: string) => {
+  const base = process.env.R2_PUBLIC_URL?.replace(/\/$/, "");
+  return base && src.startsWith(base + "/") ? src.slice(base.length) : src;
+};
 
 export function mediaRows(): MediaRow[] {
   return allPages().flatMap((p) => {
@@ -32,20 +37,21 @@ export function mediaRows(): MediaRow[] {
     return imagesOf(p)
       .filter((i) => !seen.has(i.src) && seen.add(i.src))
       .map((i) => {
-        const local = i.src.startsWith("/");
-        const parts = local ? i.src.split("/") : new URL(i.src).pathname.split("/");
+        const src = localPath(i.src);
+        const local = src.startsWith("/");
+        const parts = local ? src.split("/") : new URL(src).pathname.split("/");
         let kb: number | undefined;
         try {
-          if (local) kb = Math.round(fs.statSync(path.join(process.cwd(), "public", i.src)).size / 1024);
+          if (local) kb = Math.round(fs.statSync(path.join(process.cwd(), "public", src)).size / 1024);
         } catch {}
-        const meta = bySrc.get(i.src);
+        const meta = bySrc.get(src);
         return {
           page: p.label,
           pagePath: p.path,
           keyword: kw,
-          folder: parts.slice(local ? 2 : 1, -1).join("/") || (local ? "(root)" : new URL(i.src).host),
+          folder: parts.slice(local ? 2 : 1, -1).join("/") || (local ? "(root)" : new URL(src).host),
           file: parts.at(-1) ?? "",
-          url: local ? `${SITE.url}${i.src}` : i.src,
+          url: i.src.startsWith("/") ? `${SITE.url}${i.src}` : i.src,
           alt: i.alt,
           altHasKeyword: i.alt.toLowerCase().includes(kw),
           w: meta?.w,

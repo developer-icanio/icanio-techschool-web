@@ -33,7 +33,18 @@ async function connect() {
     // A dropped connection (network blip, pooler restart) must not crash the
     // server: log it; the pool opens a fresh connection on the next query.
     pool.on("error", (e) => console.error("[db] connection lost:", e.message));
-    await pool.query(schema.SCHEMA_SQL);
+    // Several processes can connect at once (build workers, serverless
+    // instances): an advisory lock makes them apply the schema one at a time
+    // instead of deadlocking on the ALTER TABLE statements.
+    const c = await pool.connect();
+    try {
+      await c.query(`BEGIN; SELECT pg_advisory_xact_lock(724001); ${schema.SCHEMA_SQL} COMMIT;`);
+    } catch (e) {
+      await c.query("ROLLBACK").catch(() => {});
+      throw e;
+    } finally {
+      c.release();
+    }
     g.__techschoolDbKind = "postgres";
     return drizzle(pool, { schema });
   }
