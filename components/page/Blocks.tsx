@@ -444,12 +444,13 @@ export function BlockView({ b, email = SITE.email }: { b: Block; email?: string 
       );
 
     case "experts":
+      // Always on the brand blue: the cut-out team photos are made for it.
       return (
-        <Section id={b.id} tone={tone}>
-          {head}
-          <Carousel label={b.heading} dark={dark} perView="lg:w-[calc((100%-72px)/4)]">
+        <Section id={b.id} tone="navy" className="!bg-[linear-gradient(180deg,#00264c_0%,#004589_100%)]">
+          <SectionHead eyebrow={b.eyebrow} heading={b.heading} intro={b.intro} tone="navy" />
+          <Carousel label={b.heading} dark perView="lg:w-[calc((100%-72px)/4)]">
             {experts(b.ids).map((e) => (
-              <article key={e.id} tabIndex={0} className="group relative aspect-[720/764] overflow-hidden rounded-2xl bg-[linear-gradient(180deg,#f3f7fb_0%,#dfe8f1_100%)] shadow-sm shadow-slate-900/10 outline-none focus-visible:ring-2 focus-visible:ring-cyan">
+              <article key={e.id} tabIndex={0} className="group relative aspect-[720/764] overflow-hidden rounded-2xl bg-[linear-gradient(180deg,#2a95e0_0%,#0d5ea8_55%,#00366c_100%)] shadow-lg shadow-slate-950/25 ring-1 ring-white/15 outline-none focus-visible:ring-2 focus-visible:ring-cyan">
                 {e.photo ? (
                   <Image src={asset(e.photo).src} alt={`${e.name}, ${e.role} at ${SITE.parent.name}`} fill sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 85vw" className="object-contain object-bottom" />
                 ) : (

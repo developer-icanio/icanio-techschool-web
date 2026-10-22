@@ -1,4 +1,5 @@
 // Hero banners: the artwork sits on its own canvas (white or pale grey on
+// Afterwards run `node scripts/organize-images.mjs` to file the result into its page folder.
 // light banners, a dark navy/teal/purple gradient on the track banners).
 // This removes that canvas with a flood fill from the edges, so colours
 // inside the subject (a white shirt, a navy jacket) are kept, and trims to

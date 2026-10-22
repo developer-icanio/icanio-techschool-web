@@ -38,7 +38,7 @@ export async function GET(req: Request) {
     {
       ok: database.status === "connected" || database.status === "local embedded",
       database,
-      fileStorage: process.env.BLOB_READ_WRITE_TOKEN ? "vercel blob" : process.env.NODE_ENV === "production" ? "not configured" : "local folder",
+      fileStorage: process.env.R2_BUCKET && process.env.R2_ACCESS_KEY_ID ? "cloudflare r2" : process.env.NODE_ENV === "production" ? "not configured" : "local folder",
       googleLogin: Boolean(process.env.AUTH_SECRET && process.env.AUTH_GOOGLE_ID && process.env.AUTH_GOOGLE_SECRET),
       owners: Boolean(process.env.ADMIN_EMAILS),
       leadEmail: Boolean(process.env.RESEND_API_KEY && process.env.RESEND_FROM),

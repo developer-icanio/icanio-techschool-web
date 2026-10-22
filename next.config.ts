@@ -34,7 +34,17 @@ const MOVED: [string, string][] = [
 ];
 
 const dev = process.env.NODE_ENV !== "production";
-const BLOB = "https://*.public.blob.vercel-storage.com";
+// Dashboard uploads live in Cloudflare R2: browsers upload to the account
+// endpoint and load files from the bucket's public URL (r2.dev or a custom
+// domain set in R2_PUBLIC_URL).
+const R2_PUBLIC = (() => {
+  try {
+    return process.env.R2_PUBLIC_URL ? new URL(process.env.R2_PUBLIC_URL).host : "";
+  } catch {
+    return "";
+  }
+})();
+const STORAGE = ["https://*.r2.dev", R2_PUBLIC && `https://${R2_PUBLIC}`].filter(Boolean).join(" ");
 
 // Content Security Policy: the browser only loads code and media from this
 // site and our Blob storage, can't be framed by other sites (clickjacking),
@@ -45,11 +55,11 @@ const CSP = [
   "default-src 'self'",
   `script-src 'self' 'unsafe-inline'${dev ? " 'unsafe-eval'" : ""}`,
   "style-src 'self' 'unsafe-inline'",
-  `img-src 'self' data: blob: ${BLOB}`,
+  `img-src 'self' data: blob: ${STORAGE}`,
   "font-src 'self' data:",
-  `media-src 'self' blob: ${BLOB}`,
-  // Dashboard uploads go from the browser straight to Vercel Blob.
-  `connect-src 'self' https://vercel.com ${BLOB}${dev ? " ws: wss:" : ""}`,
+  `media-src 'self' blob: ${STORAGE}`,
+  // Dashboard uploads go from the browser straight to Cloudflare R2.
+  `connect-src 'self' https://*.r2.cloudflarestorage.com${dev ? " ws: wss:" : ""}`,
   "frame-src 'none'",
   "object-src 'none'",
   "base-uri 'self'",
@@ -88,8 +98,8 @@ const nextConfig: NextConfig = {
   images: {
     formats: ["image/avif", "image/webp"],
     qualities: [70, 75],
-    // Dashboard uploads (Vercel Blob).
-    remotePatterns: [{ protocol: "https", hostname: "*.public.blob.vercel-storage.com" }],
+    // Dashboard uploads (Cloudflare R2 public URL).
+    remotePatterns: [{ protocol: "https", hostname: "*.r2.dev" }, ...(R2_PUBLIC ? [{ protocol: "https" as const, hostname: R2_PUBLIC }] : [])],
   },
   async redirects() {
     return MOVED.map(([source, destination]) => ({ source, destination, permanent: true }));

@@ -52,7 +52,8 @@ function urlOf(p: PageContent): SitemapUrl {
     lastmod: p.seo.updatedAt,
     changefreq: p.kind === "home" || p.kind === "hub" ? "weekly" : "monthly",
     priority: p.kind === "home" ? 1 : p.kind === "hub" ? 0.9 : p.kind === "internship" || p.kind === "college" ? 0.8 : 0.6,
-    images: imagesOf(p).slice(0, 5).map((i) => abs(i.src)),
+    // Every image on the page (Google reads up to 1,000 per URL).
+    images: [...new Set(imagesOf(p).map((i) => abs(i.src)))],
   };
 }
 

@@ -1,4 +1,5 @@
 // Imports the design team's images (_reference/team-images/<Folder>/<File>.png)
+// Afterwards run `node scripts/organize-images.mjs` to file the result into its page folder.
 // into public/images/ts/*.webp and registers them in lib/images.json under
 // "ts:<Folder>/<File>.png". Hero banners (very wide) also get a "tone"
 // (dark/light) measured from their left side, where the heading sits.

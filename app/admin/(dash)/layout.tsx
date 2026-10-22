@@ -18,6 +18,7 @@ export default async function AdminLayout({ children }: LayoutProps<"/admin">) {
     { href: "/admin/library/colleges", label: "Partner colleges" },
     { href: "/admin/library/reviews", label: "Reviews" },
     { href: "/admin/library/team", label: "Team" },
+    { href: "/admin/media", label: "Media" },
     { href: "/admin/settings", label: "Site settings" },
     { href: "/admin/seo", label: "SEO scoreboard" },
     { href: "/admin/speed", label: "PageSpeed" },
