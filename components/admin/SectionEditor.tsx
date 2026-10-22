@@ -69,6 +69,19 @@ function Picker({ options, value, onChange, note }: { options: LibraryOption[]; 
   return (
     <div>
       <p className="text-xs text-muted">{note}</p>
+      {/* Say plainly what visitors will see: ticking means "only these". */}
+      <div className={`mt-2 flex flex-wrap items-center justify-between gap-2 rounded-lg px-3 py-2 text-sm ${chosen.length ? "bg-amber-50 text-amber-900" : "bg-emerald-50 text-emerald-800"}`}>
+        <span>
+          {chosen.length
+            ? `Showing only ${chosen.length} of ${options.length}: the ticked ones, in this order.`
+            : `Showing all ${options.length}, in the library order.`}
+        </span>
+        {chosen.length > 0 && (
+          <button type="button" onClick={() => onChange([])} className="rounded-md bg-white px-2.5 py-1 text-xs font-semibold text-navy ring-1 ring-amber-200 hover:bg-navy hover:text-white">
+            Show all {options.length}
+          </button>
+        )}
+      </div>
       <ul className="mt-2 grid gap-2 sm:grid-cols-2">
         {options.map((o) => {
           const pos = chosen.indexOf(o.id);
