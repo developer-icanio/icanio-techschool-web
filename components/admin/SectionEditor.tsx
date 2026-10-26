@@ -199,7 +199,7 @@ function Body({ b, set, ctx }: { b: Block; set: (b: Block) => void; ctx: EditorC
                 {["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"].map((d, i) => <option key={d} value={i}>{d}</option>)}
               </select>
             </label>
-            <Text label="Timing" value={b.time} onChange={(time) => set({ ...b, time })} placeholder="9am to 6pm" />
+            <Text label="Timing (optional)" value={b.time} onChange={(time) => set({ ...b, time })} placeholder="9am to 6pm" hint="Leave empty to hide the clock line." />
             <Text label="Modes (comma separated)" value={b.modes.join(", ")} onChange={(v) => set({ ...b, modes: v.split(",").map((x) => x.trim()).filter(Boolean) })} placeholder="Offline, Online, Part time" />
           </div>
           <ListEditor

@@ -404,10 +404,13 @@ export function BlockView({ b, email = SITE.email }: { b: Block; email?: string 
                   <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden className="text-navy"><rect x="3" y="4.5" width="14" height="12.5" rx="2" fill="none" stroke="currentColor" strokeWidth="1.6" /><path d="M3 8.5h14M7 3v3M13 3v3" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" /></svg>
                   <span><span className="sr-only">Next batch starts </span><BatchDate weekday={b.weekday} weekOffset={x.weekOffset} /></span>
                 </p>
-                <p className="mt-2 flex items-center gap-2 text-[15px] text-body">
-                  <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden className="text-navy"><circle cx="10" cy="10" r="7.25" fill="none" stroke="currentColor" strokeWidth="1.6" /><path d="M10 6v4.2l2.8 1.8" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" /></svg>
-                  {b.time}
-                </p>
+                {/* Timing is optional: no clock line when it is left empty in the dashboard. */}
+                {b.time?.trim() && (
+                  <p className="mt-2 flex items-center gap-2 text-[15px] text-body">
+                    <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden className="text-navy"><circle cx="10" cy="10" r="7.25" fill="none" stroke="currentColor" strokeWidth="1.6" /><path d="M10 6v4.2l2.8 1.8" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" /></svg>
+                    {b.time.trim()}
+                  </p>
+                )}
                 <Link href={x.href} className="btn btn-outline mt-6 w-full justify-center">Apply now for this internship</Link>
               </article>
             ))}

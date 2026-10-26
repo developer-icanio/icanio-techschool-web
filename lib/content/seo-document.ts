@@ -230,7 +230,7 @@ function blockMarkdown(b: Block, push: (...xs: (string | undefined | false)[]) =
       if (b.points) list(b.points);
       break;
     case "batches":
-      list(b.items.map((x) => `[${x.title}](${x.href}): every week, ${b.time}, ${b.modes.join(", ")}`));
+      list(b.items.map((x) => `[${x.title}](${x.href}): ${["every week", b.time?.trim(), b.modes.join(", ")].filter(Boolean).join(", ")}`));
       break;
     case "reviews":
       reviews(b.ids).forEach((r) => {
