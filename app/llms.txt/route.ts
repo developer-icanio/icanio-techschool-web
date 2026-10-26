@@ -24,6 +24,8 @@ export async function GET() {
     "",
     `${SITE.name} is the education arm of ${SITE.parent.name} (${SITE.parent.url}), based in Tamil Nadu, India. Contact: ${SITE.email}, internships: ${SITE.internshipEmail}, phone ${SITE.phone}.`,
     "",
+    `The full text of every page is at ${SITE.url}/llms-full.txt. AI usage permissions: ${SITE.url}/ai.txt.`,
+    "",
   ];
   for (const [title, match] of GROUPS) {
     const list = pages.filter((p) => match(p.kind));
