@@ -56,6 +56,10 @@ export function ResultNote({ r }: { r: SaveResult | null }) {
 /** Tick and order items from a library (videos or students). */
 function Picker({ options, value, onChange, note }: { options: LibraryOption[]; value: string[]; onChange: (v: string[]) => void; note: string }) {
   const asset = useAsset();
+  // Search only narrows the list on screen; ticks and their order are kept.
+  const [q, setQ] = useState("");
+  const terms = q.toLowerCase().split(/\s+/).filter(Boolean);
+  const shown = terms.length ? options.filter((o) => terms.every((t) => `${o.title} ${o.subtitle}`.toLowerCase().includes(t))) : options;
   const chosen = value.filter((id) => options.some((o) => o.id === id));
   const toggle = (id: string) => onChange(chosen.includes(id) ? chosen.filter((x) => x !== id) : [...chosen, id]);
   const move = (id: string, d: number) => {
@@ -82,8 +86,20 @@ function Picker({ options, value, onChange, note }: { options: LibraryOption[]; 
           </button>
         )}
       </div>
+      <div className="relative mt-2">
+        <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-muted"><circle cx="9" cy="9" r="6" fill="none" stroke="currentColor" strokeWidth="1.8" /><path d="m13.5 13.5 4 4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>
+        <input
+          type="search"
+          value={q}
+          onChange={(e) => setQ(e.target.value)}
+          placeholder={`Search ${options.length} by name, track or college`}
+          aria-label="Search the list"
+          className="w-full rounded-lg border border-slate-300 bg-white py-2 pl-9 pr-3 text-sm text-heading outline-none focus:border-navy focus:ring-2 focus:ring-navy/15"
+        />
+      </div>
+      {terms.length > 0 && <p className="mt-1.5 text-xs text-muted">{shown.length ? `${shown.length} of ${options.length} match "${q}"` : `Nothing matches "${q}"`}</p>}
       <ul className="mt-2 grid gap-2 sm:grid-cols-2">
-        {options.map((o) => {
+        {shown.map((o) => {
           const pos = chosen.indexOf(o.id);
           return (
             <li key={o.id} className={`flex items-center gap-3 rounded-xl border p-2 ${pos >= 0 ? "border-navy bg-soft" : "border-line bg-white"}`}>
