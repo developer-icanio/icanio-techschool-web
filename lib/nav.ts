@@ -5,6 +5,9 @@
 export interface NavLink { label: string; href: string; note?: string }
 export interface NavGroup { label: string; href: string; columns: { title: string; links: NavLink[] }[]; cta?: NavLink }
 
+/** Top-level "Careers" link: jobs are listed on the Icanio Technologies site. */
+export const CAREERS: NavLink = { label: "Careers", href: "https://icanio.com/careers-at-icanio-software-development-and-tech-jobs" };
+
 export const ENGINEERING_TRACKS: NavLink[] = [
   { label: "Frontend Development", href: "/internships/frontend-development-internship" },
   { label: "Backend Development", href: "/internships/backend-development-internship" },

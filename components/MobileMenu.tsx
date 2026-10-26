@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
-import { NAV } from "@/lib/nav";
+import { CAREERS, NAV } from "@/lib/nav";
 
 export default function MobileMenu() {
   const path = usePathname();
@@ -65,6 +65,12 @@ export default function MobileMenu() {
                 </details>
               </li>
             ))}
+            <li>
+              <a href={CAREERS.href} className="flex items-center justify-between py-4 text-base font-semibold text-heading">
+                {CAREERS.label}
+                <span aria-hidden className="text-navy">→</span>
+              </a>
+            </li>
           </ul>
           <div className="mt-6 grid gap-3">
             <Link href="/apply-for-internship" className="btn btn-primary">Apply for an internship</Link>
