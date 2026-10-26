@@ -23,8 +23,7 @@ export async function generateMetadata({ params }: PageProps<"/[[...slug]]">): P
   if (!p) return {};
   const og = imagesOf(p)[0];
   return {
-    // Home carries the full brand name: "Build Your Industry Tech Career | Icanio Tech School".
-    title: p.path === "/" ? { absolute: `${p.seo.metaTitle} | ${SITE.name}` } : p.seo.metaTitle,
+    title: p.path === "/" ? { absolute: `${p.seo.metaTitle}${SITE.titleSuffix}` } : p.seo.metaTitle,
     description: p.seo.metaDescription,
     keywords: [p.seo.focusKeyword, ...p.seo.secondaryKeywords],
     alternates: { canonical: p.path },
