@@ -102,7 +102,12 @@ const nextConfig: NextConfig = {
     remotePatterns: [{ protocol: "https", hostname: "*.r2.dev" }, ...(R2_PUBLIC ? [{ protocol: "https" as const, hostname: R2_PUBLIC }] : [])],
   },
   async redirects() {
-    return MOVED.map(([source, destination]) => ({ source, destination, permanent: true }));
+    return [
+      // One canonical site: the old Vercel address goes to the live domain,
+      // page for page (preview deployments keep their own URLs for review).
+      { source: "/:path*", has: [{ type: "host" as const, value: "icaniotechschool.vercel.app" }], destination: "https://www.icanioschools.com/:path*", permanent: true },
+      ...MOVED.map(([source, destination]) => ({ source, destination, permanent: true })),
+    ];
   },
 };
 

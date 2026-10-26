@@ -53,7 +53,7 @@ export default function PageDetailsEditor({ p, path, pages }: { p: PageContent; 
             <div className="rounded-lg border border-line bg-white p-3">
               <p className="text-xs text-muted">Preview in Google</p>
               <p className="mt-1 truncate text-[17px] text-[#1a0dab]">{d.seo.metaTitle} | Icanio</p>
-              <p className="text-xs text-[#006621]">techschool.icanio.com{path === "/" ? "" : path}</p>
+              <p className="text-xs text-[#006621]">www.icanioschools.com{path === "/" ? "" : path}</p>
               <p className="mt-0.5 line-clamp-2 text-sm text-slate-600">{d.seo.metaDescription}</p>
             </div>
           </div>

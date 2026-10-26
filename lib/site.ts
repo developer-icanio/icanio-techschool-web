@@ -1,13 +1,12 @@
 // Site-wide identity. lib/seo reads brand, title suffix and topical entities
 // from here.
 //
-// Canonical URL, sitemap and robots use: NEXT_PUBLIC_SITE_URL if set, else
-// Vercel's production domain (icaniotechschool.vercel.app today; Vercel
-// switches it to the custom domain once one is added), else the planned domain.
-const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ||
-  (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : "") ||
-  "https://techschool.icanio.com";
+// Canonical URL, sitemaps, robots, structured data and llms.txt use the
+// live domain, www.icanioschools.com (live since October 2026). Every other
+// host (icaniotechschool.vercel.app, icanioschools.com without www) is
+// redirected there, so search engines see one site. NEXT_PUBLIC_SITE_URL can
+// override it (e.g. for a staging copy).
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.icanioschools.com";
 
 export const SITE = {
   name: "Icanio Tech School",
