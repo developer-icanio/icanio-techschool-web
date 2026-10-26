@@ -5,14 +5,12 @@ import { breadcrumbsOf } from "@/lib/content/pages";
 import { contactEmail, contactLine, FAQ_HEADING, REFERENCES_HEADING, schemasOf, TAKEAWAYS_HEADING } from "@/lib/content/seo-document";
 import type { PageContent } from "@/lib/content/types";
 import { asset } from "@/lib/images";
-import { SITE } from "@/lib/site";
 import { BlockView } from "./Blocks";
 import { Section } from "./Section";
 
 // Render order must match markdownOf() in lib/content/seo-document.ts:
 // hero > facts > answer > sections > FAQ > takeaways > conclusion > references > CTA.
 
-const fmt = (d: string) => new Date(d).toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" });
 
 function Hero({ p }: { p: PageContent }) {
   const h = p.hero;
@@ -111,9 +109,6 @@ export default function PageView({ p }: { p: PageContent }) {
           <p className="text-xs font-semibold uppercase tracking-wider text-navy">Quick answer</p>
           <h2 className="mt-2 text-2xl font-bold leading-snug sm:text-[28px]">{p.answer.question}</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-body">{p.answer.answer}</p>
-          <p className="mt-4 text-xs text-muted">
-            By {SITE.author} · Updated <time dateTime={p.seo.updatedAt}>{fmt(p.seo.updatedAt)}</time>
-          </p>
         </div>
       </Section>
 
