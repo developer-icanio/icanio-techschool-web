@@ -10,7 +10,7 @@ const ROOT = path.join(process.cwd(), "content");
 
 const BLOCK_TYPES = new Set<Block["type"]>([
   "prose", "cards", "steps", "phases", "tools", "table", "checklist", "stats",
-  "partners", "testimonials", "stories", "gallery", "links", "form", "batches", "reviews", "experts",
+  "partners", "testimonials", "stories", "gallery", "links", "form", "batches", "reviews", "experts", "events",
 ]);
 
 function walk(dir: string): string[] {
@@ -45,7 +45,32 @@ export const live: {
 export function allPages(): PageContent[] {
   const files = filePages();
   if (!live.pages?.size) return files;
-  return files.map((p) => live.pages!.get(p.path) ?? p);
+  return files.map((p) => upgrade(live.pages!.get(p.path) ?? p));
+}
+
+const MONTHS = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"];
+
+/**
+ * Pages saved in the dashboard before the "events" section existed kept
+ * their event list as a steps section (id "events") with the date written in
+ * the text ("Session: 15 Sep 2026, 10:00 am to 12:30 pm."). This turns it
+ * into a dated events section, so past events hide on their own. A page
+ * saved again in the dashboard stores the new form and skips this.
+ */
+function upgrade(p: PageContent): PageContent {
+  const i = p.sections.findIndex((s) => s.type === "steps" && s.id === "events");
+  if (i < 0) return p;
+  const old = p.sections[i] as Extract<Block, { type: "steps" }>;
+  const items = old.items.flatMap((s) => {
+    const m = s.body.match(/Session:\s*(\d{1,2})\s+([A-Za-z]{3})[a-z]*\s+(\d{4})(?:,\s*([^.]+))?/);
+    const mon = m ? MONTHS.indexOf(m[2].toLowerCase()) : -1;
+    if (!m || mon < 0) return [];
+    const date = `${m[3]}-${String(mon + 1).padStart(2, "0")}-${m[1].padStart(2, "0")}`;
+    return [{ date, title: s.title, body: s.body.replace(/\s*Session:.*$/, "").trim(), time: m[4]?.trim() }];
+  });
+  const sections = [...p.sections];
+  sections[i] = { type: "events", id: "events", tone: old.tone, eyebrow: "Upcoming events", heading: old.heading.replace(/our recent events/i, "Upcoming events"), intro: old.intro?.replace(/\s*These were our most recent[^.]*\./i, "").trim() || undefined, items };
+  return { ...p, sections };
 }
 
 /** The JSON files only, without dashboard edits. */

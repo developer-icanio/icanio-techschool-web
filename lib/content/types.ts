@@ -68,6 +68,12 @@ export type Block =
   | (BlockBase & { type: "batches"; weekday: number; time: string; modes: string[]; items: { title: string; href: string; weekOffset?: number }[] })
   /** Written intern reviews slider (data: Library: Reviews). `ids` picks and orders reviews; empty = all published. */
   | (BlockBase & { type: "reviews"; ids?: string[] })
+  /**
+   * Events with real dates. Only upcoming ones are shown (checked in India
+   * time on every visit); when none are left, `empty` (or a default line) is
+   * shown instead.
+   */
+  | (BlockBase & { type: "events"; items: { date: string; title: string; body: string; time?: string; href?: string }[]; empty?: string })
   /** Team members slider (data: Library: Team). `ids` picks and orders people; empty = everyone published. */
   | (BlockBase & { type: "experts"; ids?: string[] });
 

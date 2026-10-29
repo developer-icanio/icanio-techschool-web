@@ -33,6 +33,7 @@ export const BLOCK_LABEL: Record<Block["type"], string> = {
   form: "Lead form",
   batches: "Upcoming batches",
   reviews: "Written reviews",
+  events: "Events (upcoming only)",
   experts: "Team / experts",
 };
 
@@ -218,6 +219,39 @@ function Body({ b, set, ctx }: { b: Block; set: (b: Block) => void; ctx: EditorC
           />
         </div>
       );
+    case "events": {
+      const today = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata" }).format(new Date());
+      const upcoming = b.items.filter((e) => e.date >= today).length;
+      return (
+        <div className="space-y-3">
+          <p className={`rounded-lg px-3 py-2 text-sm ${upcoming ? "bg-emerald-50 text-emerald-800" : "bg-amber-50 text-amber-900"}`}>
+            {upcoming ? `${upcoming} upcoming event${upcoming > 1 ? "s" : ""} will show. Events disappear on their own after their date.` : "No upcoming events: visitors see \"No upcoming events right now\". Add an event with a future date to show it."}
+          </p>
+          <ListEditor
+            items={b.items}
+            onChange={(items) => set({ ...b, items })}
+            title={(e) => `${e.date || "No date"} · ${e.title}${e.date && e.date < today ? "  (past, hidden)" : ""}`}
+            blank={() => ({ date: "", title: "", body: "" }) as (typeof b.items)[number]}
+            addLabel="Add event"
+            render={(e, s) => (
+              <>
+                <div className="grid gap-3 sm:grid-cols-3">
+                  <label className="block text-sm font-medium text-heading">
+                    Date
+                    <input type="date" value={e.date} onChange={(ev) => s({ ...e, date: ev.target.value })} className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm" />
+                  </label>
+                  <Text label="Time (optional)" value={e.time} onChange={(time) => s({ ...e, time: time || undefined })} placeholder="10:00 am to 12:30 pm" />
+                  <LinkPicker label="Links to (optional)" value={e.href} onChange={(href) => s({ ...e, href: href || undefined })} pages={ctx.pages} />
+                </div>
+                <Text label="Event (college or title)" value={e.title} onChange={(title) => s({ ...e, title })} />
+                <Area label="What happens" value={e.body} onChange={(body) => s({ ...e, body })} rows={2} />
+              </>
+            )}
+          />
+          <Area label="Message when nothing is upcoming (optional)" value={b.empty} onChange={(empty) => set({ ...b, empty: empty || undefined })} rows={2} hint="Shown under 'No upcoming events right now'. Leave empty for the default line." />
+        </div>
+      );
+    }
     case "reviews":
       return <Picker options={ctx.reviews} value={b.ids ?? []} onChange={(ids) => set({ ...b, ids })} note="Tick the reviews to show here, in order. Leave all unticked to show every published review. Add or edit reviews in Library: Reviews." />;
     case "experts":

@@ -9,6 +9,7 @@ import { Section, SectionHead } from "./Section";
 import BatchDate from "./BatchDate";
 import Carousel from "./Carousel";
 import ReadMore from "./ReadMore";
+import UpcomingEvents from "./UpcomingEvents";
 import { isTrackIcon, TrackIcon } from "./TrackIcon";
 
 function Pic({ img, className = "", sizes = "(min-width: 1024px) 50vw, 100vw", priority }: { img: Img; className?: string; sizes?: string; priority?: boolean }) {
@@ -415,6 +416,14 @@ export function BlockView({ b, email = SITE.email }: { b: Block; email?: string 
               </article>
             ))}
           </Carousel>
+        </Section>
+      );
+
+    case "events":
+      return (
+        <Section id={b.id} tone={tone}>
+          {head}
+          <UpcomingEvents items={b.items} empty={b.empty} dark={dark} builtOn={new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata" }).format(new Date())} />
         </Section>
       );
 
