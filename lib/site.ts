@@ -2,11 +2,11 @@
 // from here.
 //
 // Canonical URL, sitemaps, robots, structured data and llms.txt use the
-// live domain, www.icanioschools.com (live since October 2026). Every other
-// host (icaniotechschool.vercel.app, icanioschools.com without www) is
-// redirected there, so search engines see one site. NEXT_PUBLIC_SITE_URL can
+// live domain, www.icaniotechschool.com (since late October 2026; before
+// that www.icanioschools.com). Every other host is redirected there (see
+// next.config.ts), so search engines see one site. NEXT_PUBLIC_SITE_URL can
 // override it (e.g. for a staging copy).
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.icanioschools.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.icaniotechschool.com";
 
 export const SITE = {
   name: "Icanio Tech School",

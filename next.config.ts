@@ -103,9 +103,14 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
-      // One canonical site: the old Vercel address goes to the live domain,
-      // page for page (preview deployments keep their own URLs for review).
-      { source: "/:path*", has: [{ type: "host" as const, value: "icaniotechschool.vercel.app" }], destination: "https://www.icanioschools.com/:path*", permanent: true },
+      // One canonical site: every old address goes to the live domain, page
+      // for page (preview deployments keep their own URLs for review).
+      ...["icaniotechschool.vercel.app", "www.icanioschools.com", "icanioschools.com", "icaniotechschool.com"].map((host) => ({
+        source: "/:path*",
+        has: [{ type: "host" as const, value: host }],
+        destination: "https://www.icaniotechschool.com/:path*",
+        permanent: true,
+      })),
       ...MOVED.map(([source, destination]) => ({ source, destination, permanent: true })),
     ];
   },
