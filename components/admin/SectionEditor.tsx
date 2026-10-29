@@ -171,7 +171,7 @@ function Body({ b, set, ctx }: { b: Block; set: (b: Block) => void; ctx: EditorC
         <ListEditor
           items={b.items}
           onChange={(items) => set({ ...b, items })}
-          title={(c) => c.title}
+          title={(c) => (c.meta ? `${c.title}  ·  badge: "${c.meta}"` : c.title)}
           blank={() => ({ title: "", body: "" }) as (typeof b.items)[number]}
           addLabel="Add card"
           render={(c, s) => (
@@ -180,7 +180,7 @@ function Body({ b, set, ctx }: { b: Block; set: (b: Block) => void; ctx: EditorC
               <Area label="Text" value={c.body} onChange={(body) => s({ ...c, body })} />
               <div className="grid gap-3 sm:grid-cols-2">
                 <LinkPicker label="Links to" value={c.href} onChange={(href) => s({ ...c, href: href || undefined })} pages={ctx.pages} />
-                <Text label="Small label (optional)" value={c.meta} onChange={(meta) => s({ ...c, meta: meta || undefined })} placeholder="e.g. Engineering" />
+                <Text label="Badge on the card (optional)" value={c.meta} onChange={(meta) => s({ ...c, meta: meta || undefined })} placeholder="e.g. Most popular" hint="Small pill at the top of the card. Leave empty for none." />
               </div>
               <Upload label="Icon (optional)" value={c.icon} accept="image/*" preview="icon" onChange={(u) => s({ ...c, icon: u.src })} />
               <ImageWithAlt label="Photo (optional)" value={c.image} onChange={(image) => s({ ...c, image })} />
