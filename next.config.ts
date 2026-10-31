@@ -95,9 +95,11 @@ const nextConfig: NextConfig = {
   },
   // Embedded Postgres for local admin testing; loaded at runtime, never bundled.
   serverExternalPackages: ["@electric-sql/pglite"],
+  // Images are WebP already (build script and dashboard uploads convert them), so
+  // they're served as-is. Vercel image optimisation is off: on the Hobby plan its 5K
+  // monthly transformations ran out and paused the team (Oct 2026).
   images: {
-    formats: ["image/avif", "image/webp"],
-    qualities: [70, 75],
+    unoptimized: true,
     // Dashboard uploads (Cloudflare R2 public URL).
     remotePatterns: [{ protocol: "https", hostname: "*.r2.dev" }, ...(R2_PUBLIC ? [{ protocol: "https" as const, hostname: R2_PUBLIC }] : [])],
   },
