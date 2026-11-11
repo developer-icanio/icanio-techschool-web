@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { NAV } from "@/lib/nav";
+import { CAREERS, NAV } from "@/lib/nav";
 import { SITE } from "@/lib/site";
 import DesktopNav from "./DesktopNav";
 import MobileMenu from "./MobileMenu";
@@ -55,6 +55,11 @@ export default function Header() {
                 </div>
               </li>
             ))}
+            <li>
+              <a href={CAREERS.href} className="flex items-center whitespace-nowrap rounded px-2.5 py-2 text-[15px] font-medium text-heading hover:text-navy xl:px-3">
+                {CAREERS.label}
+              </a>
+            </li>
           </ul>
         </DesktopNav>
 

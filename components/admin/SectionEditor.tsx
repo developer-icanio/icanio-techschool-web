@@ -33,6 +33,7 @@ export const BLOCK_LABEL: Record<Block["type"], string> = {
   form: "Lead form",
   batches: "Upcoming batches",
   reviews: "Written reviews",
+  events: "Events (upcoming only)",
   experts: "Team / experts",
 };
 
@@ -56,6 +57,10 @@ export function ResultNote({ r }: { r: SaveResult | null }) {
 /** Tick and order items from a library (videos or students). */
 function Picker({ options, value, onChange, note }: { options: LibraryOption[]; value: string[]; onChange: (v: string[]) => void; note: string }) {
   const asset = useAsset();
+  // Search only narrows the list on screen; ticks and their order are kept.
+  const [q, setQ] = useState("");
+  const terms = q.toLowerCase().split(/\s+/).filter(Boolean);
+  const shown = terms.length ? options.filter((o) => terms.every((t) => `${o.title} ${o.subtitle}`.toLowerCase().includes(t))) : options;
   const chosen = value.filter((id) => options.some((o) => o.id === id));
   const toggle = (id: string) => onChange(chosen.includes(id) ? chosen.filter((x) => x !== id) : [...chosen, id]);
   const move = (id: string, d: number) => {
@@ -82,8 +87,20 @@ function Picker({ options, value, onChange, note }: { options: LibraryOption[]; 
           </button>
         )}
       </div>
+      <div className="relative mt-2">
+        <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-muted"><circle cx="9" cy="9" r="6" fill="none" stroke="currentColor" strokeWidth="1.8" /><path d="m13.5 13.5 4 4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>
+        <input
+          type="search"
+          value={q}
+          onChange={(e) => setQ(e.target.value)}
+          placeholder={`Search ${options.length} by name, track or college`}
+          aria-label="Search the list"
+          className="w-full rounded-lg border border-slate-300 bg-white py-2 pl-9 pr-3 text-sm text-heading outline-none focus:border-navy focus:ring-2 focus:ring-navy/15"
+        />
+      </div>
+      {terms.length > 0 && <p className="mt-1.5 text-xs text-muted">{shown.length ? `${shown.length} of ${options.length} match "${q}"` : `Nothing matches "${q}"`}</p>}
       <ul className="mt-2 grid gap-2 sm:grid-cols-2">
-        {options.map((o) => {
+        {shown.map((o) => {
           const pos = chosen.indexOf(o.id);
           return (
             <li key={o.id} className={`flex items-center gap-3 rounded-xl border p-2 ${pos >= 0 ? "border-navy bg-soft" : "border-line bg-white"}`}>
@@ -155,7 +172,7 @@ function Body({ b, set, ctx }: { b: Block; set: (b: Block) => void; ctx: EditorC
         <ListEditor
           items={b.items}
           onChange={(items) => set({ ...b, items })}
-          title={(c) => c.title}
+          title={(c) => (c.meta ? `${c.title}  ·  badge: "${c.meta}"` : c.title)}
           blank={() => ({ title: "", body: "" }) as (typeof b.items)[number]}
           addLabel="Add card"
           render={(c, s) => (
@@ -164,7 +181,7 @@ function Body({ b, set, ctx }: { b: Block; set: (b: Block) => void; ctx: EditorC
               <Area label="Text" value={c.body} onChange={(body) => s({ ...c, body })} />
               <div className="grid gap-3 sm:grid-cols-2">
                 <LinkPicker label="Links to" value={c.href} onChange={(href) => s({ ...c, href: href || undefined })} pages={ctx.pages} />
-                <Text label="Small label (optional)" value={c.meta} onChange={(meta) => s({ ...c, meta: meta || undefined })} placeholder="e.g. Engineering" />
+                <Text label="Badge on the card (optional)" value={c.meta} onChange={(meta) => s({ ...c, meta: meta || undefined })} placeholder="e.g. Most popular" hint="Small pill at the top of the card. Leave empty for none." />
               </div>
               <Upload label="Icon (optional)" value={c.icon} accept="image/*" preview="icon" onChange={(u) => s({ ...c, icon: u.src })} />
               <ImageWithAlt label="Photo (optional)" value={c.image} onChange={(image) => s({ ...c, image })} />
@@ -183,7 +200,7 @@ function Body({ b, set, ctx }: { b: Block; set: (b: Block) => void; ctx: EditorC
                 {["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"].map((d, i) => <option key={d} value={i}>{d}</option>)}
               </select>
             </label>
-            <Text label="Timing" value={b.time} onChange={(time) => set({ ...b, time })} placeholder="9am to 6pm" />
+            <Text label="Timing (optional)" value={b.time} onChange={(time) => set({ ...b, time })} placeholder="9am to 6pm" hint="Leave empty to hide the clock line." />
             <Text label="Modes (comma separated)" value={b.modes.join(", ")} onChange={(v) => set({ ...b, modes: v.split(",").map((x) => x.trim()).filter(Boolean) })} placeholder="Offline, Online, Part time" />
           </div>
           <ListEditor
@@ -202,6 +219,39 @@ function Body({ b, set, ctx }: { b: Block; set: (b: Block) => void; ctx: EditorC
           />
         </div>
       );
+    case "events": {
+      const today = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata" }).format(new Date());
+      const upcoming = b.items.filter((e) => e.date >= today).length;
+      return (
+        <div className="space-y-3">
+          <p className={`rounded-lg px-3 py-2 text-sm ${upcoming ? "bg-emerald-50 text-emerald-800" : "bg-amber-50 text-amber-900"}`}>
+            {upcoming ? `${upcoming} upcoming event${upcoming > 1 ? "s" : ""} will show. Events disappear on their own after their date.` : "No upcoming events: visitors see \"No upcoming events right now\". Add an event with a future date to show it."}
+          </p>
+          <ListEditor
+            items={b.items}
+            onChange={(items) => set({ ...b, items })}
+            title={(e) => `${e.date || "No date"} · ${e.title}${e.date && e.date < today ? "  (past, hidden)" : ""}`}
+            blank={() => ({ date: "", title: "", body: "" }) as (typeof b.items)[number]}
+            addLabel="Add event"
+            render={(e, s) => (
+              <>
+                <div className="grid gap-3 sm:grid-cols-3">
+                  <label className="block text-sm font-medium text-heading">
+                    Date
+                    <input type="date" value={e.date} onChange={(ev) => s({ ...e, date: ev.target.value })} className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm" />
+                  </label>
+                  <Text label="Time (optional)" value={e.time} onChange={(time) => s({ ...e, time: time || undefined })} placeholder="10:00 am to 12:30 pm" />
+                  <LinkPicker label="Links to (optional)" value={e.href} onChange={(href) => s({ ...e, href: href || undefined })} pages={ctx.pages} />
+                </div>
+                <Text label="Event (college or title)" value={e.title} onChange={(title) => s({ ...e, title })} />
+                <Area label="What happens" value={e.body} onChange={(body) => s({ ...e, body })} rows={2} />
+              </>
+            )}
+          />
+          <Area label="Message when nothing is upcoming (optional)" value={b.empty} onChange={(empty) => set({ ...b, empty: empty || undefined })} rows={2} hint="Shown under 'No upcoming events right now'. Leave empty for the default line." />
+        </div>
+      );
+    }
     case "reviews":
       return <Picker options={ctx.reviews} value={b.ids ?? []} onChange={(ids) => set({ ...b, ids })} note="Tick the reviews to show here, in order. Leave all unticked to show every published review. Add or edit reviews in Library: Reviews." />;
     case "experts":

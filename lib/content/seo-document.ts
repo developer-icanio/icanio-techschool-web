@@ -230,8 +230,16 @@ function blockMarkdown(b: Block, push: (...xs: (string | undefined | false)[]) =
       if (b.points) list(b.points);
       break;
     case "batches":
-      list(b.items.map((x) => `[${x.title}](${x.href}): every week, ${b.time}, ${b.modes.join(", ")}`));
+      list(b.items.map((x) => `[${x.title}](${x.href}): ${["every week", b.time?.trim(), b.modes.join(", ")].filter(Boolean).join(", ")}`));
       break;
+    case "events": {
+      // Only upcoming events are worth telling search engines and AI about.
+      const today = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata" }).format(new Date());
+      const next = b.items.filter((e) => e.date >= today);
+      if (next.length) list(next.map((e) => `${e.date}${e.time ? `, ${e.time}` : ""}: ${md(e.title)}. ${md(e.body)}`));
+      else push(md(b.empty ?? "No upcoming events right now."));
+      break;
+    }
     case "reviews":
       reviews(b.ids).forEach((r) => {
         push(`> ${md(r.quote)}`, `${r.name}, ${r.track}, ${r.college}`);

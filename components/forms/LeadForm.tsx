@@ -1,18 +1,19 @@
 "use client";
 
 import { usePathname, useSearchParams } from "next/navigation";
-import { Suspense, useState, type FormEvent } from "react";
+import { Suspense, useRef, useState, type FormEvent } from "react";
 import { COLLEGE_INTERESTS, DURATIONS, MODES, TRACKS, YEARS } from "@/lib/lead";
 import { COLLEGE_PROGRAMS, ENGINEERING_TRACKS, NON_ENGINEERING_TRACKS } from "@/lib/nav";
+import { checkForm, MissingDialog, type Problem } from "./MissingFields";
 
-const field = "mt-1.5 w-full rounded border border-slate-300 bg-white px-3.5 py-2.5 text-[15px] text-heading outline-none transition focus:border-navy focus:ring-2 focus:ring-navy/15";
+const field = "mt-1.5 w-full rounded border border-slate-300 bg-white px-3.5 py-2.5 text-[15px] text-heading outline-none transition focus:border-navy focus:ring-2 focus:ring-navy/15 aria-[invalid=true]:border-red-500 aria-[invalid=true]:bg-red-50/40";
 const label = "block text-sm font-medium text-heading";
 
 function Input({ name, text, type = "text", required, autoComplete, ...rest }: { name: string; text: string; type?: string; required?: boolean; autoComplete?: string; inputMode?: "tel" | "email" | "numeric" }) {
   return (
     <label className={label}>
       {text}{required && <span className="text-red-600"> *</span>}
-      <input name={name} type={type} required={required} autoComplete={autoComplete} className={field} {...rest} />
+      <input name={name} type={type} required={required} autoComplete={autoComplete} data-label={text} className={field} {...rest} />
     </label>
   );
 }
@@ -21,7 +22,7 @@ function Select({ name, text, options, required, value }: { name: string; text: 
   return (
     <label className={label}>
       {text}{required && <span className="text-red-600"> *</span>}
-      <select name={name} required={required} defaultValue={value ?? ""} className={field}>
+      <select name={name} required={required} defaultValue={value ?? ""} data-label={text} className={field}>
         <option value="" disabled>Select an option</option>
         {options.map((o) => <option key={o}>{o}</option>)}
       </select>
@@ -42,9 +43,13 @@ function Form({ kind }: { kind: "student" | "college" }) {
   const guess = useGuess(kind);
   const path = usePathname();
   const [state, setState] = useState<{ status: "idle" | "sending" | "done" | "error"; msg?: string }>({ status: "idle" });
+  const [problems, setProblems] = useState<Problem[]>([]);
+  const formRef = useRef<HTMLFormElement>(null);
 
   async function submit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    const found = checkForm(e.currentTarget);
+    if (found.length) return setProblems(found);
     setState({ status: "sending" });
     const data = Object.fromEntries(new FormData(e.currentTarget)) as Record<string, string>;
     try {
@@ -67,7 +72,8 @@ function Form({ kind }: { kind: "student" | "college" }) {
     );
 
   return (
-    <form onSubmit={submit} className="grid gap-4 rounded-2xl bg-white p-6 shadow-sm sm:grid-cols-2 sm:p-8">
+    <form ref={formRef} onSubmit={submit} noValidate className="grid gap-4 rounded-2xl bg-white p-6 shadow-sm sm:grid-cols-2 sm:p-8">
+      <MissingDialog problems={problems} form={formRef} onClose={() => setProblems([])} />
       <h2 className="text-xl font-semibold sm:col-span-2">{kind === "student" ? "Apply for an internship" : "Enquire for your college"}</h2>
       <Input name="name" text="Full name" required autoComplete="name" />
       <Input name="phone" text="Phone" type="tel" required autoComplete="tel" inputMode="tel" />

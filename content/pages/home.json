@@ -3,7 +3,7 @@
   "kind": "home",
   "label": "Home",
   "seo": {
-    "metaTitle": "Tech Internships: 15 Proven Tracks in Tamil Nadu",
+    "metaTitle": "Build Your Industry Tech Career: Tech Internships",
     "metaDescription": "Tech internships in Tamil Nadu by Icanio Technologies: 15 tracks, live client projects, 1:1 mentors and a certificate. 2,000+ students trained. Apply today.",
     "focusKeyword": "tech internships",
     "secondaryKeywords": [
@@ -438,42 +438,48 @@
       "id": "college-programs"
     },
     {
-      "type": "steps",
+      "type": "events",
       "id": "events",
       "tone": "soft",
-      "eyebrow": "Events and learning experiences",
-      "heading": "Our recent events and learning experiences",
-      "intro": "Workshops, hackathons, tech talks and industry events help students learn, build and connect. These were our most recent college visits, with session times.",
+      "eyebrow": "Upcoming events",
+      "heading": "Upcoming events and learning experiences",
+      "intro": "Workshops, hackathons, tech talks and industry events help students learn, build and connect.",
       "items": [
         {
-          "label": "15 Sep",
+          "date": "2026-09-15",
           "title": "SNS College of Technology",
-          "body": "An MoU signing, held in the morning, to build a strong partnership and better opportunities for students. Session: 15 Sep 2026, 10:00 am to 12:30 pm."
+          "body": "An MoU signing, held in the morning, to build a strong partnership and better opportunities for students.",
+          "time": "10:00 am to 12:30 pm"
         },
         {
-          "label": "15 Sep",
+          "date": "2026-09-15",
           "title": "JCT College of Engineering & Technology",
-          "body": "An afternoon MoU signing to start a long-term collaboration with the college. Session: 15 Sep 2026, 2:15 pm to 4:45 pm."
+          "body": "An afternoon MoU signing to start a long-term collaboration with the college.",
+          "time": "2:15 pm to 4:45 pm"
         },
         {
-          "label": "16 Sep",
+          "date": "2026-09-16",
           "title": "Velalar College of Engineering & Technology",
-          "body": "An MoU signing and an industry session that connected students with Icanio experts. Session: 16 Sep 2026, 10:00 am to 12:30 pm."
+          "body": "An MoU signing and an industry session that connected students with Icanio experts.",
+          "time": "10:00 am to 12:30 pm"
         },
         {
-          "label": "16 Sep",
+          "date": "2026-09-16",
           "title": "Sri Shanmugha College of Engineering & Technology",
-          "body": "An MoU signing ceremony, paired with a guest talk on industry skills and mindset. Session: 16 Sep 2026, 2:15 pm to 4:30 pm."
+          "body": "An MoU signing ceremony, paired with a guest talk on industry skills and mindset.",
+          "time": "2:15 pm to 4:30 pm"
         },
         {
-          "label": "17 Sep",
+          "date": "2026-09-17",
           "title": "AVS Engineering College",
-          "body": "An MoU signing and an industry session on skills and career opportunities. Session: 17 Sep 2026, 10:00 am to 12:30 pm."
+          "body": "An MoU signing and an industry session on skills and career opportunities.",
+          "time": "10:00 am to 12:30 pm"
         },
         {
-          "label": "18 Sep",
+          "date": "2026-09-18",
           "title": "Er. Perumal Manimekalai College of Engineering",
-          "body": "A career guidance session to help students explore options and plan their professional future. Session: 18 Sep 2026, 10:00 am to 12:30 pm."
+          "body": "A career guidance session to help students explore options and plan their professional future.",
+          "time": "10:00 am to 12:30 pm"
         }
       ]
     },

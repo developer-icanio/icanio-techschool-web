@@ -194,6 +194,7 @@ const TEMPLATES: Record<Block["type"], () => Block> = {
   form: () => ({ type: "form", heading: "Apply for an internship", form: "student" }),
   batches: () => ({ type: "batches", heading: "Upcoming batches", weekday: 2, time: "9am to 6pm", modes: ["Offline", "Online", "Part time"], items: [] }),
   reviews: () => ({ type: "reviews", heading: "What People Say About Us" }),
+  events: () => ({ type: "events", heading: "Upcoming events", items: [] }),
   experts: () => ({ type: "experts", heading: "Meet the Industry Trainers Behind Your Learning Journey" }),
 };
 

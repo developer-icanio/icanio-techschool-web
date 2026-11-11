@@ -1,8 +1,9 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { useState, type FormEvent } from "react";
+import { useRef, useState, type FormEvent } from "react";
 import { COLLEGE_INTERESTS, TRACKS } from "@/lib/lead";
+import { checkForm, MissingDialog, type Problem } from "./MissingFields";
 
 // Footer lead capture: three fields and one tap. Our team calls back.
 export default function QuickCallback() {
@@ -10,8 +11,13 @@ export default function QuickCallback() {
   const [audience, setAudience] = useState("Student");
   const [state, setState] = useState<{ s: "idle" | "sending" | "done" | "error"; msg?: string }>({ s: "idle" });
 
+  const [problems, setProblems] = useState<Problem[]>([]);
+  const formRef = useRef<HTMLFormElement>(null);
+
   async function submit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    const found = checkForm(e.currentTarget);
+    if (found.length) return setProblems(found);
     setState({ s: "sending" });
     const data = Object.fromEntries(new FormData(e.currentTarget)) as Record<string, string>;
     try {
@@ -31,11 +37,12 @@ export default function QuickCallback() {
       </div>
     );
 
-  const field = "mt-1.5 w-full rounded-lg border border-line bg-white px-3.5 py-3 text-[15px] text-heading outline-none transition focus:border-navy focus:ring-2 focus:ring-cyan/40";
+  const field = "mt-1.5 w-full rounded-lg border border-line bg-white px-3.5 py-3 text-[15px] text-heading outline-none transition focus:border-navy focus:ring-2 focus:ring-cyan/40 aria-[invalid=true]:border-red-500 aria-[invalid=true]:bg-red-50/40";
   const label = "block text-sm font-medium text-heading";
   const options = audience === "College" ? COLLEGE_INTERESTS : TRACKS;
   return (
-    <form onSubmit={submit} className="rounded-2xl bg-white p-6 text-heading shadow-xl shadow-slate-900/20 sm:p-8">
+    <form ref={formRef} onSubmit={submit} noValidate className="rounded-2xl bg-white p-6 text-heading shadow-xl shadow-slate-900/20 sm:p-8">
+      <MissingDialog problems={problems} form={formRef} onClose={() => setProblems([])} />
       <p className="text-lg font-semibold">Request a free callback</p>
       <fieldset className="mt-5">
         <legend className={label}>I am</legend>
@@ -51,11 +58,11 @@ export default function QuickCallback() {
       <div className="mt-4 grid gap-4 sm:grid-cols-2">
         <label className={label}>
           Your name
-          <input name="name" required autoComplete="name" placeholder="Full name" className={field} />
+          <input name="name" required autoComplete="name" placeholder="Full name" data-label="Your name" className={field} />
         </label>
         <label className={label}>
           Phone number
-          <input name="phone" type="tel" required autoComplete="tel" inputMode="tel" placeholder="10-digit mobile number" className={field} />
+          <input name="phone" type="tel" required autoComplete="tel" inputMode="tel" placeholder="10-digit mobile number" data-label="Phone number" className={field} />
         </label>
       </div>
       <label className={`${label} mt-4`}>
