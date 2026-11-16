@@ -2,5 +2,6 @@
   "crons": [
     { "path": "/api/cron/seo-snapshot", "schedule": "30 0 * * *" },
     { "path": "/api/cron/pagespeed", "schedule": "0 1 * * *" }
-  ]
+  ],
+  "git": { "deploymentEnabled": false }
 }
